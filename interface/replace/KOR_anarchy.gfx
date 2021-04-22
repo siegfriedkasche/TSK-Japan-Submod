@@ -1,0 +1,21 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_인터네셔널"
+		texturefile = "gfx/event_pictures/인터네셔널.png"
+	}
+
+	spriteType = {
+		name = "GFX_파리코뮌"
+		texturefile = "gfx/event_pictures/파리코뮌.png"
+	}
+
+	spriteType = {
+		name = "GFX_CNT대읜원회의"
+		texturefile = "gfx/event_pictures/CNT대읜원회의.png"
+	}
+	spriteType = {
+		name = "GFX_파리코뮌cnt"
+		texturefile = "gfx/event_pictures/파리코뮌cnt.png"
+	}
+}

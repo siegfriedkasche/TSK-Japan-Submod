@@ -1,0 +1,422 @@
+shared_focus = {
+	id = KOR_anarchy_commune
+	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	cost = 5
+
+	prerequisite = {
+		focus = KOR_anarchy
+	}
+
+	offset = {
+		x = 41
+		y = 13
+		trigger = {
+			tag = KOR
+		}
+	}
+	completion_reward = {
+		custom_effect_tooltip = KOR_anarchy_goverment_tooltip
+		country_event = {
+			id = KORnan.1
+			}
+		hidden_effect = {
+			set_popularities = {
+					fascism = 10
+					democratic = 10
+					neutrality = 60
+					communism = 20
+				}
+			set_party_name = {
+				ideology = communism
+				long_name = "조선 독립 노농 임시 기구"
+				name = "조선 독립 노농 임시 기구"
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = "조선 독립 노농 임시 기구"
+				name = "조선 독립 노농 임시 기구"
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = "조선 독립 노농 임시 기구"
+				name = "조선 독립 노농 임시 기구"
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = "조선 독립 노농 임시 기구"
+				name = "조선 독립 노농 임시 기구"
+			}
+			set_politics = {
+			    ruling_party = neutrality
+				last_election = "1934.12.19"
+				election_frequency = 60
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "조선 독립 노농 임시 기구"
+				desc = ""
+				picture = "gfx/leaders/KOR/anarchy.png"
+				expire = "1965.1.1"
+				ideology = rexism
+				traits = {
+					#
+				}
+			}
+			set_cosmetic_tag = KOR_anarchy_goverment
+			create_country_leader = {
+				name = "조선 독립 노농 임시 기구"
+				desc = ""
+				picture = "gfx/leaders/KOR/anarchy.png"
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = {
+					#
+				}
+			}
+			create_country_leader = {
+				name = "조선 독립 노농 임시 기구"
+				desc = ""
+				picture = "gfx/leaders/KOR/anarchy.png"
+				expire = "1965.1.1"
+				ideology = stalinism
+				traits = {
+					#
+				}
+			}		
+			create_country_leader = {
+				name = "조선 독립 노농 임시 기구"
+				desc = ""
+				picture = "anarchy.png"
+				expire = "1965.1.1"
+				ideology = conservatism
+				traits = {
+					#
+				}
+			}
+			create_field_marshal = {
+				name = "best aggressive council"
+				picture = "anarchy.png"
+				skill = 6
+				attack_skill = 5
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "aggressive council II"
+				picture = "anarchy.png"
+				skill = 5
+				attack_skill = 5
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "aggressive council IV"
+				picture = "anarchy.png"
+				skill = 5
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 6
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "aggressive council V"
+				picture = "anarchy.png"
+				skill = 5
+				attack_skill = 1
+				defense_skill = 2
+				planning_skill = 5
+				logistics_skill = 2
+			}
+			create_field_marshal = {
+				name = "best aggressive council VI"
+				picture = "anarchy.png"
+				skill = 6
+				attack_skill = 5
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "aggressive council I"
+				picture = "anarchy.png"
+				skill = 5
+				attack_skill = 5
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "aggressive council II"
+				picture = "anarchy.png"
+				skill = 5
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 6
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "aggressive council III"
+				picture = "anarchy.png"
+				skill = 5
+				attack_skill = 1
+				defense_skill = 2
+				planning_skill = 5
+				logistics_skill = 2
+			}
+		}
+	}
+	x = 0
+	y = 0
+}
+shared_focus = {
+	id = KOR_Federal_commune
+	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	cost = 3
+	prerequisite = {
+		focus = KOR_anarchy_commune
+	}
+	relative_position_id = KOR_anarchy_commune
+
+	completion_reward = {
+		add_stability = 0.13
+	}
+	x = -3
+	y = 1
+}
+
+shared_focus = {
+	id = KOR_Anarchist_Refuge
+	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	cost = 3
+	prerequisite = {
+		focus = KOR_anarchy_commune
+	}
+	relative_position_id = KOR_anarchy_commune
+
+	completion_reward = {
+		add_stability = 0.05
+		add_manpower = 10000
+	}
+	x = 3
+	y = 1
+}
+
+shared_focus = {
+	id = KOR_Legacy_the_spanish_Commune
+	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	cost = 3
+	prerequisite = {
+		focus = KOR_anarchy_commune
+	}
+
+	mutually_exclusive = {
+		focus = KOR_Legacy_the_French_Commune
+	}
+
+	relative_position_id = KOR_anarchy_commune
+
+	completion_reward = {
+		custom_effect_tooltip = KOR_POR_SPA_anarchist
+		hidden_effect = {
+			SPR = {	
+				set_political_party = {
+				    ideology = communism
+ 				    popularity = 25
+				}
+				set_party_name = {
+					ideology = communism
+					long_name = "Confederación Nacional del Trabajo-Federación Anarquista Ibérica"
+					name = "CNT-FAI"
+				}
+				create_country_leader = {
+					name = "commune"
+					desc = ""
+					picture = "anarchy.png"
+					expire = "1965.1.1"
+					ideology = stalinism
+					traits = {
+
+					}
+				}
+			}
+			POR = {
+				set_political_party = {
+				    ideology = communism
+ 				    popularity = 25
+				}
+				set_party_name = {
+					ideology = communism
+					long_name = "Confederación Nacional del Trabajo-Federación Anarquista Ibérica"
+					name = "CNT-FAI"
+				}
+				create_country_leader = {
+					name = "commune"
+					desc = ""
+					picture = "anarchy.png"
+					expire = "1965.1.1"
+					ideology = stalinism
+					traits = {
+					
+					}
+				}
+			}
+		}
+	}
+	x = 1
+	y = 1
+}
+
+shared_focus = {
+	id = KOR_Legacy_the_French_Commune
+	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	cost = 3
+	prerequisite = {
+		focus = KOR_anarchy_commune
+	}
+
+	mutually_exclusive = {
+		focus = KOR_Legacy_the_spanish_Commune
+	}
+
+	relative_position_id = KOR_anarchy_commune
+
+	completion_reward = {
+		custom_effect_tooltip = KOR_FRA_anarchist
+		hidden_effect = {
+			FRA = {	
+			set_political_party = {
+			    ideology = communism
+ 			    popularity = 35
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = "프랑스 코뮌"
+				name = "프랑스 코뮌"
+			}
+			create_country_leader = {
+				name = "French commune"
+				desc = ""
+				picture = "anarchy.png"
+				expire = "1965.1.1"
+				ideology = stalinism
+				traits = {
+					
+				}
+			}
+		}
+	}
+	}
+	x = -1
+	y = 1
+}
+
+shared_focus = {
+	id = KOR_International_organization
+	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	cost = 5
+	prerequisite = {
+		focus = KOR_Legacy_the_French_Commune
+		focus = KOR_Legacy_the_spanish_Commune
+	}
+	relative_position_id = KOR_Legacy_the_French_Commune
+
+	completion_reward = {
+		country_event = {
+			id = KORnan.5
+		}
+		hidden_effect = {
+			create_faction = "제5차 인터네셔널"
+		}
+	}
+	x = 1
+	y = 1
+}
+
+shared_focus = {
+	id = KOR_Straight_commune
+	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	cost = 5
+	prerequisite = {
+		focus = KOR_Federal_commune
+	}
+	prerequisite = {
+		focus = KOR_International_organization
+	}
+	relative_position_id = KOR_International_organization
+
+	completion_reward = {
+		country_event = {
+			id = KORnan.2
+		}
+		add_political_power = 30
+		add_stability = 0.1
+	}
+	x = -2
+	y = 1
+}
+shared_focus = {
+	id = KOR_Labor_union_increase
+	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	cost = 5
+	prerequisite = {
+		focus = KOR_Anarchist_Refuge
+	}
+	prerequisite = {
+		focus = KOR_International_organization
+	}
+	relative_position_id = KOR_International_organization
+
+	completion_reward = {
+		country_event = {
+			id = KORnan.3
+		}
+		custom_effect_tooltip = KOR_law_fascism_grow_CNT
+		hidden_effect = {
+			add_popularity = {
+ 		    	ideology = fascism
+  		    	popularity = -0.05
+			}
+			add_popularity = {
+ 			    ideology = communism
+  			    popularity = +0.06
+			}
+			add_popularity = {
+ 			    ideology = neutrality
+  			    popularity = +0.06
+			}
+			add_popularity = {
+ 			    ideology = democratic
+  			    popularity = +0.02
+			}
+		}
+	}
+	x = 2
+	y = 1
+}
+
+shared_focus = {
+	id = KOR_Delegate_meeting
+	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	cost = 5
+	prerequisite = {
+		focus = KOR_Straight_commune
+	}
+	prerequisite = {
+		focus = KOR_Labor_union_increase
+	}
+	relative_position_id = KOR_International_organization
+
+	completion_reward = {
+		custom_effect_tooltip = KOR_Delegate_meeting_CNT
+		hidden_effect = {
+			load_focus_tree = KOR_CNT_FAI_commune
+			country_event = {
+				id = KORnan.4
+			}
+		}
+	}
+	x = 0
+	y = 2
+}

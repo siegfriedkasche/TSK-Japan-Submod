@@ -1,0 +1,410 @@
+focus_tree = {
+	id = KOR_CNT_FAI_commune
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOR
+		}
+	}
+	default = no
+	focus = {
+		id = KOR_CNT_END_Delegate_meeting
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 2.00
+		x = 49
+		y = 1
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_CNT_direction_of_the_commune
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_END_Delegate_meeting
+		}
+		x = 0
+		y = 1
+		relative_position_id = KOR_CNT_END_Delegate_meeting
+			completion_reward = {
+					country_event = {
+							id = KORnan.6
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_CNT_Anaco_Syndicalism
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_direction_of_the_commune
+		}
+		mutually_exclusive = {
+			focus = KOR_CNT_anarcho-communism
+		}
+		x = 5
+		y = 1
+		relative_position_id = KOR_CNT_direction_of_the_commune
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_CNT_anarcho-communism
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_direction_of_the_commune
+		}
+		mutually_exclusive = {
+			focus = KOR_CNT_Anaco_Syndicalism
+		}
+		x = 44
+		y = 3
+
+	}
+	focus = {
+		id = KOR_CNT_union_of_commune
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_anarcho-communism
+		}
+		x = 44
+		y = 4
+
+	}
+	focus = {
+		id = KOR_CNT_anarchist_network
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_union_of_commune
+		}
+		x = 42
+		y = 5
+
+	}
+	focus = {
+		id = KOR_Direct_democracy_through_the_commune
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_union_of_commune
+		}
+		x = 44
+		y = 5
+
+	}
+	focus = {
+		id = KOR_CNT_Distribution_of_communes
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Direct_democracy_through_the_commune
+		}
+		x = 43
+		y = 6
+
+	}
+	focus = {
+		id = KOR_CNT_Equal_commune
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_union_of_commune
+		}
+		x = 46
+		y = 5
+
+	}
+	focus = {
+		id = KOR_CNT_politic_free
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Equal_commune
+		}
+		prerequisite = {
+			focus = KOR_Direct_democracy_through_the_commune
+		}
+		x = 45
+		y = 6
+
+	}
+	focus = {
+		id = KOR_CNT_New_direction
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Distribution_of_communes
+		}
+		prerequisite = {
+			focus = KOR_CNT_politic_free
+		}
+		x = 44
+		y = 7
+
+	}
+	focus = {
+		id = KOR_CNT_Temporary_Committee
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_New_direction
+		}
+		mutually_exclusive = {
+			focus = KOR_Code_of_Anarchism
+		}
+		x = 46
+		y = 8
+
+	}
+	focus = {
+		id = KOR_CNT_Distribution_focus
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Temporary_Committee
+		}
+		x = 46
+		y = 9
+
+	}
+	focus = {
+		id = KOR_Pursuit_of_the_theory_of_freedom_association
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_politic_free
+		}
+		x = 47
+		y = 7
+
+	}
+	focus = {
+		id = KOR_CNT_Withdrawal_of_private_property
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_anarcho-communism
+			focus = KOR_CNT_Anaco_Syndicalism
+		}
+		x = 48
+		y = 4
+
+	}
+	focus = {
+		id = KOR_Partial_abolition_of_private_property
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Withdrawal_of_private_property
+		}
+		x = 48
+		y = 5
+
+	}
+	focus = {
+		id = KOR_State_rejection
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Partial_abolition_of_private_property
+			focus = KOR_Partial_abolition_of_private_property
+		}
+		x = 50
+		y = 6
+
+	}
+	focus = {
+		id = KOR_CNT_The_abolition_of_wage_labor
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_anarcho-communism
+			focus = KOR_CNT_Anaco_Syndicalism
+		}
+		x = 50
+		y = 4
+
+	}
+	focus = {
+		id = KOR_CNT_Expansion_of_labor_union
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Anaco_Syndicalism
+		}
+		x = 54
+		y = 4
+
+	}
+	focus = {
+		id = ROK_CNT_As_much_as_you_need
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_The_abolition_of_wage_labor
+			focus = KOR_CNT_Expansion_of_labor_union
+		}
+		x = 50
+		y = 5
+
+	}
+	focus = {
+		id = KOR_CNT_Respect_for_women's_rights
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Partial_abolition_of_private_property
+			focus = ROK_CNT_As_much_as_you_need
+		}
+		x = 48
+		y = 6
+
+	}
+	focus = {
+		id = ROK_CNT_Social_freedom
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Respect_for_women's_rights
+		}
+		prerequisite = {
+			focus = KOR_State_rejection
+		}
+		x = 49
+		y = 7
+
+	}
+	focus = {
+		id = KOR_Single_union
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Expansion_of_labor_union
+		}
+		x = 54
+		y = 5
+
+	}
+	focus = {
+		id = KOR_Industry_specific_repair_unions
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Single_union
+		}
+		prerequisite = {
+			focus = ROK_CNT_As_much_as_you_need
+		}
+		x = 52
+		y = 6
+
+	}
+	focus = {
+		id = KOR_CNT_There_is_no_political_equality_without_social_equality.
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = ROK_CNT_Social_freedom
+			focus = KOR_Pursuit_of_the_theory_of_freedom_association
+		}
+		x = 49
+		y = 8
+
+	}
+	focus = {
+		id = KOR_Code_of_Anarchism
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_New_direction
+		}
+		mutually_exclusive = {
+			focus = KOR_CNT_Temporary_Committee
+		}
+		x = 42
+		y = 8
+
+	}
+	focus = {
+		id = KOR_CNT_social_Imperialism
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Code_of_Anarchism
+		}
+		x = 42
+		y = 9
+
+	}
+	focus = {
+		id = KOR_A_quasi_political_program
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Code_of_Anarchism
+		}
+		x = 40
+		y = 9
+
+	}
+	focus = {
+		id = KOR_CNT_cohesion
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_A_quasi_political_program
+		}
+		prerequisite = {
+			focus = KOR_CNT_social_Imperialism
+		}
+		x = 41
+		y = 10
+
+	}
+	focus = {
+		id = KOR_CNT_SOCIAL_Imperialism_Propaganda
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_social_Imperialism
+		}
+		x = 43
+		y = 10
+
+	}
+	focus = {
+		id = KOR_Solidarity_of_workers
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Code_of_Anarchism
+			focus = KOR_CNT_Temporary_Committee
+		}
+		x = 44
+		y = 9
+
+	}
+	focus = {
+		id = KOR_CNT_Kronstadt_rebellion_revenge
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_SOCIAL_Imperialism_Propaganda
+		}
+		prerequisite = {
+			focus = KOR_CNT_cohesion
+		}
+		x = 42
+		y = 11
+
+	}
+}

@@ -1,0 +1,102 @@
+add_namespace = KORnan
+
+country_event = {
+	id = KORnan.1 #코뮌의 부활
+	title = KORnan.1.t
+	desc = KORnan.1.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.1.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = KORnan.5 #제5인터네셔널
+	title = KORnan.5.t
+	desc = KORnan.5.d
+	picture = GFX_인터네셔널
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.5.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = KORnan.2 #CNT계승의식
+	title = KORnan.2.t
+	desc = KORnan.2.d
+	picture = GFX_CNT대읜원회의
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.2.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = KORnan.3 #노동조합(생디칼)
+	title = KORnan.3.t
+	desc = KORnan.3.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.3.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = KORnan.4 #1차 대의원 대회
+	title = KORnan.4.t
+	desc = KORnan.4.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.4.a
+		ai_chance = {
+		    factor = 100
+		}
+	complete_national_focus = KOR_CNT_END_Delegate_meeting
+	}
+}
+
+country_event = {
+	id = KORnan.6 #코뮌의 방향성
+	title = KORnan.6.t
+	desc = KORnan.6.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.6.a
+		ai_chance = {
+		    factor = 50
+		}
+		complete_national_focus = KOR_CNT_Anaco_Syndicalism
+	}
+	option = {
+		name = KORnan.6.b
+		ai_chance = {
+		    factor = 50
+		}
+		complete_national_focus = KOR_CNT_anarcho-communism
+	}
+}
