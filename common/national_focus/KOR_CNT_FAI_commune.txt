@@ -290,9 +290,12 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_CNT_Expansion_of_labor_union
 		}
+		
 		x = 54
 		y = 5
-
+   completion_reward = {
+    add_ideas = one_big_union
+   }
 	}
 	focus = {
 		id = KOR_Industry_specific_repair_unions
