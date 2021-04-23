@@ -1,0 +1,23 @@
+ideas = {
+
+	country = {
+        
+        anarchist_social = { 
+
+            allowed = {
+                original_tag = kor
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = anarchist_social_ideas
+
+            removal_cost = -1
+            
+            modifier = {
+                consumer_goods_factor = 0.02
+            }
+        }
+    }

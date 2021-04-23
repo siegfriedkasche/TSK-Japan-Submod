@@ -25,13 +25,11 @@ ideas = {
 
 			picture = Sharing_means_of_production
 			
-			#allowed_to_remove = {
-			#	OR = {
-			#		has_war_support > 0.5
-			#		has_war = yes
-			#		has_completed_focus = USA_limited_intervention
-			#	}
-			#}
+			allowed_to_remove = {
+				OR = {
+					has_completed_focus = USA_limited_intervention
+				}
+			}
 			
 			cancel_if_invalid = no
 		}
