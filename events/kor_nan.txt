@@ -13,6 +13,7 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 		}
+		set_cosmetic_tag = CNT_KOR
 	}
 }
 country_event = {
@@ -100,3 +101,34 @@ country_event = {
 		complete_national_focus = KOR_CNT_anarcho-communism
 	}
 }
+
+country_event = {
+	id = KORnan.7 #크론슈타트의 복수
+	title = KORnan.7.t
+	desc = KORnan.7.d
+	picture = GFX_크론슈타트의_복수cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.7.a
+		ai_chance = {
+		    factor = 50
+		}
+	}
+}
+country_event = {
+	id = KORnan.8 #강령
+	title = KORnan.8.t
+	desc = KORnan.8.d
+	picture = GFX_우크리흑군
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.8.a
+		ai_chance = {
+		    factor = 50
+		}
+	}
+} 

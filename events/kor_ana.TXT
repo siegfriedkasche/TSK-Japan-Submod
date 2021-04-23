@@ -1,5 +1,7 @@
+add_namespace = KOR_MB
+
 country_event = {
-    id = KOR_MB.7 #
+    id = KOR_MB.7
     title = KOR_MB.7.t
     desc = KOR_MB.7.d
     picture = GFX_report_event_chamberlain_announce
@@ -72,5 +74,3 @@ country_event = {
         add_stability = 0.05
     }
 }
-industrial_capacity_factory = -0.15
-                industrial_capacity_dockyard = -0.15
