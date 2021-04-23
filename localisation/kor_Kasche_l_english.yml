@@ -91,7 +91,7 @@
  KOR_POR_SPA_anarchist:0 "§w스페인과 포르투갈§!에 §RCNT-FAI§!가 조직될것입니다."
  KOR_FRA_anarchist:0 "§w프랑스§!에 §R코뮌§!이 조직될것입니다."
  KOR_Delegate_meeting_CNT:0 "§R1차 대의원 대회§!가 열릴것입니다."
- #코스믹태그나라이름
+#코스믹태그나라이름
  CNT_KOR_democratic:0 "조선 독립 노농 임시 기구"
  CNT_KOR_neutrality:0 "조선 독립 노농 임시 기구"
  CNT_KOR_fascism:0 "조선 독립 노농 임시 기구"
@@ -108,9 +108,10 @@
  CNT_KOR_DEF:0 "조선 독립 노농 임시 기구"
  CNT_KOR_ADJ:0 "조선 독립 노농 임시 기구"
  
- #국민정신, 경제,징병
+ #국민정신
  Sharing_means_of_production:0 "공적 생산수단"
  anarchist_mobilization_laws:0 "자발적 투쟁"
- anarchist_social:0 "아나키즘 사회"
-
  KOR_MB.7.c:0 "고착화되가는 군"
+ KOR_MB.7.c:0 "고착화되가는 군"
+ one_big_union:0 "거대 단일 노동조합"
+ one_big_union:0 "거대 단일 노동조합"
