@@ -7,6 +7,7 @@ focus_tree = {
 			tag = KOR
 		}
 	}
+	shared_focus = KOR_anarchy_commune
 	default = no
 	focus = {
 		id = KOR_MB_industry
@@ -3392,5 +3393,5 @@ focus_tree = {
 			custom_effect_tooltip = sub_mod_kasche
 		}
 	}
-	shared_focus = KOR_CNT_FAI_commune
+	
 }
