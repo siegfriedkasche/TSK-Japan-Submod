@@ -15,8 +15,8 @@ focus_tree = {
 		x = 49
 		y = 1
 			completion_reward = {
-
-}
+				custom_effect_tooltip = ended_CNT_END_Delegate_meeting
+			}
 
 	}
 	focus = {
@@ -321,7 +321,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = KOR_Code_of_Anarchism
+		id = KOR_Code_of_Anarchism #강령
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 10.00
 		prerequisite = {
@@ -332,7 +332,53 @@ focus_tree = {
 		}
 		x = 42
 		y = 8
-
+		completion_reward = {
+			country_event = {
+				id =  KORnan.8
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = "군사혁명위원회"
+				name = "군사혁명위원회"
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = "군사혁명위원회"
+				name = "군사혁명위원회"
+			}
+			create_country_leader = {
+				name = "군사혁명위원회"
+				desc = ""
+				picture = "gfx/leaders/ANA/Military_Revolution.png"
+				expire = "1965.1.1"
+				ideology = falangism
+				traits = {
+					#
+				}
+			}
+			create_country_leader = {
+				name = "군사혁명위원회"
+				desc = ""
+				picture = "gfx/leaders/ANA/Military_Revolution.png"
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = {
+					#
+				}
+			}
+			set_political_party = {
+			    ideology = neutrality
+ 			    popularity = 40
+			}
+			add_popularity = {
+			    ideology = fascism
+			    popularity = 0.1
+			}
+			add_popularity = {
+			    ideology = communism
+			    popularity = 0.2
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_social_Imperialism
@@ -403,7 +449,53 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_CNT_cohesion
 		}
+		completion_reward = {
+			country_event ={
+				id =  KORnan.7
+			}
+			declare_war_on = {
+ 	  			target = SOV
+    	    	type = annex_everything
+			}
+		}
 		x = 42
+		y = 11
+
+	}
+	focus = {
+		id = KOR_CNT_Corporatist_policy
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Single_union
+		}
+		x = 54
+		y = 6
+
+	}
+	focus = {
+		id = KOR_cnt_people_for_union
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Corporatist_policy
+		}
+		prerequisite = {
+			focus = KOR_Industry_specific_repair_unions
+		}
+		x = 53
+		y = 7
+
+	}
+	focus = {
+		id = KOR_CNT_lreaned_black_army
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_cohesion
+		}
+		
+		x = 40
 		y = 11
 
 	}

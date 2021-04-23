@@ -1,0 +1,12 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_Sharing_means_of_production"
+		texturefile = "gfx/interface/ideas/Sharing_means_of_production.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_anarchist_mobilization_laws"
+		texturefile = "gfx/interface/ideas/anarchist_mobilization_laws.png"
+	}
+}

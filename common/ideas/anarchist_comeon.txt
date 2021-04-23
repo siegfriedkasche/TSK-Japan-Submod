@@ -1,0 +1,34 @@
+ideas = {
+
+	mobilization_laws = { 
+		law = yes
+		use_list_view = yes
+		
+		anarchist_mobilization_laws = {
+						
+			allowed = {
+				always = no
+				NOT = {
+				    OR = {
+					    original_tag = KOR
+					}	
+				}
+			}
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			picture = anarchist_mobilization_laws
+
+			modifier = {
+				conscription = 0.03
+				industrial_capacity_factory = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+	}

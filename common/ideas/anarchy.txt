@@ -1,0 +1,39 @@
+ideas = {
+
+	economy = { 
+		law = yes
+		use_list_view = yes
+		
+		Sharing_means_of_production = {
+			
+			
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		
+			modifier = {
+				consumer_goods_factor = 0.30
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = -0.1
+				production_speed_dockyard_factor = -0.1
+				conversion_cost_civ_to_mil_factor = 0.6
+				conversion_cost_mil_to_civ_factor = 0.6
+				industrial_capacity_factory = 0.10
+				fuel_gain_factor = 0.1
+			}
+
+			picture = Sharing_means_of_production
+			
+			#allowed_to_remove = {
+			#	OR = {
+			#		has_war_support > 0.5
+			#		has_war = yes
+			#		has_completed_focus = USA_limited_intervention
+			#	}
+			#}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

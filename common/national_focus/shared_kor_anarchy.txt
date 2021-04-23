@@ -18,7 +18,9 @@ shared_focus = {
 		custom_effect_tooltip = KOR_anarchy_goverment_tooltip
 		country_event = {
 			id = KORnan.1
-			}
+		}
+		add_ideas = Sharing_means_of_production
+		add_ideas = anarchist_mobilization_laws
 		hidden_effect = {
 			set_popularities = {
 					fascism = 10
@@ -62,7 +64,7 @@ shared_focus = {
 					#
 				}
 			}
-			set_cosmetic_tag = KOR_anarchy_goverment
+			set_cosmetic_tag = CNT_KOR
 			create_country_leader = {
 				name = "조선 독립 노농 임시 기구"
 				desc = ""
@@ -78,7 +80,7 @@ shared_focus = {
 				desc = ""
 				picture = "gfx/leaders/KOR/anarchy.png"
 				expire = "1965.1.1"
-				ideology = stalinism
+				ideology = anarchist_communism
 				traits = {
 					#
 				}
@@ -235,7 +237,7 @@ shared_focus = {
 					desc = ""
 					picture = "anarchy.png"
 					expire = "1965.1.1"
-					ideology = stalinism
+					ideology = anarchist_communism
 					traits = {
 
 					}
@@ -256,7 +258,7 @@ shared_focus = {
 					desc = ""
 					picture = "anarchy.png"
 					expire = "1965.1.1"
-					ideology = stalinism
+					ideology = anarchist_communism
 					traits = {
 					
 					}
@@ -300,7 +302,7 @@ shared_focus = {
 				desc = ""
 				picture = "anarchy.png"
 				expire = "1965.1.1"
-				ideology = stalinism
+				ideology = anarchist_communism
 				traits = {
 					
 				}
