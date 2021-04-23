@@ -29,6 +29,6 @@ ideas = {
 				industrial_capacity_factory = 0.05
 			}
 			
-			cancel_if_invalid = no
+			cancel_if_invalid = has_ideas = anarchist_social
 		}
 	}

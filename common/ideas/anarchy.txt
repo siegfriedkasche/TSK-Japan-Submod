@@ -31,7 +31,6 @@ ideas = {
 				}
 			}
 			
-			cancel_if_invalid = no
+			cancel_if_invalid = has_ideas = anarchist_social
 		}
 	}
-}

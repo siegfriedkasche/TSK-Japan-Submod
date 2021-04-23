@@ -15,6 +15,7 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
+		add_ideas = anarchist_social
 		custom_effect_tooltip = KOR_anarchy_goverment_tooltip
 		country_event = {
 			id = KORnan.1
