@@ -3226,7 +3226,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_moon_jae_in_president
-		icon = goal_unknown
+		icon = moonjaein
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_law_minju
@@ -3239,6 +3239,30 @@ focus_tree = {
 		}
 		x = 20
 		y = 13
+		completion_reward = {
+			create_country_leader = {
+				name = "Moon Jae-In"
+				picture = "gfx/leaders/KOR/Moon_Jae-in.dds"
+				expire = "1965.1.1"
+				ideology = socialism
+				traits = {
+					moon_trait
+					
+				}
+			}
+			hidden_effect = {
+			create_country_leader = {
+				name = "Moon Jae-In"
+				picture = "gfx/leaders/KOR/Moon_Jae-in.dds"
+				expire = "1965.1.1"
+				ideology = marxism
+				traits = {
+					moon_trait
+					
+				}
+			}
+			}
+		}
 
 	}
 	focus = {
@@ -3313,7 +3337,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_its_last_politic
-		icon = goal_unknown
+		icon = continuous_increase_nu
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_up_people
@@ -3368,5 +3392,5 @@ focus_tree = {
 			custom_effect_tooltip = sub_mod_kasche
 		}
 	}
-	shared_focus = KOR_anarchy_commune
+	shared_focus = KOR_CNT_FAI_commune
 }
