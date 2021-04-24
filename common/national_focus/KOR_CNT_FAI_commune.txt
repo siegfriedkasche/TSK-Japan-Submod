@@ -560,7 +560,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = KOR_CNT_lreaned_black_army
+		id = KOR_CNT_Support_of_the_revolution
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 5.00
 		prerequisite = {
