@@ -38,4 +38,39 @@ ideas = {
 			
 			cancel_if_invalid = no
 		}
+
+
+		Sharing_means_of_production = {
+			
+			
+			allowed = {
+				always = no
+				NOT = {
+					has_ideas = anarchist_social
+				}
+			}
+			removal_cost = -1
+		
+			modifier = {
+				consumer_goods_factor = 0.6
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = -0.2
+				production_speed_dockyard_factor = -0.2
+				conversion_cost_civ_to_mil_factor = 0.6
+				conversion_cost_mil_to_civ_factor = 0.6
+				industrial_capacity_factory = -0.20
+			}
+
+			picture = Sharing_means_of_production
+			
+			#allowed_to_remove = {
+			#	OR = {
+			#		has_war_support > 0.5
+			#		has_war = yes
+			#		has_completed_focus = USA_limited_intervention
+			#	}
+			#}
+			
+			cancel_if_invalid = no
+		}
 	}

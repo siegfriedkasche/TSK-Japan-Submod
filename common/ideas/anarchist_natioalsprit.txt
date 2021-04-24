@@ -35,7 +35,7 @@ ideas = {
                 always = no
             }
 
-            picture = anarchist_social
+            picture = one_big_union
 
             removal_cost = -1
             
@@ -84,7 +84,7 @@ ideas = {
                 always = no
             }
 
-            picture = Anarchist_guerrilla
+            picture = federal_cohesion
 
             removal_cost = -1
             
@@ -92,6 +92,78 @@ ideas = {
                 industrial_capacity_factory = 0.1
                 stability_factor = 0.05
                 conscription = 0.02
+            }
+        }
+    }
+    country = {
+        
+        Federal_commune = { 
+
+            allowed = {
+                original_tag = kor
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = federal_commune
+
+            removal_cost = -1
+            
+            modifier = {
+                industrial_capacity_factory = 0.05
+                stability_factor = 0.07
+                political_power_cost = -0.05
+            }
+        }
+    }
+    country = {
+        
+        anarchist_network = { 
+
+            allowed = {
+                original_tag = kor
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = anarchist_network
+
+            removal_cost = -1
+            
+            modifier = {
+                research_sharing_per_country_bonus = 0.15
+                research_speed_factor = 0.1
+            }
+        }
+    }
+    country = {
+        
+        General_strike = { 
+
+            allowed = {
+                original_tag = kor
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = Anarchist_guerrilla
+
+            removal_cost = -1
+            
+            modifier = {
+                production_factory_efficiency_gain_factor = -0.2
+                production_factory_start_efficiency_factor = -0.3
+                production_lack_of_resource_penalty_factor = 0.25
+                production_factory_efficiency_gain_factor = -0.3
+                production_factory_max_efficiency_factor = -0.20
+                industrial_capacity_factory = -0.3
+                consumer_goods_factor = 0.3
             }
         }
     }

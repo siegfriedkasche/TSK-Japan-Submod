@@ -15,8 +15,8 @@ focus_tree = {
 		x = 49
 		y = 1
 			completion_reward = {
-				custom_effect_tooltip = ended_CNT_END_Delegate_meeting
-			}
+					custom_effect_tooltip = ended_CNT_END_Delegate_meeting
+				}
 
 	}
 	focus = {
@@ -49,51 +49,52 @@ focus_tree = {
 		x = 5
 		y = 1
 		relative_position_id = KOR_CNT_direction_of_the_commune
-		completion_reward = {
-			hidden_effect = {
-				set_party_name = {
-					ideology = communism
-					long_name = "조선산업노동자연맹"
-					name = "조선산업노동자연맹"
+			completion_reward = {
+					hidden_effect = {
+							set_party_name = {
+									ideology = communism
+									long_name = "동아산업노동자연맹"
+									name = "동아산업노동자연맹"
+								}
+							set_cosmetic_tag = KOR_IWW
+							set_party_name = {
+									ideology = democratic
+									long_name = "동아산업노동자연맹"
+									name = "동아산업노동자연맹"
+								}
+							add_popularity = {
+									ideology = communism
+									popularity = 0.40
+								}
+							create_country_leader = {
+									name = "동아산업노동자연맹"
+									desc = ""
+									picture = "gfx/leaders/KOR/anarchy.png"
+									expire = "1965.1.1"
+									ideology = socialism
+									traits = {
+
+}
+								}
+						}
+					set_politics = {
+							ruling_party = communism
+							last_election = "1934.12.19"
+							election_frequency = 60
+							elections_allowed = no
+						}
+					create_country_leader = {
+							name = "동아산업노동자연맹"
+							desc = ""
+							picture = "gfx/leaders/KOR/anarchy.png"
+							expire = "1965.1.1"
+							ideology = anarcho_syndicalism
+							traits = {
+
+}
+						}
 				}
-				set_cosmetic_tag = KOR_IWW
-				set_party_name = {
-					ideology = democratic
-					long_name = "조선산업노동자연맹"
-					name = "조선산업노동자연맹"
-				}
-				add_popularity = {
-    				ideology = communism
-    				popularity = 0.40
-				}
-				create_country_leader = {
-					name = "조선산업노동자연맹"
-					desc = ""
-					picture = "gfx/leaders/KOR/anarchy.png"
-					expire = "1965.1.1"
-					ideology = socialism  
-					traits = {
-						#
-					}
-				}
-			}
-			set_politics = {
-			    ruling_party = communism
-				last_election = "1934.12.19"
-				election_frequency = 60
-				elections_allowed = no
-			}
-			create_country_leader = {
-				name = "조선산업노동자연맹"
-				desc = ""
-				picture = "gfx/leaders/KOR/anarchy.png"
-				expire = "1965.1.1"
-				ideology = anarcho_syndicalism 
-				traits = {
-					#
-				}
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_anarcho-communism
@@ -107,14 +108,15 @@ focus_tree = {
 		}
 		x = 44
 		y = 3
-		completion_reward = {
-			set_politics = {
-			    ruling_party = communism
-				last_election = "1934.12.19"
-				election_frequency = 60
-				elections_allowed = no
+			completion_reward = {
+					set_politics = {
+							ruling_party = communism
+							last_election = "1934.12.19"
+							election_frequency = 60
+							elections_allowed = no
+						}
 			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_union_of_commune
@@ -125,7 +127,12 @@ focus_tree = {
 		}
 		x = 44
 		y = 4
-
+		completion_reward = {
+			add_ideas = Federal_commune
+			country_event = {
+				id = KORnan.10
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_anarchist_network
@@ -136,7 +143,9 @@ focus_tree = {
 		}
 		x = 42
 		y = 5
-
+		completion_reward = {
+			add_ideas = anarchist_network
+		}
 	}
 	focus = {
 		id = KOR_Direct_democracy_through_the_commune
@@ -338,15 +347,15 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_CNT_Expansion_of_labor_union
 		}
-		
 		x = 54
 		y = 5
-        completion_reward = {
-            add_ideas = one_big_union
-		    country_event = {
-			    id = KORnan.9
-		    }
-        }
+			completion_reward = {
+					add_ideas = one_big_union
+					country_event = {
+							id = KORnan.9
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_Industry_specific_repair_unions
@@ -363,6 +372,178 @@ focus_tree = {
 
 	}
 	focus = {
+		id = KOR_CNT_Corporatist_policy
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Single_union
+		}
+		x = 54
+		y = 6
+
+	}
+	focus = {
+		id = KOR_cnt_people_for_union
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Corporatist_policy
+		}
+		prerequisite = {
+			focus = KOR_Industry_specific_repair_unions
+		}
+		x = 53
+		y = 7
+
+	}
+	focus = {
+		id = KOR_CNT_Cooperation_with_IWW
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Corporatist_policy
+		}
+		x = 55
+		y = 7
+
+	}
+	focus = {
+		id = KOR_CNT_East_Asian_workers_liberation
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Cooperation_with_IWW
+		}
+		prerequisite = {
+			focus = KOR_cnt_people_for_union
+		}
+		mutually_exclusive = {
+			focus = KOR_CNT_Solidarity_with_the_IWW
+		}
+		x = 51
+		y = 8
+
+	}
+	focus = {
+		id = KOR_CNT_Direct_action_in_japan
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_East_Asian_workers_liberation
+		}
+		x = 50
+		y = 9
+
+	}
+	focus = {
+		id = KOR_CNT_Direct_action_in_China
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_East_Asian_workers_liberation
+		}
+		x = 52
+		y = 9
+
+	}
+	focus = {
+		id = KOR_CNT_Revolution_in_Japan
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Direct_action_in_China
+		}
+		prerequisite = {
+			focus = KOR_CNT_Direct_action_in_japan
+		}
+		x = 1
+		y = 1
+		relative_position_id = KOR_CNT_Direct_action_in_China
+
+	}
+	focus = {
+		id = KOR_CNT_Solidarity_with_the_IWW
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_cnt_people_for_union
+		}
+		mutually_exclusive = {
+			focus = KOR_CNT_East_Asian_workers_liberation
+		}
+		x = 57
+		y = 8
+
+	}
+	focus = {
+		id = KOR_CNT_General_strike_in_the_United_States
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Solidarity_with_the_IWW
+		}
+		x = 55
+		y = 9
+		completion_reward = {
+			country_event = {
+				id = KORnan.11
+			}
+			USA = {
+				add_ideas = General_strike
+			}
+		}
+	}
+	focus = {
+		id = KOR_CNT_Call_for_US_labor_unions_to_join_IWW
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Solidarity_with_the_IWW
+		}
+		x = 57
+		y = 9
+
+	}
+	focus = {
+		id = KOR_CNT_Armed_Uprising_Support
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Call_for_US_labor_unions_to_join_IWW
+		}
+		prerequisite = {
+			focus = KOR_CNT_General_strike_in_the_United_States
+		}
+		x = 56
+		y = 10
+
+	}
+	focus = {
+		id = KOR_CNT_Chicago_Uprising
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Solidarity_with_the_IWW
+		}
+		x = 59
+		y = 9
+
+	}
+	focus = {
+		id = KOR_IWW_International_Invitation
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Call_for_US_labor_unions_to_join_IWW
+		}
+		prerequisite = {
+			focus = KOR_CNT_Chicago_Uprising
+		}
+		x = 58
+		y = 10
+
+	}
+	focus = {
 		id = KOR_CNT_There_is_no_political_equality_without_social_equality.
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 10.00
@@ -375,7 +556,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = KOR_Code_of_Anarchism #강령
+		id = KOR_Code_of_Anarchism
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 10.00
 		prerequisite = {
@@ -386,53 +567,54 @@ focus_tree = {
 		}
 		x = 42
 		y = 8
-		completion_reward = {
-			country_event = {
-				id =  KORnan.8
-			}
-			set_party_name = {
-				ideology = fascism
-				long_name = "군사혁명위원회"
-				name = "군사혁명위원회"
-			}
-			set_party_name = {
-				ideology = neutrality
-				long_name = "민중혁명위원회"
-				name = "민중혁명위원회"
-			}
-			create_country_leader = {
-				name = "군사혁명위원회"
-				desc = ""
-				picture = "gfx/leaders/ANA/Military_Revolution.png"
-				expire = "1965.1.1"
-				ideology = falangism
-				traits = {
-					#
+			completion_reward = {
+					country_event = {
+							id = KORnan.8
+						}
+					set_party_name = {
+							ideology = fascism
+							long_name = "군사혁명위원회"
+							name = "군사혁명위원회"
+						}
+					set_party_name = {
+							ideology = neutrality
+							long_name = "민중혁명위원회"
+							name = "민중혁명위원회"
+						}
+					create_country_leader = {
+							name = "군사혁명위원회"
+							desc = ""
+							picture = "gfx/leaders/ANA/Military_Revolution.png"
+							expire = "1965.1.1"
+							ideology = falangism
+							traits = {
+
+}
+						}
+					create_country_leader = {
+							name = "민중혁명위원회"
+							desc = ""
+							picture = "gfx/leaders/ANA/Military_Revolution.png"
+							expire = "1965.1.1"
+							ideology = despotism
+							traits = {
+
+}
+						}
+					set_political_party = {
+							ideology = neutrality
+							popularity = 40
+						}
+					add_popularity = {
+							ideology = fascism
+							popularity = 0.1
+						}
+					add_popularity = {
+							ideology = communism
+							popularity = 0.2
+						}
 				}
-			}
-			create_country_leader = {
-				name = "민중혁명위원회"
-				desc = ""
-				picture = "gfx/leaders/ANA/Military_Revolution.png"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					#
-				}
-			}
-			set_political_party = {
-			    ideology = neutrality
- 			    popularity = 40
-			}
-			add_popularity = {
-			    ideology = fascism
-			    popularity = 0.1
-			}
-			add_popularity = {
-			    ideology = communism
-			    popularity = 0.2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_social_Imperialism
@@ -443,11 +625,12 @@ focus_tree = {
 		}
 		x = 42
 		y = 9
-		completion_reward = {
-			SOV = {
-				add_ideas = Anarchist_guerrilla
-			}
-		}
+			completion_reward = {
+					SOV = {
+							add_ideas = Anarchist_guerrilla
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_A_quasi_political_program
@@ -472,9 +655,10 @@ focus_tree = {
 		}
 		x = 41
 		y = 10
-		completion_reward = {
-			add_ideas = United_commune
-		}
+			completion_reward = {
+					add_ideas = United_commune
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_SOCIAL_Imperialism_Propaganda
@@ -509,42 +693,17 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_CNT_cohesion
 		}
-		completion_reward = {
-			country_event ={
-				id =  KORnan.7
-			}
-			declare_war_on = {
- 	  			target = SOV
-    	    	type = annex_everything
-			}
-		}
 		x = 42
 		y = 11
-
-	}
-	focus = {
-		id = KOR_CNT_Corporatist_policy
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
-		prerequisite = {
-			focus = KOR_Single_union
-		}
-		x = 54
-		y = 6
-
-	}
-	focus = {
-		id = KOR_cnt_people_for_union
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
-		prerequisite = {
-			focus = KOR_CNT_Corporatist_policy
-		}
-		prerequisite = {
-			focus = KOR_Industry_specific_repair_unions
-		}
-		x = 53
-		y = 7
+			completion_reward = {
+					country_event = {
+							id = KORnan.7
+						}
+					declare_war_on = {
+							target = SOV
+							type = annex_everything
+						}
+				}
 
 	}
 	focus = {
@@ -554,7 +713,6 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_CNT_cohesion
 		}
-		
 		x = 40
 		y = 11
 
@@ -566,8 +724,35 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_CNT_cohesion
 		}
-		
 		x = 44
+		y = 11
+
+	}
+	focus = {
+		id = KOR_CNT_Revolution_in_china
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Direct_action_in_China
+		}
+		prerequisite = {
+			focus = KOR_CNT_Direct_action_in_japan
+		}
+		x = 49
+		y = 10
+
+	}
+	focus = {
+		id = KOR_CNT_IWW_Liberation_day
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Armed_Uprising_Support
+		}
+		prerequisite = {
+			focus = KOR_IWW_International_Invitation
+		}
+		x = 57
 		y = 11
 
 	}

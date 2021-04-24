@@ -31,7 +31,7 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/IWW노조.png"
 	}
 	spriteType = {
-		name = "GFX_거대단일노조이벤트
+		name = "GFX_거대단일노조이벤트"
 		texturefile = "gfx/event_pictures/거대단일노조이벤트.png"
 	}
 	

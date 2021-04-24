@@ -169,3 +169,154 @@ country_event = {
 		}
 	}
 } 
+country_event = {
+	id = KORnan.10 #연방제 코뮌
+	title = KORnan.10.t
+	desc = KORnan.10.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.10.a
+		ai_chance = {
+		    factor = 50
+		}
+	}
+} 
+country_event = {
+	id = KORnan.11 #총파업----------------------------------------------------------
+	title = KORnan.11.t
+	desc = KORnan.11.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.11.a
+		ai_chance = {
+		    factor = 50
+		}
+		custom_effect_tooltip = KOR_CNT_STRIKE
+		hidden_effect = {
+		IWW = {
+			transfer_state = 396
+			transfer_state = 395
+			transfer_state = 393
+			transfer_state = 394
+		}
+		usa = {
+			add_popularity = {
+    			ideology = communism
+    			popularity = 0.2
+			}
+		}
+		country_event ={
+			id = KORnan.12
+		}
+		}
+	}
+} 
+country_event = { #뉴잉글랜드 동참
+	id = KORnan.12 #
+	title = KORnan.12.t
+	desc = KORnan.12.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.12.a
+		ai_chance = {
+		    factor = 50
+		}
+		custom_effect_tooltip = KOR_CNT_STRIKE_1
+		hidden_effect = {
+		IWW = {
+			transfer_state = 358
+			transfer_state = 357
+			transfer_state = 359
+			transfer_state = 360
+			
+			add_state_core = 360
+			add_state_core = 359
+			add_state_core = 357
+			add_state_core = 358
+		}
+		usa = {
+			add_popularity = {
+    			ideology = communism
+    			popularity = 0.1
+			}
+		}
+		country_event = {
+			id = KORnan.13
+		}
+		}
+	}
+} 
+country_event = { #북부이스트코스트 동참
+	id = KORnan.13 #
+	title = KORnan.13.t
+	desc = KORnan.13.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.13.a
+		ai_chance = {
+		    factor = 50
+		}
+		custom_effect_tooltip = KOR_CNT_STRIKE_2
+		hidden_effect = {
+		IWW = {
+			transfer_state = 261
+			transfer_state = 369
+
+			add_state_core = 369
+			add_state_core = 261
+		}
+		usa = {
+			add_popularity = {
+    			ideology = communism
+    			popularity = 0.1
+			}
+		}
+		country_event = {
+			id = KORnan.14 
+		}
+		}
+	}
+} 
+country_event = { #미네소타와 아이오와주 동참
+	id = KORnan.14 
+	title = KORnan.14.t
+	desc = KORnan.14.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.14.a
+		custom_effect_tooltip = KOR_CNT_STRIKE_3
+		ai_chance = {
+		    factor = 50
+		}
+		hidden_effect = {
+		IWW = {
+			transfer_state = 392
+			transfer_state = 391
+
+			add_state_core = 391
+			add_state_core = 392
+		}
+		usa = {
+			add_popularity = {
+    			ideology = communism
+    			popularity = 0.5
+			}
+		}
+		}
+	}
+} 

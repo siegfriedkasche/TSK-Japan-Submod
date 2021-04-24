@@ -9,6 +9,7 @@ spriteTypes = {
 		name = "GFX_idea_anarchist_mobilization_laws"
 		texturefile = "gfx/interface/ideas/anarchist_mobilization_laws.png"
 	}
+
 	spriteType = {
 		name = "GFX_idea_anarchist_social"
 		texturefile = "gfx/interface/ideas/anarchist_social.png"
@@ -18,7 +19,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/one_big_union.png"
 	}
 	spriteType = {
-		name = "GFX_idea_anarchist_guerrilla“
+		name = "GFX_idea_anarchist_guerrilla"
 		texturefile = "gfx/interface/ideas/anarchist_guerrilla.png"
+	}
+	spriteType = {
+		name = "GFX_idea_federal_commune"
+		texturefile = "gfx/interface/ideas/federal_commune.png"
+	}
+	spriteType = {
+		name = "GFX_idea_anarchist_network"
+		texturefile = "gfx/interface/ideas/anarchist_network.png"
 	}
 }
