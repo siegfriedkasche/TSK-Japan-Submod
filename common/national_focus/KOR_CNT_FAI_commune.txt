@@ -567,7 +567,7 @@ focus_tree = {
 			focus = KOR_CNT_cohesion
 		}
 		
-		x = 42
+		x = 44
 		y = 11
 
 	}
