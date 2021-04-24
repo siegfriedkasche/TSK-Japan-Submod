@@ -9,9 +9,7 @@ ideas = {
 			allowed = {
 				always = no
 				NOT = {
-				    OR = {
-					    original_tag = KOR
-					}	
+					has_ideas = anarchist_social
 				}
 			}
 			cost = 150
@@ -29,6 +27,6 @@ ideas = {
 				industrial_capacity_factory = 0.05
 			}
 			
-			cancel_if_invalid = has_ideas = anarchist_social
+			cancel_if_invalid =  no
 		}
 	}

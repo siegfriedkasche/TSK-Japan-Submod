@@ -9,4 +9,13 @@ spriteTypes = {
 		name = "GFX_idea_anarchist_mobilization_laws"
 		texturefile = "gfx/interface/ideas/anarchist_mobilization_laws.png"
 	}
+	spriteType = {
+		name = "GFX_idea_anarchist_social"
+		texturefile = "gfx/interface/ideas/anarchist_social.png"
+	}
+	spriteType = {
+		name = "GFX_idea_one_big_union"
+		texturefile = "gfx/interface/ideas/one_big_union.png"
+	}
+	
 }

@@ -1,6 +1,3 @@
-one_big_union = {
-line_change_production_efficiency_factor = 0.05
-industrial_capacity_factory = 0.05
-}
+
 revolutionary_industrial_union = {
 }

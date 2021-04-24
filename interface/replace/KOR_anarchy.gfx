@@ -18,4 +18,21 @@ spriteTypes = {
 		name = "GFX_파리코뮌cnt"
 		texturefile = "gfx/event_pictures/파리코뮌cnt.png"
 	}
+	spriteType = {
+		name = "GFX_크론슈타트의_복수cnt"
+		texturefile = "gfx/event_pictures/크론슈타트의_복수cnt.png"
+	}
+	spriteType = {
+		name = "GFX_우크리흑군"
+		texturefile = "gfx/event_pictures/우크리흑군.png"
+	}
+	spriteType = {
+		name = "GFX_IWW노조"
+		texturefile = "gfx/event_pictures/IWW노조.png"
+	}
+	spriteType = {
+		name = "GFX_거대단일노조이벤트
+		texturefile = "gfx/event_pictures/거대단일노조이벤트.png"
+	}
+	
 }

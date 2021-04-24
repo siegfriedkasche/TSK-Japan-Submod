@@ -132,3 +132,18 @@ country_event = {
 		}
 	}
 } 
+country_event = {
+	id = KORnan.9 #거대단일노조
+	title = KORnan.9.t
+	desc = KORnan.9.d
+	picture = GFX_IWW노조
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.9.a
+		ai_chance = {
+		    factor = 50
+		}
+	}
+} 

@@ -9,6 +9,9 @@ ideas = {
 			
 			allowed = {
 				always = no
+				NOT = {
+					has_ideas = anarchist_social
+				}
 			}
 			removal_cost = -1
 		
@@ -33,6 +36,6 @@ ideas = {
 			#	}
 			#}
 			
-			cancel_if_invalid = has_ideas = anarchist_social
+			cancel_if_invalid = no
 		}
 	}

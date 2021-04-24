@@ -12,12 +12,35 @@ ideas = {
                 always = no
             }
 
-            picture = anarchist_social_ideas
+            picture = anarchist_social
 
             removal_cost = -1
             
             modifier = {
-                consumer_goods_factor = 0.02
+                consumer_goods_factor = -0.02
+            }
+        }
+    }
+	
+	country = {
+        
+        one_big_union = { 
+
+            allowed = {
+                original_tag = kor
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = anarchist_social
+
+            removal_cost = -1
+            
+            modifier = {
+                line_change_production_efficiency_factor = 0.05
+                industrial_capacity_factory = 0.05
             }
         }
     }

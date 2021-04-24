@@ -293,9 +293,12 @@ focus_tree = {
 		
 		x = 54
 		y = 5
-   completion_reward = {
-    add_ideas = one_big_union
-   }
+        completion_reward = {
+            add_ideas = one_big_union
+		    country_event = {
+			    id = KORnan.9
+		    }
+        }
 	}
 	focus = {
 		id = KOR_Industry_specific_repair_unions
@@ -499,6 +502,18 @@ focus_tree = {
 		}
 		
 		x = 40
+		y = 11
+
+	}
+	focus = {
+		id = KOR_CNT_lreaned_black_army
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_cohesion
+		}
+		
+		x = 42
 		y = 11
 
 	}
