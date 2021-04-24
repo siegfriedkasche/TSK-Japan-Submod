@@ -44,3 +44,53 @@ ideas = {
             }
         }
     }
+
+    country = {
+        
+        Anarchist_guerrilla = { 
+
+            allowed = {
+                original_tag = kor
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = Anarchist_guerrilla
+
+            removal_cost = -1
+            
+            modifier = {
+                line_change_production_efficiency_factor = -0.15
+                industrial_capacity_factory = -0.1
+                stability_factor = -0.05
+                resistance_growth_on_our_occupied_states = 0.15
+                resistance_damage_to_garrison_on_our_occupied_states = 0.15
+            }
+        }
+    }
+
+    country = {
+        
+        United_commune = { 
+
+            allowed = {
+                original_tag = kor
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = Anarchist_guerrilla
+
+            removal_cost = -1
+            
+            modifier = {
+                industrial_capacity_factory = 0.1
+                stability_factor = 0.05
+                conscription = 0.02
+            }
+        }
+    }

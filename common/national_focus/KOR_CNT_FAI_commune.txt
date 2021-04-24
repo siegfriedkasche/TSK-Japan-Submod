@@ -49,10 +49,46 @@ focus_tree = {
 		x = 5
 		y = 1
 		relative_position_id = KOR_CNT_direction_of_the_commune
-			completion_reward = {
-
-}
-
+		completion_reward = {
+			hidden_effect = {
+				set_party_name = {
+					ideology = communism
+					long_name = "조선산업노동자연맹"
+					name = "조선산업노동자연맹"
+				}
+				set_party_name = {
+					ideology = democratic
+					long_name = "조선산업노동자연맹"
+					name = "조선산업노동자연맹"
+				}
+				create_country_leader = {
+					name = "조선산업노동자연맹"
+					desc = ""
+					picture = "gfx/leaders/KOR/anarchy.png"
+					expire = "1965.1.1"
+					ideology = socialism  
+					traits = {
+						#
+					}
+				}
+			}
+			set_politics = {
+			    ruling_party = communism
+				last_election = "1934.12.19"
+				election_frequency = 60
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "조선산업노동자연맹"
+				desc = ""
+				picture = "gfx/leaders/KOR/anarchy.png"
+				expire = "1965.1.1"
+				ideology = anarcho_syndicalism 
+				traits = {
+					#
+				}
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_anarcho-communism
@@ -66,7 +102,14 @@ focus_tree = {
 		}
 		x = 44
 		y = 3
-
+		completion_reward = {
+			set_politics = {
+			    ruling_party = communism
+				last_election = "1934.12.19"
+				election_frequency = 60
+				elections_allowed = no
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_union_of_commune
@@ -349,8 +392,8 @@ focus_tree = {
 			}
 			set_party_name = {
 				ideology = neutrality
-				long_name = "군사혁명위원회"
-				name = "군사혁명위원회"
+				long_name = "민중혁명위원회"
+				name = "민중혁명위원회"
 			}
 			create_country_leader = {
 				name = "군사혁명위원회"
@@ -363,7 +406,7 @@ focus_tree = {
 				}
 			}
 			create_country_leader = {
-				name = "군사혁명위원회"
+				name = "민중혁명위원회"
 				desc = ""
 				picture = "gfx/leaders/ANA/Military_Revolution.png"
 				expire = "1965.1.1"
@@ -395,7 +438,11 @@ focus_tree = {
 		}
 		x = 42
 		y = 9
-
+		completion_reward = {
+			SOV = {
+				add_ideas = Anarchist_guerrilla
+			}
+		}
 	}
 	focus = {
 		id = KOR_A_quasi_political_program
@@ -420,7 +467,9 @@ focus_tree = {
 		}
 		x = 41
 		y = 10
-
+		completion_reward = {
+			add_ideas = United_commune
+		}
 	}
 	focus = {
 		id = KOR_CNT_SOCIAL_Imperialism_Propaganda
