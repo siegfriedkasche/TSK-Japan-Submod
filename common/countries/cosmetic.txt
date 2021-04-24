@@ -3,7 +3,7 @@ CNT_KOR = {
 	color = rgb { 255  64  81 }
 	color_ui = rgb { 255  64  81 }
 }
-KOR_CNT_Anarhco_Syndicalism_cosmetic_tag = {
+KOR_IWW= {
 	color = rgb { 176  0  0 }
 	color_ui = rgb { 176  0  0 }
 }

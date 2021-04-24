@@ -56,7 +56,7 @@ focus_tree = {
 					long_name = "조선산업노동자연맹"
 					name = "조선산업노동자연맹"
 				}
-				set_cosmetic_tag = KOR_CNT_Anarhco_Syndicalism_cosmetic_tag
+				set_cosmetic_tag = KOR_IWW
 				set_party_name = {
 					ideology = democratic
 					long_name = "조선산업노동자연맹"

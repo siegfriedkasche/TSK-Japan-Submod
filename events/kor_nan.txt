@@ -31,6 +31,10 @@ country_event = {
 		    factor = 100
 		}
 		complete_national_focus = KOR_anarchy
+		annex_country = {
+    		target = KPA
+    		transfer_troops = yes
+		}
 	}
 }
 
