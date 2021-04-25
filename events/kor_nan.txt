@@ -200,10 +200,22 @@ country_event = {
 		custom_effect_tooltip = KOR_CNT_STRIKE
 		hidden_effect = {
 		IWW = {
-			transfer_state = 396
-			transfer_state = 395
-			transfer_state = 393
-			transfer_state = 394
+			add_state_core = 396
+			add_state_core = 395
+			add_state_core = 393
+			add_state_core = 394
+			396 = {
+				set_demilitarized_zone = yes
+			}
+			395	= {
+				set_demilitarized_zone = yes
+			}
+			393 = {
+				set_demilitarized_zone = yes
+			}
+			394	= {
+				set_demilitarized_zone = yes
+			}
 		}
 		usa = {
 			add_popularity = {
@@ -233,10 +245,18 @@ country_event = { #뉴잉글랜드 동참
 		custom_effect_tooltip = KOR_CNT_STRIKE_1
 		hidden_effect = {
 		IWW = {
-			transfer_state = 358
-			transfer_state = 357
-			transfer_state = 359
-			transfer_state = 360
+			360 = {
+				set_demilitarized_zone = yes
+			}
+			359	= {
+				set_demilitarized_zone = yes
+			}
+			357 = {
+				set_demilitarized_zone = yes
+			}
+			358	= {
+				set_demilitarized_zone = yes
+			}
 			
 			add_state_core = 360
 			add_state_core = 359
@@ -271,9 +291,12 @@ country_event = { #북부이스트코스트 동참
 		custom_effect_tooltip = KOR_CNT_STRIKE_2
 		hidden_effect = {
 		IWW = {
-			transfer_state = 261
-			transfer_state = 369
-
+			369 = {
+				set_demilitarized_zone = yes
+			}
+			261	= {
+				set_demilitarized_zone = yes
+			}
 			add_state_core = 369
 			add_state_core = 261
 		}
@@ -305,11 +328,18 @@ country_event = { #미네소타와 아이오와주 동참
 		}
 		hidden_effect = {
 		IWW = {
-			transfer_state = 392
-			transfer_state = 391
+			392 = {
+				set_demilitarized_zone = yes
+			}
+			391	= {
+				set_demilitarized_zone = yes
+			}
 
 			add_state_core = 391
 			add_state_core = 392
+			country_event = {
+				id = KORnan.16
+			}
 		}
 		usa = {
 			add_popularity = {
@@ -317,6 +347,95 @@ country_event = { #미네소타와 아이오와주 동참
     			popularity = 0.5
 			}
 		}
+		}
+	}
+} 
+
+country_event = { #혁명시작
+	id = KORnan.16
+	title = KORnan.16.t
+	desc = KORnan.16.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.16.a
+		custom_effect_tooltip = KOR_CNT_chicago_STRIKE
+		ai_chance = {
+		    factor = 50
+		}
+		IWW = {
+			transfer_state	= 392
+			transfer_state	= 391
+			transfer_state	= 261
+			transfer_state	= 369
+			transfer_state	= 394
+			transfer_state	= 393
+			transfer_state	= 395
+			transfer_state	= 396
+			transfer_state	= 358
+			transfer_state	= 357
+			transfer_state	= 359
+			transfer_state	= 360
+		load_oob = "IWW_1936"
+		USA = {
+			load_oob = "FOR_USA"
+		}
+		}
+		392 = {
+				set_demilitarized_zone = no
+		}
+		391 = {
+				set_demilitarized_zone = no
+		}
+		261 = {
+				set_demilitarized_zone = no
+		}
+		369 = {
+				set_demilitarized_zone = no
+		}
+		394 = {
+				set_demilitarized_zone = no
+		}
+		393 = {
+				set_demilitarized_zone = no
+		}
+		395 = {
+				set_demilitarized_zone = no
+		}
+		396 = {
+				set_demilitarized_zone = no
+		}
+		358 = {
+				set_demilitarized_zone = no
+		}
+		357 = {
+				set_demilitarized_zone = no
+		}
+		359 = {
+				set_demilitarized_zone = no
+		}
+		360 = {
+				set_demilitarized_zone = no
+		}
+		
+	}
+} 
+
+country_event = { #시카고 반란
+	id = KORnan.15
+	title = KORnan.15.t
+	desc = KORnan.15.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.15.a
+		custom_effect_tooltip = KOR_CNT_chicago_STRIKE
+		ai_chance = {
+		    factor = 50
 		}
 	}
 } 

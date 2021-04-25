@@ -115,11 +115,17 @@
  KORnan.12.d:0 "스트라이크"
  KORnan.12.a:0 "자유를 위하여"
  KORnan.13.t:0 "북부이스트코스트 동참"
- KORnan.13.d:0 ""
+ KORnan.13.d:0 "ㅇ"
  KORnan.13.a:0 "자유를 위한 연대"
  KORnan.14.t:0 "미네소타주와 아이오와주 동참"
- KORnan.14.d:0 ""
+ KORnan.14.d:0 "ㅇ"
  KORnan.14.a:0 "혁명은 시작됐다!"
+ KORnan.15.t:0 "§R시카고 반란§!"
+ KORnan.15.d:0 "ㅇ"
+ KORnan.15.a:0 "미국에서의 자본가들의 미래는 어두울것이다."
+ KORnan.16.t:0 "미국혁명"
+ KORnan.16.d:0 "각"
+ KORnan.16.a:0 "노동자해방!"
 
  #코스믹태그
  KOR_law_fascism_grow_CNT:0 "§R코뮌§!§H에서의§! §b극우세력§!§H의 영향력이 약화되고§! §R한국노동자연맹§!과§R한국산업노동자연맹§!§H의 영향력이 확대될것입니다.§!"
@@ -132,6 +138,7 @@
  KOR_CNT_STRIKE_1:0 "뉴잉글랜드에서 §R노동조합§!이 §R파업§!에 동참합니다."
  KOR_CNT_STRIKE_2:0 "이스트코스트 북부에서 §R노동조합§!이 §R파업§!에 동참합니다."
  KOR_CNT_STRIKE_3:0 "미네소타주와 아이오와주의 §R노동조합§!이 파업에 동참합니다."
+ KOR_CNT_chicago_STRIKE:0 "§R시카고 반란§!의 열풍은 전 미국을 강타할 것입니다."
  #코스믹태그나라이름
  CNT_KOR_democratic:0 "조선 독립 노농 임시 기구"
  CNT_KOR_neutrality:0 "조선 독립 노농 임시 기구"
@@ -182,6 +189,10 @@
  IWW_ADJ:0 "세계산업노동자연맹"
  
  #국민정신
+ General_strike:0 "총파업"
+ IWW_unions:0 "노동조합 단합"
+ International_International_Brigade:0 "인터내셔널 국제여단"
+ anarchist_network:0 "아나키스트 네트워크"
  Sharing_means_of_production:0 "공적 생산수단"
  anarchist_mobilization_laws:0 "자발적 투쟁"
  KOR_MB.7.c:0 "고착화되가는 군"
@@ -190,5 +201,4 @@
  Anarchist_guerrilla:0 "아나키스트 게릴라"
  United_commune:0 "강령으로 단결한 코뮌"
  Federal commune:0 "연방제 코뮌"
- anarchist_network:0 "아나키스트 네트워크"
- General_strike:0 "총파업"
+ 

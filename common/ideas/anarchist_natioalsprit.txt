@@ -167,3 +167,49 @@ ideas = {
             }
         }
     }
+    country = {
+        
+        IWW_unions = { 
+
+            allowed = {
+                original_tag = IWW
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = 
+
+            removal_cost = -1
+            
+            modifier = {
+                production_factory_efficiency_gain_factor = 0.1
+                production_factory_start_efficiency_factor = 0.1
+                consumer_goods_factor = -0.02
+                weekly_manpower = 1500
+            }
+        }
+    }
+    country = {
+        
+        International_International_Brigade = { 
+
+            allowed = {
+                original_tag = kor
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = 
+
+            removal_cost = -1
+            
+            modifier = {
+                send_volunteer_size = 24
+                send_volunteers_tension = -1
+            }
+        }
+    }
