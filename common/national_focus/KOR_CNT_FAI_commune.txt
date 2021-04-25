@@ -529,7 +529,14 @@ focus_tree = {
 		}
 		x = 56
 		y = 10
-
+		completion_reward = {
+			activate_decision = iww_support_decisions
+			send_equipment = {
+   				equipment = infantry_equipment
+    			amount = 10000
+    			target = IWW
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_Chicago_Uprising
@@ -558,7 +565,13 @@ focus_tree = {
 		}
 		x = 58
 		y = 10
-
+		completion_reward = {
+			IWW = {
+				country_event = {
+					id = kornan.17
+				}
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_There_is_no_political_equality_without_social_equality.

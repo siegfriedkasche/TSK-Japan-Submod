@@ -364,6 +364,10 @@ country_event = { #혁명시작
 		    factor = 50
 		}
 		IWW = {
+			declare_war_on = {
+				target = USA
+				type = annex_everything
+			}
 			transfer_state	= 392
 			transfer_state	= 391
 			transfer_state	= 261
@@ -378,6 +382,10 @@ country_event = { #혁명시작
 			transfer_state	= 360
 		load_oob = "IWW_1936"
 		USA = {
+			declare_war_on = {
+				target = IWW
+				type = annex_everything
+			}
 			load_oob = "FOR_USA"
 		}
 		}
@@ -437,6 +445,50 @@ country_event = { #시카고 반란
 		custom_effect_tooltip = KOR_CNT_chicago_STRIKE
 		ai_chance = {
 		    factor = 50
+		}
+	}
+} 
+country_event = { #인터내셔널초대
+	id = KORnan.17
+	title = KORnan.17.t
+	desc = KORnan.17.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.17.a
+		ai_chance = {
+		    factor = 0
+		}
+		KOR = {
+			add_to_faction = IWW
+		}
+	}
+	option = {
+		name = KORnan.17.c
+		ai_chance = {
+		    factor = 100
+		}
+		KOR = {
+			country_event = {
+				id = KORnan.18
+			}
+		}
+	}
+} 
+country_event = { #인터내셔널거절
+	id = KORnan.18
+	title = KORnan.18.t
+	desc = KORnan.18.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.18.a
+		ai_chance = {
+		    factor = 100
 		}
 	}
 } 
