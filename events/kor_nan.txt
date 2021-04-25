@@ -337,9 +337,7 @@ country_event = { #미네소타와 아이오와주 동참
 
 			add_state_core = 391
 			add_state_core = 392
-			country_event = {
-				id = KORnan.16
-			}
+			
 		}
 		usa = {
 			add_popularity = {
@@ -418,6 +416,9 @@ country_event = { #혁명시작
 		}
 		360 = {
 				set_demilitarized_zone = no
+		}
+		hidden_effect = {
+			set_country_flag = big_event_assassination_Jae_pil
 		}
 		
 	}
