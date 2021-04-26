@@ -125,6 +125,45 @@ country_event = {
 }
 
 country_event = {
+	id = KORnan.19 #아나키스트 게릴라
+	title = KORnan.19.t
+	desc = KORnan.19.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.19.a
+		ai_chance = {
+		    factor = 50
+		}
+		hidden_effect = {
+		227 = {
+				set_demilitarized_zone = yes
+		}
+		200 = {
+				set_demilitarized_zone = yes
+		}
+		226 = {
+				set_demilitarized_zone = yes
+		}
+		228 = {
+				set_demilitarized_zone = yes
+		}
+	    196 = {
+				set_demilitarized_zone = yes
+		}
+		221 = {
+				set_demilitarized_zone = yes
+		}
+		227 = {
+				set_demilitarized_zone = yes
+			}
+		}
+	}
+}
+
+country_event = {
 	id = KORnan.7 #크론슈타트의 복수
 	title = KORnan.7.t
 	desc = KORnan.7.d
@@ -136,6 +175,88 @@ country_event = {
 		name = KORnan.7.a
 		ai_chance = {
 		    factor = 50
+		}
+		hidden_effect = {
+			
+			CRS = {
+				transfer_state = 195
+
+				add_state_core = 195
+
+				load_oob = "CRS_1936"
+			SOV = {
+				transfer_navy = {
+    				target = CRS
+				}
+			}
+			}
+			UFT = {
+				transfer_state = 227
+				transfer_state = 200
+				transfer_state = 226
+				transfer_state = 228
+				transfer_state = 196
+				transfer_state = 221
+
+				add_state_core = 227
+				add_state_core = 200
+				add_state_core = 226
+				add_state_core = 228
+				add_state_core = 196
+				add_state_core = 221
+
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+			    }
+			}
+			SOV = {
+				delete_unit = { 
+            	    state = 221      
+            	    disband = yes
+            	}
+				delete_unit = { 
+            	    state = 226
+            	    disband = yes
+            	}
+				delete_unit = { 
+            	    state = 196
+            	    disband = yes
+            	}
+				delete_unit = { 
+            	    state = 200
+            	    disband = yes
+            	}
+				delete_unit = { 
+            	    state = 227
+            	    disband = yes
+            	}
+				delete_unit = { 
+            	    state = 228
+            	    disband = yes
+            	}
+			} 
+			195 = {
+				set_demilitarized_zone = no
+			}
+			227 = {
+				set_demilitarized_zone = no
+			}
+			200 = {
+				set_demilitarized_zone = no
+			}
+			226 = {
+				set_demilitarized_zone = no
+			}
+			228 = {
+				set_demilitarized_zone = no
+			}
+	    	196 = {
+				set_demilitarized_zone = no
+			}
+			221 = {
+				set_demilitarized_zone = no
+			}
 		}
 	}
 }

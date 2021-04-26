@@ -43,7 +43,14 @@ IWW = {
 	color = rgb { 162  39  39 }
 	color_ui = rgb { 162  39  39 }
 }
-
+UFT = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+CRS  = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
 
 
 

@@ -1,4 +1,4 @@
-﻿capital = 395
+﻿capital = 202
 
 oob = 
 
@@ -17,14 +17,13 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 50
-	communism = 50
+	communism = 100
 }
 
 create_country_leader = {
-	name = "세계산업노동자연맹"
+	name = "우크라이나 자유지구"
 	desc = ""
-	picture = "IWW.png"
+	picture = "RPAU.png"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -32,9 +31,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "세계산업노동자연맹"
+	name = "우크라이나 자유지구"
 	desc = ""
-	picture = "IWW.png"
+	picture = "RPAU.png"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -42,9 +41,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "세계산업노동자연맹"
+	name = "우크라이나 자유지구"
 	desc = ""
-	picture = "IWW.png"
+	picture = "RPAU.png"
 	expire = "1965.1.1"
 	ideology = falangism
 	traits = {
@@ -52,18 +51,18 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "세계산업노동자연맹"
+	name = "우크라이나 자유지구"
 	desc = ""
-	picture = "IWW.png"
+	picture = "RPAU.png"
 	expire = "1965.1.1"
-	ideology = anarcho_syndicalism
+	ideology = anarchist_communism
 	traits = {
 		#
 	}
 }
 
 create_field_marshal = {
-	name = "마훙쿠이"
+	name = "우크라이나 혁명반역군"
 	portrait_path = "Portrait_NXM_Ma_Hongkui.dds"
 	traits = {
     	brilliant_strategist
@@ -78,8 +77,8 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Ma Biao"
-	desc = "POLITICS_NXM_MA_BIAO_ARMY_DESC"
+	name = "우크라이나 혁명반역군"
+	desc = ""
 	picture = "Portrait_NXM_Ma_Biao.tga"
 	traits = {
 		urban_assault_specialist
@@ -94,8 +93,40 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ma Dunjing"
-	desc = "POLITICS_NXM_MA_DUNJING_ARMY_DESC"
+	name = "우크라이나 혁명반역군"
+	desc = ""
+	picture = "Portrait_NXM_Ma_Biao.tga"
+	traits = {
+		urban_assault_specialist
+		politically_connected
+	}
+	id = 2206
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "우크라이나 혁명반역군"
+	desc = ""
+	picture = "Portrait_NXM_Ma_Biao.tga"
+	traits = {
+		urban_assault_specialist
+		politically_connected
+	}
+	id = 2206
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "우크라이나 혁명반역군"
+	desc = ""
 	picture = "Portrait_NXM_Ma_Dunjing.tga"
 	traits = {
 		urban_assault_specialist
