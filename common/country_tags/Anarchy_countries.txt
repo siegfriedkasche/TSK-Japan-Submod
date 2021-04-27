@@ -1,3 +1,4 @@
 IWW = "countries/IWW.txt"
 UFT = "countries/UFT.txt"
 CRS = "countries/CRS.txt"
+KAR = "countries/KAR.txt"
