@@ -14,6 +14,11 @@ country_event = {
 		    factor = 100
 		}
 		set_cosmetic_tag = CNT_KOR
+		hidden_effect = {
+			news_event = {
+				id = Ana_news.1
+			}
+		}
 	}
 }
 
@@ -35,6 +40,9 @@ country_event = {
     		target = KPA
     		transfer_troops = yes
 		}
+		news_event = {
+			id = Ana_news.1
+		}
 	}
 }
 
@@ -50,6 +58,9 @@ country_event = {
 		name = KORnan.5.a
 		ai_chance = {
 		    factor = 100
+		}
+		news_event = {
+			id = Ana_news.2
 		}
 	}
 }
@@ -564,10 +575,9 @@ country_event = { #혁명시작
 		360 = {
 				set_demilitarized_zone = no
 		}
-		hidden_effect = {
-			set_country_flag = big_event_assassination_Jae_pil
+		news_event = {
+			id = Ana_news.3
 		}
-		
 	}
 } 
 

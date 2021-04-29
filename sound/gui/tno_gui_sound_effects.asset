@@ -5,3 +5,21 @@ soundeffect = {
 	}
 	volume = 55
 }
+
+
+#철의 노동자
+soundeffect = {
+	name = iron_worker
+	sounds = {
+		sound = iron_worker
+	}
+	volume = 55
+}
+#인터내셔널
+soundeffect = {
+	name = L'Internationale
+	sounds = {
+		sound = L'Internationale
+	}
+	volume = 55
+}

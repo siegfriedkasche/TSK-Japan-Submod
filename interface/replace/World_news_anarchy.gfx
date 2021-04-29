@@ -1,0 +1,15 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_event_paris_commune"
+		texturefile = "gfx/event_pictures/news_event_paris_commune.png"
+	}
+	spriteType = {
+		name = "GFX_news_event_Internationale"
+		texturefile = "gfx/event_pictures/news_event_Internationale.png"
+	}
+	spriteType = {
+		name = "GFX_news_event_IWW"
+		texturefile = "gfx/event_pictures/news_event_IWW.png"
+	}
+}

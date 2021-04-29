@@ -18,10 +18,27 @@ category = {
 }
 
 category = {
- 	name = "TNO_Effects"
+ 	name = "iron_worker"
 	soundeffects = {
 		####### Super Events
-		moon_jea_in
+		iron_worker
+	}
+ 	compressor = {
+		enabled = yes
+		pregain = 3.0
+		postgain = 0.0
+		ratio = 10.0
+		threshold = -15.0
+		attacktime = 0.030
+		releasetime = 1.2
+ 	}
+}
+
+category = {
+ 	name = "L'Internationale"
+	soundeffects = {
+		####### Super Events
+		L'Internationale
 	}
  	compressor = {
 		enabled = yes

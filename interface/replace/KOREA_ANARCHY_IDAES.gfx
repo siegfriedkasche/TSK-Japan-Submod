@@ -30,4 +30,8 @@ spriteTypes = {
 		name = "GFX_idea_anarchist_network"
 		texturefile = "gfx/interface/ideas/anarchist_network.png"
 	}
+	spriteType = {
+		name = "GFX_idea_Mutualism
+		texturefile = "gfx/interface/ideas/Mutualism.png"
+	}
 }

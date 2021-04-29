@@ -3,3 +3,14 @@ sound = {
 	file = "menu/tno_se_assassination_Jae_pil.wav"
 	always_load = no
 }
+
+sound = {
+	name = "iron_worker"
+	file = "menu/iron_worker.wav"
+	always_load = no
+}
+sound = {
+	name = "L'Internationale"
+	file = "menu/L'Internationale.wav"
+	always_load = no
+}
