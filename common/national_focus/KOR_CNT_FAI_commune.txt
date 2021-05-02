@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = KOR_CNT_END_Delegate_meeting
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_END_Delegate_meeting
 		cost = 2.00
 		x = 49
 		y = 1
@@ -21,7 +21,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_direction_of_the_commune
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_anarcho_syndicalism_VS_anarcho_communism
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_CNT_END_Delegate_meeting
@@ -38,7 +38,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_Anaco_Syndicalism
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_anarcho_syndicalism
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_CNT_direction_of_the_commune
@@ -98,7 +98,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_anarcho-communism
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_anarchist_communism
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_CNT_direction_of_the_commune
@@ -342,7 +342,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_Single_union
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_One_Big_Union
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_Expansion_of_labor_union
@@ -486,7 +486,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_General_strike_in_the_United_States
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_general_strike
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_Solidarity_with_the_IWW
@@ -519,7 +519,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_Armed_Uprising_Support
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_Armed_Uprising_Support
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_Call_for_US_labor_unions_to_join_IWW
@@ -540,7 +540,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_Chicago_Uprising
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_chicago_riot
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_Solidarity_with_the_IWW
@@ -555,7 +555,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_IWW_International_Invitation
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_Call_for_US_labor_unions_to_join_IWW
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_Call_for_US_labor_unions_to_join_IWW
@@ -718,7 +718,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_Kronstadt_rebellion_revenge
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_Kronstadt_rebellion_revenge
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_SOCIAL_Imperialism_Propaganda
@@ -748,7 +748,14 @@ focus_tree = {
 		}
 		x = 40
 		y = 11
-
+		completion_reward = {
+			add_ideas = UFT_Black_Army_Legacy
+			hidden_effect = {
+			UFT = {
+				add_ideas = UFT_Black_Army_Legacy
+			}
+		}
+		}
 	}
 	focus = {
 		id = KOR_CNT_Support_of_the_revolution
@@ -777,7 +784,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_IWW_Liberation_day
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_workers_freedom_day
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_Armed_Uprising_Support

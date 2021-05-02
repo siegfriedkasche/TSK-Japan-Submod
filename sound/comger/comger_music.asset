@@ -1,0 +1,335 @@
+music = {
+
+	name = "a_las_barricadas"
+
+	file = "a_las_barricadas.ogg"
+
+	volume = 0.5
+
+}
+
+
+music = {
+
+	name = "arbeitslose_senen_mir"
+
+	file = "arbeitslose_senen_mir.ogg"
+
+	volume = 0.7
+}
+
+
+music = {
+
+	name = "auf_ihr_arbeiter"
+
+	file = "auf_ihr_arbeiter.ogg"
+
+	volume = 0.6
+}
+
+
+music = {
+
+	name = "auf_zum_kampf"
+
+	file = "auf_zum_kampf.ogg"
+
+	volume = 0.6
+}
+
+
+music = {
+
+	name = "bandiera_rossa"
+
+	file = "bandiera_rossa.ogg"
+
+	volume = 0.5
+}
+
+
+music = {
+
+	name = "dem_Morgenrot_enrgenen"
+
+	file = "dem_Morgenrot_enrgenen.ogg"
+
+	volume = 0.5
+
+}
+
+
+music = {
+
+	name = "der_heimliche_aufmarsch"
+
+	file = "der_heimliche_aufmarsch.ogg"
+
+	volume = 0.5
+}
+
+
+music = {
+
+	name = "der_revoluzzer"
+
+	file = "der_revoluzzer.ogg"
+
+	volume = 0.5
+
+}
+
+
+music = {
+
+	name = "der_schlimmste_feind"
+
+	file = "der_schlimmste_feind.ogg"
+
+	volume = 0.7
+
+}
+
+
+music = {
+
+	name = "die_arbeiter_von_Wien"
+
+	file = "die_arbeiter_von_Wien.ogg"
+
+	volume = 0.6
+
+}
+
+
+music = {
+
+	name = "die_Internationale"
+
+	file = "die_Internationale.ogg"
+
+	volume = 0.6
+
+}
+
+
+music = {
+
+	name = "einheitsfrontlied"
+
+	file = "einheitsfrontlied.ogg"
+
+	volume = 0.6
+}
+
+
+music = {
+
+	name = "kominternlied"
+
+	file = "kominternlied.ogg"
+
+	volume = 0.6
+}
+
+
+music = {
+
+	name = "lied_der_interbrigaden"
+
+	file = "lied_der_interbrigaden.ogg"
+
+	volume = 0.7
+}
+
+
+music = {
+
+	name = "linker_marsch"
+
+	file = "linker_marsch.ogg"
+
+	volume = 0.6
+}
+
+
+music = {
+
+	name = "moorsoldaten"
+
+	file = "moorsoldaten.ogg"
+
+	volume = 0.7
+
+}
+
+music = {
+
+	name = "roter_wedding"
+
+	file = "roter_wedding.ogg"
+
+	volume = 0.5
+}
+
+
+music = {
+
+	name = "soldaten_masch"
+
+	file = "soldaten_masch.ogg"
+
+	volume = 0.7
+}
+
+
+music = {
+
+	name = "solidaritatslied"
+
+	file = "solidaritatslied.ogg"
+
+	volume = 0.6
+
+}
+
+
+music = {
+
+	name = "thalmann_kollone"
+
+	file = "thalmann_kollone.ogg"
+
+	volume = 0.9
+
+}
+
+music = {
+
+	name = "unsere_panzerdivision"
+
+	file = "unsere_panzerdivision.ogg"
+
+	volume = 0.5
+}
+
+
+music = {
+
+	name = "vorwarts_bolschewik"
+
+	file = "vorwarts_bolschewik.ogg"
+
+	volume = 0.5
+}
+
+
+music = {
+
+	name = "warsawianka"
+
+	file = "warsawianka.ogg"
+
+	volume = 0.5
+
+}
+
+
+music = {
+
+	name = "zeit_marsch"
+
+	file = "zeit_marsch.ogg"
+
+	volume = 0.7
+
+}
+
+
+music = {
+
+	name = "die_rote_front_marschiert"
+
+	file = "die_rote_front_marschiert.ogg"
+
+	volume = 0.7
+
+}
+
+music = {
+
+	name = "matrosen_von_Kronstadt"
+
+	file = "matrosen_von_Kronstadt.ogg"
+
+	volume = 0.8
+
+}
+
+music = {
+
+	name = "ballade_der_XI_brigade"
+
+	file = "ballade_der_XI_brigade.ogg"
+
+	volume = 0.8
+}
+
+music = {
+
+	name = "keiner_oder_alle"
+
+	file = "keiner_oder_alle.ogg"
+
+	volume = 0.7
+}
+
+music = {
+
+	name = "kapmflied_gegen_den_faschismus"
+
+	file = "kapmflied_gegen_den_faschismus.ogg"
+
+	volume = 0.7
+}
+
+music = {
+
+	name = "halt_stand_rotes_Madrid"
+
+	file = "halt_stand_rotes_Madrid.ogg"
+
+	volume = 0.6
+
+}
+
+music = {
+
+	name = "Ernst_Thalmann_lied"
+
+	file = "Ernst_Thalmann_lied.ogg"
+
+	volume = 0.8
+
+}
+
+music = {
+
+	name = "hans_beimler"
+
+	file = "hans_beimler.ogg"
+
+	volume = 1.0
+
+}
+
+music = {
+
+	name = "weither_aus_der_Ferne"
+
+	file = "weither_aus_der_Ferne.ogg"
+
+	volume = 0.7
+
+}

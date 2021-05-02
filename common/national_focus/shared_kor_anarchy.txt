@@ -1,6 +1,6 @@
 shared_focus = {
 	id = KOR_anarchy_commune
-	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	icon = GFX_uprising_commune
 	cost = 5
 
 	prerequisite = {
@@ -191,7 +191,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = KOR_Federal_commune
-	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	icon = GFX_federal_commune 
 	cost = 3
 	prerequisite = {
 		focus = KOR_anarchy_commune
@@ -207,7 +207,7 @@ shared_focus = {
 
 shared_focus = {
 	id = KOR_Anarchist_Refuge
-	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	icon = GFX_Anarchist_Refuge
 	cost = 3
 	prerequisite = {
 		focus = KOR_anarchy_commune
@@ -224,7 +224,7 @@ shared_focus = {
 
 shared_focus = {
 	id = KOR_Legacy_the_spanish_Commune
-	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	icon = GFX_revolutionary_catalonia
 	cost = 3
 	prerequisite = {
 		focus = KOR_anarchy_commune
@@ -289,7 +289,7 @@ shared_focus = {
 
 shared_focus = {
 	id = KOR_Legacy_the_French_Commune
-	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	icon = GFX_french_commune_legacy
 	cost = 3
 	prerequisite = {
 		focus = KOR_anarchy_commune
@@ -333,7 +333,7 @@ shared_focus = {
 
 shared_focus = {
 	id = KOR_International_organization
-	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	icon = GFX_fifth_international
 	cost = 5
 	prerequisite = {
 		focus = KOR_Legacy_the_French_Commune
@@ -355,7 +355,7 @@ shared_focus = {
 
 shared_focus = {
 	id = KOR_Straight_commune
-	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	icon = GFX_Straight_commune
 	cost = 5
 	prerequisite = {
 		focus = KOR_Federal_commune
@@ -377,7 +377,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = KOR_Labor_union_increase
-	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	icon = GFX_revolutionary_union
 	cost = 5
 	prerequisite = {
 		focus = KOR_Anarchist_Refuge
@@ -417,7 +417,7 @@ shared_focus = {
 
 shared_focus = {
 	id = KOR_Delegate_meeting
-	icon = GFX_focus_spr_torchbearers_of_tomorrow
+	icon = GFX_Delegate_meeting
 	cost = 5
 	prerequisite = {
 		focus = KOR_Straight_commune

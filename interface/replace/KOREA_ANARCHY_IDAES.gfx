@@ -31,7 +31,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/anarchist_network.png"
 	}
 	spriteType = {
-		name = "GFX_idea_Mutualism
+		name = "GFX_idea_Mutualism"
 		texturefile = "gfx/interface/ideas/Mutualism.png"
+	}
+	spriteType = {
+		name = "GFX_idea_UFT_Black_Army_Legacy"
+		texturefile = "gfx/interface/ideas/UFT_Black_Army_Legacy.png"
 	}
 }

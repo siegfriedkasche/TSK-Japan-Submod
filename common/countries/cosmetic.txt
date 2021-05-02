@@ -3,7 +3,11 @@ CNT_KOR = {
 	color = rgb { 255  64  81 }
 	color_ui = rgb { 255  64  81 }
 }
-KOR_IWW= {
+KAZ_ALH = {
+	color = rgb { 186  45  45 }
+	color_ui = rgb { 186 45  45 }
+}
+KOR_IWW = {
 	color = rgb { 176  0  0 }
 	color_ui = rgb { 176  0  0 }
 }

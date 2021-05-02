@@ -1,0 +1,20 @@
+
+on_actions = {
+    on_startup = {
+        allowed = {
+            tag = SOV
+            and	 = {
+                surrender_progress < 0.02
+                has_war_with = UFT
+		    }            
+	    }
+    }
+        effect = {
+            UFT = {
+                white_peace = SOV
+
+            }
+        }
+    }
+}
+

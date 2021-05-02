@@ -1,0 +1,78 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_uprising_commune"
+        texturefile = "gfx/interface/goals/uprising_commune.png"
+    }
+    spriteType = {
+        name = "GFX_revolutionary_catalonia"
+        texturefile = "gfx/interface/goals/revolutionary_catalonia.png"
+    }
+    spriteType = {
+        name = "GFX_french_commune_legacy"
+        texturefile = "gfx/interface/goals/french_commune_legacy.png"
+    }
+    spriteType = {
+        name = "GFX_fifth_international"
+        texturefile = "gfx/interface/goals/fifth_international.png"
+    }
+    spriteType = {
+        name = "GFX_federal_commune"
+        texturefile = "gfx/interface/goals/federal_commune.png"
+    }
+    spriteType = {
+        name = "GFX_Anarchist_Refuge"
+        texturefile = "gfx/interface/goals/Anarchist_Refuge.png"
+    }
+    spriteType = {
+        name = "GFX_revolutionary_union"
+        texturefile = "gfx/interface/goals/revolutionary_union.png"
+    }
+    spriteType = {
+        name = "GFX_Straight_commune"
+        texturefile = "gfx/interface/goals/Straight_commune.png"
+    }
+    spriteType = {
+        name = "GFX_Delegate_meeting"
+        texturefile = "gfx/interface/goals/Delegate_meeting.png"
+    }
+    spriteType = {
+        name = "GFX_KOR_CNT_END_Delegate_meeting"
+        texturefile = "gfx/interface/goals/KOR_CNT_END_Delegate_meeting.png"
+    }
+    spriteType = {
+        name = "GFX_anarcho_syndicalism_VS_anarcho_communism"
+        texturefile = "gfx/interface/goals/anarcho_syndicalism_VS_anarcho_communism.png"
+    }
+    spriteType = {
+        name = "GFX_anarcho_syndicalism"
+        texturefile = "gfx/interface/goals/anarcho_syndicalism.png"
+    }
+    spriteType = {
+        name = "GFX_anarchist_communism"
+        texturefile = "gfx/interface/goals/anarchist_communism.png"
+    }
+    spriteType = {
+        name = "GFX_One_Big_Union"
+        texturefile = "gfx/interface/goals/One_Big_Union.png"
+    }
+    spriteType = {
+        name = "GFX_workers_freedom_day"
+        texturefile = "gfx/interface/goals/workers_freedom_day.png"
+    }
+    spriteType = {
+        name = "GFX_KOR_CNT_Call_for_US_labor_unions_to_join_IWW"
+        texturefile = "gfx/interface/goals/KOR_CNT_Call_for_US_labor_unions_to_join_IWW.png"
+    }
+    spriteType = {
+        name = "GFX_chicago_riot"
+        texturefile = "gfx/interface/goals/chicago_riot.png"
+    }
+    spriteType = {
+        name = "GFX_general_strike"
+        texturefile = "gfx/interface/goals/general_strike.png"
+    }
+    spriteType = {
+        name = "GFX_KOR_CNT_Armed_Uprising_Support"
+        texturefile = "gfx/interface/goals/KOR_CNT_Armed_Uprising_Support.png"
+    }
+}
