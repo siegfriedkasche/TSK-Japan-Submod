@@ -430,25 +430,54 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_Direct_action_in_japan
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_riot_japan
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_East_Asian_workers_liberation
 		}
 		x = 50
 		y = 9
-
+		completion_reward = {
+			531 = {
+				set_demilitarized_zone = yes
+			}
+			993 = {
+				set_demilitarized_zone = yes
+			}
+			528 = {
+				set_demilitarized_zone = yes
+			}
+			529 = {
+				set_demilitarized_zone = yes
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_Direct_action_in_China
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_riot_china
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_East_Asian_workers_liberation
 		}
 		x = 52
 		y = 9
-
+		completion_reward = {
+			598 = {
+				set_demilitarized_zone = yes
+			}
+			613 = {
+				set_demilitarized_zone = yes
+			}
+			606 = {
+				set_demilitarized_zone = yes
+			}
+			749 = {
+				set_demilitarized_zone = yes
+			}
+			596 = {
+				set_demilitarized_zone = yes
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_Revolution_in_Japan
@@ -463,7 +492,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = KOR_CNT_Direct_action_in_China
-
+		
 	}
 	focus = {
 		id = KOR_CNT_Solidarity_with_the_IWW

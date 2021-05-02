@@ -843,6 +843,22 @@ country_event = { #카자흐 - 소련
 	}
 }
 
+country_event = { #중국에서의 직접행동
+	id = KORnan.28
+	title = KORnan.28.t
+	desc = KORnan.28.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.28.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+
 country_event = { #코카서스 - 독립
 	id = KORnan.27
 	title = KORnan.27.t

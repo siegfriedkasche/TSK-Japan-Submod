@@ -75,4 +75,12 @@ spriteTypes = {
         name = "GFX_KOR_CNT_Armed_Uprising_Support"
         texturefile = "gfx/interface/goals/KOR_CNT_Armed_Uprising_Support.png"
     }
+    spriteType = {
+        name = "GFX_riot_japan"
+        texturefile = "gfx/interface/goals/riot_japan.png"
+    }
+    spriteType = {
+        name = "GFX_riot_china"
+        texturefile = "gfx/interface/goals/riot_china.png"
+    }
 }
