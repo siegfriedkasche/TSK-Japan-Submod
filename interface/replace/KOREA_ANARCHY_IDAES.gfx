@@ -38,4 +38,8 @@ spriteTypes = {
 		name = "GFX_idea_UFT_Black_Army_Legacy"
 		texturefile = "gfx/interface/ideas/UFT_Black_Army_Legacy.png"
 	}
+	spriteType = {
+		name = "GFX_idea_Vigilante_laws"
+		texturefile = "gfx/interface/ideas/Vigilante_laws.png"
+	}
 }

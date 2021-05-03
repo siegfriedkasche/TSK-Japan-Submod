@@ -21,8 +21,62 @@ shared_focus = {
 			id = KORnan.1
 		}
 		add_ideas = Sharing_means_of_production
-		add_ideas = anarchist_mobilization_laws
+		add_ideas = Vigilante
 		hidden_effect = {
+			
+			country_lock_all_division_template = yes            #중요
+		delete_unit_template_and_units = {
+    		division_template = "동원사단"
+   			disband = yes
+		}
+		delete_unit_template_and_units = {
+    		division_template = "향토방위사단"
+   			disband = yes
+		}
+		delete_unit_template_and_units = {
+    		division_template = "대한민국 해병여단"
+   			disband = yes
+		}
+		delete_unit_template_and_units = {
+    		division_template = "상비사단(중)"
+   			disband = yes
+		}
+		delete_unit_template_and_units = {
+    		division_template = "상비사단"
+   			disband = yes
+		}
+		delete_unit_template_and_units = {
+    		division_template = "3기갑여단"
+   			disband = yes
+		}
+		delete_unit_template_and_units = {
+    		division_template = "보병 사단"
+   			disband = yes
+		}
+		delete_unit_template_and_units = {
+    		division_template = "땅크사단"
+   			disband = yes
+		}
+		delete_unit_template_and_units = {
+    		division_template = "전차려단"
+   			disband = yes
+		}
+		delete_unit_template_and_units = {
+    		division_template = "해상저격대"
+   			disband = yes
+		}
+		delete_unit_template_and_units = {
+    		division_template = "경 보병 사단"
+   			disband = yes
+		}
+		delete_unit_template_and_units = {
+    		division_template = "차량화 보병 사단"
+   			disband = yes
+		}
+		delete_unit_template_and_units = {
+    		division_template = "기계화사단"
+   			disband = yes
+		}
 			remove_ideas = KOR_no_communism_crusader 
 			remove_ideas = kor_law_of_korean_5  
 			remove_ideas = KOR_danilminjok  
@@ -38,6 +92,7 @@ shared_focus = {
 			remove_ideas = KOR_economic_collapse_2
 			remove_ideas = KOR_economic_collapse
 			remove_ideas = hell_joseon
+			add_manpower = -2300000
 			add_ideas = anarchist_social
 			set_popularities = {
 					fascism = 10

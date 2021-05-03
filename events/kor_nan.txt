@@ -40,9 +40,6 @@ country_event = {
     		target = KPA
     		transfer_troops = yes
 		}
-		news_event = {
-			id = Ana_news.1
-		}
 	}
 }
 
@@ -883,6 +880,132 @@ country_event = { #코카서스 - 독립
 		ARM = { 
 			transfer_state = 230
 			add_state_core = 230
+		}
+	}
+} 
+
+country_event = { #중국 혁명
+	id = KORnan.30
+	title = KORnan.30.t
+	desc = KORnan.30.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.30.a
+		ai_chance = {
+		    factor = 100
+		}
+		
+		hidden_effect = {
+			598 = {
+				set_demilitarized_zone = no
+			}
+			613 = {
+				set_demilitarized_zone = no
+			}
+			606 = {
+				set_demilitarized_zone = no
+			}
+			749 = {
+				set_demilitarized_zone = no
+			}
+			596 = {
+				set_demilitarized_zone = no
+			}
+			chi = {
+				emove_from_faction = CHI
+				end_puppet = Mon
+				end_puppet = MAN
+				end_puppet = MEN
+				end_puppet = CHI
+				end_puppet = shx
+				end_puppet = gxc
+				end_puppet = xsm
+				end_puppet = sik
+				end_puppet = prc
+				end_puppet = yun
+			}
+			CAF = {
+				transfer_state = 598
+				transfer_state = 613
+				transfer_state = 606
+				transfer_state = 749
+				transfer_state = 596
+
+				add_state_core = 613
+				add_state_core = 598
+				add_state_core = 606
+				add_state_core = 749
+				add_state_core = 596
+				declare_war_on = {
+					target = CHI
+					type = annex_everything
+			    }
+			}
+			PRC = {
+				declare_war_on = {
+					target = CHI
+					type = annex_everything
+			    }
+			}
+		}
+	}
+}
+
+country_event = { #일본 혁명
+	id = KORnan.29
+	title = KORnan.29.t
+	desc = KORnan.29.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.29.a
+		ai_chance = {
+		    factor = 100
+		}
+		
+		hidden_effect = {
+			531 = {
+				set_demilitarized_zone = no
+			}
+			532 = {
+				set_demilitarized_zone = no
+			}
+			528 = {
+				set_demilitarized_zone = no
+			}
+			529 = {
+				set_demilitarized_zone = no
+			}
+			JAP = {
+				end_puppet = MAN
+				end_puppet = MEN
+				end_puppet = CHI
+				end_puppet = shx
+				end_puppet = gxc
+				end_puppet = xsm
+				end_puppet = sik
+				end_puppet = prc
+				end_puppet = yun
+			}
+			JAF = {
+				transfer_state = 528
+				transfer_state = 529
+				transfer_state = 531
+				transfer_state = 532
+				add_state_core = 532
+				add_state_core = 531
+				add_state_core = 529
+				add_state_core = 528
+				declare_war_on = {
+					target = JAP
+					type = annex_everything
+			    }
+			}
 		}
 	}
 }

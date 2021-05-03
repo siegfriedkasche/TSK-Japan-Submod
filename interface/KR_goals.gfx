@@ -83,4 +83,20 @@ spriteTypes = {
         name = "GFX_riot_china"
         texturefile = "gfx/interface/goals/riot_china.png"
     }
+    spriteType = {
+        name = "GFX_KOR_CNT_Shared_product"
+        texturefile = "gfx/interface/goals/KOR_CNT_Shared_product.png"
+    }
+    spriteType = {
+        name = "GFX_KOR_CNT_The_abolition_of_wage_labor"
+        texturefile = "gfx/interface/goals/KOR_CNT_The_abolition_of_wage_labor.png"
+    }
+    spriteType = {
+        name = "GFX_Freedom_east_asia"
+        texturefile = "gfx/interface/goals/Freedom_east_asia.png"
+    }
+    spriteType = {
+        name = "GFX_Freedom_IWW"
+        texturefile = "gfx/interface/goals/Freedom_IWW.png"
+    }
 }

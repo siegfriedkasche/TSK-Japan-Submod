@@ -115,7 +115,7 @@ focus_tree = {
 							election_frequency = 60
 							elections_allowed = no
 						}
-			}
+				}
 
 	}
 	focus = {
@@ -127,12 +127,13 @@ focus_tree = {
 		}
 		x = 44
 		y = 4
-		completion_reward = {
-			add_ideas = Federal_commune
-			country_event = {
-				id = KORnan.10
-			}
-		}
+			completion_reward = {
+					add_ideas = Federal_commune
+					country_event = {
+							id = KORnan.10
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_anarchist_network
@@ -143,9 +144,10 @@ focus_tree = {
 		}
 		x = 42
 		y = 5
-		completion_reward = {
-			add_ideas = anarchist_network
-		}
+			completion_reward = {
+					add_ideas = anarchist_network
+				}
+
 	}
 	focus = {
 		id = KOR_Direct_democracy_through_the_commune
@@ -246,7 +248,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_Withdrawal_of_private_property
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_Shared_product
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_anarcho-communism
@@ -281,7 +283,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_The_abolition_of_wage_labor
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_The_abolition_of_wage_labor
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_anarcho-communism
@@ -409,7 +411,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_East_Asian_workers_liberation
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_Freedom_east_asia
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_Cooperation_with_IWW
@@ -422,11 +424,13 @@ focus_tree = {
 		}
 		x = 51
 		y = 8
-		completion_reward = {
-			set_rule = {
-    			can_send_volunteers = yes
-			}
-		}
+			completion_reward = {
+					set_rule = {
+							can_send_volunteers = yes
+						}
+					add_ideas = International_International_Brigade
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Direct_action_in_japan
@@ -437,20 +441,21 @@ focus_tree = {
 		}
 		x = 50
 		y = 9
-		completion_reward = {
-			531 = {
-				set_demilitarized_zone = yes
-			}
-			993 = {
-				set_demilitarized_zone = yes
-			}
-			528 = {
-				set_demilitarized_zone = yes
-			}
-			529 = {
-				set_demilitarized_zone = yes
-			}
-		}
+			completion_reward = {
+					531 = {
+							set_demilitarized_zone = yes
+						}
+					532 = {
+							set_demilitarized_zone = yes
+						}
+					528 = {
+							set_demilitarized_zone = yes
+						}
+					529 = {
+							set_demilitarized_zone = yes
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Direct_action_in_China
@@ -461,23 +466,24 @@ focus_tree = {
 		}
 		x = 52
 		y = 9
-		completion_reward = {
-			598 = {
-				set_demilitarized_zone = yes
-			}
-			613 = {
-				set_demilitarized_zone = yes
-			}
-			606 = {
-				set_demilitarized_zone = yes
-			}
-			749 = {
-				set_demilitarized_zone = yes
-			}
-			596 = {
-				set_demilitarized_zone = yes
-			}
-		}
+			completion_reward = {
+					598 = {
+						set_demilitarized_zone = yes
+					}
+					613 = {
+						set_demilitarized_zone = yes
+					}
+					606 = {
+						set_demilitarized_zone = yes
+					}
+					749 = {
+						set_demilitarized_zone = yes
+					}
+					596 = {
+						set_demilitarized_zone = yes
+					}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Revolution_in_Japan
@@ -492,11 +498,31 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = KOR_CNT_Direct_action_in_China
-		
+		available = {
+			always = no
+		}
+		completion_reward = {
+			JAF = {
+				country_event = {
+					id = KORnan.29
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_JAP_Revolutionary_Volunteer
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Revolution_in_Japan
+		}
+		x = 54
+		y = 11
+
 	}
 	focus = {
 		id = KOR_CNT_Solidarity_with_the_IWW
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_Freedom_IWW
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_cnt_people_for_union
@@ -506,12 +532,13 @@ focus_tree = {
 		}
 		x = 57
 		y = 8
-		completion_reward = {
-			set_rule = {
-    			can_send_volunteers = yes
-			}
-			add_ideas = International_International_Brigade
-		}
+			completion_reward = {
+					set_rule = {
+							can_send_volunteers = yes
+						}
+					add_ideas = International_International_Brigade
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_General_strike_in_the_United_States
@@ -522,14 +549,15 @@ focus_tree = {
 		}
 		x = 55
 		y = 9
-		completion_reward = {
-			country_event = {
-				id = KORnan.11
-			}
-			USA = {
-				add_ideas = General_strike
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = KORnan.11
+						}
+					USA = {
+							add_ideas = General_strike
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Call_for_US_labor_unions_to_join_IWW
@@ -540,11 +568,12 @@ focus_tree = {
 		}
 		x = 57
 		y = 9
-		completion_reward = {
-			IWW = {
-				add_ideas = IWW_unions
-			}
-		}
+			completion_reward = {
+					IWW = {
+							add_ideas = IWW_unions
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Armed_Uprising_Support
@@ -558,14 +587,15 @@ focus_tree = {
 		}
 		x = 56
 		y = 10
-		completion_reward = {
-			activate_decision = iww_support_decisions
-			send_equipment = {
-   				equipment = infantry_equipment
-    			amount = 10000
-    			target = IWW
-			}
-		}
+			completion_reward = {
+					activate_decision = iww_support_decisions
+					send_equipment = {
+							equipment = infantry_equipment
+							amount = 10000
+							target = IWW
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Chicago_Uprising
@@ -576,11 +606,12 @@ focus_tree = {
 		}
 		x = 59
 		y = 9
-		completion_reward = {
-			country_event = {
-				id = KORnan.15
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = KORnan.15
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_IWW_International_Invitation
@@ -594,13 +625,33 @@ focus_tree = {
 		}
 		x = 58
 		y = 10
-		completion_reward = {
-			IWW = {
-				country_event = {
-					id = kornan.17
+			completion_reward = {
+					IWW = {
+							country_event = {
+									id = kornan.17
+								}
+						}
 				}
-			}
+
+	}
+	focus = {
+		id = KOR_CNT_IWW_Liberation_day
+		icon = GFX_workers_freedom_day
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Armed_Uprising_Support
 		}
+		prerequisite = {
+			focus = KOR_IWW_International_Invitation
+		}
+		x = 57
+		y = 11
+			completion_reward = {
+					country_event = {
+							id = KORnan.16
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_There_is_no_political_equality_without_social_equality.
@@ -689,8 +740,8 @@ focus_tree = {
 							add_ideas = Anarchist_guerrilla
 						}
 					country_event = {
-						id = KORnan.19
-					}
+							id = KORnan.19
+						}
 				}
 
 	}
@@ -777,14 +828,15 @@ focus_tree = {
 		}
 		x = 40
 		y = 11
-		completion_reward = {
-			add_ideas = UFT_Black_Army_Legacy
-			hidden_effect = {
-			UFT = {
-				add_ideas = UFT_Black_Army_Legacy
-			}
-		}
-		}
+			completion_reward = {
+					add_ideas = UFT_Black_Army_Legacy
+					hidden_effect = {
+							UFT = {
+									add_ideas = UFT_Black_Army_Legacy
+								}
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Support_of_the_revolution
@@ -796,7 +848,7 @@ focus_tree = {
 		x = 44
 		y = 11
 
-	} 
+	}
 	focus = {
 		id = KOR_CNT_Revolution_in_china
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
@@ -807,26 +859,90 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_japan
 		}
+		available = {
+			always = no
+		}
 		x = 49
+		y = 10
+		completion_reward = [
+			CAF = {
+				country_event = {
+					id = KORnan.30
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_CNT_CHI_Militia_support
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Direct_action_in_japan
+		}
+		x = 50
+		y = 11
+
+	}
+	focus = {
+		id = KOR_CNT_JAP_Militia_support
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Direct_action_in_China
+		}
+		x = 52
+		y = 11
+
+	}
+	focus = {
+		id = KOR_CNT_International_International_Brigade
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_Direct_action_in_China
+			focus = KOR_CNT_Direct_action_in_japan
+		}
+		x = 51
 		y = 10
 
 	}
 	focus = {
-		id = KOR_CNT_IWW_Liberation_day
-		icon = GFX_workers_freedom_day
+		id = KOR_CHI_Revolutionary_Volunteer
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 10.00
 		prerequisite = {
-			focus = KOR_CNT_Armed_Uprising_Support
+			focus = KOR_CNT_Revolution_in_china
+		}
+		x = 48
+		y = 11
+
+	}
+	focus = {
+		id = KOR_CNT_JAP_Worker_liberation
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_JAP_Revolutionary_Volunteer
 		}
 		prerequisite = {
-			focus = KOR_IWW_International_Invitation
+			focus = KOR_CNT_JAP_Militia_support
 		}
-		x = 57
-		y = 11
-		completion_reward = {
-			country_event = {
-				id = KORnan.16
-			}
+		x = 53
+		y = 12
+
+	}
+	focus = {
+		id = KOR_CNT_CHI_Worker_liberation
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_CHI_Militia_support
 		}
+		prerequisite = {
+			focus = KOR_CHI_Revolutionary_Volunteer
+		}
+		x = 49
+		y = 12
+
 	}
 }
