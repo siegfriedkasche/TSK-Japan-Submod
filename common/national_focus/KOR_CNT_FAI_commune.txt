@@ -361,7 +361,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_Industry_specific_repair_unions
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_Industry_specific_repair_unions
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_Single_union
@@ -371,7 +371,9 @@ focus_tree = {
 		}
 		x = 52
 		y = 6
-
+		completion_reward = {
+			add_ideas = revolutionary_industrial_union
+		}
 	}
 	focus = {
 		id = KOR_CNT_Corporatist_policy
@@ -380,9 +382,17 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_Single_union
 		}
+		available = {
+			has_completed_focus = KOR_Industry_specific_repair_unions
+		}
 		x = 54
 		y = 6
-
+		completion_reward = {
+			swap_ideas = {
+    			remove_idea = revolutionary_industrial_union
+    			add_idea = revolutionary_industrial_union_2
+			}
+		}
 	}
 	focus = {
 		id = KOR_cnt_people_for_union
@@ -868,7 +878,7 @@ focus_tree = {
 		}
 		x = 49
 		y = 10
-		completion_reward = [
+		completion_reward = {
 			CAF = {
 				country_event = {
 					id = KORnan.30

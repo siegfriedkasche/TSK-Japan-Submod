@@ -48,4 +48,8 @@ spriteTypes = {
 		name = "GFX_idea_CAF_Worker_rebellion"
 		texturefile = "gfx/interface/ideas/CAF_Worker_rebellion.png"
 	}
+	spriteType = {
+		name = "GFX_idea_revolutionary_industrial_union"
+		texturefile = "gfx/interface/ideas/revolutionary_industrial_union.png"
+	}
 }

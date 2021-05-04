@@ -99,4 +99,8 @@ spriteTypes = {
         name = "GFX_Freedom_IWW"
         texturefile = "gfx/interface/goals/Freedom_IWW.png"
     }
+    spriteType = {
+        name = "GFX_KOR_Industry_specific_repair_unions"
+        texturefile = "gfx/interface/goals/KOR_Industry_specific_repair_unions.png"
+    }
 }
