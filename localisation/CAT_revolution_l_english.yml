@@ -1,0 +1,61 @@
+﻿l_english:
+ caf_Chinese_revolution_start:0 "중화인민해방혁명"
+ caf_Militia_organization:0 "민병대 모집"
+ caf_Cooperation_with_the_Chinese_Communist_Party:0 "중국 공산당과의 협력"
+ caf_revolution_ended:0 "혁명의 끝"
+ caf_chi_Weapon_takeover:0 "국민당 무기 탈취"
+ caf_Defense_committee:0 "방위위원회 조직"
+ caf_Revolutionary_promise:0 "혁명의 약속"
+ caf_International_brigade_help:0 "국제여단의 도움"
+ caf_Workers'_revolutionary_unity:0 "노동자의 혁명적 단결"
+ #이벤트
+ CATREV.1.t:0 "중화인민해방혁명"
+ CATREV.1.d:0 "인민의 대오여 앞으로 가자"
+ CATREV.1.a:0 "해방위해 진격하자"
+
+ CATREV.2.t:0 "민병대 모집"
+ CATREV.2.d:0 "일어나라 노동자의 군대여 자본가의 부패를 함께 타도하자"
+ CATREV.2.a:0 "이렇게나...많이?"
+
+ CATREV.3.t:0 "중화혁명전선"
+ CATREV.3.d:0 "이제는 더욱 단결해야합니다. 적들은 조직적이고 교활하게 우리 위원회를 압박할것입니다."
+ CATREV.3.a:0 "마오에 의견이 궁금하군"
+
+ CATREV.5.t:0 "혁명전선에서의 가입제안"
+ CATREV.5.d:0 "우리는 현재 국민당이라는 공공의 적을 두고 싸우는 우리의 동지들로부터 중화혁명전선에 가입하여 협력을 도모하며 투쟁하자는 제안을 하였습니다. 어떻게하시겠습니까?"
+ CATREV.5.a:0 "그들과 협력으로 우리의 이상에 더욱 가까워질수 있겠군"
+ CATREV.5.c:0 "아나키스트들은 믿을 수가 없구만"
+
+ CATREV.4.t:0 "국민당 무기고 약탈"
+ CATREV.4.d:0 "무기 존나많네"
+ CATREV.4.a:0 "한 정...두 정.."
+
+ CATREV.6.t:0 "약탈당한 무기고"
+ CATREV.6.d:0 "님 무기 털림"
+ CATREV.6.a:0 "이런..."
+
+ CATREV.7.t:0 "노동자와 농민에대한 위원회의 약속"
+ CATREV.7.d:0 "토지와 자본가의 생산수단을 분배하고 노동자와 농민의 자유를 보장해주리라"
+ CATREV.7.a:0 "만세!"
+
+ CATREV.8.t:0 "인터내셔널에게 국제여단 파견요청"
+ CATREV.8.d:0 "도와줘요"
+ CATREV.8.a:0 "잘나녀오시게.."
+
+ CATREV.9.t:0 "중화혁명위원회의 요청"
+ CATREV.9.d:0 "국제여단보내줘요~"
+ CATREV.9.a:0 "그들의 혁명을 도와야한다.."
+ CATREV.9.c:0 "우리인민에게 물어보자"
+ 
+ CATREV.10.t:0 "국제여단 승낙"
+ CATREV.10.d:0 "흑흑"
+ CATREV.10.a:0 "그들에게 늘 감사해야한다..."
+
+ CATREV.11.t:0 "국제여단 거부"
+ CATREV.11.d:0 "이런.."
+ CATREV.11.a:0 "그들에게 너무 많은걸 바란거같군"
+ #국민정신
+ CAF_Defense_Committee:0 "방위위원회"
+ CAF_Worker_rebellion:0 "노동자 반란"
+ #코스믹태그
+ ended_revolutin:0 "아나키중화의 본중점은 아직 개발중입니다."

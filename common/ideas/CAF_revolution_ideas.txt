@@ -1,0 +1,52 @@
+ideas = {
+
+	country = {
+        
+        CAF_Defense_Committee = { 
+
+            allowed = {
+                original_tag = CAF
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = CAF_Defense_Committee
+
+            removal_cost = -1
+            
+            modifier = {
+                army_defence_factor = 0.15
+                weekly_manpower = 100
+            }
+        }
+    }
+    country = {
+        
+        CAF_Worker_rebellion = { 
+
+            allowed = {
+                original_tag = CAF
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = CAF_Worker_rebellion
+
+            removal_cost = -1
+            
+            modifier = {
+                CHI = [
+                    army_defence_factor = -0.10
+                    weekly_manpower = -1000
+                    consumer_goods_factor = 0.1
+                    industrial_capacity_dockyard = -0.15
+                    industrial_capacity_factory = -0.15
+                    production_speed_buildings_factor = -0.3
+                ]
+            }
+        }
+    }

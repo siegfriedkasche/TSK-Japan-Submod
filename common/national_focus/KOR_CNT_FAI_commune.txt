@@ -518,7 +518,11 @@ focus_tree = {
 		}
 		x = 54
 		y = 11
-
+		completion_reward = {
+			JAF = {
+				add_manpower = 10000
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_Solidarity_with_the_IWW
@@ -591,7 +595,7 @@ focus_tree = {
 					activate_decision = iww_support_decisions
 					send_equipment = {
 							equipment = infantry_equipment
-							amount = 10000
+							amount = 20000
 							target = IWW
 						}
 				}
@@ -881,7 +885,14 @@ focus_tree = {
 		}
 		x = 50
 		y = 11
-
+		completion_reward = {
+			#activate_decision = iww_support_decisions
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 15000
+				target = CAF
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_JAP_Militia_support
@@ -892,7 +903,14 @@ focus_tree = {
 		}
 		x = 52
 		y = 11
-
+		completion_reward = {
+			#activate_decision = iww_support_decisions
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 15000
+				target = JAF
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_International_International_Brigade
@@ -915,7 +933,11 @@ focus_tree = {
 		}
 		x = 48
 		y = 11
-
+		completion_reward = {
+			CAF = {
+				add_manpower = 10000
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_JAP_Worker_liberation
@@ -929,7 +951,26 @@ focus_tree = {
 		}
 		x = 53
 		y = 12
-
+		available = {
+			NOT = {
+				JAF ={
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward ={
+			JAF = {
+				country_event = {
+					id = KORnan.33
+				}
+			}
+			hidden_effect = {
+				JAF = {
+					add_ideas = Vigilante
+					add_ideas = closed_economy
+				}
+			}	
+		}
 	}
 	focus = {
 		id = KOR_CNT_CHI_Worker_liberation
@@ -943,6 +984,25 @@ focus_tree = {
 		}
 		x = 49
 		y = 12
-
+		available = {
+			NOT = {
+				CAF ={
+					has_war_with = CHI
+				}
+			}
+		}
+		completion_reward ={
+			CAF = {
+				country_event = {
+					id = KORnan.35
+				}
+			}
+			hidden_effect = {
+				CAF = {
+					add_ideas = Vigilante
+					add_ideas = closed_economy
+				}
+			}
+		}
 	}
 }

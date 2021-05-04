@@ -1,0 +1,165 @@
+focus_tree = {
+	id = caf_revoution_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = caf
+		}
+	}
+	default = no
+	focus = {
+		id = caf_Chinese_revolution_start
+		icon = GFX_focus_fra_revolution_upmost
+		cost = 2.00
+		x = 6
+		y = 0
+		completion_reward ={
+			country_event ={
+				id = CATREV.1
+			}
+		}
+	}
+	focus = {
+		id = caf_Militia_organization
+		icon = GFX_focus_yug_pan_slavic_congress
+		cost = 2.00
+		prerequisite = {
+			focus = caf_Chinese_revolution_start
+		}
+		x = 6
+		y = 1
+		completion_reward = {
+			country_event = {
+				id = CATREV.2
+				days = 1
+			}
+		}
+	}
+	focus = {
+		id = caf_Cooperation_with_the_Chinese_Communist_Party
+		icon = GFX_focus_chi_cooperation_with_the_communists
+		cost = 2.00
+		prerequisite = {
+			focus = caf_Militia_organization
+		}
+		x = 6
+		y = 2
+		completion_reward = {
+			country_event = {
+				id = CATREV.3
+			}
+		}
+	}
+	focus = {
+		id = caf_Revolutionary_promise
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 2.00
+		prerequisite = {
+			focus = caf_Cooperation_with_the_Chinese_Communist_Party
+		}
+		x = 5
+		y = 3
+		completion_reward = {
+			country_event = {
+				id = CATREV.7
+			}
+		}
+	}
+	focus = {
+		id = caf_Workers'_revolutionary_unity
+		icon = GFX_focus_por_workers_of_iberia
+		cost = 2.00
+		prerequisite = {
+			focus = caf_Revolutionary_promise
+		}
+		x = 4
+		y = 4
+		completion_reward = {
+			CHI = {
+				add_ideas = CAF_Worker_rebellion
+			}
+		}
+	}
+	focus = {
+		id = caf_chi_Weapon_takeover
+		icon = GFX_focus_focus_fra_maquis
+		cost = 2.00
+		prerequisite = {
+			focus = caf_Cooperation_with_the_Chinese_Communist_Party
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+			country_event = {
+				id = CATREV.4
+			}
+		}
+	}
+	focus = {
+		id = caf_Defense_committee
+		icon = GFX_goal_generic_small_arms
+		cost = 2.00
+		prerequisite = {
+			focus = caf_chi_Weapon_takeover
+		}
+		prerequisite = {
+			focus = caf_Revolutionary_promise
+		}
+		x = 6
+		y = 4
+		completion_reward ={
+			add_ideas = CAF_Defense_Committee
+		}
+	}
+	focus = {
+		id = caf_revolution_ended
+		icon = GFX_focus_chi_one_china_policy
+		cost = 2.00
+		prerequisite = {
+			focus = caf_Defense_committee
+		}
+		prerequisite = {
+			focus = caf_International_brigade_help
+		}
+		prerequisite = {
+			focus = caf_Workers'_revolutionary_unity
+		}
+		x = 6
+		y = 5
+		completion_reward ={
+			custom_effect_tooltip = ended_revolutin
+			hidden_effect = {
+				remove_ideas = CAF_Defense_Committee
+				delete_unit_template_and_units = {
+    				division_template = "노동자 민병대"
+    				disband = no
+				}
+				delete_unit_template_and_units = {
+    				division_template = "농민군"
+    				disband = no
+				}
+				delete_unit_template_and_units = {
+    				division_template = "인터내셔널 국제여단"
+    				disband = no
+				}
+				add_ideas = Vigilante
+			}
+		}
+	}
+	focus = {
+		id = caf_International_brigade_help
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 2.00
+		prerequisite = {
+			focus = caf_chi_Weapon_takeover
+		}
+		x = 8
+		y = 4
+		completion_reward = {
+			country_event = {
+				id = CATREV.8
+			}
+		}
+	}
+}
