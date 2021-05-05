@@ -103,4 +103,16 @@ spriteTypes = {
         name = "GFX_KOR_Industry_specific_repair_unions"
         texturefile = "gfx/interface/goals/KOR_Industry_specific_repair_unions.png"
     }
+    spriteType = {
+        name = "GFX_Militia_organization"
+        texturefile = "gfx/interface/goals/Militia_organization.png"
+    }
+    spriteType = {
+        name = "GFX_Revolutionary_Volunteer"
+        texturefile = "gfx/interface/goals/Revolutionary_Volunteer.png"
+    }
+    spriteType = {
+        name = "GFX_KOR_CNT_Worker_liberation"
+        texturefile = "gfx/interface/goals/KOR_CNT_Worker_liberation.png"
+    }
 }

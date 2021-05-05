@@ -437,8 +437,7 @@ focus_tree = {
 			completion_reward = {
 					set_rule = {
 							can_send_volunteers = yes
-						}
-					add_ideas = International_International_Brigade
+						}					
 				}
 
 	}
@@ -521,7 +520,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_JAP_Revolutionary_Volunteer
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_Revolutionary_Volunteer
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_Revolution_in_Japan
@@ -540,6 +539,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_cnt_people_for_union
+		}
+		prerequisite = {
+			focus = KOR_CNT_Cooperation_with_IWW
 		}
 		mutually_exclusive = {
 			focus = KOR_CNT_East_Asian_workers_liberation
@@ -888,7 +890,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_CHI_Militia_support
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_Militia_organization
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_japan
@@ -906,7 +908,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_JAP_Militia_support
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_Militia_organization
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_China
@@ -932,11 +934,16 @@ focus_tree = {
 		}
 		x = 51
 		y = 10
-
+		completion_reward = {
+			add_ideas = International_International_Brigade
+			country_event = {
+				id = KORnan.37
+			}
+		}
 	}
 	focus = {
 		id = KOR_CHI_Revolutionary_Volunteer
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_Revolutionary_Volunteer
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_Revolution_in_china
@@ -951,7 +958,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_JAP_Worker_liberation
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_Worker_liberation
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_JAP_Revolutionary_Volunteer
@@ -984,7 +991,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_CHI_Worker_liberation
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_Worker_liberation
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_CNT_CHI_Militia_support

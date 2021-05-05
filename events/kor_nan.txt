@@ -1170,7 +1170,21 @@ country_event = { #중국 - 가입제의(한국)
 		name = KORnan.36.c
 	}
 }
-
+country_event = { #인터내셔널 국제여단
+	id = KORnan.37
+	title = KORnan.37.t
+	desc = KORnan.37.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.37.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
 country_event = { #카렐리아 논쟁 
 	id = KORnan.22
 	title = KORnan.22.t
