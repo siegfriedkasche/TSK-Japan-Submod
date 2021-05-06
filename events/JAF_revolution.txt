@@ -1,0 +1,174 @@
+add_namespace = JAFREV
+
+country_event = {
+	id = JAFREV.1 #착취의 끝
+	title = JAFREV.1.t
+	desc = JAFREV.1.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = JAFREV.1.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+			add_equipment_to_stockpile = {
+    			type = infantry_equipment
+   			 	amount = 3000
+    			producer = CAF
+			}
+		}
+	}
+}
+country_event = {
+	id = JAFREV.2 #혁명의 연대
+	title = JAFREV.2.t
+	desc = JAFREV.2.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = JAFREV.2.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+			load_oob = "JAF_farmarmy"
+		}
+	}
+}
+country_event = {
+	id = JAFREV.3 #가나자와 광산 반란
+	title = JAFREV.3.t
+	desc = JAFREV.3.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = JAFREV.3.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+			load_oob = "JAF_IRON_WORKER"
+		}
+	}
+}
+country_event = {
+	id = JAFREV.4 #노동자연대
+	title = JAFREV.4.t
+	desc = JAFREV.4.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = JAFREV.4.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = JAFREV.5 #도움요청(한국)
+	title = JAFREV.5.t
+	desc = JAFREV.5.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = JAFREV.5.a
+		ai_chance = {
+		    factor = 100
+		}
+		JAF = {
+			country_event = {
+				id = JAFREV.6
+				days = 4
+			}
+		}
+	}
+	option = {
+		name = JAFREV.5.c
+		JAF = {
+			country_event = {
+				id = JAFREV.7
+				days = 4
+			}
+		}
+	}
+}
+country_event = {
+	id = JAFREV.6 #인터내셔널 승낙
+	title = JAFREV.6.t
+	desc = JAFREV.6.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = JAFREV.6.a
+		ai_chance = {
+		    factor = 100
+		}
+		load_oob = "JAF_international_brige"
+		hidden_effect = {
+			add_equipment_to_stockpile = {
+    			type = modern_artillery_equipment_3
+    			amount = 300
+    			producer = KOR
+			}
+			add_equipment_to_stockpile = {
+    			type = m_2000_atgm_equipment 
+    			amount = 100
+    			producer = KOR
+			}
+			add_equipment_to_stockpile = {
+    			type = modern_motorized_equipment  
+    			amount = 40
+    			producer = KOR
+			}
+			add_equipment_to_stockpile = {
+    			type = 	support_equipment  
+    			amount = 220
+    			producer = KOR
+			}
+		}
+	}
+}
+country_event = {
+	id = JAFREV.7 #인터내셔널 거부
+	title = JAFREV.7.t
+	desc = JAFREV.7.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = JAFREV.6.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = JAFREV.8 #강령의 필요성
+	title = JAFREV.8.t
+	desc = JAFREV.8.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = JAFREV.8.a
+		ai_chance = {
+		    factor = 100
+		}
+		add_ideas = JAF_program
+	}
+}

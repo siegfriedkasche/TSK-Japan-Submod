@@ -52,4 +52,12 @@ spriteTypes = {
 		name = "GFX_idea_revolutionary_industrial_union"
 		texturefile = "gfx/interface/ideas/revolutionary_industrial_union.png"
 	}
+	spriteType = {
+		name = "GFX_idea_JAF_workers_solidarity"
+		texturefile = "gfx/interface/ideas/JAF_workers_solidarity.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAF_program"
+		texturefile = "gfx/interface/ideas/JAF_program.png"
+	}
 }

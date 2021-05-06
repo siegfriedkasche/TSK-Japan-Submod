@@ -1,0 +1,50 @@
+﻿l_english:
+ JAF_Workers_revolution:0 "노동자 혁명"
+ JAF_Construction_worker:0 "건설 노동자"
+ JAP_Mining_worker:0 "광산 노동자"
+ JAF_Rise_up_worker's_army:0 "노동자의 연대"
+ JAF_Ask_for_help:0 "도움 요청"
+ JAF_End_of_exploitation:0 "착취의 끝"
+ JAF_End_of_exploitation_desc:0 "자본주의는 그자체로 노예제입니다! 우리들은 지난 세기동안 숨죽여 왔지만, 이제는 일어날 시간입니다! \n저 자본가 놈들의 폭력을 깨고 노동자 혁명을 할때가 왔습니다!"
+ JAF_Liberation_flag:0 "해방의 깃발"
+ JAF_Angry_people:0 "분노한 민중"
+ JAF_Organizational_code:0 "조직적 강령"
+
+ #이벤트
+ JAFREV.1.t:0 "착취의 끝"
+ JAFREV.1.d:0 "수세기동안 우리를 착취해오던 자본가들에 맞서서 드디어 노동자들은 해방의 날을 맞이했습니다. 우리는 자유를 위해 싸울것이고 불의에 맞서 저항할 것입니다."
+ JAFREV.1.a:0 "노동자여 단결하라"
+
+ JAFREV.2.t:0 "혁명의 대오"
+ JAFREV.2.d:0 ""
+ JAFREV.2.a:0 "힘찬 단결 투쟁 뿐이다!"
+
+ JAFREV.3.t:0 "광산 노동자 반란"
+ JAFREV.3.d:0 "우리의 투쟁이 진행되던 어느날 가나자와 강철광산에서 노동자들이 총파업을 진행하였습니다. 하지만 정부는 그들의 파업현장에 군인 150명을 투입하여 무력으로 협박하였습니다. 우리 용감한 노동자들은 그들에게 대항하였고 군인들을 쫓아내었습니다. 정부의 태도에 분노한 광산 노동자들은 우리의 연대에 합류하여 투쟁을 이어갈 것입니다."
+ JAFREV.3.a:0 "자본가들은 스스로 무덤을 파는군"
+
+ JAFREV.4.t:0 "노동자의 연대"
+ JAFREV.4.d:0 ""
+ JAFREV.4.a:0 "전진! 전진!"
+
+ JAFREV.5.t:0 "일본 노동자의 부름"
+ JAFREV.5.d:0 ""
+ JAFREV.5.a:0 "인민들의 선택은 무엇인가요!"
+ JAFREV.5.c:0 "우리 인민을 지키는 것이 우선이다"
+
+ JAFREV.6.t:0 "인터내셔널의 승낙"
+ JAFREV.6.d:0 "도와주러온단다!!"
+ JAFREV.6.a:0 "승리는 노동자의 편"
+
+ JAFREV.6.t:0 "인터내셔널의 거절"
+ JAFREV.6.d:0 "흑흑"
+ JAFREV.6.a:0 "안타깝구만.."
+
+ JAFREV.8.t:0 "강령의 필요성"
+ JAFREV.8.d:0 "강령좋지"
+ JAFREV.8.a:0 "우리에게 가장 필요한 것이군"
+
+ #국민정신
+ JAF_workers_solidarity:0 "노동자의 연대"
+ JAF_Worker_rebellion:0 "노동자 반란"
+ JAF_program:0 "강령"

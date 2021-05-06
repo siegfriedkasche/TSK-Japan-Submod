@@ -1,0 +1,160 @@
+focus_tree = {
+	id = New_file
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = JAF
+		}
+	}
+	default = no
+	focus = {
+		id = JAF_End_of_exploitation
+		icon = GFX_focus_focus_fra_fascist_threat
+		cost = 2
+		x = 15
+		y = 2
+		completion_reward = {
+			country_event = {
+				id = JAFREV.1
+			}
+		}
+	}
+	focus = {
+		id = JAF_Workers_revolution
+		icon = GFX_goal_generic_demand_territory
+		cost = 2
+		prerequisite = {
+			focus = JAF_End_of_exploitation
+		}
+		x = 15
+		y = 3
+		completion_reward = {
+			country_event = {
+				id = JAFREV.2
+			}
+		}
+	}
+	focus = {
+		id = JAF_Construction_worker
+		icon = GFX_focus_generic_industry_2
+		cost = 2
+		prerequisite = {
+			focus = JAF_Workers_revolution
+		}
+		x = 13
+		y = 4
+		completion_reward = {
+			JAP = {
+				damage_building = {
+    				type = infrastructure
+    				damage = 10
+				}
+				damage_building = {
+    				type = arms_factory
+    				damage = 10
+				}
+			}
+		}
+	}
+	focus = {
+		id = JAP_Mining_worker
+		icon = GFX_focus_generic_tungsten
+		cost = 2
+		prerequisite = {
+			focus = JAF_Workers_revolution
+		}
+		x = 17
+		y = 4
+		completion_reward = {
+			country_event = {
+				id = JAFREV.3
+			}
+		}
+	}
+	focus = {
+		id = JAF_Rise_up_worker's_army
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		cost = 2
+		prerequisite = {
+			focus = JAF_Construction_worker
+			focus = JAP_Mining_worker
+		}
+		prerequisite = {
+			focus = JAF_Workers_revolution
+		}
+		x = 15
+		y = 5
+		completion_reward = {
+			add_equipment_to_stockpile = {
+    			type = infantry_equipment_1
+    			amount = 3000
+    			producer = JAP
+			}
+			add_ideas = JAF_workers_solidarity
+			country_event = {
+				id = JAFREV.4
+			}
+		}
+	}
+	focus = {
+		id = JAF_Ask_for_help
+		icon = GFX_goal_generic_propaganda
+		cost = 2
+		prerequisite = {
+			focus = JAF_Rise_up_worker's_army
+		}
+		x = 15
+		y = 6
+		completion_reward = {
+			KOR = {
+				country_event = {
+					id = JAFREV.5
+				}
+			}
+		}
+	}
+	focus = {
+		id = JAF_Organizational_code
+		icon = GFX_focus_spr_masters_of_our_own_fate
+		cost = 2
+		prerequisite = {
+			focus = JAF_Ask_for_help
+		}
+		x = 14
+		y = 7
+		completion_reward = {
+			country_event = {
+				id = JAFREV.8
+			}
+		}
+	}
+	focus = {
+		id = JAF_Angry_people
+		icon = GFX_focus_spr_crush_the_revolution
+		cost = 2
+		prerequisite = {
+			focus = JAF_Ask_for_help
+		}
+		x = 16
+		y = 7
+		completion_reward = {
+			JAP = {
+				add_ideas = JAF_Worker_rebellion
+			}
+		}
+	}
+	focus = {
+		id = JAF_Liberation_flag
+		icon = GFX_focus_spr_war_of_independence
+		cost = 2
+		prerequisite = {
+			focus = JAF_Angry_people
+		}
+		prerequisite = {
+			focus = JAF_Organizational_code
+		}
+		x = 15
+		y = 8
+	}
+}
