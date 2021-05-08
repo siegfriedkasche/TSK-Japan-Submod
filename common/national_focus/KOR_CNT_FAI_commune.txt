@@ -121,7 +121,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_union_of_commune
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_anarcho-communism
 		}
@@ -138,7 +138,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_anarchist_network
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_union_of_commune
 		}
@@ -152,7 +152,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Direct_democracy_through_the_commune
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_union_of_commune
 		}
@@ -163,7 +163,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Distribution_of_communes
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_Direct_democracy_through_the_commune
 		}
@@ -174,18 +174,20 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Equal_commune
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_union_of_commune
 		}
 		x = 46
 		y = 5
-
+		completion_reward  ={
+			id = kornan.39
+		}
 	}
 	focus = {
 		id = KOR_CNT_politic_free
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Equal_commune
 		}
@@ -194,12 +196,14 @@ focus_tree = {
 		}
 		x = 45
 		y = 6
-
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = KOR_CNT_New_direction
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Distribution_of_communes
 		}
@@ -208,12 +212,14 @@ focus_tree = {
 		}
 		x = 44
 		y = 7
-
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = KOR_CNT_Temporary_Committee
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_New_direction
 		}
@@ -222,23 +228,27 @@ focus_tree = {
 		}
 		x = 46
 		y = 8
-
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = KOR_CNT_Distribution_focus
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Temporary_Committee
 		}
 		x = 46
 		y = 9
-
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = KOR_Pursuit_of_the_theory_of_freedom_association
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_politic_free
 		}
@@ -249,7 +259,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Withdrawal_of_private_property
 		icon = GFX_KOR_CNT_Shared_product
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_anarcho-communism
 			focus = KOR_CNT_Anaco_Syndicalism
@@ -261,7 +271,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Partial_abolition_of_private_property
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Withdrawal_of_private_property
 		}
@@ -272,7 +282,7 @@ focus_tree = {
 	focus = {
 		id = KOR_State_rejection
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_Partial_abolition_of_private_property
 			focus = KOR_Partial_abolition_of_private_property
@@ -284,7 +294,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_The_abolition_of_wage_labor
 		icon = GFX_KOR_CNT_The_abolition_of_wage_labor
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_anarcho-communism
 			focus = KOR_CNT_Anaco_Syndicalism
@@ -296,7 +306,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Expansion_of_labor_union
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Anaco_Syndicalism
 		}
@@ -307,7 +317,7 @@ focus_tree = {
 	focus = {
 		id = ROK_CNT_As_much_as_you_need
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_The_abolition_of_wage_labor
 			focus = KOR_CNT_Expansion_of_labor_union
@@ -319,19 +329,19 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Respect_for_women's_rights
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_Partial_abolition_of_private_property
 			focus = ROK_CNT_As_much_as_you_need
 		}
 		x = 48
 		y = 6
-
+		
 	}
 	focus = {
 		id = ROK_CNT_Social_freedom
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Respect_for_women's_rights
 		}
@@ -345,7 +355,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Single_union
 		icon = GFX_One_Big_Union
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Expansion_of_labor_union
 		}
@@ -362,7 +372,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Industry_specific_repair_unions
 		icon = GFX_KOR_Industry_specific_repair_unions
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_Single_union
 		}
@@ -378,7 +388,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Corporatist_policy
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_Single_union
 		}
@@ -397,7 +407,7 @@ focus_tree = {
 	focus = {
 		id = KOR_cnt_people_for_union
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Corporatist_policy
 		}
@@ -406,23 +416,33 @@ focus_tree = {
 		}
 		x = 53
 		y = 7
-
+		completion_reward = {
+			country_event = {
+				id = KORnan.38
+				days = 2
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_Cooperation_with_IWW
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Corporatist_policy
 		}
 		x = 55
 		y = 7
-
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+    			target = IWW
+    			modifier = internationale_solidarity
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_East_Asian_workers_liberation
 		icon = GFX_Freedom_east_asia
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Cooperation_with_IWW
 		}
@@ -444,7 +464,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Direct_action_in_japan
 		icon = GFX_riot_japan
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_East_Asian_workers_liberation
 		}
@@ -469,7 +489,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Direct_action_in_China
 		icon = GFX_riot_china
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_East_Asian_workers_liberation
 		}
@@ -492,12 +512,12 @@ focus_tree = {
 						set_demilitarized_zone = yes
 					}
 				}
-
+			
 	}
 	focus = {
 		id = KOR_CNT_Revolution_in_Japan
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_China
 		}
@@ -521,7 +541,7 @@ focus_tree = {
 	focus = {
 		id = KOR_JAP_Revolutionary_Volunteer
 		icon = GFX_Revolutionary_Volunteer
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Revolution_in_Japan
 		}
@@ -536,7 +556,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Solidarity_with_the_IWW
 		icon = GFX_Freedom_IWW
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_cnt_people_for_union
 		}
@@ -559,7 +579,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_General_strike_in_the_United_States
 		icon = GFX_general_strike
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Solidarity_with_the_IWW
 		}
@@ -578,7 +598,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Call_for_US_labor_unions_to_join_IWW
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Solidarity_with_the_IWW
 		}
@@ -594,7 +614,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Armed_Uprising_Support
 		icon = GFX_KOR_CNT_Armed_Uprising_Support
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Call_for_US_labor_unions_to_join_IWW
 		}
@@ -616,7 +636,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Chicago_Uprising
 		icon = GFX_chicago_riot
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Solidarity_with_the_IWW
 		}
@@ -632,7 +652,7 @@ focus_tree = {
 	focus = {
 		id = KOR_IWW_International_Invitation
 		icon = GFX_KOR_CNT_Call_for_US_labor_unions_to_join_IWW
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Call_for_US_labor_unions_to_join_IWW
 		}
@@ -653,7 +673,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_IWW_Liberation_day
 		icon = GFX_workers_freedom_day
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Armed_Uprising_Support
 		}
@@ -672,7 +692,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_There_is_no_political_equality_without_social_equality.
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = ROK_CNT_Social_freedom
 			focus = KOR_Pursuit_of_the_theory_of_freedom_association
@@ -684,7 +704,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Code_of_Anarchism
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_New_direction
 		}
@@ -745,7 +765,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_social_Imperialism
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_Code_of_Anarchism
 		}
@@ -764,7 +784,7 @@ focus_tree = {
 	focus = {
 		id = KOR_A_quasi_political_program
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_Code_of_Anarchism
 		}
@@ -775,7 +795,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_cohesion
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_A_quasi_political_program
 		}
@@ -792,7 +812,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_SOCIAL_Imperialism_Propaganda
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_social_Imperialism
 		}
@@ -803,7 +823,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Solidarity_of_workers
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_Code_of_Anarchism
 			focus = KOR_CNT_Temporary_Committee
@@ -815,7 +835,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Kronstadt_rebellion_revenge
 		icon = GFX_KOR_CNT_Kronstadt_rebellion_revenge
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_SOCIAL_Imperialism_Propaganda
 		}
@@ -868,7 +888,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Revolution_in_china
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_China
 		}
@@ -891,7 +911,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_CHI_Militia_support
 		icon = GFX_Militia_organization
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_japan
 		}
@@ -909,7 +929,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_JAP_Militia_support
 		icon = GFX_Militia_organization
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_China
 		}
@@ -927,7 +947,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_International_International_Brigade
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_China
 			focus = KOR_CNT_Direct_action_in_japan
@@ -944,7 +964,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CHI_Revolutionary_Volunteer
 		icon = GFX_Revolutionary_Volunteer
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Revolution_in_china
 		}
@@ -959,7 +979,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_JAP_Worker_liberation
 		icon = GFX_KOR_CNT_Worker_liberation
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_JAP_Revolutionary_Volunteer
 		}
@@ -992,7 +1012,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_CHI_Worker_liberation
 		icon = GFX_KOR_CNT_Worker_liberation
-		cost = 10.00
+		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_CHI_Militia_support
 		}

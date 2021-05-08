@@ -1185,6 +1185,38 @@ country_event = { #인터내셔널 국제여단
 		}
 	}
 }
+country_event = { #인민의 노동조합
+	id = KORnan.38
+	title = KORnan.38.t
+	desc = KORnan.38.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.38.a
+		ai_chance = {
+		    factor = 100
+		}
+		add_stability = 0.1
+	}
+}
+country_event = { #평등한 코뮌
+	id = KORnan.39
+	title = KORnan.39.t
+	desc = KORnan.39.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.39.a
+		ai_chance = {
+		    factor = 100
+		}
+		add_stability = 0.1
+	}
+}
 country_event = { #카렐리아 논쟁 
 	id = KORnan.22
 	title = KORnan.22.t
