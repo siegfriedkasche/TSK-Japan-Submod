@@ -21,7 +21,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "일본산업노동자연맹"
+	name = "중화산업노동자연맹"
 	desc = ""
 	picture = "Military_Revolution.png"
 	expire = "1965.1.1"
@@ -31,7 +31,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "일본산업노동자연맹"
+	name = "중화산업노동자연맹"
 	desc = ""
 	picture = "Military_Revolution.png"
 	expire = "1965.1.1"
@@ -41,7 +41,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "일본산업노동자연맹"
+	name = "중화산업노동자연맹"
 	desc = ""
 	picture = "Military_Revolution.png"
 	expire = "1965.1.1"
@@ -51,7 +51,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "일본산업노동자연맹"
+	name = "중화산업노동자연맹"
 	desc = ""
 	picture = "Military_Revolution.png"
 	expire = "1965.1.1"

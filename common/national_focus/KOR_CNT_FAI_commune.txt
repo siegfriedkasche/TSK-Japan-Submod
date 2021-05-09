@@ -830,7 +830,9 @@ focus_tree = {
 		}
 		x = 44
 		y = 9
-
+		completion_reward = {
+			load_oob = "WOrkers_solidarity"
+		}
 	}
 	focus = {
 		id = KOR_CNT_Kronstadt_rebellion_revenge
