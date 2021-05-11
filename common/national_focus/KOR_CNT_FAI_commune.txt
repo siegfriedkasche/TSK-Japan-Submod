@@ -51,6 +51,7 @@ focus_tree = {
 		relative_position_id = KOR_CNT_direction_of_the_commune
 			completion_reward = {
 					hidden_effect = {
+						
 							set_party_name = {
 									ideology = communism
 									long_name = "동아산업노동자연맹"
@@ -77,6 +78,10 @@ focus_tree = {
 }
 								}
 						}
+					swap_ideas = {
+						remove_idea = Corporate_remnants
+						add_idea = Capitalist_backlash
+					}
 					set_politics = {
 							ruling_party = communism
 							last_election = "1934.12.19"
@@ -109,11 +114,18 @@ focus_tree = {
 		x = 44
 		y = 3
 			completion_reward = {
+				swap_ideas = {
+						remove_idea = Corporate_remnants
+						add_idea = Capitalist_backlash
+					}
 					set_politics = {
 							ruling_party = communism
 							last_election = "1934.12.19"
 							election_frequency = 60
 							elections_allowed = no
+						}
+						hidden_effect = {
+							add_ideas = Capitalist_backlash
 						}
 				}
 
@@ -153,23 +165,41 @@ focus_tree = {
 		id = KOR_Direct_democracy_through_the_commune
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 4
+		available = {
+			has_idea = Unstable_commune
+		}
 		prerequisite = {
 			focus = KOR_CNT_union_of_commune
 		}
 		x = 44
 		y = 5
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Unstable_commune
+				add_idea = Unstable_commune_1
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_Distribution_of_communes
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 4
+		available = {
+			and = {
+				has_idea = Capitalist_backlash_1
+			}
+		}
 		prerequisite = {
 			focus = KOR_Direct_democracy_through_the_commune
 		}
 		x = 43
 		y = 6
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Capitalist_backlash_1
+				add_idea = Capitalist_backlash_2
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_Equal_commune
@@ -266,7 +296,15 @@ focus_tree = {
 		}
 		x = 48
 		y = 4
-
+		completion_reward = {
+			add_ideas = Masterless_means_of_production
+			hidden_effect = {
+				UFT = { add_ideas = Masterless_means_of_production }
+				CAF = { add_ideas = Masterless_means_of_production }
+				JAF = { add_ideas = Masterless_means_of_production }
+				IWW = { add_ideas = Masterless_means_of_production }
+			}
+		}
 	}
 	focus = {
 		id = KOR_Partial_abolition_of_private_property
@@ -283,13 +321,21 @@ focus_tree = {
 		id = KOR_State_rejection
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 4
+		available = {
+			has_idea = Capitalist_backlash_2
+		}
 		prerequisite = {
 			focus = KOR_Partial_abolition_of_private_property
 			focus = KOR_Partial_abolition_of_private_property
 		}
 		x = 50
 		y = 6
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Capitalist_backlash_2
+				add_idea = Capitalist_backlash_3
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_The_abolition_of_wage_labor
@@ -301,7 +347,13 @@ focus_tree = {
 		}
 		x = 50
 		y = 4
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Capitalist_backlash
+				add_idea = Capitalist_backlash_1
+			}
+			add_stability = 0.1
+		}
 	}
 	focus = {
 		id = KOR_CNT_Expansion_of_labor_union
@@ -324,7 +376,9 @@ focus_tree = {
 		}
 		x = 50
 		y = 5
-
+		completion_reward = {
+			add_ideas = self_management
+		}
 	}
 	focus = {
 		id = KOR_CNT_Respect_for_women's_rights
@@ -394,10 +448,18 @@ focus_tree = {
 		}
 		available = {
 			has_completed_focus = KOR_Industry_specific_repair_unions
+			and = {
+				has_idea = Capitalist_backlash_1
+			}
 		}
 		x = 54
 		y = 6
 		completion_reward = {
+
+			swap_ideas = {
+				remove_idea = Capitalist_backlash_1
+				add_idea = Capitalist_backlash_2
+			}
 			swap_ideas = {
     			remove_idea = revolutionary_industrial_union
     			add_idea = revolutionary_industrial_union_2
@@ -414,12 +476,19 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_Industry_specific_repair_unions
 		}
+		available = {
+			has_idea = Unstable_commune
+		}
 		x = 53
 		y = 7
 		completion_reward = {
 			country_event = {
 				id = KORnan.38
 				days = 2
+			}
+			swap_ideas = {
+				remove_idea = Unstable_commune
+				add_idea = Unstable_commune_1
 			}
 		}
 	}
@@ -599,15 +668,23 @@ focus_tree = {
 		id = KOR_CNT_Call_for_US_labor_unions_to_join_IWW
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 4
+		available = {
+			has_idea = Unstable_commune_1
+		}
 		prerequisite = {
 			focus = KOR_CNT_Solidarity_with_the_IWW
 		}
 		x = 57
 		y = 9
 			completion_reward = {
+				swap_ideas = {
+					remove_idea = Unstable_commune_1
+					add_idea = Unstable_commune_2
+				}
 					IWW = {
 							add_ideas = IWW_unions
 						}
+				
 				}
 
 	}
@@ -693,13 +770,21 @@ focus_tree = {
 		id = KOR_CNT_There_is_no_political_equality_without_social_equality.
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 4
+		available = {
+			has_idea = Capitalist_backlash_4
+		}
 		prerequisite = {
 			focus = ROK_CNT_Social_freedom
 			focus = KOR_Pursuit_of_the_theory_of_freedom_association
 		}
 		x = 49
 		y = 8
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Capitalist_backlash_3
+				add_idea = Capitalist_backlash_4
+			}
+		}
 	}
 	focus = {
 		id = KOR_Code_of_Anarchism
@@ -802,11 +887,18 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_CNT_social_Imperialism
 		}
+		available = {
+			has_idea = Unstable_commune_1
+		}
 		x = 41
 		y = 10
 			completion_reward = {
-					add_ideas = United_commune
+				add_ideas = United_commune
+				swap_ideas = {
+					remove_idea = Unstable_commune_1
+					add_idea = Unstable_commune_2
 				}
+			}
 
 	}
 	focus = {

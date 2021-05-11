@@ -17,6 +17,7 @@ country_event = {
 		hidden_effect = {
 			news_event = {
 				id = Ana_news.1
+				add_ideas = Unstable_commune
 			}
 		}
 	}
@@ -40,6 +41,24 @@ country_event = {
     		target = KPA
     		transfer_troops = yes
 		}
+		add_ideas = Unstable_commune
+	}
+}
+
+country_event = {
+	id = KORnan.10001 #중점 체인지
+	title = KORnan.1.t
+	desc = KORnan.1.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.1.a
+		ai_chance = {
+		    factor = 100
+		}
+		complete_national_focus = KOR_Delegate_meeting
 	}
 }
 

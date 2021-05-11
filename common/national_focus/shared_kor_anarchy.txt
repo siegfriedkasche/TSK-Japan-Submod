@@ -23,7 +23,7 @@ shared_focus = {
 		add_ideas = Sharing_means_of_production
 		add_ideas = Vigilante
 		hidden_effect = {
-			
+			add_ideas = Corporate_remnants
 			country_lock_all_division_template = yes            #중요
 		delete_unit_template_and_units = {
     		division_template = "동원사단"
