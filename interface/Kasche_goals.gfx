@@ -115,4 +115,8 @@ spriteTypes = {
         name = "GFX_KOR_CNT_Worker_liberation"
         texturefile = "gfx/interface/goals/KOR_CNT_Worker_liberation.png"
     }
+    spriteType = {
+        name = "GFX_KOR_CNT_Corporatist_policy"
+        texturefile = "gfx/interface/goals/KOR_CNT_Corporatist_policy.png"
+    }
 }

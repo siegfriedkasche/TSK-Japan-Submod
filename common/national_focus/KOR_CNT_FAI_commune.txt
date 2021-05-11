@@ -441,7 +441,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_Corporatist_policy
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_Corporatist_policy
 		cost = 4
 		prerequisite = {
 			focus = KOR_Single_union

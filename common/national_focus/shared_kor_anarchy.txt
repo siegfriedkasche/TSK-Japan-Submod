@@ -142,7 +142,7 @@ shared_focus = {
 				desc = ""
 				picture = "gfx/leaders/KOR/anarchy.png"
 				expire = "1965.1.1"
-				ideology = despotism
+				ideology = anarchism
 				traits = {
 					#
 				}
