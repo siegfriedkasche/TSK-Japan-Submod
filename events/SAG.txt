@@ -100,6 +100,95 @@ country_event = {
 					}
 				}
 			}
+			SAG = {
+				country_event = {
+					id = SAG.3
+					days = 8
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = SAG.3 #러시아국
+	title = SAG.3.t
+	desc = SAG.3.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = SAG.3.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+			SOV = {
+				SAG = {
+				country_event = {
+					id = SAG.4
+				}
+			}
+			}
+			RUR = {
+				add_state_core = 560
+				transfer_state = 560
+
+				add_state_core = 409
+				transfer_state = 409
+
+				add_state_core = 657
+				transfer_state = 657
+				
+				add_state_core = 408
+				transfer_state = 408
+
+				add_state_core = 562
+				transfer_state = 562
+
+				add_state_core = 637
+				transfer_state = 637
+
+				add_state_core = 644
+				transfer_state = 644
+
+				add_state_core = 574
+				transfer_state = 574
+
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+			    }
+			}
+
+		}
+	}
+}
+
+country_event = {
+	id = SAG.4 #농노적군
+	title = SAG.4.t
+	desc = SAG.4.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = SAG.4.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+			SOV = {
+				transfer_units_fraction= {
+					target = RUR
+					size = 0.3
+					air_ratio = 0.1
+					stockpile_ratio = 0.2
+					army_ratio = 0.4
+				}
+			}
 		}
 	}
 }

@@ -1,0 +1,13 @@
+china_Policy_decisions_SND = {
+	icon = generic_arms_trade
+	picture = GFX_decision_Russian_Civil_War
+	priority = 200
+	allowed = {
+			or = {
+				tag = RUR
+				tag = SAG
+				tag = CRS
+				tag = UFT
+			}
+	}
+}

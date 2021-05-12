@@ -1,68 +1,3 @@
-
-china_Maintain_zhi_relationship = {
- 	Meeting_with_Wufeipu = {
-		icon = generic_prepare_civil_war
-		available = {
-			country_exists = ZHI
-			controls_state = 821
-			controls_state = 743
-			has_completed_focus = SND_wu_feifu_handshake
-			NOT = {
-				has_war_with = zhi
-				has_idea = Wufeipu_meeting
-			}
-		}
-		highlight_state_targets = {
-			state = 830
-		}
-		ai_will_do = {
-			factor = 100
-		}
-
-		fire_only_once = yes
-		cost = 50
-		days_remove = 45
-
-		remove_effect = {
-			add_timed_idea = {
-				idea = Wufeipu_meeting
-				days = 30
-			}
-		}
-	}
- 	Meeting_with_zhang_kai_sheck = {
-		icon = generic_prepare_civil_war
-		available = {
-			country_exists = CHI
-			controls_state = 821
-			controls_state = 743
-			has_completed_focus = SND_zhang_kai_sheck_handshake
-			NOT = {
-				has_war_with = CHI
-				has_idea = zhang_kai_sheck_meeting
-			}
-		}
-		highlight_state_targets = {
-			state = 592
-		}
-		ai_will_do = {
-			factor = 100
-		}
-
-		fire_only_once = yes
-		cost = 50
-		days_remove = 45
-
-		remove_effect = {
-			add_timed_idea = {
-				idea = zhang_kai_sheck_meeting
-				days = 30
-			}
-		}
-	}
-}
-
-
 china_Policy_decisions_SND = {
  	China_Army_training = {
 		icon = generic_prepare_civil_war
@@ -97,7 +32,7 @@ china_Policy_decisions_SND = {
 		}
 	}
  	china_Military_plant = {
-		icon = generic_prepare_civil_war
+		icon = generic_industry
 		available = {
 			hidden_effect = {
 				not = {
@@ -131,7 +66,7 @@ china_Policy_decisions_SND = {
 		}
 	}
 	china_Construction_plant = {
-		icon = generic_prepare_civil_war
+		icon = generic_industry
 		available = {
 			hidden_effect = {
 				not = {
@@ -167,7 +102,7 @@ china_Policy_decisions_SND = {
 		}
 	}
 	china_Land_Corporation = {
-		icon = generic_prepare_civil_war
+		icon = generic_infiltrate_state
 		available = {
 			hidden_effect = {
 				not = {
@@ -230,13 +165,6 @@ china_Policy_decisions_SND = {
 			army_attack_factor = 0.1
 		}
 
-		remove_effect = {
-
-			random_owned_state = {
-				#
-			}
-			
-		}
 	}
 	china_army_down_money = {
 		icon = generic_prepare_civil_war
@@ -269,13 +197,6 @@ china_Policy_decisions_SND = {
 			army_attack_factor = -0.15
 		}
 
-		remove_effect = {
-
-			random_owned_state = {
-				#
-			}
-			
-		}
 	}
 	china_Construction_investment = {
 		icon = generic_prepare_civil_war
@@ -308,12 +229,75 @@ china_Policy_decisions_SND = {
 			production_speed_industrial_complex_factor = 0.15
 		}
 
+	}
+
+	china_research_investment = {
+		icon = generic_prepare_civil_war
+		available = {
+			hidden_effect = {
+				not = {
+					has_war = yes
+					has_civil_war = yes
+					has_decision = China_Army_training
+					has_decision = china_Military_plant
+					has_decision = china_Construction_plant
+					has_decision = china_Land_Corporation
+					has_decision = china_army_add_money
+					has_decision = china_army_down_money
+					has_decision = china_Construction_investment
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			industrial_capacity_factory = -0.1 
+			research_speed_factor = 0.15
+		}
+			
+		
+	}
+	china_Infrastructure_investment = {
+		icon = generic_prepare_civil_war
+		available = {
+			hidden_effect = {
+				not = {
+					has_war = yes
+					has_civil_war = yes
+					has_decision = China_Army_training
+					has_decision = china_Military_plant
+					has_decision = china_Construction_plant
+					has_decision = china_Land_Corporation
+					has_decision = china_army_add_money
+					has_decision = china_army_down_money
+					has_decision = china_Construction_investment
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		fire_only_once = yes
+		cost = 25
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.03
+		}
+			
 		remove_effect = {
 
 			random_owned_state = {
-				#
+				add_offsite_building = { type = Infrastructure level = 3 }
 			}
 			
 		}
 	}
+	
 }

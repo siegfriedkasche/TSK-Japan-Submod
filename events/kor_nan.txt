@@ -776,10 +776,8 @@ country_event = { #사할린
 		    factor = 100
 		}
 		hidden_effect = {
-		JAP = {
 			transfer_state = 655
 			add_state_core = 655
-		}
 		}
 	}
 	option = {

@@ -1,0 +1,6 @@
+spriteTypes = { 
+	spriteType = {
+		name = "GFX_decision_Russian_Civil_War"
+		texturefile = "gfx/interface/decisions/Russian_Civil_War.png"
+	}
+}
