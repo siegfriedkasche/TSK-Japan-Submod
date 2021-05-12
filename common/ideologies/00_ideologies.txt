@@ -143,6 +143,9 @@ ideologies = {
 	fascism = {
 	
 		types = {
+			Dystopia_system = {
+
+			}
 			national_syndicalism = {
 			}
 
