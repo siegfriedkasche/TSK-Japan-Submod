@@ -89,15 +89,15 @@ ideologies = {
 			anti_revisionism = {
 			}
 			
-			anarchist_communism = {
+			anarchist_communism = { #안콤
 				can_be_randomly_selected = no
 			}
 			
-			anarcho_syndicalism = {
+			anarcho_syndicalism = { #안생
 				can_be_randomly_selected = no
 			}
 			
-			jucheism = {
+			jucheism = { #주체주의
 				can_be_randomly_selected = no
 			}
 		}
@@ -162,7 +162,6 @@ ideologies = {
 			}
 			
 			yushinism = {
-				can_be_randomly_selected = no
 			}
 
 			Ultranationalism = {
