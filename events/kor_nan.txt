@@ -17,8 +17,8 @@ country_event = {
 		hidden_effect = {
 			news_event = {
 				id = Ana_news.1
-				add_ideas = Unstable_commune
 			}
+			add_ideas = Unstable_commune
 		}
 	}
 }
@@ -203,30 +203,21 @@ country_event = {
 		ai_chance = {
 		    factor = 50
 		}
+		
 		hidden_effect = {
-			add_equipment_to_stockpile = {
-  				type = infantry_equipment
-    			amount = 10000
-    			producer = UFT
-			}
-			
-			KAZ = {
-				country_event = {
-    				id = KORnan.25
-    				days = 17
-    				random = 100
-    				random_days = 17
-				}
-			}
 			
 			CRS = {
 				transfer_state = 195
 
 				add_state_core = 195
 
-				load_oob = "CRS_1936"
 			}
 			UFT = {
+				add_equipment_to_stockpile = {
+  					type = infantry_equipment
+    				amount = 10000
+    				producer = UFT
+				}
 				load_oob = "UFT_1936"
 				transfer_state = 227
 				transfer_state = 200
@@ -263,7 +254,18 @@ country_event = {
     				random_days = 12
 				}
 			}
+			KOR = {
+				country_event = {
+					id = SAG.1
+					days = 20
+				}
+				country_event = {
+    				id = KORnan.25
+    				days = 17
+				}
+			}
 			SOV = {
+				
 				country_event = {
     				id = KORnan.27
     				days = 23
@@ -412,13 +414,13 @@ country_event = {
 				set_demilitarized_zone = yes
 			}
 		}
-		usa = {
+		USA = {
 			add_popularity = {
     			ideology = communism
     			popularity = 0.2
 			}
 		}
-		country_event ={
+		country_event = {
 			id = KORnan.12
 		}
 		}
@@ -458,7 +460,7 @@ country_event = { #뉴잉글랜드 동참
 			add_state_core = 357
 			add_state_core = 358
 		}
-		usa = {
+		USA = {
 			add_popularity = {
     			ideology = communism
     			popularity = 0.1
@@ -495,7 +497,7 @@ country_event = { #북부이스트코스트 동참
 			add_state_core = 369
 			add_state_core = 261
 		}
-		usa = {
+		USA = {
 			add_popularity = {
     			ideology = communism
     			popularity = 0.1
@@ -534,7 +536,7 @@ country_event = { #미네소타와 아이오와주 동참
 			add_state_core = 392
 			
 		}
-		usa = {
+		USA = {
 			add_popularity = {
     			ideology = communism
     			popularity = 0.5
@@ -742,6 +744,7 @@ country_event = { #투르크메니스탄
 		    factor = 100
 		}
 		hidden_effect = {
+			
 		TMS = {
 			transfer_state = 584
 			transfer_state = 585
@@ -784,6 +787,7 @@ country_event = { #사할린
 		ai_chance = {
 		    factor = 0
 		}
+		
 	}
 }
 
@@ -941,8 +945,8 @@ country_event = { #중국 혁명
 			596 = {
 				set_demilitarized_zone = no
 			}
-			chi = {
-				emove_from_faction = CHI
+			CHI = {
+				remove_from_faction = CHI
 				end_puppet = Mon
 				end_puppet = MAN
 				end_puppet = MEN
@@ -1262,7 +1266,6 @@ country_event = { #카렐리아 논쟁
 			transfer_state = 213
 			transfer_state = 215
 			transfer_state = 216
-			set
 		}
 		set_party_name = {
 			ideology = neutrality

@@ -3,6 +3,10 @@ PR1 = {
 	color = rgb { 197  0  0 }
 	color_ui = rgb { 197  0  0 }
 }
+RUR = {
+	color = rgb { 0  25  71 }
+	color_ui = rgb { 0  25  71 }
+}
 KPA = {
 	color = rgb { 204  0  0 }
 	color_ui = rgb { 204  0  0 }
@@ -63,6 +67,10 @@ JAF  = {
 CAF  = {
 	color = rgb { 169 0 0 }
 	color_ui = rgb { 169 0 0 }
+}
+SAG  = {
+	color = rgb { 90 11 11 }
+	color_ui = rgb { 90 11 11 }
 }
 
 

@@ -1,0 +1,28 @@
+﻿l_english:
+ SAG_democratic:0 "붉은 군대"
+ SAG_neutrality:0 "붉은 군대"
+ SAG_fascism:0 "붉은 군대"
+ SAG_communism_ADJ:0 "붉은 군대"
+ SAG_democratic_ADJ:0 "붉은 군대"
+ SAG_neutralit_ADJ:0 "붉은 군대"
+ SAG_fascism_ADJ:0 "갈색 군대"
+ SAG:0 "붉은 군대"
+ SAG_communism_DEF:0 "붉은 군대"
+ SAG_democratic_DEF:0 "붉은 군대"
+ SAG_neutrality_DEF:0 "붉은 군대"
+ SAG_fascism_DEF:0 "갈색 군대"
+ SAG:0 "붉은 군대"
+ SAG_DEF:0 "붉은 군대"
+ SAG_ADJ:0 "붉은 군대"
+
+ SAG.1.t:0 "군부 구데타"
+ SAG.1.d:0 "새로운 소련을 건설해야합니다."
+ SAG.1.a:0 "더이상의 낡은 연방은 없다" 
+
+ SAG.2.t:0 "군부 구데타"
+ SAG.2.d:0 "새로운 소련을 건설해야합니다."
+ SAG.2.a:0 "더이상의 낡은 연방은 없다" 
+
+ Ana_news.4.t:0 "붉은 군대의 반란"
+ Ana_news.4.d:0 "일어나랃 노동자의 군대"
+ Ana_news.4.a:0 "연방에게 더이상의 미래는 없군"

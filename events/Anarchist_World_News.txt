@@ -88,3 +88,17 @@ news_event = {
 	#}
 }
 
+news_event = {
+	id = Ana_news.4
+	title = Ana_news.4.t
+	desc = Ana_news.4.d
+	picture = GFX_news_red_army
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ana_news.4.a
+	}
+}
