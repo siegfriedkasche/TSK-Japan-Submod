@@ -9,6 +9,12 @@ ideologies = {
 		
 			liberalism = {
 			}
+			
+			liberalism_left = {
+			}
+
+			liberalism_right = {
+			}
 		
 			socialism = {
 			}
@@ -144,8 +150,8 @@ ideologies = {
 	
 		types = {
 			Dystopia_system = {
-
 			}
+
 			national_syndicalism = {
 			}
 
