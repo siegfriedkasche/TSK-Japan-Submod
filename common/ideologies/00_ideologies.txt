@@ -18,6 +18,9 @@ ideologies = {
 		
 			socialism = {
 			}
+			
+			Authoritative_democracy = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -70,10 +73,23 @@ ideologies = {
 	communism = {
 		
 		types = {
+
+			Nationalist_socialism = {
+			}
+
 			Syndicalisme ={
 			}
 
 			Trotskyism = {
+			}
+
+			liberal_socialism = {
+			}
+			
+			Eco_socialism = {
+			}
+
+			Avantgarde_socialism = {
 			}
 
 			maoism = {
@@ -149,6 +165,13 @@ ideologies = {
 	fascism = {
 	
 		types = {
+
+			Strathaism = {
+			}
+
+			Totalitarian_anti_communism = {
+			}
+
 			Dystopia_system = {
 			}
 
@@ -213,8 +236,10 @@ ideologies = {
 	neutrality = {
 	
 		types = {
-		
 			despotism  = {
+			}
+
+			authoritative_oligarchy = {
 			}
 			
 			oligarchism  = {
