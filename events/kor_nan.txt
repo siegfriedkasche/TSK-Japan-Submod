@@ -210,7 +210,6 @@ country_event = {
 			}
 			CRS = {
 				transfer_state = 195
-
 				add_state_core = 195
 
 			}

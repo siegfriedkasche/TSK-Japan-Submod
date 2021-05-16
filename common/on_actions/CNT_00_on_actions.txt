@@ -4,20 +4,23 @@ on_actions = {
             if = {
                 limit = {
                     SOV = {
-                        surrender_progress < 0.05
+                        surrender_progress > 0.95
                     }
-               	 	and = {
-                    	SOV = {
+                    and = {
+                        SOV = {
                             has_war_with = SAG
                             has_war_with = RUR
                             has_war_with = UFT
-                    	}
-               		}
+                        }
+                    }
                 }
-            }
-            SOV = {
-                country_event = {
-                    id = Kron.1
+                SOV = {
+                    white_peace = RUR
+                    white_peace = UFT
+                    white_peace = SAG
+                    country_event = {
+                        id = Kron.1
+                    }
                 }
             }
         }

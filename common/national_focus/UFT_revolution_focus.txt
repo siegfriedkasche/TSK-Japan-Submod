@@ -1,0 +1,232 @@
+focus_tree = {
+	id = UFT
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UFT
+		}
+	}
+	default = no
+	
+	focus = {
+		id = UFT_revolution
+		icon = GFX_goal_unknown
+		cost = 3.00
+		x = 15
+		y = 2
+		
+	}
+	focus = {
+		id = UFT_bolshevik_opposition
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_revolution
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = UFT_program
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_bolshevik_opposition
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = UFT_Black_army
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_program
+		}
+		mutually_exclusive = {
+			focus = UFT_Temporary_Committee
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = UFT_propaganda
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_Black_army
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = UFT_Temporary_Committee
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_program
+		}
+		mutually_exclusive = {
+			focus = UFT_Black_army
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = UFT_Appeal_to_the_people
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_Black_army
+			focus = UFT_Temporary_Committee
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = UFT_Platformism
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_Appeal_to_the_people
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = UFT_revolution_front
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_Appeal_to_the_people
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = UFT_Organization_of_the_struggle
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_revolution_front
+		}
+		prerequisite = {
+			focus = UFT_Platformism
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = UFT_Unity_against_reaction
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_Temporary_Committee
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = UFT_Soviet_betrayal
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_Temporary_Committee
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = UFT_Call_of_the_Outcast
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_Unity_against_reaction
+		}
+		prerequisite = {
+			focus = UFT_Soviet_betrayal
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = UFT_program_for_free
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_Call_of_the_Outcast
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = UFT_no_god_no_master
+		icon = GFX_goal_unknown
+		cost = 3.00
+		available = {
+			has_war = no
+		}
+		prerequisite = {
+			focus = UFT_program_for_free
+			focus = UFT_program_for_Revolution
+		}
+		prerequisite = {
+			focus = UFT_Organization_of_the_struggle
+		}
+		x = 15
+		y = 9
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = UFT_Revolutionary_unity
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_Black_army
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = UFT_Black_Guard
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_Revolutionary_unity
+		}
+		prerequisite = {
+			focus = UFT_propaganda
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = UFT_program_for_Revolution
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = UFT_Black_Guard
+		}
+		x = 13
+		y = 8
+
+	}
+}

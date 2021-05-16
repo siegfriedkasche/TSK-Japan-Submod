@@ -17,6 +17,81 @@ country_event = {
 			white_peace = RUR
             white_peace = UFT
             white_peace = SAG
+			SAG = {
+				transfer_state = 207
+				transfer_state = 206
+				transfer_state = 242
+				transfer_state = 241
+				transfer_state = 204
+				transfer_state = 194
+				transfer_state = 243
+				transfer_state = 205
+				transfer_state = 224
+				transfer_state = 223
+				transfer_state = 254
+				transfer_state = 222
+				transfer_state = 581
+				transfer_state = 397
+				transfer_state = 400
+				transfer_state = 398
+				transfer_state = 220
+
+				add_state_core = 220
+				add_state_core = 207
+				add_state_core = 206
+				add_state_core = 242
+				add_state_core = 241
+				add_state_core = 204
+				add_state_core = 194
+				add_state_core = 243
+				add_state_core = 205
+				add_state_core = 224
+				add_state_core = 223
+				add_state_core = 254
+				add_state_core = 222
+				add_state_core = 581
+				add_state_core = 397
+				add_state_core = 400
+				add_state_core = 398
+			}
+			UFT = {
+				transfer_state = 203
+				transfer_state = 192
+				transfer_state = 197
+				transfer_state = 198
+				transfer_state = 202
+				transfer_state = 201
+				transfer_state = 259
+				transfer_state = 225
+				transfer_state = 193
+				transfer_state = 137
+				transfer_state = 199
+				transfer_state = 240
+
+				add_state_core = 240
+				add_state_core = 199
+				add_state_core = 137
+				add_state_core = 193
+				add_state_core = 225
+				add_state_core = 259
+				add_state_core = 201
+				add_state_core = 202
+				add_state_core = 198
+				add_state_core = 203
+				add_state_core = 192
+				add_state_core = 197
+			}
+			RUR = {
+				transfer_state = 561
+				transfer_state = 563
+				transfer_state = 565
+				transfer_state = 564
+
+				add_state_core = 561
+				add_state_core = 563
+				add_state_core = 565	
+				transfer_state = 564		
+			}
 		}
 	}
 }
