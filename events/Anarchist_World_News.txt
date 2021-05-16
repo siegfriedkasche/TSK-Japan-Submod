@@ -102,3 +102,20 @@ news_event = {
 		name = Ana_news.4.a
 	}
 }
+news_event = {
+	id = Ana_news.5
+	title = Ana_news.5.t
+	desc = Ana_news.5.d
+	picture = GFX_news_red_army
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ana_news.5.a
+		hidden_effect = {
+			set_country_flag = big_event_great_public_war
+		}
+	}
+}

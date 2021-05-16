@@ -5,7 +5,13 @@ soundeffect = {
 	}
 	volume = 55
 }
-
+soundeffect = {
+	name = great_public_war
+	sounds = {
+		sound = great_public_war
+	}
+	volume = 70
+}
 
 #철의 노동자
 soundeffect = {

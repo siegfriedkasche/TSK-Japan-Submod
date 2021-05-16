@@ -5,6 +5,12 @@ sound = {
 }
 
 sound = {
+	name = "great_public_war"
+	file = "menu/great_public_war.wav"
+	always_load = no
+}
+
+sound = {
 	name = "iron_worker"
 	file = "menu/iron_worker.wav"
 	always_load = no

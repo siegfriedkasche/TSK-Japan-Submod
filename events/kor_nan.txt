@@ -205,7 +205,9 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			
+			news_event = {
+				id = Ana_news.5
+			}
 			CRS = {
 				transfer_state = 195
 

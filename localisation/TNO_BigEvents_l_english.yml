@@ -3,6 +3,10 @@ BE_ASSASSIN_JAE_PIL_T:0 "미국에서의 혁명"
 BE_ASSASSIN_JAE_PIL_D:0 "인간의 자유는 신성함, 인간, 집단 혹은 개인 같은 어떠한 외부적 힘이 그에게 강요 하는 것이 아니다. 오로지 그 자신이 스스로를 인식한 자연적 법칙에 따르는 것이다.\n- 미하일 바쿠닌"
 BE_ASSASSIN_JAE_PIL_A:0 "이땅은 우리들의 땅이다!"
 
+great_public_war_T:0 "크론슈타트의 복수"
+great_public_war_D:0 "움직이지 않는 자, 묶인 사슬을 꺠닫지 못하리라\n- 로자 룩셈부르크"
+great_public_war_A:0 "쇠사슬을 끊어라"
+
 ##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
 
 

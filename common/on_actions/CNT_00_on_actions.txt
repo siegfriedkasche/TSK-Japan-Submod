@@ -1,0 +1,25 @@
+on_actions = {
+    on_daily = {
+        effect = {
+            if = {
+                limit = {
+                    SOV = {
+                        surrender_progress < 0.05
+                    }
+               	 	and = {
+                    	SOV = {
+                            has_war_with = SAG
+                            has_war_with = RUR
+                            has_war_with = UFT
+                    	}
+               		}
+                }
+            }
+            SOV = {
+                country_event = {
+                    id = Kron.1
+                }
+            }
+        }
+    }
+}

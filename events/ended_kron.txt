@@ -1,0 +1,22 @@
+add_namespace = Kron
+
+country_event = {
+	id = Kron.1 #무너진 연방
+	title = Kron.1.t
+	desc = Kron.1.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = Kron.1.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+			white_peace = RUR
+            white_peace = UFT
+            white_peace = SAG
+		}
+	}
+}

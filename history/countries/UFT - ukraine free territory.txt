@@ -9,6 +9,7 @@ set_technology = {
 }
 add_ideas = Sharing_means_of_production
 add_ideas = anarchist_social
+add_ideas = Russian_Civil_War
 add_ideas = anarchist_mobilization_laws
 set_politics = {
 	ruling_party = communism

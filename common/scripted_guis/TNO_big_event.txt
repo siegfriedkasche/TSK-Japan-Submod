@@ -24,6 +24,35 @@ scripted_gui = {
 		}
 	}
 
+	##인민의 싸움
+
+}
+scripted_gui = {
+
+	TNO_SG_big_event_great_public_war = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_great_public_war"
+
+		visible = {
+			has_country_flag = big_event_great_public_war
+		}
+	}
+
+	TNO_SG_big_event_frame_great_public_war = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_great_public_war"
+
+		visible = {
+			has_country_flag = big_event_great_public_war
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_great_public_war
+			}
+		}
+	}
+
 	##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
 
 }

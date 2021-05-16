@@ -18,7 +18,12 @@ country_event = {
 				country_event = {
 					id = SAG.2
 				}
+				swap_ideas = {
+					remove_idea = home_of_revolution
+					add_idea = Russian_Civil_War
+				}
 			}
+
 			SAG = {
 				news_event = {
 					id = Ana_news.4
@@ -75,7 +80,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = SAG.2 #농노적군
+	id = SAG.2 #농노적군 - 소련
 	title = SAG.2.t
 	desc = SAG.2.d
 	picture = GFX_파리코뮌
@@ -87,6 +92,7 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 		}
+		
 		hidden_effect = {
 			SOV = {
 				transfer_units_fraction= {
@@ -187,6 +193,11 @@ country_event = {
 					air_ratio = 0.1
 					stockpile_ratio = 0.2
 					army_ratio = 0.4
+				}
+			}
+			RUR = {
+				country_event = {
+					id = RUR.1
 				}
 			}
 		}
