@@ -1,0 +1,27 @@
+﻿l_english:
+ #infantry_equipment_10:0 "2020년 돌격소총"
+ #infantry_equipment_10_desc:0 "Objective Individual Combat Weapon의 줄임말로서 의미는 여러 전자장비 등의 도움을 받아 주야에 상관없이 목표를 추적, 섬멸할 수 있도록 디자인된 무기를 뜻합니다. "
+ #KOR_infantry_equipment_10:0 "K-11 복합소총 & 20mm K594 공중폭팔탄"
+ #KOR_infantry_equipment_10_desc:0 "K11 복합형 소총은 국방과학연구소가 8년간 185억원을 들여 개발한 차기 복합형 소총으로, 5.56mm 자동소총과 20mm 공중폭발탄 발사기를 이중총열화 시켜서 설계된 복합형 소총이다"
+
+ Heckler_und_Koch_Gewehr_11:0 "H&K G11"
+ Heckler_und_Koch_Gewehr_11:0 "독일의 헤클러 운트 코흐 사에서 개발한 무탄피식 돌격소총으로서 무탄피 탄약과 초고속 3점사, 독특한 장전 방식과 그에 걸맞게 특이한 각진 외관까지 눈에 띄는 요소가 많아 상당한 인지도를 자랑하지만, 실제 독일군 채용 직전까지 갔다가 취소되어버린 비운의 총이기도 하다."
+
+ crazy_H_UND_K:0 "H&K 신 돌격소총 개발산업"
+ crazy_H_UND_K_desc:0 "이기"
+
+ crazy_H_UND_K_1:0 "총신 개발"
+ HK_compeleted_line:0 "총신 개발 완료"
+ crazy_H_UND_K_2:0 "몸체 개발"
+ HK_compeleted_body:0 "몸체 개발 완료"
+ crazy_H_UND_K_3:0 "무탄피 탄창 연구"
+ HK_compeleted_cartridge_case:0 "틴칭 개발 완료"
+ crazy_H_UND_K_4:0 "무탄피탄 화약 연구"
+ HK_compeleted_gunpowder:0 "화약 개발 완료"
+ crazy_H_UND_K_5:0 "무탄피탄 연구"
+ HK_compeleted_cartridge:0 "무탄피탄 개발완료"
+ crazy_H_UND_K_6:0 "시제품 개발"
+ HK_compeleted_Prototype:0 "시제품 개발 완료"
+ crazy_H_UND_K_7:0 "시범 운행"
+ HK_compeleted_Pilot_operation:0 "성공적인 시범 운행"
+ crazy_H_UND_K_8:0 "제식 소총 선정"

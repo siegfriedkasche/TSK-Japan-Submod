@@ -4,6 +4,7 @@ china_Policy_decisions_SND = {
 	priority = 200
 	allowed = {
 			or = {
+				tag = RUF
 				tag = RUR
 				tag = SAG
 				tag = CRS

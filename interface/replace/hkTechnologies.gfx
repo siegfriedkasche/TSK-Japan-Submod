@@ -1,0 +1,6 @@
+spriteTypes = {	
+	SpriteType = {#hk g11
+		name = "GFX_Heckler_und_Koch_Gewehr_11_medium"
+		texturefile = "gfx/interface/technologies/infantry/Heckler_und_Koch_Gewehr_11.png"
+	}
+}

@@ -53,6 +53,8 @@ country_event = {
 				add_state_core = 397
 				add_state_core = 400
 				add_state_core = 398
+
+				set_cosmetic_tag = SOV_NEW
 			}
 			UFT = {
 				transfer_state = 203
@@ -80,6 +82,8 @@ country_event = {
 				add_state_core = 203
 				add_state_core = 192
 				add_state_core = 197
+
+				set_cosmetic_tag = UFT_NRT
 			}
 			RUR = {
 				transfer_state = 561
@@ -90,7 +94,55 @@ country_event = {
 				add_state_core = 561
 				add_state_core = 563
 				add_state_core = 565	
-				transfer_state = 564		
+				add_state_core = 564		
+			}
+			DMZ = {
+				transfer_state = 653
+				transfer_state = 573
+				transfer_state = 582
+				transfer_state = 572
+				transfer_state = 563
+				transfer_state = 580
+				transfer_state = 582
+				transfer_state = 403
+				transfer_state = 579
+				transfer_state = 571
+				transfer_state = 566
+				transfer_state = 516
+
+				add_state_core = 653
+				add_state_core = 573
+				add_state_core = 582
+				add_state_core = 572	
+				add_state_core = 563
+				add_state_core = 580
+				add_state_core = 582
+				add_state_core = 403	
+				add_state_core = 579
+				add_state_core = 571
+				add_state_core = 566
+				add_state_core = 516
+			}
+			RUF = {
+				transfer_state = 232
+				transfer_state = 233
+				transfer_state = 234
+				transfer_state = 235
+				transfer_state = 218
+				transfer_state = 238
+				transfer_state = 236
+				transfer_state = 237
+				transfer_state = 217
+
+				add_state_core = 232
+				add_state_core = 233
+				add_state_core = 234	
+				add_state_core = 235
+				add_state_core = 218
+				add_state_core = 238
+				add_state_core = 237
+				add_state_core = 236
+				add_state_core = 217
 			}
 		}
 	}

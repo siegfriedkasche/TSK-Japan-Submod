@@ -1,0 +1,6 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_crazy_H_UND_K"
+		texturefile = "gfx/interface/decisions/crazy_H_UND_K.png"
+	}
+}
