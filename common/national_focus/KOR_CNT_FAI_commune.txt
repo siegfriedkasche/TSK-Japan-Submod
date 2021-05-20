@@ -132,7 +132,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_union_of_commune
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_union_of_commune
 		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_anarcho-communism
@@ -163,7 +163,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_Direct_democracy_through_the_commune
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_Direct_democracy_through_the_commune
 		cost = 4
 		available = {
 			has_idea = Unstable_commune
@@ -308,7 +308,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_Partial_abolition_of_private_property
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_Partial_abolition_of_private_property
 		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Withdrawal_of_private_property
@@ -357,7 +357,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_Expansion_of_labor_union
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_Expansion_of_labor_union
 		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Anaco_Syndicalism
@@ -368,7 +368,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROK_CNT_As_much_as_you_need
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_ROK_CNT_As_much_as_you_need
 		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_The_abolition_of_wage_labor
@@ -382,7 +382,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_Respect_for_women's_rights
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_Respect_for_womens_rights
 		cost = 4
 		prerequisite = {
 			focus = KOR_Partial_abolition_of_private_property
@@ -390,7 +390,9 @@ focus_tree = {
 		}
 		x = 48
 		y = 6
-		
+		completion_reward = {
+			add_ideas = anarcha_feminism
+		}
 	}
 	focus = {
 		id = ROK_CNT_Social_freedom
@@ -468,7 +470,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_cnt_people_for_union
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_cnt_people_for_union
 		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Corporatist_policy
@@ -494,7 +496,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_Cooperation_with_IWW
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_Cooperation_with_IWW
 		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Corporatist_policy
@@ -771,7 +773,7 @@ focus_tree = {
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 4
 		available = {
-			has_idea = Capitalist_backlash_4
+			has_idea = Capitalist_backlash_3
 		}
 		prerequisite = {
 			focus = ROK_CNT_Social_freedom

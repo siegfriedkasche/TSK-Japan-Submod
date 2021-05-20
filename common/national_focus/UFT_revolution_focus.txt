@@ -15,7 +15,9 @@ focus_tree = {
 		cost = 3.00
 		x = 15
 		y = 2
-		
+		completion_reward = {
+			custom_effect_tooltip = UFT_started_revolution
+		}
 	}
 	focus = {
 		id = UFT_bolshevik_opposition
@@ -26,7 +28,10 @@ focus_tree = {
 		}
 		x = 15
 		y = 3
-
+		completion_reward = {
+			add_stability = 0.1
+			add_manpower = 10000
+		}
 	}
 	focus = {
 		id = UFT_program
@@ -37,7 +42,9 @@ focus_tree = {
 		}
 		x = 15
 		y = 4
-
+		completion_reward = {
+			add_ideas = UFT_program
+		}
 	}
 	focus = {
 		id = UFT_Black_army
@@ -51,7 +58,20 @@ focus_tree = {
 		}
 		x = 13
 		y = 5
-
+        completion_reward = {
+			set_party_name = { 
+			    ideology = communism 
+			    long_name = "우크라이나 혁명군" 
+			    name = "우크라이나 혁명군"
+			}
+			hidden_effect = {
+				set_party_name = { 
+			    	ideology = neutrality 
+			    	long_name = "우크라이나 혁명군" 
+			    	name = "우크라이나 혁명군"
+			    }
+			}
+		}
 	}
 	focus = {
 		id = UFT_propaganda
@@ -76,7 +96,20 @@ focus_tree = {
 		}
 		x = 17
 		y = 5
-
+		completion_reward = {
+			set_party_name = { 
+			    ideology = communism 
+			    long_name = "우크라이나 혁명 임시위원회" 
+			    name = "우크라이나 혁명 임시위원회"
+			}
+			hidden_effect = {
+				set_party_name = { 
+			    	ideology = neutrality 
+			    	long_name = "우크라이나 혁명 임시위원회" 
+			    	name = "우크라이나 혁명 임시위원회"
+			    }
+			}
+		}
 	}
 	focus = {
 		id = UFT_Appeal_to_the_people
@@ -88,7 +121,9 @@ focus_tree = {
 		}
 		x = 15
 		y = 6
-
+		completion_reward = {
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = UFT_Platformism
@@ -99,7 +134,9 @@ focus_tree = {
 		}
 		x = 14
 		y = 7
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = UFT_revolution_front
@@ -110,7 +147,7 @@ focus_tree = {
 		}
 		x = 16
 		y = 7
-
+		
 	}
 	focus = {
 		id = UFT_Organization_of_the_struggle
@@ -171,7 +208,12 @@ focus_tree = {
 		}
 		x = 17
 		y = 8
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = UFT_program
+				add_idea = UFT_program_for_free
+			}
+		}
 	}
 	focus = {
 		id = UFT_no_god_no_master
@@ -202,7 +244,9 @@ focus_tree = {
 		}
 		x = 13
 		y = 6
-
+		completion_reward = {
+			add_ideas = UFT_Revolutionary_unity_ideas
+		}
 	}
 	focus = {
 		id = UFT_Black_Guard
@@ -227,6 +271,11 @@ focus_tree = {
 		}
 		x = 13
 		y = 8
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = UFT_program
+				add_idea = UFT_program_for_revolution
+			}
+		}
 	}
 }

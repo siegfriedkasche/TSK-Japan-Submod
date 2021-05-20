@@ -60,4 +60,8 @@ spriteTypes = {
 		name = "GFX_idea_JAF_program"
 		texturefile = "gfx/interface/ideas/JAF_program.png"
 	}
+	spriteType = {
+		name = "GFX_idea_anarcha_feminism"
+		texturefile = "gfx/interface/ideas/anarcha_feminism.png"
+	
 }

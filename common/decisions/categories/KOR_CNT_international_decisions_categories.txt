@@ -1,0 +1,11 @@
+all_international_fifth = {
+	icon = generic_arms_trade
+	picture = GFX_decision_fifth_international
+	priority = 220
+	allowed = {
+		or = {
+			has_cosmetic_tag = CNT_KOR
+			has_cosmetic_tag = KOR_IWW
+		}
+	}
+}

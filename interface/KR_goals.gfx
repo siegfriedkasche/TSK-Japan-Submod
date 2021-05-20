@@ -119,4 +119,68 @@ spriteTypes = {
         name = "GFX_KOR_CNT_Corporatist_policy"
         texturefile = "gfx/interface/goals/KOR_CNT_Corporatist_policy.png"
     }
+    spriteType = {
+        name = "GFX_KOR_CNT_Kronstadt_rebellion_revenge"
+        texturefile = "gfx/interface/goals/kronstadt.png"
+    }
+    spriteType = {
+        name = "GFX_KOR_cnt_people_for_union"
+        texturefile = "gfx/interface/goals/KOR_cnt_people_for_union.png"
+    }
+    spriteType = {
+        name = "GFX_KOR_CNT_Cooperation_with_IWW"
+        texturefile = "gfx/interface/goals/KOR_CNT_Cooperation_with_IWW.png"
+    }
+    spriteType = {
+        name = "GFX_KOR_CNT_union_of_commune"
+        texturefile = "gfx/interface/goals/KOR_CNT_union_of_commune.png"
+    }
+    spriteType = {
+        name = "GFX_KOR_CNT_Expansion_of_labor_union"
+        texturefile = "gfx/interface/goals/KOR_CNT_Expansion_of_labor_union.png"
+    }
+    spriteType = {
+        name = "GFX_ROK_CNT_As_much_as_you_need"
+        texturefile = "gfx/interface/goals/ROK_CNT_As_much_as_you_need.png"
+    }
+    spriteType = {
+        name = "GFX_KOR_Partial_abolition_of_private_property"
+        texturefile = "gfx/interface/goals/KOR_Partial_abolition_of_private_property.png"
+    }
+    spriteType = {
+        name = "GFX_KOR_CNT_Respect_for_womens_rights"
+        texturefile = "gfx/interface/goals/KOR_CNT_Respect_for_women's_rights.png"
+    }
+    spriteType = {
+        name = "GFX_KOR_Direct_democracy_through_the_commune"
+        texturefile = "gfx/interface/goals/KOR_Direct_democracy_through_the_commune.png"
+    }
+    spriteType = {
+        name = "GFX_SAG_revolution"
+        texturefile = "gfx/interface/goals/SAG_revolution.png"
+    }
+    spriteType = {
+        name = "GFX_SAG_Proclamation_of_the_Republic"
+        texturefile = "gfx/interface/goals/SAG_Proclamation_of_the_Republic.png"
+    }
+    spriteType = {
+        name = "GFX_SAG_people_marshal"
+        texturefile = "gfx/interface/goals/SAG_people_marshal.png"
+    }
+    spriteType = {
+        name = "GFX_SAG_people_support"
+        texturefile = "gfx/interface/goals/SAG_people_support.png"
+    }
+    spriteType = {
+        name = "GFX_SAG_Military_support"
+        texturefile = "gfx/interface/goals/SAG_Military_support.png"
+    }
+    spriteType = {
+        name = "GFX_SAG_Lenins_Legacy"
+        texturefile = "gfx/interface/goals/SAG_Lenins_Legacy.png"
+    }
+    spriteType = {
+        name = "GFX_SAG_Imprisoned_Stalin_supporters"
+        texturefile = "gfx/interface/goals/SAG_Imprisoned_Stalin_supporters.png"
+    }
 }

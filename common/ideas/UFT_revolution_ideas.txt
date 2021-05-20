@@ -1,0 +1,70 @@
+ideas = {
+    country = {
+        
+        UFT_program = { 
+
+            allowed = {
+                original_tag = UFT
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = JAF_program
+
+            removal_cost = -1
+            
+            modifier = {
+                army_defence_factor = 0.1
+                army_attack_factor = 0.1
+                stability_factor = -0.05
+            }
+        }
+    }
+
+    country = {
+        
+        UFT_program_for_free = { 
+
+            allowed = {
+                original_tag = UFT
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = JAF_program
+
+            removal_cost = -1
+            
+            modifier = {
+                army_defence_factor = 0.1
+                army_attack_factor = 0.1
+            }
+        }
+    }
+
+    country = {
+        
+        UFT_Revolutionary_unity_ideas = { 
+
+            allowed = {
+                original_tag = UFT
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = JAF_program
+
+            removal_cost = -1
+            
+            modifier = {
+                stability_factor = 0.15
+            }
+        }
+    }
+    

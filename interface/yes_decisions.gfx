@@ -3,4 +3,8 @@ spriteTypes = {
 		name = "GFX_decision_Russian_Civil_War"
 		texturefile = "gfx/interface/decisions/Russian_Civil_War.png"
 	}
+	spriteType = {
+		name = "GFX_decision_fifth_international"
+		texturefile = "gfx/interface/decisions/fifth_international _decision.png"
+	}
 }

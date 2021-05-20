@@ -53,8 +53,6 @@ country_event = {
 				add_state_core = 397
 				add_state_core = 400
 				add_state_core = 398
-
-				set_cosmetic_tag = SOV_NEW
 			}
 			UFT = {
 				transfer_state = 203

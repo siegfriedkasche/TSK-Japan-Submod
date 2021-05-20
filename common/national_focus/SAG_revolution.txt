@@ -1,0 +1,245 @@
+focus_tree = {
+	id = New_file
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SAG
+		}
+	}
+	default = no
+	focus = {
+		id = SAG_revolution
+		icon = GFX_SAG_revolution
+		cost = 10.00
+		x = 15
+		y = 1
+		completion_reward = {
+			custom_effect_tooltip = SAG_started_revolution
+		}
+	}
+	focus = {
+		id = SAG_people_marshal
+		icon = GFX_SAG_people_marshal
+		cost = 10.00
+		prerequisite = {
+			focus = SAG_revolution
+		}
+		x = 15
+		y = 2
+		completion_reward = {
+			create_country_leader = {
+				name = "Gregory Zhukov"
+				desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+				picture = "Portrait_Soviet_Gregory_Zhukov.dds"
+				expire = "1974.6.18"
+				ideology = Revolutionary_Bolshevism
+				traits = {
+		
+				}
+			}
+		}
+	}
+	focus = {
+		id = SAG_Revolutionary_Temporary_Committee
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SAG_people_marshal
+		}
+		x = 12
+		y = 3
+		completion_reward = {
+			set_party_name = { 
+    			ideology = communism 
+    			long_name = "소비에트 혁명 위원회" 
+    			name = "소비에트 혁명 위원회" 
+			}
+			add_popularity = {
+    			ideology = communism
+    			popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = SAG_Military_support
+		icon = GFX_SAG_Lenins_Legacy
+		cost = 10.00
+		prerequisite = {
+			focus = SAG_Revolutionary_Temporary_Committee
+		}
+		x = 11
+		y = 4
+		completion_reward = {
+			add_defense = 1
+			add_attack = 1
+		}
+	}
+	focus = {
+		id = SAG_people_support
+		icon = GFX_SAG_people_support
+		cost = 10.00
+		prerequisite = {
+			focus = SAG_Revolutionary_Temporary_Committee
+		}
+		x = 13
+		y = 4
+		completion_reward = {
+			add_manpower = 10000
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = SAG_Imprisoned_Stalin_supporters
+		icon = GFX_SAG_Imprisoned_Stalin_supporters
+		cost = 10.00
+		prerequisite = {
+			focus = SAG_people_support
+		}
+		prerequisite = {
+			focus = SAG_Military_support
+		}
+		x = 12
+		y = 5
+		completion_reward = {
+			add_timed_idea = {
+				add_idea = kill_support_stalinist
+				days = 60
+			}
+		}
+	}
+	focus = {
+		id = SAG_red_army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SAG_people_marshal
+		}
+		x = 17
+		y = 3
+		completion_reward = {
+			load_oob = "SAG_peoples_army"
+		}
+	}
+	focus = {
+		id = SAG_Party_army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SAG_red_army
+		}
+		x = 15
+		y = 4
+		completion_reward = {
+			add_timed_idea = {
+				add_idea = SAG_Party_army_ideas
+				days = 30
+			}
+		}
+	}
+	focus = {
+		id = SAG_Lenins_Legacy
+		icon = GFX_SAG_Lenins_Legacy
+		cost = 10.00
+		prerequisite = {
+			focus = SAG_people_support
+		}
+		prerequisite = {
+			focus = SAG_Party_army
+		}
+		x = 14
+		y = 5
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = SAG_Offensive
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SAG_red_army
+		}
+		x = 17
+		y = 4
+		completion_reward = {
+			add_timed_idea = {
+				add_idea = CNT_Offensive
+				days = 60
+			}
+		}
+	}
+	focus = {
+		id = SAG_Blood_revenge
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SAG_red_army
+		}
+		x = 19
+		y = 4
+		completion_reward = {
+			SOV = {
+				add_timed_idea = {
+					add_idea = fucking_purge
+					days = 35
+				}
+			}
+		}
+	}
+	focus = {
+		id = SAG_Military_consolidation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SAG_Offensive
+		}
+		prerequisite = {
+			focus = SAG_Blood_revenge
+		}
+		x = 18
+		y = 5
+		completion_reward = {
+			add_stability = 0.15
+			add_manpower = 30000
+		}
+	}
+	focus = {
+		id = SAG_All_power_to_the_Soviet
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SAG_Imprisoned_Stalin_supporters
+		}
+		prerequisite = {
+			focus = SAG_Lenins_Legacy
+		}
+		prerequisite = {
+			focus = SAG_Military_consolidation
+		}
+		x = 14
+		y = 6
+		completion_reward = {
+			add_ideas = SAG_All_power_to_the_Soviet
+		}
+	}
+	focus = {
+		id = SAG_Proclamation_of_the_Republic
+		icon = GFX_SAG_Proclamation_of_the_Republic
+		cost = 10.00
+		prerequisite = {
+			focus = SAG_All_power_to_the_Soviet
+		}
+		available = {
+			has_war = no
+		}
+		x = 14
+		y = 7
+		completion_reward = {
+			custom_effect_tooltip = change_sov
+			hidden_effect = {
+				set_cosmetic_tag = SOV_NEW
+			}
+		}
+	}
+}
