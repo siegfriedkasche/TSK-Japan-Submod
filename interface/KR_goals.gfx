@@ -183,4 +183,32 @@ spriteTypes = {
         name = "GFX_SAG_Imprisoned_Stalin_supporters"
         texturefile = "gfx/interface/goals/SAG_Imprisoned_Stalin_supporters.png"
     }
+    spriteType = {
+        name = "GFX_revolution"
+        texturefile = "gfx/interface/goals/revolution.png"
+    }
+    spriteType = {
+        name = "GFX_UFT_bolshevik_opposition"
+        texturefile = "gfx/interface/goals/UFT_bolshevik_opposition.png"
+    }
+    spriteType = {
+        name = "GFX_UFT_program"
+        texturefile = "gfx/interface/goals/UFT_program.png"
+    }
+    spriteType = {
+        name = "GFX_UFT_Black_army"
+        texturefile = "gfx/interface/goals/UFT_Black_army.png"
+    }
+    spriteType = {
+        name = "GFX_UFT_Platformism"
+        texturefile = "gfx/interface/goals/UFT_Platformism.png"
+    }
+    spriteType = {
+        name = "GFX_UFT_revolution_front"
+        texturefile = "gfx/interface/goals/UFT_revolution_front.png"
+    }
+    spriteType = {
+        name = "GFX_UFT_no_god_no_master"
+        texturefile = "gfx/interface/goals/UFT_no_god_no_master.png"
+    }
 }

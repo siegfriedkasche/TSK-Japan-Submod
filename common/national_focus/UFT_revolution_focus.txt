@@ -11,7 +11,7 @@ focus_tree = {
 	
 	focus = {
 		id = UFT_revolution
-		icon = GFX_goal_unknown
+		icon = GFX_UFT_revolution
 		cost = 3.00
 		x = 15
 		y = 2
@@ -21,7 +21,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UFT_bolshevik_opposition
-		icon = GFX_goal_unknown
+		icon = GFX_UFT_bolshevik_opposition
 		cost = 3.00
 		prerequisite = {
 			focus = UFT_revolution
@@ -35,7 +35,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UFT_program
-		icon = GFX_goal_unknown
+		icon = GFX_UFT_program
 		cost = 3.00
 		prerequisite = {
 			focus = UFT_bolshevik_opposition
@@ -48,7 +48,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UFT_Black_army
-		icon = GFX_goal_unknown
+		icon = GFX_UFT_Black_army
 		cost = 3.00
 		prerequisite = {
 			focus = UFT_program
@@ -86,7 +86,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UFT_Temporary_Committee
-		icon = GFX_goal_unknown
+		icon = GFX_UFT_Temporary_Committee
 		cost = 3.00
 		prerequisite = {
 			focus = UFT_program
@@ -128,7 +128,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UFT_Platformism
-		icon = GFX_goal_unknown
+		icon = GFX_UFT_Platformism
 		cost = 3.00
 		prerequisite = {
 			focus = UFT_Appeal_to_the_people
@@ -145,7 +145,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UFT_revolution_front
-		icon = GFX_goal_unknown
+		icon = GFX_UFT_revolution_front
 		cost = 3.00
 		prerequisite = {
 			focus = UFT_Appeal_to_the_people
@@ -224,7 +224,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UFT_no_god_no_master
-		icon = GFX_goal_unknown
+		icon = GFX_UFT_no_god_no_master
 		cost = 3.00
 		available = {
 			has_war = no
