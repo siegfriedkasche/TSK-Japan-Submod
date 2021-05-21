@@ -8,16 +8,16 @@ focus_tree = {
 		}
 	}
 	default = no
-	
 	focus = {
 		id = UFT_revolution
-		icon = GFX_UFT_revolution
+		icon = GFX_revolution
 		cost = 3.00
-		x = 15
+		x = 26
 		y = 2
-		completion_reward = {
-			custom_effect_tooltip = UFT_started_revolution
-		}
+			completion_reward = {
+					custom_effect_tooltip = UFT_started_revolution
+				}
+
 	}
 	focus = {
 		id = UFT_bolshevik_opposition
@@ -26,12 +26,13 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_revolution
 		}
-		x = 15
+		x = 26
 		y = 3
-		completion_reward = {
-			add_stability = 0.1
-			add_manpower = 10000
-		}
+			completion_reward = {
+					add_stability = 0.1
+					add_manpower = 10000
+				}
+
 	}
 	focus = {
 		id = UFT_program
@@ -40,11 +41,12 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_bolshevik_opposition
 		}
-		x = 15
+		x = 26
 		y = 4
-		completion_reward = {
-			add_ideas = UFT_program_ideas
-		}
+			completion_reward = {
+					add_ideas = UFT_program_ideas
+				}
+
 	}
 	focus = {
 		id = UFT_Black_army
@@ -56,22 +58,23 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = UFT_Temporary_Committee
 		}
-		x = 13
+		x = 24
 		y = 5
-        completion_reward = {
-			set_party_name = { 
-			    ideology = communism 
-			    long_name = "우크라이나 혁명군" 
-			    name = "우크라이나 혁명군"
-			}
-			hidden_effect = {
-				set_party_name = { 
-			    	ideology = neutrality 
-			    	long_name = "우크라이나 혁명군" 
-			    	name = "우크라이나 혁명군"
-			    }
-			}
-		}
+			completion_reward = {
+					set_party_name = {
+							ideology = communism
+							long_name = "우크라이나 혁명군"
+							name = "우크라이나 혁명군"
+						}
+					hidden_effect = {
+							set_party_name = {
+									ideology = neutrality
+									long_name = "우크라이나 혁명군"
+									name = "우크라이나 혁명군"
+								}
+						}
+				}
+
 	}
 	focus = {
 		id = UFT_propaganda
@@ -80,7 +83,7 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_Black_army
 		}
-		x = 11
+		x = 22
 		y = 6
 
 	}
@@ -94,37 +97,39 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = UFT_Black_army
 		}
-		x = 17
+		x = 28
 		y = 5
-		completion_reward = {
-			set_party_name = { 
-			    ideology = communism 
-			    long_name = "우크라이나 혁명 임시위원회" 
-			    name = "우크라이나 혁명 임시위원회"
-			}
-			hidden_effect = {
-				set_party_name = { 
-			    	ideology = neutrality 
-			    	long_name = "우크라이나 혁명 임시위원회" 
-			    	name = "우크라이나 혁명 임시위원회"
-			    }
-			}
-		}
+			completion_reward = {
+					set_party_name = {
+							ideology = communism
+							long_name = "우크라이나 혁명 임시위원회"
+							name = "우크라이나 혁명 임시위원회"
+						}
+					hidden_effect = {
+							set_party_name = {
+									ideology = neutrality
+									long_name = "우크라이나 혁명 임시위원회"
+									name = "우크라이나 혁명 임시위원회"
+								}
+						}
+				}
+
 	}
 	focus = {
 		id = UFT_Appeal_to_the_people
-		icon = GFX_goal_unknown
+		icon = GFX_UFT_Appeal_to_the_people
 		cost = 3.00
 		prerequisite = {
 			focus = UFT_Black_army
 			focus = UFT_Temporary_Committee
 		}
-		x = 15
+		x = 26
 		y = 6
-		completion_reward = {
-			add_stability = 0.05
-			add_war_support = 0.1
-		}
+			completion_reward = {
+					add_stability = 0.05
+					add_war_support = 0.1
+				}
+
 	}
 	focus = {
 		id = UFT_Platformism
@@ -133,15 +138,16 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_Appeal_to_the_people
 		}
-		x = 14
+		x = 25
 		y = 7
-		completion_reward = {
-			add_attack = 1
-			add_timed_idea = {
-				idea = UFT_Platformism_ideas
-				days = 60
-			}
-		}
+			completion_reward = {
+					add_attack = 1
+					add_timed_idea = {
+							idea = UFT_Platformism_ideas
+							days = 60
+						}
+				}
+
 	}
 	focus = {
 		id = UFT_revolution_front
@@ -150,15 +156,16 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_Appeal_to_the_people
 		}
-		x = 16
+		x = 27
 		y = 7
-		completion_reward = {
-			unlock_decision_category_tooltip = UFT_front_decisions
-		}
+			completion_reward = {
+					unlock_decision_category_tooltip = UFT_front_decisions
+				}
+
 	}
 	focus = {
 		id = UFT_Organization_of_the_struggle
-		icon = GFX_goal_unknown
+		icon = GFX_UFT_Organization_of_the_struggle
 		cost = 3.00
 		prerequisite = {
 			focus = UFT_revolution_front
@@ -166,7 +173,7 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_Platformism
 		}
-		x = 15
+		x = 26
 		y = 8
 
 	}
@@ -177,7 +184,7 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_Temporary_Committee
 		}
-		x = 17
+		x = 28
 		y = 6
 
 	}
@@ -188,7 +195,7 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_Temporary_Committee
 		}
-		x = 19
+		x = 30
 		y = 6
 
 	}
@@ -202,7 +209,7 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_Soviet_betrayal
 		}
-		x = 18
+		x = 29
 		y = 7
 
 	}
@@ -213,22 +220,20 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_Call_of_the_Outcast
 		}
-		x = 17
+		x = 28
 		y = 8
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = UFT_program_ideas
-				add_idea = UFT_program_for_free
-			}
-		}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = UFT_program_ideas
+							add_idea = UFT_program_for_free
+						}
+				}
+
 	}
 	focus = {
 		id = UFT_no_god_no_master
 		icon = GFX_UFT_no_god_no_master
 		cost = 3.00
-		available = {
-			has_war = no
-		}
 		prerequisite = {
 			focus = UFT_program_for_free
 			focus = UFT_program_for_Revolution
@@ -236,11 +241,15 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_Organization_of_the_struggle
 		}
-		x = 15
+		x = 26
 		y = 9
-		completion_reward = {
-			
-		}
+			available = {
+					has_war = no
+				}
+			completion_reward = {
+
+}
+
 	}
 	focus = {
 		id = UFT_Revolutionary_unity
@@ -249,11 +258,12 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_Black_army
 		}
-		x = 13
+		x = 24
 		y = 6
-		completion_reward = {
-			add_ideas = UFT_Revolutionary_unity_ideas
-		}
+			completion_reward = {
+					add_ideas = UFT_Revolutionary_unity_ideas
+				}
+
 	}
 	focus = {
 		id = UFT_Black_Guard
@@ -265,7 +275,7 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_propaganda
 		}
-		x = 12
+		x = 23
 		y = 7
 
 	}
@@ -276,13 +286,14 @@ focus_tree = {
 		prerequisite = {
 			focus = UFT_Black_Guard
 		}
-		x = 13
+		x = 24
 		y = 8
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = UFT_program_ideas
-				add_idea = UFT_program_for_revolution_ideas
-			}
-		}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = UFT_program_ideas
+							add_idea = UFT_program_for_revolution_ideas
+						}
+				}
+
 	}
 }
