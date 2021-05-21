@@ -1,0 +1,10 @@
+UFT_front_decisions = {
+	icon = generic_arms_trade
+	picture = GFX_decision_fifth_international
+	priority = 190
+	
+	allowed = {
+		original_tag = UFT
+		has_completed_focus = UFT_revolution_front
+	}
+}

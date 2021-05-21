@@ -1,0 +1,98 @@
+ideas = {
+    country = {
+        
+        kill_support_stalinist = { 
+
+            allowed = {
+                original_tag = SAG
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = 
+
+            removal_cost = -1
+            
+            modifier = {
+                stability_weekly = 0.02
+                political_power_gain = -0.05
+            }
+        }
+    }
+
+    country = {
+        
+        CNT_Offensive = { 
+
+            allowed = {
+                original_tag = SAG
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = 
+
+            removal_cost = -1
+            
+            modifier = {
+                add_attack_factor = 0.3
+                army_speed_factor = 0.15
+                army_org_factor = 0.15
+            }
+        }
+    } 
+    
+
+    country = {
+        
+        fucking_purge = { 
+
+            allowed = {
+                original_tag = SAG
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = 
+
+            removal_cost = -1
+            
+            modifier = {
+                army_org_factor = -0.05
+                add_attack_factor = -0.05
+                army_speed_factor = -0.05
+                army_defence_factor = -0.05
+            }
+        }
+    }
+    
+    country = {
+        
+        SAG_All_power_to_the_Soviet = { 
+
+            allowed = {
+                original_tag = SAG
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = 
+
+            removal_cost = -1
+            
+            modifier = {
+                army_org_factor = 0.05
+                add_attack_factor = 0.15
+                army_defence_factor = -0.15
+                political_power_gain = 0.1
+            }
+        }
+    }

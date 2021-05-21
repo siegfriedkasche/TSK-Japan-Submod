@@ -43,7 +43,7 @@ focus_tree = {
 		x = 15
 		y = 4
 		completion_reward = {
-			add_ideas = UFT_program
+			add_ideas = UFT_program_ideas
 		}
 	}
 	focus = {
@@ -123,6 +123,7 @@ focus_tree = {
 		y = 6
 		completion_reward = {
 			add_stability = 0.05
+			add_war_support = 0.1
 		}
 	}
 	focus = {
@@ -135,7 +136,11 @@ focus_tree = {
 		x = 14
 		y = 7
 		completion_reward = {
-
+			add_attack = 1
+			add_timed_idea = {
+				idea = UFT_Platformism_ideas
+				days = 60
+			}
 		}
 	}
 	focus = {
@@ -147,7 +152,9 @@ focus_tree = {
 		}
 		x = 16
 		y = 7
-		
+		completion_reward = {
+			unlock_decision_category_tooltip = UFT_front_decisions
+		}
 	}
 	focus = {
 		id = UFT_Organization_of_the_struggle
@@ -210,7 +217,7 @@ focus_tree = {
 		y = 8
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = UFT_program
+				remove_idea = UFT_program_ideas
 				add_idea = UFT_program_for_free
 			}
 		}
@@ -273,8 +280,8 @@ focus_tree = {
 		y = 8
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = UFT_program
-				add_idea = UFT_program_for_revolution
+				remove_idea = UFT_program_ideas
+				add_idea = UFT_program_for_revolution_ideas
 			}
 		}
 	}

@@ -1,0 +1,64 @@
+UFT_front_decisions = {
+ 	UFT_front_decisions_1 = {
+		icon = generic_prepare_civil_war
+		available = {
+			has_war = yes
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		fire_only_once = no
+		cost = 25
+		
+		days_remove = 50
+		
+		remove_effect = {
+			add_equipment_to_stockpile = {
+    			type = infantry_equipment
+    			amount = 500
+			}
+		}
+	}
+	UFT_front_decisions_2 = {
+		icon = generic_prepare_civil_war
+		available = {
+			has_war = yes
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		fire_only_once = no
+		cost = 50
+		
+		days_remove = 100
+		
+		remove_effect = {
+			custom_effect_tooltip = UFT_Militia_come_on
+			load_oob = "UFT_Militia"
+		}
+	}
+	UFT_front_decisions_3 = {
+		icon = generic_prepare_civil_war
+		available = {
+			has_war = yes
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		fire_only_once = no
+		cost = 50
+		
+		days_remove = 100
+		
+		remove_effect = {
+			custom_effect_tooltip = UFT_Militia_come_on
+			load_oob = "UFT_Militia"
+		}
+	}
+}

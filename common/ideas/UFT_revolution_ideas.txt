@@ -1,7 +1,7 @@
 ideas = {
     country = {
         
-        UFT_program = { 
+        UFT_program_ideas = { 
 
             allowed = {
                 original_tag = UFT
@@ -23,6 +23,29 @@ ideas = {
         }
     }
 
+    country = {
+        
+        UFT_program_for_revolution_ideas = { 
+
+            allowed = {
+                original_tag = UFT
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = JAF_program
+
+            removal_cost = -1
+            
+            modifier = {
+                army_defence_factor = 0.1
+                army_attack_factor = 0.1
+            }
+        }
+    }
+    
     country = {
         
         UFT_program_for_free = { 
@@ -68,3 +91,30 @@ ideas = {
         }
     }
     
+    country = {
+        
+        UFT_Platformism_ideas = { 
+
+            allowed = {
+                original_tag = UFT
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = JAF_program
+
+            removal_cost = -1
+
+            targeted_modifier = {
+                tag = SOV						# Targets Germany
+                army_defence_factor = -0.03
+	        }
+
+            modifier = {
+                army_attack_factor = 0.05
+                weekly_manpower	= 300
+            }
+        }
+    }
