@@ -1543,9 +1543,6 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_73
 		}
-		prerequisite = {
-			focus = newfocus_77
-		}
 		x = 23
 		y = 5
 			completion_reward = {
@@ -1560,10 +1557,6 @@ focus_tree = {
 						}
 					x = 23
 					y = 6
-					         completion_reward = {
-					unlock_decision_category_tooltip = MJP_economy_decisions_policy
-					add_ideas = Stable_Japan
-	   }
 				}
 
 	}
@@ -1752,8 +1745,17 @@ focus_tree = {
 		}
 		x = 42
 		y = 14
-completion_reward = {
-					unlock_decision_category_tooltip = MJP_economy_decisions_policy
-					add_ideas = Stable_Japan
+
+	}
+	focus = {
+		id = newfocus_75
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_77
+		}
+		x = 23
+		y = 6
+
 	}
 }
