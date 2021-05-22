@@ -30,6 +30,7 @@
  MJP_Popped_bubble_3:0 "바로잡힌 버블"
  MJP_Popped_bubble_4:0 "꺼져가는 버블"
  MJP_Popped_bubble_5:0 "어느정도 안정된 버블"
+ MJP_Satellite:0 "우주로 날아가는 일본의 이상"
  
 
  MJP_Resource_digger:0 "자원 탐사대"
@@ -41,3 +42,4 @@
  MJP.3.t:0 "붕괴한 부동산"
  MJP.3.d:0 "부동산 시장마저 붕괴하였다. 이제 우리가 기대고 의지할 곳은 아무대도 없다..."
  MJP.3.a:0 "일본국의 미래는...."
+ 

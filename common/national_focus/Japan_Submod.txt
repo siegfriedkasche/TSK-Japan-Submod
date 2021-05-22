@@ -1389,7 +1389,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 6
-
+		completion_reward = {
+			add_ideas = MJP_Satellite
+		}
 	}
 	focus = {
 		id = newfocus_24
