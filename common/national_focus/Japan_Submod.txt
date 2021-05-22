@@ -1548,20 +1548,17 @@ focus_tree = {
 			completion_reward = {
 					add_stability = 0.05
 				}
-	}
-	focus = {
-			id = newfocus_75
-			icon = GFX_goal_unknown
-			cost = 10.00
-			prerequisite = {
-				focus = newfocus_77
-		}
-		x = 23
-		y = 6
-			Completion_reward = {
-		            add_ideas = MJP_Stable_Japan
-
+			focus = {
+					id = newfocus_75
+					icon = GFX_goal_unknown
+					cost = 10.00
+					prerequisite = {
+							focus = newfocus_77
+						}
+					x = 23
+					y = 6
 				}
+
 	}
 	focus = {
 		id = social_democracy
@@ -1751,7 +1748,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_75
+		id = Stable_Japan
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -1759,6 +1756,7 @@ focus_tree = {
 		}
 		x = 23
 		y = 6
-
+completion_reward = {
+		add_ideas = MJP_Stable_Japan
 	}
 }

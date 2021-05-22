@@ -74,7 +74,7 @@ l_english:
  newfocus_72:0 "공항 폐쇄"
  newfocus_73:0 "대국민 담화"
  newfocus_74:0 "평화 헌법 개정"
- newfocus_75:0 "안정된 일본"
+ :0 ""
  newfocus_76:0 "외교 해결"
  newfocus_77:0 "국민 지지"
  Oil_problem:0 "석유문제"
@@ -125,3 +125,4 @@ l_english:
  newfocus_118:0 "UN 창설 주도"
  newfocus_2:0 "정보 수집"
  newfocus_1:0 "공항폐쇄"
+ Stable_Japan:0 "안정된 일본"
