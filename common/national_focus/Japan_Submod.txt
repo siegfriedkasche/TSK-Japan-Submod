@@ -15,6 +15,7 @@ focus_tree = {
 		x = 9
 		y = 0
 		completion_reward = {
+			unlock_decision_category_tooltip = MJP_economy_decisions_policy
 			add_ideas = MJP_economy_collaps
 		}
 	}
@@ -163,7 +164,7 @@ focus_tree = {
 	focus = {
 		id = newfocus_11
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 3.00
 		prerequisite = {
 			focus = Market_Control_Initiated_markets
 		}
@@ -176,18 +177,24 @@ focus_tree = {
 	focus = {
 		id = newfocus_12
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 3.00
 		prerequisite = {
 			focus = Market_Control_Initiated_markets
 		}
 		x = 10
 		y = 1
-
+		completion_reward = {
+			unlock_decision_tooltip = MJP_Interest_rate_increase
+		}
 	}
 	focus = {
 		id = newfocus_13
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+			has_idea = MJP_Prohibit_real_estate_mortgage_loans_ideas
+			has_idea = MJP_Interest_rate_increase_ideas 
+		}
 		prerequisite = {
 			focus = newfocus_11
 		}
@@ -196,7 +203,7 @@ focus_tree = {
 		}
 		x = 9
 		y = 2
-
+		
 	}
 	focus = {
 		id = newfocus_14

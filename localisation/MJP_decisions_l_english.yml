@@ -14,3 +14,5 @@
  MJP_economy_decisions_policy:0 "금융정책"
  MJP_Prohibit_real_estate_mortgage_loans:0 "부동산 담보 대출 억제"
  MJP_Prohibit_real_estate_mortgage_loans_ideas:0 "투기 억제"
+ MJP_Interest_rate_increase:0 "금리인상"
+ MJP_Interest_rate_increase_ideas:0 "대출 억제"

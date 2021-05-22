@@ -327,4 +327,26 @@ MJP_economy_decisions_policy = {
 			add_ideas = MJP_Prohibit_real_estate_mortgage_loans_ideas
 		}
 	}
+	MJP_Interest_rate_increase = {
+		icon = generic_prepare_civil_war
+		available = {
+			has_completed_focus = newfocus_11
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		fire_only_once = no
+		cost = 0
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			production_speed_industrial_complex_factor = -0.15
+			production_speed_arms_factory_factor = -0.15
+		}
+		remove_effect = {
+			add_ideas = MJP_Interest_rate_increase_ideas
+		}
+	}
 }
