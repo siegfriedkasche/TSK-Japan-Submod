@@ -1560,6 +1560,10 @@ focus_tree = {
 						}
 					x = 23
 					y = 6
+					         completion_reward = {
+					unlock_decision_category_tooltip = MJP_economy_decisions_policy
+					add_ideas = Stable_Japan
+	   }
 				}
 
 	}
@@ -1748,6 +1752,8 @@ focus_tree = {
 		}
 		x = 42
 		y = 14
-
+completion_reward = {
+					unlock_decision_category_tooltip = MJP_economy_decisions_policy
+					add_ideas = Stable_Japan
 	}
 }
