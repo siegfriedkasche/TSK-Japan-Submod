@@ -1545,9 +1545,8 @@ focus_tree = {
 		}
 		x = 23
 		y = 5
-		ompletion_reward = {
-		unlock_decision_category_tooltip = MJP_economy_decisions_policy
-		add_ideas = Stable_Japan
+			completion_reward = {
+					add_stability = 0.05
 				}
 			focus = {
 					id = newfocus_75
@@ -1558,6 +1557,11 @@ focus_tree = {
 						}
 					x = 23
 					y = 6
+					ompletion_reward = {
+						unlock_decision_category_tooltip = MJP_Stable_Japan
+		                add_ideas = Stable_Japan
+
+					}
 				}
 
 	}
