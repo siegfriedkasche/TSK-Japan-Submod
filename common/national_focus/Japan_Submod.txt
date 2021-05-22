@@ -1561,9 +1561,7 @@ focus_tree = {
 			Completion_reward = {
 		            add_ideas = MJP_Stable_Japan
 
-					}
 				}
-
 	}
 	focus = {
 		id = social_democracy

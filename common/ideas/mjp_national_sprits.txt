@@ -426,12 +426,12 @@ ideas = {
             }
         }
     }
-    
+
 country = {
      MJP_Stable_Japan = { #안정된 일본
 			
 		    allowed = {
-                original_tag = MJP 
+                original_tag = MJP
             }
 
             allowed_civil_war = {
