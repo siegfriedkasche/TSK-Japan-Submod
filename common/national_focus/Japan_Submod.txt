@@ -87,7 +87,10 @@ focus_tree = {
 		}
 		x = 2
 		y = 2
-
+        completion_reward = {
+            add_stability = 0.15
+            add_political_power = 100
+		}
 	}
 	focus = {
 		id = US_Trade_Opens
@@ -98,7 +101,13 @@ focus_tree = {
 		}
 		x = 1
 		y = 3
-
+        completion_reward = { 
+			create_export = {
+				resource = oil
+                amount = 30
+                exporter = USA
+			}
+		}
 	}
 	focus = {
 		id = Middle_East_Contact
@@ -109,7 +118,13 @@ focus_tree = {
 		}
 		x = 3
 		y = 3
-
+       completion_reward = { 
+			create_export = {
+				resource = oil
+                amount = 20
+                exporter = SAU
+			}
+		}
 	}
 	focus = {
 		id = newfocus_5
@@ -123,7 +138,9 @@ focus_tree = {
 		}
 		x = 2
 		y = 4
-
+         completion_reward = { 
+			navy_experience = 15
+			}
 	}
 	focus = {
 		id = newfocus_6
@@ -925,7 +942,7 @@ focus_tree = {
           completion_reward = {
 			  army_experience = 10
 			  Add_War_support = -0.1
-			  add_stability = 0.2
+			  add_stability = 0.15
 
 		  }
 	}
