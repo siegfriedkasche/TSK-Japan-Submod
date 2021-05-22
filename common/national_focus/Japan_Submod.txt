@@ -51,6 +51,9 @@ focus_tree = {
 		id = Military
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+			always = no
+		}
 		mutually_exclusive = {
 			focus = MJP_Election
 		}
@@ -873,7 +876,9 @@ focus_tree = {
 		}
 		x = 30
 		y = 1
-
+		completion_reward = {
+			army_experience = 35
+		}
 	}
 	focus = {
 		id = newfocus_44
@@ -1033,7 +1038,9 @@ focus_tree = {
 		}
 		x = 36
 		y = 1
-
+		completion_reward = {
+			navy_experience = 35
+		}
 	}
 	focus = {
 		id = newfocus_45
@@ -1224,7 +1231,9 @@ focus_tree = {
 		}
 		x = 42
 		y = 1
-
+		completion_reward = {
+			air_experience = 35
+		}
 	}
 	focus = {
 		id = newfocus_39
