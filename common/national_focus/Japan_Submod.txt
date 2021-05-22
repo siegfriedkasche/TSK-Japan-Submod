@@ -1558,7 +1558,6 @@ focus_tree = {
 					x = 23
 					y = 6
 					ompletion_reward = {
-						unlock_decision_category_tooltip = MJP_Stable_Japan
 		                add_ideas = Stable_Japan
 
 					}
