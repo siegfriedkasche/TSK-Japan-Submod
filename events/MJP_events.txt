@@ -1,7 +1,7 @@
 add_namespace = MJP
 
 country_event = {
-	id = MJP.1 #코뮌의 부활
+	id = MJP.1
 	title = MJP.1.t
 	desc = MJP.1.d
 	picture = GFX_
@@ -13,7 +13,8 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 		}
-		set_cosmetic_tag = CNT_KOR
+		remove_ideas = MJP_Prohibit_real_estate_mortgage_loans
+		remove_ideas = MJP_Interest_rate_increase
 		hidden_effect = {
 			country_event = {
 				id = MJP.2
@@ -24,7 +25,7 @@ country_event = {
 }
 
 country_event = {
-	id = MJP.2 #바로 코뮌화
+	id = MJP.2
 	title = MJP.2.t
 	desc = MJP.2.d
 	picture = GFX_
@@ -36,6 +37,8 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 		}
+		add_ideas = MJP_Popped_bubble
+		
 	}
 }
 
