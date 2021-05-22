@@ -1,0 +1,7 @@
+MJP_decisions_policy = {
+	icon = generic_arms_trade
+	priority = 200
+	allowed = {
+		original_tag = MJP
+	}
+}
