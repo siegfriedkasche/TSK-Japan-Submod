@@ -1,0 +1,121 @@
+﻿###########################
+# World News Events
+###########################
+# By Augenis and AllyJamy
+###########################
+
+add_namespace = Ana_news
+
+
+# 코뮌
+news_event = {
+	id = Ana_news.1
+	title = Ana_news.1.t
+	desc = Ana_news.1.d
+	picture = GFX_event_paris_commune
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ana_news.1.a
+		trigger = { 
+			NOT = {
+				TAG = KOR
+			}
+		}
+		
+	}
+	option = {
+		name = Ana_news.1.b
+		trigger = {	TAG = KOR }
+        sound_effect = "iron_worker"
+	}
+}
+
+news_event = {
+	id = Ana_news.2
+	title = KORnan.5.t
+	desc = KORnan.5.d
+	picture = GFX_news_event_Internationale
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ana_news.1.a
+		trigger = { 
+			NOT = {
+				TAG = KOR
+			}
+		}
+		
+	}
+	option = {
+		name = KORnan.5.a
+		trigger = {	TAG = KOR }
+        sound_effect = "L'Internationale"
+	}
+}
+
+news_event = {
+	id = Ana_news.3
+	title = Ana_news.3.t
+	desc = Ana_news.3.d
+	picture = GFX_news_event_IWW
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ana_news.3.a
+		#trigger = { 
+		#	NOT = {
+		#		TAG = KOR
+		#	}
+		#}
+		hidden_effect = {
+			set_country_flag = big_event_assassination_Jae_pil
+		}
+	}
+	#option = {
+	#	name = KORnan.5.a
+	#	trigger = {	TAG = KOR }
+    #    sound_effect = "L'Internationale"
+	#}
+}
+
+news_event = {
+	id = Ana_news.4
+	title = Ana_news.4.t
+	desc = Ana_news.4.d
+	picture = GFX_news_red_army
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ana_news.4.a
+	}
+}
+news_event = {
+	id = Ana_news.5
+	title = Ana_news.5.t
+	desc = Ana_news.5.d
+	picture = GFX_news_red_army
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ana_news.5.a
+		hidden_effect = {
+			set_country_flag = big_event_great_public_war
+		}
+	}
+}

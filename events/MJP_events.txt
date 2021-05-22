@@ -1,0 +1,1284 @@
+add_namespace = MJP
+
+country_event = {
+	id = MJP.1 #코뮌의 부활
+	title = MJP.1.t
+	desc = MJP.1.d
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MJP.1.a
+		ai_chance = {
+		    factor = 100
+		}
+		set_cosmetic_tag = CNT_KOR
+		hidden_effect = {
+			country_event = {
+				id = MJP.2
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = MJP.2 #바로 코뮌화
+	title = MJP.2.t
+	desc = MJP.2.d
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MJP.2.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = KORnan.10001 #중점 체인지
+	title = KORnan.1.t
+	desc = KORnan.1.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.1.a
+		ai_chance = {
+		    factor = 100
+		}
+		complete_national_focus = KOR_Delegate_meeting
+	}
+}
+
+country_event = {
+	id = KORnan.5 #제5인터네셔널
+	title = KORnan.5.t
+	desc = KORnan.5.d
+	picture = GFX_인터네셔널
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.5.a
+		ai_chance = {
+		    factor = 100
+		}
+		news_event = {
+			id = Ana_news.2
+		}
+	}
+}
+country_event = {
+	id = KORnan.2 #CNT계승의식
+	title = KORnan.2.t
+	desc = KORnan.2.d
+	picture = GFX_CNT대읜원회의
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.2.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = KORnan.3 #노동조합(생디칼)
+	title = KORnan.3.t
+	desc = KORnan.3.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.3.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = KORnan.4 #1차 대의원 대회
+	title = KORnan.4.t
+	desc = KORnan.4.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.4.a
+		ai_chance = {
+		    factor = 100
+		}
+	complete_national_focus = KOR_CNT_END_Delegate_meeting
+	}
+}
+
+country_event = {
+	id = KORnan.6 #코뮌의 방향성
+	title = KORnan.6.t
+	desc = KORnan.6.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.6.a
+		ai_chance = {
+		    factor = 50
+		}
+		complete_national_focus = KOR_CNT_Anaco_Syndicalism
+	}
+	option = {
+		name = KORnan.6.b
+		ai_chance = {
+		    factor = 50
+		}
+		complete_national_focus = KOR_CNT_anarcho-communism
+	}
+}
+
+country_event = {
+	id = KORnan.19 #아나키스트 게릴라
+	title = KORnan.19.t
+	desc = KORnan.19.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.19.a
+		ai_chance = {
+		    factor = 50
+		}
+		hidden_effect = {
+		227 = {
+				set_demilitarized_zone = yes
+		}
+		200 = {
+				set_demilitarized_zone = yes
+		}
+		226 = {
+				set_demilitarized_zone = yes
+		}
+		228 = {
+				set_demilitarized_zone = yes
+		}
+	    196 = {
+				set_demilitarized_zone = yes
+		}
+		221 = {
+				set_demilitarized_zone = yes
+		}
+		227 = {
+				set_demilitarized_zone = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = KORnan.7 #크론슈타트의 복수
+	title = KORnan.7.t
+	desc = KORnan.7.d
+	picture = GFX_크론슈타트의_복수cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.7.a
+		ai_chance = {
+		    factor = 50
+		}
+		
+		hidden_effect = {
+			news_event = {
+				id = Ana_news.5
+			}
+			CRS = {
+				transfer_state = 195
+				add_state_core = 195
+
+			}
+			UFT = {
+				add_equipment_to_stockpile = {
+  					type = infantry_equipment
+    				amount = 10000
+    				producer = UFT
+				}
+				load_oob = "UFT_1936"
+				transfer_state = 227
+				transfer_state = 200
+				transfer_state = 226
+				transfer_state = 228
+				transfer_state = 196
+				transfer_state = 221
+
+				add_state_core = 227
+				add_state_core = 200
+				add_state_core = 226
+				add_state_core = 228
+				add_state_core = 196
+				add_state_core = 221
+
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+			    }
+			}
+			FIN = {
+				country_event = {
+    				id = KORnan.21
+    				days = 10
+    				random = 100
+    				random_days = 10
+				}
+			}
+			JAP = {
+				country_event = {
+    				id = KORnan.24
+    				days = 12
+    				random = 100
+    				random_days = 12
+				}
+			}
+			KOR = {
+				country_event = {
+					id = SAG.1
+					days = 20
+				}
+				country_event = {
+    				id = KORnan.25
+    				days = 17
+				}
+			}
+			SOV = {
+				
+				country_event = {
+    				id = KORnan.27
+    				days = 23
+    				random = 100
+    				random_days = 23
+				}
+
+				transfer_navy = {
+    				target = CRS
+				}
+
+				country_event = {
+    				id = KORnan.23
+  		  			days = 15
+    				random = 100
+    				random_days = 15
+				}
+				
+				country_event = {
+					id = KORnan.20
+				}
+				delete_unit = { 
+            	    state = 221      
+            	    disband = yes
+            	}
+				delete_unit = { 
+            	    state = 226
+            	    disband = yes
+            	}
+				delete_unit = { 
+            	    state = 196
+            	    disband = yes
+            	}
+				delete_unit = { 
+            	    state = 200
+            	    disband = yes
+            	}
+				delete_unit = { 
+            	    state = 227
+            	    disband = yes
+            	}
+				delete_unit = { 
+            	    state = 228
+            	    disband = yes
+            	}
+			} 
+			195 = {
+				set_demilitarized_zone = no
+			}
+			227 = {
+				set_demilitarized_zone = no
+			}
+			200 = {
+				set_demilitarized_zone = no
+			}
+			226 = {
+				set_demilitarized_zone = no
+			}
+			228 = {
+				set_demilitarized_zone = no
+			}
+	    	196 = {
+				set_demilitarized_zone = no
+			}
+			221 = {
+				set_demilitarized_zone = no
+			}
+		}
+	}
+}
+country_event = {
+	id = KORnan.8 #강령
+	title = KORnan.8.t
+	desc = KORnan.8.d
+	picture = GFX_우크리흑군
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.8.a
+		ai_chance = {
+		    factor = 50
+		}
+	}
+} 
+country_event = {
+	id = KORnan.9 #거대단일노조
+	title = KORnan.9.t
+	desc = KORnan.9.d
+	picture = GFX_IWW노조
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.9.a
+		ai_chance = {
+		    factor = 50
+		}
+	}
+} 
+country_event = {
+	id = KORnan.10 #연방제 코뮌
+	title = KORnan.10.t
+	desc = KORnan.10.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.10.a
+		ai_chance = {
+		    factor = 50
+		}
+	}
+} 
+country_event = {
+	id = KORnan.11 #총파업----------------------------------------------------------
+	title = KORnan.11.t
+	desc = KORnan.11.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.11.a
+		ai_chance = {
+		    factor = 50
+		}
+		custom_effect_tooltip = KOR_CNT_STRIKE
+		hidden_effect = {
+		IWW = {
+			add_state_core = 396
+			add_state_core = 395
+			add_state_core = 393
+			add_state_core = 394
+			396 = {
+				set_demilitarized_zone = yes
+			}
+			395	= {
+				set_demilitarized_zone = yes
+			}
+			393 = {
+				set_demilitarized_zone = yes
+			}
+			394	= {
+				set_demilitarized_zone = yes
+			}
+		}
+		USA = {
+			add_popularity = {
+    			ideology = communism
+    			popularity = 0.2
+			}
+		}
+		country_event = {
+			id = KORnan.12
+		}
+		}
+	}
+} 
+country_event = { #뉴잉글랜드 동참
+	id = KORnan.12 #
+	title = KORnan.12.t
+	desc = KORnan.12.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.12.a
+		ai_chance = {
+		    factor = 50
+		}
+		custom_effect_tooltip = KOR_CNT_STRIKE_1
+		hidden_effect = {
+		IWW = {
+			360 = {
+				set_demilitarized_zone = yes
+			}
+			359	= {
+				set_demilitarized_zone = yes
+			}
+			357 = {
+				set_demilitarized_zone = yes
+			}
+			358	= {
+				set_demilitarized_zone = yes
+			}
+			
+			add_state_core = 360
+			add_state_core = 359
+			add_state_core = 357
+			add_state_core = 358
+		}
+		USA = {
+			add_popularity = {
+    			ideology = communism
+    			popularity = 0.1
+			}
+		}
+		country_event = {
+			id = KORnan.13
+		}
+		}
+	}
+} 
+country_event = { #북부이스트코스트 동참
+	id = KORnan.13 #
+	title = KORnan.13.t
+	desc = KORnan.13.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.13.a
+		ai_chance = {
+		    factor = 50
+		}
+		custom_effect_tooltip = KOR_CNT_STRIKE_2
+		hidden_effect = {
+		IWW = {
+			369 = {
+				set_demilitarized_zone = yes
+			}
+			261	= {
+				set_demilitarized_zone = yes
+			}
+			add_state_core = 369
+			add_state_core = 261
+		}
+		USA = {
+			add_popularity = {
+    			ideology = communism
+    			popularity = 0.1
+			}
+		}
+		country_event = {
+			id = KORnan.14 
+		}
+		}
+	}
+} 
+country_event = { #미네소타와 아이오와주 동참
+	id = KORnan.14 
+	title = KORnan.14.t
+	desc = KORnan.14.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.14.a
+		custom_effect_tooltip = KOR_CNT_STRIKE_3
+		ai_chance = {
+		    factor = 50
+		}
+		hidden_effect = {
+		IWW = {
+			392 = {
+				set_demilitarized_zone = yes
+			}
+			391	= {
+				set_demilitarized_zone = yes
+			}
+
+			add_state_core = 391
+			add_state_core = 392
+			
+		}
+		USA = {
+			add_popularity = {
+    			ideology = communism
+    			popularity = 0.5
+			}
+		}
+		}
+	}
+} 
+
+country_event = { #혁명시작
+	id = KORnan.16
+	title = KORnan.16.t
+	desc = KORnan.16.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.16.a
+		custom_effect_tooltip = KOR_CNT_chicago_STRIKE
+		ai_chance = {
+		    factor = 50
+		}
+		IWW = {
+			declare_war_on = {
+				target = USA
+				type = annex_everything
+			}
+			transfer_state	= 392
+			transfer_state	= 391
+			transfer_state	= 261
+			transfer_state	= 369
+			transfer_state	= 394
+			transfer_state	= 393
+			transfer_state	= 395
+			transfer_state	= 396
+			transfer_state	= 358
+			transfer_state	= 357
+			transfer_state	= 359
+			transfer_state	= 360
+		load_oob = "IWW_1936"
+		USA = {
+			declare_war_on = {
+				target = IWW
+				type = annex_everything
+			}
+			load_oob = "FOR_USA"
+		}
+		}
+		392 = {
+				set_demilitarized_zone = no
+		}
+		391 = {
+				set_demilitarized_zone = no
+		}
+		261 = {
+				set_demilitarized_zone = no
+		}
+		369 = {
+				set_demilitarized_zone = no
+		}
+		394 = {
+				set_demilitarized_zone = no
+		}
+		393 = {
+				set_demilitarized_zone = no
+		}
+		395 = {
+				set_demilitarized_zone = no
+		}
+		396 = {
+				set_demilitarized_zone = no
+		}
+		358 = {
+				set_demilitarized_zone = no
+		}
+		357 = {
+				set_demilitarized_zone = no
+		}
+		359 = {
+				set_demilitarized_zone = no
+		}
+		360 = {
+				set_demilitarized_zone = no
+		}
+		news_event = {
+			id = Ana_news.3
+		}
+	}
+} 
+
+country_event = { #시카고 반란
+	id = KORnan.15
+	title = KORnan.15.t
+	desc = KORnan.15.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.15.a
+		custom_effect_tooltip = KOR_CNT_chicago_STRIKE
+		ai_chance = {
+		    factor = 50
+		}
+	}
+} 
+country_event = { #인터내셔널초대
+	id = KORnan.17
+	title = KORnan.17.t
+	desc = KORnan.17.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.17.a
+		ai_chance = {
+		    factor = 0
+		}
+		KOR = {
+			add_to_faction = IWW
+		}
+	}
+	option = {
+		name = KORnan.17.c
+		ai_chance = {
+		    factor = 100
+		}
+		KOR = {
+			country_event = {
+				id = KORnan.18
+			}
+		}
+	}
+} 
+country_event = { #인터내셔널거절
+	id = KORnan.18
+	title = KORnan.18.t
+	desc = KORnan.18.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.18.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+} 
+
+country_event = { #탄누독립
+	id = KORnan.20
+	title = KORnan.20.t
+	desc = KORnan.20.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.20.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+} 
+country_event = { #핀란드 군정
+	id = KORnan.21
+	title = KORnan.21.t
+	desc = KORnan.21.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name =  KORnan.21.a
+		ai_chance = {
+		    factor = 100
+		}
+		transfer_state = 213
+		transfer_state = 215
+		transfer_state = 216
+
+		country_event = {
+    		id = KORnan.22
+    		days = 10
+    		random = 100
+    		random_days = 10
+		}
+	}
+}
+
+country_event = { #투르크메니스탄
+	id = KORnan.23
+	title = KORnan.23.t
+	desc = KORnan.23.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.23.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+			
+		TMS = {
+			transfer_state = 584
+			transfer_state = 585
+			transfer_state = 405
+			transfer_state = 742
+			transfer_state = 732
+			add_state_core = 584
+			add_state_core = 585
+			add_state_core = 405
+			add_state_core = 732
+			add_state_core = 742
+			set_cosmetic_tag = FRE_TMK
+		}
+		}
+	}
+}
+
+country_event = { #사할린
+	id = KORnan.24
+	title = KORnan.24.t
+	desc = KORnan.24.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.24.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+			transfer_state = 655
+			add_state_core = 655
+		}
+	}
+	option = {
+		name = KORnan.24.b
+		ai_chance = {
+		    factor = 0
+		}
+		
+	}
+}
+
+country_event = { #카자흐
+	id = KORnan.25
+	title = KORnan.25.t
+	desc = KORnan.25.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.25.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+			SOV = {
+				country_event = {
+					id = KORnan.26
+				}
+			}
+			KAZ = {
+				set_cosmetic_tag = KAZ_ALH
+				
+				transfer_state = 404
+				add_state_core = 404
+				
+				transfer_state = 407
+				add_state_core = 407
+
+				transfer_state = 406
+				add_state_core = 406
+				
+				transfer_state = 587
+				add_state_core = 587
+
+				transfer_state = 402
+				add_state_core = 402
+
+				transfer_state = 589
+				add_state_core = 589
+				
+				transfer_state = 588
+				add_state_core = 588
+
+				transfer_state = 590
+				add_state_core = 590
+
+				transfer_state = 583
+				add_state_core = 583
+
+				transfer_state = 586
+				add_state_core = 586
+			}
+		}
+	}
+}
+
+country_event = { #카자흐 - 소련
+	id = KORnan.26
+	title = KORnan.26.t
+	desc = KORnan.26.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.26.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+
+country_event = { #중국에서의 직접행동
+	id = KORnan.28
+	title = KORnan.28.t
+	desc = KORnan.28.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.28.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+
+country_event = { #코카서스 - 독립
+	id = KORnan.27
+	title = KORnan.27.t
+	desc = KORnan.27.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.27.a
+		ai_chance = {
+		    factor = 100
+		}
+		AZR = { 
+			transfer_state = 229
+			add_state_core = 229
+		}
+		GEO = { 
+			transfer_state = 231
+			add_state_core = 231
+		}
+		ARM = { 
+			transfer_state = 230
+			add_state_core = 230
+		}
+	}
+} 
+
+
+country_event = { #중국 혁명
+	id = KORnan.30
+	title = KORnan.30.t
+	desc = KORnan.30.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.30.a
+		ai_chance = {
+		    factor = 100
+		}
+		
+		hidden_effect = {
+			CAF = {
+				set_rule = {
+   					can_puppet = no
+					can_boost_other_ideologies = no
+				}
+				country_lock_all_division_template = yes
+			}
+			598 = {
+				set_demilitarized_zone = no
+			}
+			613 = {
+				set_demilitarized_zone = no
+			}
+			606 = {
+				set_demilitarized_zone = no
+			}
+			749 = {
+				set_demilitarized_zone = no
+			}
+			596 = {
+				set_demilitarized_zone = no
+			}
+			CHI = {
+				remove_from_faction = CHI
+				end_puppet = Mon
+				end_puppet = MAN
+				end_puppet = MEN
+				end_puppet = CHI
+				end_puppet = shx
+				end_puppet = gxc
+				end_puppet = xsm
+				end_puppet = sik
+				end_puppet = prc
+				end_puppet = yun
+			}
+			CAF = {
+				transfer_state = 598
+				transfer_state = 613
+				transfer_state = 606
+				transfer_state = 749
+				transfer_state = 596
+
+				add_state_core = 613
+				add_state_core = 598
+				add_state_core = 606
+				add_state_core = 749
+				add_state_core = 596
+				declare_war_on = {
+					target = CHI
+					type = annex_everything
+			    }
+			}
+			PRC = {
+				declare_war_on = {
+					target = CHI
+					type = annex_everything
+			    }
+			}
+		}
+	}
+}
+
+
+country_event = { #일본 혁명
+	id = KORnan.29
+	title = KORnan.29.t
+	desc = KORnan.29.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.29.a
+		ai_chance = {
+		    factor = 100
+		}
+		
+		hidden_effect = {
+			JAF = {
+				set_rule = {
+   					can_puppet = no
+					can_boost_other_ideologies = no
+				}
+				country_lock_all_division_template = yes
+			}
+			531 = {
+				set_demilitarized_zone = no
+			}
+			532 = {
+				set_demilitarized_zone = no
+			}
+			528 = {
+				set_demilitarized_zone = no
+			}
+			529 = {
+				set_demilitarized_zone = no
+			}
+			JAP = {
+				end_puppet = MAN
+				end_puppet = MEN
+				end_puppet = CHI
+				end_puppet = shx
+				end_puppet = gxc
+				end_puppet = xsm
+				end_puppet = sik
+				end_puppet = prc
+				end_puppet = yun
+			}
+			JAF = {
+				transfer_state = 528
+				transfer_state = 529
+				transfer_state = 531
+				transfer_state = 532
+				add_state_core = 532
+				add_state_core = 531
+				add_state_core = 529
+				add_state_core = 528
+				declare_war_on = {
+					target = JAP
+					type = annex_everything
+			    }
+			}
+		}
+	}
+}
+
+country_event = { #중국 - 인터내셔널초대
+	id = KORnan.31
+	title = KORnan.31.t
+	desc = KORnan.31.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.31.a
+		ai_chance = {
+		    factor = 100
+		}
+		KOR = {
+			add_to_faction = CAF
+		}
+	}
+	option = {
+		name = KORnan.31.c
+		ai_chance = {
+		    factor = 0
+		}
+		
+	}
+} 
+country_event = { #일본 - 인터내셔널초대
+	id = KORnan.32
+	title = KORnan.32.t
+	desc = KORnan.32.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.32.a
+		ai_chance = {
+		    factor = 100
+		}
+		KOR = {
+			add_to_faction = JAF
+		}
+	}
+	option = {
+		name = KORnan.32.c
+		ai_chance = {
+		    factor = 0
+		}
+	}
+} 
+country_event = { #일본 - 혁명승리
+	id = KORnan.33
+	title = KORnan.33.t
+	desc = KORnan.33.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.33.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect ={
+			KOR = {
+				country_event = {
+					id = KORnan.34
+					days = 2
+				}
+			}
+		}
+	}
+} 
+country_event = { #일본 - 가입제의(한국)
+	id = KORnan.34
+	title = KORnan.34.t
+	desc = KORnan.34.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.34.a
+		ai_chance = {
+		    factor = 100
+		}
+		JAF = {
+			country_event = {
+				id = KORnan.32
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = KORnan.34.c
+	}
+}
+country_event = { #중국 - 혁명승리
+	id = KORnan.35
+	title = KORnan.35.t
+	desc = KORnan.35.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.35.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect ={
+			KOR = {
+				country_event = {
+					id = KORnan.36
+					days = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = { #중국 - 가입제의(한국)
+	id = KORnan.36
+	title = KORnan.36.t
+	desc = KORnan.36.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.36.a
+		ai_chance = {
+		    factor = 100
+		}
+		CAF = {
+			country_event = {
+				id = KORnan.31
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = KORnan.36.c
+	}
+}
+country_event = { #인터내셔널 국제여단
+	id = KORnan.37
+	title = KORnan.37.t
+	desc = KORnan.37.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.37.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = { #인민의 노동조합
+	id = KORnan.38
+	title = KORnan.38.t
+	desc = KORnan.38.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.38.a
+		ai_chance = {
+		    factor = 100
+		}
+		add_stability = 0.1
+	}
+}
+country_event = { #평등한 코뮌
+	id = KORnan.39
+	title = KORnan.39.t
+	desc = KORnan.39.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.39.a
+		ai_chance = {
+		    factor = 100
+		}
+		add_stability = 0.1
+	}
+}
+country_event = { #카렐리아 논쟁 
+	id = KORnan.22
+	title = KORnan.22.t
+	desc = KORnan.22.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.22.a
+		ai_chance = {
+		    factor = 0
+		}
+	}
+	option = {
+		name = KORnan.22.c
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+		puppet = KAR
+		KAR = {
+			set_cosmetic_tag = FIN_KAR
+			transfer_state = 213
+			transfer_state = 215
+			transfer_state = 216
+		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = "핀란드 군정청"
+			name = "핀란드 군정청"
+		}
+		create_country_leader = {
+			name = "핀란드 군정청"
+			desc = ""
+			picture = "gfx/leaders/KAR/military_government.png"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+
+			}
+	    }
+		add_popularity = {
+    		ideology = neutrality
+    		popularity = 10
+		}
+		}
+	}
+}
