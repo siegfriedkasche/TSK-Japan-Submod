@@ -426,22 +426,22 @@ ideas = {
             }
         }
     }
-    ideas = {
-     country = { #country로 써줘요 국민정신으로 나옴
 
-        MJP_Stable_Japan { #아이디어스 id
+     country = { 
+
+        MJP_Stable_Japan { 
 
             allowed = {
-                original_tag = MJP # original_tag 태그에 지정된 국가에 국민정신 부여
+                original_tag = MJP 
             }
 
             allowed_civil_war = {
-                always = yes #내전이 나도 상대 반란군에도 적용할지여부
+                always = yes 
             }
 
-            picture = Unstable_commune #아이콘
+            picture =  #아이콘
 
-            removal_cost = -1 #삭제될때 필요한 정치력 (무조건-1)
+            removal_cost = -1 
             
             modifier = { #효과
                 industrial_capacity_factory = 0.3
