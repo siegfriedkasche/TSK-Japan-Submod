@@ -9,7 +9,7 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = Market_Control_Initiated_markets
+		id = Japan_Submod_Market_Control_Initiated_markets
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 9
@@ -19,7 +19,7 @@ focus_tree = {
 		)
 	}
 	focus = {
-		id = newfocus_26
+		id = Japan_Submod_newfocus_26
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 21
@@ -27,7 +27,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_30
+		id = Japan_Submod_newfocus_30
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 36
@@ -35,7 +35,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_76
+		id = Japan_Submod_newfocus_76
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 36
@@ -43,7 +43,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Oil problem
+		id = Japan_Submod_Oil problem
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -54,7 +54,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Securing_Fuel_Imports
+		id = Japan_Submod_Securing_Fuel_Imports
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -65,7 +65,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = U.S.Trade.Opens
+		id = Japan_Submod_U.S_Trade_Opens
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -76,7 +76,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Middle_East_Contact
+		id = Japan_Submod_Middle_East_Contact
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -87,7 +87,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_5
+		id = Japan_Submod_newfocus_5
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -101,7 +101,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_6
+		id = Japan_Submod_newfocus_6
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -112,7 +112,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_7
+		id = Japan_Submod_newfocus_7
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -123,7 +123,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_8
+		id = Japan_Submod_newfocus_8
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -134,7 +134,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_9
+		id = Japan_Submod_newfocus_9
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -146,7 +146,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_11
+		id = Japan_Submod_newfocus_11
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -157,7 +157,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_12
+		id = Japan_Submod_newfocus_12
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -168,7 +168,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_13
+		id = Japan_Submod_newfocus_13
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -182,7 +182,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_14
+		id = Japan_Submod_newfocus_14
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -193,7 +193,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_15
+		id = Japan_Submod_newfocus_15
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -204,7 +204,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_16
+		id = Japan_Submod_newfocus_16
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -215,7 +215,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_17
+		id = Japan_Submod_newfocus_17
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -226,7 +226,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_25
+		id = Japan_Submod_newfocus_25
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -237,7 +237,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_18
+		id = Japan_Submod_newfocus_18
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -248,7 +248,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_21
+		id = Japan_Submod_newfocus_21
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -259,7 +259,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_19
+		id = Japan_Submod_newfocus_19
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -270,7 +270,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_22
+		id = Japan_Submod_newfocus_22
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -281,7 +281,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_23
+		id = Japan_Submod_newfocus_23
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -292,7 +292,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_27
+		id = Japan_Submod_newfocus_27
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -303,7 +303,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_28
+		id = Japan_Submod_newfocus_28
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -314,7 +314,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_56
+		id = Japan_Submod_newfocus_56
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -325,7 +325,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_29
+		id = Japan_Submod_newfocus_29
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -339,7 +339,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_64
+		id = Japan_Submod_newfocus_64
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -350,7 +350,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_67
+		id = Japan_Submod_newfocus_67
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -364,7 +364,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_69
+		id = Japan_Submod_newfocus_69
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -375,7 +375,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_66
+		id = Japan_Submod_newfocus_66
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -386,7 +386,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_35
+		id = Japan_Submod_newfocus_35
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -397,7 +397,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_70
+		id = Japan_Submod_newfocus_70
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -408,7 +408,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_71
+		id = Japan_Submod_newfocus_71
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -419,7 +419,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_71
+		id = Japan_Submod_newfocus_71
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -430,7 +430,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_72
+		id = Japan_Submod_newfocus_72
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -441,7 +441,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_73
+		id = Japan_Submod_newfocus_73
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -455,7 +455,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_77
+		id = Japan_Submod_newfocus_77
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -466,7 +466,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_75
+		id = Japan_Submod_newfocus_75
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -477,7 +477,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_31
+		id = Japan_Submod_newfocus_31
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -488,7 +488,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_44
+		id = Japan_Submod_newfocus_44
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -499,7 +499,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_49
+		id = Japan_Submod_newfocus_49
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -510,7 +510,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_42
+		id = Japan_Submod_newfocus_42
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -521,7 +521,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_48
+		id = Japan_Submod_newfocus_48
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -532,7 +532,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_41
+		id = Japan_Submod_newfocus_41
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -543,7 +543,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_43
+		id = Japan_Submod_newfocus_43
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -554,7 +554,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_53
+		id = Japan_Submod_newfocus_53
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -571,7 +571,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_58
+		id = Japan_Submod_newfocus_58
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -582,7 +582,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_59
+		id = Japan_Submod_newfocus_59
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -593,7 +593,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_32
+		id = Japan_Submod_newfocus_32
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -604,7 +604,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_45
+		id = Japan_Submod_newfocus_45
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -615,7 +615,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_50
+		id = Japan_Submod_newfocus_50
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -626,7 +626,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_60
+		id = Japan_Submod_newfocus_60
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -637,7 +637,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_74
+		id = Japan_Submod_newfocus_74
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -651,7 +651,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_36
+		id = Japan_Submod_newfocus_36
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -662,7 +662,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_47
+		id = Japan_Submod_newfocus_47
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -673,7 +673,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_61
+		id = Japan_Submod_newfocus_61
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -684,7 +684,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_63
+		id = Japan_Submod_newfocus_63
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -695,7 +695,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_46
+		id = Japan_Submod_newfocus_46
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -706,7 +706,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_37
+		id = Japan_Submod_newfocus_37
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -717,7 +717,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_54
+		id = Japan_Submod_newfocus_54
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -734,7 +734,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_62
+		id = Japan_Submod_newfocus_62
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -745,7 +745,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_65
+		id = Japan_Submod_newfocus_65
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -756,7 +756,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_33
+		id = Japan_Submod_newfocus_33
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -767,7 +767,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_39
+		id = Japan_Submod_newfocus_39
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -778,7 +778,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_51
+		id = Japan_Submod_newfocus_51
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -789,7 +789,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_34
+		id = Japan_Submod_newfocus_34
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -800,7 +800,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_38
+		id = Japan_Submod_newfocus_38
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -811,7 +811,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_10
+		id = Japan_Submod_newfocus_10
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -822,7 +822,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_20
+		id = Japan_Submod_newfocus_20
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -833,7 +833,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_24
+		id = Japan_Submod_newfocus_24
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -856,7 +856,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_40
+		id = Japan_Submod_newfocus_40
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -867,7 +867,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_52
+		id = Japan_Submod_newfocus_52
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -878,7 +878,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_55
+		id = Japan_Submod_newfocus_55
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -895,7 +895,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_68
+		id = Japan_Submod_newfocus_68
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
