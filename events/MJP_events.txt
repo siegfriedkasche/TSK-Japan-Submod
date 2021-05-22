@@ -40,6 +40,28 @@ country_event = {
 		    factor = 100
 		}
 		add_ideas = MJP_Popped_bubble
-		
+		hidden_effect = {
+			country_event = [
+				id = MJP.3
+			]
+		}
+	}
+}
+country_event = {
+	id = MJP.3
+	title = MJP.3.t
+	desc = MJP.3.d
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MJP.3.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+			complete_national_focus = newfocus_14
+		}	
 	}
 }
