@@ -102,10 +102,10 @@ focus_tree = {
 		x = 1
 		y = 3
         completion_reward = { 
-			create_export = {
+			create_import = {
 				resource = oil
-                amount = 30
-                exporter = USA
+				factories = 1
+				exporter = USA
 			}
 		}
 	}
@@ -119,10 +119,10 @@ focus_tree = {
 		x = 3
 		y = 3
        completion_reward = { 
-			create_export = {
+			create_import = {
 				resource = oil
-                amount = 20
-                exporter = SAU
+				factories = 1
+				exporter = SAU
 			}
 		}
 	}
