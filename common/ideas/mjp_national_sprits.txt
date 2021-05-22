@@ -26,6 +26,37 @@ ideas = {
             }
         }
     }
+ ideas = {
+     country = {
+    
+        MJP_Stable_Japan = { #안정된 일본
+			
+		    allowed = {
+                original_tag = MJP
+            }
+
+            allowed_civil_war = {
+                always = yes 
+            }
+
+            picture = Unstable_commune #아이콘
+
+            removal_cost = -1 
+            
+            modifier = { #효과
+                consumer_goods_factor = 0.30
+                industrial_capacity_factory = 0.3
+                production_factory_max_efficiency_factor  = 0.3
+                production_factory_max_efficiency_factor  = -0.4
+                production_factory_start_efficiency_factor = 0.25
+                stability_factor = 0.25
+                production_speed_buildings_factor  = 0.2
+            } 
+        }
+    }
+
+ }
+   
     country = { #country로 써줘요 국민정신으로 나옴
 
         MJP_Prohibit_real_estate_mortgage_loans_ideas = { #아이디어스 id
@@ -428,6 +459,7 @@ ideas = {
     }
 
 country = {
+
      MJP_Stable_Japan = { #안정된 일본
 			
 		    allowed = {
