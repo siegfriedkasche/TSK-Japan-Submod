@@ -303,7 +303,17 @@ focus_tree = {
 		}
 		x = 10
 		y = 5
-
+		completion_reward = {
+			random_owned_state = {
+				add_offsite_building = { type = Infrastructure level = 1 }
+			}
+			random_owned_state = {
+				add_offsite_building = { type = Infrastructure level = 1 }
+			}
+			random_owned_state = {
+				add_offsite_building = { type = Infrastructure level = 1 }
+			}
+		}
 	}
 	focus = {
 		id = newfocus_25
@@ -314,7 +324,20 @@ focus_tree = {
 		}
 		x = 10
 		y = 6
-
+		completion_reward = {
+			531 = {
+				add_offsite_building = { type = Infrastructure level = 1 }
+			}
+			535 = {
+				add_offsite_building = { type = Infrastructure level = 1 }
+			}
+			534 = {
+				add_offsite_building = { type = Infrastructure level = 1 }
+			}
+			282 = {
+				add_offsite_building = { type = Infrastructure level = 1 }
+			}
+		}
 	}
 	focus = {
 		id = newfocus_18
@@ -325,7 +348,11 @@ focus_tree = {
 		}
 		x = 12
 		y = 5
-
+		completion_reward = {
+			random_owned_state = {
+				add_offsite_building = { type = Infrastructure level = 3 }
+			}
+		}
 	}
 	focus = {
 		id = newfocus_21
