@@ -90,6 +90,29 @@ ideas = {
             }
         }
     }
+
+    country = {
+        
+        UFT_anti_bolshevik_unity_ideas = { 
+
+            allowed = {
+                original_tag = UFT
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = JAF_program
+
+            removal_cost = -1
+            
+            modifier = {
+                stability_factor = 0.075
+                war_support = 0.075
+            }
+        }
+    }
     
     country = {
         
@@ -115,6 +138,54 @@ ideas = {
             modifier = {
                 army_attack_factor = 0.05
                 weekly_manpower	= 300
+            }
+        }
+    }
+
+    country = {
+        
+        UFT_black_garde = { 
+
+            allowed = {
+                original_tag = UFT
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = JAF_program
+
+            removal_cost = -1
+
+
+            modifier = {
+                army_attack_factor = 0.05
+                mobilization_speed = 0.1
+            }
+        }
+    }
+
+    country = {
+        
+        come_back_anarchist = { 
+
+            allowed = {
+                original_tag = UFT
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = JAF_program
+
+            removal_cost = -1
+
+
+            modifier = {
+                army_org_factor = 0.15
+                army_attack_factor = 0.05
             }
         }
     }

@@ -2,7 +2,7 @@ UFT_front_decisions = {
  	UFT_front_decisions_1 = {
 		icon = generic_prepare_civil_war
 		available = {
-			has_war = yes
+			has_completed_focus = UFT_revolution_front
 		}
 
 		ai_will_do = {
@@ -24,6 +24,9 @@ UFT_front_decisions = {
 	UFT_front_decisions_2 = {
 		icon = generic_prepare_civil_war
 		available = {
+			has_completed_focus = UFT_Organization_of_the_struggle
+		}
+		visible = {
 			has_war = yes
 		}
 
@@ -38,27 +41,9 @@ UFT_front_decisions = {
 		
 		remove_effect = {
 			custom_effect_tooltip = UFT_Militia_come_on
-			load_oob = "UFT_Militia"
-		}
-	}
-	UFT_front_decisions_3 = {
-		icon = generic_prepare_civil_war
-		available = {
-			has_war = yes
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		fire_only_once = no
-		cost = 50
-		
-		days_remove = 100
-		
-		remove_effect = {
-			custom_effect_tooltip = UFT_Militia_come_on
-			load_oob = "UFT_Militia"
+			hidden_effect = {
+				load_oob = "UFT_Militia"
+			}
 		}
 	}
 }

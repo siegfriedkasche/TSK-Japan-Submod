@@ -1,5 +1,5 @@
 ﻿l_english:
- UFT_no_god_no_master:0 "신도, 조국도, 주인도 없다"
+ UFT_no_god_no_master:0 "£ideology_communism_texticon 신도, 조국도, 주인도 없다."
  UFT_program:0 "강령"
  UFT_Black_army:0 "흑군"
  UFT_Temporary_Committee:0 "임시위원회"
@@ -44,8 +44,9 @@
  UFT_Platformism_ideas:0 "전술적 단결"
 
  UFT_front_decisions:0 "혁명전선"
+ UFT_anti_bolshevik_unity_ideas:0 "반-볼셰비키 단결"
  UFT_front_decisions_1:0 "적 무기고 약탈"
  UFT_front_decisions_2:0 "민병대 모집"
  UFT_front_decisions_3:0 "게릴라"
-
- 
+ UFT_black_garde:0 "전 흑위대 인원들 재소집"
+ come_back_anarchist:0 "돌아온 아나키스트들"

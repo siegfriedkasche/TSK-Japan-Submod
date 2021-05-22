@@ -85,7 +85,9 @@ focus_tree = {
 		}
 		x = 22
 		y = 6
-
+		completion_reward = {
+			add_war_support = 0.1
+		}
 	}
 	focus = {
 		id = UFT_Temporary_Committee
@@ -166,7 +168,7 @@ focus_tree = {
 	focus = {
 		id = UFT_Organization_of_the_struggle
 		icon = GFX_UFT_Organization_of_the_struggle
-		cost = 3.00
+		cost = 2.00
 		prerequisite = {
 			focus = UFT_revolution_front
 		}
@@ -175,7 +177,13 @@ focus_tree = {
 		}
 		x = 26
 		y = 8
-
+		completion_reward = {
+			unlock_decision_tooltip = UFT_front_decisions_2
+			custom_effect_tooltip = UFT_Militia_come_on
+			hidden_effect = {
+				load_oob = "UFT_Militia"
+			}
+		}
 	}
 	focus = {
 		id = UFT_Unity_against_reaction
@@ -186,7 +194,9 @@ focus_tree = {
 		}
 		x = 28
 		y = 6
-
+		completion_reward = {
+			add_ideas = UFT_anti_bolshevik_unity_ideas
+		}
 	}
 	focus = {
 		id = UFT_Soviet_betrayal
@@ -197,7 +207,9 @@ focus_tree = {
 		}
 		x = 30
 		y = 6
-
+		completion_reward = {
+			add_war_support = 0.1
+		}
 	}
 	focus = {
 		id = UFT_Call_of_the_Outcast
@@ -211,7 +223,12 @@ focus_tree = {
 		}
 		x = 29
 		y = 7
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = come_back_anarchist
+				days = 60
+			}
+		}
 	}
 	focus = {
 		id = UFT_program_for_free
@@ -277,7 +294,12 @@ focus_tree = {
 		}
 		x = 23
 		y = 7
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = UFT_black_garde
+				days = 60
+			}
+		}
 	}
 	focus = {
 		id = UFT_program_for_Revolution

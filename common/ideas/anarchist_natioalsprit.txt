@@ -1,21 +1,21 @@
 ideas = {
     country = {#불안정한 공동체
 
-        Unstable_commune = { 
+        Unstable_commune = { #국민정신 id
 
             allowed = {
-                original_tag = KOR
+                original_tag = KOR # original_tag 태그에 지정된 국가에 국민정신 부여
             }
 
             allowed_civil_war = {
-                always = yes
+                always = yes #내전이 나도 상대 반란군에도 적용할지여부
             }
 
-            picture = Unstable_commune
+            picture = Unstable_commune #아이콘
 
-            removal_cost = -1
+            removal_cost = -1 #삭제될때 필요한 정치력 (무조건-1)
             
-            modifier = {
+            modifier = { #효과
                 political_power_gain = -0.4
                 stability_factor = -0.3
                 max_surrender_limit_offset = -0.6
