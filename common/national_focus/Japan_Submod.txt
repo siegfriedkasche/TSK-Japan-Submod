@@ -1558,7 +1558,7 @@ focus_tree = {
 					x = 23
 					y = 6
 					ompletion_reward = {
-		                add_ideas = Stable_Japan
+		                add_ideas = MJP_Stable_Japan
 
 					}
 				}
