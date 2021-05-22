@@ -9,14 +9,12 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = Market_Control_Initiated_markets
+		id = Market Control Initiated markets
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 9
 		y = 0
-		completion_reward = {
-			add_ideas = MJP_economy_collaps
-		}
+
 	}
 	focus = {
 		id = newfocus_26
@@ -43,34 +41,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Non_alliance
-		icon = GFX_goal_unknown
-		cost = 10.00
-		mutually_exclusive = {
-			focus = Constitution
-			focus = Communism
-		}
-		x = 23
-		y = 8
-
-	}
-	focus = {
 		id = Military
 		icon = GFX_goal_unknown
 		cost = 10.00
 		mutually_exclusive = {
 			focus = MJP_Election
 		}
-		x = 31
+		x = 33
 		y = 7
-
-	}
-	focus = {
-		id = political_reform
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 15
-		y = 11
 
 	}
 	focus = {
@@ -78,14 +56,14 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Market_Control_Initiated_markets
+			focus = Market Control Initiated markets
 		}
 		x = 4
 		y = 1
 
 	}
 	focus = {
-		id = Securing_Fuel_Imports
+		id = Securing Fuel Imports
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -100,7 +78,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Securing_Fuel_Imports
+			focus = Securing Fuel Imports
 		}
 		x = 1
 		y = 3
@@ -111,7 +89,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Securing_Fuel_Imports
+			focus = Securing Fuel Imports
 		}
 		x = 3
 		y = 3
@@ -181,7 +159,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Market_Control_Initiated_markets
+			focus = Market Control Initiated markets
 		}
 		x = 8
 		y = 1
@@ -192,7 +170,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Market_Control_Initiated_markets
+			focus = Market Control Initiated markets
 		}
 		x = 10
 		y = 1
@@ -351,6 +329,17 @@ focus_tree = {
 
 	}
 	focus = {
+		id = political_funds
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Grants
+		}
+		x = 14
+		y = 10
+
+	}
+	focus = {
 		id = newfocus_23
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -381,6 +370,20 @@ focus_tree = {
 		}
 		x = 16
 		y = 10
+
+	}
+	focus = {
+		id = political_reform
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = political_funds
+		}
+		prerequisite = {
+			focus = network
+		}
+		x = 15
+		y = 11
 
 	}
 	focus = {
@@ -431,6 +434,43 @@ focus_tree = {
 
 	}
 	focus = {
+		id = Constitution
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Election
+		}
+		mutually_exclusive = {
+			focus = Non_alliance
+			focus = Liberal_Democratic_Party
+		}
+		x = 19
+		y = 8
+
+	}
+	focus = {
+		id = Coalition
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Constitution
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = national_welfare
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Coalition
+		}
+		x = 18
+		y = 10
+
+	}
+	focus = {
 		id = newfocus_64
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -478,18 +518,39 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Constitution
+		id = Past_History
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = MJP_Election
+			focus = Constitution
 		}
-		mutually_exclusive = {
-			focus = Non_alliance
-			focus = Liberal_Democratic_Party
+		x = 20
+		y = 9
+
+	}
+	focus = {
+		id = Emperor
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Past_History
+		}
+		x = 20
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_96
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = national_welfare
+		}
+		prerequisite = {
+			focus = Emperor
 		}
 		x = 19
-		y = 8
+		y = 11
 
 	}
 	focus = {
@@ -523,6 +584,43 @@ focus_tree = {
 		}
 		x = 22
 		y = 3
+
+	}
+	focus = {
+		id = Non_alliance
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Election
+		}
+		mutually_exclusive = {
+			focus = Constitution
+			focus = Communism
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = Employment
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Non_alliance
+		}
+		x = 22
+		y = 9
+
+	}
+	focus = {
+		id = Welfare
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Employment
+		}
+		x = 22
+		y = 10
 
 	}
 	focus = {
@@ -587,14 +685,39 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Emperor
+		id = Rural_area
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = Non_alliance
 		}
-		x = 23
+		x = 24
 		y = 9
+
+	}
+	focus = {
+		id = Peace_Constitution
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Rural_area
+		}
+		x = 24
+		y = 10
+
+	}
+	focus = {
+		id = social_democracy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Peace_Constitution
+		}
+		prerequisite = {
+			focus = Welfare
+		}
+		x = 23
+		y = 11
 
 	}
 	focus = {
@@ -673,8 +796,30 @@ focus_tree = {
 		prerequisite = {
 			focus = Military
 		}
-		x = 31
+		x = 33
 		y = 8
+
+	}
+	focus = {
+		id = control_group
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Military_control
+		}
+		x = 31
+		y = 9
+
+	}
+	focus = {
+		id = newfocus_106
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = control_group
+		}
+		x = 31
+		y = 10
 
 	}
 	focus = {
@@ -717,6 +862,39 @@ focus_tree = {
 
 	}
 	focus = {
+		id = newfocus_107
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_106
+		}
+		x = 32
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_102
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Military_control
+		}
+		x = 33
+		y = 9
+
+	}
+	focus = {
+		id = newfocus_105
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_102
+		}
+		x = 33
+		y = 10
+
+	}
+	focus = {
 		id = newfocus_32
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -750,6 +928,45 @@ focus_tree = {
 
 	}
 	focus = {
+		id = newfocus_101
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Military_control
+		}
+		x = 35
+		y = 9
+
+	}
+	focus = {
+		id = newfocus_104
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_101
+		}
+		x = 35
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_103
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_106
+		}
+		prerequisite = {
+			focus = newfocus_105
+		}
+		prerequisite = {
+			focus = newfocus_104
+		}
+		x = 34
+		y = 11
+
+	}
+	focus = {
 		id = newfocus_36
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -769,6 +986,28 @@ focus_tree = {
 		}
 		x = 36
 		y = 3
+
+	}
+	focus = {
+		id = newfocus_58
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_76
+		}
+		x = 38
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_59
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_58
+		}
+		x = 37
+		y = 8
 
 	}
 	focus = {
@@ -811,35 +1050,13 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_58
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_76
-		}
-		x = 39
-		y = 7
-
-	}
-	focus = {
-		id = newfocus_59
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_58
-		}
-		x = 38
-		y = 8
-
-	}
-	focus = {
 		id = newfocus_60
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_58
 		}
-		x = 40
+		x = 39
 		y = 8
 
 	}
@@ -853,7 +1070,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_60
 		}
-		x = 39
+		x = 38
 		y = 9
 
 	}
@@ -864,7 +1081,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_74
 		}
-		x = 39
+		x = 38
 		y = 10
 
 	}
@@ -924,62 +1141,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_61
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_76
-		}
-		x = 43
-		y = 7
-
-	}
-	focus = {
-		id = newfocus_10
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_15
-		}
-		x = 8
-		y = 5
-
-	}
-	focus = {
-		id = newfocus_20
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_10
-		}
-		x = 8
-		y = 6
-
-	}
-	focus = {
-		id = newfocus_24
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_20
-			focus = newfocus_9
-		}
-		prerequisite = {
-			focus = newfocus_9
-			focus = newfocus_25
-			focus = newfocus_21
-		}
-		prerequisite = {
-			focus = newfocus_22
-		}
-		prerequisite = {
-			focus = newfocus_23
-		}
-		x = 9
-		y = 7
-
-	}
-	focus = {
 		id = newfocus_40
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -1019,14 +1180,106 @@ focus_tree = {
 
 	}
 	focus = {
+		id = newfocus_61
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_76
+		}
+		x = 44
+		y = 7
+
+	}
+	focus = {
 		id = newfocus_62
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_61
 		}
-		x = 44
+		x = 46
 		y = 8
+
+	}
+	focus = {
+		id = newfocus_109
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_62
+		}
+		x = 45
+		y = 9
+
+	}
+	focus = {
+		id = newfocus_65
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_62
+		}
+		x = 47
+		y = 9
+
+	}
+	focus = {
+		id = newfocus_108
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_65
+		}
+		prerequisite = {
+			focus = newfocus_109
+		}
+		x = 46
+		y = 10
+
+	}
+	focus = {
+		id = JAXA
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_15
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = Satellite
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAXA
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_24
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Satellite
+			focus = newfocus_9
+		}
+		prerequisite = {
+			focus = newfocus_9
+			focus = newfocus_25
+			focus = newfocus_21
+		}
+		prerequisite = {
+			focus = newfocus_22
+		}
+		prerequisite = {
+			focus = newfocus_23
+		}
+		x = 9
+		y = 7
 
 	}
 	focus = {
@@ -1041,25 +1294,108 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_65
+		id = newfocus_110
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = newfocus_62
+			focus = newfocus_63
 		}
-		x = 44
+		x = 41
 		y = 9
 
 	}
 	focus = {
-		id = political_funds
+		id = newfocus_111
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Grants
+			focus = newfocus_63
 		}
-		x = 14
+		x = 43
+		y = 9
+
+	}
+	focus = {
+		id = newfocus_112
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_110
+		}
+		prerequisite = {
+			focus = newfocus_111
+		}
+		x = 42
 		y = 10
+
+	}
+	focus = {
+		id = newfocus_113
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_115
+		}
+		x = 41
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_114
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_115
+		}
+		x = 43
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_115
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_68
+			focus = newfocus_112
+			focus = newfocus_108
+		}
+		x = 42
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_116
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_114
+		}
+		x = 43
+		y = 13
+
+	}
+	focus = {
+		id = newfocus_117
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_113
+		}
+		x = 41
+		y = 13
+
+	}
+	focus = {
+		id = newfocus_118
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_117
+			focus = newfocus_116
+		}
+		x = 42
+		y = 14
 
 	}
 }
