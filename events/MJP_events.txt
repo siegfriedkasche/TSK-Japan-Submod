@@ -13,8 +13,10 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 		}
-		remove_ideas = MJP_Prohibit_real_estate_mortgage_loans
-		remove_ideas = MJP_Interest_rate_increase
+		remove_ideas = { 
+			MJP_Interest_rate_increase_ideas
+		    MJP_Prohibit_real_estate_mortgage_loans_ideas
+		}
 		hidden_effect = {
 			country_event = {
 				id = MJP.2

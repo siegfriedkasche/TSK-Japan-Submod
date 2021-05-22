@@ -67,7 +67,16 @@ focus_tree = {
 		}
 		x = 4
 		y = 1
-
+		completion_reward = {
+			534 = {
+				add_offsite_building = { type = fuel_silo  level = 2 }
+				add_extra_state_shared_building_slots = 2
+			}
+			535 = {
+				add_offsite_building = { type = synthetic_refinery   level = 1 }
+				add_extra_state_shared_building_slots = 1
+			}
+		}
 	}
 	focus = {
 		id = Securing_Fuel_Imports
@@ -125,7 +134,9 @@ focus_tree = {
 		}
 		x = 6
 		y = 2
-
+		completion_reward = {
+			add_ideas = MJP_Resource_digger
+		}
 	}
 	focus = {
 		id = newfocus_7

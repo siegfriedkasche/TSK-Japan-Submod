@@ -96,11 +96,35 @@ ideas = {
             modifier = { #효과
                 consumer_goods_factor = 0.4
                 industrial_capacity_factory = -0.5
-                production_factory_max_efficiency_factor = -0.4
-                production_factory_max_efficiency_factor = -0.4
+                production_factory_max_efficiency_factor = -0.6
+                production_factory_max_efficiency_factor = -0.6
                 stability_factor = -0.30
                 production_speed_buildings_factor = -0.6
                 monthly_population = -0.2
+                research_speed_factor = -0.3
+            }
+        }
+    }
+
+    country = {
+
+        MJP_Resource_digger = { 
+
+            allowed = {
+                original_tag = MJP 
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Unstable_commune #아이콘
+
+            removal_cost = -1
+            
+            modifier = { #효과
+               local_resources = 0.15
+               local_resources_factor = 0.1
             }
         }
     }
