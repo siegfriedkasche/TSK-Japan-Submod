@@ -47,7 +47,6 @@ ideas = {
                 consumer_goods_factor = 0.30
                 industrial_capacity_factory = 0.3
                 production_factory_max_efficiency_factor  = 0.3
-                production_factory_max_efficiency_factor  = -0.4
                 production_factory_start_efficiency_factor = 0.25
                 stability_factor = 0.25
                 production_speed_buildings_factor  = 0.2
