@@ -16,7 +16,11 @@ state=
 			industrial_complex = 2
 
 		}
-		
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+		}
 		victory_points = {
 			7197 10
 		}

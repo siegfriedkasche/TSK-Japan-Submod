@@ -19,8 +19,11 @@ state={
 		victory_points = {
 			1117 10
 		}
-
-
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+		}
 	}
 
 	provinces={

@@ -25,6 +25,11 @@ state={
 			}
 
 		}
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+		}
 		victory_points = {
 			1182 50 
 		}

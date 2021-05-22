@@ -41,6 +41,11 @@ state={
 				industrial_complex = 5
 			}
 		}
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+		}
 
 	}
 
