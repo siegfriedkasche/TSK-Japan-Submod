@@ -14,10 +14,11 @@ focus_tree = {
 		cost = 10.00
 		x = 9
 		y = 0
-		completion_reward = {
-			unlock_decision_category_tooltip = MJP_economy_decisions_policy
-			add_ideas = MJP_economy_collaps
-		}
+			completion_reward = {
+					unlock_decision_category_tooltip = MJP_economy_decisions_policy
+					add_ideas = MJP_economy_collaps
+				}
+
 	}
 	focus = {
 		id = newfocus_26
@@ -33,11 +34,12 @@ focus_tree = {
 		cost = 10.00
 		x = 36
 		y = 0
-		completion_reward = {
-			unlock_decision_tooltip = MJP_Military_plant
-			unlock_decision_tooltip = MJP_army_add_money
-			unlock_decision_tooltip = MJP_Army_training
-		}
+			completion_reward = {
+					unlock_decision_tooltip = MJP_Military_plant
+					unlock_decision_tooltip = MJP_army_add_money
+					unlock_decision_tooltip = MJP_Army_training
+				}
+
 	}
 	focus = {
 		id = newfocus_76
@@ -67,16 +69,23 @@ focus_tree = {
 		}
 		x = 4
 		y = 1
-		completion_reward = {
-			534 = {
-				add_offsite_building = { type = fuel_silo  level = 2 }
-				add_extra_state_shared_building_slots = 2
-			}
-			535 = {
-				add_offsite_building = { type = synthetic_refinery   level = 1 }
-				add_extra_state_shared_building_slots = 1
-			}
-		}
+			completion_reward = {
+					534 = {
+							add_offsite_building = {
+									type = fuel_silo
+									level = 2
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					535 = {
+							add_offsite_building = {
+									type = synthetic_refinery
+									level = 1
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+				}
+
 	}
 	focus = {
 		id = Securing_Fuel_Imports
@@ -87,10 +96,11 @@ focus_tree = {
 		}
 		x = 2
 		y = 2
-        completion_reward = {
-            add_stability = 0.15
-            add_political_power = 100
-		}
+			completion_reward = {
+					add_stability = 0.15
+					add_political_power = 100
+				}
+
 	}
 	focus = {
 		id = US_Trade_Opens
@@ -101,13 +111,14 @@ focus_tree = {
 		}
 		x = 1
 		y = 3
-        completion_reward = { 
-			create_import = {
-				resource = oil
-				factories = 1
-				exporter = USA
-			}
-		}
+			completion_reward = {
+					create_import = {
+							resource = oil
+							factories = 1
+							exporter = USA
+						}
+				}
+
 	}
 	focus = {
 		id = Middle_East_Contact
@@ -118,13 +129,14 @@ focus_tree = {
 		}
 		x = 3
 		y = 3
-       completion_reward = { 
-			create_import = {
-				resource = oil
-				factories = 1
-				exporter = SAU
-			}
-		}
+			completion_reward = {
+					create_import = {
+							resource = oil
+							factories = 1
+							exporter = SAU
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_5
@@ -138,9 +150,10 @@ focus_tree = {
 		}
 		x = 2
 		y = 4
-        completion_reward = {
-			add_ideas = MJP_Transport_protection
-		}
+			completion_reward = {
+					add_ideas = MJP_Transport_protection
+				}
+
 	}
 	focus = {
 		id = newfocus_6
@@ -151,9 +164,10 @@ focus_tree = {
 		}
 		x = 6
 		y = 2
-		completion_reward = {
-			add_ideas = MJP_Resource_digger
-		}
+			completion_reward = {
+					add_ideas = MJP_Resource_digger
+				}
+
 	}
 	focus = {
 		id = newfocus_7
@@ -164,13 +178,14 @@ focus_tree = {
 		}
 		x = 6
 		y = 3
-		completion_reward = {
-			add_resource = {
-    			type = steel
-    			amount = 25
-    			state = 282
-			}
-		}
+			completion_reward = {
+					add_resource = {
+							type = steel
+							amount = 25
+							state = 282
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_8
@@ -181,12 +196,13 @@ focus_tree = {
 		}
 		x = 6
 		y = 4
-		completion_reward ={
-			swap_ideas ={
-				add_idea = MJP_Resource_digger_2
-				remove_idea = MJP_Resource_digger
-			}
-		}
+			completion_reward = {
+					swap_ideas = {
+							add_idea = MJP_Resource_digger_2
+							remove_idea = MJP_Resource_digger
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_9
@@ -198,13 +214,14 @@ focus_tree = {
 		}
 		x = 6
 		y = 5
-		completion_reward = {
-			add_resource = {
-    			type = oil
-    			amount = 50
-    			state = 534
-			}
-		}
+			completion_reward = {
+					add_resource = {
+							type = oil
+							amount = 50
+							state = 534
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_11
@@ -215,9 +232,10 @@ focus_tree = {
 		}
 		x = 8
 		y = 1
-		completion_reward = {
-			unlock_decision_tooltip = MJP_Prohibit_real_estate_mortgage_loans
-		}
+			completion_reward = {
+					unlock_decision_tooltip = MJP_Prohibit_real_estate_mortgage_loans
+				}
+
 	}
 	focus = {
 		id = newfocus_12
@@ -228,18 +246,15 @@ focus_tree = {
 		}
 		x = 10
 		y = 1
-		completion_reward = {
-			unlock_decision_tooltip = MJP_Interest_rate_increase
-		}
+			completion_reward = {
+					unlock_decision_tooltip = MJP_Interest_rate_increase
+				}
+
 	}
 	focus = {
 		id = newfocus_13
 		icon = GFX_goal_unknown
 		cost = 10.00
-		available = {
-			has_idea = MJP_Prohibit_real_estate_mortgage_loans_ideas
-			has_idea = MJP_Interest_rate_increase_ideas 
-		}
 		prerequisite = {
 			focus = newfocus_11
 		}
@@ -248,31 +263,37 @@ focus_tree = {
 		}
 		x = 9
 		y = 2
-		completion_reward = {
-			remove_ideas = MJP_economy_collaps
-			hidden_effect = {
-				country_event = {
-					id = MJP.1
-					days = 2
+			available = {
+					has_idea = MJP_Prohibit_real_estate_mortgage_loans_ideas
+					has_idea = MJP_Interest_rate_increase_ideas
 				}
-			}
-		}
+			completion_reward = {
+					remove_ideas = MJP_economy_collaps
+					hidden_effect = {
+							country_event = {
+									id = MJP.1
+									days = 2
+								}
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_14
 		icon = GFX_goal_unknown
 		cost = 10.00
-		available = {
-			always = no
-		}
 		prerequisite = {
 			focus = newfocus_13
 		}
 		x = 9
 		y = 3
-		completion_reward = {
-			add_ideas = beraking_home
-		}
+			available = {
+					always = no
+				}
+			completion_reward = {
+					add_ideas = beraking_home
+				}
+
 	}
 	focus = {
 		id = newfocus_15
@@ -283,33 +304,35 @@ focus_tree = {
 		}
 		x = 8
 		y = 4
-		completion_reward = {
-			add_research_slot = 1
-			add_tech_bonus = {
-				bonus = 1.5
-				uses = 2
-				category = radar_tech
-			}
-		}
+			completion_reward = {
+					add_research_slot = 1
+					add_tech_bonus = {
+							bonus = 1.5
+							uses = 2
+							category = radar_tech
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_16
 		icon = GFX_goal_unknown
 		cost = 10.00
-		available = {
-			has_idea = MJP_Popped_bubble
-		}
 		prerequisite = {
 			focus = newfocus_14
 		}
 		x = 10
 		y = 4
-		completion_reward = {
-			swap_ideas = {
-				add_idea = MJP_Popped_bubble_1
-				remove_idea = MJP_Popped_bubble
-			}
-		}
+			available = {
+					has_idea = MJP_Popped_bubble
+				}
+			completion_reward = {
+					swap_ideas = {
+							add_idea = MJP_Popped_bubble_1
+							remove_idea = MJP_Popped_bubble
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_17
@@ -320,17 +343,27 @@ focus_tree = {
 		}
 		x = 10
 		y = 5
-		completion_reward = {
-			random_owned_state = {
-				add_offsite_building = { type = Infrastructure level = 1 }
-			}
-			random_owned_state = {
-				add_offsite_building = { type = Infrastructure level = 1 }
-			}
-			random_owned_state = {
-				add_offsite_building = { type = Infrastructure level = 1 }
-			}
-		}
+			completion_reward = {
+					random_owned_state = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					random_owned_state = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					random_owned_state = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_25
@@ -341,20 +374,33 @@ focus_tree = {
 		}
 		x = 10
 		y = 6
-		completion_reward = {
-			531 = {
-				add_offsite_building = { type = Infrastructure level = 1 }
-			}
-			535 = {
-				add_offsite_building = { type = Infrastructure level = 1 }
-			}
-			534 = {
-				add_offsite_building = { type = Infrastructure level = 1 }
-			}
-			282 = {
-				add_offsite_building = { type = Infrastructure level = 1 }
-			}
-		}
+			completion_reward = {
+					531 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					535 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					534 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					282 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_18
@@ -365,172 +411,94 @@ focus_tree = {
 		}
 		x = 12
 		y = 5
-		completion_reward = {
-			random_owned_state = {
-				add_offsite_building = { type = Infrastructure level = 3 }
-			}
-		}
+			completion_reward = {
+					random_owned_state = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 3
+								}
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_21
 		icon = GFX_goal_unknown
 		cost = 10.00
-		available = {
-			has_idea = MJP_Popped_bubble_4
-		}
 		prerequisite = {
 			focus = newfocus_18
 		}
 		x = 12
 		y = 6
-		completion_reward = {
-			swap_ideas = {
-				add_idea = MJP_Popped_bubble_5
-				remove_idea = MJP_Popped_bubble_4
-			}
-		}
+			available = {
+					has_idea = MJP_Popped_bubble_4
+				}
+			completion_reward = {
+					swap_ideas = {
+							add_idea = MJP_Popped_bubble_5
+							remove_idea = MJP_Popped_bubble_4
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_19
 		icon = GFX_goal_unknown
 		cost = 10.00
-		available = {
-			has_idea = MJP_Popped_bubble_1
-		}
 		prerequisite = {
 			focus = newfocus_16
 		}
 		x = 14
 		y = 5
-		completion_reward = {
-			swap_ideas = {
-				add_idea = MJP_Popped_bubble_2
-				remove_idea = MJP_Popped_bubble_1
-			}
-		}
+			available = {
+					has_idea = MJP_Popped_bubble_1
+				}
+			completion_reward = {
+					swap_ideas = {
+							add_idea = MJP_Popped_bubble_2
+							remove_idea = MJP_Popped_bubble_1
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_22
 		icon = GFX_goal_unknown
 		cost = 10.00
-		available = {
-			has_idea = MJP_Popped_bubble_2
-		}
 		prerequisite = {
 			focus = newfocus_18
 		}
 		x = 14
 		y = 6
-		completion_reward = {
-			swap_ideas = {
-				add_idea = MJP_Popped_bubble_3
-				remove_idea = MJP_Popped_bubble_2
-			}
-		}
-	}
-	focus = {
-		id = MJP_Election
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_26
-		}
-		mutually_exclusive = {
-			focus = Military
-		}
-		x = 21
-		y = 7
-
-	}
-	focus = {
-		id = Liberal_Democratic_Party
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_Election
-		}
-		mutually_exclusive = {
-			focus = Constitution
-		}
-		x = 15
-		y = 8
-
-	}
-	focus = {
-		id = Grants
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Liberal_Democratic_Party
-		}
-		x = 14
-		y = 9
-
-	}
-	focus = {
-		id = political_funds
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Grants
-		}
-		x = 14
-		y = 10
+			available = {
+					has_idea = MJP_Popped_bubble_2
+				}
+			completion_reward = {
+					swap_ideas = {
+							add_idea = MJP_Popped_bubble_3
+							remove_idea = MJP_Popped_bubble_2
+						}
+				}
 
 	}
 	focus = {
 		id = newfocus_23
 		icon = GFX_goal_unknown
 		cost = 10.00
-		available = {
-			has_idea = MJP_Popped_bubble_3
-		}
 		prerequisite = {
 			focus = newfocus_19
 		}
 		x = 16
 		y = 6
-		completion_reward = {
-			swap_ideas = {
-				add_idea  = MJP_Popped_bubble_4
-				remove_idea = MJP_Popped_bubble_3
-			}
-		}
-	}
-	focus = {
-		id = SOC
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Liberal_Democratic_Party
-		}
-		x = 16
-		y = 9
-
-	}
-	focus = {
-		id = network
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOC
-		}
-		x = 16
-		y = 10
-
-	}
-	focus = {
-		id = political_reform
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = political_funds
-		}
-		prerequisite = {
-			focus = network
-		}
-		x = 15
-		y = 11
+			available = {
+					has_idea = MJP_Popped_bubble_3
+				}
+			completion_reward = {
+					swap_ideas = {
+							add_idea = MJP_Popped_bubble_4
+							remove_idea = MJP_Popped_bubble_3
+						}
+				}
 
 	}
 	focus = {
@@ -581,43 +549,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Constitution
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_Election
-		}
-		mutually_exclusive = {
-			focus = Non_alliance
-			focus = Liberal_Democratic_Party
-		}
-		x = 19
-		y = 8
-
-	}
-	focus = {
-		id = Coalition
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Constitution
-		}
-		x = 18
-		y = 9
-
-	}
-	focus = {
-		id = national_welfare
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Coalition
-		}
-		x = 18
-		y = 10
-
-	}
-	focus = {
 		id = newfocus_64
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -665,6 +596,93 @@ focus_tree = {
 
 	}
 	focus = {
+		id = newfocus_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_26
+		}
+		x = 21
+		y = 1
+
+	}
+	focus = {
+		id = MJP_Election
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_2
+		}
+		mutually_exclusive = {
+			focus = Military
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = Liberal_Democratic_Party
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Election
+		}
+		mutually_exclusive = {
+			focus = Constitution
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = Grants
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Liberal_Democratic_Party
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = SOC
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Liberal_Democratic_Party
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = Constitution
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Election
+		}
+		mutually_exclusive = {
+			focus = Liberal_Democratic_Party
+			focus = Non_alliance
+		}
+		x = 19
+		y = 8
+
+	}
+	focus = {
+		id = Coalition
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Constitution
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
 		id = Past_History
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -673,31 +691,6 @@ focus_tree = {
 		}
 		x = 20
 		y = 9
-
-	}
-	focus = {
-		id = Emperor
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Past_History
-		}
-		x = 20
-		y = 10
-
-	}
-	focus = {
-		id = newfocus_96
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = national_welfare
-		}
-		prerequisite = {
-			focus = Emperor
-		}
-		x = 19
-		y = 11
 
 	}
 	focus = {
@@ -718,19 +711,25 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_35
 		}
+		prerequisite = {
+			focus = newfocus_2
+		}
 		x = 22
 		y = 2
 
 	}
 	focus = {
-		id = newfocus_71
+		id = newfocus_1
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = newfocus_35
+			focus = newfocus_70
 		}
 		x = 22
 		y = 3
+			completion_reward = {
+					add_stability = -0.15
+				}
 
 	}
 	focus = {
@@ -779,7 +778,9 @@ focus_tree = {
 		}
 		x = 24
 		y = 2
-
+completion_reward ={
+			add_stability = -0.15
+		}
 	}
 	focus = {
 		id = newfocus_72
@@ -790,6 +791,9 @@ focus_tree = {
 		}
 		x = 24
 		y = 3
+			completion_reward = {
+					add_stability = -0.15
+				}
 
 	}
 	focus = {
@@ -797,39 +801,19 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = newfocus_71
+			focus = newfocus_1
 		}
 		prerequisite = {
 			focus = newfocus_72
 		}
 		prerequisite = {
-			focus = newfocus_71
+			focus = newfocus_1
 		}
 		x = 23
 		y = 4
-
-	}
-	focus = {
-		id = newfocus_77
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_73
+completion_reward ={
+			add_stability = 0.25
 		}
-		x = 23
-		y = 5
-
-	}
-	focus = {
-		id = newfocus_75
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_77
-		}
-		x = 23
-		y = 6
-
 	}
 	focus = {
 		id = Rural_area
@@ -851,20 +835,6 @@ focus_tree = {
 		}
 		x = 24
 		y = 10
-
-	}
-	focus = {
-		id = social_democracy
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Peace_Constitution
-		}
-		prerequisite = {
-			focus = Welfare
-		}
-		x = 23
-		y = 11
 
 	}
 	focus = {
@@ -890,9 +860,9 @@ focus_tree = {
 		}
 		x = 30
 		y = 1
-		completion_reward = {
-			army_experience = 35
-}
+			completion_reward = {
+					army_experience = 35
+				}
 
 	}
 	focus = {
@@ -904,13 +874,14 @@ focus_tree = {
 		}
 		x = 28
 		y = 2
-		completion_reward = {
-			add_tech_bonus = {
-    			bonus = 1
-    			uses = 2
-    			category = cat_mobile_warfare
-			}
-		}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 1
+							uses = 2
+							category = cat_mobile_warfare
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_49
@@ -921,13 +892,14 @@ focus_tree = {
 		}
 		x = 28
 		y = 3
-		completion_reward = {
-			add_tech_bonus = {
-    			bonus = 2
-    			uses = 1
-    			category = cat_mobile_warfare
-			}
-		}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 2
+							uses = 1
+							category = cat_mobile_warfare
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_42
@@ -938,9 +910,10 @@ focus_tree = {
 		}
 		x = 30
 		y = 2
-          completion_reward = {
-			  army_experience = 5
-		  }
+			completion_reward = {
+					army_experience = 5
+				}
+
 	}
 	focus = {
 		id = newfocus_48
@@ -951,12 +924,12 @@ focus_tree = {
 		}
 		x = 30
 		y = 3
-          completion_reward = {
-			  army_experience = 10
-			  Add_War_support = -0.1
-			  add_stability = 0.15
+			completion_reward = {
+					army_experience = 10
+					Add_War_support = -0.1
+					add_stability = 0.15
+				}
 
-		  }
 	}
 	focus = {
 		id = Military_control
@@ -1072,9 +1045,10 @@ focus_tree = {
 		}
 		x = 36
 		y = 1
-      completion_reward = {
-			navy_experience = 35
-}
+			completion_reward = {
+					navy_experience = 35
+				}
+
 	}
 	focus = {
 		id = newfocus_45
@@ -1085,13 +1059,14 @@ focus_tree = {
 		}
 		x = 34
 		y = 2
-		completion_reward = {
-			add_tech_bonus = {
-    			bonus = 1
-    			uses = 2
-    			category = cat_trade_interdiction
-			}
-		}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 1
+							uses = 2
+							category = cat_trade_interdiction
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_50
@@ -1102,13 +1077,14 @@ focus_tree = {
 		}
 		x = 34
 		y = 3
-		completion_reward = {
-			add_tech_bonus = {
-    			bonus = 2
-    			uses = 1
-    			category = cat_trade_interdiction
-			}
-		}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 2
+							uses = 1
+							category = cat_trade_interdiction
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_101
@@ -1202,10 +1178,10 @@ focus_tree = {
 		}
 		x = 38
 		y = 2
-          completion_reward = {
-			  army_experience = 5
-}
-	
+			completion_reward = {
+					army_experience = 5
+				}
+
 	}
 	focus = {
 		id = newfocus_37
@@ -1216,9 +1192,10 @@ focus_tree = {
 		}
 		x = 38
 		y = 3
-        completion_reward = {
-			navy_experience = 5
-		}
+			completion_reward = {
+					navy_experience = 5
+				}
+
 	}
 	focus = {
 		id = newfocus_54
@@ -1282,9 +1259,10 @@ focus_tree = {
 		}
 		x = 42
 		y = 1
-        completion_reward = {
-			air_experience = 35
-		}
+			completion_reward = {
+					air_experience = 35
+				}
+
 	}
 	focus = {
 		id = newfocus_39
@@ -1295,13 +1273,14 @@ focus_tree = {
 		}
 		x = 40
 		y = 2
-		completion_reward = {
-			add_tech_bonus = {
-    			bonus = 1
-    			uses = 2
-    			category = strategic_destruction_tree
-			}
-		}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 1
+							uses = 2
+							category = strategic_destruction_tree
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_51
@@ -1312,13 +1291,14 @@ focus_tree = {
 		}
 		x = 40
 		y = 3
-		completion_reward = {
-			add_tech_bonus = {
-    			bonus = 2
-    			uses = 1
-    			category = strategic_destruction_tree
-			}
-		}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 2
+							uses = 1
+							category = strategic_destruction_tree
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_34
@@ -1440,6 +1420,116 @@ focus_tree = {
 
 	}
 	focus = {
+		id = political_funds
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Grants
+		}
+		x = 14
+		y = 10
+
+	}
+	focus = {
+		id = network
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOC
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = political_reform
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = political_funds
+		}
+		prerequisite = {
+			focus = network
+		}
+		x = 15
+		y = 11
+
+	}
+	focus = {
+		id = national_welfare
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Coalition
+		}
+		x = 18
+		y = 10
+
+	}
+	focus = {
+		id = Emperor
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Past_History
+		}
+		x = 20
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_96
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = national_welfare
+		}
+		prerequisite = {
+			focus = Emperor
+		}
+		x = 19
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_77
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_73
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_75
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_77
+		}
+		x = 23
+		y = 6
+        completion_reward ={
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = social_democracy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Peace_Constitution
+		}
+		prerequisite = {
+			focus = Welfare
+		}
+		x = 23
+		y = 11
+
+	}
+	focus = {
 		id = JAXA
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -1448,9 +1538,10 @@ focus_tree = {
 		}
 		x = 8
 		y = 5
-		completion_reward = {
-			add_ideas = Japan_Aerospace_eXploration_Agency
-		}
+			completion_reward = {
+					add_ideas = Japan_Aerospace_eXploration_Agency
+				}
+
 	}
 	focus = {
 		id = Satellite
@@ -1461,17 +1552,15 @@ focus_tree = {
 		}
 		x = 8
 		y = 6
-		completion_reward = {
-			add_ideas = MJP_Satellite
-		}
+			completion_reward = {
+					add_ideas = MJP_Satellite
+				}
+
 	}
 	focus = {
 		id = newfocus_24
 		icon = GFX_goal_unknown
 		cost = 10.00
-		available = {
-			has_idea = MJP_Popped_bubble_5
-		}
 		prerequisite = {
 			focus = Satellite
 			focus = newfocus_9
@@ -1489,9 +1578,13 @@ focus_tree = {
 		}
 		x = 9
 		y = 7
-		completion_reward = {
-			remove_ideas = MJP_Popped_bubble_5
-		}
+			available = {
+					has_idea = MJP_Popped_bubble_5
+				}
+			completion_reward = {
+					remove_ideas = MJP_Popped_bubble_5
+				}
+
 	}
 	focus = {
 		id = newfocus_63
