@@ -20,7 +20,7 @@ focus_tree = {
 		id = newfocus_26
 		icon = GFX_goal_unknown
 		cost = 10.00
-		x = 20
+		x = 21
 		y = 0
 
 	}
@@ -30,6 +30,14 @@ focus_tree = {
 		cost = 10.00
 		x = 36
 		y = 0
+
+	}
+	focus = {
+		id = newfocus_76
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 36
+		y = 6
 
 	}
 	focus = {
@@ -288,7 +296,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_26
 		}
-		x = 18
+		x = 19
 		y = 1
 
 	}
@@ -299,7 +307,18 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_27
 		}
-		x = 17
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = newfocus_56
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_27
+		}
+		x = 20
 		y = 2
 
 	}
@@ -310,19 +329,58 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_28
 		}
-		x = 17
+		prerequisite = {
+			focus = newfocus_56
+		}
+		x = 18
 		y = 3
 
 	}
 	focus = {
-		id = newfocus_56
+		id = newfocus_64
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = newfocus_27
+			focus = newfocus_56
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_67
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_29
+		}
+		prerequisite = {
+			focus = newfocus_64
 		}
 		x = 19
-		y = 2
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_69
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_67
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_66
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_69
+		}
+		x = 19
+		y = 6
 
 	}
 	focus = {
@@ -332,8 +390,88 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_26
 		}
-		x = 22
+		x = 23
 		y = 1
+
+	}
+	focus = {
+		id = newfocus_70
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_35
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = newfocus_71
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_35
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_71
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_35
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = newfocus_72
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_71
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_73
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_71
+		}
+		prerequisite = {
+			focus = newfocus_72
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_77
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_73
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_75
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_77
+		}
+		x = 23
+		y = 6
 
 	}
 	focus = {
@@ -431,6 +569,28 @@ focus_tree = {
 
 	}
 	focus = {
+		id = newfocus_58
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_76
+		}
+		x = 34
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_59
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_58
+		}
+		x = 33
+		y = 8
+
+	}
+	focus = {
 		id = newfocus_32
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -464,6 +624,31 @@ focus_tree = {
 
 	}
 	focus = {
+		id = newfocus_60
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_58
+		}
+		x = 35
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_74
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_59
+		}
+		prerequisite = {
+			focus = newfocus_60
+		}
+		x = 34
+		y = 9
+
+	}
+	focus = {
 		id = newfocus_36
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -483,6 +668,28 @@ focus_tree = {
 		}
 		x = 36
 		y = 3
+
+	}
+	focus = {
+		id = newfocus_61
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_76
+		}
+		x = 38
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_63
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_61
+		}
+		x = 37
+		y = 8
 
 	}
 	focus = {
@@ -522,6 +729,28 @@ focus_tree = {
 		}
 		x = 36
 		y = 4
+
+	}
+	focus = {
+		id = newfocus_62
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_61
+		}
+		x = 39
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_65
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_62
+		}
+		x = 39
+		y = 9
 
 	}
 	focus = {
@@ -606,14 +835,19 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = newfocus_21
 			focus = newfocus_20
-			focus = newfocus_25
-			focus = newfocus_22
-			focus = newfocus_23
+			focus = newfocus_9
 		}
 		prerequisite = {
 			focus = newfocus_9
+			focus = newfocus_25
+			focus = newfocus_21
+		}
+		prerequisite = {
+			focus = newfocus_22
+		}
+		prerequisite = {
+			focus = newfocus_23
 		}
 		x = 9
 		y = 7
@@ -656,6 +890,17 @@ focus_tree = {
 		}
 		x = 42
 		y = 4
+
+	}
+	focus = {
+		id = newfocus_68
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_74
+		}
+		x = 34
+		y = 10
 
 	}
 }
