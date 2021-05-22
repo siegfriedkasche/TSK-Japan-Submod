@@ -79,35 +79,6 @@ ideas = {
 
     country = {
 
-        MJP_Popped_bubble = { 
-
-            allowed = {
-                original_tag = MJP 
-            }
-
-            allowed_civil_war = {
-                always = yes
-            }
-
-            picture = Unstable_commune #아이콘
-
-            removal_cost = -1
-            
-            modifier = { #효과
-                consumer_goods_factor = 0.4
-                industrial_capacity_factory = -0.5
-                production_factory_max_efficiency_factor = -0.6
-                production_factory_max_efficiency_factor = -0.6
-                stability_factor = -0.30
-                production_speed_buildings_factor = -0.6
-                monthly_population = -0.2
-                research_speed_factor = -0.3
-            }
-        }
-    }
-
-    country = {
-
         MJP_Resource_digger = { 
 
             allowed = {
@@ -167,7 +138,198 @@ ideas = {
             removal_cost = -1
             
             modifier = { #효과
-               consumer_goods_factor = 0.5
+               consumer_goods_factor = 0.05
+            }
+        }
+    }
+
+    country = {
+
+        Japan_Aerospace_eXploration_Agency = { 
+
+            allowed = {
+                original_tag = MJP 
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Unstable_commune #아이콘
+
+            removal_cost = -1
+            
+            modifier = { #효과
+               intel_network_gain = 10
+               intel_network_gain_factor = 0.3
+               own_operative_capture_chance_factor = -0.5
+               operation_cost = 0.15
+               enemy_operative_detection_chance_factor = 0.40
+            }
+        }
+    }
+#########버블
+    country = {
+
+        MJP_Popped_bubble = { 
+
+            allowed = {
+                original_tag = MJP 
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Unstable_commune #아이콘
+
+            removal_cost = -1
+            
+            modifier = { #효과
+                consumer_goods_factor = 0.4
+                industrial_capacity_factory = -0.5
+                production_factory_max_efficiency_factor = -0.6
+                production_factory_max_efficiency_factor = -0.6
+                stability_factor = -0.30
+                production_speed_buildings_factor = -0.6
+                monthly_population = -0.2
+                research_speed_factor = -0.3
+            }
+        }
+    }
+    country = {
+
+        MJP_Popped_bubble_1 = { 
+
+            allowed = {
+                original_tag = MJP 
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Unstable_commune #아이콘
+
+            removal_cost = -1
+            
+            modifier = { #효과
+                consumer_goods_factor = 0.3
+                industrial_capacity_factory = -0.4
+                production_factory_max_efficiency_factor = -0.5
+                production_factory_max_efficiency_factor = -0.5
+                stability_factor = -0.25
+                production_speed_buildings_factor = -0.4
+                monthly_population = -0.15
+                research_speed_factor = -0.25
+            }
+        }
+    }
+    country = {
+
+        MJP_Popped_bubble_2 = { 
+
+            allowed = {
+                original_tag = MJP 
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Unstable_commune #아이콘
+
+            removal_cost = -1
+            
+            modifier = { #효과
+                consumer_goods_factor = 0.2
+                industrial_capacity_factory = -0.3
+                production_factory_max_efficiency_factor = -0.4
+                production_factory_max_efficiency_factor = -0.4
+                stability_factor = -0.2
+                production_speed_buildings_factor = -0.3
+                monthly_population = -0.1
+                research_speed_factor = -0.25
+            }
+        }
+    }
+    country = {
+
+        MJP_Popped_bubble_3 = { 
+
+            allowed = {
+                original_tag = MJP 
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Unstable_commune #아이콘
+
+            removal_cost = -1
+            
+            modifier = { #효과
+                consumer_goods_factor = 0.1
+                industrial_capacity_factory = -0.2
+                production_factory_max_efficiency_factor = -0.3
+                production_factory_max_efficiency_factor = -0.3
+                stability_factor = -0.1
+                production_speed_buildings_factor = -0.2
+                research_speed_factor = -0.2
+            }
+        }
+    }
+    country = {
+
+        MJP_Popped_bubble_4 = { 
+
+            allowed = {
+                original_tag = MJP 
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Unstable_commune #아이콘
+
+            removal_cost = -1
+            
+            modifier = { #효과
+                consumer_goods_factor = 0.05
+                industrial_capacity_factory = -0.1
+                production_factory_max_efficiency_factor = -0.2
+                production_factory_max_efficiency_factor = -0.2
+                stability_factor = -0.05
+                production_speed_buildings_factor = -0.1
+                research_speed_factor = -0.1
+            }
+        }
+    }
+    country = {
+
+        MJP_Popped_bubble_5 = { 
+
+            allowed = {
+                original_tag = MJP
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Unstable_commune #아이콘
+
+            removal_cost = -1
+            
+            modifier = { #효과
+                industrial_capacity_factory = -0.05
+                production_factory_max_efficiency_factor = -0.15
+                production_factory_max_efficiency_factor = -0.15
+                stability_factor = -0.05
+                production_speed_buildings_factor = -0.05
+                research_speed_factor = -0.05
             }
         }
     }
