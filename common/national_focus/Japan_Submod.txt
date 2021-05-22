@@ -138,9 +138,9 @@ focus_tree = {
 		}
 		x = 2
 		y = 4
-         completion_reward = { 
-			navy_experience = 15
-			}
+        completion_reward = {
+			add_ideas = MJP_Transport_protection
+		}
 	}
 	focus = {
 		id = newfocus_6

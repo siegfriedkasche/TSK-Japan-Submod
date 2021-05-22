@@ -354,3 +354,26 @@ ideas = {
             }
         }
     }
+    ############################################################
+    country = {
+
+        MJP_Transport_protection = { 
+
+            allowed = {
+                original_tag = MJP
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Unstable_commune #아이콘
+
+            removal_cost = -1
+            
+            modifier = { #효과
+                transport_capacity = -0.3
+                submarine_attack = 0.15
+            }
+        }
+    }
