@@ -373,7 +373,7 @@ ideas = {
             
             modifier = { #효과
                 transport_capacity = -0.3
-                submarine_attack = 0.15
+                submarine_attack = 5
             }
         }
     }
