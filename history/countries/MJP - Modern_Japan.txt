@@ -8,6 +8,7 @@ set_war_support = 0.3
 set_research_slots = 3
 set_fuel_ratio = 1.0
 add_ideas = {
+	MJP_peace_Constitution
 }
 
 if = {

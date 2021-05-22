@@ -377,3 +377,52 @@ ideas = {
             }
         }
     }
+    ############################평화헌번############################
+    country = {
+
+        MJP_peace_Constitution = { 
+
+            allowed = {
+                original_tag = MJP
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture =  #아이콘
+
+            removal_cost = -1
+            
+            modifier = { #효과	
+                max_fuel_factor = -0.3 
+                generate_wargoal_tension = 100
+                justify_war_goal_time = 100
+                guarantee_tension = 100
+                lend_lease_tension = 100
+            }
+        }
+    }
+
+    country = {
+
+        MJP_anti_Communism = { 
+
+            allowed = {
+                original_tag = MJP
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture =  #아이콘
+
+            removal_cost = -1
+            
+            modifier = { #효과	
+                communism_acceptance = -50
+                communism_drift = -0.03
+            }
+        }
+    }
