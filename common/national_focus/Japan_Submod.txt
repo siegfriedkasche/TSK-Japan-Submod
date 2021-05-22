@@ -14,9 +14,7 @@ focus_tree = {
 		cost = 10.00
 		x = 9
 		y = 0
-		completion_reward = (
-			add_ideas = MJP_economy_collaps
-		)
+
 	}
 	focus = {
 		id = newfocus_26
@@ -43,11 +41,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Oil problem
+		id = Oil_problem
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Market Control Initiated markets
+			focus = Market_Control_Initiated_markets
 		}
 		x = 4
 		y = 1
@@ -58,18 +56,18 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Oil problem
+			focus = Oil_problem
 		}
 		x = 2
 		y = 2
 
 	}
 	focus = {
-		id = U.S.Trade.Opens
+		id = US_Trade_Opens
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Securing Fuel Imports
+			focus = Securing_Fuel_Imports
 		}
 		x = 1
 		y = 3
@@ -80,7 +78,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Securing Fuel Imports
+			focus = Securing_Fuel_Imports
 		}
 		x = 3
 		y = 3
@@ -91,10 +89,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = U.S. Trade Opens
+			focus = US_Trade_Opens
 		}
 		prerequisite = {
-			focus = Middle East Contact
+			focus = Middle_East_Contact
 		}
 		x = 2
 		y = 4
@@ -105,7 +103,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Oil problem
+			focus = Oil_problem
 		}
 		x = 6
 		y = 2
@@ -150,7 +148,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Market Control Initiated markets
+			focus = Market_Control_Initiated_markets
 		}
 		x = 8
 		y = 1
@@ -161,7 +159,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Market Control Initiated markets
+			focus = Market_Control_Initiated_markets
 		}
 		x = 10
 		y = 1
