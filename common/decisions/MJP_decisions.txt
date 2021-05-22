@@ -315,7 +315,7 @@ MJP_economy_decisions_policy = {
 			factor = 100
 		}
 
-		fire_only_once = no
+		fire_only_once = yes
 		cost = 0
 		days_remove = 60
 		modifier = {
@@ -337,7 +337,7 @@ MJP_economy_decisions_policy = {
 			factor = 100
 		}
 
-		fire_only_once = no
+		fire_only_once = yes
 		cost = 0
 		days_remove = 60
 		modifier = {
