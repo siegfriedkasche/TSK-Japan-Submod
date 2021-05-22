@@ -51,9 +51,6 @@ focus_tree = {
 		id = Military
 		icon = GFX_goal_unknown
 		cost = 10.00
-		available = {
-			always = no
-		}
 		mutually_exclusive = {
 			focus = MJP_Election
 		}
@@ -878,7 +875,8 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			army_experience = 35
-		}
+}
+
 	}
 	focus = {
 		id = newfocus_44
@@ -911,7 +909,9 @@ focus_tree = {
 		}
 		x = 30
 		y = 2
-
+          completion_reward = {
+			  army_experience = 5
+		  }
 	}
 	focus = {
 		id = newfocus_48
@@ -922,7 +922,12 @@ focus_tree = {
 		}
 		x = 30
 		y = 3
+          completion_reward = {
+			  army_experience = 10
+			  Add_War_support = -0.1
+			  add_stability = 0.2
 
+		  }
 	}
 	focus = {
 		id = Military_control
@@ -1038,9 +1043,9 @@ focus_tree = {
 		}
 		x = 36
 		y = 1
-		completion_reward = {
+      completion_reward = {
 			navy_experience = 35
-		}
+}
 	}
 	focus = {
 		id = newfocus_45
@@ -1156,7 +1161,10 @@ focus_tree = {
 		}
 		x = 38
 		y = 2
-
+          completion_reward = {
+			  army_experience = 5
+}
+	
 	}
 	focus = {
 		id = newfocus_37
@@ -1167,7 +1175,9 @@ focus_tree = {
 		}
 		x = 38
 		y = 3
-
+        completion_reward = {
+			navy_experience = 5
+		}
 	}
 	focus = {
 		id = newfocus_54
@@ -1231,7 +1241,7 @@ focus_tree = {
 		}
 		x = 42
 		y = 1
-		completion_reward = {
+        completion_reward = {
 			air_experience = 35
 		}
 	}
@@ -1244,6 +1254,9 @@ focus_tree = {
 		}
 		x = 40
 		y = 2
+		completion_reward = {
+			has_air_experience = 10
+}
 
 	}
 	focus = {
