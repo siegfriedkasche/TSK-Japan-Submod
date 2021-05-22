@@ -245,12 +245,17 @@ focus_tree = {
 		id = newfocus_14
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+			always = no
+		}
 		prerequisite = {
 			focus = newfocus_13
 		}
 		x = 9
 		y = 3
-
+		completion_reward = {
+			add_ideas = beraking_home
+		}
 	}
 	focus = {
 		id = newfocus_15
@@ -261,7 +266,13 @@ focus_tree = {
 		}
 		x = 8
 		y = 4
-
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 3
+				category = radar_tech
+			}
+		}
 	}
 	focus = {
 		id = newfocus_16
