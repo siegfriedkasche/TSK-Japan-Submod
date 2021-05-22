@@ -9,12 +9,14 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = Market Control Initiated markets
+		id = Market_Control_Initiated_markets
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 9
 		y = 0
-
+		completion_reward = {
+			add_ideas = MJP_economy_collaps
+		}
 	}
 	focus = {
 		id = newfocus_26
@@ -30,7 +32,11 @@ focus_tree = {
 		cost = 10.00
 		x = 36
 		y = 0
-
+		completion_reward = {
+			unlock_decision_tooltip = MJP_Military_plant
+			unlock_decision_tooltip = MJP_army_add_money
+			unlock_decision_tooltip = MJP_Army_training
+		}
 	}
 	focus = {
 		id = newfocus_76
@@ -56,14 +62,14 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Market Control Initiated markets
+			focus = Market_Control_Initiated_markets
 		}
 		x = 4
 		y = 1
 
 	}
 	focus = {
-		id = Securing Fuel Imports
+		id = Securing_Fuel_Imports
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -78,7 +84,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Securing Fuel Imports
+			focus = Securing_Fuel_Imports
 		}
 		x = 1
 		y = 3
@@ -89,7 +95,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Securing Fuel Imports
+			focus = Securing_Fuel_Imports
 		}
 		x = 3
 		y = 3
@@ -159,18 +165,20 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Market Control Initiated markets
+			focus = Market_Control_Initiated_markets
 		}
 		x = 8
 		y = 1
-
+		completion_reward = {
+			unlock_decision_tooltip = MJP_Prohibit_real_estate_mortgage_loans
+		}
 	}
 	focus = {
 		id = newfocus_12
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Market Control Initiated markets
+			focus = Market_Control_Initiated_markets
 		}
 		x = 10
 		y = 1

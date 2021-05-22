@@ -5,3 +5,10 @@ MJP_decisions_policy = {
 		original_tag = MJP
 	}
 }
+MJP_economy_decisions_policy = {
+	icon = generic_arms_trade
+	priority = 200
+	allowed = {
+		original_tag = MJP
+	}
+}

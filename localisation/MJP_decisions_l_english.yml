@@ -1,11 +1,16 @@
 ﻿l_english:
  MJP_decisions_policy:0 "일본국 정부의 정책"
- MJP_Army_training:0 "군대 훈련"
+ MJP_decisions_policy_desc:0 "일본국 내에서 방위(국방), 민생, 연구, 산업 등의 다양한 정책을 실시하기 위한 디시전"
+ MJP_Army_training:0 "병력 훈련"
  MJP_Military_plant:0 "군수공장 확대"
  MJP_Construction_plant:0 "민간공장 확대"
  MJP_Land_Corporation:0 "토지개혁"
- MJP_army_add_money:0 "군대 예산 증가"
+ MJP_army_add_money:0 "방위 예산 증가"
  MJP_army_down_money:0 "민간 예산 증가"
  MJP_Construction_investment:0 "건설 예산 증가"
  MJP_research_investment:0 "연구 투자"
  MJP_Infrastructure_investment:0 "기반시설 확충"
+
+ MJP_economy_decisions_policy:0 "금융정책"
+ MJP_Prohibit_real_estate_mortgage_loans:0 "부동산 담보 대출 억제"
+ MJP_Prohibit_real_estate_mortgage_loans_ideas:0 "투기 억제"

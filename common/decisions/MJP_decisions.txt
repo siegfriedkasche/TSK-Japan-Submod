@@ -2,6 +2,7 @@ MJP_decisions_policy = {
  	MJP_Army_training = {
 		icon = generic_prepare_civil_war
 		available = {
+			has_completed_focus = newfocus_30
 			hidden_effect = {
 				not = {
 					has_war = yes
@@ -31,9 +32,40 @@ MJP_decisions_policy = {
 			army_experience = 25
 		}
 	}
+	MJP_army_add_money = {
+		icon = generic_prepare_civil_war
+		available = {
+			has_completed_focus = newfocus_30
+			hidden_effect = {
+				not = {
+					has_decision = MJP_Army_training
+					has_decision = MJP_Military_plant
+					has_decision = MJP_Construction_plant
+					has_decision = MJP_Land_Corporation
+					has_decision = MJP_army_add_money
+					has_decision = MJP_army_down_money
+					has_decision = MJP_Construction_investment
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+
+		fire_only_once = no
+		cost = 25
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.03
+			army_defence_factor = 0.1
+			army_attack_factor = 0.1
+		}
+
+	}
  	MJP_Military_plant = {
 		icon = generic_industry
 		available = {
+			has_completed_focus = newfocus_30
 			hidden_effect = {
 				not = {
 					has_decision = MJP_Army_training
@@ -136,35 +168,6 @@ MJP_decisions_policy = {
 			}
 			
 		}
-	}
-	MJP_army_add_money = {
-		icon = generic_prepare_civil_war
-		available = {
-			hidden_effect = {
-				not = {
-					has_decision = MJP_Army_training
-					has_decision = MJP_Military_plant
-					has_decision = MJP_Construction_plant
-					has_decision = MJP_Land_Corporation
-					has_decision = MJP_army_add_money
-					has_decision = MJP_army_down_money
-					has_decision = MJP_Construction_investment
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-
-		fire_only_once = no
-		cost = 25
-		days_remove = 60
-		modifier = {
-			consumer_goods_factor = 0.03
-			army_defence_factor = 0.1
-			army_attack_factor = 0.1
-		}
-
 	}
 	MJP_army_down_money = {
 		icon = generic_prepare_civil_war
@@ -300,4 +303,28 @@ MJP_decisions_policy = {
 		}
 	}
 	
+}
+MJP_economy_decisions_policy = {
+	MJP_Prohibit_real_estate_mortgage_loans = {
+		icon = generic_prepare_civil_war
+		available = {
+			has_completed_focus = newfocus_11
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		fire_only_once = no
+		cost = 0
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.05
+			production_speed_industrial_complex_factor = -0.15
+			production_speed_arms_factory_factor = -0.15
+		}
+		remove_effect = {
+			add_ideas = MJP_Prohibit_real_estate_mortgage_loans_ideas
+		}
+	}
 }
