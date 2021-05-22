@@ -9,12 +9,14 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = Market Control Initiated markets
+		id = Market_Control_Initiated_markets
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 9
 		y = 0
-
+		completion_reward = (
+			add_ideas = MJP_economy_collaps
+		)
 	}
 	focus = {
 		id = newfocus_26
@@ -52,7 +54,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Securing Fuel Imports
+		id = Securing_Fuel_Imports
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -63,7 +65,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = U.S. Trade Opens
+		id = U.S.Trade.Opens
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -74,7 +76,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Middle East Contact
+		id = Middle_East_Contact
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {

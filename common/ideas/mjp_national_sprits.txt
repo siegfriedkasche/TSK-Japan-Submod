@@ -1,0 +1,28 @@
+ideas = {
+    country = { #country로 써줘요 국민정신으로 나옴
+
+        MJP_economy_collaps = { #아이디어스 id
+
+            allowed = {
+                original_tag = MJP # original_tag 태그에 지정된 국가에 국민정신 부여
+            }
+
+            allowed_civil_war = {
+                always = yes #내전이 나도 상대 반란군에도 적용할지여부
+            }
+
+            picture = Unstable_commune #아이콘
+
+            removal_cost = -1 #삭제될때 필요한 정치력 (무조건-1)
+            
+            modifier = { #효과
+            consumer_goods_factor = 0.30
+            industrial_capacity_factory = 0.3
+            production_factory_max_efficiency_factor  = -0.3
+            production_factory_max_efficiency_factor  = - 0.3
+            production_factory_start_efficiency_factor   = -0.15
+            stability_factor = -0.15
+            production_speed_buildings_factor  = -0.4
+            }
+        }
+    }
