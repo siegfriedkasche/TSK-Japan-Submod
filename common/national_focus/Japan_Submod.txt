@@ -904,7 +904,13 @@ focus_tree = {
 		}
 		x = 28
 		y = 2
-
+		completion_reward = {
+			add_tech_bonus = {
+    			bonus = 1
+    			uses = 2
+    			category = cat_mobile_warfare
+			}
+		}
 	}
 	focus = {
 		id = newfocus_49
@@ -915,7 +921,13 @@ focus_tree = {
 		}
 		x = 28
 		y = 3
-
+		completion_reward = {
+			add_tech_bonus = {
+    			bonus = 2
+    			uses = 1
+    			category = cat_mobile_warfare
+			}
+		}
 	}
 	focus = {
 		id = newfocus_42
@@ -1073,7 +1085,13 @@ focus_tree = {
 		}
 		x = 34
 		y = 2
-
+		completion_reward = {
+			add_tech_bonus = {
+    			bonus = 1
+    			uses = 2
+    			category = cat_trade_interdiction
+			}
+		}
 	}
 	focus = {
 		id = newfocus_50
@@ -1084,7 +1102,13 @@ focus_tree = {
 		}
 		x = 34
 		y = 3
-
+		completion_reward = {
+			add_tech_bonus = {
+    			bonus = 2
+    			uses = 1
+    			category = cat_trade_interdiction
+			}
+		}
 	}
 	focus = {
 		id = newfocus_101
@@ -1272,9 +1296,12 @@ focus_tree = {
 		x = 40
 		y = 2
 		completion_reward = {
-			has_air_experience = 10
-}
-
+			add_tech_bonus = {
+    			bonus = 1
+    			uses = 2
+    			category = strategic_destruction_tree
+			}
+		}
 	}
 	focus = {
 		id = newfocus_51
@@ -1285,7 +1312,13 @@ focus_tree = {
 		}
 		x = 40
 		y = 3
-
+		completion_reward = {
+			add_tech_bonus = {
+    			bonus = 2
+    			uses = 1
+    			category = strategic_destruction_tree
+			}
+		}
 	}
 	focus = {
 		id = newfocus_34
