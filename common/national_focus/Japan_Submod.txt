@@ -1530,7 +1530,8 @@ completion_reward ={
 		}
 		x = 23
 		y = 5
-
+        completion_reward ={
+			add_stability = 0.05
 	}
 	focus = {
 		id = newfocus_75
@@ -1541,8 +1542,7 @@ completion_reward ={
 		}
 		x = 23
 		y = 6
-        completion_reward ={
-			add_stability = 0.05
+        
 		}
 	}
 	focus = {
