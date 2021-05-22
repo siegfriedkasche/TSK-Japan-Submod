@@ -101,7 +101,6 @@ focus_tree = {
 		}
 		x = 1
 		y = 3
-<<<<<<< Updated upstream
         completion_reward = { 
 			create_import = {
 				resource = oil
@@ -110,16 +109,6 @@ focus_tree = {
 			}
 		}
 	}
-=======
-    completion_reward = {
-					create_import = {
-							resource = oil
-							factories = 2
-							exporter = USA
-	    }
-    }  
-}
->>>>>>> Stashed changes
 	focus = {
 		id = Middle_East_Contact
 		icon = GFX_goal_unknown
@@ -129,7 +118,6 @@ focus_tree = {
 		}
 		x = 3
 		y = 3
-<<<<<<< Updated upstream
        completion_reward = { 
 			create_import = {
 				resource = oil
@@ -137,13 +125,6 @@ focus_tree = {
 				exporter = SAU
 			}
 		}
-=======
-       completion_reward = {
-					create_import = {
-							resource = oil
-							factories = 2
-							exporter = SAU
->>>>>>> Stashed changes
 	}
 	focus = {
 		id = newfocus_5
