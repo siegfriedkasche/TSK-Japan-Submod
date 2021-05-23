@@ -47,9 +47,10 @@ focus_tree = {
 		cost = 10.00
 		x = 41
 		y = 6
-		completion_reward = {
-			add_political_power = 100
-		}
+			completion_reward = {
+					add_political_power = 100
+				}
+
 	}
 	focus = {
 		id = Military
@@ -645,7 +646,12 @@ focus_tree = {
 		}
 		x = 14
 		y = 9
-
+        completion_reward ={
+			add_popularity = {
+            ideology = democratic
+           popularity = 0.15
+}
+		}
 	}
 	focus = {
 		id = SOC
@@ -656,7 +662,32 @@ focus_tree = {
 		}
 		x = 16
 		y = 9
-
+        completion_reward = {
+					531 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					535 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					534 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					282 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+				}
 	}
 	focus = {
 		id = Constitution
@@ -682,7 +713,12 @@ focus_tree = {
 		}
 		x = 18
 		y = 9
-
+        completion_reward ={
+			add_popularity = {
+            ideology = democratic
+            popularity = 0.15
+}
+		}
 	}
 	focus = {
 		id = Past_History
@@ -780,9 +816,10 @@ focus_tree = {
 		}
 		x = 24
 		y = 2
-completion_reward ={
-			add_stability = -0.15
-		}
+			completion_reward = {
+					add_stability = -0.15
+				}
+
 	}
 	focus = {
 		id = newfocus_72
@@ -813,9 +850,10 @@ completion_reward ={
 		}
 		x = 23
 		y = 4
-completion_reward ={
-			add_stability = 0.25
-		}
+			completion_reward = {
+					add_stability = 0.25
+				}
+
 	}
 	focus = {
 		id = Rural_area
@@ -1153,21 +1191,19 @@ completion_reward ={
 		id = newfocus_58
 		icon = GFX_goal_unknown
 		cost = 10.00
-		#available = {
-		#	country_exists = CHI
-		#}
 		prerequisite = {
 			focus = newfocus_76
 		}
 		x = 38
 		y = 7
-		completion_reward = {
-			send_equipment = {
-    			equipment = infantry_equipment
-    			amount = 3000
-    			target = CHI
-			}
-		}
+			completion_reward = {
+					send_equipment = {
+							equipment = infantry_equipment
+							amount = 3000
+							target = CHI
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_59
@@ -1178,19 +1214,29 @@ completion_reward ={
 		}
 		x = 37
 		y = 8
-		completion_reward = {
-			CHI = {
-				608 = { 
-					add_offsite_building = { type = arms_factory level = 3 }
-					add_extra_state_shared_building_slots = 3
+			completion_reward = {
+					CHI = {
+							608 = {
+									add_offsite_building = {
+											type = arms_factory
+											level = 3
+										}
+									add_extra_state_shared_building_slots = 3
+								}
+							add_offsite_building = {
+									type = infrastructure
+									level = 5
+								}
+							613 = {
+									add_offsite_building = {
+											type = industrial_complex
+											level = 4
+										}
+									add_extra_state_shared_building_slots = 4
+								}
+						}
 				}
-				add_offsite_building = { type = infrastructure level = 5 }
-				613 = {
-					add_offsite_building = { type = industrial_complex  level = 4 }
-					add_extra_state_shared_building_slots = 4
-				}
-			}
-		}
+
 	}
 	focus = {
 		id = newfocus_46
@@ -1241,17 +1287,20 @@ completion_reward ={
 		id = newfocus_60
 		icon = GFX_goal_unknown
 		cost = 10.00
-		available = {
-			NOT = { has_government = Communism }
-		}
 		prerequisite = {
 			focus = newfocus_58
 		}
 		x = 39
 		y = 8
-		completion_reward = {
-			add_ideas = MJP_anti_Communism
-		}
+			available = {
+					NOT = {
+							has_government = Communism
+						}
+				}
+			completion_reward = {
+					add_ideas = MJP_anti_Communism
+				}
+
 	}
 	focus = {
 		id = newfocus_74
@@ -1265,9 +1314,10 @@ completion_reward ={
 		}
 		x = 38
 		y = 9
-		completion_reward = {
-			unlock_decision_tooltip = MJP_peace_Constitution_decisions
-		}
+			completion_reward = {
+					unlock_decision_tooltip = MJP_peace_Constitution_decisions
+				}
+
 	}
 	focus = {
 		id = newfocus_68
@@ -1469,8 +1519,14 @@ completion_reward ={
 		}
 		x = 16
 		y = 10
-
-	}
+     completion_reward ={
+		set_building_level = {
+        type = infrastructure
+        level = 7
+       instant_build = yes
+	   }
+    }
+}
 	focus = {
 		id = political_reform
 		icon = GFX_goal_unknown
@@ -1494,7 +1550,12 @@ completion_reward ={
 		}
 		x = 18
 		y = 10
-
+        completion_reward ={
+			add_popularity = {
+            ideology = democratic
+            popularity = 0.15
+}
+		}
 	}
 	focus = {
 		id = Emperor
@@ -1530,20 +1591,20 @@ completion_reward ={
 		}
 		x = 23
 		y = 5
-        completion_reward ={
-			add_stability = 0.05
-	}
-	focus = {
-		id = newfocus_75
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_77
-		}
-		x = 23
-		y = 6
-        
-		}
+			completion_reward = {
+					add_stability = 0.05
+				}
+			focus = {
+					id = newfocus_75
+					icon = GFX_goal_unknown
+					cost = 10.00
+					prerequisite = {
+							focus = newfocus_77
+						}
+					x = 23
+					y = 6
+				}
+
 	}
 	focus = {
 		id = social_democracy
@@ -1731,5 +1792,17 @@ completion_reward ={
 		x = 42
 		y = 14
 
+	}
+	focus = {
+		id = Stable_Japan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_77
+		}
+		x = 23
+		y = 6
+completion_reward = {
+		add_ideas = MJP_Stable_Japan
 	}
 }
