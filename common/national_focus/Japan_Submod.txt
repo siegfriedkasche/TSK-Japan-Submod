@@ -648,8 +648,8 @@ focus_tree = {
 		y = 9
         completion_reward ={
 			add_popularity = {
-    ideology = democratic
-    popularity = 0.15
+            ideology = democratic
+           popularity = 0.15
 }
 		}
 	}
@@ -662,7 +662,32 @@ focus_tree = {
 		}
 		x = 16
 		y = 9
-
+        completion_reward = {
+					531 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					535 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					534 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					282 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+				}
 	}
 	focus = {
 		id = Constitution
@@ -1494,35 +1519,14 @@ focus_tree = {
 		}
 		x = 16
 		y = 10
-        completion_reward = {
-					531 = {
-							add_offsite_building = {
-									type = Infrastructure
-									level = 1
-								}
-						}
-					535 = {
-							add_offsite_building = {
-									type = Infrastructure
-									level = 1
-								}
-						}
-					534 = {
-							add_offsite_building = {
-									type = Infrastructure
-									level = 1
-								}
-						}
-					282 = {
-							add_offsite_building = {
-									type = Infrastructure
-									level = 1
-								}
-								available = {
-				
-						}
-				}
-	}
+     completion_reward ={
+		set_building_level = {
+        type = infrastructure
+        level = 7
+       instant_build = yes
+	   }
+    }
+}
 	focus = {
 		id = political_reform
 		icon = GFX_goal_unknown
@@ -1549,7 +1553,7 @@ focus_tree = {
         completion_reward ={
 			add_popularity = {
             ideology = democratic
-            popularity = 0.05
+            popularity = 0.15
 }
 		}
 	}
