@@ -610,103 +610,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = MJP_Election
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_2
-		}
-		mutually_exclusive = {
-			focus = Military
-		}
-		x = 21
-		y = 7
-
-	}
-	focus = {
-		id = Liberal_Democratic_Party
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_Election
-		}
-		mutually_exclusive = {
-			focus = Constitution
-		}
-		x = 15
-		y = 8
-
-	}
-	focus = {
-		id = Grants
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Liberal_Democratic_Party
-		}
-		x = 14
-		y = 9
-        completion_reward ={
-			add_popularity = {
-    ideology = democratic
-    popularity = 0.15
-}
-		}
-	}
-	focus = {
-		id = SOC
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Liberal_Democratic_Party
-		}
-		x = 16
-		y = 9
-
-	}
-	focus = {
-		id = Constitution
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_Election
-		}
-		mutually_exclusive = {
-			focus = Liberal_Democratic_Party
-			focus = Non_alliance
-		}
-		x = 19
-		y = 8
-
-	}
-	focus = {
-		id = Coalition
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Constitution
-		}
-		x = 18
-		y = 9
-        completion_reward ={
-			add_popularity = {
-            ideology = democratic
-            popularity = 0.15
-}
-		}
-	}
-	focus = {
-		id = Past_History
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Constitution
-		}
-		x = 20
-		y = 9
-
-	}
-	focus = {
 		id = newfocus_35
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -743,43 +646,6 @@ focus_tree = {
 			completion_reward = {
 					add_stability = -0.15
 				}
-
-	}
-	focus = {
-		id = Non_alliance
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_Election
-		}
-		mutually_exclusive = {
-			focus = Constitution
-			focus = Communism
-		}
-		x = 23
-		y = 8
-
-	}
-	focus = {
-		id = Employment
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Non_alliance
-		}
-		x = 22
-		y = 9
-
-	}
-	focus = {
-		id = Welfare
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Employment
-		}
-		x = 22
-		y = 10
 
 	}
 	focus = {
@@ -828,42 +694,6 @@ focus_tree = {
 			completion_reward = {
 					add_stability = 0.25
 				}
-
-	}
-	focus = {
-		id = Rural_area
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Non_alliance
-		}
-		x = 24
-		y = 9
-
-	}
-	focus = {
-		id = Peace_Constitution
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Rural_area
-		}
-		x = 24
-		y = 10
-
-	}
-	focus = {
-		id = Communism
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_Election
-		}
-		mutually_exclusive = {
-			focus = Non_alliance
-		}
-		x = 27
-		y = 8
 
 	}
 	focus = {
@@ -1475,6 +1305,217 @@ focus_tree = {
 
 	}
 	focus = {
+		id = MJP_Election
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_2
+		}
+		prerequisite = {
+			focus = Stable_Japan
+		}
+		mutually_exclusive = {
+			focus = Military
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = Liberal_Democratic_Party
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Election
+		}
+		mutually_exclusive = {
+			focus = Constitution
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = Grants
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Liberal_Democratic_Party
+		}
+		x = 14
+		y = 9
+		completion_reward = {
+          add_popularity = {
+          ideology = democratic
+          popularity = 0.15
+           }
+       }
+	}
+	focus = {
+		id = SOC
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Liberal_Democratic_Party
+		}
+		x = 16
+		y = 9
+        completion_reward = {
+					532 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 2
+								}
+						}
+					533 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 2
+								}
+						}
+					534 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 2
+								}
+						}
+					536 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 2
+								}
+					    }
+					528 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 3
+								}
+						}
+					529 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 3
+								}
+						}
+						
+				}
+	}
+	focus = {
+		id = Constitution
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Election
+		}
+		mutually_exclusive = {
+			focus = Liberal_Democratic_Party
+			focus = Non_alliance
+		}
+		x = 19
+		y = 8
+
+	}
+	focus = {
+		id = Coalition
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Constitution
+		}
+		x = 18
+		y = 9
+       completion_reward = {
+          add_popularity = {
+          ideology = neutrality
+          popularity = 0.15
+           }
+       }
+	}
+	focus = {
+		id = Past_History
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Constitution
+		}
+		x = 20
+		y = 9
+
+	}
+	focus = {
+		id = Non_alliance
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Election
+		}
+		mutually_exclusive = {
+			focus = Constitution
+			focus = Communism
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = Employment
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Non_alliance
+		}
+		x = 22
+		y = 9
+
+	}
+	focus = {
+		id = Welfare
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Employment
+		}
+		x = 22
+		y = 10
+
+	}
+	focus = {
+		id = Rural_area
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Non_alliance
+		}
+		x = 24
+		y = 9
+
+	}
+	focus = {
+		id = Peace_Constitution
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Rural_area
+		}
+		x = 24
+		y = 10
+
+	}
+	focus = {
+		id = Communism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Election
+		}
+		mutually_exclusive = {
+			focus = Non_alliance
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
 		id = political_funds
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -1498,30 +1539,29 @@ focus_tree = {
 					531 = {
 							add_offsite_building = {
 									type = Infrastructure
-									level = 1
+									level = 2
 								}
 						}
 					535 = {
 							add_offsite_building = {
 									type = Infrastructure
-									level = 1
+									level = 2
 								}
 						}
 					534 = {
 							add_offsite_building = {
 									type = Infrastructure
-									level = 1
+									level = 2
 								}
 						}
 					282 = {
 							add_offsite_building = {
 									type = Infrastructure
-									level = 1
+									level = 2
 								}
-								available = {
-				
 						}
 				}
+
 	}
 	focus = {
 		id = political_reform
@@ -1546,12 +1586,12 @@ focus_tree = {
 		}
 		x = 18
 		y = 10
-        completion_reward ={
-			add_popularity = {
-                ideology = democratic
-                popularity = 0.05
-            }
-		}
+         completion_reward = {
+          add_popularity = {
+          ideology = neutrality
+          popularity = 0.15
+           }
+       }
 	}
 	focus = {
 		id = Emperor
@@ -1587,19 +1627,20 @@ focus_tree = {
 		}
 		x = 23
 		y = 5
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	focus = {
-		id = newfocus_75
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_77
-		}
-		x = 23
-		y = 6
+			completion_reward = {
+					add_stability = 0.05
+				}
+			focus = {
+					id = newfocus_75
+					icon = GFX_goal_unknown
+					cost = 10.00
+					prerequisite = {
+							focus = newfocus_77
+						}
+					x = 23
+					y = 6
+				}
+
 	}
 	focus = {
 		id = social_democracy
@@ -1624,9 +1665,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 5
-		completion_reward = {
-	    	add_ideas = Japan_Aerospace_eXploration_Agency
-		}
+			completion_reward = {
+					add_ideas = Japan_Aerospace_eXploration_Agency
+				}
 
 	}
 	focus = {
@@ -1638,17 +1679,15 @@ focus_tree = {
 		}
 		x = 8
 		y = 6
-		completion_reward = {
-			add_ideas = MJP_Satellite
-		}
+			completion_reward = {
+					add_ideas = MJP_Satellite
+				}
+
 	}
 	focus = {
 		id = newfocus_24
 		icon = GFX_goal_unknown
 		cost = 10.00
-		available = {
-			has_idea = MJP_Popped_bubble_5
-		}
 		prerequisite = {
 			focus = Satellite
 			focus = newfocus_9
@@ -1665,10 +1704,14 @@ focus_tree = {
 			focus = newfocus_23
 		}
 		x = 9
-		y = 7	
-		completion_reward = {
-			remove_ideas = MJP_Popped_bubble_5
-		}
+		y = 7
+			available = {
+					has_idea = MJP_Popped_bubble_5
+				}
+			completion_reward = {
+					remove_ideas = MJP_Popped_bubble_5
+				}
+
 	}
 	focus = {
 		id = newfocus_63
@@ -1795,8 +1838,8 @@ focus_tree = {
 		}
 		x = 23
 		y = 6
-		completion_reward = {
-			add_ideas = MJP_Stable_Japan
-		}
+        completion_reward = {
+					
+					add_ideas = MJP_Stable_Japan
 	}
 }
