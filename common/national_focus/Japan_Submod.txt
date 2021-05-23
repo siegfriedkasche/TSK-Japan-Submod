@@ -646,7 +646,12 @@ focus_tree = {
 		}
 		x = 14
 		y = 9
-
+        completion_reward ={
+			add_popularity = {
+    ideology = democratic
+    popularity = 0.15
+}
+		}
 	}
 	focus = {
 		id = SOC
@@ -683,7 +688,12 @@ focus_tree = {
 		}
 		x = 18
 		y = 9
-
+        completion_reward ={
+			add_popularity = {
+            ideology = democratic
+            popularity = 0.15
+}
+		}
 	}
 	focus = {
 		id = Past_History
@@ -1484,7 +1494,41 @@ focus_tree = {
 		}
 		x = 16
 		y = 10
+        completion_reward = {
+					531 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					535 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					534 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+						}
+					282 = {
+							add_offsite_building = {
+									type = Infrastructure
+									level = 1
+								}
+								available = {
+				has_idea = MJP_Popped_bubble_4
+				}
+				swap_ideas = {
+				add_idea = MJP_Popped_bubble_5
+				remove_idea = MJP_Popped_bubble_4
+						}
+				}
 
+						}
+				}
 	}
 	focus = {
 		id = political_reform
@@ -1509,7 +1553,12 @@ focus_tree = {
 		}
 		x = 18
 		y = 10
-
+        completion_reward ={
+			add_popularity = {
+            ideology = democratic
+            popularity = 0.05
+}
+		}
 	}
 	focus = {
 		id = Emperor
