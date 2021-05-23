@@ -1548,9 +1548,9 @@ focus_tree = {
 		y = 10
         completion_reward ={
 			add_popularity = {
-            ideology = democratic
-            popularity = 0.05
-}
+                ideology = democratic
+                popularity = 0.05
+            }
 		}
 	}
 	focus = {
@@ -1587,20 +1587,19 @@ focus_tree = {
 		}
 		x = 23
 		y = 5
-			completion_reward = {
-					add_stability = 0.05
-				}
-			focus = {
-					id = newfocus_75
-					icon = GFX_goal_unknown
-					cost = 10.00
-					prerequisite = {
-							focus = newfocus_77
-						}
-					x = 23
-					y = 6
-				}
-
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = newfocus_75
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_77
+		}
+		x = 23
+		y = 6
 	}
 	focus = {
 		id = social_democracy
@@ -1625,9 +1624,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 5
-			completion_reward = {
-					add_ideas = Japan_Aerospace_eXploration_Agency
-				}
+		completion_reward = {
+	    	add_ideas = Japan_Aerospace_eXploration_Agency
+		}
 
 	}
 	focus = {
@@ -1639,15 +1638,17 @@ focus_tree = {
 		}
 		x = 8
 		y = 6
-			completion_reward = {
-					add_ideas = MJP_Satellite
-				}
-
+		completion_reward = {
+			add_ideas = MJP_Satellite
+		}
 	}
 	focus = {
 		id = newfocus_24
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+			has_idea = MJP_Popped_bubble_5
+		}
 		prerequisite = {
 			focus = Satellite
 			focus = newfocus_9
@@ -1664,14 +1665,10 @@ focus_tree = {
 			focus = newfocus_23
 		}
 		x = 9
-		y = 7
-			available = {
-					has_idea = MJP_Popped_bubble_5
-				}
-			completion_reward = {
-					remove_ideas = MJP_Popped_bubble_5
-				}
-
+		y = 7	
+		completion_reward = {
+			remove_ideas = MJP_Popped_bubble_5
+		}
 	}
 	focus = {
 		id = newfocus_63
@@ -1798,7 +1795,8 @@ focus_tree = {
 		}
 		x = 23
 		y = 6
-completion_reward = {
-		add_ideas = MJP_Stable_Japan
+		completion_reward = {
+			add_ideas = MJP_Stable_Japan
+		}
 	}
 }

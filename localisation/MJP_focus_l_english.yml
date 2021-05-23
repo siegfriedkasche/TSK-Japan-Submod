@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  Market_Control_Initiated_markets:0 "시장 통제 시작"
  Oil_problem:0 "천연자원 문제"
  Securing_Fuel_Imports:0 "연료 수입책 확보"
@@ -74,7 +74,7 @@ l_english:
  newfocus_72:0 "공항 폐쇄"
  newfocus_73:0 "대국민 담화"
  newfocus_74:0 "평화 헌법 개정"
- :0 ""
+ newfocus_75:0 ""
  newfocus_76:0 "외교 해결"
  newfocus_77:0 "국민 지지"
  Oil_problem:0 "석유문제"
