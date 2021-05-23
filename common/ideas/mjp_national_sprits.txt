@@ -482,3 +482,21 @@ country = {
                 consumer_goods_factor = 0.05 
         }
     }
+country = {
+    MJP_compromised_history:0 "타협된 역사"
+    allowed = {
+                original_tag = MJP
+            }
+
+            allowed_civil_war = {
+                always = yes 
+            }
+
+            picture =  #아이콘
+
+            removal_cost = -1 
+            
+            modifier = { #효과 
+            stability_factor = 0.25
+            
+}
