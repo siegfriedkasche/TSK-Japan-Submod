@@ -1519,14 +1519,7 @@ focus_tree = {
 									level = 1
 								}
 								available = {
-				has_idea = MJP_Popped_bubble_4
-				}
-				swap_ideas = {
-				add_idea = MJP_Popped_bubble_5
-				remove_idea = MJP_Popped_bubble_4
-						}
-				}
-
+				
 						}
 				}
 	}
