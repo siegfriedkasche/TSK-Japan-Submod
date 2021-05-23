@@ -27,7 +27,7 @@ ideas = {
         }
     }
  ideas = {
-     country = {
+     country = { 
     
         MJP_Stable_Japan = { #안정된 일본
 			
@@ -44,12 +44,12 @@ ideas = {
             removal_cost = -1 
             
             modifier = { #효과
-                consumer_goods_factor = 0.30
                 industrial_capacity_factory = 0.3
                 production_factory_max_efficiency_factor  = 0.3
                 production_factory_start_efficiency_factor = 0.25
+                production_speed_buildings_factor = 0.5
                 stability_factor = 0.25
-                production_speed_buildings_factor = 0.5 
+                consumer_goods_factor = -0.5 
             } 
         }
     }
