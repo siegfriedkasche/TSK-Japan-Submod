@@ -60,8 +60,51 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 		}
-		hidden_effect = {
-			complete_national_focus = newfocus_14
-		}	
+		complete_national_focus = newfocus_14	
 	}
+}
+ountryevent = {
+    id = MJP.4
+    title = MJP.3.t
+    desc = MJP.3.d
+    picture = GFX
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = MJP.3.a
+        ai_chance = {
+            factor = 25
+        }
+        hidden_effect = {   #자민
+            complete_national_focus = Liberal_Democratic_Party
+        }
+    }
+    option = {  #공산
+        name = MJP.3.b
+        ai_chance = {
+            factor = 25
+        }
+        hidden_effect = {
+            complete_national_focus = Communism
+        }
+    }
+    option = {   비동맹?
+        name = MJP.3.c
+        ai_chance = {
+            factor = 25
+        }
+        hidden_effect = {
+            complete_national_focus = Non_alliance
+        }
+    }
+    option = {   #헌법?
+        name = MJP.3.f
+        ai_chance = {
+            factor = 25
+        }
+        hidden_effect = {
+            complete_national_focus = Constitution
+        }
+    }
 }
