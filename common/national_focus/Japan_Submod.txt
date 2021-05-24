@@ -610,7 +610,6 @@ focus_tree = {
 
 	}
 	focus = {
-<<<<<<< HEAD
 		id = MJP_Election
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -708,8 +707,6 @@ focus_tree = {
 
 	}
 	focus = {
-=======
->>>>>>> e2d723eda1cc7cce6b58369f07250e34e4d6018b
 		id = newfocus_35
 		icon = GFX_goal_unknown
 		cost = 10.00
