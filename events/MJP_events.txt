@@ -108,3 +108,26 @@ ountryevent = {
         }
     }
 }
+
+country_event = {
+	id = MJP.6
+	title = MJP.6.C
+	desc = MJP.6.b
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MJP.6.t
+		ai_chance = {
+		    factor = 100
+		}
+		}
+		hidden_effect = {
+			country_event = {
+				id = MJP.6
+				days = 5
+			}
+		}
+	}
+}
