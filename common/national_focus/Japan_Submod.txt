@@ -715,7 +715,7 @@ focus_tree = {
 		}
 		x = 23
 		y = 1
-
+       
 	}
 	focus = {
 		id = newfocus_70
@@ -729,7 +729,36 @@ focus_tree = {
 		}
 		x = 22
 		y = 2
-
+		completion_reward = {
+					add_political_power = 100
+					set_party_name = {
+							ideology = neutrality
+							long_name = "신생당"
+							name = "신생당"
+						}
+					set_party_name = {
+							ideology = communism
+							long_name = "일본공산당"
+							name = "일본공산당"
+						}
+					set_party_name = {
+							ideology = fascism
+							long_name = "일본제국 복권파"
+							name = "일본제국 복권파"
+						}
+						set_party_name = {
+							ideology = democratic
+							long_name = "자유민주당"
+							name = "자유민주당"
+						}
+				}
+			ai_will_do = {
+					factor = 10
+					modifier = {
+							factor = 100
+							is_historical_focus_on = yes
+						}
+				}
 	}
 	focus = {
 		id = newfocus_1
@@ -754,10 +783,10 @@ focus_tree = {
 		}
 		x = 24
 		y = 2
-			completion_reward = {
-					add_stability = -0.15
-				}
-
+		completion_reward = {
+			add_ideas = MJP_Emergencyy_ideas
+			add_stability = -0.05
+		}		
 	}
 	focus = {
 		id = newfocus_72
@@ -1584,8 +1613,15 @@ focus_tree = {
 		}
 		x = 22
 		y = 9
-
+		completion_reward = {
+		add_political_power = 150
+		add_popularity = {
+        ideology = communism
+        popularity = 0.15
+		}
 	}
+       
+}
 	focus = {
 		id = Welfare
 		icon = GFX_goal_unknown
@@ -1595,7 +1631,13 @@ focus_tree = {
 		}
 		x = 22
 		y = 10
-
+		completion_reward = {
+		add_political_power = 150
+		add_popularity = {
+        ideology = communism
+        popularity = 0.15
+		}
+	}
 	}
 	focus = {
 		id = Rural_area
