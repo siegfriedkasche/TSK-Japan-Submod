@@ -1,0 +1,110 @@
+############################################################################################
+###보병장비 
+############################################################################################
+
+	m_1960_infantry_eq = { #M16,Type58
+
+		enable_equipments = { 
+			infantry_equipment_4
+		}
+		
+		enable_subunits = {
+			light_infantry
+		}
+		
+		enable_subunits = {
+			modern_motorized
+		}		
+		enable_subunits = {
+			modern_infantry
+		}		
+		enable_subunits = {
+			modern_marine
+		}
+		
+		enable_subunits = {
+			Engi_Bat
+		}		
+		enable_subunits = {
+			Heavy_Engi_Bat
+		}		
+		enable_subunits = {
+			rec_infantry
+		}
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_1970_infantry_eq = { #M16A1,AKM
+
+		enable_equipments = { 
+			infantry_equipment_5
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	m_1980_infantry_eq = { #K1A,Type68
+
+		enable_equipments = { 
+			infantry_equipment_6
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	m_1990_infantry_eq = { #K2,Type88
+
+		enable_equipments = { 
+			infantry_equipment_7
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
+	m_2000_infantry_eq = { #K2C,AK-74M
+
+		enable_equipments = { 
+			infantry_equipment_8
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	m_2010_infantry_eq = { #K2C1,AK-74MK
+
+		enable_equipments = { 
+			infantry_equipment_9
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+}
