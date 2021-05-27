@@ -119,6 +119,21 @@ country_event = { #정보수집
 	is_triggered_only = yes
 	
 	option = {
+<<<<<<< Updated upstream
 		name = MJP.6.a
     }	
 }
+=======
+		name = MJP.6.t
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+			country_event = {
+				id = MJP.6
+				days = 2				
+			    }
+		    }
+		}
+	}
+>>>>>>> Stashed changes
