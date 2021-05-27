@@ -608,10 +608,7 @@ focus_tree = {
 		x = 21
 		y = 1
 		completion_reward = {
-			country_event = {
-			id = MJP.6
-			days = 2
-		}
+			country_event = { id = MJP.6 }
 		}
 	}
 	focus = {
@@ -1683,7 +1680,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = political_funds
+		id = MJP_Cabinet_of_Hashimoto
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -1735,7 +1732,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = political_funds
+			focus = MJP_Cabinet_of_Hashimoto
 		}
 		prerequisite = {
 			focus = network

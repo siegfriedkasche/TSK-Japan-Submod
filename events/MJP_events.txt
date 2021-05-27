@@ -63,7 +63,7 @@ country_event = {
 		complete_national_focus = newfocus_14	
 	}
 }
-ountryevent = {
+country_event = {
     id = MJP.4
     title = MJP.4.t
     desc = MJP.4.d
@@ -108,26 +108,17 @@ ountryevent = {
         }
     }
 }
-
-country_event = {
+country_event = { #정보수집
 	id = MJP.6
-	title = MJP.6.C
-	desc = MJP.6.b
+	title = MJP.6.t
+	desc = MJP.6.d
 	picture = GFX_
-	is_triggered_only = yes
+
 	fire_only_once = yes
+
+	is_triggered_only = yes
 	
 	option = {
-		name = MJP.6.t
-		ai_chance = {
-		    factor = 100
-		}
-		hidden_effect = {
-			country_event = {
-				id = MJP.6
-				days = 2				
-			    }
-		    }
-		}
-	}
+		name = MJP.6.a
+    }	
 }
