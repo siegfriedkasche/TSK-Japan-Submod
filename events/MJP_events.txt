@@ -65,14 +65,14 @@ country_event = {
 }
 ountryevent = {
     id = MJP.4
-    title = MJP.3.t
-    desc = MJP.3.d
+    title = MJP.4.t
+    desc = MJP.4.d
     picture = GFX
     is_triggered_only = yes
     fire_only_once = yes
 
     option = {
-        name = MJP.3.a
+        name = MJP.4.a
         ai_chance = {
             factor = 25
         }
@@ -81,7 +81,7 @@ ountryevent = {
         }
     }
     option = {  #공산
-        name = MJP.3.b
+        name = MJP.4.b
         ai_chance = {
             factor = 25
         }
@@ -89,8 +89,8 @@ ountryevent = {
             complete_national_focus = Communism
         }
     }
-    option = {   비동맹?
-        name = MJP.3.c
+    option = {   #비동맹?
+        name = MJP.4.c
         ai_chance = {
             factor = 25
         }
@@ -99,7 +99,7 @@ ountryevent = {
         }
     }
     option = {   #헌법?
-        name = MJP.3.f
+        name = MJP.4.f
         ai_chance = {
             factor = 25
         }
