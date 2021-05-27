@@ -126,7 +126,8 @@ country_event = {
 		hidden_effect = {
 			country_event = {
 				id = MJP.6
-				days = 5
+				days = 2
+				
 			}
 		}
 	}

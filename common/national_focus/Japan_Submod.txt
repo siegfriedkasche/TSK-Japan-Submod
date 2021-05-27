@@ -608,7 +608,6 @@ focus_tree = {
 		x = 21
 		y = 1
 		completion_reward = {
-			consumer_goods_factor = -0.05
 			country_event = {
 			id = MJP.6
 			days = 2
@@ -1625,7 +1624,7 @@ focus_tree = {
 		add_political_power = 150
 		add_popularity = {
         ideology = communism
-        popularity = 0.15
+        popularity = 0.05
 		}
 	}
        
