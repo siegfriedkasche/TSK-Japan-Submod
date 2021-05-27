@@ -122,13 +122,12 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 		}
-		}
 		hidden_effect = {
 			country_event = {
 				id = MJP.6
-				days = 2
-				
-			}
+				days = 2				
+			    }
+		    }
 		}
 	}
 }
