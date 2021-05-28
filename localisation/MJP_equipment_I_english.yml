@@ -32,7 +32,7 @@
  MJP_infantry_equipment_6:0 "89식 돌격소총"
  MJP_infantry_equipment_7:0 "89식(F) 돌격소총"
  MJP_infantry_equipment_8:0 "Colt M4"
- MJP_infantry_equipment_9:0 "HK-416"
+ MJP_infantry_equipment_9:0 "20식 돌격소총"
 
  support_infantry_equipment:0 "지원화기"
  support_infantry_equipment_0:0 "1960년 지원화기"
@@ -107,6 +107,7 @@
  MJP_m_1980_sp_equipment:0 "75식 자주포"
  MJP_m_1990_sp_equipment:0 "75식(kai) 자주포"
  MJP_m_2000_sp_equipment:0 "99식 자주포"
+ MJP_m_2010_sp_equipment:0 "19식 자주포"
 
  m_1970_manpad_equipment:0 "1970년대 맨패드"
  m_1980_manpad_equipment:0 "1980년대 맨패드"
@@ -124,6 +125,7 @@
  MJP_m_1970_atgm_equipment:0 "79식 대전차유도탄"
  MJP_m_1980_atgm_equipment:0 "87식 대전차유도탄"
  MJP_m_1990_atgm_equipment:0 "87식 대전차유도탄(Kai)"
+ MJP_m_2000_atgm_equipment:0 "01식 대전차유도탄"
 
  heavy_anti_air_eq:0 "대공발칸포 장비"
  aa_missile:0 "중방공미사일 장비"
