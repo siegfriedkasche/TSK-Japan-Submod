@@ -948,6 +948,24 @@ focus_tree = {
 		}
 		x = 32
 		y = 2
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_7
+				amount = 6500
+				producer = MJP
+			}
+			add_equipment_to_stockpile = {
+				type = support_infantry_equipment_3
+				amount = 2400
+				producer = MJP
+			}
+			set_technology = {
+				
+				m_2000_infantry_eq = 1
+				m_2000_modern_tank = 1
+			}
+		}
+
 
 	}
 	focus = {

@@ -1,7 +1,28 @@
 ﻿I_english :
+ modern_motorized_equipment:0 "현대 중형트럭"
+ modern_amphibious_mechanized_equipment:0 "현대 상륙장갑차"
+ light_vehicle_equipment:0 "군용 경차량"
+ light_vehicle_equipment_0:0 "전기 군용 경차량"
+ light_vehicle_equipment_1:0 "진보된 군용 경차량"
+ light_vehicle_equipment_2:0 "군용 전술차량"
 
+ MJP_light_vehicle_equipment_0:0 "M151"
+ MJP_light_vehicle_equipment_1:0 "J601"
+ MJP_light_vehicle_equipment_2:0 "고기동차"
 
-infantry_equipment_4:0 "1960년대 보병장비"
+ light_mun_equipment_0:0 "경탄약"
+ heavy_mun_equipment_0:0 "중탄약"
+ MJP_light_mun_equipment_0:0 "소총/지원하기 보병용탄약"
+ MJP_heavy_mun_equipment_0:0 "포탄/전차포탄 중화기탄약"
+
+ engineer_equipment:0 "공병장비"
+ engineer_equipment_0:0 "공병장비"
+
+ MJP_modern_motorized_equipment:0 "이스즈 73식"
+
+ MJP_modern_amphibious_mechanized_equipment:0 "AAV-7A1"
+
+ infantry_equipment_4:0 "1960년대 보병장비"
  infantry_equipment_5:0 "1970년대 보병장비"
  infantry_equipment_6:0 "1980년대 보병장비"
  infantry_equipment_7:0 "1990년대 보병장비"
@@ -13,3 +34,173 @@ infantry_equipment_4:0 "1960년대 보병장비"
  MJP_infantry_equipment_7:0 "89식(F) 돌격소총"
  MJP_infantry_equipment_8:0 "Colt M4"
  MJP_infantry_equipment_9:0 "HK-416"
+
+ support_infantry_equipment:0 "지원화기"
+ support_infantry_equipment_0:0 "1960년 지원화기"
+ support_infantry_equipment_1:0 "1970년 지원화기"
+ support_infantry_equipment_2:0 "1985년 지원화기"
+ support_infantry_equipment_3:0 "1995년 지원화기"
+ support_infantry_equipment_4:0 "2005년 지원화기"
+ MJP_support_infantry_equipment_0:0 "M1919 경기관총 & 바주카"
+ MJP_support_infantry_equipment_1:0 "62식 경기관총 & M72LAW"
+ MJP_support_infantry_equipment_2:0 "M240 경기관총 & 칼 구스타프"
+ MJP_support_infantry_equipment_3:0 "FN 미니미 경기관총 & 칼 구스타프 M2"
+
+ m_1950_mbt:0 "1950년대 주력전차"
+ m_1960_mbt:0 "1960년대 주력전차"
+ m_1970_mbt:0 "1970년대 주력전차"
+ m_1980_mbt:0 "1980년대 주력전차"
+ m_1990_mbt:0 "1990년대 주력전차"
+ m_2000_mbt:0 "2000년대 주력전차"
+ m_2010_mbt:0 "2010년대 주력전차"
+ MJP_m_1960_mbt:0 "61식 전차"
+ MJP_m_1970_mbt:0 "74식 전차"
+ MJP_m_1980_mbt:0 "74식 전차(E)"
+ MJP_m_1990_mbt:0 "90식 전차"
+ MJP_m_2000_mbt:0 "90식 전차(B)"
+ MJP_m_2010_mbt:0 "10식 전차"
+
+ m_1970_APC_equipment:0 "1970년대 APC"
+ m_1980_APC_equipment:0 "1980년대 APC"
+ m_1990_APC_equipment:0 "1990년대 APC"
+ m_2000_APC_equipment:0 "2000년대 APC"
+ m_2010_APC_equipment:0 "2010년대 APC"
+ MJP_m_1970_APC_equipment:0 "60식 장갑차"
+ MJP_m_1980_APC_equipment:0 "73식 장갑차"
+ MJP_m_1990_APC_equipment:0 "82식 장갑차"
+ MJP_m_2000_APC_equipment:0 "96식 장갑차"
+
+ IFV_equipment:0 "보병전투차"
+ m_1970_IFV_equipment:0 "1970년대 보병전투차"
+ m_1980_IFV_equipment:0 "1980년대 보병전투차"
+ m_1990_IFV_equipment:0 "1990년대 보병전투차"
+ m_2000_IFV_equipment:0 "2000년대 보병전투차"
+ m_2010_IFV_equipment:0 "2010년대 보병전투차"
+
+ MJP_m_1990_IFV_equipment:0 "89식 보병전투차"
+
+ modern_armored_car_equipment:0 "정찰장갑차"
+ MJP_modern_armored_car_equipment:0 "87식 정찰경계차"
+
+ modern_artillery_equipment_1:0 "현대 견인포 I"
+ modern_artillery_equipment_2:0 "현대 견인포 II"
+ modern_artillery_equipment_3:0 "현대 견인포 III"
+
+ MJP_modern_artillery_equipment_1:0 "M101A1 105mm"
+ MJP_modern_artillery_equipment_3:0 "155mm FH70"
+
+ m_1970_spaa_equipment:0 "1970년대 대공자주포"
+ m_1980_spaa_equipment:0 "1980년대 대공자주포"
+ m_1990_spaa_equipment:0 "1990년대 대공자주포"
+ m_2000_spaa_equipment:0 "2000년대 대공자주포"
+ m_2010_spaa_equipment:0 "2010년대 대공자주포"
+ MJP_m_1980_spaa_equipment:0 "87식 대공자주포"
+ MJP_m_1990_spaa_equipment:0 "81식 지대공미사일차량"
+ MJP_m_2000_spaa_equipment:0 "93식 지대공미사일차량"
+ MJP_m_2010_spaa_equipment:0 "11식 지대공미사일차량"
+
+ m_1970_sp_equipment:0 "1970년대 자주포"
+ m_1980_sp_equipment:0 "1980년대 자주포"
+ m_1990_sp_equipment:0 "1990년대 자주포"
+ m_2000_sp_equipment:0 "2000년대 자주포"
+ m_2010_sp_equipment:0 "2010년대 자주포"
+ MJP_m_1980_sp_equipment:0 "75식 자주포"
+ MJP_m_1990_sp_equipment:0 "75식(kai) 자주포"
+ MJP_m_2000_sp_equipment:0 "99식 자주포"
+
+ m_1970_manpad_equipment:0 "1970년대 맨패드"
+ m_1980_manpad_equipment:0 "1980년대 맨패드"
+ m_1990_manpad_equipment:0 "1990년대 맨패드"
+ m_2000_manpad_equipment:0 "2000년대 맨패드"
+ MJP_m_1980_manpad_equipment:0 "스팅어"
+ MJP_m_1990_manpad_equipment:0 "91식 지대공유도탄"
+
+ m_1970_atgm_equipment:0 "1970년대 대전차미사일"
+ m_1980_atgm_equipment:0 "1980년대 대전차미사일"
+ m_1990_atgm_equipment:0 "1990년대 대전차미사일"
+ m_2000_atgm_equipment:0 "2000년대 대전차미사일"
+ m_2010_atgm_equipment:0 "2010년대 대전차미사일"
+ 
+ MJP_m_1970_atgm_equipment:0 "79식 대전차유도탄"
+ MJP_m_1980_atgm_equipment:0 "87식 대전차유도탄"
+ MJP_m_1990_atgm_equipment:0 "87식 대전차유도탄(Kai)"
+
+ heavy_anti_air_eq:0 "대공발칸포 장비"
+ aa_missile:0 "중방공미사일 장비"
+
+ MJP_heavy_anti_air_eq:0 "VADS-I(Kai)"
+ MJP_aa_missile:0 "HAWK 지대공미사일"
+
+ m_1970_jet_multirole_equipment:0 "1970년대 멀티롤"
+ m_1980_jet_multirole_equipment:0 "1980년대 멀티롤"
+ m_1990_jet_multirole_equipment:0 "1990년대 멀티롤"
+ m_2000_jet_multirole_equipment:0 "2000년대 멀티롤"
+ m_2010_jet_multirole_equipment:0 "2010년대 멀티롤"
+ MJP_m_1970_jet_multirole_equipment:0 "F-104J"
+ MJP_m_1980_jet_multirole_equipment:0 "F-4EJ"
+
+ m_1970_jet_fighter_equipment:0 "1970년대 제공전투기"
+ m_1980_jet_fighter_equipment:0 "1980년대 제공전투기"
+ m_1990_jet_fighter_equipment:0 "1990년대 제공전투기"
+ m_2000_jet_fighter_equipment:0 "2000년대 제공전투기"
+ MJP_m_1970_jet_fighter_equipment:0 "F-4"
+ MJP_m_1980_jet_fighter_equipment:0 "F-15J"
+ MJP_m_1990_jet_fighter_equipment:0 "F-15CJ"
+
+ m_1970_jet_CAS_equipment:0 "1970년대 근접항공지원기"
+ m_1980_jet_CAS_equipment:0 "1980년대 근접항공지원기"
+ m_1990_jet_CAS_equipment:0 "1990년대 근접항공지원기"
+ m_2000_jet_CAS_equipment:0 "2000년대 근접항공지원기"
+ m_2010_jet_CAS_equipment:0 "2010년대 근접항공지원기"
+
+ MJP_m_1980_jet_CAS_equipment:0 "F-1"
+ MJP_m_1990_jet_CAS_equipment:0 "F-2"
+
+ 
+ m_1980_attack_helicopter_equipment:0 "1980년대 공격헬기"
+ m_2000_attack_helicopter_equipment:0 "2000년대 공격헬기"
+ m_2010_attack_helicopter_equipment:0 "2010년대 공격헬기"
+
+ MJP_m_1980_attack_helicopter_equipment:0 "AH-1S 코브라"
+ MJP_m_2000_attack_helicopter_equipment:0 "가와사키 OH-1"
+ MJP_m_2010_attack_helicopter_equipment:0 "AH-64DJ 아파치 가디언"
+
+ m_1970_util_helicopter_equipment:0 "1970년대 수송헬기"
+ m_1980_util_helicopter_equipment:0 "1980년대 수송헬기"
+ m_1990_util_helicopter_equipment:0 "1990년대 수송헬기"
+ m_2000_util_helicopter_equipment:0 "2000년대 수송헬기"
+ m_2010_util_helicopter_equipment:0 "2010년대 수송헬기"
+
+ MJP_m_1970_util_helicopter_equipment:0 "KV-107"
+ MJP_m_1980_util_helicopter_equipment:0 "UH-1J 휴이"
+ MJP_m_1990_util_helicopter_equipment:0 "UH-60P 블랙호크"
+ MJP_m_2000_util_helicopter_equipment:0 "CH-47 치누크"
+
+ maritime_helicopter_equipment_1:0 "현대 해군용다목적헬기"
+ MJP_maritime_helicopter_equipment_1:0 "SH-60"
+
+ ship_hull_PK_1:0 "고속정 선체 I"
+ ship_hull_PK_2:0 "고속정 선체 II"
+ ship_hull_PK_3:0 "고속함 선체"
+ 
+ ship_hull_FF_1:0 "호위함 선체 I"
+ ship_hull_FF_2:0 "호위함 선체 II"
+ ship_hull_FF_3:0 "호위함 선체 III"
+ 
+ ship_hull_PCC_1:0 "초계함 선체 I"
+ ship_hull_PCC_2:0 "초계함 선체 II"
+ ship_hull_PCC_3:0 "초계함 선체 III"
+ 
+ ship_hull_modern_DDH_1:0 "구축함 선체 I"
+ ship_hull_modern_DDH_2:0 "구축함 선체 II"
+ ship_hull_modern_DDH_3:0 "구축함 선체 III"
+ 
+ ship_hull_modern_DDG_1:0 "이지스 구축함 선체 I"
+ ship_hull_modern_DDG_2:0 "이지스 구축함 선체 II"
+ 
+ ship_hull_modern_submarine_1:0 "공격잠수함 선체 I"
+ ship_hull_modern_submarine_2:0 "공격잠수함 선체 II"
+ ship_hull_modern_submarine_3:0 "공격잠수함 선체 III"
+ ship_hull_modern_submarine_4:0 "공격잠수함 선체 IV"
+ ship_hull_modern_submarine_5:0 "공격잠수함 선체 V"
+ 
