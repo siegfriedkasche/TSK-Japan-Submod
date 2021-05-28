@@ -1,9 +1,8 @@
 ﻿I_english :
  modern_motorized_equipment:0 "현대 중형트럭"
  MJP_modern_motorized_equipment:0 "이스즈 73식"
-
  modern_amphibious_mechanized_equipment:0 "현대 상륙장갑차"
- MJP_modern_amphibious_mechanized_equipment:0 "AAV-7A1"
+
 
  light_vehicle_equipment:0 "군용 경차량"
  light_vehicle_equipment_0:0 "전기 군용 경차량"
