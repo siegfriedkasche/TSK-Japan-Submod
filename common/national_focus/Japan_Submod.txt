@@ -1688,7 +1688,19 @@ focus_tree = {
 		}
 		x = 14
 		y = 10
+		completion_reward = {
+			create_country_leader = {
+				name = "Ryutaro-Hashimoto"
+				picture = "gfx/"
+				expire = "1995.1.1"
+				ideology = socialism
+				traits = {
+				
+					
+				}
+			}
 
+	}
 	}
 	focus = {
 		id = network
@@ -1829,16 +1841,10 @@ focus_tree = {
 		}
 		x = 8
 		y = 5
-<<<<<<< HEAD
-		completion_reward = {
-	    	add_ideas = Japan_Aerospace_eXploration_Agency
-		}
-=======
 			completion_reward = {
 					add_ideas = Japan_Aerospace_eXploration_Agency
 				}
 
->>>>>>> e2d723eda1cc7cce6b58369f07250e34e4d6018b
 	}
 	focus = {
 		id = Satellite
