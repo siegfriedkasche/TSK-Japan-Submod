@@ -977,6 +977,19 @@ focus_tree = {
 		}
 		x = 32
 		y = 3
+		completion_reward = {
+			
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_7
+				amount = 4500
+				producer = MJP
+			}
+			add_equipment_to_stockpile = {
+				type = support_infantry_equipment_3
+				amount = 1600
+				producer = MJP
+			}
+		}
 
 	}
 	focus = {
@@ -994,6 +1007,7 @@ focus_tree = {
 		}
 		x = 30
 		y = 4
+		
 
 	}
 	focus = {
@@ -1374,7 +1388,14 @@ focus_tree = {
 		}
 		x = 42
 		y = 3
+	    completion_reward = {
+			set_technology = {
+			
+				m_2000_jet_fighter = 1
+				m_1990_jet_multirole = 1
 
+			}
+		}
 	}
 	focus = {
 		id = newfocus_40
@@ -1413,6 +1434,15 @@ focus_tree = {
 		}
 		x = 42
 		y = 4
+		completion_reward = {
+			set_technology = {
+			
+				m_2010_jet_fighter = 1
+				m_2000_jet_multirole = 1
+				m_2010_attack_helicopter = 1
+
+			}
+		}
 
 	}
 	focus = {
@@ -1723,8 +1753,7 @@ focus_tree = {
 					
 				}
 			}
-
-	}
+		}
 	}
 	focus = {
 		id = network
@@ -1816,7 +1845,18 @@ focus_tree = {
 		}
 		x = 19
 		y = 11
-
+        completion_reward = {
+			create_country_leader = {
+				name = "Akihito"
+				picture = "gfx/"
+				expire = "1995.1.1"
+				ideology = neutrality
+				traits = {
+				
+					
+				}
+			}
+		}
 	}
 	focus = {
 		id = newfocus_77
