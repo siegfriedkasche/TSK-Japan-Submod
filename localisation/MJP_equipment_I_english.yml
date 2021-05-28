@@ -140,14 +140,24 @@
  m_2010_jet_multirole_equipment:0 "2010년대 멀티롤"
  MJP_m_1970_jet_multirole_equipment:0 "F-104J"
  MJP_m_1980_jet_multirole_equipment:0 "F-4EJ"
+ MJP_m_1990_jet_multirole_equipment:0 "F-2"
+ MJP_m_2000_jet_multirole_equipment:0 "F-2kai"
+
+ jet_multirole_equipment_desc:0 "현대의 멀티롤들은,제공임무도 가능하지만 또한 지상지원도 가능합니다. 이 전투기들은 2가지임무를 유연하게 수행하는데 특화되어있습니다."
+ MJP_jet_multirole_equipment_desc:0 "현대의 멀티롤들은,제공임무도 가능하지만 또한 지상지원도 가능합니다. 이 전투기들은 2가지임무를 유연하게 수행하는데 특화되어있습니다. \n\n\n\n\n£f-15k\n\n\n\n\n."
+ 
 
  m_1970_jet_fighter_equipment:0 "1970년대 제공전투기"
  m_1980_jet_fighter_equipment:0 "1980년대 제공전투기"
  m_1990_jet_fighter_equipment:0 "1990년대 제공전투기"
  m_2000_jet_fighter_equipment:0 "2000년대 제공전투기"
+ m_2010_jet_fighter_equipment:0 "2010년대 제공전투기"
  MJP_m_1970_jet_fighter_equipment:0 "F-4"
  MJP_m_1980_jet_fighter_equipment:0 "F-15J"
  MJP_m_1990_jet_fighter_equipment:0 "F-15CJ"
+ MJP_m_2000_jet_fighter_equipment:0 "F-15DJ"
+ MJP_m_2010_jet_fighter_equipment:0 "F-15kai"
+ 
 
  m_1970_jet_CAS_equipment:0 "1970년대 근접항공지원기"
  m_1980_jet_CAS_equipment:0 "1980년대 근접항공지원기"
@@ -156,8 +166,6 @@
  m_2010_jet_CAS_equipment:0 "2010년대 근접항공지원기"
 
  MJP_m_1980_jet_CAS_equipment:0 "F-1"
- MJP_m_1990_jet_CAS_equipment:0 "F-2"
-
  
  m_1980_attack_helicopter_equipment:0 "1980년대 공격헬기"
  m_2000_attack_helicopter_equipment:0 "2000년대 공격헬기"
