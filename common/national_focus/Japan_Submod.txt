@@ -1339,6 +1339,12 @@ focus_tree = {
 		}
 		x = 42
 		y = 2
+		completion_reward = {
+			set_technology = {
+			
+				m_1990_jet_fighter = 1
+			}
+		}
 
 	}
 	focus = {
