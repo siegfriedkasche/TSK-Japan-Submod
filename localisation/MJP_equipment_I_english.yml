@@ -1,6 +1,10 @@
 ﻿I_english :
  modern_motorized_equipment:0 "현대 중형트럭"
+ MJP_modern_motorized_equipment:0 "이스즈 73식"
+
  modern_amphibious_mechanized_equipment:0 "현대 상륙장갑차"
+ MJP_modern_amphibious_mechanized_equipment:0 "AAV-7A1"
+
  light_vehicle_equipment:0 "군용 경차량"
  light_vehicle_equipment_0:0 "전기 군용 경차량"
  light_vehicle_equipment_1:0 "진보된 군용 경차량"
@@ -17,10 +21,6 @@
 
  engineer_equipment:0 "공병장비"
  engineer_equipment_0:0 "공병장비"
-
- MJP_modern_motorized_equipment:0 "이스즈 73식"
-
- MJP_modern_amphibious_mechanized_equipment:0 "AAV-7A1"
 
  infantry_equipment_4:0 "1960년대 보병장비"
  infantry_equipment_5:0 "1970년대 보병장비"
@@ -78,6 +78,7 @@
  m_2010_IFV_equipment:0 "2010년대 보병전투차"
 
  MJP_m_1990_IFV_equipment:0 "89식 보병전투차"
+ MJP_m_2010_IFV_equipment:0 "89식(kai) 보병전투차"
 
  modern_armored_car_equipment:0 "정찰장갑차"
  MJP_modern_armored_car_equipment:0 "87식 정찰경계차"
