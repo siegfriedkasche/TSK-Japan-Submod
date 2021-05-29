@@ -608,6 +608,12 @@ focus_tree = {
 		x = 21
 		y = 1
 		completion_reward = {
+			hidden_effect = {
+							country_event = {
+									id = MJP.6
+									days = 0
+								}
+						}
 			country_event = { id = MJP.6 }
 		}
 	}
@@ -625,9 +631,12 @@ focus_tree = {
 		y = 7
 		completion_reward = {
 			hidden_effect = {
-				country_event = { id = MJP_JP.7 }
-				
-			}
+							country_event = {
+									id = MJP.7
+									days = 0
+								}
+						}
+			country_event = { id = MJP.7 }
 		}
 	}
 	focus = {
@@ -1913,7 +1922,7 @@ focus_tree = {
 				name = "Akihito"
 				picture = "gfx/"
 				expire = "1995.1.1"
-				ideology = neutrality
+				ideology = despotism
 				traits = {
 				
 					
