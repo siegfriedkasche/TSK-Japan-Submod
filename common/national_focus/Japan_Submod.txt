@@ -624,8 +624,10 @@ focus_tree = {
 		x = 21
 		y = 7
 		completion_reward = {
-        prerequisite = { focus = Stable_Japan }
-        prerequisite = { focus = newfocus_14 }
+			hidden_effect = {
+				country_event = { id = MJP_JP.7 }
+				
+			}
 		}
 	}
 	focus = {
