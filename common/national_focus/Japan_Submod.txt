@@ -1156,6 +1156,7 @@ focus_tree = {
 		}
 		x = 36
 		y = 2
+		
 
 	}
 	focus = {
@@ -1167,6 +1168,35 @@ focus_tree = {
 		}
 		x = 36
 		y = 3
+		completion_reward = {
+			add_ideas = nine_Mitsubishi_ship
+			if = {
+				limit = {
+					has_idea = nine_Mitsubishi_ship
+				}
+				add_political_power = 150
+			}
+			if = {
+				limit = {
+					has_idea = nine_Kawasaki_ship
+				}
+				swap_ideas = {
+					add_idea = nine_Kawasaki_ship
+					remove_idea = nine_IHI_ship
+				}
+				add_political_power = 60
+			}
+			if = {
+				limit = {
+					has_idea = nine_IHI_ship
+				}
+				swap_ideas = {
+					add_idea = nine_Mitsubishi_ship
+					remove_idea = nine_IHI_ship
+				}
+				add_political_power = 60
+			}
+		}
 
 	}
 	focus = {
@@ -1417,6 +1447,10 @@ focus_tree = {
 		}
 		x = 44
 		y = 3
+		completion_reward = {
+					air_experience = 35
+					add_political_power = 100
+				}
 
 	}
 	focus = {

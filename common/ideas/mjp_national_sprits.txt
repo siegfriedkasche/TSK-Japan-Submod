@@ -509,3 +509,277 @@ country = {
     }
 
 }
+naval_manufacturer = { 
+		
+		designer = yes
+		
+		nine_Kawasaki_ship = { #가와사키 중공업
+
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			equipment_bonus = {
+				
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+			
+		}
+		
+		nine_IHI_ship = { #IHI
+
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+		}	
+		nine_Mitsubishi_ship = { #미쓰비시중공업
+
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+		}	
+	}
+    tank_manufacturer = { 
+		
+		designer = yes
+		
+		nine_Mitsubishi = { #미쓰비시중공업
+
+			picture = MJP
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { medium_tank_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+    aircraft_manufacturer = { 
+			
+		designer = yes
+		
+        nine_Kawasaki = { #가와사키중공업
+
+			allowed = {
+				original_tag = MJP
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { CAS_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+		
+
+		nine_Mitsubishi = { #미쓰비시중공업
+
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		nine_ShinMaywa = { #신메이와 
+
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+    }
+
+materiel_manufacturer = {
+		
+		designer = yes
+		
+		nine_HOWA = { #호와공업
+
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+
+		
+		Toyota_car = { #토요타자동차
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		nine_Mitsubishi_car = { #미쓰비시자동차
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+	}
+
+    industrial_concern = {
+		
+		nine_JXTGHoldings = { #JXTG 홀딩스
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		nine_ITOCHU = { #이토추 상사
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+			research_bonus = {
+				industry = 0.15
+				
+			}
+			ai_will_do = {
+				factor = 2
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		nine_Sony = { #Sony
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}		
+		
+		nine_Toshiba = { #도시바
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}		
+		nine_Inspire = { #히타치
+			
+			allowed = {
+				original_tag = MJP
+			}
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}		
+	}
