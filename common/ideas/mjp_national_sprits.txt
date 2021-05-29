@@ -501,14 +501,191 @@ country = {
         modifier = { #효과
         stability_factor = -0.1
                 cpolitical_power_factor = 0.10
-                research_bonus = {
-				infantry_weapons = 0.05
-				armor = 0.05
+                industrial_capacity_factory = -0.3
+                production_factory_max_efficiency_factor  = -0.2
+                production_factory_max_efficiency_factor  = -0.1
             }
         }
     }
 
-}
+army_chief = {
+
+		Taizo_Terashima = { #데라시마 다이조
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+			
+			traits = { army_chief_organizational_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		Shima_Atsushi  = { #시마 아쓰시
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+						
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		Tetsuya_Nishimoto = { #니시모토 데쓰야
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+						
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		Tomizawa_Hikaru = { #도미자와 히카루
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+
+					
+			traits = { army_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+air_chief = {
+		
+		Tadayoshi_Yonekawa = { #요네카와 다다요시
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+						
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		
+		Suzuki_Akio = { #스즈키 아키오
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+						
+			traits = { air_chief_all_weather_2 }
+			
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		
+		Isao_Ishizuka = { #이시즈카 이사오
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+						
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+    navy_chief = { #
+		
+		Fumio_Okabe = { #오카베 후미오
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+						
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 0.1
+			}
+		}
+		
+		Hayashizaki_Jiaki = { #하야시자키 지아키
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+						
+			traits = { navy_chief_commerce_raiding_3 }
+			
+			ai_will_do = {
+				factor = 0.1
+			}
+		}
+	}
 naval_manufacturer = { 
 		
 		designer = yes

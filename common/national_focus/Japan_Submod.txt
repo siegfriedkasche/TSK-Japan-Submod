@@ -1436,6 +1436,33 @@ focus_tree = {
 		}
 		x = 44
 		y = 2
+		completion_reward = {
+			add_ideas = Suzuki_Akio
+			if = {
+				limit = {
+				    has_idea = Suzuki_Akio
+				}
+				add_political_power = 150
+			}
+			if = {
+				limit = {
+				    has_idea = Isao_Ishizuka
+				}
+				swap_ideas = {
+					add_idea = Isao_Ishizuka
+					remove_idea = Tadayoshi_Yonekawa
+				}
+			}
+			if = {
+				limit = {
+				    has_idea = Tadayoshi_Yonekawa
+				}
+				swap_ideas = {
+					add_idea = Suzuki_Akio
+					remove_idea = Tadayoshi_Yonekawa
+				}
+			}
+		}
 
 	}
 	focus = {
