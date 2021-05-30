@@ -1,29 +1,52 @@
 all_international_fifth = {
  	all_international_fifth_1 = {
-		icon = generic_prepare_civil_war
 		available = {
+			hidden_trigger = {
+				not = {
+					has_decision = all_international_fifth_2
+				}
+			}
 		}
-
+		visible = {
+            tag = KOR
+        }
 		ai_will_do = {
-			factor = 100
+			factor = 50
 		}
 
 		fire_only_once = no
-		cost = 25
+		cost = 50
+		days_re_enable = 30
+		days_remove = 30
 		
-		days_remove = 1
-		modifier = {
-			
-		}
 		remove_effect = {
-			every_country = {
-				If = {
-					Limit = {
-						is_in_faction_with = KOR
-					}
-				}
-				add_ideas = Unstable_commune
+			country_event = {
+			    id = Kron.2
 			}
+		}
+	}
+	all_international_fifth_2 = {
+		available = {
+			hidden_trigger = {
+				not = {
+					has_decision = all_international_fifth_2
+				}
+			}
+		}
+		visible = {
+            tag = KOR
+        }
+		ai_will_do = {
+			factor = 50
+		}
+
+		fire_only_once = no
+		cost = 50
+		days_re_enable = 30
+		days_remove = 30
+		
+		remove_effect = {
+			
 		}
 	}
 }

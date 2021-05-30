@@ -284,7 +284,11 @@ focus_tree = {
 		}
 		x = 47
 		y = 7
-
+		completion_reward = {
+			country_event = {
+				id = KORnan.40
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_Withdrawal_of_private_property
@@ -299,10 +303,18 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = Masterless_means_of_production
 			hidden_effect = {
-				UFT = { add_ideas = Masterless_means_of_production }
-				CAF = { add_ideas = Masterless_means_of_production }
-				JAF = { add_ideas = Masterless_means_of_production }
-				IWW = { add_ideas = Masterless_means_of_production }
+				UFT = { 
+					add_ideas = Masterless_means_of_production
+				}
+				CAF = {
+					add_ideas = Masterless_means_of_production 
+				}
+				JAF = { 
+					add_ideas = Masterless_means_of_production 
+				}
+				IWW = {
+					add_ideas = Masterless_means_of_production 
+				}
 			}
 		}
 	}
@@ -310,12 +322,20 @@ focus_tree = {
 		id = KOR_Partial_abolition_of_private_property
 		icon = GFX_KOR_Partial_abolition_of_private_property
 		cost = 4
+		available = {
+			has_idea = Masterless_means_of_production
+		}
 		prerequisite = {
 			focus = KOR_CNT_Withdrawal_of_private_property
 		}
 		x = 48
 		y = 5
-
+		completion_reward = {
+			swap_ideas = {
+				add_idea = Masterless_means_of_production_2
+				remove_idea = Masterless_means_of_production
+			}
+		}
 	}
 	focus = {
 		id = KOR_State_rejection
@@ -406,7 +426,9 @@ focus_tree = {
 		}
 		x = 49
 		y = 7
-
+		completion_reward = {
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = KOR_Single_union
@@ -598,9 +620,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = KOR_CNT_Direct_action_in_China
-		available = {
-			always = no
-		}
 		completion_reward = {
 			JAF = {
 				country_event = {
@@ -918,6 +937,9 @@ focus_tree = {
 		id = KOR_Solidarity_of_workers
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 4
+		available = {
+			has_war = yes
+		}
 		prerequisite = {
 			focus = KOR_Code_of_Anarchism
 			focus = KOR_CNT_Temporary_Committee
@@ -944,10 +966,7 @@ focus_tree = {
 					country_event = {
 							id = KORnan.7
 						}
-					declare_war_on = {
-							target = SOV
-							type = annex_everything
-						}
+					
 				}
 
 	}
@@ -991,9 +1010,7 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_japan
 		}
-		available = {
-			always = no
-		}
+		
 		x = 49
 		y = 10
 		completion_reward = {

@@ -1,0 +1,89 @@
+ideas = {
+    country = {
+
+        International_conference_1_ideas = {  
+
+            allowed = {
+                is_in_faction_with = KOR
+            }
+            cancel = {
+                is_in_faction_with = KOR
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = 
+
+            removal_cost = -1
+            
+            modifier = {
+                political_power_gain = 0.5
+                stability_weekly = 0.03
+                production_speed_arms_factory_factor = -0.05
+                production_speed_industrial_complex_factor = -0.05
+            }
+        }
+    }
+    country = {
+
+        International_conference_2_ideas = {  
+
+            allowed = {
+                is_in_faction_with = KOR
+            }
+            cancel = {
+                is_in_faction_with = KOR
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = 
+
+            removal_cost = -1
+            
+            modifier = {
+                political_power_gain = -0.5
+                stability_weekly = -0.03
+                production_speed_arms_factory_factor = 0.05
+                production_speed_industrial_complex_factor = 0.05
+            }
+        }
+    }
+    country = {
+
+        International_conference_3_ideas = {  
+
+            allowed = {
+                is_in_faction_with = KOR
+            }
+
+            cancel = {
+                is_in_faction_with = KOR
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = 
+
+            removal_cost = -1
+            
+            modifier = {
+                political_power_gain = 0.2
+                stability_weekly = 0.01
+                production_speed_arms_factory_factor = 0.03
+                production_speed_industrial_complex_factor = 0.03
+            }
+        }
+    }
+# consumer_goods_factor 
+# production_lack_of_resource_penalty_factor 
+# production_factory_start_efficiency_factor 
+# production_speed_industrial_complex_factor 
+# production_speed_arms_factory_factor 
+# industrial_capacity_factory 

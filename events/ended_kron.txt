@@ -163,3 +163,61 @@ country_event = {
 		}
 	}
 }
+
+
+#####################인터내셔널 회의#####################
+
+country_event = {
+	id = Kron.2 #무너진 연방
+	title = Kron.2.t
+	desc = Kron.2.d
+	picture = GFX_파리코뮌
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = Kron.2.a
+		ai_chance = {
+		    factor = 100
+		}
+		every_country = {
+        	limit = {
+            	is_in_faction_with = KOR
+        	}
+			add_timed_idea = {
+				idea = International_conference_1_ideas
+				days = 30
+			}
+		}
+	}
+	option = {
+		name = Kron.2.b
+		ai_chance = {
+		    factor = 100
+		}
+		every_country = {
+        	limit = {
+            	is_in_faction_with = KOR
+        	}
+			add_timed_idea = {
+				idea = International_conference_2_ideas
+				days = 30
+			}
+		}
+	}
+	option = {
+		name = Kron.2.e
+		ai_chance = {
+		    factor = 100
+		}
+		every_country = {
+        	limit = {
+            	is_in_faction_with = KOR
+        	}
+			add_timed_idea = {
+				idea = International_conference_3_ideas
+				days = 30
+			}
+		}
+	}
+}

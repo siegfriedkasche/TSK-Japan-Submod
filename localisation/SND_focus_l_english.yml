@@ -1,4 +1,5 @@
 ﻿l_english:
+ Masterless_means_of_production_2:0 "존재하지 않는 사유재산"
  china_Policy_decisions_SND:0 "러시아 파벌 정책"
  china_Policy_decisions_SND_desc:0 "소비에트 연방이 내전에 휩쓸리면서 소비에트 연방 내 각 주요세력또는 외부세력이 유입되면서 여러 파벌로 쪼개졌습니다. 이 상황 속에서 우리는 무슨 선택을 해야될까요?"
  China_Army_training:0 "군대 훈련"
@@ -13,4 +14,13 @@
 
  all_international_fifth:0 "제5인터내셔널"
  all_international_fifth_desc:0 "ㅇ"
- all_international_fifth_1:0 "국제"
+ all_international_fifth_1:0 "인터내셔널 회의"
+ all_international_fifth_2:0 "인터내셔널 협력"
+ Kron.2.t:0 "종결된 인터내셔널 회의"
+ Kron.2.d:0 "제5 인터내셔널 회의가 다시 한번 종결 되었습니다. 우리 [Root.GetName]의 각 인민의 대표자들과 다른 코뮌, 공동체에서 인민의 대표자들이 모여 30일이라는 시간적 여유를 가지고 현 인터내셔널에 가입된 각 공동체들 사이에서 야기되는 문제를 가지고 오랜 고심과 심의를 통하여 진지하게 고민하고 각 공동체의 대표자들은 공동체의 결의안을 제시하였고, 인터내셔널 협회에서 조정, 수용, 공동체의 나름 생산적인 토론등을 진행하였습니다. 최종 결의안이 나오고 이제 남은 일은 인터내셔널에서 각 공동체에 최종 결과를 발표하는 일만 남았습니다."
+ Kron.2.a:0 "공동체간의 분배를 강화하자."
+ Kron.2.b:0 "인터내셔널을 중심으로 분배하자"
+ Kron.2.e:0 "노동자들의 의사에 맡기기로 합의했다."
+ International_conference_1_ideas:0 "긴밀한 공동체 관계"
+ International_conference_2_ideas:0 "인터내셔널에서의 분배"
+ International_conference_3_ideas:0 "공동체 노동자의 자가관리 강화"

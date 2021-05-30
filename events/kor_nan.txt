@@ -906,6 +906,21 @@ country_event = { #코카서스 - 독립
 	}
 } 
 
+country_event = { #자유연합론
+	id = KORnan.40
+	title = KORnan.40.t
+	desc = KORnan.40.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.40.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+} 
 
 country_event = { #중국 혁명
 	id = KORnan.30
