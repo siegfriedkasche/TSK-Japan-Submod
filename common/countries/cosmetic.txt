@@ -20,14 +20,33 @@ FIN_KAR = {
 	color_ui = rgb { 255 255 255 }
 }
 UFT_NRT = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
+	color = rgb { 0  0  0 }
+	color_ui = rgb { 0  0  0 }
+}
+DRM_COU = {
+	color = rgb { 198  0  131 }
+	color_ui = rgb { 198  0  131 }
+}
+IDL_CAP = {
+	color = rgb { 0  0  0 }
+	color_ui = rgb { 0  0  0 }
+}
+
+AVA_KOR = {
+	color = rgb { 70  0  123 }
+	color_ui = rgb { 70  0  123 }
+}
+
+EAS_MAG = {
+	color = rgb { 198  0  131 }
+	color_ui = rgb { 198  0  131 }
 }
 
 PR1 = {
 	color = rgb { 197  0  0 }
 	color_ui = rgb { 197  0  0 }
 }
+
 
 PRK = {
 	color = rgb { 176  26  26 }

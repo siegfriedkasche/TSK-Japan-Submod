@@ -1,0 +1,34 @@
+leader_traits = {
+
+	industrial_union = {
+		production_factory_max_efficiency_factor = 0.15
+		production_speed_buildings_factor = 0.03
+	}
+	Construction_Union = {
+		production_speed_buildings_factor = 0.15
+		consumer_goods_factor = -0.03
+		production_factory_max_efficiency_factor = 0.03
+	}
+	womens_union = {
+		production_speed_buildings_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
+		stability_factor = 0.05
+		consumer_goods_factor = -0.015
+	}
+
+	industry_committee_traits = {
+		production_factory_max_efficiency_factor = 0.15
+		production_speed_buildings_factor = 0.03
+	}
+	Construction_council_traits = {
+		production_speed_buildings_factor = 0.15
+		consumer_goods_factor = -0.03
+		production_factory_max_efficiency_factor = 0.03
+	}
+	community_commune_traits = {
+		production_speed_buildings_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
+		stability_factor = 0.05
+		consumer_goods_factor = -0.015
+	}
+}

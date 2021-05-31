@@ -63,5 +63,17 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_anarcha_feminism"
 		texturefile = "gfx/interface/ideas/anarcha_feminism.png"
-	
+	}
+	spriteType = {
+		name = "GFX_idea_self_management"
+		texturefile = "gfx/interface/ideas/self_management.png"
+	}
+	spriteType = {
+		name = "GFX_idea_National_Construction_Industry_Trade_Union_Federation"
+		texturefile = "gfx/interface/ideas/National_Construction_Industry_Trade_Union_Federation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_National_Federation_of_Womens_Trade_Unions"
+		texturefile = "gfx/interface/ideas/National_Federation_of_Womens_Trade_Unions.png"
+	}
 }

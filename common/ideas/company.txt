@@ -1,0 +1,408 @@
+ideas = {
+	
+    Federation_of_union = {
+		
+		metal_union = { #금속노조
+			
+            picture = self_management
+
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_Anaco_Syndicalism
+            }
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.10
+			}
+			modifier = {
+                production_lack_of_resource_penalty_factor = -0.1
+            }
+			traits = { industrial_union }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		National_Construction_Industry_Trade_Union_Federation = { #전국건설산업노동조합연맹
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_Anaco_Syndicalism
+            }
+			picture = National_Construction_Industry_Trade_Union_Federation
+			research_bonus = {
+                industry = 0.1
+			}
+			ai_will_do = {
+				factor = 2
+			}
+			
+			traits = { Construction_Union }
+		}		
+		
+		National_Federation_of_Womens_Trade_Unions = { #전국여성노동조합연맹
+			picture = National_Federation_of_Womens_Trade_Unions
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_Anaco_Syndicalism
+            }
+			
+			research_bonus = {
+				electronics = 0.05
+                industry = 0.05
+			}
+			
+			traits = { womens_union }
+		}
+	}
+
+    revolutionary_Committee = {
+		
+		industry_committee = { #산업위원회
+
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_anarcho-communism
+            }
+			picture = SPR_anarchist_council
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.10
+			}
+			modifier = {
+                production_lack_of_resource_penalty_factor = -0.1
+            }
+			traits = { industry_committee_traits }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}		
+		
+        Construction_council = { #건설 평의회
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_anarcho-communism
+            }
+			picture = SPR_anarchist_council
+            research_bonus = {
+                industry = 0.1
+			}
+			traits = { Construction_council_traits }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		community_commune = { #공동체 코뮌
+		
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_anarcho-communism
+            }
+			picture = SPR_anarchist_council
+			research_bonus = {
+				electronics = 0.05
+                industry = 0.05
+			}
+			
+			traits = { community_commune_traits }
+		}
+		SPR_council_of_theorists = { 
+			
+			picture = SPR_anarchist_council
+					
+			allowed = {
+				original_tag = KOR
+			}
+
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_anarcho-communism
+            }
+			
+			research_bonus = {
+				land_doctrine = 0.05
+				naval_doctrine = 0.05
+				air_doctrine = 0.05
+			}
+			
+			traits = { council_of_theorists }
+		}
+	}
+    council = {
+		SPR_defensive_military_council = { # Anarchist
+			
+			picture = SPR_anarchist_council
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_END_Delegate_meeting
+            }
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SPR_offensive_military_council = { # Anarchist
+			
+			picture = SPR_anarchist_council
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_END_Delegate_meeting
+            }
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SPR_organizational_military_council = { # Anarchist
+			
+			picture = SPR_anarchist_council
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_END_Delegate_meeting
+            }
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		SPR_air_safety_aviation_council = { # Anarchist
+			
+			picture = SPR_anarchist_council
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_END_Delegate_meeting
+            }
+			
+			traits = { air_chief_safety_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SPR_all_weather_aviation_council = { # Anarchist
+			
+			picture = SPR_anarchist_council
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_END_Delegate_meeting
+            }
+			
+			traits = { air_chief_all_weather_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		SPR_reform_naval_council = { # Anarchist
+			
+			picture = SPR_anarchist_council
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_END_Delegate_meeting
+            }
+			
+			traits = { navy_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		SPR_infantry_military_council = { # Anarchist
+			ledger = army
+			
+			picture = SPR_anarchist_council
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_END_Delegate_meeting
+            }
+			
+			traits = { army_infantry_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SPR_army_regrouping_military_council = { # Anarchist
+			ledger = army
+			
+			picture = SPR_anarchist_council
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_END_Delegate_meeting
+            }
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SPR_concealment_military_council = { # Anarchist
+			ledger = army
+			
+			picture = SPR_anarchist_council
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_END_Delegate_meeting
+            }
+			
+			traits = { army_concealment_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SPR_naval_strike_aviation_council = { # Anarchist
+			ledger = navy
+			
+			picture = SPR_anarchist_council
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_END_Delegate_meeting
+            }
+			
+			traits = { air_naval_strike_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SPR_close_air_support_aviation_council = { # Anarchist
+			ledger = air
+			
+			picture = SPR_anarchist_council
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_END_Delegate_meeting
+            }
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SPR_logistics_naval_council = { # Anarchist
+			ledger = navy
+			
+			picture = SPR_anarchist_council
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_END_Delegate_meeting
+            }
+			
+			traits = { navy_fleet_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SPR_anti_submarine_naval_council = { # Anarchist
+			ledger = navy
+			
+			picture = SPR_anarchist_council
+			
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+                has_idea = anarchist_social
+                has_completed_focus = KOR_CNT_END_Delegate_meeting
+            }
+			
+			traits = { navy_anti_submarine_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	

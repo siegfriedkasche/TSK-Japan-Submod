@@ -1,0 +1,64 @@
+shared_focus = {
+	id = avant_kor_start
+	icon = GFX_uprising_commune
+	cost = 5
+
+	prerequisite = {
+		
+	}
+
+	offset = {
+		x = 0
+		y = 0
+		trigger = {
+			tag = KOR
+		}
+	}
+	completion_reward = {
+		set_popularities = {
+			fascism = 60
+			democratic = 0
+			neutrality = 10
+			communism = 30
+		}
+		set_cosmetic_tag = AVA_KOR
+		create_country_leader = {
+			name = "환상의 세계"
+			picture = "gfx/leaders/ANA/avant_kor_port.png"
+			expire = "1965.1.1"
+			ideology = Dystopia_system
+			traits = {
+				
+			}
+		}
+		set_politics = {
+		    ruling_party = fascism
+			last_election = "1934.12.19"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		set_party_name = {
+			ideology = communism
+			long_name = "환상의 세계"
+			name = "환상의 세계"
+		}
+		set_party_name = {
+			ideology = democratic
+			long_name = "환상의 세계"
+			name = "환상의 세계"
+		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = "환상의 세계"
+			name = "환상의 세계"
+		}
+		set_party_name = {
+			ideology = fascism
+			long_name = "환상의 세계"
+			name = "환상의 세계"
+		}
+		load_focus_tree = avant_kor
+	}
+	x = 0
+	y = 0
+}

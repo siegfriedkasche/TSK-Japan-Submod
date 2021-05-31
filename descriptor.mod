@@ -7,5 +7,6 @@ tags={
 dependencies={
 	"TIME SLIP KOREA"
 }
-name="Vive-la-espana"
+name="Anarchy: TIME SLIP KOREA (Beta.ver)"
 supported_version="1.10.5"
+remote_file_id="2502568180"

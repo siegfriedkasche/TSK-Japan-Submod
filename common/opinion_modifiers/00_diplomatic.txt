@@ -18,4 +18,17 @@ opinion_modifiers = {
 	internationale_solidarity = {
 		value = 100
 	}
+
+	non_existent_country = {
+		value = -20
+	}
+
+	crazy_community = {
+		value = -25
+	}
+
+	old_frame = {
+		value = -15
+	}
+
 }

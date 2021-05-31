@@ -1,0 +1,25 @@
+﻿l_english:
+ #카테고리
+ Union_staff:0 "공동체"
+
+ Federation_of_union:0 "노동조합연맹"
+ revolutionary_Committee:0 "혁명위원회"
+ council:0 "평의회"
+
+ industrial_union:0 "산업노동조합"
+ Construction_Union:0 "건설노동조합"
+ womens_union:0 "여성노동조합"
+ 
+ #노조
+ metal_union:0 "전국금속노동조합"
+ National_Construction_Industry_Trade_Union_Federation:0 "전국건설산업노동조합연맹"
+ National_Federation_of_Womens_Trade_Unions:0 "전국여성노동조합연맹"
+
+ #공동체
+ Construction_council:0 "동아건설평의회"
+ community_commune:0 "동아 코뮌"
+ industry_committee:0 "동아산업위원회" 
+
+ community_commune_traits:0 "공동체 코뮌"
+ Construction_council_traits:0 "건설평의회"
+ industry_committee_traits:0 "산업위원회"

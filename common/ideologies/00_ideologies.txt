@@ -173,6 +173,7 @@ ideologies = {
 			}
 
 			Dystopia_system = {
+				can_be_randomly_selected = no
 			}
 
 			national_syndicalism = {

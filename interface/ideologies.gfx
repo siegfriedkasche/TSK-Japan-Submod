@@ -103,4 +103,8 @@ spriteTypes = {
 		name = "GFX_ideology_Syndicalisme"
 		texturefile = "gfx/ideologies/Syndicalisme.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_Dystopia_system"
+		texturefile = "gfx/ideologies/Dystopia_system.png"
+	}
 } 

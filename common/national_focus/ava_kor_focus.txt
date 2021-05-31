@@ -1,0 +1,702 @@
+focus_tree = {
+	id = avant_kor
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOR
+		}
+	}
+	default = no
+	focus = {
+		id = avant_lor_start
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = ava_kor_Creation_and_transformation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = avant_lor_start
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = ava_kor_destopia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_Creation_and_transformation
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = AVA_KOR_unconscious
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_destopia
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = ava_kor_New_beauty
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_unconscious
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = AVA_KOR_dream
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_destopia
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = AVA_KOR_world_of_ideals
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_destopia
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = ava_kor_contradiction_and_conflict
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_unconscious
+		}
+		prerequisite = {
+			focus = AVA_KOR_world_of_ideals
+		}
+		prerequisite = {
+			focus = AVA_KOR_dream
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = AVA_KOR_free_ideal
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_world_of_ideals
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = ava_kor_Ideal_for_Integration
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_New_beauty
+		}
+		prerequisite = {
+			focus = AVA_KOR_free_ideal
+		}
+		prerequisite = {
+			focus = ava_kor_contradiction_and_conflict
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = AVA_KOR_non-sublime_community
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_Ideal_for_Integration
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = AVA_KOR_deconstruction
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_non-sublime_community
+		}
+		prerequisite = {
+			focus = ava_kor_destopia
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = ava_kor_destopia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_Ideal_for_Integration
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = ava_kor_destruction_of_tradition
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_world_of_ideals
+		}
+		x = 19
+		y = 7
+
+	}
+	focus = {
+		id = AVA_KOR_Postmodernization_through_two_eyes
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_destruction_of_tradition
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = AVA_KOR_step_towards_the_ideal
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = avant_lor_start
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = AVA_KOR_EASCT_ASIAIN_deconstruction
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_step_towards_the_ideal
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = AVA_KOR_False_ideals_for_imperialism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_EASCT_ASIAIN_deconstruction
+		}
+		x = 23
+		y = 5
+		completion_reward = {
+			declare_war_on = {
+				target = MAN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MEN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = JAP
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = AVA_KOR_The_rainstorm_of_creation_in_China
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_EASCT_ASIAIN_deconstruction
+		}
+		x = 27
+		y = 5
+		completion_reward = {
+			declare_war_on  = {
+    			target = CHI
+    			type = annex_everything
+			}
+			declare_war_on  = {
+    			target = GXC
+    			type = annex_everything
+			} 
+			declare_war_on  = {
+    			target = PRC
+    			type = annex_everything
+			} 
+			declare_war_on  = {
+    			target = TIB
+    			type = annex_everything
+			} 
+			declare_war_on  = {
+    			target = SIK
+    			type = annex_everything
+			} 
+			declare_war_on  = {
+    			target = XSM
+    			type = annex_everything
+			} 
+			declare_war_on  = {
+    			target = SHX
+    			type = annex_everything
+			} 
+			declare_war_on  = {
+    			target = YUN
+    			type = annex_everything
+			} 
+		}
+	}
+	focus = {
+		id = ava_kor_New_Changes_in_East_Asia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_False_ideals_for_imperialism
+		}
+		prerequisite = {
+			focus = AVA_KOR_The_rainstorm_of_creation_in_China
+		}
+		x = 26
+		y = 6
+		available = {
+			CHI = { exists = no }
+			YUN = { exists = no }
+			SHX = { exists = no }
+			GXC = { exists = no }
+			SIK = { exists = no }
+			TIB = { exists = no }
+			PRC = { exists = no }
+			XSM = { exists = no }
+			MEN = { exists = no }
+			MAN = { exists = no }
+			JAP = { exists = no }
+			has_war = no
+		}
+		completion_reward = {
+			create_country_leader = {
+				name = "환상의 세계"
+				picture = "gfx/leaders/ANA/avant_kor_port_2.png"
+				expire = "1965.1.1"
+				ideology = Dystopia_system
+				traits = {
+				
+				}
+			}
+			807 = {
+				set_state_name = "이상과 상상의 수도"
+			}
+			set_province_name = {
+    			id = 7125
+    			name = "이상과 상상의 수도"
+			}
+			hidden_effect = {
+			set_victory_points = {
+				province = 545
+				value = 20
+			}
+			set_victory_points = {
+				province = 848
+				value = 20
+			}
+			set_victory_points = {
+				province = 7125
+				value = 100
+			}
+			set_victory_points = {
+				province = 13238
+				value = 20
+			}
+			set_victory_points = {
+				province = 13239
+				value = 20
+			}
+			set_victory_points = {
+				province = 13248
+				value = 20
+			}
+			set_victory_points = {
+				province = 13251
+				value = 20
+			}
+			set_victory_points = {
+				province = 4052
+				value = 20
+			}
+			set_victory_points = {
+				province = 1003
+				value = 20
+			}
+			}
+		}
+	}
+	focus = {
+		id = AVA_KOR_East_Asian_fantasy_country
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_The_rainstorm_of_creation_in_China
+		}
+		prerequisite = {
+			focus = AVA_KOR_False_ideals_for_imperialism
+		}
+		x = 24
+		y = 6
+		available = {
+			CHI = { exists = no }
+			YUN = { exists = no }
+			SHX = { exists = no }
+			GXC = { exists = no }
+			SIK = { exists = no }
+			TIB = { exists = no }
+			PRC = { exists = no }
+			XSM = { exists = no }
+			MEN = { exists = no }
+			MAN = { exists = no }
+			JAP = { exists = no }
+			has_war = no
+		}
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = CHI
+				}
+				add_core_of = KOR
+			}
+			every_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_core_of = KOR
+			}
+			set_cosmetic_tag = EAS_MAG
+		}
+	}
+	focus = {
+		id = ava_kor_The_old_frame_that_binds_the_world_together
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_East_Asian_fantasy_country
+		}
+		prerequisite = {
+			focus = ava_kor_New_Changes_in_East_Asia
+		}
+		x = 25
+		y = 7
+		completion_reward = {
+			every_country = {
+				add_opinion_modifier = {
+    			    target = KOR
+    			    modifier = non_existent_country
+    			}
+    			add_opinion_modifier = {
+    			    target = KOR
+    			    modifier = old_frame
+    			}
+    			add_opinion_modifier = {
+    			    target = KOR
+    			    modifier = crazy_community
+    			}
+			}
+		}
+	}
+	focus = {
+		id = AVA_KOR_eternal_creation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_AVANT_GUARD
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = ava_lor_new_world
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_deconstruction
+		}
+		prerequisite = {
+			focus = AVA_KOR_Postmodernization_through_two_eyes
+		}
+		prerequisite = {
+			focus = AVA_KOR_eternal_creation
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = AVA_KOR_AVANT_GUARD
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVA_KOR_unconscious
+		}
+		x = 13
+		y = 7
+
+	}
+	focus = {
+		id = ava_kor_true_freedom
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_class_destruction
+		}
+		x = 25
+		y = 9
+		available = {
+			ITA = { exists = no }
+			GER = { exists = no }
+			has_war = no
+		}
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = GER
+				}
+				add_core_of = KOR
+			}
+			every_state = {
+				limit = {
+					is_core_of = ITA
+				}
+				add_core_of = KOR
+			}
+		}
+	}
+	focus = {
+		id = ava_kor_destruction_of_old
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_The_old_frame_that_binds_the_world_together
+		}
+		x = 27
+		y = 8
+		completion_reward = {
+			declare_war_on  = {
+				target = USA
+				type = annex_everything
+			}
+			declare_war_on  = {
+				target = FRA
+				type = annex_everything
+			}
+			declare_war_on  = {
+				target = ENG
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = ava_kor_framework_for_domination
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_The_old_frame_that_binds_the_world_together
+		}
+		x = 23
+		y = 8
+		completion_reward = {
+			declare_war_on  = {
+				target = SOV
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = ava_kor_class_destruction
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_The_old_frame_that_binds_the_world_together
+		}
+		x = 25
+		y = 8
+		completion_reward = {
+			declare_war_on  = {
+				target = GER
+				type = annex_everything
+			}
+			declare_war_on  = {
+				target = ITA
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = ava_kor_new_thinking
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_destruction_of_old
+		}
+		x = 27
+		y = 9
+		available = {
+			FRA = { exists = no }
+			USA = { exists = no }
+			ENG = { exists = no }
+			has_war = no
+		}
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = FRA
+				}
+				add_core_of = KOR
+			}
+			every_state = {
+				limit = {
+					is_core_of = ENG
+				}
+				add_core_of = KOR
+			}
+			every_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_core_of = KOR
+			}
+		}
+	}
+	focus = {
+		id = ava_kor_new_quest
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ava_kor_framework_for_domination
+		}
+		x = 23
+		y = 9
+		available = {
+			TAN = { exists = no }
+			SOV = { exists = no }
+			MON = { exists = no }
+			has_war = no
+		}
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = SOV
+				}
+				add_core_of = KOR
+			}
+			every_state = {
+				limit = {
+					is_core_of = MON
+				}
+				add_core_of = KOR
+			}
+		}
+	}
+	focus = {
+		id = ava_kor_dreamland
+		icon = GFX_goal_unknown
+		cost = 20.00
+		prerequisite = {
+			focus = ava_kor_true_freedom
+		}
+		prerequisite = {
+			focus = ava_kor_new_thinking
+		}
+		prerequisite = {
+			focus = ava_kor_new_quest
+		}
+		x = 25
+		y = 10
+		available = {
+			all_country  = { exists = yes }
+		}
+		completion_reward = {
+				set_cosmetic_tag = IDL_CAP
+				create_country_leader = {
+				    name = "이상의 지배"
+				    picture = "gfx/leaders/ANA/black.png"
+				    expire = "1965.1.1"
+				    ideology = anarchism
+				    traits = {
+				    	
+				    }
+			    }
+			hidden_effect = {
+
+				807 = {
+					set_state_name = "환상향"
+				}
+				set_province_name = {
+    				id = 7125
+    				name = "환상향"
+				}
+				every_state = {
+					add_core_of = KOR
+				}
+				set_popularities = {
+					fascism = 0
+					democratic = 0
+					neutrality = 100
+					communism = 0
+				}
+				set_politics = {
+					ruling_party = neutrality
+					last_election = "1934.12.19"
+					election_frequency = 60
+					elections_allowed = no
+				}
+				set_party_name = {
+					ideology = communism
+					long_name = "이상의 지배"
+					name = "환상의 세계"
+				}
+				set_party_name = {
+					ideology = democratic
+					long_name = "이상의 지배"
+					name = "환상의 세계"
+				}
+				set_party_name = {
+					ideology = neutrality
+					long_name = "이상의 지배"
+					name = "환상의 세계"
+				}
+				set_party_name = {
+					ideology = fascism
+					long_name = "이상의 지배"
+					name = "환상의 세계"
+				}	
+			}
+		}
+	}
+}
