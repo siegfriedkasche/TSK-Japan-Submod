@@ -194,7 +194,9 @@ focus_tree = {
 		}
 		x = 25
 		y = 3
-
+		completion_reward = {
+			add_ideas = deconstruction_ideas
+		}
 	}
 	focus = {
 		id = AVA_KOR_EASCT_ASIAIN_deconstruction
@@ -205,7 +207,7 @@ focus_tree = {
 		}
 		x = 25
 		y = 4
-
+		
 	}
 	focus = {
 		id = AVA_KOR_False_ideals_for_imperialism
@@ -639,7 +641,7 @@ focus_tree = {
 		x = 25
 		y = 10
 		available = {
-			all_country  = { exists = yes }
+			all_country = { exists = yes }
 		}
 		completion_reward = {
 				set_cosmetic_tag = IDL_CAP
@@ -655,7 +657,7 @@ focus_tree = {
 			hidden_effect = {
 
 				807 = {
-					set_state_name = "환상향"
+					set_state_name = "정신의 수도 환상향"
 				}
 				set_province_name = {
     				id = 7125
@@ -679,22 +681,22 @@ focus_tree = {
 				set_party_name = {
 					ideology = communism
 					long_name = "이상의 지배"
-					name = "환상의 세계"
+					name = "이상의 지배"
 				}
 				set_party_name = {
 					ideology = democratic
 					long_name = "이상의 지배"
-					name = "환상의 세계"
+					name = "이상의 지배"
 				}
 				set_party_name = {
 					ideology = neutrality
 					long_name = "이상의 지배"
-					name = "환상의 세계"
+					name = "이상의 지배"
 				}
 				set_party_name = {
 					ideology = fascism
 					long_name = "이상의 지배"
-					name = "환상의 세계"
+					name = "이상의 지배"
 				}	
 			}
 		}
