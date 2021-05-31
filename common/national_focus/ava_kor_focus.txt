@@ -14,7 +14,23 @@ focus_tree = {
 		cost = 10.00
 		x = 16
 		y = 2
-
+		completion_reward = {
+			remove_ideas = KOR_no_communism_crusader 
+			remove_ideas = kor_law_of_korean_5  
+			remove_ideas = KOR_danilminjok  
+			remove_ideas = KOR_legacy_of_518  
+			remove_ideas = KOR_kowareta_katana   
+			remove_ideas = KOR_hirohito 
+			remove_ideas = KOR_world_attack
+			remove_ideas = KOR_not_politic_act_2  
+			remove_ideas = KOR_not_politic_act  
+			remove_ideas = KOR_intelligence_agency_kor
+			remove_ideas = kOR_weak_anti_nationalist
+			remove_ideas = KOR_economic_collapse_3
+			remove_ideas = KOR_economic_collapse_2
+			remove_ideas = KOR_economic_collapse
+			remove_ideas = hell_joseon
+		}
 	}
 	focus = {
 		id = ava_kor_Creation_and_transformation
