@@ -15,21 +15,8 @@ focus_tree = {
 		x = 16
 		y = 2
 		completion_reward = {
-			remove_ideas = KOR_no_communism_crusader 
-			remove_ideas = kor_law_of_korean_5  
-			remove_ideas = KOR_danilminjok  
-			remove_ideas = KOR_legacy_of_518  
-			remove_ideas = KOR_kowareta_katana   
-			remove_ideas = KOR_hirohito 
-			remove_ideas = KOR_world_attack
-			remove_ideas = KOR_not_politic_act_2  
-			remove_ideas = KOR_not_politic_act  
-			remove_ideas = KOR_intelligence_agency_kor
-			remove_ideas = kOR_weak_anti_nationalist
-			remove_ideas = KOR_economic_collapse_3
-			remove_ideas = KOR_economic_collapse_2
-			remove_ideas = KOR_economic_collapse
-			remove_ideas = hell_joseon
+			add_ideas = avant_economy
+			add_ideas = Sacrifice_for_the_cause
 		}
 	}
 	focus = {
@@ -41,7 +28,9 @@ focus_tree = {
 		}
 		x = 16
 		y = 3
-
+		completion_reward = {
+			unlock_decision_category_tooltip = reform_kor_anant
+		}
 	}
 	focus = {
 		id = ava_kor_destopia
@@ -52,7 +41,11 @@ focus_tree = {
 		}
 		x = 16
 		y = 4
-
+		completion_reward = {
+			country_event = {
+				id = ava.1
+			}
+		}
 	}
 	focus = {
 		id = AVA_KOR_unconscious
@@ -63,7 +56,11 @@ focus_tree = {
 		}
 		x = 13
 		y = 5
-
+		completion_reward = {
+			country_event = {
+				id = ava.2
+			}
+		}
 	}
 	focus = {
 		id = ava_kor_New_beauty
@@ -74,7 +71,9 @@ focus_tree = {
 		}
 		x = 14
 		y = 6
-
+		completion_reward = {
+			add_ideas = NEW_BEAUTY_IDEAS
+		}
 	}
 	focus = {
 		id = AVA_KOR_dream
@@ -85,7 +84,11 @@ focus_tree = {
 		}
 		x = 16
 		y = 5
-
+		completion_reward = {
+			country_event = {
+				id = ava.3
+			}
+		}
 	}
 	focus = {
 		id = AVA_KOR_world_of_ideals
@@ -96,7 +99,11 @@ focus_tree = {
 		}
 		x = 19
 		y = 5
-
+		completion_reward = {
+			country_event = {
+				id = ava.4
+			}
+		}
 	}
 	focus = {
 		id = ava_kor_contradiction_and_conflict
@@ -113,7 +120,9 @@ focus_tree = {
 		}
 		x = 16
 		y = 6
-
+		completion_reward = {
+			unlock_decision_tooltip = reform_kor_anant_5
+		}
 	}
 	focus = {
 		id = AVA_KOR_free_ideal
@@ -124,7 +133,9 @@ focus_tree = {
 		}
 		x = 18
 		y = 6
-
+		completion_reward = {
+			add_ideas = free_IDEAS_ideas
+		}
 	}
 	focus = {
 		id = ava_kor_Ideal_for_Integration
@@ -162,14 +173,14 @@ focus_tree = {
 			focus = AVA_KOR_non-sublime_community
 		}
 		prerequisite = {
-			focus = ava_kor_destopia
+			focus = ava_kor_destopia_world
 		}
 		x = 16
 		y = 9
 
 	}
 	focus = {
-		id = ava_kor_destopia
+		id = ava_kor_destopia_world
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -223,7 +234,11 @@ focus_tree = {
 		}
 		x = 25
 		y = 4
-		
+		completion_reward = {
+			country_event = {
+				id =  ava.5
+			}
+		}
 	}
 	focus = {
 		id = AVA_KOR_False_ideals_for_imperialism
@@ -422,6 +437,9 @@ focus_tree = {
 		id = ava_kor_The_old_frame_that_binds_the_world_together
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+			has_completed_focus = ava_kor_Ideal_for_Integration
+		}
 		prerequisite = {
 			focus = AVA_KOR_East_Asian_fantasy_country
 		}
@@ -431,19 +449,8 @@ focus_tree = {
 		x = 25
 		y = 7
 		completion_reward = {
-			every_country = {
-				add_opinion_modifier = {
-    			    target = KOR
-    			    modifier = non_existent_country
-    			}
-    			add_opinion_modifier = {
-    			    target = KOR
-    			    modifier = old_frame
-    			}
-    			add_opinion_modifier = {
-    			    target = KOR
-    			    modifier = crazy_community
-    			}
+			country_event = {
+				id = ava.6
 			}
 		}
 	}
@@ -522,6 +529,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ava_kor_The_old_frame_that_binds_the_world_together
 		}
+		
 		x = 27
 		y = 8
 		completion_reward = {
@@ -657,63 +665,11 @@ focus_tree = {
 		x = 25
 		y = 10
 		available = {
-			all_country = { exists = yes }
+			all_country = { exists = no }
 		}
 		completion_reward = {
-				set_cosmetic_tag = IDL_CAP
-				create_country_leader = {
-				    name = "이상의 지배"
-				    picture = "gfx/leaders/ANA/black.png"
-				    expire = "1965.1.1"
-				    ideology = anarchism
-				    traits = {
-				    	
-				    }
-			    }
-			hidden_effect = {
-
-				807 = {
-					set_state_name = "정신의 수도 환상향"
-				}
-				set_province_name = {
-    				id = 7125
-    				name = "환상향"
-				}
-				every_state = {
-					add_core_of = KOR
-				}
-				set_popularities = {
-					fascism = 0
-					democratic = 0
-					neutrality = 100
-					communism = 0
-				}
-				set_politics = {
-					ruling_party = neutrality
-					last_election = "1934.12.19"
-					election_frequency = 60
-					elections_allowed = no
-				}
-				set_party_name = {
-					ideology = communism
-					long_name = "이상의 지배"
-					name = "이상의 지배"
-				}
-				set_party_name = {
-					ideology = democratic
-					long_name = "이상의 지배"
-					name = "이상의 지배"
-				}
-				set_party_name = {
-					ideology = neutrality
-					long_name = "이상의 지배"
-					name = "이상의 지배"
-				}
-				set_party_name = {
-					ideology = fascism
-					long_name = "이상의 지배"
-					name = "이상의 지배"
-				}	
+			country_event = {
+				id = ava.7
 			}
 		}
 	}

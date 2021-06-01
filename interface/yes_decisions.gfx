@@ -5,6 +5,10 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_decision_fifth_international"
-		texturefile = "gfx/interface/decisions/fifth_international _decision.png"
+		texturefile = "gfx/interface/decisions/fifth_international_decision.png"
+	}
+	spriteType = {
+		name = "GFX_decision_reform_kor_anant"
+		texturefile = "gfx/interface/decisions/reform_kor_anant.png"
 	}
 }

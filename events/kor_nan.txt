@@ -18,8 +18,9 @@ country_event = {
 			news_event = {
 				id = Ana_news.1
 			}
-			add_ideas = Unstable_commune
+			
 		}
+		
 	}
 }
 
@@ -239,7 +240,7 @@ country_event = {
 					type = annex_everything
 			    }
 				country_event = {
-					id = kornan.7.1
+					id = KORnan.100
 					days = 1
 				}
 			}
@@ -357,15 +358,15 @@ country_event = {
 	}
 } 
 country_event = {
-	id = kornan.7.1 #흑군
-	title = kornan.7.1.t
-	desc = kornan.7.1.d
+	id = KORnan.100 #흑군
+	title = KORnan.100.t
+	desc = KORnan.100.d
 	picture = GFX_우크리흑군
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
-		name = kornan.7.1.a
+		name = KORnan.100.a
 		ai_chance = {
 		    factor = 50
 		}

@@ -22,3 +22,123 @@ ideas = {
             }
         }
     }
+	country = {#새로운 미
+
+        NEW_BEAUTY_IDEAS = { #국민정신 id
+
+            allowed = {
+                original_tag = KOR 
+            }
+
+            allowed_civil_war = {
+                always = yes #내전이 나도 상대 반란군에도 적용할지여부
+            }
+
+            picture = NEW_BEAUTY
+
+            removal_cost = -1 #삭제될때 필요한 정치력 (무조건-1)
+            
+            modifier = { #효과
+                production_factory_efficiency_gain_factor = 0.1
+				research_speed_factor = 0.15
+
+            }
+        }
+    }
+
+	country = {#자유로운 이상
+
+        free_IDEAS_ideas = { #국민정신 id
+
+            allowed = {
+                original_tag = KOR 
+            }
+
+            allowed_civil_war = {
+                always = yes #내전이 나도 상대 반란군에도 적용할지여부
+            }
+
+            picture = free_IDEAS
+
+            removal_cost = -1 #삭제될때 필요한 정치력 (무조건-1)
+            
+            modifier = { #효과
+                political_power_cost = -0.05
+				research_speed_factor = 0.1
+
+            }
+        }
+    }
+
+    economy = { 
+		law = yes
+		use_list_view = yes
+		
+		avant_economy = {
+			
+			
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		
+			modifier = {
+				resistance_target = -1
+				consumer_goods_factor = 0.25
+				industry_free_repair_factor = 0.2
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+				research_speed_factor = 0.4
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			picture = avant_economy
+			
+			#allowed_to_remove = {
+			#	OR = {
+			#		has_war_support > 0.5
+			#		has_war = yes
+			#		has_completed_focus = USA_limited_intervention
+			#	}
+			#}
+			
+			cancel_if_invalid = no
+		}
+    }
+
+    mobilization_laws = { 
+		law = yes
+		use_list_view = yes
+		
+		Sacrifice_for_the_cause = {
+						
+			allowed = {
+				always = no
+				NOT = {
+					has_ideas = anarchist_social
+				}
+			}
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			picture = Sacrifice_for_the_cause
+
+			modifier = {
+				conscription = 0.15
+                production_factory_efficiency_gain_factor = -0.2
+				production_factory_max_efficiency_factor = -0.2
+			}
+			
+			cancel_if_invalid =  no
+		}
+	}

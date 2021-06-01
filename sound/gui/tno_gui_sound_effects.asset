@@ -12,6 +12,13 @@ soundeffect = {
 	}
 	volume = 70
 }
+soundeffect = {
+	name = dreamland
+	sounds = {
+		sound = dreamland
+	}
+	volume = 70
+}
 
 #철의 노동자
 soundeffect = {

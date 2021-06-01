@@ -9,7 +9,11 @@ sound = {
 	file = "menu/great_public_war.wav"
 	always_load = no
 }
-
+sound = {
+	name = "dreamland"
+	file = "menu/dreamland.wav"
+	always_load = no
+}
 sound = {
 	name = "iron_worker"
 	file = "menu/iron_worker.wav"

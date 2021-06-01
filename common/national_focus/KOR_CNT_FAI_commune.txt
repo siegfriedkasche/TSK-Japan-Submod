@@ -16,6 +16,7 @@ focus_tree = {
 		y = 1
 			completion_reward = {
 					custom_effect_tooltip = ended_CNT_END_Delegate_meeting
+					add_ideas = Unstable_commune
 				}
 
 	}

@@ -34,5 +34,40 @@ spriteTypes = {
 		name = "GFX_거대단일노조이벤트"
 		texturefile = "gfx/event_pictures/거대단일노조이벤트.png"
 	}
-	
+	spriteType = {
+		name = "GFX_ava_kor_destopia_event"
+		texturefile = "gfx/event_pictures/ava_kor_destopia.png"
+	}
+	spriteType = {
+		name = "GFX_AVA_KOR_unconscious_event"
+		texturefile = "gfx/event_pictures/ava_kor_destopia.png"
+	}
+	spriteType = {
+		name = "GFX_AVA_KOR_dream_event"
+		texturefile = "gfx/event_pictures/AVA_KOR_dream_event.png"
+	}
+	spriteType = {
+		name = "GFX_AVA_KOR_world_of_ideals_event"
+		texturefile = "gfx/event_pictures/AVA_KOR_world_of_ideals_event.png"
+	}
+	spriteType = {
+		name = "GFX_free_asian_event"
+		texturefile = "gfx/event_pictures/free_asian_event.png"
+	}
+	spriteType = {
+		name = "GFX_ava_kor_The_old_frame_that_binds_the_world_together_event"
+		texturefile = "gfx/event_pictures/ava_kor_The_old_frame_that_binds_the_world_together_event.png"
+	}
+	spriteType = {
+		name = "GFX_free_ava_kor_event"
+		texturefile = "gfx/event_pictures/GFX_free_ava_kor_event.png"
+	}
+	spriteType = {
+		name = "GFX_reform_kor_anant_5_event"
+		texturefile = "gfx/event_pictures/GFX_reform_kor_anant_5_event.png"
+	}
+	spriteType = {
+		name = "GFX_reform_kor_anant_7_event"
+		texturefile = "gfx/event_pictures/GFX_reform_kor_anant_7_event.png"
+	}
 }

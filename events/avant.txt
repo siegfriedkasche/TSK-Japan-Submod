@@ -1,0 +1,208 @@
+add_namespace = ava
+
+country_event = {
+	id = ava.1 #착취의 끝
+	title = ava.1.t
+	desc = ava.1.d
+	picture = GFX_ava_kor_destopia_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ava.1.a
+		ai_chance = {
+		    factor = 100
+		}
+		add_stability = 0.15
+	}
+}
+country_event = {
+	id = ava.2 #무의식
+	title = ava.2.t
+	desc = ava.2.d
+	picture = GFX_AVA_KOR_unconscious_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ava.2.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = ava.3 #꿈
+	title = ava.3.t
+	desc = ava.3.d
+	picture = GFX_AVA_KOR_dream_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ava.3.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = ava.4 #이상의 세계
+	title = ava.4.t
+	desc = ava.4.d
+	picture = GFX_AVA_KOR_world_of_ideals_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ava.4.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = ava.5 #아시아 해방기
+	title = ava.5.t
+	desc = ava.5.d
+	picture = GFX_free_asian_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ava.5.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = ava.6 #아시아 해방기
+	title = ava.6.t
+	desc = ava.6.d
+	picture = GFX_ava_kor_The_old_frame_that_binds_the_world_together_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ava.6.a
+		ai_chance = {
+		    factor = 100
+		}
+		every_country = {
+			add_opinion_modifier = {
+    		    target = KOR
+    		    modifier = non_existent_country
+    		}
+    		add_opinion_modifier = {
+    		    target = KOR
+    		    modifier = old_frame
+    		}
+    		add_opinion_modifier = {
+    		    target = KOR
+    		    modifier = crazy_community
+    		}
+		}
+	}
+}
+country_event = {
+	id = ava.7 #계몽
+	title = ava.7.t
+	desc = ava.7.d
+	picture = GFX_free_ava_kor_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ava.7.a
+		ai_chance = {
+		    factor = 100
+		}
+			set_cosmetic_tag = IDL_CAP
+				create_country_leader = {
+				    name = "이상의 지배"
+				    picture = "gfx/leaders/ANA/black.png"
+				    expire = "1965.1.1"
+				    ideology = anarchism
+				    traits = {
+				    	
+				    }
+			    }
+			hidden_effect = {
+
+				807 = {
+					set_state_name = "정신의 수도 환상향"
+				}
+				set_province_name = {
+    				id = 7125
+    				name = "환상향"
+				}
+				every_state = {
+					add_core_of = KOR
+				}
+				set_popularities = {
+					fascism = 0
+					democratic = 0
+					neutrality = 100
+					communism = 0
+				}
+				set_politics = {
+					ruling_party = neutrality
+					last_election = "1934.12.19"
+					election_frequency = 60
+					elections_allowed = no
+				}
+				set_party_name = {
+					ideology = communism
+					long_name = "이상의 지배"
+					name = "이상의 지배"
+				}
+				set_party_name = {
+					ideology = democratic
+					long_name = "이상의 지배"
+					name = "이상의 지배"
+				}
+				set_party_name = {
+					ideology = neutrality
+					long_name = "이상의 지배"
+					name = "이상의 지배"
+				}
+				set_party_name = {
+					ideology = fascism
+					long_name = "이상의 지배"
+					name = "이상의 지배"
+				}
+				set_country_flag = big_event_dreamland	
+			}
+	}
+}
+country_event = {
+	id = ava.8 #이상의 한계
+	title = ava.8.t
+	desc = ava.8.d
+	picture = GFX_reform_kor_anant_5_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ava.8.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = ava.9 #이상의 한계
+	title = ava.9.t
+	desc = ava.9.d
+	picture = GFX_reform_kor_anant_7_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ava.9.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
