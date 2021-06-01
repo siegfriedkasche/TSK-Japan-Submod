@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_MJP_commune"
+		texturefile = "gfx/interface/goals/MJP_commune.png"
+		legacy_lazy_load = no 
+	}
+	
+}

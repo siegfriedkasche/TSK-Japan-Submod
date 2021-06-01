@@ -56,6 +56,7 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
+		
 		name = MJP.3.a
 		ai_chance = {
 		    factor = 100
@@ -65,75 +66,24 @@ country_event = {
 }
 
 country_event = {
-	
-	id = MJP.7 
-	title = MJP.7.t
-	desc = MJP.7.d
-	picture = GFX_report_event_chamberlain_announce
+
+	id = MJP.4
+	title = MJP.4.t
+	deac = MJP.4.d
+	picture = GFX_ 
 	is_triggered_only = yes
 	fire_only_once = yes
-	
-		
-	option = {
-		name = MJP.7.a
-		ai_chance = {
-		    factor = 1
-		}
-		set_country_flag = MJP_has_election
-		complete_national_focus = Constitution
-		
-	}
-	
-	option = {
-		name = MJP.7.b
-		ai_chance = {
-		    factor = 0
-		}
-		set_country_flag = MJP_has_election
-		complete_national_focus = Liberal_Democratic_Party
-	}	
-	option = {
-		name = MJP.7.c
-		ai_chance = {
-		    factor = 0
-		}
-		set_country_flag = MJP_has_election
-		complete_national_focus =  Non_alliance
-	}	
-	option = {
-		name = MJP.7.e
-		ai_chance = {
-		    factor = 0
-		}
-		set_country_flag = MJP_has_election
-		complete_national_focus = Communism
 
-		hidden_effect = {
-			country_event = {
-			id = MJP.7
-			days = 0
+	option = {
+		name = MJP.4.a
+		ai_chance = {
+			factor = 25
 		}
-	}
-	}	
-}
-country_event = {
-    id = MJP.4
-    title = MJP.4.t
-    desc = MJP.4.d
-    picture = GFX
-    is_triggered_only = yes
-    fire_only_once = yes
-
-    option = {
-        name = MJP.4.a
-        ai_chance = {
-            factor = 25
-        }
-        hidden_effect = {   #자민
+		hidden_effect = {   #자민
             complete_national_focus = Liberal_Democratic_Party
         }
-    }
-    option = {  #공산
+	}
+	option = {  #공산
         name = MJP.4.b
         ai_chance = {
             factor = 25
@@ -160,25 +110,83 @@ country_event = {
             complete_national_focus = Constitution
         }
     }
+	
 }
-country_event = { #정보수집
-    
-	id = MJP.6
-	title = MJP.6.t
-	desc = MJP.6.d
+
+country_event = { 
+
+	id = MJP.5
+	title = MJP.5.t
+	desc = MJP.5.d
 	picture = GFX_
-
-	fire_only_once = yes
-
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
-		name = MJP.6.a
-    }
+		name = MJP.5.a
+		ai_chance = {
+		    factor = 100
+		}
 	hidden_effect = {
 			country_event = {
-			id = MJP.6
+			id = MJP.5
 			days = 0
-		}
-	}	
+		    }
+	    }	
+    }
+}
+country_event = {
+
+    id = MJP.6
+    title = MJP.6.t
+    desc = MJP.6.d
+    picture = GFX_
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = MJP.6.b
+        ai_chance = {
+            factor = 25
+        }
+        hidden_effect = {   #자민
+            complete_national_focus = Liberal_Democratic_Party
+        }
+    }
+    option = {  #공산
+        name = MJP.6.e
+        ai_chance = {
+            factor = 25
+        }
+        hidden_effect = {
+            complete_national_focus = Communism
+        }
+    }
+    option = {   #비동맹?
+        name = MJP.6.a
+        ai_chance = {
+            factor = 25
+        }
+        hidden_effect = {
+            complete_national_focus = Constitution
+        }
+    }
+	option = {   #비동맹?
+        name = MJP.6.c
+        ai_chance = {
+            factor = 25
+        }
+        hidden_effect = {
+            complete_national_focus = Non_alliance
+        }
+    }
+    option = {   #헌법?
+        name = MJP.4.f
+        ai_chance = {
+            factor = 25
+        }
+        hidden_effect = {
+            complete_national_focus = Constitution
+        }
+    }
 }
