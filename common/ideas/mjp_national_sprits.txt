@@ -433,6 +433,24 @@ ideas = {
             }
         }
     }
+country = {
+    MJP_has_election = { 
+
+            allowed = {
+                original_tag = MJP
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture =  #아이콘
+
+            removal_cost = -1
+            
+            modifier = { #효과	
+            
+}
 
     country = {
 
