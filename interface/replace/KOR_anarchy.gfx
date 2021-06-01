@@ -70,4 +70,12 @@ spriteTypes = {
 		name = "GFX_reform_kor_anant_7_event"
 		texturefile = "gfx/event_pictures/GFX_reform_kor_anant_7_event.png"
 	}
+	spriteType = {
+		name = "GFX_ava_kor_Ideal_for_Integration_event"
+		texturefile = "gfx/event_pictures/GFX_ava_kor_Ideal_for_Integration_event.png"
+	}
+	spriteType = {
+		name = "GFX_AVA_KOR_eternal_creation_event"
+		texturefile = "gfx/event_pictures/GFX_AVA_KOR_eternal_creation_event.png"
+	}
 }
