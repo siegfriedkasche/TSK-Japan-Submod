@@ -25,10 +25,19 @@ if = {
 }
 
 set_technology = {
-            m_1960_infantry_eq = 1
+    m_19
+    m_1960_infantry_eq = 1
 	m_1970_infantry_eq = 1
 	m_1980_infantry_eq = 1
 	m_1990_infantry_eq = 1
+	m_1950_modern_tank = 1
+	m_1960_modern_tank = 1
+	m_1970_modern_tank = 1
+	m_1980_modern_tank = 1
+	m_1990_modern_tank = 1
+	m_1960_modern_tank = 1
+	m_2000_modern_tank = 1
+	m_2010_modern_tank = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1		
