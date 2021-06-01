@@ -5,7 +5,7 @@ tags={
 	"Fixes"
 }
 dependencies={
-	"TIME SLIP KOREA"
+	"TIME SLIP KOREA (BETA VER.)"
 }
 name="Anarchy: TIME SLIP KOREA (Beta.ver)"
 supported_version="1.10.5"
