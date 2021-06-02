@@ -295,6 +295,12 @@ focus_tree = {
 				}
 			completion_reward = {
 					add_ideas = beraking_home
+					hidden_effect = {
+							country_event = {
+									id = MJP.3
+									days = 2
+								}
+						}
 				}
 
 	}
@@ -610,11 +616,11 @@ focus_tree = {
 		completion_reward = {
 			hidden_effect = {
 							country_event = {
-									id = MJP.6
+									id = MJP.5
 									days = 0
 								}
 						}
-			country_event = { id = MJP.6 }
+			country_event = { id = MJP.5}
 		}
 	}
 	focus = {
@@ -629,15 +635,7 @@ focus_tree = {
 		}
 		x = 21
 		y = 7
-		completion_reward = {
-			hidden_effect = {
-							country_event = {
-									id = MJP.7
-									days = 0
-								}
-						}
-			country_event = { id = MJP.7 }
-		}
+		
 	}
 	focus = {
 		id = Liberal_Democratic_Party
@@ -1590,8 +1588,16 @@ focus_tree = {
 		}
 		x = 21
 		y = 7
-
-	}
+        completion_reward = {
+	    add_ideas = MJP_has_election
+		hidden_effect = {
+			country_event = {
+				id = MJP.6
+				days = 0
+		   }
+		}
+	}					
+}
 	focus = {
 		id = Liberal_Democratic_Party
 		icon = GFX_goal_unknown
@@ -1793,7 +1799,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Communism
-		icon = GFX_goal_unknown
+		icon = GFX_MJP_commune
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Election
