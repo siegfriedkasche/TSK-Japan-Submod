@@ -41,12 +41,14 @@ country_event = {
 		}
 		add_ideas = MJP_Popped_bubble
 		hidden_effect = {
-			country_event = [
+			country_event = {
 				id = MJP.3
-			]
+			}
+
 		}
 	}
 }
+
 country_event = {
 	id = MJP.3
 	title = MJP.3.t
@@ -56,12 +58,11 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		
 		name = MJP.3.a
 		ai_chance = {
 		    factor = 100
 		}
-		complete_national_focus = newfocus_14	
+		complete_national_focus = newfocus_14
 	}
 }
 
@@ -127,12 +128,11 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 		}
-	hidden_effect = {
+		hidden_effect = {
 			country_event = {
-			id = MJP.5
-			days = 0
+				id = MJP.5
 		    }
-	    }	
+	    }
     }
 }
 country_event = {
