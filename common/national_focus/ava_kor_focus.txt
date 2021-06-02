@@ -883,17 +883,6 @@ focus_tree = {
 		id = ava_kor_dreamland
 		icon = GFX_goal_unknown
 		cost = 20.00
-		prerequisite = {
-			focus = ava_kor_true_freedom
-		}
-		prerequisite = {
-			focus = ava_kor_new_thinking
-		}
-		prerequisite = {
-			focus = ava_kor_new_quest
-		}
-		x = 25
-		y = 10
 		available = {
 			GER = {
 				exists = no
@@ -914,6 +903,18 @@ focus_tree = {
 				exists = no
 			}
 		}
+		prerequisite = {
+			focus = ava_kor_true_freedom
+		}
+		prerequisite = {
+			focus = ava_kor_new_thinking
+		}
+		prerequisite = {
+			focus = ava_kor_new_quest
+		}
+		x = 25
+		y = 10
+		
 		completion_reward = {
 			country_event = {
 				id = ava.7
