@@ -173,6 +173,16 @@ country_event = {
 					name = "이상의 지배"
 				}
 				set_country_flag = big_event_dreamland	
+				KOR = { 
+					delete_unit = { 
+						state = every_state
+						disband = yes
+					}
+					set_rule = {
+    					can_not_declare_war = yes
+					}
+					country_lock_all_division_template = yes
+				}
 			}
 	}
 }
