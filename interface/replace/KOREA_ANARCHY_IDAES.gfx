@@ -92,4 +92,20 @@ spriteTypes = {
 		name = "GFX_idea_free_IDEAS"
 		texturefile = "gfx/interface/ideas/free_IDEAS.png"
 	}
+	spriteType = {
+		name = "GFX_idea_destruction_of_tradition_idea"
+		texturefile = "gfx/interface/ideas/destruction_of_tradition_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_avant_garde_ideas"
+		texturefile = "gfx/interface/ideas/avant_garde_ideas.png"
+	}
+	spriteType = {
+		name = "GFX_idea_sublime_community_ideas"
+		texturefile = "gfx/interface/ideas/sublime_community_ideas.png"
+	}
+	spriteType = {
+		name = "GFX_idea_happy_imgine"
+		texturefile = "gfx/interface/ideas/happy_imgine.png"
+	}
 }

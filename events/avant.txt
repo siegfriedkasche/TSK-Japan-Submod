@@ -251,3 +251,33 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = ava.13 #이상의 한계
+	title = ava.13.t
+	desc = ava.13.d
+	picture = GFX_AVA_KOR_deconstruction_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ava.13.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = ava.14 #새로운 세계
+	title = ava.14.t
+	desc = ava.14.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ava.14.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}

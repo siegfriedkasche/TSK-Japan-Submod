@@ -167,7 +167,9 @@ focus_tree = {
 		}
 		x = 15
 		y = 8
-
+		completion_reward = {
+			add_ideas = sublime_community_ideas
+		}
 	}
 	focus = {
 		id = AVA_KOR_deconstruction
@@ -181,7 +183,11 @@ focus_tree = {
 		}
 		x = 16
 		y = 9
-
+		completion_reward = {
+			country_event = {
+				id = ava.13
+			}
+		}
 	}
 	focus = {
 		id = ava_kor_destopia_world
@@ -192,7 +198,9 @@ focus_tree = {
 		}
 		x = 17
 		y = 8
-
+		completion_reward = {
+			add_ideas = happy_imgine
+		}
 	}
 	focus = {
 		id = ava_kor_destruction_of_tradition
@@ -203,12 +211,213 @@ focus_tree = {
 		}
 		x = 19
 		y = 7
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = destruction_of_tradition_idea
+				days = 100
+			}
+			custom_effect_tooltip = destruction_of_tradition_tooltip
+			SOV = {
+				andom_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+			}
+			GER = {
+				andom_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+			}
+			USA = {
+				andom_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+			}
+			ENG = {
+				andom_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+			}
+			FRA = {
+				andom_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+				random_owned_state = {
+					damage_building = {
+    				    type = industrial_complex
+    				    damage = 15
+    				}
+				}
+			}
+		}
 	}
 	focus = {
 		id = AVA_KOR_Postmodernization_through_two_eyes
 		icon = GFX_goal_unknown
 		cost = 4.00
+		available = {
+			NOT = {
+			    has_ideas = destruction_of_tradition_idea
+			}
+		}
 		prerequisite = {
 			focus = ava_kor_destruction_of_tradition
 		}
@@ -481,6 +690,9 @@ focus_tree = {
 		id = ava_lor_new_world
 		icon = GFX_goal_unknown
 		cost = 4.00
+		available = {
+			has_completed_focus = ava_kor_dreamland
+		}
 		prerequisite = {
 			focus = AVA_KOR_deconstruction
 		}
@@ -492,7 +704,11 @@ focus_tree = {
 		}
 		x = 16
 		y = 10
-
+		completion_reward = {
+			country_event = {
+				id = ava.14
+			}
+		}
 	}
 	focus = {
 		id = AVA_KOR_AVANT_GUARD
@@ -503,7 +719,9 @@ focus_tree = {
 		}
 		x = 13
 		y = 7
-
+		completion_reward = {
+			add_ideas = avant_garde_idea
+		}
 	}
 	focus = {
 		id = ava_kor_true_freedom

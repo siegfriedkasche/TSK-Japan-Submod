@@ -22,6 +22,56 @@ ideas = {
             }
         }
     }
+	country = {#문화재 파괴 운동
+
+        destruction_of_tradition_idea = { #국민정신 id
+
+            allowed = {
+                original_tag = KOR 
+            }
+
+            allowed_civil_war = {
+                always = yes #내전이 나도 상대 반란군에도 적용할지여부
+            }
+
+            picture = destruction_of_tradition_idea
+
+            removal_cost = -1 #삭제될때 필요한 정치력 (무조건-1)
+            
+            modifier = { #효과
+                stability_factor = -0.1
+				production_speed_arms_factory_factor = -0.15
+				production_speed_industrial_complex_factor = -0.15
+            }
+        }
+    }
+	country = {#전위대
+
+        avant_garde_idea = { #국민정신 id
+
+            allowed = {
+                original_tag = KOR 
+            }
+
+            allowed_civil_war = {
+                always = yes #내전이 나도 상대 반란군에도 적용할지여부
+            }
+
+            picture = avant_garde_ideas
+
+            removal_cost = -1 #삭제될때 필요한 정치력 (무조건-1)
+            
+            modifier = { 	#효과
+			    war_stability_factor = 0.1
+				stability_factor = -0.05
+				political_power_factor = -0.15
+				army_defence_factor	= 0.2
+                army_attack_factor = 0.20
+				army_speed_factor = 0.20
+				
+            }
+        }
+    }
 	country = {#새로운 미
 
         NEW_BEAUTY_IDEAS = { #국민정신 id
@@ -41,11 +91,55 @@ ideas = {
             modifier = { #효과
                 production_factory_efficiency_gain_factor = 0.1
 				research_speed_factor = 0.15
-
             }
         }
     }
+	country = {#
 
+        sublime_community_ideas = { #국민정신 id
+
+            allowed = {
+                original_tag = KOR 
+            }
+
+            allowed_civil_war = {
+                always = yes 
+            }
+
+            picture = sublime_community_ideas
+
+            removal_cost = -1 #삭제될때 필요한 정치력 (무조건-1)
+            
+            modifier = { #효과
+                army_attack_factor = 0.1
+				monthly_population = -0.1
+				research_speed_factor = 0.10
+            }
+        }
+    }
+	country = {#행복한 상상
+
+        happy_imgine = { #국민정신 id
+
+            allowed = {
+                original_tag = KOR 
+            }
+
+            allowed_civil_war = {
+                always = yes 
+            }
+
+            picture = happy_imgine
+
+            removal_cost = -1 #삭제될때 필요한 정치력 (무조건-1)
+            
+            modifier = { #효과
+				monthly_population = -0.05
+				stability_factor = 0.1
+				production_factory_max_efficiency_factor = 0.15
+            }
+        }
+    }
 	country = {#자유로운 이상
 
         free_IDEAS_ideas = { #국민정신 id
