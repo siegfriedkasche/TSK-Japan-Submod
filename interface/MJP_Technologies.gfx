@@ -116,20 +116,28 @@ spriteTypes = {
  
 	SpriteType = {
 		name = "GFX_MJP_modern_artillery_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/art/MJP_modern_war_artillery.dds"
+		texturefile = "gfx/interface/technologies/art/MJP_modern_war_artillery_1.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_modern_artillery_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/art/MJP_modern_war_artillery_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MJP_modern_artillery_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/art/MJP_modern_war_artillery_3.png"
 	}
 	
  ################################################################################
  ######MLRS
  ################################################################################
  
+    SpriteType = {
+		name = "GFX_MJP_m_1970_mlrs_equipment_medium"
+		texturefile = "gfx/interface/technologies/art/MJP_1970_mlrs.png"
+	} 
 	SpriteType = {
 		name = "GFX_MJP_m_1980_mlrs_equipment_medium"
-		texturefile = "gfx/interface/technologies/art/MJP_1980_mlrs.png"
+		texturefile = "gfx/interface/technologies/art/MJP_1990_mlrs.png"
 	}
 	
  ################################################################################
@@ -175,11 +183,15 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1990_spaa_equipment_medium"
-		texturefile = "gfx/interface/technologies/spg/MJP_1990_spaa.dds"
+		texturefile = "gfx/interface/technologies/spg/MJP_1990_spaa.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_2000_spaa_equipment_medium"
-		texturefile = "gfx/interface/technologies/spg/MJP_2000_spaa.dds"
+		texturefile = "gfx/interface/technologies/spg/MJP_2000_spaa.png"
+	}
+	SpriteType = {
+		name = "GFX_MJP_m_2010_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/MJP_2010_spaa.png"
 	}
 	
 	
@@ -188,11 +200,19 @@ spriteTypes = {
  ################################################################################
 	SpriteType = {
 		name = "GFX_MJP_m_1980_sp_equipment_medium"
-		texturefile = "gfx/interface/technologies/spg/MJP_1980_sp.dds"
+		texturefile = "gfx/interface/technologies/spg/MJP_1980_sp.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1990_sp_equipment_medium"
-		texturefile = "gfx/interface/technologies/spg/MJP_1990_sp.dds"
+		texturefile = "gfx/interface/technologies/spg/MJP_1990_sp.png"
+	}
+	SpriteType = {
+		name = "GFX_MJP_m_2000_sp_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/MJP_2000_sp.png"
+	}
+	SpriteType = {
+		name = "GFX_MJP_m_2010_sp_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/MJP_2010_sp.png"
 	}
 	
  ################################################################################
@@ -240,21 +260,48 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/at/MJP_2000_atgm_equipment.png"
 	}
 
-	
+ ################################################################################
+ ######공격헬기
+ ################################################################################
+    SpriteType = {
+		name = "GFX_MJP_m_1980_attack_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/MJP_1980_attack_helicopter.png"
+	}
+    SpriteType = {
+		name = "GFX_MJP_m_2000_attack_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/MJP_2000_attack_helicopter.png"
+	}
+	SpriteType = {
+		name = "GFX_MJP_m_2010_attack_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/MJP_2010_attack_helicopter.png"
+	}
+
  ################################################################################
  ######수송헬기
  ################################################################################
 	SpriteType = {
 		name = "GFX_MJP_m_1970_util_helicopter_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/MJP_1970_util_helicopter.dds"
+		texturefile = "gfx/interface/technologies/planes/MJP_1970_util_helicopter.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1980_util_helicopter_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/MJP_1980_util_helicopter.dds"
+		texturefile = "gfx/interface/technologies/planes/MJP_1980_util_helicopter.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1990_util_helicopter_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/MJP_1990_util_helicopter.dds"
+		texturefile = "gfx/interface/technologies/planes/MJP_1990_util_helicopter.png"
+	}
+	SpriteType = {
+		name = "GFX_MJP_m_2000_util_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/MJP_2000_util_helicopter.png"
+	}
+
+ ################################################################################
+ ######공격헬기
+ ################################################################################
+    SpriteType = {
+		name = "GFX_MJP_maritime_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/planes/MJP_maritime_helicopter_equipment_1.png"
 	}
 	
  ################################################################################
