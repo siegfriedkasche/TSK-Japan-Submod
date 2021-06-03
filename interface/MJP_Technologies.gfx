@@ -16,7 +16,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/MJP_경차량2.png"
 	}
 	
-	### JSDF ###
+	### MJP ###
 	
 	SpriteType = {
 		name = "GFX_MJP_modern_motorized_equipment_medium"
@@ -102,7 +102,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_2010_mbt_medium"
-		texturefile = "gfx/interface/technologies/tank/MJP_2010_mbt.dds"
+		texturefile = "gfx/interface/technologies/tank/MJP_2010_mbt.png"
 	}
 	
 	SpriteType = {
@@ -137,7 +137,7 @@ spriteTypes = {
  ################################################################################
 	SpriteType = {
 		name = "GFX_MJP_m_1970_APC_equipment_medium"
-		texturefile = "gfx/interface/technologies/apc/MJP_1970_apc.dds"
+		texturefile = "gfx/interface/technologies/apc/MJP_1970_apc.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1980_APC_equipment_medium"
@@ -145,7 +145,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1990_APC_equipment_medium"
-		texturefile = "gfx/interface/technologies/apc/MJP_1990_apc.dds"
+		texturefile = "gfx/interface/technologies/apc/MJP_1990_apc.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_2000_APC_equipment_medium"
@@ -225,11 +225,11 @@ spriteTypes = {
  ################################################################################
 	SpriteType = {
 		name = "GFX_MJP_m_1970_atgm_equipment_medium"
-		texturefile = "gfx/interface/technologies/at/MJP_1970_atgm_equipment.dds"
+		texturefile = "gfx/interface/technologies/at/MJP_1970_atgm_equipment.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1980_atgm_equipment_medium"
-		texturefile = "gfx/interface/technologies/at/MJP_1980_atgm_equipment.dds"
+		texturefile = "gfx/interface/technologies/at/MJP_1980_atgm_equipment.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1990_atgm_equipment_medium"
