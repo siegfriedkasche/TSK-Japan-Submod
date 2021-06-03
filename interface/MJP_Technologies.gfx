@@ -28,15 +28,15 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_MJP_infantry_equipment_4_medium"
-		texturefile = "gfx/interface/technologies/infantry/MJP_1960_infantry_equipment.dds"
+		texturefile = "gfx/interface/technologies/infantry/MJP_1960_infantry_equipment.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_infantry_equipment_5_medium"
-		texturefile = "gfx/interface/technologies/infantry/MJP_1970_infantry_equipment.dds"
+		texturefile = "gfx/interface/technologies/infantry/MJP_1970_infantry_equipment.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_infantry_equipment_6_medium"
-		texturefile = "gfx/interface/technologies/infantry/MJP_1980_infantry_equipment.dds"
+		texturefile = "gfx/interface/technologies/infantry/MJP_1980_infantry_equipment.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_infantry_equipment_7_medium"
@@ -48,7 +48,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_MJP_infantry_equipment_9_medium"
-		texturefile = "gfx/interface/technologies/infantry/MJP_2010_infantry_equipment.dds"
+		texturefile = "gfx/interface/technologies/infantry/MJP_2010_infantry_equipment.png"
 	}
 	
  ################################################################################
@@ -129,7 +129,7 @@ spriteTypes = {
  
 	SpriteType = {
 		name = "GFX_MJP_m_1980_mlrs_equipment_medium"
-		texturefile = "gfx/interface/technologies/art/MJP_1980_mlrs.dds"
+		texturefile = "gfx/interface/technologies/art/MJP_1980_mlrs.png"
 	}
 	
  ################################################################################
@@ -171,7 +171,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1980_spaa_equipment_medium"
-		texturefile = "gfx/interface/technologies/spg/MJP_1980_spaa.dds"
+		texturefile = "gfx/interface/technologies/spg/MJP_1980_spaa.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1990_spaa_equipment_medium"
@@ -233,11 +233,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1990_atgm_equipment_medium"
-		texturefile = "gfx/interface/technologies/at/MJP_1990_atgm_equipment.dds"
+		texturefile = "gfx/interface/technologies/at/MJP_1990_atgm_equipment.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_2000_spaa_equipment_medium"
-		texturefile = "gfx/interface/technologies/at/MJP_2000_atgm_equipment.dds"
+		texturefile = "gfx/interface/technologies/at/MJP_2000_atgm_equipment.png"
 	}
 
 	
