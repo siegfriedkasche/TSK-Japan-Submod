@@ -162,7 +162,7 @@ country_event = {
             complete_national_focus = Communism
         }
     }
-    option = {   #비동맹?
+    option = {   #공산?
         name = MJP.6.a
         ai_chance = {
             factor = 25
@@ -189,4 +189,21 @@ country_event = {
             complete_national_focus = Constitution
         }
     }
+}
+
+country_event = {
+
+	  id = MJP.8
+    title = MJP.8.t
+    desc = MJP.8.d
+    picture = GFX_
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = MJP.8.a
+        ai_chance = {
+            factor = 25
+        }
+	}
 }

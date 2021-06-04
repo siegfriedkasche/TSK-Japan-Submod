@@ -136,7 +136,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/art/MJP_1970_mlrs.png"
 	} 
 	SpriteType = {
-		name = "GFX_MJP_m_1980_mlrs_equipment_medium"
+		name = "GFX_MJP_m_1990_mlrs_equipment_medium"
 		texturefile = "gfx/interface/technologies/art/MJP_1990_mlrs.png"
 	}
 	
@@ -256,7 +256,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/at/MJP_1990_atgm_equipment.png"
 	}
 	SpriteType = {
-		name = "GFX_MJP_m_2000_spaa_equipment_medium"
+		name = "GFX_MJP_m_2000_atgm_equipment_medium"
 		texturefile = "gfx/interface/technologies/at/MJP_2000_atgm_equipment.png"
 	}
 
@@ -297,7 +297,7 @@ spriteTypes = {
 	}
 
  ################################################################################
- ######공격헬기
+ ######해상작전헬기
  ################################################################################
     SpriteType = {
 		name = "GFX_MJP_maritime_helicopter_equipment_1_medium"
