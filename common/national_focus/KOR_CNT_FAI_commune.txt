@@ -999,7 +999,9 @@ focus_tree = {
 		}
 		x = 44
 		y = 11
-
+		completion_reward = {
+			load_focus_tree = CNT_revolution
+		}
 	}
 	focus = {
 		id = KOR_CNT_Revolution_in_china

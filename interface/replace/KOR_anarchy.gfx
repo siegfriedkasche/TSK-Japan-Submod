@@ -90,4 +90,8 @@ spriteTypes = {
 		name = "GFX_AVA_KOR_unconscious_event"
 		texturefile = "gfx/event_pictures/GFX_AVA_KOR_unconscious_event.png"
 	}
+	spriteType = {
+		name = "GFX_ava_lor_new_world_event"
+		texturefile = "gfx/event_pictures/GFX_ava_lor_new_world_event.png"
+	}
 }

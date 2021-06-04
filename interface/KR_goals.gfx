@@ -47,4 +47,40 @@ spriteTypes = {
         name = "GFX_AVA_KOR_AVANT_GUARD"
         texturefile = "gfx/interface/goals/avant/GFX_AVA_KOR_AVANT_GUARD.png"
     }
+    spriteType = {
+        name = "GFX_ava_kor_dreamland"
+        texturefile = "gfx/interface/goals/avant/GFX_ava_kor_dreamland.png"
+    }
+    spriteType = {
+        name = "GFX_ava_kor_The_old_frame_that_binds_the_world_together"
+        texturefile = "gfx/interface/goals/avant/GFX_ava_kor_The_old_frame_that_binds_the_world_together.png"
+    }
+    spriteType = {
+        name = "GFX_ava_lor_new_world"
+        texturefile = "gfx/interface/goals/avant/GFX_ava_lor_new_world.png"
+    }
+    spriteType = {
+        name = "GFX_ava_kor_destopia_world"
+        texturefile = "gfx/interface/goals/avant/GFX_ava_kor_destopia_world.png"
+    }
+    spriteType = {
+        name = "GFX_AVA_KOR_non-sublime_community"
+        texturefile = "gfx/interface/goals/avant/GFX_AVA_KOR_non-sublime_community.png"
+    }
+    spriteType = {
+        name = "GFX_AVA_KOR_Postmodernization_through_two_eyes"
+        texturefile = "gfx/interface/goals/avant/GFX_AVA_KOR_Postmodernization_through_two_eyes.png"
+    }
+    spriteType = {
+        name = "GFX_AVA_KOR_step_towards_the_ideal"
+        texturefile = "gfx/interface/goals/avant/GFX_AVA_KOR_step_towards_the_ideal.png"
+    }
+    spriteType = {
+        name = "GFX_AVA_KOR_eternal_creation"
+        texturefile = "gfx/interface/goals/avant/GFX_AVA_KOR_eternal_creation.png"
+    }
+    spriteType = {
+        name = "GFX_AVA_KOR_deconstruction"
+        texturefile = "gfx/interface/goals/avant/GFX_AVA_KOR_deconstruction.png"
+    }
 }

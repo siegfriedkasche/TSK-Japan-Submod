@@ -160,7 +160,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AVA_KOR_non-sublime_community
-		icon = GFX_goal_unknown
+		icon = GFX_AVA_KOR_non-sublime_community
 		cost = 4.00
 		prerequisite = {
 			focus = ava_kor_Ideal_for_Integration
@@ -173,7 +173,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AVA_KOR_deconstruction
-		icon = GFX_goal_unknown
+		icon = GFX_AVA_KOR_deconstruction
 		cost = 4.00
 		prerequisite = {
 			focus = AVA_KOR_non-sublime_community
@@ -191,7 +191,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ava_kor_destopia_world
-		icon = GFX_goal_unknown
+		icon = GFX_ava_kor_destopia_world
 		cost = 4.00
 		prerequisite = {
 			focus = ava_kor_Ideal_for_Integration
@@ -411,7 +411,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AVA_KOR_Postmodernization_through_two_eyes
-		icon = GFX_goal_unknown
+		icon = GFX_AVA_KOR_Postmodernization_through_two_eyes
 		cost = 4.00
 		available = {
 			NOT = {
@@ -431,7 +431,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AVA_KOR_step_towards_the_ideal
-		icon = GFX_goal_unknown
+		icon = GFX_AVA_KOR_step_towards_the_ideal
 		cost = 4.00
 		prerequisite = {
 			focus = avant_lor_start
@@ -467,7 +467,7 @@ focus_tree = {
 		x = 23
 		y = 5
 		completion_reward = {
-			declare_war_on = {
+			declare_war_on = { 
 				target = MAN
 				type = annex_everything
 			}
@@ -652,7 +652,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ava_kor_The_old_frame_that_binds_the_world_together
-		icon = GFX_goal_unknown
+		icon = GFX_ava_kor_The_old_frame_that_binds_the_world_together
 		cost = 4.00
 		available = {
 			has_completed_focus = ava_kor_Ideal_for_Integration
@@ -673,7 +673,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AVA_KOR_eternal_creation
-		icon = GFX_goal_unknown
+		icon = GFX_AVA_KOR_eternal_creation
 		cost = 4.00
 		prerequisite = {
 			focus = AVA_KOR_AVANT_GUARD
@@ -688,7 +688,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ava_lor_new_world
-		icon = GFX_goal_unknown
+		icon = GFX_ava_lor_new_world
 		cost = 4.00
 		available = {
 			has_completed_focus = ava_kor_dreamland
@@ -881,7 +881,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ava_kor_dreamland
-		icon = GFX_goal_unknown
+		icon = GFX_ava_kor_dreamland
 		cost = 20.00
 		available = {
 			GER = {

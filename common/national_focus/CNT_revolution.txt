@@ -1,0 +1,342 @@
+focus_tree = {
+	id = CNT_revolution
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOR
+		}
+	}
+	default = no
+	focus = {
+		id = CNF_FAI_angry
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 15
+		y = 3
+		completion_reward = {
+			165 = {
+				set_demilitarized_zone = yes
+			}
+			794 = {
+				set_demilitarized_zone = yes
+			}
+			167 = {
+				set_demilitarized_zone = yes
+			}
+			166 = {
+				set_demilitarized_zone = yes
+			}
+		}
+	}
+	focus = {
+		id = CNT_FAI_remeber
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNF_FAI_angry
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = CNT_FAI_real_revolution
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_remeber
+		}
+		mutually_exclusive = {
+			focus = CNT_FAI_Franco's_Assassination
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = CNT_FAI_their_lies
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_real_revolution
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = CNT_FAI_monarchy_contradiction
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_real_revolution
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = CNT_FAI_Franco's_Assassination
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_remeber
+		}
+		mutually_exclusive = {
+			focus = CNT_FAI_real_revolution
+			focus = CNT_FAI_Free
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = CNT_FAI_question_of_domination
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_real_revolution
+			focus = CNT_FAI_Franco's_Assassination
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = CNT_FAI_resistance_to_domination
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_monarchy_contradiction
+		}
+		prerequisite = {
+			focus = CNT_FAI_their_lies
+		}
+		prerequisite = {
+			focus = CNT_FAI_question_of_domination
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = CNT_FAI_Collapsing_Falange
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_Franco's_Assassination
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = CNT_FAI_Iberia_in_chaos
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_Franco's_Assassination
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = CNT_FAI_rality_free
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_Collapsing_Falange
+		}
+		prerequisite = {
+			focus = CNT_FAI_Iberia_in_chaos
+		}
+		prerequisite = {
+			focus = CNT_FAI_question_of_domination
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = CNT_FAI_Free
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_remeber
+		}
+		mutually_exclusive = {
+			focus = CNT_FAI_Franco's_Assassination
+			focus = CNT_FAI_eternal_solidarity
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = CNT_FAI_betrayal_republicans
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_Free
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = CNT_FAI_incompetent_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_Free
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = CNT_FAI_eternal_solidarity
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_remeber
+		}
+		mutually_exclusive = {
+			focus = CNT_FAI_Free
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = CNT_FAI_the_question_of_capitalists
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_Free
+			focus = CNT_FAI_eternal_solidarity
+		}
+		x = 19
+		y = 7
+
+	}
+	focus = {
+		id = CNT_FAI_true_feces
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_betrayal_republicans
+		}
+		prerequisite = {
+			focus = CNT_FAI_incompetent_government
+		}
+		prerequisite = {
+			focus = CNT_FAI_the_question_of_capitalists
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = CNT_FAI_expelling_the_Stalinists
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_eternal_solidarity
+		}
+		x = 20
+		y = 6
+
+	}
+	focus = {
+		id = CNT_FAI_large_community
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_eternal_solidarity
+		}
+		x = 22
+		y = 6
+
+	}
+	focus = {
+		id = CNT_FAI_capitalist_threat
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_expelling_the_Stalinists
+		}
+		prerequisite = {
+			focus = CNT_FAI_large_community
+		}
+		prerequisite = {
+			focus = CNT_FAI_the_question_of_capitalists
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = CNT_FAI_Iberian_worker
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_rality_free
+			focus = CNT_FAI_capitalist_threat
+			focus = CNT_FAI_true_feces
+			focus = CNT_FAI_resistance_to_domination
+		}
+		x = 15
+		y = 9
+
+	}
+	focus = {
+		id = CNT_FAI_another_threat
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_Iberian_worker
+		}
+		x = 15
+		y = 10
+
+	}
+	focus = {
+		id = CNT_FAI_Contact_with_IWW
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_another_threat
+		}
+		x = 14
+		y = 11
+
+	}
+	focus = {
+		id = CNT_FAI_antifascist
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_another_threat
+		}
+		x = 16
+		y = 11
+
+	}
+	focus = {
+		id = CNT_FAI_Workers_of_all_countries_unite
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CNT_FAI_Contact_with_IWW
+		}
+		prerequisite = {
+			focus = CNT_FAI_antifascist
+		}
+		x = 15
+		y = 12
+
+	}
+}
