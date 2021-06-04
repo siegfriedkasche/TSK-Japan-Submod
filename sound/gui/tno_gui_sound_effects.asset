@@ -26,6 +26,13 @@ soundeffect = {
 	}
 	volume = 70
 }
+soundeffect = {
+	name = CNT_FAI
+	sounds = {
+		sound = CNT_FAI
+	}
+	volume = 70
+}
 
 #철의 노동자
 soundeffect = {

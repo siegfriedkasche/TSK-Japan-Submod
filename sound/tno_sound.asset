@@ -29,3 +29,9 @@ sound = {
 	file = "menu/L'Internationale.wav"
 	always_load = no
 }
+sound = {
+	name = "CNT_FAI"
+	file = "menu/CNT_FAI.wav"
+	always_load = no
+}
+
