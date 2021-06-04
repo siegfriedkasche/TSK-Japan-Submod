@@ -38,7 +38,9 @@ focus_tree = {
 		}
 		x = 15
 		y = 4
-
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = CNT_FAI_real_revolution

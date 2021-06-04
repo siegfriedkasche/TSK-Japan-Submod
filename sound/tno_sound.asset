@@ -15,6 +15,11 @@ sound = {
 	always_load = no
 }
 sound = {
+	name = "world_revolution"
+	file = "menu/world_revolution.wav"
+	always_load = no
+}
+sound = {
 	name = "iron_worker"
 	file = "menu/iron_worker.wav"
 	always_load = no

@@ -7,6 +7,14 @@ great_public_war_T:0 "크론슈타트의 복수"
 great_public_war_D:0 "움직이지 않는 자, 묶인 사슬을 꺠닫지 못하리라\n- 로자 룩셈부르크"
 great_public_war_A:0 "쇠사슬을 끊어라"
 
+world_revolution_T:0 "자유항쟁"
+world_revolution_D:0 "도둑들이여 떨어라! 너희들의 시간은 끝났다! 압제와 노예제와 눈물의 세계는 세계 노동자 형제들의 빛나는 세계로 대체된다!\n- 알렉산드라 콜론타이"
+world_revolution_A:0 "자유를 위한 전진"
+
+CNT_FAI_IN_CATARONIA_A:0 ""
+CNT_FAI_IN_CATARONIA_D:0 "부르주아들이 역사의 무대를 떠나기 전에 이 세계를 잿더미로 만들지도 모르죠. 하지만 우리는 마음속에 새로이 창조될 세계를 품고 있고, 그 세계는 지금 이 순간에도 점점 커지고 있습니다.\n- 부에나벤투라 두루티"
+CNT_FAI_IN_CATARONIA_T:0 "CNT-FAI"
+
 ##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
 
 

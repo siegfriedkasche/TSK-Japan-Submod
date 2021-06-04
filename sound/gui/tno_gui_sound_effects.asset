@@ -19,6 +19,13 @@ soundeffect = {
 	}
 	volume = 70
 }
+soundeffect = {
+	name = world_revolution
+	sounds = {
+		sound = world_revolution
+	}
+	volume = 70
+}
 
 #철의 노동자
 soundeffect = {
