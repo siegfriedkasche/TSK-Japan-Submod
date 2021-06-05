@@ -236,7 +236,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1990_manpad_equipment_medium"
-		texturefile = "gfx/interface/technologies/aa/MJP_1980_manpad.dds"
+		texturefile = "gfx/interface/technologies/aa/MJP_1990_manpad.dds"
 	}
 
 	
