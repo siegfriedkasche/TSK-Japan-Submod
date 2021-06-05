@@ -220,7 +220,7 @@ spriteTypes = {
  ################################################################################
 	SpriteType = {
 		name = "GFX_MJP_heavy_anti_air_eq_medium"
-		texturefile = "gfx/interface/technologies/aa/MJP_heavy_anti_air.dds"
+		texturefile = "gfx/interface/technologies/aa/MJP_heavy_anti_air.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_aa_missile_medium"
@@ -236,7 +236,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1990_manpad_equipment_medium"
-		texturefile = "gfx/interface/technologies/aa/MJP_1990_manpad.dds"
+		texturefile = "gfx/interface/technologies/aa/MJP_1990_manpad.png"
 	}
 
 	
@@ -323,13 +323,17 @@ spriteTypes = {
 		name = "GFX_MJP_m_2000_jet_fighter_equipment_medium"
 		texturefile = "gfx/interface/technologies/planes/MJP_2000_fighter.png"
 	}
+	SpriteType = {
+		name = "GFX_MJP_m_2010_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/MJP_2010_fighter.png"
+	}
 	
  ################################################################################
  ######멀티롤
  ################################################################################
 	SpriteType = {
 		name = "GFX_MJP_m_1970_jet_multirole_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/MJP_1970_fighter.png"
+		texturefile = "gfx/interface/technologies/planes/MJP_1970_multirole.png"
 	}
 	SpriteType = {
 		name = "GFX_MJP_m_1980_jet_multirole_equipment_medium"
