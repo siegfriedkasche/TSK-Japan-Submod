@@ -26,7 +26,15 @@ focus_tree = {
 		cost = 10.00
 		x = 21
 		y = 0
-
+		 completion_reward = {
+			hidden_effect = {
+			country_event = {
+			id = MJP.10
+			days = 0
+			}
+		}
+		country_event = { id = MJP.10}
+	    }
 	}
 	focus = {
 		id = newfocus_30

@@ -1,0 +1,16 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_1936world"
+		texturefile = "gfx/event_pictures/MJP/1936world.png"
+	}	
+	spriteType = {
+		name = "GFX_economic-collapse"
+		texturefile = "gfx/event_pictures/MJP/economic-collapse.png"
+	}
+	spriteType = {
+		name = "GFX_Cabinet-Office"
+		texturefile = "gfx/event_pictures/MJP/Cabinet-Office.png"
+	}
+	
+}
