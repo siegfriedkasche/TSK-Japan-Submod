@@ -1,0 +1,42 @@
+leader_traits = {
+
+	MJP_Kake_trait = {
+		political_power_factor = 0.15
+	}
+	MJP_Sakuma_trait = {
+		fascism_acceptance = 25
+		fascism_drift = 0.03
+	}
+	MJP_Son_trait = {
+		consumer_goods_factor = -0.1
+		production_factory_max_efficiency_factor = 0.1
+	}
+
+	MJP_Kuroda_trait = {
+		political_power_factor = 0.5
+		stability_factor = 0.1
+	}
+	MJP_Akihito_trait = {
+		neutrality_drift = 0.03
+		stability_factor = 0.1
+	}
+	MJP_Koizumi_trait = {
+		political_power_factor = 0.5
+		democratic_drift = 0.03
+		stability_factor = 0.05
+	}
+	MJP_Kanemoto_trait = {
+		operation_cost = -0.15
+		operative_slot = 2
+	}
+	MJP_Hata_trait = {
+		stability_factor = 0.1
+	}
+	MJP_Sadao_trait = {
+		communism_drift = 0.03
+	}
+	MJP_Hashimoto_trait = {
+		political_power_factor = 0.5
+		stability_factor = 0.1
+	}
+}
