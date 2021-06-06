@@ -508,7 +508,6 @@ country = {
             }
         }
     }
-
 political_advisor = {
     Akihito = {
 			picture = aa
@@ -520,7 +519,7 @@ political_advisor = {
 				has_completed_focus = Constitution
 			}
 			cost = 100
-			traits = { MJP_yi_trait }
+			traits = { MJP_Akihito_trait }
 			ai_will_do = { factor = 0 }
 		}
         Masayoshi_Son = {
@@ -536,10 +535,102 @@ political_advisor = {
 				has_completed_focus = newfocus_26
 			}
 			cost = 100
-			traits = {  }
+			traits = { MJP_Son_trait }
 			ai_will_do = { factor = 1 }
 		}
+        Makoto_Sakuma = {
+			picture = aa
+			allowed = {
+				original_tag = MJP
+			}
+			available = {
+				NOT = {
+					has_completed_focus = MJP_Election
+				}
+				has_completed_focus = Military_control
+				has_completed_focus = newfocus_26
+			}
+			on_add = {
+				country_event = {
+				    id = MJP.11
+				}
+			}
+			cost = 100
+			traits = {  MJP_Sakuma_trait }
+			ai_will_do = { factor = 0 }
+		}
+        Katsuhiro_Kuroda = {
+			picture = aa
+			allowed = {
+				original_tag = MJP
+			}
+			available = {
+				has_completed_focus = MJP_Election
+				has_completed_focus = newfocus_26
+			}
+			cost = 100
+			traits = { MJP_Kuroda_trait }
+			ai_will_do = { factor = 1 }
+		}
+        Junichiro_Koizumi = {
+			picture = aa
+			allowed = {
+				original_tag = MJP
+			}
+			available = {
+                NOT = {
+					has_completed_focus = MJP_Election
+				}
+				has_completed_focus = Liberal_Democratic_Party
+				has_completed_focus = newfocus_26
+			}
+			cost = 100
+			traits = { MJP_Koizumi_trait }
+			ai_will_do = { factor = 1 }
+		}
+        Kake_Aichi = {
+			picture = aa
+			allowed = {
+				original_tag = MJP
+			}
+			available = {
+				has_completed_focus = MJP_Election
+				has_completed_focus = newfocus_26
+			}
+			cost = 100
+			traits = { KOR_hong_trait }
+			ai_will_do = { factor = 100 }
+		}
+        Toshinori_Kanemoto = {
+			picture = aa
+			allowed = {
+				if = {
+					limit = {
+						has_dlc = "Battle for the Bosporus"
+					}
+				}
+				original_tag = MJP
+			}
+			available = {
+				has_completed_focus = MJP_Election
+				has_completed_focus = newfocus_26
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			cost = 100
+			traits = { MJP_Kanemoto_trait }
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					has_intelligence_agency = no
+					factor = 0
+				}
+			}
+		}
 }
+
 
 army_chief = {
 
