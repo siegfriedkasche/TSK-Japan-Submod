@@ -1,0 +1,17 @@
+﻿
+air_wings = {
+	809={
+		m_1980_jet_multirole_equipment = {
+			owner = "MJP" 
+			amount = 10
+		}
+		m_1980_jet_CAS_equipment = {
+			owner = "MJP" 
+			amount = 10
+		}
+		m_1980_jet_fighter_equipment = {
+			owner = "MJP" 
+			amount = 220
+		}
+	}
+}

@@ -509,6 +509,38 @@ country = {
         }
     }
 
+political_advisor = {
+    Akihito = {
+			picture = aa
+			allowed = {
+				original_tag = MJP
+			}
+			available = {
+				has_completed_focus = MJP_Election
+				has_completed_focus = Constitution
+			}
+			cost = 100
+			traits = { MJP_yi_trait }
+			ai_will_do = { factor = 0 }
+		}
+        Masayoshi_Son = {
+			picture = aa
+			allowed = {
+				original_tag = MJP
+			}
+			available = {
+				OR = {
+				    has_completed_focus = MJP_Election
+				    has_completed_focus = Stable_Japan
+				}	
+				has_completed_focus = newfocus_26
+			}
+			cost = 100
+			traits = {  }
+			ai_will_do = { factor = 1 }
+		}
+}
+
 army_chief = {
 
 		Taizo_Terashima = { #데라시마 다이조
@@ -948,7 +980,7 @@ materiel_manufacturer = {
 			
 			traits = { electronics_concern }
 		}		
-		nine_Inspire = { #히타치
+		nine_SoftBank = { #소프트뱅크
 			
 			allowed = {
 				original_tag = MJP
