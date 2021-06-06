@@ -20,15 +20,61 @@
 	}
 }
 division_template = {
+	name = "JSDF 기갑사단"
+
+	regiments = {
+		modern_mbt = { x = 0 y = 0 }
+		modern_mbt = { x = 0 y = 1 }
+		modern_mbt = { x = 0 y = 2 }
+		modern_mbt = { x = 0 y = 3 }
+		modern_mbt = { x = 0 y = 4 }
+		modern_sp_art_brigade = { X = 1 Y = 0 }
+        modern_sp_art_brigade = { X = 1 Y = 1 }
+		modern_sp_art_brigade = { X = 1 Y = 2 }
+		modern_sp_anti_air_brigade = { x = 1 y = 3 }
+
+		modern_mechanized = { x = 2 y = 0 }
+		modern_mechanized = { x = 2 y = 1 }
+		modern_mechanized = { x = 2 y = 2 }
+		Heavy_Engi_Bat = { x = 3 y = 1 }
+
+
+	}
+	support = {
+		armor_Recce_Comp = { x = 0 y = 0 }
+	}
+}
+division_template = {
 	name = "제1공정단"
 
 	regiments = {
-		L_Air_assault_Bat = { x = 0 y = 0 }
-		L_Air_assault_Bat = { x = 0 y = 1 }
-		L_Air_assault_Bat = { x = 0 y = 2 }
-		L_Air_assault_Bat = { x = 0 y = 3 }
-		Arty_Bat = { x = 1 y = 0 }
-		L_Engi_Bat = { x = 1 y = 1 }
+		heliborne_infantry = { x = 0 y = 0 }
+		heliborne_infantry = { x = 0 y = 1 }
+		heliborne_infantry = { x = 0 y = 2 }
+		heliborne_infantry = { x = 0 y = 3 }
+		modern_artillery_brigade = { x = 1 y = 0 }
+		Engi_Bat = { x = 1 y = 1 }
+
+	}
+	support = {
+		armor_Recce_Comp = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "JSDF 기계화보병"
+
+	regiments = {
+		modern_mbt = { x = 0 y = 0 }
+		modern_mbt = { x = 0 y = 1 }
+		modern_sp_art_brigade = { X = 1 Y = 0 }
+        modern_sp_art_brigade = { X = 1 Y = 1 }
+		modern_sp_art_brigade = { X = 1 Y = 2 }
+		modern_sp_anti_air_brigade = { X = 1 Y = 3 }
+		modern_mechanized = { x = 2 y = 0 }
+		modern_mechanized = { x = 2 y = 1 }
+		modern_mechanized = { x = 2 y = 2 }
+		modern_mechanized = { x = 2 y = 3 }
+		Heavy_Engi_Bat = { x = 3 y = 0}
 
 	}
 	support = {
