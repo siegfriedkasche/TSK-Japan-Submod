@@ -1952,6 +1952,7 @@ focus_tree = {
         completion_reward = {
 			create_country_leader = {
 				name = "Akihito"
+				desc = "아키히토 천황은 1989년 쇼와 천황이 사망함으로써 제 125대 천황에 즉위하였습니다,   
 				picture = "gfx/"
 				expire = "1995.1.1"
 				ideology = despotism
