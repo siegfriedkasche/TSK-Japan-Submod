@@ -2,12 +2,12 @@
 
 	### Naval OOB ###
 	fleet = {
-	   name = "Escort Flotilla 1"
+	   name = "제 1 호위대군"
 	   naval_base = 9998
 		task_force = {
-			name = "Escort Flotilla 1"
+			name = "제1호위대군"
 			location = 9998
-			ship = { name = "JDS Chokai" definition = destroyer_mtg start_experience_factor = 0.65 equipment = { destroyer_hull_3 = { amount = 1 owner = MJP version_name = "Kongō Class" } } }
+			ship = { name = "JDS Chokai" definition = destroyer_mtg start_experience_factor = 0.65 equipment = { destroyer_hull_3 = { amount = 1 owner = MJP version_name = "공고급" } } }
 			ship = { name = "JDS Kurama" definition = destroyer_mtg start_experience_factor = 0.50 equipment = { destroyer_hull_2 = { amount = 1 owner = MJP version_name = "Shirane Class" } } }
 			ship = { name = "JDS Tachikaze" definition = destroyer_mtg start_experience_factor = 0.65 equipment = { destroyer_hull_2 = { amount = 1 owner = MJP version_name = "Tachikaze Class" } } }
 			ship = { name = "JDS Sawakaze" definition = destroyer_mtg start_experience_factor = 0.65 equipment = { destroyer_hull_2 = { amount = 1 owner = MJP version_name = "Tachikaze Class" } } }
@@ -26,10 +26,10 @@
 		}
 	}
 	fleet = {
-	   name = "Escort Flotilla 2"
+	   name = "제 2 호위대군"
 	   naval_base = 1158
 		task_force = {
-			name = "Escort Flotilla 2"
+			name = "제 2 호위대군"
 			location = 1158
 			#Escort Squadron 2
 			ship = { name = "JDS Ōsumi" definition = helicopter_operator_mtg start_experience_factor = 0.65 equipment = { helicopter_operator_hull_2 = { amount = 1 owner = MJP version_name = "Osumi Class" } } air_wings = { } }
@@ -48,10 +48,10 @@
 		}
 	}
 	fleet = {
-	   name = "Escort Flotilla 3"
+	   name = "제 3 호위대군"
 	   naval_base = 1136
 		task_force = {
-			name = "Escort Flotilla 3"
+			name = "제 3 호위대군"
 			location = 1136
 			ship = { name = "JDS Myoko" definition =destroyer_mtg start_experience_factor = 0.65 equipment = { destroyer_hull_3 = { amount = 1 owner = MJP version_name = "Kongō Class" } } }
 			ship = { name = "JDS Haruna" definition = destroyer_mtg start_experience_factor = 0.50 equipment = { destroyer_hull_1 = { amount = 1 owner = MJP version_name = "Haruna Class" } } }
@@ -68,10 +68,10 @@
 		}
 	}
 	fleet = {
-	   name = "Escort Flotilla 4"
+	   name = "제 4 호위대군"
 	   naval_base = 1092
 		task_force = {
-			name = "Escort Flotilla 4"
+			name = "제 4 호위대군"
 			location = 1092
 			ship = { name = "JDS Kirishima" definition = destroyer_mtg start_experience_factor = 0.65 equipment = { destroyer_hull_3 = { amount = 1 owner = MJP version_name = "Kongō Class" } } }
 			ship = { name = "JDS Hatakaze" definition = destroyer_mtg start_experience_factor = 0.65 equipment = { destroyer_hull_2 = { amount = 1 owner = MJP version_name = "Hatakaze Class" } } }
@@ -110,10 +110,10 @@
 		}
 	}
 	fleet = {
-	name = "JMSDF Submarine Fleet 1"
+	name = "JMSDF 잠수대군 1"
 	naval_base = 10444
 		task_force = {
-			name = "JMSDF Submarine Fleet 1"
+			name = "JMSDF 잠수대군 1"
 			location = 10444
 			ship = { name = "JDS Oyashio" definition = attack_submarine_mtg start_experience_factor = 0.65 equipment = { attack_submarine_hull_3 = { amount = 1 owner = MJP version_name = "Oyashio Class" } } }
 			ship = { name = "JDS Michishio" definition = attack_submarine_mtg start_experience_factor = 0.65 equipment = { attack_submarine_hull_3 = { amount = 1 owner = MJP version_name = "Oyashio Class" } } }
@@ -128,10 +128,10 @@
 		}
 	}
 	fleet = {
-	name = "JMSDF Submarine Fleet"
+	name = "JMSDF 잠수대군 2"
 	naval_base = 1092
 		task_force = {
-			name = "JMSDF Submarine Fleet"
+			name = "JMSDF 잠수 대군 2"
 			location = 1092
 			ship = { name = "JDS Okishio" definition = attack_submarine_mtg start_experience_factor = 0.65 equipment = { attack_submarine_hull_2 = { amount = 1 owner = MJP version_name = "Yushio Class" } } }
 			ship = { name = "JDS Nadashio" definition = attack_submarine_mtg start_experience_factor = 0.65 equipment = { attack_submarine_hull_2 = { amount = 1 owner = MJP version_name = "Yushio Class" } } }
