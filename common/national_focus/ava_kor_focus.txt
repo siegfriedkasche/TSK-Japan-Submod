@@ -566,7 +566,7 @@ focus_tree = {
 			}
 			set_province_name = {
     			id = 7125
-    			name = "이상과 상상의 수도"
+    			name = "이상과 상상의 수도" 
 			}
 			hidden_effect = {
 			set_victory_points = {
@@ -610,7 +610,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AVA_KOR_East_Asian_fantasy_country
-		icon = GFX_goal_unknown
+		icon = GFX_fire_breath_move
 		cost = 4.00
 		prerequisite = {
 			focus = AVA_KOR_The_rainstorm_of_creation_in_China
@@ -754,7 +754,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ava_kor_destruction_of_old
-		icon = GFX_goal_unknown
+		icon = GFX_hand_blood_move
 		cost = 4.00
 		prerequisite = {
 			focus = ava_kor_The_old_frame_that_binds_the_world_together
@@ -779,7 +779,8 @@ focus_tree = {
 	}
 	focus = {
 		id = ava_kor_framework_for_domination
-		icon = GFX_goal_unknown
+		icon = GFX_stalin_drink_move
+		
 		cost = 4.00
 		prerequisite = {
 			focus = ava_kor_The_old_frame_that_binds_the_world_together
@@ -795,7 +796,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ava_kor_class_destruction
-		icon = GFX_goal_unknown
+		icon = GFX_german_march_move
 		cost = 4.00
 		prerequisite = {
 			focus = ava_kor_The_old_frame_that_binds_the_world_together

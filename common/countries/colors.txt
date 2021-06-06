@@ -31,6 +31,10 @@ MKR = {
 	color = rgb { 0  31  130 }
 	color_ui = rgb { 0  31  130 }
 }
+CNT = {
+	color = rgb { 157  3  3 }
+	color_ui = rgb { 157  3  3 }
+}
 KR1 = {
 	color = rgb { 18 7 116 }
 	color_ui = rgb { 18 7 116 }

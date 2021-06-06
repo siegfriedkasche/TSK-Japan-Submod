@@ -94,4 +94,23 @@ spriteTypes = {
 		name = "GFX_ava_lor_new_world_event"
 		texturefile = "gfx/event_pictures/GFX_ava_lor_new_world_event.png"
 	}
+	spriteType = {
+		name = "GFX_CNT_FAI_Events"
+		texturefile = "gfx/event_pictures/GFX_CNT_FAI_Events.png"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_superevent_sex"
+		texturefile = "gfx//superevent_pictures//sex.png"
+		legacy_lazy_load = no 
+		noOfFrames = 15
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+	}
+	
+	spriteType = {
+		name = "GFX_CNT_FAI_Collapsing_Falange_event"
+		texturefile = "gfx/event_pictures/GFX_CNT_FAI_Collapsing_Falange_event.png"
+	}
 }

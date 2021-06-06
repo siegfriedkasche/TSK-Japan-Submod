@@ -428,7 +428,7 @@ focus_tree = {
 		x = 49
 		y = 7
 		completion_reward = {
-			add_stability = 0.05
+			add_stability = 0.1
 		}
 	}
 	focus = {
@@ -930,7 +930,7 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_CNT_social_Imperialism
 		}
-		x = 43
+		x = 43 
 		y = 10
 
 	}
@@ -1000,7 +1000,7 @@ focus_tree = {
 		x = 44
 		y = 11
 		completion_reward = {
-			load_focus_tree = CNT_revolution
+			load_focus_tree = KOR_revolution_focus
 		}
 	}
 	focus = {

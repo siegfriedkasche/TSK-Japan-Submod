@@ -4,7 +4,7 @@ country_event = {
 	id = SAG.1 #농노적군
 	title = SAG.1.t
 	desc = SAG.1.d
-	picture = GFX_파리코뮌
+	picture = GFX_superevent_sex
 	is_triggered_only = yes
 	fire_only_once = yes
 	

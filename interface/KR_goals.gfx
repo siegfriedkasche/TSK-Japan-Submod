@@ -83,4 +83,41 @@ spriteTypes = {
         name = "GFX_AVA_KOR_deconstruction"
         texturefile = "gfx/interface/goals/avant/GFX_AVA_KOR_deconstruction.png"
     }
+	frameAnimatedSpriteType = {
+		name = "GFX_fire_breath_move"
+		texturefile = "gfx//superevent_pictures//fire_breath_move.png"
+		legacy_lazy_load = no 
+		noOfFrames = 14
+		animation_rate_fps = 11
+		looping = yes
+		play_on_show = yes
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_german_march_move"
+		texturefile = "gfx//superevent_pictures//GFX_german_march_move.png"
+		legacy_lazy_load = no 
+		noOfFrames = 15
+		animation_rate_fps = 7
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_stalin_drink_move"
+		texturefile = "gfx//superevent_pictures//GFX_stalin_drink_move.png"
+		legacy_lazy_load = no 
+		noOfFrames = 27
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_hand_blood_move"
+		texturefile = "gfx//superevent_pictures//GFX_hand_blood_move.png"
+		legacy_lazy_load = no 
+		noOfFrames = 14
+		animation_rate_fps = 3
+		looping = yes
+		play_on_show = yes
+	}
 }

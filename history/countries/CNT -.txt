@@ -1,0 +1,141 @@
+﻿capital = 202
+
+oob = 
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 3
+	mass_assault = 2
+}
+set_add_stability = 0.4
+add_ideas = Sharing_means_of_production
+add_ideas = anarchist_social
+add_ideas = anarchist_mobilization_laws
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
+}
+
+create_country_leader = {
+	name = "전국노동자연맹-이베리아 아나키스트 연맹"
+	desc = ""
+	picture = "Military_Revolution.png"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "전국노동자연맹-이베리아 아나키스트 연맹"
+	desc = ""
+	picture = "Military_Revolution.png"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "이베리아 혁명 위원회"
+	desc = ""
+	picture = "Military_Revolution.png"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "전국노동자연맹-이베리아 아나키스트 연맹"
+	desc = ""
+	picture = "Military_Revolution.png"
+	expire = "1965.1.1"
+	ideology = anarchist_communism
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "이베리아 혁명 위원회"
+	portrait_path = "Military_Revolution.png"
+	traits = {
+    	brilliant_strategist
+		war_hero
+		old_guard
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "이베리아 혁명 위원회"
+	desc = ""
+	picture = "Military_Revolution.png"
+	traits = {
+		urban_assault_specialist
+		politically_connected
+	}
+	id = 2206
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "이베리아 혁명 위원회"
+	desc = ""
+	picture = "Military_Revolution.png"
+	traits = {
+		urban_assault_specialist
+		politically_connected
+	}
+	id = 2206
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "이베리아 혁명 위원회"
+	desc = ""
+	picture = "Military_Revolution.png"
+	traits = {
+		urban_assault_specialist
+		politically_connected
+	}
+	id = 2206
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "이베리아 혁명 위원회"
+	desc = ""
+	picture = "Military_Revolution.png"
+	traits = {
+		urban_assault_specialist
+		politically_connected
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

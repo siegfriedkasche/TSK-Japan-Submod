@@ -1,5 +1,5 @@
 focus_tree = {
-	id = CNT_revolution
+	id = KOR_revolution_focus
 	country = {
 		factor = 0
 		modifier = {
@@ -15,17 +15,10 @@ focus_tree = {
 		x = 15
 		y = 3
 		completion_reward = {
-			165 = {
-				set_demilitarized_zone = yes
-			}
-			794 = {
-				set_demilitarized_zone = yes
-			}
-			167 = {
-				set_demilitarized_zone = yes
-			}
-			166 = {
-				set_demilitarized_zone = yes
+			CNT = {
+				country_event = {
+				    id = CNTFAI.1
+				}
 			}
 		}
 	}
@@ -38,14 +31,20 @@ focus_tree = {
 		}
 		x = 15
 		y = 4
-		completion_reward = {
-			
-		}
+		
 	}
 	focus = {
 		id = CNT_FAI_real_revolution
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+			SPR = {
+			    controls_state = 41
+				controls_state = 174
+				controls_state = 171
+				controls_state = 169
+			}
+		}
 		prerequisite = {
 			focus = CNT_FAI_remeber
 		}
@@ -82,6 +81,14 @@ focus_tree = {
 		id = CNT_FAI_Franco's_Assassination
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+			D02 = {
+			    controls_state = 41
+				controls_state = 174
+				controls_state = 171
+				controls_state = 169
+			}
+		}
 		prerequisite = {
 			focus = CNT_FAI_remeber
 		}
@@ -91,7 +98,24 @@ focus_tree = {
 		}
 		x = 13
 		y = 5
-
+		completion_reward = {
+			D02 = {
+			    create_country_leader = {
+					name = "Francisco Francisco"
+					desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+					picture = "gfx/leaders/ONL/francisco_franco.png" 
+					expire = "1965.1.1"
+					ideology = falangism
+					traits = {
+			
+					}
+				}
+			}
+			news_event = {
+			    id = Ana_news.6
+			}
+		}
+		
 	}
 	focus = {
 		id = CNT_FAI_question_of_domination
@@ -131,7 +155,13 @@ focus_tree = {
 		}
 		x = 12
 		y = 6
-
+		completion_reward = {
+		    CNT = {
+			    country_event = {
+			    	id = CNTFAI.3
+			    }
+			}
+		}
 	}
 	focus = {
 		id = CNT_FAI_Iberia_in_chaos
@@ -165,6 +195,14 @@ focus_tree = {
 		id = CNT_FAI_Free
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+			D01 = {
+			    controls_state = 41
+				controls_state = 174
+				controls_state = 171
+				controls_state = 169
+			}
+		}
 		prerequisite = {
 			focus = CNT_FAI_remeber
 		}
@@ -202,6 +240,14 @@ focus_tree = {
 		id = CNT_FAI_eternal_solidarity
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+			D03 = {
+				controls_state = 41
+				controls_state = 174
+				controls_state = 171
+				controls_state = 169
+			}
+		}
 		prerequisite = {
 			focus = CNT_FAI_remeber
 		}

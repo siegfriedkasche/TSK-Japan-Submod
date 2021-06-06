@@ -119,3 +119,21 @@ news_event = {
 		}
 	}
 }
+
+news_event = {
+	id = Ana_news.6
+	title = Ana_news.6.t
+	desc = Ana_news.6.d
+	picture = GFX_killing_franco_news_event
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ana_news.6.a
+		hidden_effect = {
+			
+		}
+	}
+}

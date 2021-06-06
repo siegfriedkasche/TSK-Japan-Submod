@@ -2,7 +2,7 @@
  CNF_FAI_angry:0 "인민의 분노"
  CNT_FAI_remeber:0 "뜨거운 카탈로니아"
  CNT_FAI_Free:0 "분노하라 민중들이여"
- CNT_FAI_Franco's_Assassination:0 "프랑코 암살"
+ CNT_FAI_Franco's_Assassination:0 "[D02.GetLeader] 암살"
  CNT_FAI_real_revolution:0 "진정한 혁명"
  CNT_FAI_eternal_solidarity:0 "영원한 연대"
  CNT_FAI_expelling_the_Stalinists:0 "스탈린주의자들 축출"
@@ -26,3 +26,11 @@
  CNT_FAI_monarchy_threat:0 "왕정의 위협"
  CNT_FAI_antifascist:0 "안티파와의 접촉"
  CNT_FAI_Workers_of_all_countries_unite:0 "만국의 노동자여 단결하라!"
+ 
+ Ana_news.6.t:0 "[D02.GetLeader] 암살"
+ Ana_news.6.d:0 "[GetDateText], 스페인 \n[D02.GetRulingParty]의 군대와 CNT-FAI가 아라곤 지역을 중심으로 서로 대치하면서 스페인에서의 긴장도는 날이 갈수록 높아져 가고 국민들은 2차 내전에 대한 두려움으로 가득할 떄\n [D02.GetLeader]은(는) 국민들은 진정시키기 위해 마드리드의 '마요르 광장'에서 진행하였습니다. "우리의 위대한 스페인는 저 무능한 아나키스트들에 의해 위협받고 있습니다!, 그들은 우리의 조국과 우리 국민들을 위협하고 있습니다. 우리는 그들에 맞서서 저항해야하며  그들이 굴복하지 않는다면 §R제2차 내전§!이라는 최후의 수단까지 감행해야 합니다.....(생략)" 연설을 마친 [D02.GetLeader]은(는) "비바 라 에스파냐(에스파냐 만세)"를 외치며 한쪽 손을 높이 치켜 들을 때 어디선가 4발의 총성이 [D02.GetLeader]을 향해 들려왔습니다. [D02.GetLeader]은(는) 그 자리에서 사망하고 말았습니다. 광장은 혼란에 휩싸였습니다."
+ Ana_news.6.a:0 "이베리아에 또 다시 혼란이 찾아왔군"
+ 
+ CNTFAI.3.t:0 "팔랑헤당의 물락"
+ CNTFAI.3.d:0 "암살사건 이후, 스페인에서는 [D02.GetLeader]가 권력을 장악하고 철권통치를 위해서 팔랑헤당의 인사들을 차차 숙청하고 스스로를 스페인의 진정한 카우디요라 자처하고 있습니다. 국민들은 이러한 팔랑헤당과 군부에 대한 태도에 대해서 분노를 느끼고 그들을 "무능한 체제"라며 비판하고 있습니다. 그들이 혼란 날이 갈수록 심해질 것이고 결국에는 몰락하고야 말 것입니다. 그리고 그 몰락과 갈등 속에서 고통받는 인민을 구원하기 위해 우리는 움직일 것입니다."
+ CNTFAI.3.a:0 "새로운 사회를 건설할 떄다"
