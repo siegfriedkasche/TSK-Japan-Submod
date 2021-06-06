@@ -598,7 +598,56 @@ political_advisor = {
 				has_completed_focus = newfocus_26
 			}
 			cost = 100
-			traits = { KOR_hong_trait }
+			traits = { MJP_Kanemoto_trait }
+			ai_will_do = { factor = 100 }
+		}
+       Ryutaro_Hashimoto = {
+			picture = aa
+			allowed = {
+				original_tag = MJP
+			}
+			available = {
+                NOT = {
+					has_completed_focus = MJP_Election
+				}
+				has_completed_focus = Liberal_Democratic_Party
+                has_completed_focus = MJP_Cabinet_of_Hashimoto
+				has_completed_focus = newfocus_26
+			}
+			cost = 100
+			traits = { MJP_Hashimoto_trait }
+			ai_will_do = { factor = 1 }
+		}
+        Tsutomu_Hata = {
+			picture = aa
+			allowed = {
+				original_tag = MJP
+			}
+			available = {
+                NOT = {
+					has_completed_focus = MJP_Election
+				}
+				has_completed_focus = Constitution
+				has_completed_focus = newfocus_26
+			}
+			cost = 100
+			traits = { MJP_Hata_trait }
+			ai_will_do = { factor = 100 }
+		}
+        Yamahana_Sadao = {
+			picture = aa
+			allowed = {
+				original_tag = MJP
+			}
+			available = {
+                NOT = {
+					has_completed_focus = MJP_Election
+				}
+				has_completed_focus = Communism
+				has_completed_focus = newfocus_26
+			}
+			cost = 100
+			traits = { MJP_Sadao_trait }
 			ai_will_do = { factor = 100 }
 		}
         Toshinori_Kanemoto = {
