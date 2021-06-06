@@ -1,0 +1,27 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_Akihito"
+		texturefile = "gfx/ideas/MJP/Akihito.png"
+	}
+	spriteType = {
+		name = "GFX_Masayoshi-Son"
+		texturefile = "gfx/ideas/MJP/Masayoshi-Son.png"
+	}
+	spriteType = {
+		name = "GFX_Katsuhiro-Kuroda"
+		texturefile = "gfx/ideas/MJP/Katsuhiro-Kuroda.png"
+	}
+	spriteType = {
+		name = "GFX_Ryutaro-Hashimoto"
+		texturefile = "gfx/ideas/MJP/Ryutaro-Hashimoto.png"
+	}
+	spriteType = {
+		name = "GFX_Tsutomu-Hata"
+		texturefile = "gfx/ideas/MJP/Tsutomu-Hata.png"
+	}
+	spriteType = {
+		name = "GFX_Junichiro-Koizumi"
+		texturefile = "gfx/ideas/MJP/Junichiro-Koizumi.png"
+	}
+}

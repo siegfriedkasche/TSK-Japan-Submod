@@ -510,7 +510,7 @@ country = {
     }
 political_advisor = {
     Akihito = {
-			picture = aa
+			picture = GFX_Akihito
 			allowed = {
 				original_tag = MJP
 			}
@@ -523,7 +523,7 @@ political_advisor = {
 			ai_will_do = { factor = 0 }
 		}
         Masayoshi_Son = {
-			picture = aa
+			picture = GFX_Masayoshi-Son
 			allowed = {
 				original_tag = MJP
 			}
@@ -560,7 +560,7 @@ political_advisor = {
 			ai_will_do = { factor = 0 }
 		}
         Katsuhiro_Kuroda = {
-			picture = aa
+			picture = GFX_Katsuhiro-Kuroda
 			allowed = {
 				original_tag = MJP
 			}
@@ -573,7 +573,7 @@ political_advisor = {
 			ai_will_do = { factor = 1 }
 		}
         Junichiro_Koizumi = {
-			picture = aa
+			picture = Junichiro-Koizumi
 			allowed = {
 				original_tag = MJP
 			}
@@ -602,7 +602,7 @@ political_advisor = {
 			ai_will_do = { factor = 100 }
 		}
        Ryutaro_Hashimoto = {
-			picture = aa
+			picture = GFX_Ryutaro-Hashimoto
 			allowed = {
 				original_tag = MJP
 			}
@@ -619,7 +619,7 @@ political_advisor = {
 			ai_will_do = { factor = 1 }
 		}
         Tsutomu_Hata = {
-			picture = aa
+			picture = GFX_Tsutomu-Hata
 			allowed = {
 				original_tag = MJP
 			}
