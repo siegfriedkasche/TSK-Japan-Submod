@@ -39,7 +39,7 @@ MJP_DD_HISTORICAL = {
 MJP_DDG_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DDG
 
-	for_countries = { JDF }
+	for_countries = { MJP }
 
 	type = ship
 	
@@ -61,7 +61,7 @@ MJP_DDG_HISTORICAL = {
 MJP_DDH_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DDH
 
-	for_countries = { JDF }
+	for_countries = { MJP }
 
 	type = ship
 	
