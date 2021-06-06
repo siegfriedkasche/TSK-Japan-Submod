@@ -1,0 +1,36 @@
+
+state={
+	id=526
+	name="STATE_526"
+	manpower = 1171552
+	
+	state_category = small_island
+
+	history={
+		owner = USJ
+		add_core_of = USJ
+		buildings = {
+			infrastructure = 5
+			air_base = 10
+			11932 = {
+				naval_base = 7
+
+			}
+
+		}
+		victory_points = {
+			11932 20
+		}
+
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+		}
+
+	}
+
+	provinces={
+		1123 7115 10124 11932 
+	}
+}
