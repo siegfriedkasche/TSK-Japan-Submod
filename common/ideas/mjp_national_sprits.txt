@@ -634,7 +634,7 @@ political_advisor = {
 			traits = { MJP_Hata_trait }
 			ai_will_do = { factor = 100 }
 		}
-        Yamahana_Sadao = {
+        Kazuo_Shii = {
 			picture = aa
 			allowed = {
 				original_tag = MJP
@@ -647,7 +647,7 @@ political_advisor = {
 				has_completed_focus = newfocus_26
 			}
 			cost = 100
-			traits = { MJP_Sadao_trait }
+			traits = { MJP_Shil_trait }
 			ai_will_do = { factor = 100 }
 		}
         Toshinori_Kanemoto = {

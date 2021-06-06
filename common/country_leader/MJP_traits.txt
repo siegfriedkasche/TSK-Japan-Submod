@@ -32,7 +32,7 @@ leader_traits = {
 	MJP_Hata_trait = {
 		stability_factor = 0.1
 	}
-	MJP_Sadao_trait = {
+	MJP_Shil_trait = {
 		communism_drift = 0.03
 	}
 	MJP_Hashimoto_trait = {
