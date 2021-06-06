@@ -1,0 +1,769 @@
+equipment_modules = {
+
+	ship_light_secondaries_1 = {
+		category = ship_light_secondaries
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			lg_attack = 1
+			build_cost_ic = 180
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 3
+		}
+		critical_parts = { damaged_secondaries }
+	}
+
+	ship_light_secondaries_2 = {
+		category = ship_light_secondaries
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			lg_attack = 2
+			build_cost_ic = 230
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 4
+		}
+		critical_parts = { damaged_secondaries }
+	}
+	
+
+	ship_mg = {
+		category = ship_light_aa
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			anti_air_attack = 0.8
+			lg_attack = 0.1
+			build_cost_ic = 50
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 0.5
+		}
+	}
+
+	ship_vulcan_1 = {
+		category = ship_light_aa
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			anti_air_attack = 10
+			lg_attack = 1
+			build_cost_ic = 80
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 0.5
+		}
+	}
+
+	ship_vulcan_2 = {
+		category = ship_light_aa
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			anti_air_attack = 15
+			lg_attack = 2
+			build_cost_ic = 100
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 0.5
+		}
+	}
+
+	ship_manpad = {
+		category = ship_light_aa
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			anti_air_attack = 20
+			build_cost_ic = 70
+		}
+		
+		can_convert_from = {
+			module_category = ship_light_aa
+			convert_cost_ic = 100
+		}
+	}
+	modern_ship_light_battery_1 = {
+		category = ship_light_battery
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 8
+			anti_air_attack = 10
+			build_cost_ic = 300	
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		add_average_stats = {
+			lg_armor_piercing = 35
+		}
+		critical_parts = { damaged_light_guns }
+	}
+
+	modern_ship_light_battery_2 = {
+		category = ship_light_battery
+		parent = modern_ship_light_battery_1
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 10
+			anti_air_attack = 15
+			build_cost_ic = 400	
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		add_average_stats = {
+			lg_armor_piercing = 40
+		}
+		
+		can_convert_from = {
+			module_category = ship_light_battery
+			convert_cost_ic = 200
+		}
+		critical_parts = { damaged_light_guns }
+	}
+
+	ship_vls_1 = { #수직발사대
+		category = ship_VLS
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			sub_attack = 100
+			lg_attack = 45
+			hg_attack = 80
+			anti_air_attack = 80
+			build_cost_ic = 5000
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+		}
+		add_average_stats = {
+			lg_armor_piercing = 100
+			hg_armor_piercing = 150
+		}
+	}
+
+	ship_vls_2 = {
+		category = ship_VLS
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			sub_attack = 50
+			lg_attack = 150
+			hg_attack = 200
+			anti_air_attack = 100
+			build_cost_ic = 6500
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+		}
+		add_average_stats = {
+			lg_armor_piercing = 100
+			hg_armor_piercing = 150
+		}
+	}
+
+	ship_missile_luncher_1 = { #함대함 미사일
+		category = ship_sts
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 60
+			hg_attack = 70
+			build_cost_ic = 2500
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 80
+			hg_armor_piercing = 100
+		}
+	}
+	
+	ship_missile_luncher_2 = { #함대함 미사일2
+		category = ship_sts
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 60
+			hg_attack = 85
+			build_cost_ic = 2700
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 80
+			hg_armor_piercing = 100
+		}
+	}
+	
+	ship_missile_luncher_3 = { #함대함 미사일3
+		category = ship_sts
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 75
+			hg_attack = 100
+			build_cost_ic = 3000
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 80
+			hg_armor_piercing = 100
+		}
+	}
+	
+	ship_aa_missile_luncher_1 = {
+		category = ship_anti_air
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			anti_air_attack = 60
+			build_cost_ic = 800
+		}
+	}
+	
+	ship_aa_missile_luncher_2 = {
+		category = ship_anti_air
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			anti_air_attack = 90
+			build_cost_ic = 1000
+		}
+	}
+	
+	ship_ciws_1 = {
+		category = ship_anti_air
+		sfx = sfx_ui_sd_module_turret
+
+		add_equipment_type = anti_air
+		add_stats = {
+			anti_air_attack = 30
+			build_cost_ic = 300
+		}
+	}
+
+	ship_ciws_2 = {
+		category = ship_anti_air
+		parent = ship_ship_ciws_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_equipment_type = anti_air
+		add_stats = {
+			anti_air_attack = 45
+			build_cost_ic = 400
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.05
+			build_cost_ic = 0.010
+		}
+	}
+	
+	ship_modern_fire_control_system_1 = {
+		category = ship_fire_control_system
+		sfx = sfx_ui_sd_module_sonar
+
+		
+		add_stats = {
+			build_cost_ic = 1000
+		}
+		
+		multiply_stats = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+			anti_air_attack = 0.1
+			reliability = -0.1
+		}
+	}
+	
+	ship_modern_fire_control_system_2 = {
+		category = ship_fire_control_system
+		sfx = sfx_ui_sd_module_sonar
+
+		
+		add_stats = {
+			build_cost_ic = 1500
+		}
+		
+		multiply_stats = {
+			lg_attack = 0.2
+			hg_attack = 0.2
+			anti_air_attack = 0.2
+			reliability = -0.05
+		}
+	}
+	ship_modern_radar_1 = {
+		category = ship_radar
+		sfx = sfx_ui_sd_module_sonar
+
+		multiply_stats = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+			anti_air_attack = 0.1
+		}
+		add_stats = {
+			build_cost_ic = 500
+			surface_detection = 40
+			sub_detection = 20
+		}
+	}
+
+	ship_modern_radar_2 = {
+		category = ship_radar
+		sfx = sfx_ui_sd_module_sonar
+
+		multiply_stats = {
+			lg_attack = 0.15
+			hg_attack = 0.15
+			anti_air_attack = 0.15
+		}
+		add_stats = {
+			
+			build_cost_ic = 550
+			surface_detection = 50
+			sub_detection = 20
+		}
+	}
+	
+	ship_aegis_radar_1 = {
+		category = ship_aegis_radar
+		sfx = sfx_ui_sd_module_sonar
+
+		multiply_stats = {
+			lg_attack = 0.3
+			hg_attack = 0.3
+			anti_air_attack = 0.3
+		}
+		add_stats = {
+			
+			build_cost_ic = 1000
+			surface_detection = 150
+			sub_detection = 60
+		}
+	}
+
+	light_ship_engine_modern_1 = {
+		category = light_ship_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 5.5
+			fuel_consumption = 10
+			build_cost_ic = 500
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.5
+			reliability = -0.1
+		}
+	}
+
+	light_ship_engine_modern_2 = {
+		category = light_ship_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 5
+			fuel_consumption = 10
+			build_cost_ic = 600
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.50
+			reliability = -0.1
+		}
+	}
+
+	sub_ship_engine_modern_1 = {
+		category = sub_ship_engine
+		parent = sub_ship_engine_4
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 5.5
+			fuel_consumption = 10
+			build_cost_ic = 600
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.25
+			reliability = -0.1
+			sub_visibility = -0.15
+		}
+	}
+
+	sub_ship_engine_modern_2 = {
+		category = sub_ship_engine
+		parent = sub_ship_engine_4
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 5
+			fuel_consumption = 10
+			build_cost_ic = 650
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.25
+			reliability = -0.1
+			sub_visibility = -0.15
+		}
+		
+		can_convert_from = {
+			module_category = sub_ship_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = sub_ship_engine_4
+			convert_cost_ic = 230
+		}
+	}
+
+	cruiser_ship_engine_modern_1 = {
+		category = cruiser_ship_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 7.5
+			fuel_consumption = 24
+			build_cost_ic = 800
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.45
+			reliability = -0.2
+		}
+	}
+
+	cruiser_ship_engine_modern_2 = {
+		category = cruiser_ship_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 7
+			fuel_consumption = 24
+			build_cost_ic = 1000
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.45
+			reliability = -0.2
+		}
+	}
+	
+	ship_sub_snorkel_modern = {
+		category = ship_sub_snorkel
+		gfx = ship_sub_snorkel
+		
+		multiply_stats = {
+			sub_visibility = -0.3 
+		}
+		
+		add_stats = {
+			build_cost_ic = 200
+		}
+	}
+	
+	ship_hel_modern = {
+		category = ship_airplane_launcher
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			sub_attack = 30
+			surface_detection = 20
+			sub_detection = 15
+			build_cost_ic = 400
+		}
+
+		can_convert_from = {
+			module_category = ship_depth_charge
+			convert_cost_ic = 15000
+		}
+	}
+
+	ship_depth_charge_modern_1 = {
+		category = ship_depth_charge
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			sub_attack = 24.5
+			build_cost_ic = 250
+		}
+
+		can_convert_from = {
+			module_category = ship_depth_charge
+			convert_cost_ic = 15000
+		}
+	}
+
+	ship_depth_charge_modern_2 = {
+		category = ship_depth_charge
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			sub_attack = 26
+			build_cost_ic = 270
+		}
+
+		can_convert_from = {
+			module_category = ship_depth_charge
+			convert_cost_ic = 150
+		}
+	}
+
+	ship_sonar_modern_1 = {
+		category = ship_sonar
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			sub_detection = 9.5
+			build_cost_ic = 150
+		}
+		can_convert_from = {
+			module_category = ship_sonar
+			convert_cost_ic = 3000
+		}
+	}
+
+	ship_sonar_modern_2 = {
+		category = ship_sonar
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			sub_detection = 15
+			build_cost_ic = 200
+		}
+		can_convert_from = {
+			module_category = ship_sonar
+			convert_cost_ic = 30
+		}
+	}
+	
+	ship_armor_light_modern_1 = {
+		category = ship_cruiser_armor
+		
+		multiply_stats = {
+			build_cost_ic = 0.2
+			naval_speed = -0.1
+			max_strength = 0.1
+		}
+		dismantle_cost_ic = 2000
+		
+		add_stats = {
+			armor_value = 4
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 2
+		}
+	}
+
+	ship_armor_light_modern_2 = {
+		category = ship_cruiser_armor
+		
+		multiply_stats = {
+			build_cost_ic = 0.2
+			naval_speed = -0.05
+			max_strength = 0.1
+		}
+		dismantle_cost_ic = 2500
+		
+		add_stats = {
+			armor_value = 5
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 2
+		}
+	}
+
+	ship_armor_cruiser_modern_1 = {
+		category = ship_cruiser_armor
+		
+		multiply_stats = {
+			build_cost_ic = 0.2
+			naval_speed = -0.1
+			max_strength = 0.1
+		}
+		dismantle_cost_ic = 4000
+		
+		add_stats = {
+			armor_value = 10
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 2
+		}
+	}
+
+	ship_armor_cruiser_modern_2 = {
+		category = ship_cruiser_armor
+		
+		multiply_stats = {
+			build_cost_ic = 0.2
+			naval_speed = -0.1
+			max_strength = 0.1
+		}
+		dismantle_cost_ic = 5000
+		
+		add_stats = {
+			armor_value = 12
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 2
+		}
+	}
+
+	ship_torpedo_modern_1 = {
+		category = ship_torpedo
+
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			torpedo_attack = 55.5
+			build_cost_ic = 210
+		}
+		
+		dismantle_cost_ic = 60
+
+		can_convert_from = {
+			module_category = ship_torpedo
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+
+	ship_torpedo_modern_2 = {
+		category = ship_torpedo
+		
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			torpedo_attack = 58
+			build_cost_ic = 350
+		}
+		
+		dismantle_cost_ic = 60
+
+		can_convert_from = {
+			module_category = ship_torpedo
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+
+	ship_torpedo_sub_modern_1 = {
+		category = ship_torpedo_sub
+		
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			torpedo_attack = 55
+			build_cost_ic = 500
+			sub_attack = 10
+		}
+		can_convert_from = {
+			module_category = ship_torpedo_sub
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+
+	ship_torpedo_sub_modern_2 = {
+		category = ship_torpedo_sub
+		
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			torpedo_attack = 65
+			build_cost_ic = 600
+			sub_attack = 12
+		}
+		can_convert_from = {
+			module_category = ship_torpedo_sub
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+
+	ship_torpedo_sub_modern_3 = {
+		category = ship_torpedo_sub
+		
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			torpedo_attack = 70
+			build_cost_ic = 700
+			sub_attack = 15
+		}
+		can_convert_from = {
+			module_category = ship_torpedo_sub
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+	
+	ship_sts_sub_1 = {
+		category = ship_torpedo_sub
+		
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 30
+			hg_attack = 45
+			build_cost_ic = 4000
+		}
+		add_average_stats = {
+			lg_armor_piercing = 100
+			hg_armor_piercing = 150
+		}
+	}
+	
+}
