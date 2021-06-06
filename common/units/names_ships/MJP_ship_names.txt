@@ -36,6 +36,75 @@ MJP_DD_HISTORICAL = {
 }
 
 ### ESCORT DESTROYER NAMES###
+MJP_DDG_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DDG
+
+	for_countries = { JDF }
+
+	type = ship
+	
+	prefix = "JDS "							
+	fallback_name = "DDG-%d"
+
+	unique = {
+		#공고급
+		"Kongō" "Kirishima" "Myōkō" "Chōkai"
+		#아타고급
+		"Atago" "Ashigara" 
+		#마야급
+		"Maya" "Haguro"
+		#
+		"Mirai" "Yukinami" "Haruka"
+	}
+}
+
+MJP_DDH_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DDH
+
+	for_countries = { JDF }
+
+	type = ship
+	
+	prefix = "JDS "							
+	fallback_name = "DD-1%d"
+
+	unique = {
+		#타치카제급
+		"Tachikaze" "Asakaze" "Sawakaze"
+		#하츠유키급
+		"Hatsuyuki" "Shirayuki" "Mineyuki" "Sawayuki" "Hamayuki" "Isoyuki" "Haruyuki" "Yamayuki" "Matsuyuki" "Setoyuki" "Asayuki" "Shimayuki"
+		#아사기리급
+		"Asagiri" "Yamagiri" "Yūgiri" "Amagiri" "Hamagiri" "Setogiri" "Sawagiri" "Umigiri"
+		#하타카제급
+		"Hatakaze" "Shimakaze"
+		#무라사메급
+		"Murasame" "Harusame" "Yūdachi" "Kirisame" "Inazuma" "Samidare" "Ikazuchi" "Ikazuchi" "Ariake"
+		#타카나미급
+		"Takanami" "Ōnami" "Makinami" "Sazanami" "Suzunami"
+		#아키즈키급
+		"Akizuki" "Teruzuki" "Suzutsuki" "Fuyuzuki"
+	}
+}
+
+MJP_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CV
+
+	for_countries = { JDF }
+
+	type = ship
+	
+	prefix = "JDS "							
+	fallback_name = "CV-1%d"
+
+	unique = {
+		#휴우가급
+		"Hyūga" "Ise"
+		#이즈모급
+		"Izumo" "Kaga" "Yamashiro"
+		#구일본함선
+		"Shinano" "Akagi" "Hiryu" "Soryu" "Shokaku" "Zuikaku" "Taiho"
+	}
+}
 MJP_DE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DE
 
