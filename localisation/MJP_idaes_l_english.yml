@@ -13,6 +13,8 @@
  MJP_Hata_trait:0 "신생당 총재"
  MJP_Shil_trait:0 "일본 공산당 서기국장"
  MJP_Hashimoto_trait:0 "자민당 총재 및 내각 대신"
+ 
+ MJP_Hiranuma_trait:0 "일본 경제산업성 대신"
 
  MJP_Cabinet_Intelligence_and_Research_Office_MJP:0 "내각정보조사실"
  ### MJP - Human
@@ -28,16 +30,32 @@
  Kake_Aichi:0 "가케 에이이치"
  Toshinori_Kanemoto:0 "카네모토 토시노리"
 
+ Takeo_Hiranuma:0 "히라누마 타케오"
+ Yoshio_Suzuki:0 "스즈키 요시오"
+ Ryuichi_Shikamata:0 "시미가타 류이치"
+ Ikuo_Sakuyama:0 "사쿠야마 이쿠오"
+ Saga_Ikuo:0 "사가 이쿠오"
+
+ Toshikazu_Yamane:0 "야마네 도시카즈"
+ Katsuo_Shimoaki:0 "시오아키 카츠오"
+ Kazumasa_Ueda:0 "우에다 가즈마사"
+ Unijima_Kizuki:0 "우니지마 키즈키"
+ Yui_Kimiya:0 "유이 키미야"
+ Kenichi_Samejima:0 "사메지마 켄이치"
+ Guida_Gueo:0 "가이다 시게오"
+ Katsushi_Omachi:0 "오마치 가이치"
+ Satoru_Onishi:0 "오니시 사토루"
+
  Taizo_Terashima:0 "데라시마 다이조"
- Shima Atsushi:0 "시마 아쓰시"
+ Shima_Atsushi:0 "시마 아쓰시"
  Tetsuya_Nishimoto:0 "니시모토 데쓰야"
  Tomizawa_Hikaru:0 "도미자와 히카루"
  Tadayoshi_Yonekawa:0 "요네카와 다다요시"
  Suzuki_Akio:0 "스즈키 아키오"
  Isao_Ishizuka:0 "이시즈카 이사오"
- Kōichi_Isobe:0 "이소베 코이치"
  Fumio_Okabe:0 "오카베 후미오"
  Hayashizaki_Jiaki:0 "하야시자키 지아키"
+
  
  nine_Kawasaki_ship:0 "가와사키 중공업"
  nine_IHI_ship:0 "IHI"

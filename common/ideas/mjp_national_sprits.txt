@@ -510,7 +510,7 @@ country = {
     }
 political_advisor = {
     Akihito = {
-			picture = GFX_Akihito
+			picture = Akihito
 			allowed = {
 				original_tag = MJP
 			}
@@ -560,7 +560,7 @@ political_advisor = {
 			ai_will_do = { factor = 0 }
 		}
         Katsuhiro_Kuroda = {
-			picture = GFX_Katsuhiro-Kuroda
+			picture = Katsuhiro-Kuroda
 			allowed = {
 				original_tag = MJP
 			}
@@ -598,11 +598,11 @@ political_advisor = {
 				has_completed_focus = newfocus_26
 			}
 			cost = 100
-			traits = { MJP_Kanemoto_trait }
+			traits = { MJP_Kake_trait }
 			ai_will_do = { factor = 100 }
 		}
        Ryutaro_Hashimoto = {
-			picture = GFX_Ryutaro-Hashimoto
+			picture = Ryutaro-Hashimoto
 			allowed = {
 				original_tag = MJP
 			}
@@ -619,7 +619,7 @@ political_advisor = {
 			ai_will_do = { factor = 1 }
 		}
         Tsutomu_Hata = {
-			picture = GFX_Tsutomu-Hata
+			picture = Tsutomu-Hata
 			allowed = {
 				original_tag = MJP
 			}
@@ -680,6 +680,117 @@ political_advisor = {
 		}
 }
 
+theorist = {
+		
+		Takeo_Hiranuma = { #히라누마 타케오(경제산업성 대신 )
+			ledger = army
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+				has_completed_focus = newfocus_15
+				
+			}
+		
+			research_bonus = {
+				nuclear = 0.15
+                
+                
+			}
+			
+			traits = { nuclear_scientist }
+		}
+        
+		Yoshio_Suzuki = { #스즈키 요시오
+			ledger = army
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_mobile_warfare = 0.15
+			}
+			
+
+			traits = { mobile_warfare_expert }
+		}
+		
+		Ryuichi_Shikamata = { #시미가타 류이치
+			ledger = air
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_battlefield_support = 0.15
+			}
+			
+			traits = { close_air_support_proponent }
+		}
+		
+		Ikuo_Sakuyama = { #사쿠야마 이쿠오
+			ledger = air
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+		
+		Saga_Ikuo = { #사가 이쿠오
+			ledger = navy
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+			
+			research_bonus = {
+				navy_doctrine = 0.10
+			}
+			
+			traits = { Naval_Theorist }
+		}
+	}
+		
+}
 
 army_chief = {
 
@@ -859,6 +970,188 @@ air_chief = {
 			}
 		}
 	}
+
+    high_command = {
+
+		Toshikazu_Yamane = { # 야마네 도시카즈
+			ledger = army
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		
+		Katsuo_Shimoaki = { #시오아키 카츠오
+			ledger = army
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+			traits = { army_armored_3 }
+			
+			ai_will_do = {
+				factor = 8
+			}
+		}
+		
+		Unijima_Kizuki = { #우니지마 키즈키
+			ledger = army
+
+			
+			allowed = {
+				original_tag = KOR
+				
+			}
+			available = {
+			
+				
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+		
+		Kazumasa_Ueda = { #우에다 가즈마사
+			ledger = army
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+		#####
+		Yui_Kimiya = { #유이 키미야
+			ledger = air
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		Kenichi_Samejima = { #사메지마 켄이치
+			ledger = air
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+			
+			traits = { air_bomber_interception_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		 
+		Guida_Gueo = { #가이다 시게오
+			ledger = air
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+			
+			traits = { air_airborne_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+		####
+		Katsushi_Omachi = { #오마치 가이치
+			ledger = navy
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+			
+			traits = { navy_fleet_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		 
+		Satoru_Onishi = { #오니시 사토루
+			ledger = navy
+
+			
+			allowed = {
+				original_tag = MJP
+				
+			}
+			available = {
+			
+				
+			}
+			
+			traits = { navy_anti_submarine_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+    }
 naval_manufacturer = { 
 		
 		designer = yes
@@ -911,7 +1204,7 @@ naval_manufacturer = {
 				naval_equipment = 0.15
 			}
 			
-			traits = { raiding_fleet_naval_manufacturer }
+			traits = { Pacific_Fleet_Naval_Manufacturerr }
 			
 			equipment_bonus = {
 				
