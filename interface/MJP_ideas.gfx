@@ -24,4 +24,20 @@ spriteTypes = {
 		name = "Junichiro-Koizumi"
 		texturefile = "gfx/ideas/MJP/Junichiro-Koizumi.png"
 	}
+	spriteType = {
+		name = "Toshinori-Kanemoto"
+		texturefile = "gfx/ideas/MJP/Toshinori-Kanemoto.png"	
+	}
+	spriteType = {
+		name = "Kazuo-Shii"
+		texturefile = "gfx/ideas/MJP/Kazuo_Shii.png"	
+	}
+	spriteType = {
+		name = "Kake-Aichi"
+		texturefile = "gfx/ideas/MJP/Kake-Aichi.png"	
+	}
+	spriteType = {
+		name = "Makoto-Sakuma"
+		texturefile = "gfx/ideas/MJP/Makoto-Sakuma.png"	
+	}
 }
