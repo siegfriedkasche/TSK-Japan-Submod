@@ -40,4 +40,8 @@ spriteTypes = {
 		name = "Makoto-Sakuma"
 		texturefile = "gfx/ideas/MJP/Makoto-Sakuma.png"	
 	}
+	spriteType = {
+		name = "Takeo-Hiranuma"
+		texturefile = "gfx/ideas/MJP/Takeo-Hiranuma.png"	
+	}
 }
