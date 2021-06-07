@@ -523,7 +523,7 @@ political_advisor = {
 			ai_will_do = { factor = 0 }
 		}
         Masayoshi_Son = {
-			picture = GFX_Masayoshi-Son
+			picture = Masayoshi-Son
 			allowed = {
 				original_tag = MJP
 			}
@@ -539,7 +539,7 @@ political_advisor = {
 			ai_will_do = { factor = 1 }
 		}
         Makoto_Sakuma = {
-			picture = aa
+			picture = Makoto-Sakuma
 			allowed = {
 				original_tag = MJP
 			}
@@ -589,7 +589,7 @@ political_advisor = {
 			ai_will_do = { factor = 1 }
 		}
         Kake_Aichi = {
-			picture = aa
+			picture = Kake-Aichi
 			allowed = {
 				original_tag = MJP
 			}
@@ -635,7 +635,7 @@ political_advisor = {
 			ai_will_do = { factor = 100 }
 		}
         Kazuo_Shii = {
-			picture = aa
+			picture = Kazuo_Shii
 			allowed = {
 				original_tag = MJP
 			}
