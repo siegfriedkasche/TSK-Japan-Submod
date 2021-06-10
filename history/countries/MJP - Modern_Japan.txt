@@ -124,28 +124,6 @@ set_technology = {
 	
 	m_1980_jet_CAS = 1
 	
-	light_ship_engine_modern_1 = 1
-	cruiser_ship_engine_modern_1 = 1
-	ship_modern_radar_1 = 1
-	ship_aegis_radar = 1
-	ship_modern_control_system_1 = 1
-	
-	ship_torpedo_modern_1 = 1
-	
-	ship_ciws_2 = 1
-	
-	ship_missile_luncher_1 = 1	
-	ship_missile_luncher_2 = 1	
-	
-	ship_vls_1 = 1
-	ship_vls_2 = 1
-
-	modern_light_battery_1 = 1
-	modern_light_battery_2 = 1
-
-	ship_aa_missile_luncher_1 = 1
-	
-	
 	m_20000PCC = 1
 	
 	m_1970ff = 1
@@ -164,16 +142,17 @@ set_technology = {
 	m_1990SS = 1
 	m_2000SS = 1
 
+
+
 	ship_modern_torpedo_1 = 1
 	ship_modern_torpedo_2 = 1
 	ship_modern_torpedo_3 = 1
-	ship_sts_sub = 1
-
+	
 	ship_armor_cruiser_modern_1 = 1
 	ship_armor_cruiser_modern_2 = 1
 	
-
-	ship_aegis_radar = 1
+	ship_aa_missile_luncher_1 = 1
+    ship_aegis_radar = 1
 	ship_torpedo_modern_1 = 1
 	ship_vls_1 = 1
 	ship_vls_2 = 1
