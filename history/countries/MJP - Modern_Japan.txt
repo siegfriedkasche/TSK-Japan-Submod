@@ -77,6 +77,10 @@ set_technology = {
 	
 	modern_armored_car = 1
 	modern_moto = 1
+
+	armored_car1 = 1
+	
+	m_1990_IFV = 1
 	
 	m_1970_spaa = 1
 	m_1980_spaa = 1
@@ -159,22 +163,82 @@ set_technology = {
 	m_1980SS = 1
 	m_1990SS = 1
 	m_2000SS = 1
-	
 
-	
-	ship_modern_sonar_1 = 1
-	ship_modern_sonar_2 = 1
 	ship_modern_torpedo_1 = 1
 	ship_modern_torpedo_2 = 1
 	ship_modern_torpedo_3 = 1
 	ship_sts_sub = 1
-	
-	armored_car1 = 1
-	
-	m_1990_IFV = 1
-	
+
 	ship_armor_cruiser_modern_1 = 1
 	ship_armor_cruiser_modern_2 = 1
+	
+
+	ship_aegis_radar = 1
+	ship_torpedo_modern_1 = 1
+	ship_vls_1 = 1
+	ship_vls_2 = 1
+	modern_light_battery_1 = 1
+	modern_light_battery_2 = 1
+	ship_missile_luncher_1 = 1
+	ship_missile_luncher_2 = 1
+	ship_missile_luncher_3 = 1
+	ship_aa_missile_luncher_1 = 1
+	ship_aa_missile_luncher_2 = 1
+	ship_ciws = 1
+	ship_ciws_2 = 1
+	ship_modern_control_system_1 = 1
+	ship_modern_control_system_2 = 1
+	ship_modern_radar_1 = 1
+	ship_modern_radar_2 = 1
+	ship_modern_sonar_1 = 1
+	ship_modern_sonar_2 = 1
+	light_ship_engine_modern_1 = 1
+	light_ship_engine_modern_2 = 1
+	cruiser_ship_engine_modern_1 = 1
+	cruiser_ship_engine_modern_2 = 1
+	ship_hel = 1
+	
+	light_secondaries_1 = 1
+	mg = 1
+	ship_vulcan_1 = 1
+	ship_manpad = 1
+	depth_charge_modern_1 = 1
+	
+	sub_ship_engine_modern_1 = 1
+	sub_ship_engine_modern_2 = 1
+	ship_sub_snorkel_modern = 1
+	ship_torpedo_sub_modern_1 = 1
+	ship_torpedo_sub_modern_2 = 1
+	ship_sts_sub_1 = 1
+	
+	modern_steel_mill = 1
+	modern_fuel_refining = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	
+	atomic_research = 1
+	nuclear_reactor = 1
+	jet_engines = 1
+	advanced_rocket_engines = 1
+	improved_rocket_engines = 1
+	rocket_engines = 1
+	experimental_rockets = 1
+	electronic_mechanical_engineering = 1
+	mechanical_computing = 1
+	radio = 1
+	radio_detection = 1
+	radar_station = 1
+	decimetric_radar = 1
+	improved_decimetric_radar = 1
+	centimetric_radar = 1
+	improved_centimetric_radar = 1
+	advanced_centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	advanced_encryption = 1
+	advanced_decryption = 1
 }
 
 if = {
