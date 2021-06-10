@@ -2,6 +2,20 @@
 
 oob = "MJP_1936"
 
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+
+	set_naval_oob = "MJP_1936_naval"
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "MJP_1936_naval_mtg"
+}
+
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.3
 
@@ -24,95 +38,131 @@ if = {
 	add_ideas = MTG_naval_treaty_adherent
 }
 
+# Starting tech
 set_technology = {
-    m_19
-    m_1960_infantry_eq = 1
-	m_1970_infantry_eq = 1
-	m_1980_infantry_eq = 1
-	m_1990_infantry_eq = 1
-	m_1950_modern_tank = 1
+	light_vehicle_equipment_0 = 1
+	light_vehicle_equipment_1 = 1
+	light_vehicle_equipment_2 = 1
+	light_mun_equipment = 1
+	heavy_mun_equipment = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_engineers2 = 1
+	tech_engineers3 = 1		
+	tech_engineers4 = 1
+	tech_recon = 1
+	tech_recon2 = 1		
+	tech_recon3 = 1
+	tech_recon4 = 1
+	tech_military_police = 1		
+	tech_military_police2 = 1
+	tech_military_police3 = 1
+	tech_military_police4 = 1		
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_maintenance_company3 = 1		
+	tech_maintenance_company4 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1		
+	tech_field_hospital3 = 1
+	tech_field_hospital4 = 1
+	tech_logistics_company = 1		
+	tech_logistics_company2 = 1
+	tech_logistics_company3 = 1
+	tech_logistics_company4 = 1		
+	tech_signal_company = 1		
+	tech_signal_company2 = 1
+	tech_signal_company3 = 1
+	tech_signal_company4 = 1	
+	
+	modern_armored_car = 1
+	modern_moto = 1
+	
+	m_1970_spaa = 1
+	m_1980_spaa = 1
+	m_1990_spaa = 1
+	
+	m_1970_manpad = 1
+	m_1980_manpad = 1
+	
+	m_1970_atgm = 1
+	m_1980_atgm = 1
+	m_1990_atgm = 1
+	
+	m_1970_mechanized_equipment = 1
+	m_1980_mechanized_equipment = 1
+
 	m_1960_modern_tank = 1
 	m_1970_modern_tank = 1
 	m_1980_modern_tank = 1
 	m_1990_modern_tank = 1
-	m_1960_modern_tank = 1
-	m_2000_modern_tank = 1
-	m_2010_modern_tank = 1
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_recon = 1
-	tech_engineers = 1
-	motorised_infantry = 1
-	marines  = 1
-	gw_artillery = 1
-	gwtank = 1
-	basic_light_tank = 1
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
-	cv_early_fighter = 1
-	cv_CAS1 = 1
-	cv_naval_bomber1 = 1
-	early_fighter = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	CAS1 = 1
 	
-	trench_warfare = 1
-	base_strike = 1
-	fuel_silos = 1
-	synth_oil_experiments = 1
-	fuel_refining = 1
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		basic_torpedo = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		basic_heavy_battery = 1
-		basic_medium_battery = 1
-		improved_ship_torpedo_launcher = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		basic_ship_hull_heavy = 1
-		early_ship_hull_carrier = 1
-		basic_ship_hull_carrier = 1
-		mtg_transport = 1
-		coastal_defense_ships = 1
-		basic_secondary_battery = 1
-		basic_depth_charges = 1
-		basic_cruiser_armor_scheme = 1
-		cruiser_submarines = 1
-	}
-	set_naval_oob = "JAP_1936_naval"
-}
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		basic_battleship = 1
-		early_battlecruiser = 1
-		early_carrier = 1
-		basic_carrier = 1
-		transport = 1
-	}
-	set_naval_oob = "JAP_1936_naval_legacy"
+	m_1960_infantry_eq = 1
+	m_1970_infantry_eq = 1
+	m_1980_infantry_eq = 1
+	m_1990_infantry_eq = 1
+	
+	m_1960_sup_infantry_eq = 1
+	m_1970_sup_infantry_eq = 1
+	m_1985_sup_infantry_eq = 1
+	
+	modern_war_artillery = 1
+	modern_war_artillery_2 = 1
+
+	heavy_anti_air = 1
+	aa_missile = 1
+	
+	m_1970_jet_multirole = 1
+	m_1980_jet_multirole = 1
+	
+	m_1970_jet_fighter = 1
+	m_1980_jet_fighter = 1
+	
+	m_1980_jet_CAS = 1
+	
+	light_ship_engine_modern_1 = 1
+	cruiser_ship_engine_modern_1 = 1
+	ship_modern_radar_1 = 1
+	ship_aegis_radar = 1
+	ship_modern_control_system_1 = 1
+	
+	ship_torpedo_modern_1 = 1
+	
+	ship_ciws_2 = 1
+	
+	ship_missile_luncher_1 = 1	
+	ship_missile_luncher_2 = 1	
+	
+	ship_vls_1 = 1
+	ship_vls_2 = 1
+
+	modern_light_battery_1 = 1
+	modern_light_battery_2 = 1
+
+	ship_aa_missile_luncher_1 = 1
+	
+	m_1990DDG = 1
+	
+	m_1980DDH = 1
+	m_1990DDH = 1
+	
+	m_1980SS = 1
+	m_1990SS = 1
+	m_2000SS = 1
+	
+	ship_modern_sonar_1 = 1
+	ship_modern_sonar_2 = 1
+	ship_modern_torpedo_1 = 1
+	ship_modern_torpedo_2 = 1
+	ship_modern_torpedo_3 = 1
+	ship_sts_sub = 1
+	
+	armored_car1 = 1
+	
+	m_1990_IFV = 1
+	
+	ship_armor_cruiser_modern_1 = 1
+	ship_armor_cruiser_modern_2 = 1
 }
 
 if = {
@@ -683,6 +733,8 @@ if = {
 	}
 }
 
+
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
@@ -694,7 +746,7 @@ if = {
 	create_equipment_variant = {
 		name = "공고급"
 		type = ship_hull_modern_DDG_1
-		name_group = JDF_DDG_HISTORICAL
+		name_group = MJP_DDG_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = modern_ship_light_battery_2
@@ -714,7 +766,7 @@ if = {
 	create_equipment_variant = {
 		name = "타치카제급"
 		type = ship_hull_modern_DDH_1
-		name_group = JDF_DDH_HISTORICAL
+		name_group = MJP_DDH_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = modern_ship_light_battery_2
@@ -733,7 +785,7 @@ if = {
 	create_equipment_variant = {
 		name = "시라네급"
 		type = ship_hull_modern_DDH_1
-		name_group = JDF_DDH_HISTORICAL
+		name_group = MJP_DDH_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = modern_ship_light_battery_2
@@ -752,7 +804,7 @@ if = {
 	create_equipment_variant = {
 		name = "하루나급"
 		type = ship_hull_modern_DDH_1
-		name_group = JDF_DDH_HISTORICAL
+		name_group = MJP_DDH_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = modern_ship_light_battery_2
@@ -771,7 +823,7 @@ if = {
 	create_equipment_variant = {
 		name = "하츠유키급"
 		type = ship_hull_modern_DDH_2
-		name_group = JDF_DDH_HISTORICAL
+		name_group = MJP_DDH_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = modern_ship_light_battery_1
@@ -791,7 +843,7 @@ if = {
 	create_equipment_variant = {
 		name = "아사기리급"
 		type = ship_hull_modern_DDH_2
-		name_group = JDF_DDH_HISTORICAL
+		name_group = MJP_DDH_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = modern_ship_light_battery_1
@@ -811,7 +863,7 @@ if = {
 	create_equipment_variant = {
 		name = "하타카제급"
 		type = ship_hull_modern_DDH_2
-		name_group = JDF_DDH_HISTORICAL
+		name_group = MJP_DDH_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = modern_ship_light_battery_1
