@@ -82,6 +82,11 @@ set_technology = {
 	m_1980_spaa = 1
 	m_1990_spaa = 1
 	
+    
+	m_1970_sp = 1	
+	m_1980_sp = 1
+	m_1990_sp = 1
+
 	m_1970_manpad = 1
 	m_1980_manpad = 1
 	
@@ -114,11 +119,20 @@ set_technology = {
 	
 	m_1970_jet_multirole = 1
 	m_1980_jet_multirole = 1
+	m_1990_jet_multirole = 1
 	
 	m_1970_jet_fighter = 1
 	m_1980_jet_fighter = 1
-	
+	m_1990_jet_fighter = 1
+
 	m_1980_jet_CAS = 1
+
+	m_1970_attack_helicopter = 1
+	m_1980_attack_helicopter = 1
+	
+	m_1970_util_helicopter = 1
+	m_1980_util_helicopter = 1
+	m_1990_util_helicopter = 1
 
 	m_1970PCC = 1
 	m_1980PCC = 1
