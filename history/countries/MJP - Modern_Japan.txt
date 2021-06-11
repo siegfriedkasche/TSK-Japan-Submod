@@ -134,6 +134,8 @@ set_technology = {
 	m_1980_util_helicopter = 1
 	m_1990_util_helicopter = 1
 
+    maritime_helicopter = 1
+
 	m_1970PCC = 1
 	m_1980PCC = 1
 	

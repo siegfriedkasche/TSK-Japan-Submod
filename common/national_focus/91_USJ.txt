@@ -1,0 +1,135 @@
+focus_tree = {
+	id = 91_USJ
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USJ
+		}
+	}
+	default = no
+	focus = {
+		id = USJ_1936
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 11
+		y = 0
+
+	}
+	focus = {
+		id = USJ_Korean_Peninsula
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = USJ_Collect_Information
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_1936
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = USJ_MJP
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Collect_Information
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = USJ_South_Korean_naval_control
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_MJP
+		}
+		prerequisite = {
+			focus = USJ_Korean_Peninsula
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = USJ_reorganization
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Collect_Information
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = USJ_Remaining_troops
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_reorganization
+		}
+		prerequisite = {
+			focus = USJ_Korean_Peninsula
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = USJ_a_sea_blockade
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_South_Korean_naval_control
+		}
+		prerequisite = {
+			focus = USJ_Remaining_troops
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = USJ_Daechi
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_a_sea_blockade
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = USJ_recapture_of_Korea
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Daechi
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = USJ_USA_Contact
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_recapture_of_Korea
+		}
+		x = 11
+		y = 7
+
+	}
+}
