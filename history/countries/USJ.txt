@@ -1,6 +1,6 @@
 ﻿capital = 282
 
-oob = "MJP_1936"
+oob = "USJ_1936"
 
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.3
@@ -25,44 +25,110 @@ if = {
 }
 
 set_technology = {
-    m_19
-    m_1960_infantry_eq = 1
+   light_vehicle_equipment_0 = 1
+	light_vehicle_equipment_1 = 1
+	light_vehicle_equipment_2 = 1
+	light_mun_equipment = 1
+	heavy_mun_equipment = 1
+	engineer_equipment = 1
+	modern_moto = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_engineers2 = 1
+	tech_engineers3 = 1		
+	tech_engineers4 = 1
+	tech_recon = 1
+	tech_recon2 = 1		
+	tech_recon3 = 1
+	tech_recon4 = 1
+	tech_military_police = 1		
+	tech_military_police2 = 1
+	tech_military_police3 = 1
+	tech_military_police4 = 1		
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_maintenance_company3 = 1		
+	tech_maintenance_company4 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1		
+	tech_field_hospital3 = 1
+	tech_field_hospital4 = 1
+	tech_logistics_company = 1		
+	tech_logistics_company2 = 1
+	tech_logistics_company3 = 1
+	tech_logistics_company4 = 1		
+	tech_signal_company = 1		
+	tech_signal_company2 = 1
+	tech_signal_company3 = 1
+	tech_signal_company4 = 1	
+	
+	m_1960_infantry_eq = 1
 	m_1970_infantry_eq = 1
 	m_1980_infantry_eq = 1
 	m_1990_infantry_eq = 1
-	m_1950_modern_tank = 1
+	
 	m_1960_modern_tank = 1
 	m_1970_modern_tank = 1
 	m_1980_modern_tank = 1
 	m_1990_modern_tank = 1
-	m_1960_modern_tank = 1
-	m_2000_modern_tank = 1
-	m_2010_modern_tank = 1
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_recon = 1
-	tech_engineers = 1
-	motorised_infantry = 1
-	marines  = 1
-	gw_artillery = 1
-	gwtank = 1
-	basic_light_tank = 1
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
-	cv_early_fighter = 1
-	cv_CAS1 = 1
-	cv_naval_bomber1 = 1
-	early_fighter = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	CAS1 = 1
 	
-	trench_warfare = 1
-	base_strike = 1
-	fuel_silos = 1
-	synth_oil_experiments = 1
-	fuel_refining = 1
+	m_1990_motorized_rocket_unit = 1
+	
+	m_1980_IFV = 1
+	m_1990_IFV = 1
+	
+	m_1970_mechanized_equipment = 1
+	m_1980_mechanized_equipment = 1
+	m_1990_mechanized_equipment = 1
+	
+	modern_war_artillery = 1
+	modern_war_artillery_2 = 1
+	
+	m_1960_sup_infantry_eq = 1
+	m_1970_sup_infantry_eq = 1
+	m_1985_sup_infantry_eq = 1
+	
+	m_1970_spaa = 1
+	m_1980_spaa = 1
+	m_1990_spaa = 1
+	
+	m_1980_sp = 1
+	m_1990_sp = 1
+	
+	m_1980_motorized_rocket_unit = 1
+	
+	m_1980_manpad = 1
+	
+	m_1970_atgm = 1
+	m_1980_atgm = 1
+	m_1990_atgm = 1
+	
+	heavy_anti_air = 1
+	aa_missile = 1
+	
+	m_1970_jet_multirole = 1
+	m_1980_jet_multirole = 1
+	m_1990_jet_multirole = 1
+	
+	m_1970_jet_fighter = 1
+	m_1980_jet_fighter = 1
+	m_1990_jet_fighter = 1
+	
+	m_1980_jet_CAS = 1
+	m_1990_jet_CAS = 1
+	
+	m_1970_atgm = 1
+	m_1980_atgm = 1
+	m_1990_atgm = 1
+	
+	m_1980_attack_helicopter = 1
+	m_1990_attack_helicopter = 1
+	
+	m_1970_util_helicopter = 1
+	m_1980_util_helicopter = 1
+	m_1990_util_helicopter = 1
+
+	motorised_infantry = 1
 }
 if = {
 	limit = {
