@@ -137,3 +137,20 @@ news_event = {
 		}
 	}
 }
+news_event = {
+	id = Ana_news.7
+	title = Ana_news.7.t
+	desc = Ana_news.7.d
+	picture = GFX_CNT_FAI_Ibearia_news_event
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ana_news.7.a
+		hidden_effect = {
+			set_country_flag = big_event_CNT_FAI
+		}
+	}
+}

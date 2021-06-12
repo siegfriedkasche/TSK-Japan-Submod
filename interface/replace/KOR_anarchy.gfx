@@ -113,4 +113,24 @@ spriteTypes = {
 		name = "GFX_CNT_FAI_Collapsing_Falange_event"
 		texturefile = "gfx/event_pictures/GFX_CNT_FAI_Collapsing_Falange_event.png"
 	}
+	spriteType = {
+		name = "GFX_CNT_event"
+		texturefile = "gfx/event_pictures/GFX_CNT_event.png"
+	}
+	spriteType = {
+		name = "GFX_FAI_event"
+		texturefile = "gfx/event_pictures/GFX_FAI_event.png"
+	}
+	spriteType = {
+		name = "GFX_CNT_FAI_question_of_domination_event"
+		texturefile = "gfx/event_pictures/GFX_CNT_FAI_question_of_domination_event.png"
+	}
+	spriteType = {
+		name = "GFX_to_the_freedom_event"
+		texturefile = "gfx/event_pictures/GFX_to_the_freedom_event.png"
+	}
+	spriteType = {
+		name = "GFX_CNT_FAI_Ibearia_news_event"
+		texturefile = "gfx/event_pictures/GFX_CNT_FAI_Ibearia_news_event.png"
+	}
 }

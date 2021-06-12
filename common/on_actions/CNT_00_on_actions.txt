@@ -25,4 +25,160 @@ on_actions = {
             }
         }
     }
+	on_daily = {
+        effect = {
+            if = {
+                limit = {
+                    SPR = {
+                        surrender_progress > 0.95
+                    }
+                    and = {
+                        SPR = {
+                            has_war_with = CNT
+                        }
+                    }
+                }
+                SPR = {
+                    white_peace = CNT
+                    
+                }
+				CNT = {
+                    annex_country = {
+                        target = SPR
+                        transfer_troops = yes
+                    }
+				}
+            }
+        }
+    }
+	on_daily = {
+        effect = {
+            if = {
+                limit = {
+                    POR = {
+                        surrender_progress > 0.95
+                    }
+                    and = {
+                        POR = {
+                            has_war_with = CNT
+                        }
+                    }
+                }
+                POR = {
+                    white_peace = CNT
+                    
+                }
+				CNT = {
+                    annex_country = {
+                        target = POR
+                        transfer_troops = yes
+                    }
+				}
+            }
+        }
+    }
+	on_daily = {
+        effect = {
+            if = {
+                limit = {
+                    D02 = {
+                        surrender_progress > 0.95
+                    }
+                    and = {
+                        D02 = {
+                            has_war_with = CNT
+                        }
+                    }
+                }
+                D02 = {
+                    white_peace = CNT
+                    
+                }
+				CNT = {
+                    annex_country = {
+                        target = D02
+                        transfer_troops = yes
+                    }
+				}
+            }
+        }
+    }
+	on_daily = {
+        effect = {
+            if = {
+                limit = {
+                    D03 = {
+                        surrender_progress > 0.95
+                    }
+                    and = {
+                        D03 = {
+                            has_war_with = CNT
+                        }
+                    }
+                }
+                D03 = {
+                    white_peace = CNT
+                    
+                }
+				CNT = {
+                    annex_country = {
+                        target = D03
+                        transfer_troops = yes
+                    }
+				}
+            }
+        }
+    }
+	on_daily = {
+        effect = {
+            if = {
+                limit = {
+                    D01 = {
+                        surrender_progress > 0.95
+                    }
+                    and = {
+                        D01 = {
+                            has_war_with = CNT
+                        }
+                    }
+                }
+                D01 = {
+                    white_peace = CNT
+                    
+                }
+				CNT = {
+                    annex_country = {
+                        target = D01
+                        transfer_troops = yes
+                    }
+				}
+            }
+        }
+    }
+	on_daily = {
+        effect = {
+            if = {
+                limit = {
+                    D04 = {
+                        surrender_progress > 0.95
+                    }
+                    and = {
+                        D04 = {
+                            has_war_with = CNT
+                        }
+                    }
+                }
+                D04 = {
+                    white_peace = CNT
+                    
+                }
+				CNT = {
+                    annex_country = {
+                        target = D04
+                        transfer_troops = yes
+                    }
+				}
+            }
+        }
+    }
 }

@@ -31,7 +31,11 @@ focus_tree = {
 		}
 		x = 15
 		y = 4
-		
+		completion_reward = {
+		    country_event = {
+				id = CNTFAI.4
+			}
+		}
 	}
 	focus = {
 		id = CNT_FAI_real_revolution
@@ -127,7 +131,13 @@ focus_tree = {
 		}
 		x = 11
 		y = 7
-
+		completion_reward = {
+		    CNT = {
+			    country_event = {
+			    	id = CNTFAI.7
+			    }
+			}
+		}
 	}
 	focus = {
 		id = CNT_FAI_resistance_to_domination
@@ -144,7 +154,7 @@ focus_tree = {
 		}
 		x = 9
 		y = 8
-
+		
 	}
 	focus = {
 		id = CNT_FAI_Collapsing_Falange
@@ -172,7 +182,13 @@ focus_tree = {
 		}
 		x = 14
 		y = 6
-
+		completion_reward = {
+			CNT = {
+			    country_event = {
+					id = CNTFAI.6
+				}
+			}
+		}
 	}
 	focus = {
 		id = CNT_FAI_rality_free
@@ -189,7 +205,13 @@ focus_tree = {
 		}
 		x = 13
 		y = 8
-
+		completion_reward = {
+			CNT = {
+			    country_event = {
+					id = CNTFAI.8
+				}
+			}
+		}
 	}
 	focus = {
 		id = CNT_FAI_Free
@@ -330,6 +352,16 @@ focus_tree = {
 		id = CNT_FAI_Iberian_worker
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+		    CNT = {
+			    controls_state = 171
+				controls_state = 112
+				controls_state = 41
+				controls_state = 169
+				controls_state = 165
+
+			}
+		}
 		prerequisite = {
 			focus = CNT_FAI_rality_free
 			focus = CNT_FAI_capitalist_threat
@@ -338,7 +370,14 @@ focus_tree = {
 		}
 		x = 15
 		y = 9
-
+		completion_reward = {
+			CNT = { 
+				set_cosmetic_tag = CNT_IBR
+			}
+			news_event = {
+			    id = Ana_news.7
+			}
+		}
 	}
 	focus = {
 		id = CNT_FAI_another_threat

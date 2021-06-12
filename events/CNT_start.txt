@@ -43,6 +43,12 @@ country_event = {
 					}
 						add_core_of = CNT
 				}
+				every_state = {
+					limit = {
+						is_core_of = POR
+					}
+						add_core_of = CNT
+				}
 				country_event = {
 				    id = CNTFAI.2 
 				}
@@ -234,6 +240,102 @@ country_event = {
 		D02 = {
 		    add_manpower = -23000
 			add_stability = -0.2
+		}
+	}
+}
+country_event = {
+	id = CNTFAI.4 #CNT
+	title = CNTFAI.4.t
+	desc = CNTFAI.4.d
+	picture = GFX_CNT_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = CNTFAI.4.a
+		ai_chance = {
+		    factor = 100
+		}
+		country_event = {
+		    id = CNTFAI.5
+		}
+	}
+}
+country_event = {
+	id = CNTFAI.5 #FAI
+	title = CNTFAI.5.t
+	desc = CNTFAI.5.d
+	picture = GFX_FAI_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = CNTFAI.5.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = CNTFAI.6 #혼란의 이베리아
+	title = CNTFAI.6.t
+	desc = CNTFAI.6.d
+	picture = GFX_CNT_FAI_Collapsing_Falange_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = CNTFAI.6.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = CNTFAI.7 #지배에 대한 의혹
+	title = CNTFAI.7.t
+	desc = CNTFAI.7.d
+	picture = GFX_CNT_FAI_question_of_domination_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = CNTFAI.7.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+country_event = {
+	id = CNTFAI.8 #자유를 향해
+	title = CNTFAI.8.t
+	desc = CNTFAI.8.d
+	picture = GFX_to_the_freedom_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = CNTFAI.8.a
+		ai_chance = {
+		    factor = 100
+		}
+		declare_war_on = {
+    		target = D02
+    		type = annex_everything
+		}
+		declare_war_on = {
+    		target = SPR
+    		type = annex_everything
+		}
+		declare_war_on = {
+    		target = POR
+    		type = annex_everything
+		}
+	}
+	option = {
+		name = CNTFAI.8.b
+		ai_chance = {
+		    factor = 0
 		}
 	}
 }

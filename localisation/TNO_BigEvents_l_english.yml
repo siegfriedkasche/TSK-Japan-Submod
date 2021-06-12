@@ -13,7 +13,7 @@ world_revolution_A:0 "자유를 위한 전진"
 
 CNT_FAI_A:0 "자유의 횃불이 올라간다!"
 CNT_FAI_D:0 "부르주아들이 역사의 무대를 떠나기 전에 이 세계를 잿더미로 만들지도 모르죠. 하지만 우리는 마음속에 새로이 창조될 세계를 품고 있고, 그 세계는 지금 이 순간에도 점점 커지고 있습니다.\n- 부에나벤투라 두루티"
-CNT_FAI_T:0 "CNT-FAI"
+CNT_FAI_T:0 "이베리아 노동자 연맹"
 
 ##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
 
