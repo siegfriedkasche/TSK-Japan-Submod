@@ -130,6 +130,10 @@ focus_tree = {
 		}
 		x = 11
 		y = 7
-
+		completion_reward = {
+			USA = {
+				load_focus_tree = NEW_usa_focus
+			}
+		}
 	}
 }
