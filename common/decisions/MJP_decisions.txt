@@ -371,4 +371,25 @@ MJP_economy_decisions_policy = {
 			add_ideas = MJP_Interest_rate_increase_ideas
 		}
 	}
+	MJP_Recovery_of_resource_mining_rights = {
+		icon = GFX_decision_generic_break_treaty
+		available = {
+			has_idea = USJ_resource_mining_rights
+		}
+		visible  = {
+		   	has_idea = USJ_resource_mining_rights
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		fire_only_once = yes
+		cost = 0
+		days_remove = 15
+		remove_effect = {
+			USJ = { remove_resource_rights = 535 }
+			remove_ideas = USJ_resource_mining_rights
+		}
+	}
 }

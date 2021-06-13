@@ -77,3 +77,18 @@
  Japan_Aerospace_eXploration_Agency:0 "우주항공연구개발기구"
  MJP_Stable_Japan:0 "안정된 일본"
  MJP_has_election:0 "국회 중의원 해산으로 긴급 선거가 이루어짐."
+
+USJ_army_training_decisions:0 "주일미군"
+USJ_army_training_decisions_desc:0 "우리는 주일미군이며, 일본을 보호하고 미국과 태평양의 평화를 수호해야한다는 사명감을 쥐고 있는 정의의 수호대!"
+USJ_army_training_decisions_1:0 "군대 훈련"
+
+USJ_army_training_ideas:0 "훈련된 군대"
+USJ_army_training_decisions_2:0 "석유 채굴"
+USJ_army_training_decisions_3:0 "오키나와 요새화"
+USJ_army_training_decisions_4:0 "일본의 자원 채굴권 구입"
+MJP_Recovery_of_resource_mining_rights:0 "주일미군, 자원채굴권 회수"
+USJ_resource_mining_rights:0 "주일미군의 자원채굴권"
+MJP.11.t:0 "채굴권 구입요청"
+MJP.11.d:0 "[GetDateText], 도쿄도\n\n오키나와의 주일미군 주둔지로부터 하나의 메일이 도착했습니다. 메일의 내용은 현재 알 수 없는 기이한 현생으로 인하여 우리가 알 수 없는 이상한 세계로 이동하는 바람에 현재 우리 주일미군은 본국과 연락이 되지 않음으로써 아무런 보급수송과 지원을 받지 못하고 있는 상황이라면서 우리에게 간절히 고신에쓰의 자원채굴권을 부탁하였습니다."
+MJP.11.a:0 "그들은 우리를 보호해주었다."
+MJP.11.b:0 "우리도 자원이 부족하다."

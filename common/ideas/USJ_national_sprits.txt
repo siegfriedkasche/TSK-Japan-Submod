@@ -1,0 +1,48 @@
+ideas = {
+    country = { #
+
+        USJ_army_training_ideas = {
+
+            allowed = {
+                original_tag = USJ
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = 
+
+            removal_cost = -1
+            
+            modifier = { 
+                army_speed_factor = 0.20
+				army_defence_factor = 0.20
+				army_attack_factor = 0.20
+				army_org = 20
+            }
+        }
+    }
+	country = { #
+
+        USJ_resource_mining_rights = {
+
+            allowed = {
+                original_tag = USJ
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = MEX_oil_concessions
+
+            removal_cost = -1
+            
+            modifier = { 
+                consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.15
+				production_factory_max_efficiency_factor = 0.05
+            }
+        }
+    }
