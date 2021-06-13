@@ -228,7 +228,7 @@ country_event = {
 	id = MJP.11
     title = MJP.11.t
     desc = MJP.11.d
-    picture =
+    picture = GFX_mine_event_picture
     is_triggered_only = yes
     fire_only_once = yes
 
@@ -239,8 +239,9 @@ country_event = {
         }
 		MJP = {
 			give_resource_rights = { receiver = USJ state = 535 } 
+			add_ideas = USJ_resource_mining_rights
 		}
-		add_ideas = USJ_resource_mining_rights
+		
 	}
 	option = {
         name = MJP.11.b
