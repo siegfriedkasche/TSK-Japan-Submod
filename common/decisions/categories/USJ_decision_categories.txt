@@ -1,6 +1,7 @@
 USJ_army_training_decisions = {
 	icon = generic_arms_trade
 	priority = 200
+	picture = GFX_decision_USJ_army_training_decisions
 	allowed = {
 		original_tag = USJ
 	}
