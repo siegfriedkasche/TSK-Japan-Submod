@@ -247,33 +247,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Hirohito"
+	name = "Stanley R. Arthur"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "Portrait_Japan_Hirohito.dds"
-	expire = "1989.1.1"
-	ideology = fascism_ideology
-	traits = {
-		warrior_code
-		emperor_showa
-		imperial_sanction
-	}
-	id = 700 #Hirohito
-}
-
-create_country_leader = {
-	name = "Kyuichi Tokuda"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "GFX_Portrait_kyuichi_tokuda"
-	expire = "1989.1.1"
-	ideology = marxism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Tetsu Katayama"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "miyazawa_kiichi.png"
+	picture = "portrait_Stanley_R._Arthur.png"
 	expire = "1989.1.1"
 	ideology = liberalism
 	traits = {
