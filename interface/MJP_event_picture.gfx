@@ -12,5 +12,9 @@ spriteTypes = {
 		name = "GFX_Cabinet-Office"
 		texturefile = "gfx/event_pictures/MJP/Cabinet-Office.png"
 	}
+	spriteType = {
+		name = "GFX_mine_event_picture"
+		texturefile = "gfx/event_pictures/MJP/mine_event_picture.png"
+	}
 	
 }
