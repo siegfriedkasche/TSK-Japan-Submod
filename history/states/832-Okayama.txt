@@ -4,7 +4,7 @@ state={
 	provinces={
 		4197 9968 11946 
 	}
-		manpower=0
+		manpower=1930000
 	buildings_max_level_factor=1.000
 	history={
 		owner = MJP

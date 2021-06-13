@@ -3,8 +3,8 @@ state={
 	name="STATE_839"
 	provinces={
 		1051 
-	}
-		manpower=0
+	
+		manpower= 1388000
 	buildings_max_level_factor=1.000
 	history={
 		owner = MJP
