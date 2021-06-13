@@ -1,8 +1,7 @@
 
 state={
 	id=528
-	name="STATE_528" # Kyushu
-	manpower = 13308000
+	name="STATE_528"
 	resources={
 		chromium=52.000
 	}
@@ -45,18 +44,17 @@ state={
 			}
 
 		}
-
-
 		1936.1.4 = {
 			owner = JAP
 			controller = JAP
 			remove_core_of = MJP
+
 		}
 
 	}
 
 	provinces={
-		1020 1025 1158 1183 4027 4102 4164 4198 7110 7178 9950 10020 10092 11925 11949 12006 12032 10011
+		1158 9950 
 	}
 	manpower=9069000
 	buildings_max_level_factor=1.000
