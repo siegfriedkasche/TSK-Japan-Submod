@@ -134,10 +134,17 @@ focus_tree = {
 		x = 11
 		y = 7
 			completion_reward = {
-					USA = {
-							load_focus_tree = NEW_usa_focus
+				USA = {
+				annex_country = {
+                target = USJ
+                transfer_troops = yes
+        }
+    }
+	        USA = { change_tag_from = USJ}
+			USA = {
+			load_focus_tree = NEW_usa_focus
 						}
-				}
+		}
 
 	}
 }
