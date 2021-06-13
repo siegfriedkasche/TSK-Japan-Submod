@@ -32,3 +32,34 @@ country_event = {
        }
     }
 }
+
+country_event = {
+	id = USJ.3
+	title = USJ.3.t
+	desc = USJ.3.d
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+        name = USJ.3.a
+        ai_chance = {
+            factor = 25
+       }
+    }
+}
+country_event = {
+	id = USJ.4
+	title = USJ.4.t
+	desc = USJ.4.d
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+        name = USJ.4.a
+        ai_chance = {
+            factor = 25
+       }
+    }
+}
