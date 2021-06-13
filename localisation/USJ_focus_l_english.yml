@@ -1,6 +1,6 @@
 ﻿l_english:
  USJ_1936:0 "1936년의 세계"
- USJ_Collect Information:0 "정보수집"
+ USJ_Collect_Information:0 "정보수집"
  USJ_MJP:0 "일본내각 접촉"
  USJ_reorganization:0 "병력 재정비"
  USJ_Korean_Peninsula:0 "한반도 문제"
@@ -9,6 +9,4 @@
  USJ_a_sea_blockade:0 "한반도 해역 봉쇄"
  USJ_Daechi:0 "북한과의 대치"
  USJ_recapture_of_Korea:0 "대한민국 탈환"
- USJ_USA_Contact:0 "현재의 미국정부 접촉"
- USJ_USINDOPACOM:0 "인도-태평양사령부"
- USJ_Doctrine:0 "교리 재개편"
+ USJ_USA_Contact:0 "미합중국 접촉"

@@ -17,14 +17,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = USJ_Korean_Peninsula
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 11
-		y = 2
-
-	}
-	focus = {
 		id = USJ_Collect_Information
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -43,6 +35,17 @@ focus_tree = {
 			focus = USJ_Collect_Information
 		}
 		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = USJ_Korean_Peninsula
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Collect_Information
+		}
+		x = 11
 		y = 2
 
 	}
@@ -130,10 +133,11 @@ focus_tree = {
 		}
 		x = 11
 		y = 7
-		completion_reward = {
-			USA = {
-				load_focus_tree = NEW_usa_focus
-			}
-		}
+			completion_reward = {
+					USA = {
+							load_focus_tree = NEW_usa_focus
+						}
+				}
+
 	}
 }
