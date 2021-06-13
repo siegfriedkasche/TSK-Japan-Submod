@@ -1,0 +1,16 @@
+add_namespace = USJ
+
+country_event = {
+	id = USJ.1
+	title = USJ.1.t
+	desc = USJ.1.d
+	picture = GFX_1936world
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+        name = USJ.1.a
+        ai_chance = {
+            factor = 25
+    }
+}
