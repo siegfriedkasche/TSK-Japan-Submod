@@ -14,3 +14,35 @@ country_event = {
             factor = 25
     }
 }
+}
+country_event = {
+	id = MJP.1
+	title = MJP.1.t
+	desc = MJP.1.d
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MJP.1.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = USJ.2
+	title = USJ.2.t
+	desc = USJ.2.d
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+        name = USJ.2.a
+        ai_chance = {
+            factor = 25
+       }
+    }
+}
