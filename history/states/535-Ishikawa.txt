@@ -8,18 +8,36 @@ state={
 	}
 
 	history={
-		owner = JAP
-		add_core_of = JAP
+		owner = MJP
+		add_core_of = MJP
 		buildings = {
-			arms_factory = 1
-			industrial_complex = 2
-			infrastructure = 3
-			dockyard = 1
-			fuel_silo = 1
+
+
+			}
+
+			}
 
 		}
 		victory_points = {
-			10032 15 
+
+		}
+		victory_points = {
+
+		}
+		victory_points = {
+
+		}
+		1939.1.1 = {
+			buildings = {
+
+			}
+
+		}
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+
 		}
 
 	}
