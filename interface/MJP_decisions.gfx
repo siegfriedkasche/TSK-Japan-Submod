@@ -1,0 +1,14 @@
+spriteTypes = { 
+	spriteType = {
+		name = "GFX_decision_MJP_economy_decisions_policy"
+		texturefile = "gfx/interface/decisions/GFX_decision_MJP_economy_decisions_policy.png"
+	}
+	spriteType = {
+		name = "GFX_decision_MJP_decisions_policy"
+		texturefile = "gfx/interface/decisions/GFX_decision_MJP_decisions_policy.png"
+	}
+	spriteType = {
+		name = "GFX_decision_USJ_army_training_decisions"
+		texturefile = "gfx/interface/decisions/GFX_decision_USJ_army_training_decisions.png"
+	}
+}
