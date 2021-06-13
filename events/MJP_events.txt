@@ -239,8 +239,9 @@ country_event = {
         }
 		MJP = {
 			give_resource_rights = { receiver = USJ state = 535 } 
+			add_ideas = USJ_resource_mining_rights
 		}
-		add_ideas = USJ_resource_mining_rights
+		
 	}
 	option = {
         name = MJP.11.b
