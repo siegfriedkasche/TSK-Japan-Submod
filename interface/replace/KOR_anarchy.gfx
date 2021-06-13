@@ -133,4 +133,8 @@ spriteTypes = {
 		name = "GFX_CNT_FAI_Ibearia_news_event"
 		texturefile = "gfx/event_pictures/GFX_CNT_FAI_Ibearia_news_event.png"
 	}
+	spriteType = {
+		name = "GFX_CNT_FAI_betrayal_republicans_news_event"
+		texturefile = "gfx/event_pictures/GFX_CNT_FAI_betrayal_republicans_news_event.png"
+	}
 }

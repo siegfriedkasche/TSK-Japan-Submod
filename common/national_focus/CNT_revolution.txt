@@ -234,6 +234,13 @@ focus_tree = {
 		}
 		x = 17
 		y = 5
+		completion_reward = {
+			CNT = {
+			    country_event = {
+					id = CNTFAI.9
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -245,7 +252,13 @@ focus_tree = {
 		}
 		x = 16
 		y = 6
-
+		completion_reward = {
+			CNT = {
+			    country_event = {
+					id = CNTFAI.10
+				}
+			}
+		}
 	}
 	focus = {
 		id = CNT_FAI_incompetent_government

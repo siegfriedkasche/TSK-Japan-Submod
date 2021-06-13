@@ -1,0 +1,163 @@
+choice_players_decisions = {
+ 	choice_players_decisions_UFT = {
+		allowed = { tag = KOR }              
+        	available = {                          
+				UFT = {
+					exists = yes
+				}
+			}
+		activation = {                     
+		  	UFT = {
+		  		exists = yes
+		  	}
+        }
+		is_good = yes                           
+		selectable_mission = yes               
+		days_mission_timeout = 30        
+		timeout_effect = {                      
+            add_political_power = 1
+		}
+        complete_effect = {                    
+			UFT = { change_tag_from = KOR }   
+		}
+		fire_only_once = yes
+	}
+	choice_players_decisions_SAG = {
+		allowed = { tag = KOR }              
+        	available = {                          
+				SAG = {
+					exists = yes
+				}
+			}
+		activation = {                     
+		  	SAG = {
+		  		exists = yes
+		  	}
+        }
+		is_good = yes                           
+		selectable_mission = yes               
+		days_mission_timeout = 30        
+		timeout_effect = {                      
+            add_political_power = 1
+		}
+        complete_effect = {                    
+			SAG = { change_tag_from = KOR }   
+		}
+		fire_only_once = yes
+	}
+	choice_players_decisions_RUR = {
+		allowed = { tag = KOR }              
+        	available = {                          
+				RUR = {
+					exists = yes
+				}
+			}
+		activation = {                     
+		  	RUR = {
+		  		exists = yes
+		  	}
+        }
+		is_good = yes                           
+		selectable_mission = yes               
+		days_mission_timeout = 30        
+		timeout_effect = {                      
+            add_political_power = 1
+		}
+        complete_effect = {                    
+			RUR = { change_tag_from = KOR }   
+		}
+		fire_only_once = yes
+	}
+	choice_players_decisions_IWW = {
+		allowed = { tag = KOR }              
+        	available = {                          
+				IWW = {
+					exists = yes
+				}
+			}
+		activation = {                     
+		  	IWW = {
+		  		exists = yes
+		  	}
+        }
+		is_good = yes                           
+		selectable_mission = yes               
+		days_mission_timeout = 30        
+		timeout_effect = {                      
+            add_political_power = 1
+		}
+        complete_effect = {                    
+			IWW = { change_tag_from = KOR }   
+		}
+		fire_only_once = yes
+	}
+	choice_players_decisions_CNT = {
+		allowed = { tag = KOR }              
+        	available = {                          
+				CNT = {
+					exists = yes
+				}
+			}
+		activation = {                     
+		  	CNT = {
+		  		exists = yes
+		  	}
+        }
+		is_good = yes                           
+		selectable_mission = yes               
+		days_mission_timeout = 30        
+		timeout_effect = {                      
+            add_political_power = 1
+		}
+        complete_effect = {                    
+			CNT = { change_tag_from = KOR }   
+		}
+		fire_only_once = yes
+	}
+	choice_players_decisions_CAF = {
+		allowed = { tag = KOR }              
+        	available = {                          
+				CAF = {
+					exists = yes
+				}
+			}
+		activation = {                     
+		  	CAF = {
+		  		exists = yes
+		  	}
+        }
+		is_good = yes                           
+		selectable_mission = yes               
+		days_mission_timeout = 30        
+		timeout_effect = {                      
+            add_political_power = 1
+		}
+        complete_effect = {                    
+			CAF = { change_tag_from = KOR }   
+		}
+		fire_only_once = yes
+	}
+	choice_players_decisions_JAF = {
+		allowed = { tag = KOR }              
+        	available = {                          
+				JAF = {
+					exists = yes
+				}
+			}
+		activation = {                     
+		  	JAF = {
+		  		exists = yes
+		  	}
+        }
+		is_good = yes                           
+		selectable_mission = yes               
+		days_mission_timeout = 30        
+		timeout_effect = {                      
+            add_political_power = 1
+		}
+        complete_effect = {                    
+			JAF = { change_tag_from = KOR }   
+		}
+		fire_only_once = yes
+	}
+}

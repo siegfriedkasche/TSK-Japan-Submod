@@ -18,6 +18,7 @@ on_actions = {
                     white_peace = RUR
                     white_peace = UFT
                     white_peace = SAG
+					white_peace = KOR
                     country_event = {
                         id = Kron.1
                     }

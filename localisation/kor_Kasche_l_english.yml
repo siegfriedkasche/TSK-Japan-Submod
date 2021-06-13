@@ -465,3 +465,14 @@
  CNTFAI.1.t:0 "불타오르는 카탈로니아"
  CNTFAI.1.d:0 "우리의 동지들이 프랑코와 파시스트놈들에게 압제당해온지도 수많은 시간이 흘렀습니다. 하지만 아직도 이베리아에선 뜨거운 혁명의 횃불은 꺼지지않고 있습니다. 반도에서의 혁명에 이어 러시아에서 성공을 두 눈으로 지켜본 CNT-FAI는 다시 한 번 혁명의 기회를 노리면서 칼을 갈고 있습니다. CNT-FAI에서는 정부의 만행을 이베리아 인민들에게 알려 그들의 부당함에 맞서야 한다고 지속적으로 주장하고 있으며 그 열기는 더욱 뜨거워질 것이고 저 높은 횃불에 불씨는 점점 커져 이베리아에 큰 변화를 가져올 것입니다."
  CNTFAI.1.a:0 "바리게이트를 넘아라!"
+ 
+ choice_players_decisions:0 "플레이하고 싶은 국가 선택"
+ choice_players_decisions_desc:0 "해당 디시전을 통해서 지금까지 중점은 있었지만 플레이하지 못했거나 중점은 없지만 해보고 싶었던 국가를 선택하여 플레이할 수 있습니다."
+ 
+ choice_players_decisions_JAF:0 "§R일본혁명임시위원회§!"
+ choice_players_decisions_CAF:0 "§R중화혁명임시위원회§!"
+ choice_players_decisions_SAG:0 "§R붉은 군대§!"
+ choice_players_decisions_UFT:0 "§R우크라이나 자유지구§!"
+ choice_players_decisions_RUR:0 "§R러시아국§!"
+ choice_players_decisions_IWW:0 "§R세계산업노동자연맹§!"
+ choice_players_decisions_CNT:0 "§R전국노동자연맹§!"

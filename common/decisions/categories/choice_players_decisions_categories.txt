@@ -1,0 +1,7 @@
+choice_players_decisions = {
+	icon = generic_arms_trade
+	priority = 500
+	allowed = {
+		tag = KOR
+	}
+}

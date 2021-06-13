@@ -31,6 +31,20 @@ focus_tree = {
 		y = 1
 		relative_position_id = KOR_CNT_END_Delegate_meeting
 			completion_reward = {
+					hidden_effect = {
+						can_join_opposite_factions = no
+						can_join_factions = no
+						can_join_factions_not_allowed_diplomacy = no
+						SAG = {
+							can_join_factions = no
+						}
+						RUR = {
+							can_join_factions = no
+						}
+						UFT = {
+							can_join_factions = no
+						}
+					}
 					country_event = {
 							id = KORnan.6
 						}
@@ -551,7 +565,8 @@ focus_tree = {
 			completion_reward = {
 					set_rule = {
 							can_send_volunteers = yes
-						}					
+						}	
+						country_lock_all_division_template = no
 				}
 
 	}
@@ -663,6 +678,7 @@ focus_tree = {
 					set_rule = {
 							can_send_volunteers = yes
 						}
+					country_lock_all_division_template = no
 					add_ideas = International_International_Brigade
 				}
 
@@ -821,6 +837,8 @@ focus_tree = {
 		x = 42
 		y = 8
 			completion_reward = {
+						country_lock_all_division_template = no
+
 					country_event = {
 							id = KORnan.8
 						}
@@ -967,7 +985,10 @@ focus_tree = {
 					country_event = {
 							id = KORnan.7
 						}
-					
+					declare_war_on = {
+    					target = SOV
+    					type = annex_everything
+					}
 				}
 
 	}
@@ -994,6 +1015,10 @@ focus_tree = {
 		id = KOR_CNT_Support_of_the_revolution
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 5.00
+		available = {
+			has_war = no
+			has_completed_focus = KOR_CNT_Kronstadt_rebellion_revenge
+		}
 		prerequisite = {
 			focus = KOR_CNT_cohesion
 		}
