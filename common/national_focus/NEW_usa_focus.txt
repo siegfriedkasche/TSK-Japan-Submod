@@ -96,14 +96,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = USA_Support_equipment
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 42
-		y = 4
-
-	}
-	focus = {
 		id = USA_america_first
 		icon = GFX_goal_generic_political_pressure
 		cost = 10.00
@@ -295,7 +287,7 @@ focus_tree = {
 			focus = USA_United_States_Army
 		}
 		mutually_exclusive = {
-			focus = USA_Historical Equipment
+			focus = USA_Historical_Equipment
 		}
 		x = 40
 		y = 2
@@ -313,7 +305,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = USA_FGM-77 Dragon
+		id = USA_FGM_77_Dragon
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -346,7 +338,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = USA_Historical Equipment
+		id = USA_Historical_Equipment
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -364,10 +356,21 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = USA_Historical Equipment
+			focus = USA_Historical_Equipment
 		}
 		x = 42
 		y = 3
+
+	}
+	focus = {
+		id = USA_Support_equipment
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USA_Infantry_Weapon
+		}
+		x = 42
+		y = 4
 
 	}
 	focus = {
@@ -375,7 +378,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = USA_Historical Equipment
+			focus = USA_Historical_Equipment
 		}
 		x = 44
 		y = 3
@@ -484,7 +487,7 @@ focus_tree = {
 			focus = USA_Douglas
 		}
 		mutually_exclusive = {
-			focus = USA_fighter 
+			focus = USA_fighter
 		}
 		x = 52
 		y = 3
@@ -513,7 +516,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = USA_fighter 
+		id = USA_fighter
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -531,7 +534,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = USA_fighter 
+			focus = USA_fighter
 		}
 		x = 54
 		y = 4
@@ -2142,7 +2145,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = USA_wpa
 			available = {
-
+						#ai_will_do = {# factor = 1
 }
 			#ai_will_do = {
 			# factor = 1
@@ -4624,9 +4627,10 @@ focus_tree = {
 		}
 		x = 73
 		y = 1
-        completion_reward = {
-			add_ideas = USA_the_pentagon
-		}
+			completion_reward = {
+					add_ideas = USA_the_pentagon
+				}
+
 	}
 	focus = {
 		id = USA_department_of_defense
@@ -4637,10 +4641,13 @@ focus_tree = {
 		}
 		x = 73
 		y = 2
-        completion_reward = {
-			swap_ideas = {
-				remove_idea = USA_war_department
-				add_idea = USA_department_of_defense
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = USA_war_department
+							add_idea = USA_department_of_defense
+						}
+				}
+
 	}
 	focus = {
 		id = USA_M109
@@ -4658,7 +4665,11 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
+			focus = USA_M1A2
 			focus = USA_M109
+			focus = USA_FGM_77_Dragon
+		}
+		prerequisite = {
 			focus = USA_M1A2
 		}
 		x = 39
