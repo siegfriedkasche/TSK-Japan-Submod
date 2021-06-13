@@ -6,29 +6,7 @@ state={
 	history={
 		owner = MJP
 		add_core_of = MJP
-		buildings = {
-
-
-			}
-
-			}
-
-		}
-		victory_points = {
-
-		}
-		victory_points = {
-
-		}
-		victory_points = {
-
-		}
-		1939.1.1 = {
-			buildings = {
-
-			}
-
-		}
+		
 		1936.1.4 = {
 			owner = JAP
 			controller = JAP
