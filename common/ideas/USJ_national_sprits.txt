@@ -29,6 +29,7 @@ ideas = {
 
             allowed = {
                 original_tag = MJP
+				original_tag = USJ
             }
 
             allowed_civil_war = {
