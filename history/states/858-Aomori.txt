@@ -4,6 +4,7 @@ state={
 	provinces={
 		6873 6994 9859 11847 
 	}
+	state_category=large_city
 		manpower=1479000
 	buildings_max_level_factor=1.000
 	history={
