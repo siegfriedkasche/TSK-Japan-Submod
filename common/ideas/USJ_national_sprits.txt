@@ -23,12 +23,12 @@ ideas = {
             }
         }
     }
-	country = { #
+	country = { 
 
         USJ_resource_mining_rights = {
 
             allowed = {
-                original_tag = USJ
+                original_tag = MJP
             }
 
             allowed_civil_war = {
