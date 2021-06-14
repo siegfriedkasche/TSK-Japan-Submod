@@ -89,6 +89,7 @@ units = {
 		location = 11925
 		division_template = "JSDF 차량화보병사단"
 		start_experience_factor = 0.3
+		start_equipment_factor = 1
 		force_equipment_variants = { m_1980_mbt = { owner = "MJP" } }
 	}
 	division= {
@@ -117,7 +118,7 @@ units = {
 		location = 1117
 		division_template = "JSDF 차량화보병사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 	}
 	division= {
 		name = "제1공정단"
