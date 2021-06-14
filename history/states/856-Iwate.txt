@@ -1,7 +1,7 @@
 
 state={
 	id=856
-	name="STATE_856"
+	name="이와테"
 	provinces={
 		1165 3848 6870 9807 12056 
 	}

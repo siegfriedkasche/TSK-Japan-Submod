@@ -1,6 +1,6 @@
 state={
 	id=857
-	name="STATE_857"
+	name="후쿠시마"
 	provinces={
 		1024 4118 4122 
 	}

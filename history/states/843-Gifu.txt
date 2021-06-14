@@ -1,6 +1,6 @@
 state={
 	id=843
-	name="STATE_843"
+	name="기후"
 	provinces={
 		4172 7187 7217 
 	}

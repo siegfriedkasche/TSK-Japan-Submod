@@ -1,6 +1,6 @@
 state={
 	id=837
-	name="STATE_837"
+	name="교토"
 	provinces={
 		1136 9985 11960 
 	}

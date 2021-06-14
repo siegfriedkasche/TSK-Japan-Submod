@@ -1,7 +1,7 @@
 
 state={
 	id=844
-	name="STATE_844"
+	name="나가노"
 	provinces={
 		10015 10100 11908 11989 
 	}	

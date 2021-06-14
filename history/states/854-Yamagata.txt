@@ -1,6 +1,6 @@
 state={
 	id=854
-	name="STATE_854"
+	name="야마가타"
 	provinces={
 		4067 4153 
 	}

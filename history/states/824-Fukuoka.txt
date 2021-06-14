@@ -1,7 +1,7 @@
 
 state={
 	id=824
-	name="STATE_824"
+	name="후쿠오카"
 	provinces={
 		1025 4164 7110 
 	}

@@ -1,7 +1,7 @@
 
 state={
 	id=838
-	name="STATE_838"
+	name="미에"
 	provinces={
 		4054 4142 
 	}

@@ -1,6 +1,6 @@
 state={
 	id=834
-	name="STATE_834"
+	name="돗토리"
 	provinces={
 		1167 
 	}
@@ -15,9 +15,6 @@ state={
 
 			}
 
-			}
-
-		}
 		victory_points = {
 
 		}

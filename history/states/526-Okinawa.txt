@@ -1,7 +1,7 @@
 
 state={
 	id=526
-	name="STATE_526"
+	name="오키나와"
 	manpower = 1171552
 	
 	state_category = small_island

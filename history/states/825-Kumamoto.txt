@@ -1,6 +1,6 @@
 state={
 	id=825
-	name="STATE_825"
+	name="구마모토"
 	provinces={
 		11925 12006 
 	}

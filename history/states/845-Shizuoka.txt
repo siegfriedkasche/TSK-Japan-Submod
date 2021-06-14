@@ -1,7 +1,7 @@
 
 state={
 	id=845
-	name="STATE_845"
+	name="시즈오카"
 	provinces={
 		4069 7087 7157 12097 
 	}

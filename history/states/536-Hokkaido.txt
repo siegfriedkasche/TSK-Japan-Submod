@@ -1,7 +1,7 @@
 
 state={
 	id=536
-	name="STATE_536"
+	name="홋카이도"
 	manpower = 5650000
 	
 	state_category = rural

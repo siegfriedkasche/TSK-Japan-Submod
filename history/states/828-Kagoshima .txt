@@ -1,6 +1,6 @@
 state={
 	id=828
-	name="STATE_828"
+	name="가고시마"
 	provinces={
 		1183 4102 4198 11949 12032 
 	}

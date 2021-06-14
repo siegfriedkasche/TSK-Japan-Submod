@@ -1,6 +1,6 @@
 state={
 	id=841
-	name="STATE_841"
+	name="와카야마"
 	provinces={
 		1133 7113 
 	}

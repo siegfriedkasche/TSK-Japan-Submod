@@ -1,6 +1,6 @@
 state={
 	id=849
-	name="STATE_849"
+	name="이바라키"
 	provinces={
 		993 4100 7016 
 	}

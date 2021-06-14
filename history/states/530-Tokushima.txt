@@ -1,7 +1,7 @@
 
 state={
 	id=530
-	name="STATE_530"
+	name="도쿠시마"
 
 	history={
 		owner = MJP

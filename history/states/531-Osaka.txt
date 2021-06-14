@@ -1,7 +1,7 @@
 
 state={
 	id=531
-	name="STATE_531"
+	name="오사카"
 	resources={
 		aluminium=3.000
 	}

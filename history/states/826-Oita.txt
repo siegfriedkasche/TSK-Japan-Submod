@@ -1,6 +1,6 @@
 state={
 	id=826
-	name="STATE_826"
+	name="오이타"
 	provinces={
 		4027 10020 10092 
 	}

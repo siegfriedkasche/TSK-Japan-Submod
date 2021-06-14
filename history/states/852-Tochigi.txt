@@ -1,6 +1,6 @@
 state={
 	id=852
-	name="STATE_852"
+	name="도치기"
 	provinces={
 		1113
 	}

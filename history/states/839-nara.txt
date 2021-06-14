@@ -1,6 +1,6 @@
 state={
 	id=839
-	name="STATE_839"
+	name="나라"
 	provinces={
 		1051 
 	}

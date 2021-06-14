@@ -1,7 +1,7 @@
 
 state={
 	id=532
-	name="STATE_532"
+	name="나고야"
 
 	history={
 		owner = MJP

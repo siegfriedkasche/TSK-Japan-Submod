@@ -1,6 +1,6 @@
 state={
 	id=832
-	name="STATE_832"
+	name="오카야마"
 	provinces={
 		4197 9968 11946 
 	}

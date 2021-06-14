@@ -1,7 +1,7 @@
 
 state={
 	id=534
-	name="STATE_534"
+	name="니이가타"
 
 	history={
 		owner = MJP

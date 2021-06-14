@@ -1,7 +1,7 @@
 
 state={
 	id=282
-	name="STATE_282"
+	name="도쿄"
 	resources={
 		aluminium=1.000
 	}

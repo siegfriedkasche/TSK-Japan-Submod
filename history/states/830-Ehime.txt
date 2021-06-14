@@ -1,6 +1,6 @@
 state={
 	id=830
-	name="STATE_830"
+	name="에히메"
 	provinces={
 		4179 7046 
 	}

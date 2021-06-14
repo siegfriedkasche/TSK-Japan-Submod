@@ -1,6 +1,6 @@
 state={
 	id=842
-	name="STATE_842"
+	name="후쿠이"
 	provinces={
 		7102 
 	}

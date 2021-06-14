@@ -1,6 +1,6 @@
 state={
 	id=836
-	name="STATE_836"
+	name="효고"
 	provinces={
 		7212 10055 12031 
 	}

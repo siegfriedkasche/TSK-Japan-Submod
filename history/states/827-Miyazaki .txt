@@ -1,6 +1,6 @@
 state={
 	id=827
-	name="STATE_827"
+	name="미야자키"
 	provinces={
 		1020 7178 
 	}
