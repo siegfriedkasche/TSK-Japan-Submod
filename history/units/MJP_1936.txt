@@ -96,21 +96,21 @@ units = {
 		location = 11925
 		division_template = "JSDF 차량화보병사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 	}
 	division= {
 		name = "제3보병사단"
 		location = 7072
 		division_template = "JSDF 차량화보병사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 	}
 	division= {
 		name = "제1보병사단"
 		location = 9998
 		division_template = "JSDF 차량화보병사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 	}
     division= {
 		name = "제6보병사단"
@@ -124,83 +124,83 @@ units = {
 		location = 1182
 		division_template = "제1공정단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 	}
 	division= {
 		name = "제9보병사단"
 		location = 6994
 		division_template = "JSDF 차량화보병사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 	}
 	division= {
 		name = "제10보병사단"
 		location = 10125
 		division_template = "JSDF 차량화보병사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
     }
 	division= {
 		name = "제2보병사단"
 		location = 12421
 		division_template = "JSDF 기계화사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 	}
 	division= {
 		name = "제7기갑사단"
 		location = 10444
 		division_template = "JSDF 기갑사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 		}
     division= {
 		name = "제5보병사단"
 		location = 10444
 		division_template = "JSDF 차량화보병사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 	}
 	division= {
 	    name = "제10보병사단"
 	    location = 10125
 	    division_template = "JSDF 차량화보병사단"
 	    start_experience_factor = 0.75
-	    start_equipment_factor = 0.01
+	    start_equipment_factor = 1
 	}
 	division= {
 		name = "제11보병사단"
 		location = 10444
 		division_template = "JSDF 차량화보병사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 	}
 	division= {
 		name = "제12보병사단"
 		location = 11908
 		division_template = "JSDF 차량화보병사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 	}
 	division= {
 		name = "제13보병사단"
 		location = 1092
 		division_template = "JSDF 차량화보병사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 	}
 	division= {
 		name = "제14보병사단"
 		location = 9965
 		division_template = "JSDF 차량화보병사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 	}
 	division= {
 		name = "제15경보병사단"
 		location = 11932
 		division_template = "JSDF 차량화보병사단"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
+		start_equipment_factor = 1
 	}
 }
