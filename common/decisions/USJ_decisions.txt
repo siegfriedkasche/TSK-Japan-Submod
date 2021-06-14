@@ -134,9 +134,10 @@ USJ_army_training_decisions = {
 		}
 		remove_effect = {
 			MJP = {
-			country_event = {
-				id =  MJP.11
-			}
+				country_event = {
+					id = MJP.11
+					days = 1
+				}
 			}
 		}
 	}

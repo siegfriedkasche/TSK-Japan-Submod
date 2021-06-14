@@ -25,7 +25,33 @@ country_event = {
 		}
 	}
 }
+country_event = {
 
+	id = MJP.11
+    title = MJP.11.t
+    desc = MJP.11.d
+    picture = GFX_mine_event_picture
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = MJP.11.a
+        ai_chance = {
+            factor = 100
+        }
+		MJP = {
+			give_resource_rights = { receiver = USJ state = 535 } 
+			add_ideas = USJ_resource_mining_rights
+		}
+		
+	}
+	option = {
+        name = MJP.11.b
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
 country_event = {
 	id = MJP.2
 	title = MJP.2.t
@@ -220,33 +246,6 @@ country_event = {
         name = MJP.10.a
         ai_chance = {
             factor = 25
-        }
-	}
-}
-country_event = {
-
-	id = MJP.11
-    title = MJP.11.t
-    desc = MJP.11.d
-    picture = GFX_mine_event_picture
-    is_triggered_only = yes
-    fire_only_once = yes
-
-    option = {
-        name = MJP.11.a
-        ai_chance = {
-            factor = 50
-        }
-		MJP = {
-			give_resource_rights = { receiver = USJ state = 535 } 
-			add_ideas = USJ_resource_mining_rights
-		}
-		
-	}
-	option = {
-        name = MJP.11.b
-        ai_chance = {
-            factor = 50
         }
 	}
 }
