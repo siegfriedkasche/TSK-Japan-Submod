@@ -12,6 +12,7 @@ state={
 		add_core_of = MJP
 		buildings = {
         infrastructure = 4
+		air_base = 6
 			
 			industrial_complex = 2
 		

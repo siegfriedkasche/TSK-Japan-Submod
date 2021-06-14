@@ -205,3 +205,96 @@ units = {
 		start_equipment_factor = 1
 	}
 }
+
+##북부항공방면대
+
+air_wings = {
+	536={
+		m_1990_jet_multirole_equipment = {
+			owner = "MJP" 
+			amount = 36
+		}
+		m_1980_jet_CAS_equipment = {
+			owner = "MJP" 
+			amount = 10
+		}
+		m_1980_jet_fighter_equipment = {
+			owner = "MJP" 
+			amount = 36
+		}
+	}
+}
+
+##중부항공방면대
+
+air_wings = {
+	535={
+		m_1980_jet_fighter_equipment = {
+			owner = "MJP" 
+			amount = 36
+		}
+	}
+}
+
+
+air_wings = {
+	849={
+		m_1980_jet_multirole_equipment = {
+			owner = "MJP" 
+			amount = 36
+		}
+	}
+}
+
+##서부항공방면대
+
+air_wings = {
+	827={
+		m_1980_jet_multirole_equipment = {
+			owner = "MJP" 
+			amount = 36
+		}
+		m_1980_jet_fighter_equipment = {
+			owner = "MJP" 
+			amount = 36
+		}
+	}
+}
+
+
+air_wings = {
+	826={
+		m_1990_jet_multirole_equipment = {
+			owner = "MJP" 
+			amount = 36
+		}
+	}
+}
+##남서항공방면대
+
+air_wings = {
+	824={
+		m_1980_jet_multirole_equipment = {
+			owner = "MJP" 
+			amount = 36
+		}
+	}
+}
+
+air_wings = {
+	824={
+		m_1980_jet_CAS_equipment = {
+			owner = "MJP" 
+			amount = 36
+		}
+	}
+}
+
+air_wings = {
+	824={
+		m_1980_jet_fighter_equipment = {
+			owner = "MJP" 
+			amount = 36
+		}
+	}
+}
