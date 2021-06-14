@@ -2,7 +2,7 @@
 on_actions = {
     on_startup = {
         effect = {
-            tan = {
+            TAN = {
                 country_event = { 
 					id = USJ.6974
 					days = 3
