@@ -8,6 +8,11 @@ on_actions = {
 					days = 3
 				}
             }
+			SOV = {
+				transfer_state = 537
+				add_core_of = 537
+				transfer_state = 555
+			}
         }
     }
 }
