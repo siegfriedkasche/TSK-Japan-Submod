@@ -1450,6 +1450,9 @@ high_command = {
 			cancel_if_invalid = no
 		}
 	economy = { 
+		law = yes
+		use_list_view = yes
+		
 		MJP_economy = {
 			
 			allowed = {
