@@ -2,7 +2,7 @@ state={
 	id=852
 	name="STATE_852"
 	provinces={
-		1113 
+		1113
 	}
 	state_category=large_city
 	manpower=1959000
@@ -15,18 +15,11 @@ state={
 
 			}
 
-			}
 
-		}
 		victory_points = {
-
+		1113 20
 		}
-		victory_points = {
-
-		}
-		victory_points = {
-
-		}
+		
 		1939.1.1 = {
 			buildings = {
 

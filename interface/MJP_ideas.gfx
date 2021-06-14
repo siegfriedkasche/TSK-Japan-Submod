@@ -1,47 +1,55 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "Akihito"
+		name = "GFX_idea_Akihito"
 		texturefile = "gfx/ideas/MJP/Akihito.png"
 	}
 	spriteType = {
-		name = "Masayoshi-Son"
+		name = "GFX_idea_Masayoshi-Son"
 		texturefile = "gfx/ideas/MJP/Masayoshi-Son.png"
 	}
 	spriteType = {
-		name = "Katsuhiro-Kuroda"
+		name = "GFX_idea_Katsuhiro-Kuroda"
 		texturefile = "gfx/ideas/MJP/Katsuhiro-Kuroda.png"
 	}
 	spriteType = {
-		name = "Ryutaro-Hashimoto"
+		name = "GFX_idea_Ryutaro-Hashimoto"
 		texturefile = "gfx/ideas/MJP/Ryutaro-Hashimoto.png"
 	}
 	spriteType = {
-		name = "Tsutomu-Hata"
+		name = "GFX_idea_Tsutomu-Hata"
 		texturefile = "gfx/ideas/MJP/Tsutomu-Hata.png"
 	}
 	spriteType = {
-		name = "Junichiro-Koizumi"
+		name = "GFX_idea_Junichiro-Koizumi"
 		texturefile = "gfx/ideas/MJP/Junichiro-Koizumi.png"
 	}
 	spriteType = {
-		name = "Toshinori-Kanemoto"
+		name = "GFX_idea_Toshinori-Kanemoto"
 		texturefile = "gfx/ideas/MJP/Toshinori-Kanemoto.png"	
 	}
 	spriteType = {
-		name = "Kazuo-Shii"
+		name = "GFX_idea_Kazuo-Shii"
 		texturefile = "gfx/ideas/MJP/Kazuo_Shii.png"	
 	}
 	spriteType = {
-		name = "Kake-Aichi"
+		name = "GFX_idea_Kake-Aichi"
 		texturefile = "gfx/ideas/MJP/Kake-Aichi.png"	
 	}
 	spriteType = {
-		name = "Makoto-Sakuma"
+		name = "GFX_idea_Makoto-Sakuma"
 		texturefile = "gfx/ideas/MJP/Makoto-Sakuma.png"	
 	}
 	spriteType = {
-		name = "Takeo-Hiranuma"
+		name = "GFX_idea_Takeo-Hiranuma"
 		texturefile = "gfx/ideas/MJP/Takeo-Hiranuma.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Self_Defense_Forces"
+		texturefile = "gfx/ideas/MJP/Self_Defense_Forces.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_MJP_peace_Constitution"
+		texturefile = "gfx/ideas/MJP/MJP_peace_Constitution.png"	
 	}
 }

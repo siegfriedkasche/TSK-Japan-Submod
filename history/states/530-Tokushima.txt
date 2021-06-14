@@ -13,12 +13,15 @@ state={
 			remove_core_of = MJP
 
 		}
-
+		victory_points = {
+			9965 15
+		}
 	}
 
 	provinces={
 		9965 
 	}
+	
 	manpower= 831000
 	buildings_max_level_factor=1.000
 	state_category=large_city

@@ -16,17 +16,8 @@ state={
 
 			}
 
-			}
-
-		}
 		victory_points = {
-
-		}
-		victory_points = {
-
-		}
-		victory_points = {
-
+			4142 15
 		}
 		1939.1.1 = {
 			buildings = {

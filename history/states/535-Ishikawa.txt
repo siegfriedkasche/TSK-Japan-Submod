@@ -17,6 +17,9 @@ state={
 			remove_core_of = MJP
 
 		}
+		victory_points = {
+			10032 10
+		}
 
 	}
 

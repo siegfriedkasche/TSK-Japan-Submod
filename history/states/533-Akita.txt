@@ -25,8 +25,9 @@ state={
 			6994 5 
 		}
 		victory_points = {
-			7169 15 
+			9865 15
 		}
+
 		1936.1.4 = {
 			owner = JAP
 			controller = JAP
