@@ -16,6 +16,9 @@ on_actions = {
 				add_core_of = SOV
 				remove_core_of = JAP
 			}
+			MJP = {
+			country_lock_all_division_template = yes
+			}
         }
     }
 }
