@@ -52,4 +52,8 @@ spriteTypes = {
 		name = "GFX_idea_MJP_peace_Constitution"
 		texturefile = "gfx/ideas/MJP/MJP_peace_Constitution.png"	
 	}
+	spriteType = {
+		name = "GFX_idea_MJP_economy"
+		texturefile = "gfx/ideas/MJP/MJP_economy.png"	
+	}
 }

@@ -24,6 +24,7 @@ set_fuel_ratio = 1.0
 add_ideas = {
 	Self_Defense_Forces
 	MJP_peace_Constitution
+	MJP_economy
 }
 
 if = {

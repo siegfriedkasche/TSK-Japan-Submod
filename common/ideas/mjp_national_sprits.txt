@@ -1449,4 +1449,27 @@ high_command = {
 			
 			cancel_if_invalid = no
 		}
+	economy = { 
+		MJP_economy = {
+			
+			allowed = {
+			    original_tag = MJP
+			}
+			available = {
+			    original_tag = MJP
+			}
+			ai_will_do = {
+   				factor = 1
+   			}
+			picture = MJP_economy
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.20
+			}
+			
+			cancel_if_invalid = no
+		}
 	}
+
