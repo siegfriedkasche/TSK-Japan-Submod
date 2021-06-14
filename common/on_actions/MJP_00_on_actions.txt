@@ -10,8 +10,11 @@ on_actions = {
             }
 			SOV = {
 				transfer_state = 537
-				add_core_of = 537
 				transfer_state = 555
+			}
+			537 = {
+				add_core_of = SOV
+				remove_core_of = JAP
 			}
         }
     }
