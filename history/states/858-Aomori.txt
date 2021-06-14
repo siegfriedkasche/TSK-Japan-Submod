@@ -11,9 +11,17 @@ state={
 		owner = MJP
 		add_core_of = MJP
 		buildings = {
-
-
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 10
+			dockyard = 2
+			air_base = 6
+			fuel_silo = 3
+			steel_alloy_ind = 1
+			6994 = {
+				naval_base = 8
 			}
+		}
 
 		victory_points = {
 

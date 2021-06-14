@@ -4,10 +4,10 @@ units = {
 
 	fleet ={
 		name = "제 1 호위대군"
-	   naval_base = 9998
+	   naval_base = 4184
 		task_force = {
 			name = "제1호위대군"
-			location = 9998
+			location = 4184
 			ship = { name = "JDS 공고" definition = modern_DDG start_experience_factor = 0.65 equipment = { ship_hull_modern_DDG_2 = { amount = 1 owner = MJP version_name = "공고급" } } }
 			ship = { name = "JDS 센다이" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "시라네급" } } }
             ship = { name = "JDS 타치즈키" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치즈키급" } } }
@@ -70,10 +70,10 @@ units = {
 	}
 fleet ={
 		name = "오미나토 지방대"
-        naval_base = 9859
+        naval_base = 6994
 		task_force = {
 			name = "오미나토 지방대"
-			location = 9859
+			location = 6994
          ship = { name = "JDS 진츠" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "아부쿠마급" } } }
 		 ship = { name = "JDS 유바리" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "유바리급" } } }
 		 ship = { name = "JDS 유베츠" definition =  modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "유바리급" } } }
@@ -84,10 +84,10 @@ fleet ={
 }
 		fleet ={
 		name = "요코스카 지방대"
-        naval_base = 9998
+        naval_base = 4184
 		task_force = {
 			name = "요코스카 지방대"
-			location = 9998
+			location = 4184
 		    ship = { name = "JDS 하츠유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
 			ship = { name = "JDS 시라유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
 			ship = { name = "JDS 사와유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
@@ -149,10 +149,10 @@ fleet ={
 }
 fleet ={
 		name = " 잠수대군 "
-        naval_base = 9998
+        naval_base = 4184
 		task_force = {
 			name = " 잠수대군 "
-			location = 9998
+			location = 4184
 			ship = { name = "SS-583 하루시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = MJP version_name = "하루시오급" } } }
 			ship = { name = "SS-584 나츠시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = MJP version_name = "하루시오급" } } }
 			ship = { name = "SS-585 하야시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = MJP version_name = "하루시오급" } } }

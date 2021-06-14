@@ -11,6 +11,7 @@ state={
 		add_core_of = MJP
 		buildings = {
 			infrastructure = 3
+			air_base = 6
 		}
 		victory_points = {
 			10444 20

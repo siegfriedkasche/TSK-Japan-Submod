@@ -10,6 +10,10 @@ state={
 	history={
 		owner = MJP
 		add_core_of = MJP
+		buildings = {
+        air_base = 6
+
+			}
 		
 		1936.1.4 = {
 			owner = JAP

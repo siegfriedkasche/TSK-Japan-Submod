@@ -12,7 +12,7 @@ state={
 		owner = MJP
 		add_core_of = MJP
 		buildings = {
-
+        air_base = 6
 
 			}
 
