@@ -1,0 +1,14 @@
+
+on_actions = {
+    on_startup = {
+        effect = {
+            tan = {
+                country_event = { 
+					id = USJ.6974
+					days = 3
+				}
+            }
+        }
+    }
+}
+

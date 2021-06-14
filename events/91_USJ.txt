@@ -15,7 +15,24 @@ country_event = {
        }
    }
 }
-
+country_event = {
+	id = USJ.6974
+	title = USJ.6974.t
+	desc = USJ.6974.d
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+        name = USJ.6974.a
+        ai_chance = {
+            factor = 100
+        }
+		MJP = {
+			complete_national_focus = Market_Control_Initiated_markets
+		}
+    }
+}
 
 country_event = {
 	id = USJ.2
