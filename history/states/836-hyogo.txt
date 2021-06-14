@@ -11,7 +11,9 @@ state={
 		owner = MJP
 		add_core_of = MJP
 		buildings = {
-
+        infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
 
 			}
 
