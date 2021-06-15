@@ -242,7 +242,7 @@ focus_tree = {
 		x = 45
 		y = 6
 		completion_reward = {
-			
+
 		}
 	}
 	focus = {
@@ -258,13 +258,18 @@ focus_tree = {
 		x = 44
 		y = 7
 		completion_reward = {
-			
+			country_event = {
+			    id = KORnan.42
+			}
 		}
 	}
 	focus = {
 		id = KOR_CNT_Temporary_Committee
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 4
+		available = {
+		has_country_flag = ja_malrateseuta
+		}
 		prerequisite = {
 			focus = KOR_CNT_New_direction
 		}
@@ -274,7 +279,9 @@ focus_tree = {
 		x = 46
 		y = 8
 		completion_reward = {
-			
+			hidden_effect = {
+			clr_country_flag = ja_malrateseuta
+			}
 		}
 	}
 	focus = {
@@ -427,6 +434,9 @@ focus_tree = {
 		y = 6
 		completion_reward = {
 			add_ideas = anarcha_feminism
+			country_event = {
+				id = KORnan.43
+			}
 		}
 	}
 	focus = {
@@ -834,9 +844,15 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = KOR_CNT_Temporary_Committee
 		}
+		available = {
+		has_country_flag = nein_malrateseuta
+		}
 		x = 42
 		y = 8
 			completion_reward = {
+						hidden_effect = {
+						clr_country_flag = nein_malrateseuta
+						}
 						country_lock_all_division_template = no
 
 					country_event = {
@@ -915,7 +931,11 @@ focus_tree = {
 		}
 		x = 40
 		y = 9
-
+		completion_reward = {
+			country_event = {
+				id = KORnan.41
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_cohesion
@@ -950,7 +970,12 @@ focus_tree = {
 		}
 		x = 43 
 		y = 10
-
+		completion_reward = {
+			SOV = {
+				add_stability	= -0.1
+				add_war_support		= -0.1
+			}
+		}
 	}
 	focus = {
 		id = KOR_Solidarity_of_workers

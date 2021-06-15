@@ -10,6 +10,7 @@ set_technology = {
 set_add_stability = 0.2
 add_ideas = Sharing_means_of_production
 add_ideas = anarchist_social
+add_ideas = mahkno_idea_portrait_ideas
 add_ideas = Russian_Civil_War
 add_ideas = anarchist_mobilization_laws
 set_politics = {

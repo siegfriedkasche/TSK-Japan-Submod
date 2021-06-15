@@ -106,7 +106,7 @@ news_event = {
 	id = Ana_news.5
 	title = Ana_news.5.t
 	desc = Ana_news.5.d
-	picture = GFX_news_red_army
+	picture = GFX_news_revolution_hand_up
 	
 	major = yes
 	

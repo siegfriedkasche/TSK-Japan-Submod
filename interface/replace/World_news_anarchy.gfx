@@ -21,4 +21,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/GFX_killing_franco_news_event.png"
 	}
 	
+	spriteType = {
+		name = "GFX_news_revolution_hand_up"
+		texturefile = "gfx/event_pictures/GFX_news_revolution_hand_up.png"
+	}
 }

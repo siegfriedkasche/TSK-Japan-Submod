@@ -189,3 +189,124 @@ ideas = {
             }
         }
     }
+	country = {
+        
+        mahkno_idea_portrait_ideas = {
+
+            allowed = {
+                original_tag = UFT
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = mahkno_idea_portrait
+
+            removal_cost = -1
+
+
+            modifier = {
+                army_defence_factor	 = 0.15
+				drift_defence_factor = 0.5
+				defence = 0.15
+            }
+        }
+    }
+	##############소련 내전##############
+	country = {
+        
+        stalin_idea_portrait_ideas = {
+
+            allowed = {
+                original_tag = SOV
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = stalin_idea_portrait
+
+            removal_cost = -1
+
+
+            modifier = {
+                max_surrender_limit_offset = 0.2
+                drift_defence_factor = 0.5
+				army_defence_factor = 0.15
+				army_attack_factor = 0.05
+				conscription = 0.03
+            }
+        }
+    }
+	country = {
+        
+        Zhukov_idea_portrait_ideas = {
+
+            allowed = {
+                original_tag = SAG
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = Zhukov_idea_portrait
+
+            removal_cost = -1
+
+
+            modifier = {
+                drift_defence_factor = 0.5
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
+            }
+        }
+    }
+	country = {
+        
+        Zhukov_idea_portrait_ideas = {
+
+            allowed = {
+                original_tag = SAG
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = Zhukov_idea_portrait
+
+            removal_cost = -1
+
+
+            modifier = {
+                drift_defence_factor = 0.5
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
+            }
+        }
+    }
+	country = {
+        
+        uft_free_territory_ideas = {
+
+            allowed = {
+                original_tag = SAG
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = uft_free_territory
+
+            removal_cost = -1
+
+
+            modifier = {
+                
+            }
+        }
+    }

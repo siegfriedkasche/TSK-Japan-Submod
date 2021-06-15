@@ -108,4 +108,26 @@ spriteTypes = {
 		name = "GFX_idea_happy_imgine"
 		texturefile = "gfx/interface/ideas/happy_imgine.png"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_uft_free_territory"
+		texturefile = "gfx/interface/ideas/uft_free_territory.png"
+	}
+	
+	
+	
+	########################초상화########################
+	
+	spriteType = {
+		name = "GFX_idea_mahkno_idea_portrait"
+		texturefile = "gfx/interface/ideas/face_picture/mahkno_idea_portrait.png"
+	}
+	spriteType = {
+		name = "GFX_idea_stalin_idea_portrait"
+		texturefile = "gfx/interface/ideas/face_picture/stalin_idea_portrait.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Zhukov_idea_portrait"
+		texturefile = "gfx/interface/ideas/face_picture/Zhukov_idea_portrait.png"
+	}
 }

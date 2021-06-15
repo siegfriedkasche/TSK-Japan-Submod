@@ -38,6 +38,7 @@ focus_tree = {
 		
 				}
 			}
+			add_ideas = Zhukov_idea_portrait_ideas
 		}
 	}
 	focus = {

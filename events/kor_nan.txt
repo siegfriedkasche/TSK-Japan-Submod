@@ -45,7 +45,61 @@ country_event = {
 		add_ideas = Unstable_commune
 	}
 }
-
+country_event = {
+	id = KORnan.41 #준정치적 강령
+	title = KORnan.41.t
+	desc = KORnan.41.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.41.a
+		ai_chance = {
+		    factor = 100
+		}
+		
+	}
+}
+country_event = {
+	id = KORnan.42 #아나키스트 조직이라는 상
+	title = KORnan.42.t
+	desc = KORnan.42.d
+	picture = GFX_파리코뮌cnt
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.42.a
+		ai_chance = {
+		    factor = 50
+		}
+		set_country_flag = nein_malrateseuta
+		
+	}
+	option = {
+		name = KORnan.42.c
+		ai_chance = {
+		    factor = 50
+		}
+		set_country_flag = JA_malrateseuta
+	}
+}
+country_event = {
+	id = KORnan.43 #성별은 중요하지않다!
+	title = KORnan.43.t
+	desc = KORnan.43.d
+	picture = GFX_KOR_CNT_Respect_for_womens_rights_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan.43.a
+		ai_chance = {
+		    factor = 50
+		}
+	}
+} 
 country_event = {
 	id = KORnan.10001 #중점 체인지
 	title = KORnan.1.t
@@ -271,7 +325,7 @@ country_event = {
 				}
 			}
 			SOV = {
-				
+				add_ideas = stalin_idea_portrait_ideas
 				country_event = {
     				id = KORnan.27
     				days = 23
@@ -342,6 +396,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
 	id = KORnan.8 #강령
 	title = KORnan.8.t
