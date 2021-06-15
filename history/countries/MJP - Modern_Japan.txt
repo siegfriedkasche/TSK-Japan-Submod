@@ -203,6 +203,29 @@ set_technology = {
 	ship_armor_cruiser_modern_1 = 1
 	ship_armor_cruiser_modern_2 = 1
 
+	m_1980patrol = 1
+	
+	modern_light_battery_1 = 1
+	ship_missile_luncher_1 = 1
+	ship_missile_luncher_2 = 1
+	ship_ciws = 1
+	ship_modern_control_system_1 = 1
+	ship_modern_radar_1 = 1
+	ship_modern_sonar_1 = 1
+	light_ship_engine_modern_1 = 1
+	ship_hel = 1
+	
+	light_secondaries_1 = 1
+	mg = 1
+	ship_vulcan_1 = 1
+	ship_manpad = 1
+	depth_charge_modern_1 = 1
+	
+	modern_steel_mill = 1
+	modern_fuel_refining = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+
 	armored_car1 = 1
 	
 	m_1990_IFV = 1
@@ -794,16 +817,16 @@ if = {
 
 
 if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
-### VARIANTS ###
+	limit = { not = { has_dlc = "Man the Guns" } }
+
+}
 if = {
 	limit = { has_dlc = "Man the Guns" }
-	
-	create_equipment_variant = {
+
+
+    create_equipment_variant = {
 		name = "공고급"
-		type = ship_hull_modern_DDG_2
+		type = ship_hull_modern_DDG_1
 		name_group = MJP_DDG_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -821,9 +844,31 @@ if = {
 			rear_2_custom_slot = ship_torpedo_modern_1
 		}
 	}
+
+	create_equipment_variant = {
+		name = "하츠유키급"
+		type = ship_hull_modern_DDH_2
+		name_group = MJP_DDH_HISTORICAL
+		parent_version = 0
+		modules = {
+			ixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_1
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_armor_slot = ship_armor_cruiser_modern_1
+			front_1_custom_slot = ship_aa_missile_luncher_1
+			mid_1_custom_slot = ship_missile_luncher_2
+			mid_2_custom_slot = ship_ciws_2
+			rear_1_custom_slot = ship_aa_missile_luncher_1
+			rear_2_custom_slot = ship_hel_modern
+		}
+	}
+
     create_equipment_variant = {
 		name = "아마츠카제급"
-		type = ship_hull_modern_DDG_1
+		type = ship_hull_modern_DDH_1
 		name_group = MJP_DDG_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -842,9 +887,10 @@ if = {
 
 		}
 	}
-create_equipment_variant = {
+
+    create_equipment_variant = {
 		name = "하타카제급"
-		type = ship_hull_modern_DDG_1
+		type = ship_hull_modern_DDH_1
 		name_group = MJP_DDG_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -863,11 +909,11 @@ create_equipment_variant = {
 }
 	create_equipment_variant = {
 		name = "타치카제급"
-		type = ship_hull_modern_DDG_1
+		type = ship_hull_modern_DDH_1
 		name_group = MJP_DDH_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_battery_slot = modern_ship_light_battery_2
 			fixed_ship_anti_air_slot = ship_ciws_2
 			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
 			fixed_ship_radar_slot = ship_modern_radar_1
@@ -876,95 +922,11 @@ create_equipment_variant = {
 			fixed_ship_armor_slot = ship_armor_cruiser_modern_1
 			front_1_custom_slot = ship_aa_missile_luncher_1
 			mid_1_custom_slot = ship_missile_luncher_2
-			rear_1_custom_slot = modern_ship_light_battery_1
+			rear_1_custom_slot = modern_ship_light_battery_2
 			rear_2_custom_slot = ship_aa_missile_luncher_1
 		}
 	}
-	create_equipment_variant = {
-		name = "아부쿠마급"
-		type = ship_hull_FF_2
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = modern_ship_light_battery_1
-			fixed_ship_anti_air_slot = ship_ciws_2
-			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
-			fixed_ship_radar_slot = ship_modern_radar_1
-			fixed_ship_sts_slot = ship_missile_luncher_2
-			fixed_ship_engine_slot = light_ship_engine_modern_1
-			fixed_ship_battery_slot_1 = empty
-			rear_1_custom_slot = ship_ciws_2
-			mid_1_custom_slot = ship_missile_luncher_1
-			front_1_custom_slot = ship_missile_luncher_1
-		}
-	}
-	create_equipment_variant = {
-		name = "야마구모급"
-		type = ship_hull_FF_1
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = modern_ship_light_battery_1
-			fixed_ship_anti_air_slot = ship_ciws_1
-			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
-			fixed_ship_radar_slot = ship_modern_radar_1
-			fixed_ship_sts_slot = empty
-			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
-			fixed_ship_engine_slot = light_ship_engine_modern_1
-			rear_1_custom_slot = modern_ship_light_battery_1
-			mid_1_custom_slot = ship_depth_charge_modern_1
-			front_1_custom_slot = empty
-		}
-	}
-	create_equipment_variant = {
-		name = "유바리급"
-		type = ship_hull_FF_1
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = modern_ship_light_battery_1
-			fixed_ship_anti_air_slot = 
-			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
-			fixed_ship_radar_slot = ship_modern_radar_1
-			fixed_ship_sts_slot = ship_missile_luncher_2
-			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
-			fixed_ship_engine_slot = light_ship_engine_modern_1
-			rear_1_custom_slot =hip_torpedo_1
-			mid_1_custom_slot = sship_missile_luncher_2
-			front_1_custom_slot = empty
-		}
-	}
-	create_equipment_variant = {
-		name = "이스즈급"
-		type = ship_hull_FF_1
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = modern_ship_light_battery_1
-			fixed_ship_anti_air_slot = 
-			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
-			fixed_ship_radar_slot = ship_modern_radar_1
-			fixed_ship_sts_slot = ship_missile_luncher_2
-			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
-			fixed_ship_engine_slot = light_ship_engine_modern_1
-			rear_1_custom_slot =hip_torpedo_1
-			mid_1_custom_slot = sship_missile_luncher_2
-			front_1_custom_slot = empty
-		}
-	}
-	create_equipment_variant = {
-		name = "치쿠고급"
-		type = ship_hull_FF_1
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = modern_ship_light_battery_1
-			fixed_ship_anti_air_slot = 
-			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
-			fixed_ship_radar_slot = ship_modern_radar_1
-			fixed_ship_sts_slot = ship_missile_luncher_2
-			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
-			fixed_ship_engine_slot = light_ship_engine_modern_1
-			rear_1_custom_slot =hip_torpedo_1
-			mid_1_custom_slot = sship_missile_luncher_2
-			front_1_custom_slot = empty
-		}
-	}
+
 	create_equipment_variant = {
 		name = "시라네급"
 		type = ship_hull_modern_DDH_1
@@ -984,6 +946,7 @@ create_equipment_variant = {
 			rear_2_custom_slot = ship_aa_missile_luncher_1
 		}
 	}
+
 	create_equipment_variant = {
 		name = "하루나급"
 		type = ship_hull_modern_DDH_1
@@ -1003,26 +966,7 @@ create_equipment_variant = {
 			rear_2_custom_slot = ship_aa_missile_luncher_1
 		}
 	}
-	create_equipment_variant = {
-		name = "하츠유키급"
-		type = ship_hull_modern_DDH_2
-		name_group = MJP_DDH_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = modern_ship_light_battery_1
-			fixed_ship_anti_air_slot = ship_ciws_2
-			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
-			fixed_ship_radar_slot = ship_modern_radar_1
-			fixed_ship_engine_slot = cruiser_ship_engine_modern_1
-			fixed_ship_sts_slot = ship_missile_luncher_2
-			fixed_ship_armor_slot = ship_armor_cruiser_modern_1
-			front_1_custom_slot = ship_aa_missile_luncher_1
-			mid_1_custom_slot = ship_missile_luncher_2
-			mid_2_custom_slot = ship_ciws_2
-			rear_1_custom_slot = ship_aa_missile_luncher_1
-			rear_2_custom_slot = ship_hel_modern
-		}
-	}
+
 	create_equipment_variant = {
 		name = "아사기리급"
 		type = ship_hull_modern_DDH_2
@@ -1043,6 +987,7 @@ create_equipment_variant = {
 			rear_2_custom_slot = ship_hel_modern
 		}
 	}
+
 	create_equipment_variant = {
 		name = "아키즈키급"
 		type = ship_hull_modern_DDH_1
@@ -1063,7 +1008,8 @@ create_equipment_variant = {
 			rear_2_custom_slot = ship_hel_modern
 		}
 	}
-		create_equipment_variant = {
+
+	create_equipment_variant = {
 		name = "타치즈키급"
 		type = ship_hull_modern_DDH_1
 		name_group = MJP_DDH_HISTORICAL
@@ -1083,6 +1029,7 @@ create_equipment_variant = {
 			rear_2_custom_slot = ship_hel_modern
 		}
 	}
+
 	create_equipment_variant = {
 		name = "미네구모급"
 		type = ship_hull_modern_DDH_1
@@ -1103,6 +1050,97 @@ create_equipment_variant = {
 			rear_2_custom_slot = ship_hel_modern
 		}
 	}
+
+	create_equipment_variant = {
+		name = "아부쿠마급"
+		type = ship_hull_FF_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			fixed_ship_battery_slot_1 = empty
+			rear_1_custom_slot = ship_ciws_2
+			mid_1_custom_slot = ship_missile_luncher_1
+			front_1_custom_slot = ship_missile_luncher_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "야마구모급"
+		type = ship_hull_FF_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_ciws_1
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_sts_slot = empty
+			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			rear_1_custom_slot = modern_ship_light_battery_1
+			mid_1_custom_slot = ship_depth_charge_modern_1
+			front_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "유바리급"
+		type = ship_hull_FF_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = 
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			rear_1_custom_slot =hip_torpedo_1
+			mid_1_custom_slot = sship_missile_luncher_2
+			front_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "이스즈급"
+		type = ship_hull_FF_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = 
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			rear_1_custom_slot =hip_torpedo_1
+			mid_1_custom_slot = sship_missile_luncher_2
+			front_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "치쿠고급"
+		type = ship_hull_FF_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = 
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			rear_1_custom_slot =hip_torpedo_1
+			mid_1_custom_slot = sship_missile_luncher_2
+			front_1_custom_slot = empty
+		}
+	}
+
 	create_equipment_variant = {
 		name = "우즈시오급"
 		type = ship_hull_modern_submarine_3
@@ -1116,6 +1154,7 @@ create_equipment_variant = {
 			rear_1_custom_slot = empty
 		}
 	}
+
 	create_equipment_variant = {
 		name = "유우시오급"
 		type = ship_hull_modern_submarine_3
@@ -1129,6 +1168,7 @@ create_equipment_variant = {
 			rear_1_custom_slot = ship_sts_sub_1
 		}
 	}
+
 	create_equipment_variant = {
 		name = "하루시오급"
 		type = ship_hull_modern_submarine_4

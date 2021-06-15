@@ -1,0 +1,148 @@
+﻿KOR = {
+
+	air_wing_names_template = AIR_WING_NAME_KOR_FALLBACK
+
+	fighter_equipment = {
+		prefix = ""
+		generic = {
+			"전투기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+	
+	jet_multirole_equipment = {
+		prefix = ""
+		generic = {
+			"다목적 전투기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+	
+	attack_helicopter_equipment = {
+		prefix = ""
+		generic = {
+			"전투헬기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+	
+	maritime_helicopter_equipment = {
+		prefix = ""
+		generic = {
+			"대잠헬기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+	
+	jet_fighter_equipment = {
+		prefix = ""
+		generic = {
+			"제트전투기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+
+	heavy_fighter_equipment = {
+		prefix = ""
+		generic = {
+			"중전투기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+
+	CAS_equipment = {
+		prefix = ""
+		generic = {
+			"근접기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+
+	cv_fighter_equipment = {
+		prefix = ""
+		generic = {
+			"항모전투기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+
+	cv_CAS_equipment = {
+		prefix = ""
+		generic = {
+			"항모근접기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+	cv_nav_bomber_equipment = {
+		prefix = ""
+		generic = {
+			"항모뇌격기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+
+	tac_bomber_equipment = {
+		prefix = ""
+		generic = {
+			"전술폭격기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+
+	jet_tac_bomber_equipment = {
+		prefix = ""
+		generic = {
+			"제트전술폭격기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+
+	nav_bomber_equipment = {
+		prefix = ""
+		generic = {
+			"뇌격기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+
+	strat_bomber_equipment = {
+		prefix = ""
+		generic = {
+			"전략폭격기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+
+	jet_strat_bomber_equipment = {
+		prefix = ""
+		generic = {
+			"제트전략폭격기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+
+	transport_plane_equipment = {
+		prefix = ""
+		generic = {
+			"수송기 항공단"
+		}
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {}
+	}
+	
+}
