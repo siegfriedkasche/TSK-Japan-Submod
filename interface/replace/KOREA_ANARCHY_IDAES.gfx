@@ -113,6 +113,18 @@ spriteTypes = {
 		name = "GFX_idea_uft_free_territory"
 		texturefile = "gfx/interface/ideas/uft_free_territory.png"
 	}
+	spriteType = {
+		name = "GFX_idea_CNT_Offensive"
+		texturefile = "gfx/interface/ideas/CNT_Offensive.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fucking_purge"
+		texturefile = "gfx/interface/ideas/fucking_purge.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Russian_Civil_War"
+		texturefile = "gfx/interface/ideas/Russian_Civil_War.png"
+	}
 	
 	
 	
@@ -129,5 +141,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_Zhukov_idea_portrait"
 		texturefile = "gfx/interface/ideas/face_picture/Zhukov_idea_portrait.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SAG_All_power_to_the_Soviet"
+		texturefile = "gfx/interface/ideas/face_picture/SAG_All_power_to_the_Soviet.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kill_support_stalinist"
+		texturefile = "gfx/interface/ideas/kill_support_stalinist.png"
 	}
 }

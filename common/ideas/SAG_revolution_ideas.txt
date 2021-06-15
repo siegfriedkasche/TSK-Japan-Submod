@@ -11,7 +11,7 @@ ideas = {
                 always = no
             }
 
-            picture = 
+            picture = kill_support_stalinist
 
             removal_cost = -1
             
@@ -34,7 +34,7 @@ ideas = {
                 always = no
             }
 
-            picture = 
+            picture = CNT_Offensive
 
             removal_cost = -1
             
@@ -59,7 +59,7 @@ ideas = {
                 always = no
             }
 
-            picture = 
+            picture = fucking_purge
 
             removal_cost = -1
             
@@ -84,7 +84,7 @@ ideas = {
                 always = no
             }
 
-            picture = 
+            picture = SAG_All_power_to_the_Soviet
 
             removal_cost = -1
             

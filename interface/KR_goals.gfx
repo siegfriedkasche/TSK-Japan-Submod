@@ -83,6 +83,18 @@ spriteTypes = {
         name = "GFX_AVA_KOR_deconstruction"
         texturefile = "gfx/interface/goals/avant/GFX_AVA_KOR_deconstruction.png"
     }
+	spriteType = {
+        name = "GFX_KHA_the_foundation_laid"
+        texturefile = "gfx/interface/goals/GFX_KHA_the_foundation_laid.dds"
+    }
+	spriteType = {
+        name = "GFX_KHA_the_grey_area"
+        texturefile = "gfx/interface/goals/GFX_KHA_the_grey_area.dds"
+    }
+	spriteType = {
+        name = "GFX_KOR_CNT_Distribution_of_communes"
+        texturefile = "gfx/interface/goals/GFX_KOR_CNT_Distribution_of_communes.png"
+    }
 	frameAnimatedSpriteType = {
 		name = "GFX_fire_breath_move"
 		texturefile = "gfx//superevent_pictures//fire_breath_move.png"

@@ -197,7 +197,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_Distribution_of_communes
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_Distribution_of_communes
 		cost = 4
 		available = {
 			and = {
@@ -247,7 +247,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_New_direction
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KHA_the_grey_area
 		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_Distribution_of_communes
@@ -836,7 +836,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_Code_of_Anarchism
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KHA_the_foundation_laid
 		cost = 4
 		prerequisite = {
 			focus = KOR_CNT_New_direction
