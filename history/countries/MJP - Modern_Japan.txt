@@ -203,6 +203,29 @@ set_technology = {
 	ship_armor_cruiser_modern_1 = 1
 	ship_armor_cruiser_modern_2 = 1
 
+	m_1980patrol = 1
+	
+	modern_light_battery_1 = 1
+	ship_missile_luncher_1 = 1
+	ship_missile_luncher_2 = 1
+	ship_ciws = 1
+	ship_modern_control_system_1 = 1
+	ship_modern_radar_1 = 1
+	ship_modern_sonar_1 = 1
+	light_ship_engine_modern_1 = 1
+	ship_hel = 1
+	
+	light_secondaries_1 = 1
+	mg = 1
+	ship_vulcan_1 = 1
+	ship_manpad = 1
+	depth_charge_modern_1 = 1
+	
+	modern_steel_mill = 1
+	modern_fuel_refining = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+
 	armored_car1 = 1
 	
 	m_1990_IFV = 1
