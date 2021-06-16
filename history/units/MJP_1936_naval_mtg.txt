@@ -8,13 +8,13 @@ units = {
 		task_force = {
 			name = "제1호위대군"
 			location = 4184
-			ship = { name = "JDS 공고" definition = modern_DDG start_experience_factor = 0.65 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = MJP version_name = "공고급" } } }
-			ship = { name = "JDS 센다이" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "시라네급" } } }
-            ship = { name = "JDS 타치즈키" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치즈키급" } } }
-            ship = { name = "JDS 키쿠즈키" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치즈키급" } } }
-			ship = { name = "JDS 타치카제" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치카제급" } } }
-			ship = { name = "JDS 사와카제" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치카제급" } } }
-			ship = { name = "JDS 하타카제" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "하타카제급" } } }
+			ship = { name = "JDS Kongō" definition = modern_DDG start_experience_factor = 0.65 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = MJP version_name = "공고급" } } }
+			ship = { name = "JDS Shirane" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "시라네급" } } }
+            ship = { name = "JDS Takatsuki" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치즈키급" } } }
+            ship = { name = "JDS Kikuzuki" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치즈키급" } } }
+			ship = { name = "JDS Tachikaze" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치카제급" } } }
+			ship = { name = "JDS Sawakaze" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치카제급" } } }
+			ship = { name = "JDS Hatakaze" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "하타카제급" } } }
 		}
 	}
 }
@@ -28,10 +28,9 @@ units = {
 			name = "제 2 호위대군"
 			location = 9950
 			#Escort Squadron 2
-			ship = { name = "JDS 아사카제" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치카제급" } } }
-			ship = { name = "JDS 쿠라마" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "시라네급" } } }
-			ship = { name = "JDS 나가즈키" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치즈키급" } } }
-			ship = { name = "JDS 구라마" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "하루나급" } } }
+			ship = { name = "JDS Asakaze" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치카제급" } } }
+			ship = { name = "JDS Kurama" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "시라네급" } } }
+			ship = { name = "JDS Nagatsuki" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치즈키급" } } }
 		}
     }
 }
@@ -43,15 +42,15 @@ units = {
 		task_force = {
 			name = "제 3 호위대군"
 			location = 1136
-			ship = { name = "JDS 하루나" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "하루나급" } } }
-			ship = { name = "JDS 유기리" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "아사기리급" } } }
-			ship = { name = "JDS 아마기리" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "아사기리급" } } }
-			ship = { name = "JDS 세토기리" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2= { amount = 1 owner = MJP version_name = "아사기리급" } } }
-			ship = { name = "JDS 하마기리" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "아사기리급" } } }
-			ship = { name = "JDS 사와기리" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "아사기리급" } } }
-			ship = { name = "JDS 하루유키" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
-			ship = { name = "JDS 모치즈키" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치즈키급" } } }
-			ship = { name = "JDS 시마카제" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "하타카제급" } } }
+			ship = { name = "JDS Haruna" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "하루나급" } } }
+			ship = { name = "JDS Yūgiri" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "아사기리급" } } }
+			ship = { name = "JDS Amagiri" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "아사기리급" } } }
+			ship = { name = "JDS Setogiri" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2= { amount = 1 owner = MJP version_name = "아사기리급" } } }
+			ship = { name = "JDS Hamagiri" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "아사기리급" } } }
+			ship = { name = "JDS Sawagiri" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "아사기리급" } } }
+			ship = { name = "JDS Haruyuki" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
+			ship = { name = "JDS Mochizuki" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "타치즈키급" } } }
+			ship = { name = "JDS Shimakaze" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "하타카제급" } } }
 		}
 	}
 }
@@ -62,10 +61,10 @@ units = {
 		task_force = {
 			name = "제 4 호위대군"
 			location = 1092
-			ship = { name = "JDS 히이" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "하루나급" } } }
-			ship = { name = "JDS 아사기리" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2= { amount = 1 owner = MJP version_name = "아사기리급" } } }
-			ship = { name = "JDS 야마기리" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "아사기리급" } } }
-			ship = { name = "JDS 우미기리" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "아사기리급" } } }
+			ship = { name = "JDS Hiei" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "하루나급" } } }
+			ship = { name = "JDS Asagiri" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2= { amount = 1 owner = MJP version_name = "아사기리급" } } }
+			ship = { name = "JDS Yamagiri" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "아사기리급" } } }
+			ship = { name = "JDS Umigiri" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "아사기리급" } } }
 		}
 	}
 fleet ={
@@ -74,12 +73,15 @@ fleet ={
 		task_force = {
 			name = "오미나토 지방대"
 			location = 6994
-         ship = { name = "JDS 진츠" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "아부쿠마급" } } }
-		 ship = { name = "JDS 유바리" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "유바리급" } } }
-		 ship = { name = "JDS 유베츠" definition =  modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "유바리급" } } }
-         ship = { name = "JDS 키쿠즈키" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "미네구모급" } } }
-         ship = { name = "JDS 카타가미" definition =  modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "이스즈급" } } }
-		 ship = { name = "JDS 오이" definition =  modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "이스즈급" } } }
+         ship = { name = "JDS Jintsū" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "아부쿠마급" } } }
+		 ship = { name = "JDS Yūbari" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "유바리급" } } }
+		 ship = { name = "JDS Yūbetsu" definition =  modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "유바리급" } } }
+		 ship = { name = "JDS Aokumo" definition =  modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "야마구모급" } } }
+		 ship = { name = "JDS Akigumo" definition =  modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "야마구모급" } } }
+		 ship = { name = "JDS Yūgumo" definition =  modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "야마구모급" } } }
+         ship = { name = "JDS Murakumo" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "미네구모급" } } }
+         ship = { name = "JDS Kitakami" definition =  modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "이스즈급" } } }
+		 ship = { name = "JDS Ōi" definition =  modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "이스즈급" } } }
 		}
 }
 		fleet ={
@@ -88,18 +90,18 @@ fleet ={
 		task_force = {
 			name = "요코스카 지방대"
 			location = 4184
-		    ship = { name = "JDS 하츠유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
-			ship = { name = "JDS 시라유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
-			ship = { name = "JDS 사와유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
-			ship = { name = "JDS 아키즈키" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "아키즈키급" } } }
-			ship = { name = "JDS 테루즈키" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "아키즈키급" } } }
-            ship = { name = "JDS 아야세" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
-            ship = { name = "JDS 치토세" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
-			ship = { name = "JDS 니요도" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
-            ship = { name = "JDS 테시오" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
+		    ship = { name = "JDS Hatsuyuki" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
+			ship = { name = "JDS Shirayuki" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
+			ship = { name = "JDS Sawayuki" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
+			ship = { name = "JDS Akizuki" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "아키즈키급" } } }
+			ship = { name = "JDS Teruzuki" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "아키즈키급" } } }
+            ship = { name = "JDS Ayase" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
+            ship = { name = "JDS Chitose" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
+			ship = { name = "JDS Niyodo" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
+            ship = { name = "JDS Teshio" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
             ship = { name = "JDS 니요노" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
-			ship = { name = "JDS 테시요" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
-            ship = { name = "JDS 쿠마노" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
+			ship = { name = "JDS Teshio" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
+            ship = { name = "JDS Kumano" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
 	    }
 }
 fleet ={
@@ -108,11 +110,11 @@ fleet ={
 		task_force = {
 			name = "마이즈루 지방대"
 			location = 1136
-			ship = { name = "JDS 아부쿠마" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "아부쿠마급" } } }
-			ship = { name = "JDS 미네유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
-			ship = { name = "JDS 아마츠카제" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "아마츠카제급" } } }
-			ship = { name = "JDS 나츠쿠모" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "미네구모급" } } }
-			ship = { name = "JDS 이스즈" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "이스즈급" } } }
+			ship = { name = "JDS Abukuma" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "아부쿠마급" } } }
+			ship = { name = "JDS Mineyuki" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
+			ship = { name = "JDS Amatsukaze" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "아마츠카제급" } } }
+			ship = { name = "JDS Natsugumo" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "미네구모급" } } }
+			ship = { name = "JDS Isuzu" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "이스즈급" } } }
 		}
 }
 fleet ={
@@ -121,14 +123,14 @@ fleet ={
 		task_force = {
 			name = "사세보 지방대"
 			location = 9950
-            ship = { name = "JDS 요오도" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "아부쿠마급" } } }
-		    ship = { name = "JDS 센다이" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "아부쿠마급" } } }
-			ship = { name = "JDS 하루유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
-			ship = { name = "JDS 이소유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
-			ship = { name = "JDS 무라쿠모" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "미네구모급" } } }
-            ship = { name = "JDS 치쿠고" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
-            ship = { name = "JDS 미쿠마" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
-            ship = { name = "JDS 이와세" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
+            ship = { name = "JDS Ōyodo" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "아부쿠마급" } } }
+		    ship = { name = "JDS Sendai" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "아부쿠마급" } } }
+			ship = { name = "JDS Hamayuki" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
+			ship = { name = "JDS Isoyuki" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
+			ship = { name = "JDS Minegumo" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "미네구모급" } } }
+            ship = { name = "JDS Chikugo" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
+            ship = { name = "JDS Mikuma" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
+            ship = { name = "JDS Iwase" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
         }
 }
 fleet ={
@@ -137,14 +139,14 @@ fleet ={
 		task_force = {
 			name = "구레 지방대"
 			location = 1092
-		    ship = { name = "JDS 야마유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
-			ship = { name = "JDS 미쓰유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
-			ship = { name = "JDS 유키유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
-			ship = { name = "JDS 세토유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
-			ship = { name = "JDS 아사유키" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
-            ship = { name = "JDS 토카치" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
-            ship = { name = "JDS 노시로" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
-            ship = { name = "JDS 모가미" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "이스즈급" } } }
+		    ship = { name = "JDS Yamayuki" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
+			ship = { name = "JDS Matsuyuki" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
+			ship = { name = "JDS Shimayuki" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
+			ship = { name = "JDS Setoyuki" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
+			ship = { name = "JDS Asayuki" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
+            ship = { name = "JDS Tokachi" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
+            ship = { name = "JDS Noshiro" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "치쿠고급" } } }
+            ship = { name = "JDS Mogami" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "이스즈급" } } }
 		}
 }
 fleet ={
@@ -153,20 +155,20 @@ fleet ={
 		task_force = {
 			name = " 잠수대군 "
 			location = 4184
-			ship = { name = "SS-583 하루시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = MJP version_name = "하루시오급" } } }
-			ship = { name = "SS-584 나츠시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = MJP version_name = "하루시오급" } } }
-			ship = { name = "SS-585 하야시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = MJP version_name = "하루시오급" } } }
-			ship = { name = "SS-573 유우시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
-			ship = { name = "SS-574 모찌시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
-			ship = { name = "SS-575 세토시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
-			ship = { name = "SS-576 오끼시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
-			ship = { name = "SS-577 나다시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
-			ship = { name = "SS-578 하마시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
-			ship = { name = "SS-579 다케시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
-			ship = { name = "SS-580 유끼시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
-			ship = { name = "SS-581 사찌시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
-			ship = { name = "SS-582 아끼시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
-			ship = { name = "SS-571 타케시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "우즈시오급" } } }
-            ship = { name = "SS-572 야에시오" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "우즈시오급" } } }
+			ship = { name = "SS-583 Harushio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = MJP version_name = "하루시오급" } } }
+			ship = { name = "SS-584 Natsushio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = MJP version_name = "하루시오급" } } }
+			ship = { name = "SS-585 Hayashio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = MJP version_name = "하루시오급" } } }
+			ship = { name = "SS-573 Yūshio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
+			ship = { name = "SS-574 Mochishio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
+			ship = { name = "SS-575 Setoshio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
+			ship = { name = "SS-576 Okishio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
+			ship = { name = "SS-577 Nadashio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
+			ship = { name = "SS-578 Hamashio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
+			ship = { name = "SS-579 Akishio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
+			ship = { name = "SS-580 Takeshio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
+			ship = { name = "SS-581 Yukishio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
+			ship = { name = "SS-582 Sachishio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "유우시오급" } } }
+			ship = { name = "SS-571 Takashio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "우즈시오급" } } }
+            ship = { name = "SS-572 Yaeshio" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = MJP version_name = "우즈시오급" } } }
 		}
 }

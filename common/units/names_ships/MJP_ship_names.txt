@@ -45,8 +45,63 @@ MJP_DDH_HISTORICAL = {
 		"Murasame" "Harusame" "Yūdachi" "Kirisame" "Inazuma" "Samidare" "Ikazuchi" "Ikazuchi" "Ariake"
 		#타카나미급
 		"Takanami" "Ōnami" "Makinami" "Sazanami" "Suzunami"
+		#타치즈키급
+        "Takatsuki" "Kikuzuki" "Mochizuki" "Nagatsuki"
 		#아키즈키급
 		"Akizuki" "Teruzuki" "Suzutsuki" "Fuyuzuki"
+        #시라네급
+        "Shirane" "Kurama" 
+        #하루나급
+        "Haruna" "Hiei"
+		#미네구모급
+        "Minegumo" "Natsugumo" "Murakumo" 
+		#아마츠카제급
+		"Amatsukaze"
+	}
+}
+
+MJP_FF_HISTORICAL = {
+    name = NAME_THEME_HISTORICAL_FF
+
+	for_countries = { MJP }
+
+	type = ship
+	
+	prefix = "JDS "							
+	fallback_name = "FF-1%d"
+
+	unique ={
+        #아부쿠마급
+	    "Abukuma" "Jintsū" "Ōyodo" "Sendai" "Chikuma" "Tone"
+	    #야마구모급
+	    "Yamagumo" "Makigumo" "Asagumo" "Aokumo" "Akigumo" "Yūgumo"
+	    #유바리급
+	    "Yūbari" "Yūbetsu"
+	    #이스즈급
+	    "Isuzu" "Mogami" "Kitakami" "Ōi"
+	    #치쿠고급
+        "Chikugo" "Ayase" "Mikuma" "Tokachi" "Iwase" "Chitose" "Niyodo" "Teshio" "Yoshino" "Kumano" "Noshiro"
+	}
+
+}
+
+MJP_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SS
+
+	for_countries = { MJP }
+
+	type = ship
+	
+	prefix = "JDS "							
+	fallback_name = "SS-1%d"
+
+	unique = {
+		#하루시오급
+		"Harushio" "Natsushio" "Hayashio" "Arashio" "Wakashio" "Fuyushio" "Asashio" "" "" ""
+		#유우시오급
+        "Yūshio" "Mochishio" "Setoshio" "Okishio" "Nadashio" "Hamashio" "Akishio" "Takeshio" "Yukishio" "Sachishio" 
+		#우즈시오급
+        "Uzushio" "Makishio" "Isoshio" "Narushio" "Kuroshio" "Takashio" "Yaeshio'
 	}
 }
 
