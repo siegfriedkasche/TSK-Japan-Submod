@@ -111,7 +111,7 @@ fleet ={
 			location = 1136
 			ship = { name = "JDS Abukuma" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "아부쿠마급" } } }
 			ship = { name = "JDS Mineyuki" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "하츠유키급" } } }
-			ship = { name = "JDS Amatsukaze" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "아마츠카제급" } } }
+			ship = { name = "JDS Amatsukaze" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "아마츠카제급" } } }
 			ship = { name = "JDS Natsugumo" definition = modern_DDH start_experience_factor = 0.50 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = MJP version_name = "미네구모급" } } }
 			ship = { name = "JDS Isuzu" definition = modern_FF start_experience_factor = 0.50 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "이스즈급" } } }
 		}
