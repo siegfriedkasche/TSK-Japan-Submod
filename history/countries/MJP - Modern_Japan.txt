@@ -146,6 +146,7 @@ set_technology = {
 	m_1990ff = 1
 
 	m_1990DDG = 1
+	m_2000DDG = 1
 	
 	m_1980DDH = 1
 	m_1990DDH = 1
