@@ -1,0 +1,574 @@
+equipments = {
+
+	ship_hull_FF = {
+		year = 1922
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		interface_category = interface_category_capital_ships
+		priority = 2000
+
+		upgrades = {
+			ship_torpedo_upgrade
+			destroyer_engine_upgrade
+			ship_ASW_upgrade
+			ship_anti_air_upgrade
+		}
+
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_light_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_fire_control_system ship_sonar }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar }
+			}
+			fixed_ship_sts_slot = {
+				required = no
+				allowed_module_categories = { ship_sts }
+			}
+			fixed_ship_depth_charge_slot = {
+				required = no
+				allowed_module_categories = { ship_depth_charge }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { light_ship_engine }
+			}
+
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_anti_air
+					ship_depth_charge
+					ship_sts
+					ship_light_aa
+					ship_light_secondaries
+				}
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_light_battery
+					ship_light_aa
+					ship_light_secondaries
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_mine_warfare
+					ship_mine_layer
+					ship_anti_air
+					ship_depth_charge
+					ship_light_battery
+					ship_light_aa
+					ship_light_secondaries
+				}
+			}
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+		
+		module_count_limit = {
+			category = ship_sonar
+			count < 2
+		}
+		
+		default_modules = {
+			fixed_ship_battery_slot = empty
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_sts_slot = empty
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 1
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 10
+		naval_speed = 25
+		reliability = 0.80
+		
+		naval_range = 1500
+		
+		max_strength = 30
+		
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 400
+		resources = {
+			steel = 2
+		}
+		
+		manpower = 250
+	}
+
+	ship_hull_FF_1 = { 
+		year = 1922
+
+		archetype = ship_hull_FF
+		priority = 2000
+		#alias = destroyer_1
+		
+		module_slots = inherit
+	}
+
+	ship_hull_FF_2 = { 
+		year = 1936
+
+		archetype = ship_hull_FF
+		priority = 2000
+		parent = ship_hull_FF_1
+		#alias = destroyer_2
+
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_light_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_fire_control_system ship_sonar }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar }
+			}
+			fixed_ship_sts_slot = {
+				required = no
+				allowed_module_categories = { ship_sts }
+			}
+			fixed_ship_depth_charge_slot = {
+				required = no
+				allowed_module_categories = { ship_depth_charge }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { light_ship_engine }
+			}
+
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_anti_air
+					ship_depth_charge
+					ship_sts
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_anti_air
+					ship_depth_charge
+				}
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_light_battery
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_depth_charge
+					ship_light_battery
+					ship_airplane_launcher
+				}
+			}
+		}
+
+		reliability = 0.85
+		naval_range = 1800
+		max_strength = 35
+		build_cost_ic = 500
+		resources = {
+			steel = 2
+		}
+		manpower = 325
+	}
+
+	ship_hull_FF_3 = { #인천급
+		year = 1940
+
+		archetype = ship_hull_FF
+		priority = 2000
+		parent = ship_hull_FF_2
+		#alias = destroyer_3
+
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_light_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_fire_control_system ship_sonar }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar }
+			}
+			fixed_ship_sts_slot = {
+				required = no
+				allowed_module_categories = { ship_sts }
+			}
+			fixed_ship_depth_charge_slot = {
+				required = no
+				allowed_module_categories = { ship_depth_charge }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { light_ship_engine }
+			}
+
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_anti_air
+					ship_depth_charge
+					ship_sts
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_anti_air
+					ship_depth_charge
+				}
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_light_battery
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_depth_charge
+					ship_light_battery
+					ship_airplane_launcher
+				}
+			}
+		}
+
+		
+		resources = {
+			steel = 5
+		}
+
+		surface_detection = 20
+		surface_visibility = 10
+		reliability = 0.90
+		naval_range = 2000
+		max_strength = 45
+		build_cost_ic = 550
+		manpower = 400
+
+		default_modules = {
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_3
+		}
+	}
+	
+	ff_1 = { #울산
+		year = 1922
+
+		archetype = ship_hull_FF
+		priority = 2000
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_ciws_1
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_sts_slot = ship_missile_luncher_1
+			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			rear_1_custom_slot = modern_ship_light_battery_1
+			mid_1_custom_slot = ship_missile_luncher_1
+			front_1_custom_slot = modern_ship_light_battery_1
+		}
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 10
+		naval_speed = 25
+		reliability = 0.80
+		
+		naval_range = 1500
+		
+		max_strength = 30
+		
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 400
+		resources = {
+			steel = 2
+		}
+		
+		manpower = 250
+	}
+	ff_2 = { #
+		year = 1936
+
+		archetype = ship_hull_FF
+		priority = 2000
+		parent = ff_1
+
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_light_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_fire_control_system ship_sonar }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar }
+			}
+			fixed_ship_sts_slot = {
+				required = no
+				allowed_module_categories = { ship_sts }
+			}
+			fixed_ship_depth_charge_slot = {
+				required = no
+				allowed_module_categories = { ship_depth_charge }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { light_ship_engine }
+			}
+
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_anti_air
+					ship_depth_charge
+					ship_sts
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_anti_air
+					ship_depth_charge
+				}
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_light_battery
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_depth_charge
+					ship_light_battery
+					ship_airplane_launcher
+				}
+			}
+		}
+		default_modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			fixed_ship_battery_slot_1 = empty
+			rear_1_custom_slot = ship_ciws_2
+			mid_1_custom_slot = ship_missile_luncher_1
+			front_1_custom_slot = ship_missile_luncher_1
+		}
+		surface_detection = 25
+		sub_detection = 10
+		surface_visibility = 10
+		naval_speed = 25
+		reliability = 0.85
+
+		naval_range = 1800
+		
+		max_strength = 35
+		
+		build_cost_ic = 500
+		resources = {
+			#oil = 1
+			steel = 3
+		}		
+		manpower = 320
+	}
+	ff_3 = { #인천
+		year = 1936
+
+		archetype = ship_hull_FF
+		priority = 2000
+		parent = ff_2
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_light_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_fire_control_system ship_sonar }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar }
+			}
+			fixed_ship_sts_slot = {
+				required = no
+				allowed_module_categories = { ship_sts }
+			}
+			fixed_ship_depth_charge_slot = {
+				required = no
+				allowed_module_categories = { ship_depth_charge }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { light_ship_engine }
+			}
+
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_anti_air
+					ship_depth_charge
+					ship_sts
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_anti_air
+					ship_depth_charge
+				}
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_light_battery
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_depth_charge
+					ship_light_battery
+					ship_airplane_launcher
+				}
+			}
+		}
+		default_modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
+			fixed_ship_radar_slot = ship_modern_radar_2
+			fixed_ship_sts_slot = ship_missile_luncher_3
+			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
+			fixed_ship_engine_slot = light_ship_engine_modern_2
+			mid_1_custom_slot = ship_missile_luncher_3
+			mid_2_custom_slot = ship_torpedo_modern_1
+			front_1_custom_slot = ship_aa_missile_luncher_2
+			rear_1_custom_slot = ship_hel_modern
+		}
+		surface_detection = 20
+		sub_detection = 10
+		surface_visibility = 10
+		naval_speed = 25
+		reliability = 0.85
+
+		naval_range = 2000
+		
+		max_strength = 45
+		
+
+		build_cost_ic = 500
+		resources = {
+			#oil = 1
+			steel = 3
+		}		
+		manpower = 320
+	}
+}
