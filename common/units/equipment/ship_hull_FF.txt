@@ -138,7 +138,7 @@ equipments = {
 		manpower = 250
 	}
 
-	ship_hull_FF_1 = { 
+	ship_hull_FF_1 = { #야마구모급,유바리급,이스즈급,치쿠고급
 		year = 1922
 
 		archetype = ship_hull_FF
@@ -148,7 +148,7 @@ equipments = {
 		module_slots = inherit
 	}
 
-	ship_hull_FF_2 = { 
+	ship_hull_FF_2 = { #아부쿠마급,유바리급,이시카리급
 		year = 1936
 
 		archetype = ship_hull_FF

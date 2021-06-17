@@ -865,8 +865,7 @@ if = {
 			rear_2_custom_slot = ship_torpedo_modern_1
 		}
 	}
-
-    create_equipment_variant = {
+create_equipment_variant = {
 		name = "무라사메급"
 		type = ship_hull_modern_DDH_3
 		name_group = MJP_DDH_HISTORICAL
@@ -886,6 +885,7 @@ if = {
 			rear_2_custom_slot = ship_hel_modern
 		}
 	}
+
 	create_equipment_variant = {
 		name = "하츠유키급"
 		type = ship_hull_modern_DDH_2

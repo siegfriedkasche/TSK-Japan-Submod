@@ -140,7 +140,7 @@ equipments = {
 		manpower = 300
 	}
 
-	ship_hull_modern_DDH_1 = { #하츠유키급,하타카제급
+	ship_hull_modern_DDH_1 = { #하타카제급,타치카제급,아마츠카제급,시라네급,하루나급,아키즈키급,타치즈키급,미네구모급
 		year = 1922
 		visual_level = 0
 		archetype = ship_hull_modern_DDH
@@ -150,7 +150,7 @@ equipments = {
 		module_slots = inherit
 	}
 
-	ship_hull_modern_DDH_2 = { 
+	ship_hull_modern_DDH_2 = { #하츠유키급,아사기리급,아마츠카제급
 		year = 1936
 		visual_level = 1
 		archetype = ship_hull_modern_DDH

@@ -143,7 +143,7 @@ equipments = {
 		module_slots = inherit
 	}
 
-	ship_hull_modern_DDG_2 = { #세종대왕
+	ship_hull_modern_DDG_2 = { #세종대왕, #아타고급
 		year = 1936
 		visual_level = 1
 		archetype = ship_hull_modern_DDG

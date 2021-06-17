@@ -73,7 +73,6 @@ fleet ={
 		task_force = {
 			name = "오미나토 지방대"
 			location = 6994
-         ship = { name = "JDS Jintsū" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_3 = { amount = 1 owner = MJP version_name = "아부쿠마급" } } }
 		 ship = { name = "JDS Yūbari" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "유바리급" } } }
 		 ship = { name = "JDS Yūbetsu" definition =  modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "유바리급" } } }
 		 ship = { name = "JDS Aokumo" definition =  modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_1 = { amount = 1 owner = MJP version_name = "야마구모급" } } }
