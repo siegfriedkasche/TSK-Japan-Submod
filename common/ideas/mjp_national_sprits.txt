@@ -1160,7 +1160,7 @@ materiel_manufacturer = {
 
 high_command = {
 
-		Toshikazu_Yamane = { #야마네 도시카즈
+		Masahiro_Nakatani = { #나카타니 마사히로
 			ledger = army
 
 			
@@ -1180,7 +1180,7 @@ high_command = {
 			}
 		}
 		
-		Katsuo_Shimoaki = { #시오아키 카츠오
+		Fujinawa_Jiu = { #후지나와 유지
 			ledger = army
 
 			
@@ -1199,12 +1199,12 @@ high_command = {
 			}
 		}
 		
-		Unijima_Kizuki = { #우니지마 키즈키
+		Katsuyuki_Tokashi = { #도가시 가쓰유키
 			ledger = army
 
 			
 			allowed = {
-				original_tag = KOR
+				original_tag = MJP
 				
 			}
 			available = {
@@ -1219,7 +1219,7 @@ high_command = {
 			}
 		}
 		
-		Kazumasa_Ueda = { #우에다 가즈마사
+		Okabe_Doshida = { #오카베 도시야
 			ledger = army
 
 			
@@ -1239,7 +1239,7 @@ high_command = {
 			}
 		}
 
-		Yui_Kimiya = { #유이 키미야
+		Toshiro_Tamogami = { #다모가미 도시오
 			ledger = air
 
 			
@@ -1259,7 +1259,7 @@ high_command = {
 			}
 		}
 		
-		Kenichi_Samejima = { #사메지마 켄이치
+		Muraki_goji = { #무라키 고지
 			ledger = air
 
 			
@@ -1279,7 +1279,7 @@ high_command = {
 			}
 		}
 		 
-		Guida_Gueo = { #가이다 시게오
+		Harukazu_Saito = { #사이토 하루카즈
 			ledger = air
 
 			
@@ -1299,7 +1299,7 @@ high_command = {
 			}
 		}	
 		
-		Katsushi_Omachi = { #오마치 가이치
+		Masahiko_Sugimoto = { #스기모토 마사히코
 			ledger = navy
 
 			
@@ -1319,7 +1319,7 @@ high_command = {
 			}
 		}
 		 
-		Satoru_Onishi = { #오니시 사토루
+		Age_Yoshikawa = { #요시카와 에이지
 			ledger = navy
 
 			
@@ -1339,6 +1339,7 @@ high_command = {
 			}
 		}
     }
+	
     theorist = {
 		
 		Takeo_Hiranuma = { #히라누마 타케오(경제산업성 대신 )

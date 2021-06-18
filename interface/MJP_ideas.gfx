@@ -29,7 +29,7 @@ spriteTypes = {
 		texturefile = "gfx/ideas/MJP/Toshinori-Kanemoto.png"	
 	}
 	spriteType = {
-		name = "GFX_idea_Kazuo-Shii"
+		name = "GFX_idea_Kazuo_Shii"
 		texturefile = "gfx/ideas/MJP/Kazuo_Shii.png"	
 	}
 	spriteType = {
