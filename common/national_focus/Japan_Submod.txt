@@ -1471,10 +1471,10 @@ focus_tree = {
 		x = 44
 		y = 2
 		completion_reward = {
-			add_ideas = Suzuki_Akio
+			add_ideas = Yoshiyuki_Sugiyama
 			if = {
 				limit = {
-				    has_idea = Suzuki_Akio
+				    has_idea = Yoshiyuki_Sugiyama
 				}
 				add_political_power = 150
 			}
@@ -1484,16 +1484,16 @@ focus_tree = {
 				}
 				swap_ideas = {
 					add_idea = Isao_Ishizuka
-					remove_idea = Tadayoshi_Yonekawa
+					remove_idea = Haruhiko_Kataoka
 				}
 			}
 			if = {
 				limit = {
-				    has_idea = Tadayoshi_Yonekawa
+				    has_idea = Haruhiko_Kataoka
 				}
 				swap_ideas = {
-					add_idea = Suzuki_Akio
-					remove_idea = Tadayoshi_Yonekawa
+					add_idea = Yoshiyuki_Sugiyama
+					remove_idea = Haruhiko_Kataoka
 				}
 			}
 		}
