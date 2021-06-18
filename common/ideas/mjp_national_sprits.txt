@@ -651,7 +651,7 @@ political_advisor = {
 			ai_will_do = { factor = 100 }
 		}
         Toshinori_Kanemoto = {
-			picture = aa
+			picture = Toshinori-Kanemoto
 			allowed = {
 				if = {
 					limit = {
