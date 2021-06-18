@@ -1345,6 +1345,7 @@ high_command = {
 		Takeo_Hiranuma = { #히라누마 타케오(경제산업성 대신 )
 			ledger = army
 
+			picture = Takeo-Hiranuma
 			
 			allowed = {
 				original_tag = MJP
@@ -1364,7 +1365,7 @@ high_command = {
 			traits = { nuclear_scientist }
 		}
         
-		Yoshio_Suzuki = { #스즈키 요시오
+		Hibako_Yoshifumi = { #히바코 요시후미
 			ledger = army
 
 			
@@ -1387,7 +1388,7 @@ high_command = {
 			traits = { mobile_warfare_expert }
 		}
 		
-		Ryuichi_Shikamata = { #시미가타 류이치
+		Haruhiko_Kataoka = { #가타오카 하루히코
 			ledger = air
 
 			
@@ -1409,7 +1410,7 @@ high_command = {
 			traits = { close_air_support_proponent }
 		}
 		
-		Ikuo_Sakuyama = { #사쿠야마 이쿠오
+		Yoshiyuki_Sugiyama = { #스기야마 요시유키
 			ledger = air
 
 			
@@ -1429,7 +1430,7 @@ high_command = {
 			traits = { air_warfare_theorist }
 		}
 		
-		Saga_Ikuo = { #사가 이쿠오
+		Kawano_Katsutoshi = { #가와노 가쓰토시
 			ledger = navy
 
 			

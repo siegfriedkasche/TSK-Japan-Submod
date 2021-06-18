@@ -92,4 +92,8 @@ spriteTypes = {
 		name = "GFX_idea_Mitsubishi_Motors"
 		texturefile = "gfx/ideas/MJP/Mitsubishi_Motors.png"	
 	}
+	spriteType = {
+		name = "GFX_idea_Takeo-Hiranuma"
+		texturefile = "gfx/ideas/MJP/Takeo-Hiranuma.png"	
+	}
 }
