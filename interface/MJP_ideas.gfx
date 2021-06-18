@@ -56,4 +56,28 @@ spriteTypes = {
 		name = "GFX_idea_MJP_economy"
 		texturefile = "gfx/ideas/MJP/MJP_economy.png"	
 	}
+	spriteType = {
+		name = "GFX_idea_Kawasaki_Heavy_Industries"
+		texturefile = "gfx/ideas/MJP/Kawasaki_Heavy_Industries.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Mitsubishi_Heavy_Industries"
+		texturefile = "gfx/ideas/MJP/Mitsubishi_Heavy_Industries.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Howa_Machinery"
+		texturefile = "gfx/ideas/MJP/Howa_Machinery.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_IHI"
+		texturefile = "gfx/ideas/MJP/IHI.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_TOYOTA_MOTOR"
+		texturefile = "gfx/ideas/MJP/TOYOTA_MOTOR.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Sony"
+		texturefile = "gfx/ideas/MJP/Sony.png"	
+	}
 }

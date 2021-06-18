@@ -865,6 +865,8 @@ naval_manufacturer = {
 		
 		nine_Kawasaki_ship = { #가와사키 중공업
 
+        picture = Kawasaki_Heavy_Industries
+
 			
 			allowed = {
 				original_tag = MJP
@@ -884,7 +886,8 @@ naval_manufacturer = {
 		
 		nine_IHI_ship = { #IHI
 
-			
+			picture = IHI
+
 			allowed = {
 				original_tag = MJP
 			}
@@ -902,7 +905,8 @@ naval_manufacturer = {
 		}	
 		nine_Mitsubishi_ship = { #미쓰비시중공업
 
-			
+			picture = Mitsubishi_Heavy_Industries
+
 			allowed = {
 				original_tag = MJP
 			}
@@ -925,7 +929,7 @@ naval_manufacturer = {
 		
 		nine_Mitsubishi = { #미쓰비시중공업
 
-			picture = MJP
+			picture = Mitsubishi_Heavy_Industries
 			
 			allowed = {
 				original_tag = MJP
@@ -949,6 +953,8 @@ naval_manufacturer = {
 		
         nine_Kawasaki = { #가와사키중공업
 
+		 picture = Kawasaki_Heavy_Industries
+
 			allowed = {
 				original_tag = MJP
 			}
@@ -971,7 +977,8 @@ naval_manufacturer = {
 
 		nine_Mitsubishi = { #미쓰비시중공업
 
-			
+			picture = Mitsubishi_Heavy_Industries
+
 			allowed = {
 				original_tag = MJP
 			}
@@ -989,7 +996,8 @@ naval_manufacturer = {
 		}
 		
 		nine_ShinMaywa = { #신메이와 
-
+        
+		picture = 
 			
 			allowed = {
 				original_tag = MJP
@@ -1014,6 +1022,8 @@ materiel_manufacturer = {
 		
 		nine_HOWA = { #호와공업
 
+		picture = Howa_Machinery
+
 			
 			allowed = {
 				original_tag = MJP
@@ -1032,6 +1042,8 @@ materiel_manufacturer = {
 
 		
 		Toyota_car = { #토요타자동차
+
+		picture = TOYOTA_MOTOR
 			
 			allowed = {
 				original_tag = MJP
@@ -1045,6 +1057,8 @@ materiel_manufacturer = {
 		}
 		
 		nine_Mitsubishi_car = { #미쓰비시자동차
+
+		picture =
 			
 			allowed = {
 				original_tag = MJP
@@ -1061,6 +1075,8 @@ materiel_manufacturer = {
     industrial_concern = {
 		
 		nine_JXTGHoldings = { #JXTG 홀딩스
+
+		picture =
 			
 			allowed = {
 				original_tag = MJP
@@ -1079,6 +1095,8 @@ materiel_manufacturer = {
 		}
 		
 		nine_ITOCHU = { #이토추 상사
+
+		picture =
 			
 			allowed = {
 				original_tag = MJP
@@ -1096,6 +1114,8 @@ materiel_manufacturer = {
 		}
 
 		nine_Sony = { #Sony
+
+		picture = Sony
 			
 			allowed = {
 				original_tag = MJP
@@ -1109,6 +1129,8 @@ materiel_manufacturer = {
 		}		
 		
 		nine_Toshiba = { #도시바
+
+		picture =
 			
 			allowed = {
 				original_tag = MJP
@@ -1121,6 +1143,8 @@ materiel_manufacturer = {
 			traits = { electronics_concern }
 		}		
 		nine_SoftBank = { #소프트뱅크
+
+		picture =
 			
 			allowed = {
 				original_tag = MJP
