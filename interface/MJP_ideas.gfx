@@ -80,4 +80,8 @@ spriteTypes = {
 		name = "GFX_idea_Sony"
 		texturefile = "gfx/ideas/MJP/Sony.png"	
 	}
+	spriteType = {
+		name = "GFX_idea_Mitsubishi_Motors"
+		texturefile = "gfx/ideas/MJP/Mitsubishi_Motors.png"	
+	}
 }

@@ -1058,7 +1058,7 @@ materiel_manufacturer = {
 		
 		nine_Mitsubishi_car = { #미쓰비시자동차
 
-		picture =
+		picture = Mitsubishi_Motors
 			
 			allowed = {
 				original_tag = MJP
