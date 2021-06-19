@@ -683,8 +683,9 @@ political_advisor = {
 army_chief = {
 
 		Taizo_Terashima = { #데라시마 다이조
-
-			
+        
+        picture = Taizo-Terashima
+					
 			allowed = {
 				original_tag = MJP
 				
@@ -701,7 +702,8 @@ army_chief = {
 		}
 
 		Shima_Atsushi  = { #시마 아쓰시
-
+        
+		 picture = Shima-Atsushi
 			
 			allowed = {
 				original_tag = MJP
@@ -721,6 +723,8 @@ army_chief = {
 	
 		Tetsuya_Nishimoto = { #니시모토 데쓰야
 
+		picture = Tetsuya-Nishimoto
+
 			
 			allowed = {
 				original_tag = MJP
@@ -739,7 +743,8 @@ army_chief = {
 		}
 	
 		Tomizawa_Hikaru = { #도미자와 히카루
-
+        
+		picture = Tomizawa-Hikaru
 			
 			allowed = {
 				original_tag = MJP
@@ -782,7 +787,7 @@ air_chief = {
 		
 		Suzuki_Akio = { #스즈키 아키오
 
-			
+
 			allowed = {
 				original_tag = MJP
 				
@@ -801,7 +806,8 @@ air_chief = {
 		
 		Isao_Ishizuka = { #이시즈카 이사오
 
-			
+			picture = Isao-Ishizuka
+
 			allowed = {
 				original_tag = MJP
 				
@@ -822,7 +828,8 @@ navy_chief = { #
 		
 		Fumio_Okabe = { #오카베 후미오
 
-			
+		picture = Fumio-Okabe
+
 			allowed = {
 				original_tag = MJP
 				
@@ -1161,6 +1168,9 @@ materiel_manufacturer = {
 high_command = {
 
 		Masahiro_Nakatani = { #나카타니 마사히로
+
+        picture = Masahiro-Nakatani
+
 			ledger = army
 
 			
@@ -1181,6 +1191,9 @@ high_command = {
 		}
 		
 		Fujinawa_Jiu = { #후지나와 유지
+
+        picture =
+
 			ledger = army
 
 			
@@ -1200,6 +1213,9 @@ high_command = {
 		}
 		
 		Katsuyuki_Tokashi = { #도가시 가쓰유키
+
+		picture = Katsuyuki-Tokashi
+
 			ledger = army
 
 			
@@ -1220,6 +1236,9 @@ high_command = {
 		}
 		
 		Okabe_Doshida = { #오카베 도시야
+
+		picture = Okabe-Doshida
+
 			ledger = army
 
 			
@@ -1240,6 +1259,9 @@ high_command = {
 		}
 
 		Toshiro_Tamogami = { #다모가미 도시오
+
+		picture =
+
 			ledger = air
 
 			
@@ -1260,6 +1282,9 @@ high_command = {
 		}
 		
 		Muraki_goji = { #무라키 고지
+
+		picture =
+
 			ledger = air
 
 			
@@ -1280,6 +1305,9 @@ high_command = {
 		}
 		 
 		Harukazu_Saito = { #사이토 하루카즈
+
+        picture =
+
 			ledger = air
 
 			
@@ -1300,6 +1328,9 @@ high_command = {
 		}	
 		
 		Masahiko_Sugimoto = { #스기모토 마사히코
+
+		picture = Masahiko-Sugimoto
+
 			ledger = navy
 
 			
@@ -1320,6 +1351,9 @@ high_command = {
 		}
 		 
 		Age_Yoshikawa = { #요시카와 에이지
+
+		picture = Age-Yoshikawa
+
 			ledger = navy
 
 			

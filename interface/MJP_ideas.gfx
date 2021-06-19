@@ -96,4 +96,56 @@ spriteTypes = {
 		name = "GFX_idea_Takeo-Hiranuma"
 		texturefile = "gfx/ideas/MJP/Takeo-Hiranuma.png"	
 	}
+	spriteType = {
+		name = "GFX_idea_Tomizawa-Hikaru"
+		texturefile = "gfx/ideas/MJP/Tomizawa-Hikaru.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Tetsuya-Nishimoto"
+		texturefile = "gfx/ideas/MJP/Tetsuya-Nishimoto.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Taizo-Terashima"
+		texturefile = "gfx/ideas/MJP/Taizo-Terashima.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Isao-Ishizuka"
+		texturefile = "gfx/ideas/MJP/Isao-Ishizuka.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Fumio-Okabe"
+		texturefile = "gfx/ideas/MJP/Fumio-Okabe.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Shima-Atsushi"
+		texturefile = "gfx/ideas/MJP/Shima-Atsushi.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Masahiro-Nakatani"
+		texturefile = "gfx/ideas/MJP/Masahiro-Nakatani.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Okabe-Doshida"
+		texturefile = "gfx/ideas/MJP/Okabe-Doshida.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Katsuyuki-Tokashi"
+		texturefile = "gfx/ideas/MJP/Katsuyuki-Tokashi.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Fumio-Okabe"
+		texturefile = "gfx/ideas/MJP/Fumio-Okabe.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Shima-Atsushi"
+		texturefile = "gfx/ideas/MJP/Shima-Atsushi.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Masahiko-Sugimoto"
+		texturefile = "gfx/ideas/MJP/Masahiko-Sugimoto.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Age-Yoshikawa"
+		texturefile = "gfx/ideas/MJP/Age-Yoshikawa.png"	
+	}
 }
