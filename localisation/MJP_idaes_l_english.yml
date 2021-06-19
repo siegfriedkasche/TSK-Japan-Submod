@@ -2,6 +2,8 @@
  MJP_economy_collaps:0 "무너진 일본 경제 " 
  MJP_Stable_Japan:0 " 안정된 일본 "
  MJP_Emergencyy:0 "긴급 비상사태"
+ Akihito_national_sprits:0 "아키히토 천황"
+ Akihito_national_sprits_desc:0 "일본국에 혼란을 잠재워줄 하늘의 선택을 받으신 아키히토 천황폐하!"
 
  MJP_Kake_trait:0 "일본 검사총장"
  MJP_Sakuma_trait:0 "자위대 수장"
@@ -79,3 +81,4 @@
  nine_Toshiba:0 "도시바"
  nine_Inspire:0 "히타치"
  nine_SoftBank:0 "소프트뱅크"
+ 
