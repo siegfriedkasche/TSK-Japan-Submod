@@ -787,7 +787,7 @@ air_chief = {
 		
 		Suzuki_Akio = { #스즈키 아키오
 
-        picture = Suzuki-Akio
+        picture = Suzuki_Akio
 			allowed = {
 				original_tag = MJP
 				

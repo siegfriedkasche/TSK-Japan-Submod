@@ -185,8 +185,8 @@ spriteTypes = {
 		texturefile = "gfx/ideas/MJP/Hayashizaki-Jiaki.png"	
 	}
 	spriteType = {
-		name = "GFX_idea_Suzuki-Akio"
-		texturefile = "gfx/ideas/MJP/Suzuki-Akio.png"	
+		name = "GFX_idea_Suzuki_Akio"
+		texturefile = "gfx/ideas/MJP/Suzuki_Akio.png"	
 	}
     spriteType = {
 		name = "GFX_idea_Tadayoshi-Yonekawa"
