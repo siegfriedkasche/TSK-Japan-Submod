@@ -160,8 +160,7 @@ spriteTypes = {
 		name = "GFX_idea_Harukazu-Saito"
 		texturefile = "gfx/ideas/MJP/Harukazu-Saito.png"	
 	}
-    
-spriteType = {
+    spriteType = {
 		name = "GFX_idea_Kawano-Katsutoshi"
 		texturefile = "gfx/ideas/MJP/Kawano-Katsutoshi.png"	
 	}
@@ -177,5 +176,20 @@ spriteType = {
 		name = "GFX_idea_Haruhiko-Kataoka"
 		texturefile = "gfx/ideas/MJP/Haruhiko-Kataoka.png"	
 	}
-
+    spriteType = {
+		name = "GFX_idea_Fujinawa-Jiu"
+		texturefile = "gfx/ideas/MJP/Fujinawa-Jiu.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Hayashizaki-Jiaki"
+		texturefile = "gfx/ideas/MJP/Hayashizaki-Jiaki.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Suzuki-Akio"
+		texturefile = "gfx/ideas/MJP/Suzuki-Akio.png"	
+	}
+    spriteType = {
+		name = "GFX_idea_Tadayoshi-Yonekawa"
+		texturefile = "gfx/ideas/MJP/Tadayoshi-Yonekawa.png"	
+	}
 }

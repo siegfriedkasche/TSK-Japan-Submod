@@ -768,7 +768,7 @@ air_chief = {
 		
 		Tadayoshi_Yonekawa = { #요네카와 다다요시
 
-			
+		picture = Tadayoshi-Yonekawa
 			allowed = {
 				original_tag = MJP
 				
@@ -787,7 +787,7 @@ air_chief = {
 		
 		Suzuki_Akio = { #스즈키 아키오
 
-
+        picture = Suzuki-Akio
 			allowed = {
 				original_tag = MJP
 				
@@ -848,7 +848,7 @@ navy_chief = { #
 		
 		Hayashizaki_Jiaki = { #하야시자키 지아키
 
-			
+			picture = Hayashizaki-Jiaki
 			allowed = {
 				original_tag = MJP
 				
@@ -1192,7 +1192,7 @@ high_command = {
 		
 		Fujinawa_Jiu = { #후지나와 유지
 
-        picture =
+        picture = Fujinawa-Jiu
 
 			ledger = army
 
