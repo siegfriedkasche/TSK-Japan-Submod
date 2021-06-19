@@ -94,7 +94,7 @@ ideas = {
 
             picture = Unstable_commune #아이콘
 
-            removal_cost = -1
+            removal_cost = -1 
             
             modifier = { #효과
                 consumer_goods_factor = -0.05

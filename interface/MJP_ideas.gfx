@@ -143,7 +143,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_Masahiko-Sugimoto"
 		texturefile = "gfx/ideas/MJP/Masahiko-Sugimoto.png"	
-	}
+	} 
 	spriteType = {
 		name = "GFX_idea_Age-Yoshikawa"
 		texturefile = "gfx/ideas/MJP/Age-Yoshikawa.png"	
