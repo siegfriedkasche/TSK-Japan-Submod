@@ -1260,7 +1260,7 @@ high_command = {
 
 		Toshiro_Tamogami = { #다모가미 도시오
 
-		picture =
+		picture = Toshiro-Tamogami
 
 			ledger = air
 
@@ -1283,7 +1283,7 @@ high_command = {
 		
 		Muraki_goji = { #무라키 고지
 
-		picture =
+		picture = Muraki-goji
 
 			ledger = air
 
@@ -1306,7 +1306,7 @@ high_command = {
 		 
 		Harukazu_Saito = { #사이토 하루카즈
 
-        picture =
+        picture = Harukazu-Saito
 
 			ledger = air
 
@@ -1402,6 +1402,8 @@ high_command = {
 		Hibako_Yoshifumi = { #히바코 요시후미
 			ledger = army
 
+			picture = Hibako-Yoshifumi
+
 			
 			allowed = {
 				original_tag = MJP
@@ -1424,7 +1426,8 @@ high_command = {
 		
 		Haruhiko_Kataoka = { #가타오카 하루히코
 			ledger = air
-
+        
+		picture = Haruhiko-Kataoka
 			
 			allowed = {
 				original_tag = MJP
@@ -1446,7 +1449,8 @@ high_command = {
 		
 		Yoshiyuki_Sugiyama = { #스기야마 요시유키
 			ledger = air
-
+        
+		picture = Yoshiyuki-Sugiyama
 			
 			allowed = {
 				original_tag = MJP
@@ -1467,6 +1471,7 @@ high_command = {
 		Kawano_Katsutoshi = { #가와노 가쓰토시
 			ledger = navy
 
+        picture = Kawano-Katsutoshi
 			
 			allowed = {
 				original_tag = MJP

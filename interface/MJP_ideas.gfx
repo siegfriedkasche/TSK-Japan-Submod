@@ -148,4 +148,34 @@ spriteTypes = {
 		name = "GFX_idea_Age-Yoshikawa"
 		texturefile = "gfx/ideas/MJP/Age-Yoshikawa.png"	
 	}
+	spriteType = {
+		name = "GFX_idea_Toshiro-Tamogami"
+		texturefile = "gfx/ideas/MJP/Toshiro-Tamogami.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Muraki-goji"
+		texturefile = "gfx/ideas/MJP/Muraki-goji.png"	
+	}
+    spriteType = {
+		name = "GFX_idea_Harukazu-Saito"
+		texturefile = "gfx/ideas/MJP/Harukazu-Saito.png"	
+	}
+    
+spriteType = {
+		name = "GFX_idea_Kawano-Katsutoshi"
+		texturefile = "gfx/ideas/MJP/Kawano-Katsutoshi.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Hibako-Yoshifumi"
+		texturefile = "gfx/ideas/MJP/Hibako-Yoshifumi.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Yoshiyuki-Sugiyama"
+		texturefile = "gfx/ideas/MJP/Yoshiyuki-Sugiyama.png"	
+	}
+    spriteType = {
+		name = "GFX_idea_Haruhiko-Kataoka"
+		texturefile = "gfx/ideas/MJP/Haruhiko-Kataoka.png"	
+	}
+
 }
