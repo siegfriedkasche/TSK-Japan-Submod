@@ -7,7 +7,7 @@ ideas = {
                 is_in_faction_with = KOR
             }
             cancel = {
-                is_in_faction_with = KOR
+                is_in_faction = no
             }
 
             allowed_civil_war = {
@@ -34,7 +34,7 @@ ideas = {
                 is_in_faction_with = KOR
             }
             cancel = {
-                is_in_faction_with = KOR
+                is_in_faction = no
             }
 
             allowed_civil_war = {

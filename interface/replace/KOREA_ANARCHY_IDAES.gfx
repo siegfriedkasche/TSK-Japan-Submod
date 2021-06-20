@@ -125,7 +125,22 @@ spriteTypes = {
 		name = "GFX_idea_Russian_Civil_War"
 		texturefile = "gfx/interface/ideas/Russian_Civil_War.png"
 	}
-	
+	spriteType = {
+		name = "GFX_idea_red_korea"
+		texturefile = "gfx/interface/ideas/red_korea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_soldier_korean"
+		texturefile = "gfx/interface/ideas/soldier_korean.png"
+	}
+	spriteType = {
+		name = "GFX_idea_International_International_Brigade"
+		texturefile = "gfx/interface/ideas/International_International_Brigade.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Masterless_means_of_production"
+		texturefile = "gfx/interface/ideas/Masterless_means_of_production.png"
+	}
 	
 	
 	########################초상화########################
@@ -150,4 +165,5 @@ spriteTypes = {
 		name = "GFX_idea_kill_support_stalinist"
 		texturefile = "gfx/interface/ideas/kill_support_stalinist.png"
 	}
+	
 }

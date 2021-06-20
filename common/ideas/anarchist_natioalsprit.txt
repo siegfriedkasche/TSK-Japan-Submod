@@ -11,7 +11,7 @@ ideas = {
                 always = yes #내전이 나도 상대 반란군에도 적용할지여부
             }
 
-            picture = Unstable_commune #아이콘
+            picture = red_korea #아이콘
 
             removal_cost = -1 #삭제될때 필요한 정치력 (무조건-1)
             
@@ -34,7 +34,7 @@ ideas = {
                 always = yes
             }
 
-            picture = Unstable_commune
+            picture = red_korea
 
             removal_cost = -1
             
@@ -57,7 +57,7 @@ ideas = {
                 always = yes
             }
 
-            picture = Unstable_commune
+            picture = red_korea
 
             removal_cost = -1
             
@@ -102,7 +102,7 @@ ideas = {
                 always = yes
             }
 
-            picture = Corporate_remnants
+            picture = soldier_korean
 
             removal_cost = -1
             
@@ -129,7 +129,7 @@ ideas = {
                 always = yes
             }
 
-            picture = Capitalist_backlash
+            picture = soldier_korean
 
             removal_cost = -1
             
@@ -155,7 +155,7 @@ ideas = {
                 always = yes
             }
 
-            picture = Capitalist_backlash
+            picture = soldier_korean
 
             removal_cost = -1
             
@@ -181,7 +181,7 @@ ideas = {
                 always = yes
             }
 
-            picture = Capitalist_backlash
+            picture = soldier_korean
 
             removal_cost = -1
             
@@ -207,7 +207,7 @@ ideas = {
                 always = yes
             }
 
-            picture = Capitalist_backlash
+            picture = soldier_korean
 
             removal_cost = -1
             
@@ -232,7 +232,7 @@ ideas = {
                 always = yes
             }
 
-            picture = Capitalist_backlash
+            picture = red_korea
 
             removal_cost = -1
             
@@ -473,7 +473,7 @@ ideas = {
                 always = no
             }
 
-            picture = 
+            picture = one_big_union
 
             removal_cost = -1
             
@@ -497,7 +497,7 @@ ideas = {
                 always = no
             }
 
-            picture = 
+            picture = International_International_Brigade
 
             removal_cost = -1
             
@@ -578,7 +578,7 @@ ideas = {
                 always = no
             }
 
-            picture = 
+            picture = Masterless_means_of_production
 
             removal_cost = -1
             
@@ -600,7 +600,7 @@ ideas = {
                 always = no
             }
 
-            picture = 
+            picture = Masterless_means_of_production
 
             removal_cost = -1
             

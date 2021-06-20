@@ -141,4 +141,9 @@ spriteTypes = {
 		name = "GFX_KOR_CNT_Respect_for_womens_rights_event"
 		texturefile = "gfx/event_pictures/GFX_KOR_CNT_Respect_for_womens_rights_event.png"
 	}
+	spriteType = {
+		name = "GFX_nukeclear_event_pic"
+		texturefile = "gfx/event_pictures/nukeclear_event_pic.png"
+	}
+	
 }
