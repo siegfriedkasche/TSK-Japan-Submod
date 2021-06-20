@@ -1,7 +1,5 @@
 ﻿l_english:
 
- l_english:
-
  MJP_ff_1:0 "치쿠고급"
  MJP_ff_1:0 "이스즈급"
  MJP_ff_1:0 "야마구모급"
@@ -938,7 +936,8 @@
  USF_m_1980_jet_CAS_equipment:0 "AV-8 Harrier"
  USF_m_1990_jet_CAS_equipment:0 "A-10A 썬더볼트"
 
- USJ_m_1980_jet_CAS_equipment:0 "F-111"
+ USJ_m_1970_jet_CAS_equipment:0 "F-111"
+ USJ_m_1980_jet_CAS_equipment:0 "AV-8 해리어"
  USJ_m_1990_jet_CAS_equipment:0 "A-10A 썬더볼트"
  
  JDF_m_1980_jet_CAS_equipment:0 "F-1"
