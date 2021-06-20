@@ -48,6 +48,8 @@ set_technology = {
 	light_vehicle_equipment_2 = 1
 	light_mun_equipment = 1
 	heavy_mun_equipment = 1
+	engineer_equipment = 1
+	modern_moto = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_engineers2 = 1
@@ -78,45 +80,47 @@ set_technology = {
 	tech_signal_company3 = 1
 	tech_signal_company4 = 1	
 	
-	modern_armored_car = 1
-	modern_moto = 1
+	m_1960_infantry_eq = 1
+	m_1970_infantry_eq = 1
+	m_1980_infantry_eq = 1
+	m_1990_infantry_eq = 1
+	
+	m_1960_modern_tank = 1
+	m_1970_modern_tank = 1
+	m_1980_modern_tank = 1
+	m_1990_modern_tank = 1
+	
+	m_1990_motorized_rocket_unit = 1
+	
+	m_1980_IFV = 1
+	m_1990_IFV = 1
+	
+	m_1970_mechanized_equipment = 1
+	m_1980_mechanized_equipment = 1
+	m_1990_mechanized_equipment = 1
+	
+	modern_war_artillery = 1
+	modern_war_artillery_2 = 1
+	
+	m_1960_sup_infantry_eq = 1
+	m_1970_sup_infantry_eq = 1
+	m_1985_sup_infantry_eq = 1
 	
 	m_1970_spaa = 1
 	m_1980_spaa = 1
 	m_1990_spaa = 1
 	
-    
-	m_1970_sp = 1	
 	m_1980_sp = 1
 	m_1990_sp = 1
-
-	m_1970_manpad = 1
+	
+	m_1980_motorized_rocket_unit = 1
+	
 	m_1980_manpad = 1
 	
 	m_1970_atgm = 1
 	m_1980_atgm = 1
 	m_1990_atgm = 1
 	
-	m_1970_mechanized_equipment = 1
-	m_1980_mechanized_equipment = 1
-
-	m_1960_modern_tank = 1
-	m_1970_modern_tank = 1
-	m_1980_modern_tank = 1
-	m_1990_modern_tank = 1
-	
-	m_1960_infantry_eq = 1
-	m_1970_infantry_eq = 1
-	m_1980_infantry_eq = 1
-	m_1990_infantry_eq = 1
-	
-	m_1960_sup_infantry_eq = 1
-	m_1970_sup_infantry_eq = 1
-	m_1985_sup_infantry_eq = 1
-	
-	modern_war_artillery = 1
-	modern_war_artillery_2 = 1
-
 	heavy_anti_air = 1
 	aa_missile = 1
 	
@@ -127,16 +131,22 @@ set_technology = {
 	m_1970_jet_fighter = 1
 	m_1980_jet_fighter = 1
 	m_1990_jet_fighter = 1
-
+	
 	m_1980_jet_CAS = 1
-
-	m_1970_attack_helicopter = 1
+	m_1990_jet_CAS = 1
+	
+	m_1970_atgm = 1
+	m_1980_atgm = 1
+	m_1990_atgm = 1
+	
 	m_1980_attack_helicopter = 1
+	m_1990_attack_helicopter = 1
 	
 	m_1970_util_helicopter = 1
 	m_1980_util_helicopter = 1
 	m_1990_util_helicopter = 1
 
+	motorised_infantry = 1
     maritime_helicopter = 1
 
 
