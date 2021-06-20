@@ -672,6 +672,9 @@
  USJ_m_1990_mlrs_equipment:0 "M270 MLRS"
  USJ_m_2000_mlrs_equipment:0 "M270A1 MLRS"
  USJ_m_2010_mlrs_equipment:0 "M142 HIMARS"
+
+ MJP_m_1980_mlrs_equipment:0 "75식 다연장"
+ MJP_m_1990_mlrs_equipment:0 "M270 MLRS"
  
  PRK_m_1970_mlrs_equipment:0 "BM-21"
  PRK_m_1980_mlrs_equipment:0 "RM-70S"
