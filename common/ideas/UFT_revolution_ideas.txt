@@ -293,7 +293,7 @@ ideas = {
         uft_free_territory_ideas = {
 
             allowed = {
-                original_tag = SAG
+                original_tag = UFT
             }
 
             allowed_civil_war = {
@@ -306,7 +306,7 @@ ideas = {
 
 
             modifier = {
-                
+                industrial_capacity_factory = 0.15
             }
         }
     }

@@ -264,7 +264,7 @@ focus_tree = {
 					has_war = no
 				}
 			completion_reward = {
-
+			load_focus_tree	= UFT_focus_new
 }
 
 	}
