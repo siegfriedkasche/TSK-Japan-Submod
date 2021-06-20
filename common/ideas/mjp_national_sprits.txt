@@ -1026,7 +1026,7 @@ naval_manufacturer = {
 		
 		nine_ShinMaywa = { #신메이와 
         
-		picture = 
+		picture = ShinMaywa
 			
 			allowed = {
 				original_tag = MJP
@@ -1105,7 +1105,7 @@ materiel_manufacturer = {
 		
 		nine_JXTGHoldings = { #JXTG 홀딩스
 
-		picture =
+		picture = JXTG_holdings
 			
 			allowed = {
 				original_tag = MJP
@@ -1125,7 +1125,7 @@ materiel_manufacturer = {
 		
 		nine_ITOCHU = { #이토추 상사
 
-		picture =
+		picture = ITOCHU
 			
 			allowed = {
 				original_tag = MJP
@@ -1159,7 +1159,7 @@ materiel_manufacturer = {
 		
 		nine_Toshiba = { #도시바
 
-		picture =
+		picture = Toshiba
 			
 			allowed = {
 				original_tag = MJP
@@ -1173,7 +1173,7 @@ materiel_manufacturer = {
 		}		
 		nine_SoftBank = { #소프트뱅크
 
-		picture =
+		picture = SorfBank
 			
 			allowed = {
 				original_tag = MJP

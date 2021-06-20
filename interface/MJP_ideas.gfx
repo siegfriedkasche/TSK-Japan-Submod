@@ -81,12 +81,32 @@ spriteTypes = {
 		texturefile = "gfx/ideas/MJP/IHI.png"	
 	}
 	spriteType = {
+		name = "GFX_idea_ShinMaywa"
+		texturefile = "gfx/ideas/MJP/ShinMaywa.png"	
+	}
+	spriteType = {
 		name = "GFX_idea_TOYOTA_MOTOR"
 		texturefile = "gfx/ideas/MJP/TOYOTA_MOTOR.png"	
 	}
 	spriteType = {
 		name = "GFX_idea_Sony"
 		texturefile = "gfx/ideas/MJP/Sony.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_JXTG_holdings"
+		texturefile = "gfx/ideas/MJP/JXTG_holdings.png"	
+	}
+    spriteType = {
+		name = "GFX_idea_SorfBank"
+		texturefile = "gfx/ideas/MJP/SorfBank.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_ITOCHU"
+		texturefile = "gfx/ideas/MJP/ITOCHU.png"	
+	}
+	spriteType = {
+		name = "GFX_idea_Toshiba"
+		texturefile = "gfx/ideas/MJP/Toshiba.png"	
 	}
 	spriteType = {
 		name = "GFX_idea_Mitsubishi_Motors"
