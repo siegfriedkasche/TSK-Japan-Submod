@@ -384,9 +384,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Masahiko Sugimoto"
+	name = "Murakawa Yutaka"
 	desc = ""
-	picture = "Masahiko_Sugimoto.png"
+	picture = "Murakawa_Yutaka.png"
 	expire = "1989.1.1"
 	ideology = nazism
 	traits = {
@@ -482,8 +482,8 @@ create_navy_leader = {
 	coordination_skill = 1
 }
 create_navy_leader = {
-	name = "Masahiko Sugimoto"
-		picture = "Masahiko_Sugimoto.dds"
+	name = "Murakawa Yutaka"
+		picture = "Murakawa_Yutaka.dds"
 	traits = {}
 	skill = 1
 	attack_skill = 1
