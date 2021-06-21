@@ -479,6 +479,57 @@ create_country_leader = {
 	traits = {
 	}
 }
+
+create_field_marshal = {
+	name = "Toshiyuki Shikata"
+	picture = "Toshiyuki_Shikata.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Yoshizaki Satoru"
+	picture = "Yoshizaki_Satoru.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Akira Oda"
+	picture = "Akira_Oda.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Tetsu Nishimoto"
+	picture = "Tetsu_Nishimoto.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Megumi Shigematsu"
+	picture = "Megumi_Shigematsu.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
 create_navy_leader = {
 	name = "Masahiko Sugimoto"
 		picture = "Masahiko_Sugimoto.dds"
