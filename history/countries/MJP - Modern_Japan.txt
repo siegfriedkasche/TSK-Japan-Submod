@@ -450,6 +450,161 @@ create_country_leader = {
 	traits = {
 	}
 }
+# 북부방면대
+create_country_leader = {
+	name = "Yoshihiro Nakazato"
+	desc = ""
+	picture = "Yoshihiro_Nakazato.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Arai Hitoshi"
+	desc = ""
+	picture = "Arai_Hitoshi.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Jeya Mitsuhiro"
+	desc = ""
+	picture = "Jeya_Mitsuhiro.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Aoto Siyuya"
+	desc = ""
+	picture = "Aoto_Siyuya.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+#동북방면대
+create_country_leader = {
+	name = "Yamazaki Tomohisa"
+	desc = ""
+	picture = "Yamazaki_Tomohisa.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "yokochi sada"
+	desc = ""
+	picture = "yokochi_sada.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+#동부방면대
+create_country_leader = {
+	name = "Kenichi Sawada"
+	desc = ""
+	picture = "Kenichi_Sawada.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Shigeru Watanabe"
+	desc = ""
+	picture = "Shigeru_Watanabe.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+#중부방면대
+create_country_leader = {
+	name = "Masanori Kumabe"
+	desc = ""
+	picture = "Masanori_Kumabe.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Sato Tetsro"
+	desc = ""
+	picture = "Sato_Tetsro.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Sadayuki Iwata"
+	desc = ""
+	picture = "Sadayuki_Iwata.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Misao Oonishi"
+	desc = ""
+	picture = "Misao_Oonishi.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+#서부방면대
+create_country_leader = {
+	name = "Uchida Shifu Makoto"
+	desc = ""
+	picture = "Uchida_Shifu_Makoto.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Misao Oonishi"
+	desc = ""
+	picture = "Misao_Oonishi.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Yuusuke Matsushima"
+	desc = ""
+	picture = "Yuusuke_Matsushima.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
 
 create_navy_leader = {
 	name = "Masahiko Sugimoto"
@@ -550,6 +705,161 @@ create_navy_leader = {
 	defense_skill = 1
 	maneuvering_skill = 1
 	coordination_skill = 1
+}
+##북부방면대
+create_corps_commander = {
+	name = "Yoshihiro Nakazato"
+	picture = "Yoshihiro_Nakazato.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Arai Hitoshi"
+	picture = "Arai_Hitoshi.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Jeya Mitsuhiro"
+	picture = "Jeya_Mitsuhiro.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Aoto Siyuya"
+	picture = "Aoto_Siyuya.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+##동북방면대
+create_corps_commander = {
+	name = "Yamazaki Tomohisa"
+	picture = "Yamazaki_Tomohisa.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "yokochi sada"
+	picture = "yokochi_sada.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+##동부방면대
+create_corps_commander = {
+	name = "Kenichi Sawada"
+	picture = "Kenichi_Sawada.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Shigeru Watanabe"
+	picture = "Shigeru_Watanabe.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+##중부방면대
+create_corps_commander = {
+	name = "Masanori Kumabe"
+	picture = "Masanori_Kumabe.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Sato Tetsro"
+	picture = "Sato_Tetsro.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Sadayuki Iwata"
+	picture = "Sadayuki_Iwata.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Misao Oonishi"
+	picture = "Misao_Oonishi.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+##서부방면대
+create_corps_commander = {
+	name = "Uchida Shifu Makoto"
+	picture = "Uchida_Shifu_Makoto.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Misao Oonishi"
+	picture = "Misao_Oonishi.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Yuusuke Matsushima"
+	picture = "Yuusuke_Matsushima.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 if = {
 	limit = {
