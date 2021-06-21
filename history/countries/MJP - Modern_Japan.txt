@@ -343,16 +343,6 @@ set_popularities = {
 	democratic = 100
 }
 create_country_leader = {
-	name = "Tetsu Katayama"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "miyazawa_kiichi.png"
-	expire = "1989.1.1"
-	ideology = liberalism
-	traits = {
-	}
-}
-
-create_country_leader = {
 	name = "miyazawa_kiichi"
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "miyazawa_kiichi.png"
@@ -373,7 +363,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Tetsu Katayama"
+	name = "miyazawa kiichi"
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "miyazawa_kiichi.png"
 	expire = "1989.1.1"
