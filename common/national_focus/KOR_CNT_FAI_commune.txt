@@ -27,24 +27,27 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_CNT_END_Delegate_meeting
 		}
+		mutually_exclusive = {
+			focus = kor_MTU_member_intrusion
+		}
 		x = 0
 		y = 1
 		relative_position_id = KOR_CNT_END_Delegate_meeting
 			completion_reward = {
 					hidden_effect = {
-						can_join_opposite_factions = no
-						can_join_factions = no
-						can_join_factions_not_allowed_diplomacy = no
-						SAG = {
+							can_join_opposite_factions = no
 							can_join_factions = no
+							can_join_factions_not_allowed_diplomacy = no
+							SAG = {
+									can_join_factions = no
+								}
+							RUR = {
+									can_join_factions = no
+								}
+							UFT = {
+									can_join_factions = no
+								}
 						}
-						RUR = {
-							can_join_factions = no
-						}
-						UFT = {
-							can_join_factions = no
-						}
-					}
 					country_event = {
 							id = KORnan.6
 						}
@@ -66,7 +69,6 @@ focus_tree = {
 		relative_position_id = KOR_CNT_direction_of_the_commune
 			completion_reward = {
 					hidden_effect = {
-						
 							set_party_name = {
 									ideology = communism
 									long_name = "동아산업노동자연맹"
@@ -94,9 +96,9 @@ focus_tree = {
 								}
 						}
 					swap_ideas = {
-						remove_idea = Corporate_remnants
-						add_idea = Capitalist_backlash
-					}
+							remove_idea = Corporate_remnants
+							add_idea = Capitalist_backlash
+						}
 					set_politics = {
 							ruling_party = communism
 							last_election = "1934.12.19"
@@ -117,6 +119,316 @@ focus_tree = {
 
 	}
 	focus = {
+		id = kor_MTU_member_intrusion
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_CNT_END_Delegate_meeting
+		}
+		mutually_exclusive = {
+			focus = KOR_CNT_direction_of_the_commune
+		}
+		x = 33
+		y = 2
+		completion_reward = {
+			country_event = {
+				id = MTU.1
+			}
+		}
+	}
+	focus = {
+		id = kor_mtu_union_chairman
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = kor_MTU_member_intrusion
+		}
+		x = 33
+		y = 3
+
+	}
+	focus = {
+		id = KOR_MTU_Im_Seonggyu
+		icon = GFX_KOR_MTU_Im_Seonggyu
+		cost = 10.00
+		prerequisite = {
+			focus = kor_mtu_union_chairman
+		}
+		mutually_exclusive = {
+			focus = KOR_MTU_Gapdeuk_Jeong
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = KOR_MTU_united_union_front
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Im_Seonggyu
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = KOR_social_security_system
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_united_union_front
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = KOR_MTU_defened_Agriculture
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_social_security_system
+		}
+		x = 26
+		y = 7
+
+	}
+	focus = {
+		id = KOR_MTU_united_union_program
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Im_Seonggyu
+		}
+		x = 30
+		y = 5
+
+	}
+	focus = {
+		id = KOR_MTU_industrial_union
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_united_union_program
+		}
+		x = 31
+		y = 6
+
+	}
+	focus = {
+		id = KOR_MTU_Gapdeuk_Jeong
+		icon = GFX_KOR_MTU_Gapdeuk_Jeong
+		cost = 10.00
+		prerequisite = {
+			focus = kor_mtu_union_chairman
+		}
+		mutually_exclusive = {
+			focus = KOR_MTU_Im_Seonggyu
+		}
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = KOR_MTU_international_labor_movement
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Im_Seonggyu
+			focus = KOR_MTU_Gapdeuk_Jeong
+		}
+		x = 33
+		y = 5
+
+	}
+	focus = {
+		id = KOR_MTU_Encouraging_all_people_to_join
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_industrial_union
+		}
+		prerequisite = {
+			focus = KOR_MTU_international_labor_movement
+		}
+		x = 32
+		y = 7
+
+	}
+	focus = {
+		id = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_international_labor_movement
+		}
+		x = 33
+		y = 8
+
+	}
+	focus = {
+		id = KOR_MTU_metal_union
+		icon = GFX_kor_mtu_union_chairman
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Gapdeuk_Jeong
+		}
+		x = 36
+		y = 5
+
+	}
+	focus = {
+		id = KOR_MTU_metal_union_expansion
+		icon = GFX_KOR_MTU_metal_union_expansion
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_metal_union
+		}
+		prerequisite = {
+			focus = KOR_MTU_international_labor_movement
+		}
+		x = 35
+		y = 6
+
+	}
+	focus = {
+		id = KOR_MTU_Ah_the_Metal_Federation.
+		icon = GFX_KOR_MTU_Ah_the_Metal_Federation
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_metal_union_expansion
+		}
+		x = 35
+		y = 8
+
+	}
+	focus = {
+		id = KOR_MTU_hard_line
+		icon = GFX_KOR_MTU_hard_line
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_metal_union
+		}
+		x = 37
+		y = 6
+
+	}
+	focus = {
+		id = KOR_MTU_Removal_of_corporate_remnants
+		icon = GFX_KOR_MTU_Removal_of_corporate_remnants
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_hard_line
+		}
+		x = 36
+		y = 7
+
+	}
+	focus = {
+		id = KOR_MTU_Organization_of_women_workers
+		icon = GFX_KOR_MTU_Organization_of_women_workers
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_metal_union_expansion
+		}
+		prerequisite = {
+			focus = KOR_MTU_hard_line
+		}
+		x = 34
+		y = 7
+
+	}
+	focus = {
+		id = KOR_MTU_anti_libearism_solidarity
+		icon = GFX_KOR_MTU_anti_libearism_solidarity
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_hard_line
+		}
+		x = 37
+		y = 8
+
+	}
+	focus = {
+		id = KOR_MTU_iron_worker
+		icon = GFX_KOR_MTU_iron_worker
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Gapdeuk_Jeong
+		}
+		x = 38
+		y = 5
+
+	}
+	focus = {
+		id = KOR_MTU_workers_squad
+		icon = GFX_KOR_MTU_workers_squad
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_hard_line
+		}
+		x = 38
+		y = 7
+
+	}
+	focus = {
+		id = KOR_MTU_New_Workers_Code
+		icon = GFX_KOR_MTU_New_Workers_Code
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_metal_union
+		}
+		x = 39
+		y = 6
+
+	}
+	focus = {
+		id = KOR_MTU_working_conditions
+		icon = GFX_KOR_MTU_working_conditions
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_New_Workers_Code
+		}
+		x = 39
+		y = 8
+
+	}
+	focus = {
+		id = KOR_MTU_great_match
+		icon = GFX_KOR_MTU_great_match
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_anti_libearism_solidarity
+		}
+		prerequisite = {
+			focus = KOR_MTU_working_conditions
+		}
+		prerequisite = {
+			focus = KOR_MTU_Ah_the_Metal_Federation.
+		}
+		prerequisite = {
+			focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		}
+		x = 37
+		y = 9
+
+	}
+	focus = {
+		id = KOR_MTU_Anti-monopoly_regulation
+		icon = GFX_KOR_MTU_Anti-monopoly_regulation
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_hard_line
+		}
+		prerequisite = {
+			focus = KOR_MTU_New_Workers_Code
+		}
+		x = 40
+		y = 7
+
+	}
+	focus = {
 		id = KOR_CNT_anarcho-communism
 		icon = GFX_anarchist_communism
 		cost = 5.00
@@ -129,17 +441,17 @@ focus_tree = {
 		x = 44
 		y = 3
 			completion_reward = {
-				swap_ideas = {
-						remove_idea = Corporate_remnants
-						add_idea = Capitalist_backlash
-					}
+					swap_ideas = {
+							remove_idea = Corporate_remnants
+							add_idea = Capitalist_backlash
+						}
 					set_politics = {
 							ruling_party = communism
 							last_election = "1934.12.19"
 							election_frequency = 60
 							elections_allowed = no
 						}
-						hidden_effect = {
+					hidden_effect = {
 							add_ideas = Capitalist_backlash
 						}
 				}
@@ -148,7 +460,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_union_of_commune
 		icon = GFX_KOR_CNT_union_of_commune
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_anarcho-communism
 		}
@@ -165,7 +477,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_anarchist_network
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_union_of_commune
 		}
@@ -179,60 +491,63 @@ focus_tree = {
 	focus = {
 		id = KOR_Direct_democracy_through_the_commune
 		icon = GFX_KOR_Direct_democracy_through_the_commune
-		cost = 4
-		available = {
-			has_idea = Unstable_commune
-		}
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_union_of_commune
 		}
 		x = 44
 		y = 5
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = Unstable_commune
-				add_idea = Unstable_commune_1
-			}
-		}
+			available = {
+					has_idea = Unstable_commune
+				}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = Unstable_commune
+							add_idea = Unstable_commune_1
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Distribution_of_communes
 		icon = GFX_KOR_CNT_Distribution_of_communes
-		cost = 4
-		available = {
-			and = {
-				has_idea = Capitalist_backlash_1
-			}
-		}
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_Direct_democracy_through_the_commune
 		}
 		x = 43
 		y = 6
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = Capitalist_backlash_1
-				add_idea = Capitalist_backlash_2
-			}
-		}
+			available = {
+					and = {
+							has_idea = Capitalist_backlash_1
+						}
+				}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = Capitalist_backlash_1
+							add_idea = Capitalist_backlash_2
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Equal_commune
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_union_of_commune
 		}
 		x = 46
 		y = 5
-		completion_reward  ={
-			id = kornan.39
-		}
+			completion_reward = {
+					id = kornan.39
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_politic_free
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Equal_commune
 		}
@@ -241,14 +556,15 @@ focus_tree = {
 		}
 		x = 45
 		y = 6
-		completion_reward = {
+			completion_reward = {
 
-		}
+}
+
 	}
 	focus = {
 		id = KOR_CNT_New_direction
 		icon = GFX_KHA_the_grey_area
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Distribution_of_communes
 		}
@@ -257,19 +573,17 @@ focus_tree = {
 		}
 		x = 44
 		y = 7
-		completion_reward = {
-			country_event = {
-			    id = KORnan.42
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = KORnan.42
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Temporary_Committee
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
-		available = {
-		has_country_flag = ja_malrateseuta
-		}
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_New_direction
 		}
@@ -278,129 +592,139 @@ focus_tree = {
 		}
 		x = 46
 		y = 8
-		completion_reward = {
-			hidden_effect = {
-			clr_country_flag = ja_malrateseuta
-			}
-		}
+			available = {
+					has_country_flag = ja_malrateseuta
+				}
+			completion_reward = {
+					hidden_effect = {
+							clr_country_flag = ja_malrateseuta
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Distribution_focus
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Temporary_Committee
 		}
 		x = 46
 		y = 9
-		completion_reward = {
-			
-		}
+			completion_reward = {
+
+}
+
 	}
 	focus = {
 		id = KOR_Pursuit_of_the_theory_of_freedom_association
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_politic_free
 		}
 		x = 47
 		y = 7
-		completion_reward = {
-			country_event = {
-				id = KORnan.40
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = KORnan.40
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Withdrawal_of_private_property
 		icon = GFX_KOR_CNT_Shared_product
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_anarcho-communism
 			focus = KOR_CNT_Anaco_Syndicalism
 		}
 		x = 48
 		y = 4
-		completion_reward = {
-			add_ideas = Masterless_means_of_production
-			hidden_effect = {
-				UFT = { 
+			completion_reward = {
 					add_ideas = Masterless_means_of_production
+					hidden_effect = {
+							UFT = {
+									add_ideas = Masterless_means_of_production
+								}
+							CAF = {
+									add_ideas = Masterless_means_of_production
+								}
+							JAF = {
+									add_ideas = Masterless_means_of_production
+								}
+							IWW = {
+									add_ideas = Masterless_means_of_production
+								}
+						}
 				}
-				CAF = {
-					add_ideas = Masterless_means_of_production 
-				}
-				JAF = { 
-					add_ideas = Masterless_means_of_production 
-				}
-				IWW = {
-					add_ideas = Masterless_means_of_production 
-				}
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_Partial_abolition_of_private_property
 		icon = GFX_KOR_Partial_abolition_of_private_property
-		cost = 4
-		available = {
-			has_idea = Masterless_means_of_production
-		}
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Withdrawal_of_private_property
 		}
 		x = 48
 		y = 5
-		completion_reward = {
-			swap_ideas = {
-				add_idea = Masterless_means_of_production_2
-				remove_idea = Masterless_means_of_production
-			}
-		}
+			available = {
+					has_idea = Masterless_means_of_production
+				}
+			completion_reward = {
+					swap_ideas = {
+							add_idea = Masterless_means_of_production_2
+							remove_idea = Masterless_means_of_production
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_State_rejection
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
-		available = {
-			has_idea = Capitalist_backlash_2
-		}
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_Partial_abolition_of_private_property
 			focus = KOR_Partial_abolition_of_private_property
 		}
 		x = 50
 		y = 6
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = Capitalist_backlash_2
-				add_idea = Capitalist_backlash_3
-			}
-		}
+			available = {
+					has_idea = Capitalist_backlash_2
+				}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = Capitalist_backlash_2
+							add_idea = Capitalist_backlash_3
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_The_abolition_of_wage_labor
 		icon = GFX_KOR_CNT_The_abolition_of_wage_labor
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_anarcho-communism
 			focus = KOR_CNT_Anaco_Syndicalism
 		}
 		x = 50
 		y = 4
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = Capitalist_backlash
-				add_idea = Capitalist_backlash_1
-			}
-			add_stability = 0.1
-		}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = Capitalist_backlash
+							add_idea = Capitalist_backlash_1
+						}
+					add_stability = 0.1
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Expansion_of_labor_union
 		icon = GFX_KOR_CNT_Expansion_of_labor_union
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Anaco_Syndicalism
 		}
@@ -411,38 +735,40 @@ focus_tree = {
 	focus = {
 		id = ROK_CNT_As_much_as_you_need
 		icon = GFX_ROK_CNT_As_much_as_you_need
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_The_abolition_of_wage_labor
 			focus = KOR_CNT_Expansion_of_labor_union
 		}
 		x = 50
 		y = 5
-		completion_reward = {
-			add_ideas = self_management
-		}
+			completion_reward = {
+					add_ideas = self_management
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Respect_for_women's_rights
 		icon = GFX_KOR_CNT_Respect_for_womens_rights
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_Partial_abolition_of_private_property
 			focus = ROK_CNT_As_much_as_you_need
 		}
 		x = 48
 		y = 6
-		completion_reward = {
-			add_ideas = anarcha_feminism
-			country_event = {
-				id = KORnan.43
-			}
-		}
+			completion_reward = {
+					add_ideas = anarcha_feminism
+					country_event = {
+							id = KORnan.43
+						}
+				}
+
 	}
 	focus = {
 		id = ROK_CNT_Social_freedom
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Respect_for_women's_rights
 		}
@@ -451,14 +777,15 @@ focus_tree = {
 		}
 		x = 49
 		y = 7
-		completion_reward = {
-			add_stability = 0.1
-		}
+			completion_reward = {
+					add_stability = 0.1
+				}
+
 	}
 	focus = {
 		id = KOR_Single_union
 		icon = GFX_One_Big_Union
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Expansion_of_labor_union
 		}
@@ -475,7 +802,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Industry_specific_repair_unions
 		icon = GFX_KOR_Industry_specific_repair_unions
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_Single_union
 		}
@@ -484,83 +811,86 @@ focus_tree = {
 		}
 		x = 52
 		y = 6
-		completion_reward = {
-			add_ideas = revolutionary_industrial_union
-		}
+			completion_reward = {
+					add_ideas = revolutionary_industrial_union
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Corporatist_policy
 		icon = GFX_KOR_CNT_Corporatist_policy
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_Single_union
 		}
-		available = {
-			has_completed_focus = KOR_Industry_specific_repair_unions
-			and = {
-				has_idea = Capitalist_backlash_1
-			}
-		}
 		x = 54
 		y = 6
-		completion_reward = {
+			available = {
+					has_completed_focus = KOR_Industry_specific_repair_unions
+					and = {
+							has_idea = Capitalist_backlash_1
+						}
+				}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = Capitalist_backlash_1
+							add_idea = Capitalist_backlash_2
+						}
+					swap_ideas = {
+							remove_idea = revolutionary_industrial_union
+							add_idea = revolutionary_industrial_union_2
+						}
+				}
 
-			swap_ideas = {
-				remove_idea = Capitalist_backlash_1
-				add_idea = Capitalist_backlash_2
-			}
-			swap_ideas = {
-    			remove_idea = revolutionary_industrial_union
-    			add_idea = revolutionary_industrial_union_2
-			}
-		}
 	}
 	focus = {
 		id = KOR_cnt_people_for_union
 		icon = GFX_KOR_cnt_people_for_union
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Corporatist_policy
 		}
 		prerequisite = {
 			focus = KOR_Industry_specific_repair_unions
 		}
-		available = {
-			has_idea = Unstable_commune
-		}
 		x = 53
 		y = 7
-		completion_reward = {
-			country_event = {
-				id = KORnan.38
-				days = 2
-			}
-			swap_ideas = {
-				remove_idea = Unstable_commune
-				add_idea = Unstable_commune_1
-			}
-		}
+			available = {
+					has_idea = Unstable_commune
+				}
+			completion_reward = {
+					country_event = {
+							id = KORnan.38
+							days = 2
+						}
+					swap_ideas = {
+							remove_idea = Unstable_commune
+							add_idea = Unstable_commune_1
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Cooperation_with_IWW
 		icon = GFX_KOR_CNT_Cooperation_with_IWW
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Corporatist_policy
 		}
 		x = 55
 		y = 7
-		completion_reward = {
-			reverse_add_opinion_modifier = {
-    			target = IWW
-    			modifier = internationale_solidarity
-			}
-		}
+			completion_reward = {
+					reverse_add_opinion_modifier = {
+							target = IWW
+							modifier = internationale_solidarity
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_East_Asian_workers_liberation
 		icon = GFX_Freedom_east_asia
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Cooperation_with_IWW
 		}
@@ -575,15 +905,15 @@ focus_tree = {
 			completion_reward = {
 					set_rule = {
 							can_send_volunteers = yes
-						}	
-						country_lock_all_division_template = no
+						}
+					country_lock_all_division_template = no
 				}
 
 	}
 	focus = {
 		id = KOR_CNT_Direct_action_in_japan
 		icon = GFX_riot_japan
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_East_Asian_workers_liberation
 		}
@@ -608,7 +938,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Direct_action_in_China
 		icon = GFX_riot_china
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_East_Asian_workers_liberation
 		}
@@ -616,27 +946,27 @@ focus_tree = {
 		y = 9
 			completion_reward = {
 					598 = {
-						set_demilitarized_zone = yes
-					}
+							set_demilitarized_zone = yes
+						}
 					613 = {
-						set_demilitarized_zone = yes
-					}
+							set_demilitarized_zone = yes
+						}
 					606 = {
-						set_demilitarized_zone = yes
-					}
+							set_demilitarized_zone = yes
+						}
 					749 = {
-						set_demilitarized_zone = yes
-					}
+							set_demilitarized_zone = yes
+						}
 					596 = {
-						set_demilitarized_zone = yes
-					}
+							set_demilitarized_zone = yes
+						}
 				}
-			
+
 	}
 	focus = {
 		id = KOR_CNT_Revolution_in_Japan
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_China
 		}
@@ -646,33 +976,35 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = KOR_CNT_Direct_action_in_China
-		completion_reward = {
-			JAF = {
-				country_event = {
-					id = KORnan.29
+			completion_reward = {
+					JAF = {
+							country_event = {
+									id = KORnan.29
+								}
+						}
 				}
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_JAP_Revolutionary_Volunteer
 		icon = GFX_Revolutionary_Volunteer
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Revolution_in_Japan
 		}
 		x = 54
 		y = 11
-		completion_reward = {
-			JAF = {
-				add_manpower = 10000
-			}
-		}
+			completion_reward = {
+					JAF = {
+							add_manpower = 10000
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Solidarity_with_the_IWW
 		icon = GFX_Freedom_IWW
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_cnt_people_for_union
 		}
@@ -696,7 +1028,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_General_strike_in_the_United_States
 		icon = GFX_general_strike
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Solidarity_with_the_IWW
 		}
@@ -715,31 +1047,30 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Call_for_US_labor_unions_to_join_IWW
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
-		available = {
-			has_idea = Unstable_commune_1
-		}
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Solidarity_with_the_IWW
 		}
 		x = 57
 		y = 9
-			completion_reward = {
-				swap_ideas = {
-					remove_idea = Unstable_commune_1
-					add_idea = Unstable_commune_2
+			available = {
+					has_idea = Unstable_commune_1
 				}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = Unstable_commune_1
+							add_idea = Unstable_commune_2
+						}
 					IWW = {
 							add_ideas = IWW_unions
 						}
-				
 				}
 
 	}
 	focus = {
 		id = KOR_CNT_Armed_Uprising_Support
 		icon = GFX_KOR_CNT_Armed_Uprising_Support
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Call_for_US_labor_unions_to_join_IWW
 		}
@@ -761,7 +1092,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_Chicago_Uprising
 		icon = GFX_chicago_riot
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Solidarity_with_the_IWW
 		}
@@ -777,7 +1108,7 @@ focus_tree = {
 	focus = {
 		id = KOR_IWW_International_Invitation
 		icon = GFX_KOR_CNT_Call_for_US_labor_unions_to_join_IWW
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Call_for_US_labor_unions_to_join_IWW
 		}
@@ -798,7 +1129,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_IWW_Liberation_day
 		icon = GFX_workers_freedom_day
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Armed_Uprising_Support
 		}
@@ -817,44 +1148,44 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_There_is_no_political_equality_without_social_equality.
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
-		available = {
-			has_idea = Capitalist_backlash_3
-		}
+		cost = 4.00
 		prerequisite = {
 			focus = ROK_CNT_Social_freedom
 			focus = KOR_Pursuit_of_the_theory_of_freedom_association
 		}
 		x = 49
 		y = 8
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = Capitalist_backlash_3
-				add_idea = Capitalist_backlash_4
-			}
-		}
+			available = {
+					has_idea = Capitalist_backlash_3
+				}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = Capitalist_backlash_3
+							add_idea = Capitalist_backlash_4
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_Code_of_Anarchism
 		icon = GFX_KHA_the_foundation_laid
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_New_direction
 		}
 		mutually_exclusive = {
 			focus = KOR_CNT_Temporary_Committee
 		}
-		available = {
-		has_country_flag = nein_malrateseuta
-		}
 		x = 42
 		y = 8
+			available = {
+					has_country_flag = nein_malrateseuta
+				}
 			completion_reward = {
-						hidden_effect = {
-						clr_country_flag = nein_malrateseuta
+					hidden_effect = {
+							clr_country_flag = nein_malrateseuta
 						}
-						country_lock_all_division_template = no
-
+					country_lock_all_division_template = no
 					country_event = {
 							id = KORnan.8
 						}
@@ -906,7 +1237,7 @@ focus_tree = {
 	focus = {
 		id = KOR_CNT_social_Imperialism
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_Code_of_Anarchism
 		}
@@ -925,79 +1256,82 @@ focus_tree = {
 	focus = {
 		id = KOR_A_quasi_political_program
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_Code_of_Anarchism
 		}
 		x = 40
 		y = 9
-		completion_reward = {
-			country_event = {
-				id = KORnan.41
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = KORnan.41
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_cohesion
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_A_quasi_political_program
 		}
 		prerequisite = {
 			focus = KOR_CNT_social_Imperialism
 		}
-		available = {
-			has_idea = Unstable_commune_1
-		}
 		x = 41
 		y = 10
-			completion_reward = {
-				add_ideas = United_commune
-				swap_ideas = {
-					remove_idea = Unstable_commune_1
-					add_idea = Unstable_commune_2
+			available = {
+					has_idea = Unstable_commune_1
 				}
-			}
+			completion_reward = {
+					add_ideas = United_commune
+					swap_ideas = {
+							remove_idea = Unstable_commune_1
+							add_idea = Unstable_commune_2
+						}
+				}
 
 	}
 	focus = {
 		id = KOR_CNT_SOCIAL_Imperialism_Propaganda
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_social_Imperialism
 		}
-		x = 43 
+		x = 43
 		y = 10
-		completion_reward = {
-			SOV = {
-				add_stability	= -0.1
-				add_war_support		= -0.1
-			}
-		}
+			completion_reward = {
+					SOV = {
+							add_stability = -0.1
+							add_war_support = -0.1
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_Solidarity_of_workers
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
-		available = {
-			has_war = yes
-		}
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_Code_of_Anarchism
 			focus = KOR_CNT_Temporary_Committee
 		}
 		x = 44
 		y = 9
-		completion_reward = {
-			load_oob = "WOrkers_solidarity"
-		}
+			available = {
+					has_war = yes
+				}
+			completion_reward = {
+					load_oob = "WOrkers_solidarity"
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Kronstadt_rebellion_revenge
 		icon = GFX_KOR_CNT_Kronstadt_rebellion_revenge
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_SOCIAL_Imperialism_Propaganda
 		}
@@ -1011,9 +1345,9 @@ focus_tree = {
 							id = KORnan.7
 						}
 					declare_war_on = {
-    					target = SOV
-    					type = annex_everything
-					}
+							target = SOV
+							type = annex_everything
+						}
 				}
 
 	}
@@ -1040,112 +1374,115 @@ focus_tree = {
 		id = KOR_CNT_Support_of_the_revolution
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 5.00
-		available = {
-			has_war = no
-			has_completed_focus = KOR_CNT_Kronstadt_rebellion_revenge
-		}
 		prerequisite = {
 			focus = KOR_CNT_cohesion
 		}
 		x = 44
 		y = 11
-		completion_reward = {
-			load_focus_tree = KOR_revolution_focus
-		}
+			available = {
+					has_war = no
+					has_completed_focus = KOR_CNT_Kronstadt_rebellion_revenge
+				}
+			completion_reward = {
+					load_focus_tree = KOR_revolution_focus
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Revolution_in_china
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_China
 		}
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_japan
 		}
-		
 		x = 49
 		y = 10
-		completion_reward = {
-			CAF = {
-				country_event = {
-					id = KORnan.30
+			completion_reward = {
+					CAF = {
+							country_event = {
+									id = KORnan.30
+								}
+						}
 				}
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_CHI_Militia_support
 		icon = GFX_Militia_organization
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_japan
 		}
 		x = 50
 		y = 11
-		completion_reward = {
-			#activate_decision = iww_support_decisions
-			send_equipment = {
-				equipment = infantry_equipment
-				amount = 15000
-				target = CAF
-			}
-		}
+			completion_reward = {
+					send_equipment = {
+							equipment = infantry_equipment
+							amount = 15000
+							target = CAF
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_JAP_Militia_support
 		icon = GFX_Militia_organization
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_China
 		}
 		x = 52
 		y = 11
-		completion_reward = {
-			#activate_decision = iww_support_decisions
-			send_equipment = {
-				equipment = infantry_equipment
-				amount = 15000
-				target = JAF
-			}
-		}
+			completion_reward = {
+					send_equipment = {
+							equipment = infantry_equipment
+							amount = 15000
+							target = JAF
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_International_International_Brigade
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Direct_action_in_China
 			focus = KOR_CNT_Direct_action_in_japan
 		}
 		x = 51
 		y = 10
-		completion_reward = {
-			add_ideas = International_International_Brigade
-			country_event = {
-				id = KORnan.37
-			}
-		}
+			completion_reward = {
+					add_ideas = International_International_Brigade
+					country_event = {
+							id = KORnan.37
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CHI_Revolutionary_Volunteer
 		icon = GFX_Revolutionary_Volunteer
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Revolution_in_china
 		}
 		x = 48
 		y = 11
-		completion_reward = {
-			CAF = {
-				add_manpower = 10000
-			}
-		}
+			completion_reward = {
+					CAF = {
+							add_manpower = 10000
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_JAP_Worker_liberation
 		icon = GFX_KOR_CNT_Worker_liberation
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_JAP_Revolutionary_Volunteer
 		}
@@ -1154,31 +1491,32 @@ focus_tree = {
 		}
 		x = 53
 		y = 12
-		available = {
-			NOT = {
-				JAF ={
-					has_war_with = JAP
+			available = {
+					NOT = {
+							JAF = {
+									has_war_with = JAP
+								}
+						}
 				}
-			}
-		}
-		completion_reward ={
-			JAF = {
-				country_event = {
-					id = KORnan.33
+			completion_reward = {
+					JAF = {
+							country_event = {
+									id = KORnan.33
+								}
+						}
+					hidden_effect = {
+							JAF = {
+									add_ideas = Vigilante
+									add_ideas = closed_economy
+								}
+						}
 				}
-			}
-			hidden_effect = {
-				JAF = {
-					add_ideas = Vigilante
-					add_ideas = closed_economy
-				}
-			}	
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_CHI_Worker_liberation
 		icon = GFX_KOR_CNT_Worker_liberation
-		cost = 4
+		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_CHI_Militia_support
 		}
@@ -1187,25 +1525,141 @@ focus_tree = {
 		}
 		x = 49
 		y = 12
-		available = {
-			NOT = {
-				CAF ={
-					has_war_with = CHI
+			available = {
+					NOT = {
+							CAF = {
+									has_war_with = CHI
+								}
+						}
 				}
-			}
+			completion_reward = {
+					CAF = {
+							country_event = {
+									id = KORnan.35
+								}
+						}
+					hidden_effect = {
+							CAF = {
+									add_ideas = Vigilante
+									add_ideas = closed_economy
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_traditional_democratic_trade_unions
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_united_union_front
 		}
-		completion_reward ={
-			CAF = {
-				country_event = {
-					id = KORnan.35
-				}
-			}
-			hidden_effect = {
-				CAF = {
-					add_ideas = Vigilante
-					add_ideas = closed_economy
-				}
-			}
+		prerequisite = {
+			focus = KOR_MTU_united_union_program
 		}
+		x = 29
+		y = 6
+
+	}
+	focus = {
+		id = KOR_MTU_struggle_system
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_industrial_union
+		}
+		prerequisite = {
+			focus = KOR_MTU_traditional_democratic_trade_unions
+		}
+		x = 30
+		y = 7
+
+	}
+	focus = {
+		id = KOR_MTU_Confederation_of_Trade_Unions_of_the_World
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_struggle_system
+		}
+		prerequisite = {
+			focus = KOR_MTU_Encouraging_all_people_to_join
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = KOR_MTU_democratic_work_environment
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_traditional_democratic_trade_unions
+		}
+		prerequisite = {
+			focus = KOR_social_security_system
+		}
+		x = 28
+		y = 7
+
+	}
+	focus = {
+		id = KOR_MTU_Joint_Bargaining_by_Industry
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_struggle_system
+		}
+		prerequisite = {
+			focus = KOR_MTU_democratic_work_environment
+		}
+		x = 29
+		y = 8
+
+	}
+	focus = {
+		id = KOR_MTU_democracy_in_this_land
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Joint_Bargaining_by_Industry
+		}
+		prerequisite = {
+			focus = KOR_MTU_Confederation_of_Trade_Unions_of_the_World
+		}
+		prerequisite = {
+			focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		}
+		x = 30
+		y = 9
+
+	}
+	focus = {
+		id = KOR_MTU_democratic_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Joint_Bargaining_by_Industry
+		}
+		prerequisite = {
+			focus = KOR_MTU_confiscation_of_monopoly_capital
+		}
+		x = 28
+		y = 9
+
+	}
+	focus = {
+		id = KOR_MTU_confiscation_of_monopoly_capital
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_democratic_work_environment
+		}
+		prerequisite = {
+			focus = KOR_MTU_defened_Agriculture
+		}
+		x = 27
+		y = 8
+
 	}
 }
