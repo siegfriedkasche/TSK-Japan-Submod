@@ -146,4 +146,13 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/nukeclear_event_pic.png"
 	}
 	
+	spriteType = {
+		name = "GFX_kor_MTU_member_intrusion_event"
+		texturefile = "gfx/event_pictures/GFX_kor_MTU_member_intrusion_event.png"
+	}
+	spriteType = {
+		name = "GFX_devide_commune_for_union"
+		texturefile = "gfx/event_pictures/GFX_devide_commune_for_union.png"
+	}
+	
 }

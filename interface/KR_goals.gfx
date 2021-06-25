@@ -95,6 +95,67 @@ spriteTypes = {
         name = "GFX_KOR_CNT_Distribution_of_communes"
         texturefile = "gfx/interface/goals/GFX_KOR_CNT_Distribution_of_communes.png"
     }
+	spriteType = {
+        name = "GFX_KOR_MTU_Im_Seonggyu"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Im_Seonggyu.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Gapdeuk_Jeong"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Gapdeuk_Jeong.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_iron_worker"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_iron_worker.png"
+    }
+	spriteType = {
+        name = "GFX_kor_mtu_union_chairman"
+        texturefile = "gfx/interface/goals/GFX_kor_mtu_union_chairman.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_hard_line"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_hard_line.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_metal_union_expansion"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_metal_union_expansion.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_great_match"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_great_match.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_New_Workers_Code"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_New_Workers_Code.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_workers_squad"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_workers_squad.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_working_conditions"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_working_conditions.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Organization_of_women_workers"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Organization_of_women_workers.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Anti-monopoly_regulation"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Anti-monopoly_regulation.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Removal_of_corporate_remnants"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Removal_of_corporate_remnants.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Ah_the_Metal_Federation"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Ah_the_Metal_Federation.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_anti_libearism_solidarity"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_anti_libearism_solidarity.png"
+    }
+	
 	frameAnimatedSpriteType = {
 		name = "GFX_fire_breath_move"
 		texturefile = "gfx//superevent_pictures//fire_breath_move.png"

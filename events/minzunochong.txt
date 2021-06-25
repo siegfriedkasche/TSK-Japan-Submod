@@ -1,0 +1,40 @@
+add_namespace = MTU
+
+country_event = {
+	id = MTU.1 #조합원 습격
+	title = MTU.1.t
+	desc = MTU.1.d
+	picture = GFX_kor_MTU_member_intrusion_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.1.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+		country_event = {
+		    id = MTU.2
+			days = 7
+		}
+		set_cosmetic_tag = KOR_UNI
+		}
+	}
+}
+country_event = {
+	id = MTU.2 #조합원 습격
+	title = MTU.2.t
+	desc = MTU.2.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.2.a
+		ai_chance = {
+		    factor = 100
+		}
+		
+	}
+}
