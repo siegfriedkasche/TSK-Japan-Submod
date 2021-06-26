@@ -28,14 +28,14 @@ add_ideas = {
 if = {
 	limit = { has_dlc = "Waking the Tiger" }
 	add_ideas = {
-		JAP_interservice_rivalry_balanced		
+				
 	}
 }
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	add_ideas = MTG_naval_treaty_adherent
+	add_ideas = 
 }
 
 # Starting tech
@@ -823,15 +823,15 @@ if = {
 
 	create_equipment_variant = {
 		name = "니미츠급 "
-		type = ship_hull_modern_CV
+		type = ship_hull_modern_CV_1
 		name_group = FKR_CV_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
 			fixed_ship_deck_slot_2 = ship_deck_space
-			fixed_ship_anti_air_slot = ship_anti_air_future_1
-			fixed_ship_radar_slot = ship_radar_future_1
-			fixed_ship_engine_slot = carrier_ship_engine_future_1
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_1
 			fixed_ship_secondaries_slot = empty
 			front_1_custom_slot = ship_deck_space
 			mid_1_custom_slot = ship_deck_space

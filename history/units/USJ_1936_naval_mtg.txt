@@ -8,7 +8,7 @@ units = {
 		task_force = {
 			name = "미합중국 제 7 함대"
 			location = 11932
-			ship = { name = "USS CVN Nimitz" definition =modern_CV start_experience_factor = 0.65 equipment = { ship_hull_modern_CV_1 = { amount = 1 owner = MJP version_name = "니미츠급" } } }
+			ship = { name = "USS CVN Nimitz" definition = modern_CV start_experience_factor = 0.65 equipment = { ship_hull_modern_CV_1 = { amount = 1 owner = MJP version_name = "니미츠급" } } }
 			ship = { name = "USS Cowpence" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = MJP version_name = "타이콘데로가급" } } }
             ship = { name = "USS Bunker Hill" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = MJP version_name = "타이콘데로가급" } } }
             ship = { name = "USS Mobile Bay" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = MJP version_name = "타이콘데로가급" } } }
