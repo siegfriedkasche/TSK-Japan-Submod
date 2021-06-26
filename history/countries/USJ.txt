@@ -265,7 +265,7 @@ if = {
 		DDH_2 = 1
 		SS_3 = 1
 	    SS_4 = 1
-		CV_1 = 1
+		carrier_1 = 1
 	}
 }
 if = {
@@ -285,7 +285,7 @@ if = {
 	    m_1980SS = 1
 	    m_1990SS = 1
 	    m_2000SS = 1
-		m_1970CV = 1
+		m_1970carrier = 1
 		m_1980patrol = 1
 	}
 }
@@ -355,8 +355,6 @@ create_field_marshal = {
 	name = "Jack D. Woodall"
 	picture = "Jack_D._Woodall.dds"
 	traits = { 
-		offensive_doctrine
-		JAP_samurai_lineage   # hakushaku
 		politically_connected
 	}
 	skill = 4
@@ -415,8 +413,8 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 
 	create_equipment_variant = {
-		name = "니미츠급 "
-		type = ship_hull_modern_CV_1
+		name = "니미츠급"
+		type = ship_hull_modern_carrier_1
 		name_group = FKR_CV_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -502,7 +500,7 @@ if = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_modern_1	
 			fixed_ship_engine_slot = sub_ship_engine_modern_1
 			fixed_ship_sonar_slot = ship_sonar_modern_1
-			front_1_custom_slot = ship_torpedo_sub_modern_1
+			front_1_custom_slot = ship_sts_sub_1
 			mid_1_custom_slot = ship_sub_snorkel_modern
 			rear_1_custom_slot = ship_sts_sub_1
 		}

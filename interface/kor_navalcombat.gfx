@@ -1,0 +1,84 @@
+spriteTypes = {
+
+	# ---------------------------------------------------------------------------
+	# Code expects GFX_navalcombat_ship_icon_ + sprite_name set in subunit defs
+	
+	spriteType = { # "battleship"
+		name = "GFX_navalcombat_ship_icon_Modern_DDH"
+		texturefile = "gfx/interface/navalcombat/ships/DDH.dds"
+		noOfFrames = 2
+	}
+	spriteType = { # "battleship"
+		name = "GFX_navalcombat_ship_icon_Modern_carrier"
+		texturefile = "gfx/interface/navalcombat/ships/carrier.dds"
+		noOfFrames = 2
+	}
+	spriteType = { # "battleship"
+		name = "GFX_navalcombat_ship_icon_modern_DDG"
+		texturefile = "gfx/interface/navalcombat/ships/DDG.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = { # "battleship"
+		name = "GFX_navalcombat_ship_icon_modern_PCC"
+		texturefile = "gfx/interface/navalcombat/ships/PCC.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = { # "battleship"
+		name = "GFX_navalcombat_ship_icon_modern_FF"
+		texturefile = "gfx/interface/navalcombat/ships/FFG.dds"
+		noOfFrames = 2
+	}
+	spriteType = { # "battleship"
+		name = "GFX_navalcombat_ship_icon_modern_PK"
+		texturefile = "gfx/interface/navalcombat/ships/PK.png"
+		noOfFrames = 2
+	}
+	spriteType = { # "battleship"
+		name = "GFX_navalcombat_ship_icon_modern_PK_3"
+		texturefile = "gfx/interface/navalcombat/ships/PKG.png"
+		noOfFrames = 2
+	}
+	spriteType = { # "battleship"
+		name = "GFX_navalcombat_ship_icon_modern_submarine"
+		texturefile = "gfx/interface/navalcombat/ships/modern_SS.png"
+		noOfFrames = 2
+	}
+	
+	#I don't know what I am doing...
+	spriteType = { # "battlecruiser"
+		name = "GFX_navalcombat_ship_small_icon_Modern_DDH"
+		texturefile = "gfx/interface/counters/ships_small/onmap_Modern_DDH.dds"
+		noOfFrames = 1
+	}
+	
+	spriteType = { # "battlecruiser"
+		name = "GFX_navalcombat_ship_small_icon_modern_DDG"
+		texturefile = "gfx/interface/counters/ships_small/onmap_modern_DDG.dds"
+		noOfFrames = 1
+	}
+	spriteType = { # "battlecruiser"
+		name = "GFX_navalcombat_ship_small_icon_modern_PCC"
+		texturefile = "gfx/interface/counters/ships_small/onmap_Modern_PCC.dds"
+		noOfFrames = 1
+	}
+	
+	spriteType = { # "battlecruiser"
+		name = "GFX_navalcombat_ship_small_icon_modern_FF"
+		texturefile = "gfx/interface/counters/ships_small/onmap_modern_FF.dds"
+		noOfFrames = 1
+	}
+	
+	spriteType = { # "battlecruiser"
+		name = "GFX_navalcombat_ship_small_icon_modern_PK"
+		texturefile = "gfx/interface/counters/ships_small/onmap_modern_PK.png"
+		noOfFrames = 1
+	}
+	
+	spriteType = { # "battlecruiser"
+		name = "GFX_navalcombat_ship_small_icon_modern_submarine"
+		texturefile = "gfx/interface/counters/ships_small/onmap_submarine.dds"
+		noOfFrames = 1
+	}
+]

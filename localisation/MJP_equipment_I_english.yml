@@ -23,6 +23,12 @@
  MJP_ss_3:0 "유우시오급" 
  MJP_ss_4:0 "하루시오급"
 
+ USJ_ff_2:0 "올리버 헤저드 페리급"
+ USJ_ddg_1:0 "타이콘데로가급"
+ USJ_ddh_2:0 "스프루언스 급"
+ USJ_ss_5:0 "로스 엔젤리스 급"
+ USJ_carrier_1:0 "니미츠급"
+
  pcc_1:0 "초계함 I"
  pcc_2:0 "초계함 II"
  pcc_3:0 "초계함 III"
@@ -38,7 +44,7 @@
  pk_2:0 "고속정 II"
  pk_3:0 "고속함"
  
- cv_1:0 "항공모함"
+ carrier_1:0 "항공모함"
 
  ss_1:0 "공격잠수함 I"
  ss_2:0 "공격잠수함 II"
@@ -1084,7 +1090,7 @@
  ship_hull_modern_submarine_4:0 "공격잠수함 선체 IV"
  ship_hull_modern_submarine_5:0 "공격잠수함 선체 V"
 
- ship_hull_modern_CV:0  미래 항공모함 선체
+ ship_hull_modern_carrier:0  "미래 항공모함 선체"
  
  
  MKR_Vertical_maneuvering_equipment_1:0 "입체기동장치"
