@@ -99,7 +99,7 @@ equipments = {
 		manpower = 5287
 	}
 
-	ship_hull_modern_CV_1 = { #포레스탈급
+	ship_hull_modern_CV_1 = { #니미츠급
 		year = 1922
 		visual_level = 1
 		visual_tech_level_addition = 2
@@ -109,7 +109,7 @@ equipments = {
 		module_slots = inherit
 	}
 
-	ship_hull_modern_CV_2 = { #키티호크급
+	ship_hull_modern_CV_2 = { #
 		year = 1936
 		visual_level = 1
 		archetype = ship_hull_modern_CV
