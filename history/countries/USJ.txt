@@ -2,6 +2,20 @@
 
 oob = "USJ_1936"
 
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+
+	set_naval_oob = "USJ_1936_naval"
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "USJ_1936_naval_mtg"
+}
+
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.3
 
@@ -808,7 +822,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 
 	create_equipment_variant = {
-		name = "포레스탈 급"
+		name = "니미츠급 "
 		type = ship_hull_modern_CV
 		name_group = FKR_CV_HISTORICAL
 		parent_version = 0
@@ -847,7 +861,7 @@ if = {
 	}
 
 	create_equipment_variant = {
-		name = "타이콘 데로급"
+		name = "타이콘데로가급"
 		type = ship_hull_modern_DDG_1
 		name_group = FKR_CL_HISTORICAL
 		parent_version = 0
