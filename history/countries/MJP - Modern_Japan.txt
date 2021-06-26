@@ -386,7 +386,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Eiji Yoshikawa"
 	desc = ""
-	picture = "Eiji_Yoshikawa.png"
+	picture = "Eiji_Yoshikawa.dds"
 	expire = "1989.1.1"
 	ideology = nazism
 	traits = {
@@ -426,7 +426,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Koichi_Furusho"
 	desc = ""
-	picture = "Koichi_Furusho.png"
+	picture = "Koichi_Furusho.dds"
 	expire = "1989.1.1"
 	ideology = nazism
 	traits = {
@@ -473,7 +473,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Keizo Shigematsu"
-	picture = "Keizo_Shigematsu.dds"
+	picture = "Keizo_Shigematsu.png"
 	traits = { }
 	skill = 4
 	attack_skill = 1
@@ -483,7 +483,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "Toshiyuki Shikata"
-	picture = "Toshiyuki_Shikata.dds"
+	picture = "Toshiyuki_Shikata.png"
 	traits = { }
 	skill = 4
 	attack_skill = 1
@@ -493,7 +493,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "Satoru Yoshizaki"
-	picture = "Satoru_Yoshizaki.dds"
+	picture = "Satoru_Yoshizaki.png"
 	traits = { }
 	skill = 4
 	attack_skill = 1
@@ -503,7 +503,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "Toru Nishimoto"
-	picture = "Toru_Nishimoto.dds"
+	picture = "Toru_Nishimoto.png"
 	traits = { }
 	skill = 4
 	attack_skill = 1
@@ -513,7 +513,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "Akira Oda"
-	picture = "Akira_Oda.dds"
+	picture = "Akira_Oda.png"
 	traits = { }
 	skill = 4
 	attack_skill = 1
@@ -523,7 +523,7 @@ create_field_marshal = {
 }
 create_navy_leader = {
 	name = "Masahiko Sugimoto"
-		picture = "Masahiko_Sugimoto.dds"
+		picture = "Masahiko_Sugimoto.png"
 	traits = {}
 	skill = 1
 	attack_skill = 1
@@ -543,7 +543,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "Yamamoto Yasumasa"
-		picture = "Yamamoto_Yasumasa.dds"
+		picture = "Yamamoto_Yasumasa.png"
 	traits = {}
 	skill = 1
 	attack_skill = 1
@@ -553,7 +553,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "Murakawa Yutaka"
-		picture = "Murakawa_Yutaka.dds"
+		picture = "Murakawa_Yutaka.png"
 	traits = {}
 	skill = 1
 	attack_skill = 1
@@ -563,7 +563,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "Takashi Saito"
-		picture = "Takashi_Saito.dds"
+		picture = "Takashi_Saito.png"
 	traits = {}
 	skill = 1
 	attack_skill = 1
@@ -583,7 +583,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "Toru Ishikawa"
-		picture = "Toru_Ishikawa.dds"
+		picture = "Toru_Ishikawa.png"
 	traits = {}
 	skill = 1
 	attack_skill = 1
@@ -593,7 +593,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "Masakazu Kaji"
-		picture = "Masakazu_Kaji.dds"
+		picture = "Masakazu_Kaji.png"
 	traits = {}
 	skill = 1
 	attack_skill = 1
@@ -603,7 +603,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "Inoue Zikara"
-		picture = "Inoue_Zikara.dds"
+		picture = "Inoue_Zikara.png"
 	traits = {}
 	skill = 1
 	attack_skill = 1
@@ -613,7 +613,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "Tomohisa Takei"
-		picture = "Tomohisa_Takei.dds"
+		picture = "Tomohisa_Takei.png"
 	traits = {}
 	skill = 1
 	attack_skill = 1
@@ -624,7 +624,7 @@ create_navy_leader = {
 ##북부방면대
 create_corps_commander = {
 	name = "Yoshihiro Nakazato"
-	picture = "Yoshihiro_Nakazato.dds"
+	picture = "Yoshihiro_Nakazato.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -634,7 +634,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Arai Hitoshi"
-	picture = "Arai_Hitoshi.dds"
+	picture = "Arai_Hitoshi.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -644,7 +644,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Jeya Mitsuhiro"
-	picture = "Jeya_Mitsuhiro.dds"
+	picture = "Jeya_Mitsuhiro.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -654,7 +654,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Aoto Siyuya"
-	picture = "Aoto_Siyuya.dds"
+	picture = "Aoto_Siyuya.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -665,7 +665,7 @@ create_corps_commander = {
 ##동북방면대
 create_corps_commander = {
 	name = "Yamazaki Tomohisa"
-	picture = "Yamazaki_Tomohisa.dds"
+	picture = "Yamazaki_Tomohisa.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -675,7 +675,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "yokochi sada"
-	picture = "yokochi_sada.dds"
+	picture = "yokochi_sada.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -686,7 +686,7 @@ create_corps_commander = {
 ##동부방면대
 create_corps_commander = {
 	name = "Kenichi Sawada"
-	picture = "Kenichi_Sawada.dds"
+	picture = "Kenichi_Sawada.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -696,7 +696,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Shigeru Watanabe"
-	picture = "Shigeru_Watanabe.dds"
+	picture = "Shigeru_Watanabe.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -707,7 +707,7 @@ create_corps_commander = {
 ##중부방면대
 create_corps_commander = {
 	name = "Masanori Kumabe"
-	picture = "Masanori_Kumabe.dds"
+	picture = "Masanori_Kumabe.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -717,7 +717,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Sato Tetsro"
-	picture = "Sato_Tetsro.dds"
+	picture = "Sato_Tetsro.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -727,7 +727,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Sadayuki Iwata"
-	picture = "Sadayuki_Iwata.dds"
+	picture = "Sadayuki_Iwata.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -737,7 +737,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Misao Oonishi"
-	picture = "Misao_Oonishi.dds"
+	picture = "Misao_Oonishi.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -748,7 +748,7 @@ create_corps_commander = {
 ##서부방면대
 create_corps_commander = {
 	name = "Uchida Shifu Makoto"
-	picture = "Uchida_Shifu_Makoto.dds"
+	picture = "Uchida_Shifu_Makoto.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -758,7 +758,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Misao Oonishi"
-	picture = "Misao_Oonishi.dds"
+	picture = "Misao_Oonishi.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -768,7 +768,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Yuusuke Matsushima"
-	picture = "Yuusuke_Matsushima.dds"
+	picture = "Yuusuke_Matsushima.png"
 	traits = { }
 	skill = 1
 	attack_skill = 1
