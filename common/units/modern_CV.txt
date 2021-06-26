@@ -8,7 +8,7 @@ sub_units = {
 			#capital_ship
 			carrier
 			)
-		need_equipment = { ship_hull_modern_CV_1= 1 }
+		need_equipment = { ship_hull_modern_CV = 1 }
 
 		max_organisation = 90
 
