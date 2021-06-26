@@ -350,22 +350,10 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
-	name = "Tomoyuki Yamashita"
-		picture = "Portrait_Japan_Tomoyuki_Yamashita.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 4
-	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 4
-}
 
 create_field_marshal = {
-	name = "Hisaichi Terauchi"
-	picture = "Portrait_Japan_Hisaichi_Terauchi.dds"
+	name = "Jack D. Woodall"
+	picture = "Jack_D._Woodall.dds"
 	traits = { 
 		offensive_doctrine
 		JAP_samurai_lineage   # hakushaku
@@ -390,8 +378,8 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Isoroku Yamamoto"
-		picture = "Portrait_Japan_Isoroku_Yamamoto.dds"
+	name = "Stanley R. Arthur"
+	picture = "portrait_Stanley_R._Arthur.png"
 	traits = { aviation_enthusiast bold air_controller flight_deck_manager superior_tactician spotter }
 	skill = 5
 	attack_skill = 5
