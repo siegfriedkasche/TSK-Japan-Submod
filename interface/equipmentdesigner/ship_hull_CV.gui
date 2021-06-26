@@ -152,7 +152,7 @@ guiTypes = {
 				size = { width=100% height=100% }
 
 				containerWindowType = {
-					name = "carrier_ship_engine"
+					name = "cruiser_ship_engine_modern"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -164,7 +164,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "carrier_ship_engine@highlight"
+					name = "cruiser_ship_engine_modern@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -176,7 +176,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "cruiser_ship_engine"
+					name = "cruiser_ship_engine_modern"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -188,7 +188,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "cruiser_ship_engine@highlight"
+					name = "cruiser_ship_engine_modern@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					

@@ -1258,6 +1258,91 @@ equipment_modules = {
 			convert_cost_ic = 2300
 		}
 	}
+	cruiser_ship_engine_future_nuclear_1 = {
+		category = cruiser_ship_engine
+		parent = cruiser_ship_engine_4
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 7
+			fuel_consumption = -20
+			build_cost_ic = 1000
+			naval_range = 10000
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.45
+			reliability = -0.2
+		}
+		
+		can_convert_from = {
+			module_category = cruiser_ship_engine
+			convert_cost_ic = 2500
+		}
+		
+		can_convert_from = {
+			module = cruiser_ship_engine_4
+			convert_cost_ic = 2300
+		}
+	}
+
+	carrier_ship_engine_future_1 = {
+		category = carrier_ship_engine
+		parent = carrier_ship_engine_4
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 5.5
+			fuel_consumption = 28
+			build_cost_ic = 79000
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.50
+			reliability = -0.2
+		}
+		
+		can_convert_from = {
+			module_category = carrier_ship_engine
+			convert_cost_ic = 250000
+		}
+		
+		can_convert_from = {
+			module = carrier_ship_engine_4
+			convert_cost_ic = 230000
+		}
+	}
+
+	carrier_ship_engine_future_nuclear = {
+		category = carrier_ship_engine
+		parent = carrier_ship_engine_4
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 5
+			fuel_consumption = -81
+			build_cost_ic = 1200
+			naval_range = 10000
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.50
+			reliability = -0.2
+		}
+		
+		can_convert_from = {
+			module_category = carrier_ship_engine
+			convert_cost_ic = 2500
+		}
+		
+		can_convert_from = {
+			module = carrier_ship_engine_4
+			convert_cost_ic = 2300
+		}
+	}
 	heavy_ship_engine_1 = {
 		category = heavy_ship_engine
 		sfx = sfx_ui_sd_module_engine
