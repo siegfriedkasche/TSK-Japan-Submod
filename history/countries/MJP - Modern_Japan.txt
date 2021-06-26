@@ -472,6 +472,16 @@ create_country_leader = {
 }
 
 create_field_marshal = {
+	name = "Keizo Shigematsu"
+	picture = "Keizo_Shigematsu.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
 	name = "Toshiyuki Shikata"
 	picture = "Toshiyuki_Shikata.dds"
 	traits = { }
@@ -482,8 +492,18 @@ create_field_marshal = {
 	logistics_skill = 1
 }
 create_field_marshal = {
-	name = "Yoshizaki Satoru"
-	picture = "Yoshizaki_Satoru.dds"
+	name = "Satoru Yoshizaki"
+	picture = "Satoru_Yoshizaki.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Toru Nishimoto"
+	picture = "Toru_Nishimoto.dds"
 	traits = { }
 	skill = 4
 	attack_skill = 1
@@ -494,26 +514,6 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "Akira Oda"
 	picture = "Akira_Oda.dds"
-	traits = { }
-	skill = 4
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_field_marshal = {
-	name = "Tetsu Nishimoto"
-	picture = "Tetsu_Nishimoto.dds"
-	traits = { }
-	skill = 4
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_field_marshal = {
-	name = "Megumi Shigematsu"
-	picture = "Megumi_Shigematsu.dds"
 	traits = { }
 	skill = 4
 	attack_skill = 1
