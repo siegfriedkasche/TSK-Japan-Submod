@@ -13,49 +13,8 @@ technologies = {
 			always = no
 		}
 	}
-		
-	light_vehicle_equipment_0 = { #경차량
-
-		enable_equipments = { 
-			light_vehicle_equipment_0
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-		
-	light_vehicle_equipment_1 = { #경차량1
-
-		enable_equipments = { 
-			light_vehicle_equipment_1
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-		
-	light_vehicle_equipment_2 = { #경차량2 (험비)
-
-		enable_equipments = { 
-			light_vehicle_equipment_2
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
 	
+
 	engineer_equipment = { 
 
 		enable_equipments = { 
@@ -69,77 +28,6 @@ technologies = {
 			always = no
 		}
 	}
-
-	light_mun_equipment = { #경탄약
-
-		enable_equipments = { 
-			light_mun_equipment_0
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-	
-	heavy_mun_equipment = { #중탄약
-
-		enable_equipments = { 
-			heavy_mun_equipment_0
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-	
-	ballistic_missile_equipment_1 = { 
-
-		enable_equipments = { 
-			ballistic_missile_equipment_1
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-
-	ballistic_missile_equipment_2 = { #경탄약
-
-		enable_equipments = { 
-			ballistic_missile_equipment_2
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-	
-	ballistic_missile_equipment_3 = { #중탄약
-
-		enable_equipments = { 
-			ballistic_missile_equipment_3
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-	
 ############################################################################################
 ###보병장비 
 ############################################################################################
@@ -1505,32 +1393,6 @@ technologies = {
 			always = no
 		}
 	}
-	m_1990patrol = {#참수리급,SO-1급
-
-		enable_equipments = { 
-			ship_hull_PK_2
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-	m_2000patrol = {#윤영하급
-
-		enable_equipments = { 
-			ship_hull_PK_3
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
 	
 ############################################################################################
 ###구축함
@@ -1616,7 +1478,7 @@ technologies = {
 	m_1970SS = {#로미오급
 
 		enable_equipments = { 
-			ship_hull_modern_submarine_1
+			modern_submarine_1
 		}
 
 		research_cost = 1
@@ -1630,7 +1492,7 @@ technologies = {
 	m_1980SS = {#로미오급
 
 		enable_equipments = { 
-			ship_hull_modern_submarine_2
+			modern_submarine_2
 		}
 
 		research_cost = 1
@@ -1644,7 +1506,7 @@ technologies = {
 	m_1990SS = {#장보고급,상어급
 
 		enable_equipments = { 
-			ship_hull_modern_submarine_3
+			modern_submarine_3
 		}
 
 		research_cost = 1
@@ -1658,7 +1520,7 @@ technologies = {
 	m_2000SS = {#손원일급
 
 		enable_equipments = { 
-			ship_hull_modern_submarine_4
+			modern_submarine_4
 		}
 
 		research_cost = 1
@@ -1672,7 +1534,7 @@ technologies = {
 	m_2010SS = {#신포급,도산안창호급
 
 		enable_equipments = { 
-			ship_hull_modern_submarine_5
+			modern_submarine_5
 		}
 
 		research_cost = 1
@@ -1683,33 +1545,35 @@ technologies = {
 		}
 	}
 ############################################################################################
-###항공모함
+###원자력 추진 항공모함
 ############################################################################################
-    m_1970carrier = {#키티호크급
-        enable_equipments = {
-			ship_hull_modern_carrier_1
-		} 
-        
+	m_1970CV = { #키티호크급
+
+		enable_equipments = { 
+			fship_hull_modern_CV_1
+		}
+
 		research_cost = 1
-		start_year = 1936
+		start_year = 1945
 
 		allow = {
 			always = no
 		}
-	}
-m_1980carrier = {#니미츠급
-        enable_equipments = {
-			ship_hull_modern_carrier_2
-		} 
-        
+	}	
+	
+	m_1980CV = { #니미츠급
+
+		enable_equipments = { 
+			ship_hull_modern_CV_2
+		}
+
 		research_cost = 1
-		start_year = 1936
+		start_year = 1945
 
 		allow = {
 			always = no
 		}
-	}
-
+	}	
 ############################################################################################
 ###해군모듈
 ############################################################################################
@@ -2043,34 +1907,6 @@ m_1980carrier = {#니미츠급
 		}
 	}
 	
-	sub_ship_engine_modern_1 = { #잠수함엔진1
-
-		enable_equipment_modules = {
-			sub_ship_engine_modern_1
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-	
-	sub_ship_engine_modern_2 = { #잠수함엔진2
-
-		enable_equipment_modules = {
-			sub_ship_engine_modern_2
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-	
 	light_ship_engine_modern_1 = { #경엔진1
 
 		enable_equipment_modules = {
@@ -2117,20 +1953,6 @@ m_1980carrier = {#니미츠급
 
 		enable_equipment_modules = {
 			cruiser_ship_engine_modern_2
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-	
-	ship_sub_snorkel_modern = { #스노클
-
-		enable_equipment_modules = {
-			ship_sub_snorkel_modern
 		}
 
 		research_cost = 1
@@ -2295,67 +2117,13 @@ m_1980carrier = {#니미츠급
 		}
 	}
 	
-	ship_torpedo_sub_modern_1 = { #잠수함어뢰
-
-		enable_equipment_modules = {
-			ship_torpedo_sub_modern_1
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-	
-	ship_torpedo_sub_modern_2 = { #잠수함어뢰2
-
-		enable_equipment_modules = {
-			ship_torpedo_sub_modern_2
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-	
-	ship_torpedo_sub_modern_3 = { #잠수함어뢰3
-
-		enable_equipment_modules = {
-			ship_torpedo_sub_modern_3
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-	
-	ship_sts_sub_1 = { #잠수함발사 대함미사일
-
-		enable_equipment_modules = {
-			ship_sts_sub_1
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
 ####################################################################
 #########산업
 
 	modern_fuel_refining = {
 		
-		fuel_gain_factor = 0.5
+		fuel_gain_factor = 1
+		fuel_gain_factor_from_states = 1
 
 		start_year = 1936
 		

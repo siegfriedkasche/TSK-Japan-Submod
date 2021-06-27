@@ -1,11 +1,329 @@
 technologies = {
+
+	modern_moto = { 
+
+		enable_equipments = { 
+			modern_motorized_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+
+	engineer_equipment = { 
+
+		enable_equipments = { 
+			engineer_equipment_0
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+############################################################################################
+###보병장비 
+############################################################################################
+
+	m_1960_infantry_eq = { #M16,Type58
+
+		enable_equipments = { 
+			infantry_equipment_4
+		}
+		
+		enable_subunits = {
+			light_infantry
+		}
+		
+		enable_subunits = {
+			modern_motorized
+		}		
+		enable_subunits = {
+			modern_infantry
+		}		
+		enable_subunits = {
+			modern_marine
+		}
+		
+		enable_subunits = {
+			Engi_Bat
+		}		
+		enable_subunits = {
+			Heavy_Engi_Bat
+		}		
+		enable_subunits = {
+			rec_infantry
+		}
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_1970_infantry_eq = { #M16A1,AKM
+
+		enable_equipments = { 
+			infantry_equipment_5
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	m_1980_infantry_eq = { #K1A,Type68
+
+		enable_equipments = { 
+			infantry_equipment_6
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	m_1990_infantry_eq = { #K2,Type88
+
+		enable_equipments = { 
+			infantry_equipment_7
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
+	m_2000_infantry_eq = { #K2C,AK-74M
+
+		enable_equipments = { 
+			infantry_equipment_8
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	m_2010_infantry_eq = { #K2C1,AK-74MK
+
+		enable_equipments = { 
+			infantry_equipment_9
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
+############################################################################################
+###지원장비 
+############################################################################################
+
+	m_1960_sup_infantry_eq = { # M60,M72LAW RPD,RPG-7
+
+		enable_equipments = { 
+			support_infantry_equipment_0
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_1970_sup_infantry_eq = { # K3,M72A4LAW 73식 대대기관총,7호발사관
+
+		enable_equipments = { 
+			support_infantry_equipment_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	m_1985_sup_infantry_eq = { #K12,PzF 3 PKM,RPG-29
+
+		enable_equipments = { 
+			support_infantry_equipment_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 	
 	
+	m_1995_sup_infantry_eq = { #K12,PzF 3 PKM,RPG-29
+
+		enable_equipments = { 
+			support_infantry_equipment_3
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 
 ############################################################################################
 ###전차 
 ############################################################################################
 
+	m_1950_modern_tank = { #M48A3K,T-55
+
+		enable_equipments = { 
+			m_1950_mbt
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}	
+	
+	m_1960_modern_tank = { #M48A3K,T-55
+
+		enable_equipments = { 
+			m_1960_mbt
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	m_1970_modern_tank = { #M48A5K,천마호 
+
+		enable_equipments = { 
+			m_1970_mbt
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
+	m_1980_modern_tank = { #M48A5K(W),천마호 나형
+
+		enable_equipments = { 
+			m_1980_mbt
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
+	m_1990_modern_tank = { #K1,천마호 라형
+
+		enable_equipments = { 
+			m_1990_mbt
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	m_2000_modern_tank = { #K1A1,폭풍호
+
+		enable_equipments = { 
+			m_2000_mbt
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_2010_modern_tank = { #K1A2,선군호
+
+		enable_equipments = { 
+			m_2010_mbt
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	light_tank_4 = { #PT-76
+
+		enable_equipments = { 
+			light_tank_equipment_4
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	light_tank_5 = { #tlsgmd
+
+		enable_equipments = { 
+			light_tank_equipment_5
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 	Vertical_maneuvering_equipment_0 = { #입체기동장치
 		
 		enable_subunits = {
@@ -28,8 +346,424 @@ technologies = {
 ###장갑차 APC&IFV
 ############################################################################################
 
+	modern_armored_car = { #87식 정찰경계차,LAV-25 Scout
+
+		enable_equipments = { 
+			modern_armored_car_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 	
+	m_1970_mechanized_equipment = { #KM113A1,BTR-50
+
+		enable_equipments = { 
+			m_1970_APC_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_1980_mechanized_equipment = { #KM900,VTT-323
+
+		enable_equipments = { 
+			m_1980_APC_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_1990_mechanized_equipment = { #K200,BTR-60PB
+
+		enable_equipments = { 
+			m_1990_APC_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_2000_mechanized_equipment = { #K200A1,M1992 APC
+
+		enable_equipments = { 
+			m_2000_APC_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_2010_mechanized_equipment = { #K806,M2010 APC
+
+		enable_equipments = { 
+			m_2010_APC_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_1970_IFV = { #BMP-1
+         
+		enable_equipments = { 
+			m_1970_IFV_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_1980_IFV = { #K225 KAFV,VTT-323 ZPU
+         
+		enable_equipments = { 
+			m_1980_IFV_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_1990_IFV = { #K240 KAFV,BTR-80A
+         
+		enable_equipments = { 
+			m_1990_IFV_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_2000_IFV = { #BMP-3,BTR-82
+         
+		enable_equipments = { 
+			m_2000_IFV_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_2010_IFV = { #K21 IFV,BMP-2M
+         
+		enable_equipments = { 
+			m_2010_IFV_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 	
+	modern_amphibious_mechanized = {
+
+		enable_equipments = { 
+			modern_amphibious_mechanized_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+############################################################################################
+###견인포 
+############################################################################################
+
+	modern_war_artillery = { #M114 155mm,M 1981
+
+		enable_equipments = { 
+			modern_artillery_equipment_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
+	modern_war_artillery_2 = { #KH179 155mm,M 1975
+
+		enable_equipments = { 
+			modern_artillery_equipment_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
+	modern_war_artillery_3 = { #KH179 155mm,M 1975
+
+		enable_equipments = { 
+			modern_artillery_equipment_3
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
+############################################################################################
+###자주 대공포
+############################################################################################
+	
+	m_1970_spaa = { #ZSU-57-2,승공포
+
+		enable_equipments = { 
+			m_1970_spaa_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_1980_spaa = { #ZSU-23-4,K263
+
+		enable_equipments = { 
+			m_1980_spaa_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_1990_spaa = { #M1984,K263A1
+
+		enable_equipments = { 
+			m_1990_spaa_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_2000_spaa = { #K30 비호,M1992
+
+		enable_equipments = { 
+			m_2000_spaa_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_2010_spaa = { #K30비호 복합,M1992-M
+
+		enable_equipments = { 
+			m_2010_spaa_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+############################################################################################
+###자주포
+############################################################################################
+
+	m_1970_sp = { #KM110
+
+		enable_equipments = { 
+			m_1970_sp_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	m_1980_sp = { #K-55,곡산 M1978
+
+		enable_equipments = { 
+			m_1980_sp_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_1990_sp = { #K9썬더,곡산 M1989
+
+		enable_equipments = { 
+			m_1990_sp_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_2000_sp = { #K55A1,주체포
+
+		enable_equipments = { 
+			m_2000_sp_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_2010_sp = { #K9A1
+
+		enable_equipments = { 
+			m_2010_sp_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+############################################################################################
+###MLRS
+############################################################################################
+
+    m_1970_motorized_rocket_unit = { #BM-21
+
+		enable_equipments = { 
+			m_1970_mlrs_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+    m_1980_motorized_rocket_unit = { #구룡,RM-70
+
+		enable_equipments = { 
+			m_1980_mlrs_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+    m_1990_motorized_rocket_unit = { #M1985
+
+		enable_equipments = { 
+			m_1990_mlrs_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+    m_2000_motorized_rocket_unit = { #M270 MLRS,M1991
+
+		enable_equipments = { 
+			m_2000_mlrs_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+    m_2010_motorized_rocket_unit = { #천무,KN-09
+
+		enable_equipments = { 
+			m_2010_mlrs_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 	
 	motorized_rocket_unit_sup = {
 
@@ -42,24 +776,68 @@ technologies = {
 			always = no
 		}
 	}
-	
-############################################################################################
-###견인포 
-############################################################################################
-
-
-	
-############################################################################################
-###MLRS
-############################################################################################
-
-	
 ##############################################################################################
 ###맨패드
 #############################################################################################
+
+    m_1970_manpad = { #스트렐라
+
+		enable_equipments = { 
+			m_1970_manpad_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+    m_1980_manpad = { #이글라,스팅어
+
+		enable_equipments = { 
+			m_1980_manpad_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+    m_1990_manpad = { #이글라-N,미스트랄
+
+		enable_equipments = { 
+			m_1990_manpad_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+    m_2000_manpad = { #신궁
+
+		enable_equipments = { 
+			m_2000_manpad_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 	
 ##############################################################################################
-###대전차화기(대전차포)
+###대전차화기
 #############################################################################################
 
     m_1970_atgm = { #말류트카,TOW
@@ -133,7 +911,7 @@ technologies = {
 	}
 	
 ##############################################################################################
-###대공화기(대공포)
+###대공화기
 #############################################################################################
 
     heavy_anti_air = { #KM167,ZPU-23
@@ -767,6 +1545,36 @@ technologies = {
 		}
 	}
 ############################################################################################
+###원자력 추진 항공모함
+############################################################################################
+	m_1970CV = { #키티호크급
+
+		enable_equipments = { 
+			fship_hull_modern_CV_1
+		}
+
+		research_cost = 1
+		start_year = 1945
+
+		allow = {
+			always = no
+		}
+	}	
+	
+	m_1980CV = { #니미츠급
+
+		enable_equipments = { 
+			ship_hull_modern_CV_2
+		}
+
+		research_cost = 1
+		start_year = 1945
+
+		allow = {
+			always = no
+		}
+	}	
+############################################################################################
 ###해군모듈
 ############################################################################################
 
@@ -1312,4 +2120,31 @@ technologies = {
 ####################################################################
 #########산업
 
+	modern_fuel_refining = {
+		
+		fuel_gain_factor = 1
+		fuel_gain_factor_from_states = 1
+
+		start_year = 1936
+		
+		
+		allow = {
+			always = no
+		}
+	}
+	
+	modern_steel_mill = {
+
+		enable_building = {
+			building = steel_mill
+			level = 3
+		}
+		
+		enable_building = {
+			building = steel_alloy_ind
+			level = 3
+		}
+
+		start_year = 1936
+	}
 }

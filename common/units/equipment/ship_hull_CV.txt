@@ -1,29 +1,14 @@
 equipments = {
 
-	ship_hull_modern_carrier = {
+	ship_hull_modern_CV = {
 		year = 1936
-
-		can_be_produced = {
-			NOT = {
-				has_idea = BUL_army_restrictions
-			}
-		}
 
 		is_archetype = yes
 		is_buildable = no
-		type = carrier
-		sprite = carrier
-		group_by = archetype
-		priority = 1000
-		
+		type = capital_ship
 		interface_category = interface_category_capital_ships
-		
-		upgrades = {
-			ship_deckspace_upgrade
-			carrier_armor_upgrade
-			ship_engine_upgrade
-			ship_reliability_upgrade			
-		}
+		priority = 1500
+
         module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
@@ -39,13 +24,9 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_anti_air }
 			}
-			fixed_ship_fire_control_system_slot = {
-				required = yes
-				allowed_module_categories = { ship_fire_control_system ship_sonar }
-			}
 			fixed_ship_radar_slot = {
-				required = no
-				allowed_module_categories = { ship_radar }
+				required = yes
+				allowed_module_categories = { ship_radar ship_sonar }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -85,15 +66,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_airplane_launcher
 					ship_VLS
-				}
-			}
-			rear_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_airplane_launcher
-					ship_depth_charge
-					ship_anti_air
-					ship_torpedo
 				}
 			}
 		
@@ -123,24 +95,21 @@ equipments = {
 		
 		anti_air_attack = 0
 		
-		armor_value = 0
+		armor_value = 20
 
 		
 		surface_detection = 20
-		sub_detection = 1
-		surface_visibility = 30
-		naval_speed = 26
+		sub_detection = 10
+		surface_visibility = 5
+		naval_speed = 30
 		reliability = 0.70
 		
-		naval_range = 3000
+		naval_range = 2500
 		
-		max_strength = 250
+		max_strength = 55
 		
 
-		fuel_consumption = 87
-
-		# (Describes combat behaviour - hidden stat)
-		offensive_weapons = no
+		fuel_consumption = 20
 		
 		build_cost_ic = 2450
 		resources = {
@@ -151,22 +120,21 @@ equipments = {
 		manpower = 4500
 	}
 
-	ship_hull_modern_carrier_1 = { #키티호크급
+	ship_hull_modern_CV_1 = { #니미츠급
 		year = 1936
 		visual_level = 1
-		visual_tech_level_addition = 2
-		archetype = ship_hull_modern_carrier
+		archetype = ship_hull_modern_CV
 		priority = 1000
 		
 		module_slots = inherit
 	}
 
-	ship_hull_modern_carrier_2 = { 니미츠급
+	ship_hull_modern_CV_2 = { 
 		year = 1940
 		visual_level = 1
-		archetype = ship_hull_modern_carrier
+		archetype = ship_hull_modern_CV
 		priority = 1000
-		parent = ship_hull_modern_carrier_1
+		parent = ship_hull_modern_CV_1
 		 module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
@@ -182,13 +150,9 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_anti_air }
 			}
-			fixed_ship_fire_control_system_slot = {
-				required = yes
-				allowed_module_categories = { ship_fire_control_system ship_sonar }
-			}
 			fixed_ship_radar_slot = {
-				required = no
-				allowed_module_categories = { ship_radar }
+				required = yes
+				allowed_module_categories = { ship_radar ship_sonar }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -230,15 +194,6 @@ equipments = {
 					ship_VLS
 				}
 			}
-			rear_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_airplane_launcher
-					ship_depth_charge
-					ship_anti_air
-					ship_torpedo
-				}
-			}
 		 }
 
 		default_modules = {
@@ -257,9 +212,6 @@ equipments = {
 			chromium = 1
 		}
 		manpower = 5000
+	    }
 	}
-
- 
-	}
-
 }

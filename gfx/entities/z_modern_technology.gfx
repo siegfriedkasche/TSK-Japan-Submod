@@ -1,0 +1,152 @@
+
+########################################################################################################################################################################
+	#  Mechanized  #
+########################################################################################################################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "future_mechanized_vec1_mesh"
+		file = "gfx/models/units/vehicles/z_future_mechanazied.mesh"
+		
+		animation = { id = "idle"			type = "generic_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "generic_mechanized_01_move_animation" }
+		animation = { id = "attack"			type = "SOV_mechanized_01_move_animation" }
+	}
+}
+
+
+###############################################################################################################################################
+	#  WEAPON   #
+###############################################################################################################################################
+
+objectTypes = {		
+	pdxmesh = {
+		name = "future_infantry_rifle_mesh"
+		file = "gfx/models/units/z_future_m4a1.mesh"
+	}	
+}
+	
+	
+########################################################################################################################################################################
+	#  infantry  #
+########################################################################################################################################################################
+
+objectTypes = {	
+	pdxmesh = {
+		name = "future_infantry_mesh"
+		file = "gfx/models/units/z_future_Generic_Infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "future_tank_mesh"
+		file = "gfx/models/units/tanks/z_future_generic_tank_medium.mesh"
+		
+		animation = { id = "attack"	type = "generic_tank_medium_attack_animation" }
+		animation = { id = "idle"	type = "generic_tank_medium_idle_animation" }
+		animation = { id = "move"	type = "generic_tank_medium_moving_animation" }
+
+		scale = 0.5
+	}	
+}
+
+#Navy
+
+objectTypes = {
+	pdxmesh = {
+		name = "future_destroyer_mesh"
+		file = "gfx/models/units/ships/z_future_generic_destroyer.mesh"
+		
+		scale = 0.5
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "future_light_cruiser_mesh"
+		file = "gfx/models/units/ships/z_future_generic_frigate.mesh"
+		
+		scale = 0.5
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "future_carrier_mesh"
+		file = "gfx/models/units/ships/z_future_generic_carrier.mesh"
+
+		scale = 0.5
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "future_submarine_mesh"
+		file = "gfx/models/units/ships/z_future_generic_submarine.mesh"
+
+		scale = 0.5
+	}
+}
+
+#Air
+
+objectTypes = {
+	pdxmesh = {
+		name = "future_cas_mesh"
+		file = "gfx/models/units/planes/z_future_cas.mesh"
+
+		scale = 1.2
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "future_fighter_mesh"
+		file = "gfx/models/units/planes/z_future_fighter.mesh"
+
+		scale = 0.8
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "future_strat_bomber_mesh"
+		file = "gfx/models/units/planes/z_future_strat_bomber.mesh"
+
+		scale = 1.0
+	}
+}
+
+
+
+
+
+
+
+
+
+

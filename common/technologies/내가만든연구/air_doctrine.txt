@@ -1,5 +1,53 @@
 technologies = {
+       ######## FUTURE TECH DESICISON UNLOCK ########
 
+	##### ##### ##### ##### #####
+
+	future_fighter_equipment = {
+
+		enable_equipments = { 
+			future_fighter_equipment
+		}
+
+		research_cost = 1
+		start_year = 1945
+
+		allow = {
+			always = no
+		}
+	}
+
+	##### ##### ##### ##### #####
+
+	future_cas_equipment = {
+
+		enable_equipments = { 
+			future_cas_equipment
+		}
+
+		research_cost = 1
+		start_year = 1945
+
+		allow = {
+			always = no
+		}
+	}
+
+	##### ##### ##### ##### #####
+
+	future_jet_strat_bomber_equipment = {
+
+		enable_equipments = { 
+			future_jet_strat_bomber_equipment
+		}
+
+		research_cost = 1
+		start_year = 1945
+
+		allow = {
+			always = no
+		}
+	}
 
 	air_superiority = {
 		doctrine_name = "TITLE_STRATEGIC_DESTRUCTION"

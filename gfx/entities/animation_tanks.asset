@@ -1,0 +1,14 @@
+animation = {
+	name = "future_armor_attack_animation"
+	file = "future_armor_attack.anim"
+}
+
+animation = {
+	name = "future_armor_idle_animation"
+	file = "future_armor_idle.anim"
+}
+
+animation = {
+	name = "future_armor_moving_animation"
+	file = "future_armor_moving.anim"
+}

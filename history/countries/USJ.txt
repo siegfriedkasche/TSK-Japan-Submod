@@ -265,7 +265,7 @@ if = {
 		DDH_2 = 1
 		SS_3 = 1
 	    SS_4 = 1
-		carrier_2 = 1
+		CV_2 = 1
 	}
 }
 if = {
@@ -285,7 +285,7 @@ if = {
 	    m_1980SS = 1
 	    m_1990SS = 1
 	    m_2000SS = 1
-		m_1980carrie = 1
+		m_1980CV = 1
 		m_1980patrol = 1
 	}
 }
@@ -414,7 +414,7 @@ if = {
 
 	create_equipment_variant = {
 		name = "니미츠급"
-		type = ship_hull_modern_carrier_2
+		type = ship_hull_modern_CV_1
 		name_group = FKR_CV_HISTORICAL
 		parent_version = 0
 		modules = {

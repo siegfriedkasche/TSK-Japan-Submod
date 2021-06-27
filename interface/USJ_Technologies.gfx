@@ -94,7 +94,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_USJ_m_1990_mbt_medium"
-		texturefile = "gfx/interface/technologies/tank/USJ_1990_mbt.dds"
+		texturefile = "gfx/interface/technologies/tank/USJ_1990_mbt.png"
 	}
 	SpriteType = {
 		name = "GFX_USJ_m_2000_mbt_medium"
@@ -102,7 +102,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_USJ_m_2010_mbt_medium"
-		texturefile = "gfx/interface/technologies/tank/USJ_2010_mbt.png"
+		texturefile = "gfx/interface/technologies/tank/USJ_2010_mbt.dds"
 	}
 	
 	SpriteType = {

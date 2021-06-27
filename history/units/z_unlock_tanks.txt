@@ -1,0 +1,9 @@
+﻿division_template = {
+	name = "future-armored-Division"
+
+	regiments = {
+		future_tank = { x = 0 y = 0 }
+		future_tank = { x = 0 y = 1 }
+        future_tank = { x = 0 y = 2 }
+	}
+}
