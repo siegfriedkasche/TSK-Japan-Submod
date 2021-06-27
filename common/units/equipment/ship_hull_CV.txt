@@ -151,7 +151,7 @@ equipments = {
 		manpower = 4500
 	}
 
-	ship_hull_modern_carrier_1 = { #니미츠급
+	ship_hull_modern_carrier_1 = { #키티호크급
 		year = 1936
 		visual_level = 1
 		visual_tech_level_addition = 2
@@ -161,7 +161,7 @@ equipments = {
 		module_slots = inherit
 	}
 
-	ship_hull_modern_carrier_2 = {
+	ship_hull_modern_carrier_2 = { 니미츠급
 		year = 1940
 		visual_level = 1
 		archetype = ship_hull_modern_carrier

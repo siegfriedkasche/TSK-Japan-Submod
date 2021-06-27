@@ -27,7 +27,7 @@
  USJ_ddg_1:0 "타이콘데로가급"
  USJ_ddh_2:0 "스프루언스 급"
  USJ_ss_5:0 "로스 엔젤리스 급"
- USJ_carrier_1:0 "니미츠급"
+ USJ_carrier_2:0 "니미츠급"
 
  pcc_1:0 "초계함 I"
  pcc_2:0 "초계함 II"
@@ -44,7 +44,8 @@
  pk_2:0 "고속정 II"
  pk_3:0 "고속함"
  
- carrier_1:0 "항공모함"
+ carrier_1:0 "항공모함 I"
+ carrier_2:0 "항공모함 II"
 
  ss_1:0 "공격잠수함 I"
  ss_2:0 "공격잠수함 II"
