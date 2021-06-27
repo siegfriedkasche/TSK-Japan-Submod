@@ -8,19 +8,19 @@ units = {
 		task_force = {
 			name = "미합중국 제 7 함대"
 			location = 11932
-			ship = { name = "USS Cowpence" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = MJP version_name = "타이콘데로가급" } } }
-            ship = { name = "USS Bunker Hill" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = MJP version_name = "타이콘데로가급" } } }
-            ship = { name = "USS Mobile Bay" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = MJP version_name = "타이콘데로가급" } } }
-			ship = { name = "USS Fife" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "스프루언스 급" } } }
-			ship = { name = "USS Hewitt" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "스프루언스 급" } } }
-			ship = { name = "USS Oldendorf" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = MJP version_name = "스프루언스 급" } } }
-			ship = { name = "USS Rodney M Davis" definition = modern_FF start_experience_factor = 0.65 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "올리버 헤저드 페리급" } } }
-			ship = { name = "USS McClusky " definition = modern_FF start_experience_factor = 0.65 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "올리버 헤저드 페리급" } } }
-			ship = { name = "USS Curts " definition = modern_FF start_experience_factor = 0.65 equipment = { ship_hull_FF_2 = { amount = 1 owner = MJP version_name = "올리버 헤저드 페리급" } } }
-			ship = { name = "USS Key West" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_5 = { amount = 1 owner = MJP version_name = "로스 엔젤리스 급" } } }
-			ship = { name = "USS Oklahoma City" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_5 = { amount = 1 owner = MJP version_name = "로스 엔젤리스 급" } } }
-			ship = { name = "USS Topeka" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_5 = { amount = 1 owner = MJP version_name = "로스 엔젤리스 급" } } }
-			ship = { name = "USS Asheville" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_5 = { amount = 1 owner = MJP version_name = "로스 엔젤리스 급" } } }
+			ship = { name = "USS Cowpence" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
+            ship = { name = "USS Bunker Hill" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
+            ship = { name = "USS Mobile Bay" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
+			ship = { name = "USS Fife" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = USJ version_name = "스프루언스 급" } } }
+			ship = { name = "USS Hewitt" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = USJ version_name = "스프루언스 급" } } }
+			ship = { name = "USS Oldendorf" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = USJ version_name = "스프루언스 급" } } }
+			ship = { name = "USS Rodney M Davis" definition = modern_FF start_experience_factor = 0.65 equipment = { ship_hull_FF_2 = { amount = 1 owner = USJ version_name = "올리버 헤저드 페리급" } } }
+			ship = { name = "USS McClusky " definition = modern_FF start_experience_factor = 0.65 equipment = { ship_hull_FF_2 = { amount = 1 owner = USJ version_name = "올리버 헤저드 페리급" } } }
+			ship = { name = "USS Curts " definition = modern_FF start_experience_factor = 0.65 equipment = { ship_hull_FF_2 = { amount = 1 owner = USJ version_name = "올리버 헤저드 페리급" } } }
+			ship = { name = "USS Key West" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_5 = { amount = 1 owner = USJ version_name = "로스 엔젤리스 급" } } }
+			ship = { name = "USS Oklahoma City" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_5 = { amount = 1 owner = USJ version_name = "로스 엔젤리스 급" } } }
+			ship = { name = "USS Topeka" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_5 = { amount = 1 owner = USJ version_name = "로스 엔젤리스 급" } } }
+			ship = { name = "USS Asheville" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_5 = { amount = 1 owner = USJ version_name = "로스 엔젤리스 급" } } }
 		}
 	}
 fleet ={
@@ -29,7 +29,13 @@ fleet ={
 		task_force = {
 			name = "미합중국 테스트 함대"
 			location = 11932
-			ship = { name = "USS Nimitz" definition = modern_CV start_experience_factor = 0.65 equipment = { ship_hull_modern_CV_1 = { amount = 1 owner = MJP version_name = "니미츠급" } } }
+			ship = { name = "USS Nimitz" definition = modern_CV equipment = { ship_hull_modern_CV_1 = { amount = 1 owner = USJ version_name = "니미츠급" } } 
+				air_wings = {
+					cv_fighter_equipment_1 =  { owner = "USJ" amount = 10 }				# F3F Grumman
+					cv_CAS_equipment_1 =  { owner = "USJ" amount = 25 }					# SB2U Vindicator
+					cv_nav_bomber_equipment_1 =  { owner = "USJ" amount = 10 }			# TBD Devastator
+				}
+			}
 	    }
     }
 }

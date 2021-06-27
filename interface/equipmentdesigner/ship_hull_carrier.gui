@@ -2,9 +2,9 @@
 
 guiTypes = {
 
-	################# Equipment Archetype: ship_hull_carrier #################
+	################# Equipment Archetype: ship_hull_modern_CV #################
 	containerWindowType = {
-		name = "equipment_designer_ship_hull_carrier"
+		name = "equipment_designer_ship_hull_modern_CV"
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x=0 y=0 }
 		size = { width=512 height=260 }

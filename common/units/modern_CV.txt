@@ -1,6 +1,5 @@
 sub_units = {
 	modern_CV = {
-		#sprite = modern_CV
 		sprite = carrier
 		map_icon_category = ship
 		priority = 10
