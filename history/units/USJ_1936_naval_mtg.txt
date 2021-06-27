@@ -8,6 +8,13 @@ units = {
 		task_force = {
 			name = "미합중국 제 7 함대"
 			location = 11932
+			ship = { name = "USS Nimitz" definition = modern_CV equipment = { ship_hull_modern_CV_1 = { amount = 1 owner = USJ version_name = "니미츠급" } } 
+				air_wings = {
+					cv_fighter_equipment_1 =  { owner = "USJ" amount = 10 }				# F3F Grumman
+					cv_CAS_equipment_1 =  { owner = "USJ" amount = 25 }					# SB2U Vindicator
+					cv_nav_bomber_equipment_1 =  { owner = "USJ" amount = 10 }			# TBD Devastator
+				}
+			}
 			ship = { name = "USS Cowpence" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
             ship = { name = "USS Bunker Hill" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
             ship = { name = "USS Mobile Bay" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
@@ -23,19 +30,4 @@ units = {
 			ship = { name = "USS Asheville" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_5 = { amount = 1 owner = USJ version_name = "로스 엔젤리스 급" } } }
 		}
 	}
-fleet ={
-		name = "미합중국 테스트 함대"
-	   naval_base = 11932
-		task_force = {
-			name = "미합중국 테스트 함대"
-			location = 11932
-			ship = { name = "USS Nimitz" definition = modern_CV equipment = { ship_hull_modern_CV_1 = { amount = 1 owner = USJ version_name = "니미츠급" } } 
-				air_wings = {
-					cv_fighter_equipment_1 =  { owner = "USJ" amount = 10 }				# F3F Grumman
-					cv_CAS_equipment_1 =  { owner = "USJ" amount = 25 }					# SB2U Vindicator
-					cv_nav_bomber_equipment_1 =  { owner = "USJ" amount = 10 }			# TBD Devastator
-				}
-			}
-	    }
-    }
 }
