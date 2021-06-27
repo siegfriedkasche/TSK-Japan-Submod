@@ -6,7 +6,83 @@ equipments = {
 		archetype = ship_hull_modern_CV
 		priority = 1000
 		
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_deck_slot_1 = {
+				required = yes
+				allowed_module_categories = { ship_deck_space }
+				gfx = ship_deck_space_slot
+			}
+			fixed_ship_deck_slot_2 = {
+				required = no
+				allowed_module_categories = { ship_deck_space ship_carrier_armor }
+				gfx = ship_deck_space_slot
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_radar_slot = {
+				required = yes
+				allowed_module_categories = { ship_radar ship_sonar }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { cruiser_ship_engine }
+			}
+			fixed_ship_sts_slot = {
+				required = no
+				allowed_module_categories = { ship_sts }
+			}
+			fixed_ship_armor_slot = {
+				required = no
+				allowed_module_categories = { ship_cruiser_armor }	
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_VLS
+				}
+			}
+			front_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_anti_air
+					ship_sts
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_airplane_launcher
+					ship_VLS
+				}
+			}
+		 }
+		default_modules = {
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+		}
+		naval_range = 4000
+		reliability = 0.75
+		max_strength = 325
+		
+
+
+		build_cost_ic = 2600
+		resources = {
+			steel = 4
+			chromium = 1
+		}
+		}
+		manpower = 5500
 	}
 
 	ship_hull_modern_CV_2 = { 

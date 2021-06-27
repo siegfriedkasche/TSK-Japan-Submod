@@ -1547,24 +1547,11 @@ technologies = {
 ############################################################################################
 ###원자력 추진 항공모함
 ############################################################################################
-	m_1970CV = { #키티호크급
-
-		enable_equipments = { 
-			fship_hull_modern_CV_1
-		}
-
-		research_cost = 1
-		start_year = 1945
-
-		allow = {
-			always = no
-		}
-	}	
 	
 	m_1980CV = { #니미츠급
 
 		enable_equipments = { 
-			ship_hull_modern_CV_2
+			ship_hull_modern_CV_1
 		}
 
 		research_cost = 1
