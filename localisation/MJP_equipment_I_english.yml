@@ -1091,8 +1091,7 @@
  ship_hull_modern_submarine_4:0 "공격잠수함 선체 IV"
  ship_hull_modern_submarine_5:0 "공격잠수함 선체 V"
 
- ship_hull_modern_carrier:0  "미래 항공모함 선체"
- 
+ ship_hull_modern_CV_1:0  "원자력 항공모함 선체"
  
  MKR_Vertical_maneuvering_equipment_1:0 "입체기동장치"
  ROK_Vertical_maneuvering_equipment_1:0 "입체기동장치"

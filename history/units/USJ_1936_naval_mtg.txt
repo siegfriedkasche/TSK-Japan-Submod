@@ -15,9 +15,9 @@ units = {
 					cv_nav_bomber_equipment_1 =  { owner = "USJ" amount = 10 }			# TBD Devastator
 				}
 			}
-			ship = { name = "USS Cowpence" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
-            ship = { name = "USS Bunker Hill" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
-            ship = { name = "USS Mobile Bay" definition = modern_DDG start_experience_factor = 0.50 equipment = { ship_hull_modern_DDG_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
+			ship = { name = "USS Cowpence" definition = modern_cruiser start_experience_factor = 0.50 equipment = { ship_hull_modern_cruiser_2 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
+            ship = { name = "USS Bunker Hill" definition = modern_cruiser start_experience_factor = 0.50 equipment = { ship_hull_modern_cruiser_2 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
+            ship = { name = "USS Mobile Bay" definition = modern_cruiser start_experience_factor = 0.50 equipment = {  ship_hull_modern_cruiser_2 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
 			ship = { name = "USS Fife" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = USJ version_name = "스프루언스 급" } } }
 			ship = { name = "USS Hewitt" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = USJ version_name = "스프루언스 급" } } }
 			ship = { name = "USS Oldendorf" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = USJ version_name = "스프루언스 급" } } }

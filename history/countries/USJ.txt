@@ -128,6 +128,9 @@ set_technology = {
 	m_1970_jet_fighter = 1
 	m_1980_jet_fighter = 1
 	m_1990_jet_fighter = 1
+
+	m_1990_cv_jet_multirole_equipment = 1
+	m_1970_cv_jet_CAS_equipment = 1
 	
 	m_1980_jet_CAS = 1
 	m_1990_jet_CAS = 1
@@ -471,6 +474,28 @@ if = {
 			rear_2_custom_slot = ship_torpedo_modern_1
 		}
 	}
+
+    create_equipment_variant = {
+		name = "타이콘데로가급"
+		type = ship_hull_modern_cruiser_2
+		name_group = USJ_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
+			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
+			front_1_custom_slot = ship_vls_2
+			front_2_custom_slot = ship_ciws_2
+			mid_1_custom_slot = ship_missile_luncher_2
+			rear_1_custom_slot = ship_vls_2
+			rear_2_custom_slot = ship_torpedo_modern_1
+		}
+	}
+
 	create_equipment_variant = {
 		name = "올리버 헤저드 페리급"
 		type = ship_hull_FF_2
