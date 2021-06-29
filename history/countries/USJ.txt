@@ -454,8 +454,9 @@ if = {
 		}
 	}
 
+
 	create_equipment_variant = {
-		name = "타이콘데로가급"
+		name = "알레이버크급"
 		type = ship_hull_modern_DDG_1
 		name_group = USJ_CL_HISTORICAL
 		parent_version = 0
