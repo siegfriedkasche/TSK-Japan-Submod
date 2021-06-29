@@ -1092,6 +1092,9 @@
  ship_hull_modern_submarine_5:0 "공격잠수함 선체 V"
 
  ship_hull_modern_CV_1:0  "원자력 항공모함 선체"
+
+ ship_hull_modern_cruiser_1 " 이지스 순양함 선체 I"
+ ship_hull_modern_cruiser_2 " 이지스 순양함 선체 II"
  
  MKR_Vertical_maneuvering_equipment_1:0 "입체기동장치"
  ROK_Vertical_maneuvering_equipment_1:0 "입체기동장치"
