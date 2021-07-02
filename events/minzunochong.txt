@@ -35,6 +35,8 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 		}
-		
+		hidden_effect = {
+		set_country_flag = big_event_metal_union
+		}
 	}
 }

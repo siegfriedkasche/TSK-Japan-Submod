@@ -34,4 +34,9 @@ sound = {
 	file = "menu/CNT_FAI.wav"
 	always_load = no
 }
+sound = {
+	name = "metal_union"
+	file = "menu/metal_union.wav"
+	always_load = no
+}
 

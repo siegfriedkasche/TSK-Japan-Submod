@@ -50,3 +50,11 @@ soundeffect = {
 	}
 	volume = 55
 }
+
+soundeffect = {
+	name = metal_union
+	sounds = {
+		sound = metal_union
+	}
+	volume = 55
+}
