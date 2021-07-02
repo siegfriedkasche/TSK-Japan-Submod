@@ -1,0 +1,20 @@
+ideas = {
+	country = {
+		n_k_surrender_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = FRA_scw_intervention_republicans_focus
+			
+			modifier = {
+				surrender_limit = -0.10
+				stability_factor = -0.05
+			}
+		}
+	}
