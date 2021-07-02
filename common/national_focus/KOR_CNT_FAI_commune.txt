@@ -433,7 +433,9 @@ focus_tree = {
 		}
 		x = 38
 		y = 7
-
+		completion_reward = {
+		add_ideas = workers_squad
+		}
 	}
 	focus = {
 		id = KOR_MTU_New_Workers_Code
