@@ -12,16 +12,15 @@ units = {
 				air_wings = {
 					m_1990_cv_jet_fighter_equipment_1 =  { owner = "USJ" amount = 10 }	# F/A-18C/D
 					m_1970_cv_jet_CAS_equipment_1 =  { owner = "USJ" amount = 25 }		# A-6
-					cv_nav_bomber_equipment_1 =  { owner = "USJ" amount = 10 }			# TBD Devastator
 				}
 			}
-			ship = { name = "USS Cowpence" definition = modern_cruiser start_experience_factor = 0.50 equipment = { ship_hull_modern_cruiser_2 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
-            ship = { name = "USS Bunker Hill" definition = modern_cruiser start_experience_factor = 0.50 equipment = { ship_hull_modern_cruiser_2 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
-            ship = { name = "USS Mobile Bay" definition = modern_cruiser start_experience_factor = 0.50 equipment = {  ship_hull_modern_cruiser_2 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
+			ship = { name = "USS Arleigh Burke" definition = modern_DDG start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = USJ version_name = "알레이버크급" } } }
+			ship = { name = "USS Cowpence" definition = modern_cruiser start_experience_factor = 0.50 equipment = { ship_hull_modern_cruiser_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
+            ship = { name = "USS Bunker Hill" definition = modern_cruiser start_experience_factor = 0.50 equipment = { ship_hull_modern_cruiser_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
+            ship = { name = "USS Mobile Bay" definition = modern_cruiser start_experience_factor = 0.50 equipment = {  ship_hull_modern_cruiser_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
 			ship = { name = "USS Fife" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = USJ version_name = "스프루언스 급" } } }
 			ship = { name = "USS Hewitt" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = USJ version_name = "스프루언스 급" } } }
 			ship = { name = "USS Oldendorf" definition = modern_DDH start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = USJ version_name = "스프루언스 급" } } }
-			ship = { name = "USS Arleigh Burke" definition = modern_DDG start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = USJ version_name = "알레이버크급" } } }
 			ship = { name = "USS McClusky " definition = modern_FF start_experience_factor = 0.65 equipment = { ship_hull_FF_2 = { amount = 1 owner = USJ version_name = "올리버 헤저드 페리급" } } }
 			ship = { name = "USS Curts " definition = modern_FF start_experience_factor = 0.65 equipment = { ship_hull_FF_2 = { amount = 1 owner = USJ version_name = "올리버 헤저드 페리급" } } }
 			ship = { name = "USS Key West" definition = modern_submarine start_experience_factor = 0.65 equipment = { ship_hull_modern_submarine_5 = { amount = 1 owner = USJ version_name = "로스 엔젤리스 급" } } }

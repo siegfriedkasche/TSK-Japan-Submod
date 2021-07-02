@@ -478,7 +478,7 @@ if = {
 
     create_equipment_variant = {
 		name = "타이콘데로가급"
-		type = ship_hull_modern_cruiser_2
+		type = ship_hull_modern_cruiser_1
 		name_group = USJ_CL_HISTORICAL
 		parent_version = 0
 		modules = {

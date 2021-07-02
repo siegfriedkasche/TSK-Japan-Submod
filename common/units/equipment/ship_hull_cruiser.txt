@@ -134,7 +134,7 @@ equipments = {
 	}
 
 	ship_hull_modern_cruiser_1 = {
-		year = 1922
+		year = 1936
 		visual_level = 0
 		archetype = ship_hull_modern_cruiser
 		priority = 1900
