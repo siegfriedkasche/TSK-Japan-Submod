@@ -145,7 +145,11 @@ focus_tree = {
 		}
 		x = 33
 		y = 3
-
+		completion_reward = {
+		country_event = {
+		id = MTU.3
+		}
+		}
 	}
 	focus = {
 		id = KOR_MTU_Im_Seonggyu
@@ -159,7 +163,25 @@ focus_tree = {
 		}
 		x = 29
 		y = 4
-
+		completion_reward = {
+			create_country_leader = {
+				name = "임성규"
+				picture = "gfx/leaders/ANA/Im_Seong_gyu.png"
+				expire = "1965.1.1"
+				ideology = Syndicalisme
+				traits = {
+				
+				}
+			}
+			hidden_effect = {
+			set_politics = {
+				ruling_party = communism
+				last_election = "1934.12.19"
+				election_frequency = 60
+				elections_allowed = no
+			}
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_united_union_front
@@ -228,7 +250,25 @@ focus_tree = {
 		}
 		x = 37
 		y = 4
-
+		completion_reward = {
+			create_country_leader = {
+				name = "정갑득"
+				picture = "gfx/leaders/ANA/Gapdeuk_Jeong.png"
+				expire = "1965.1.1"
+				ideology = Syndicalisme
+				traits = {
+				
+				}
+			}
+			hidden_effect = {
+			set_politics = {
+				ruling_party = communism
+				last_election = "1934.12.19"
+				election_frequency = 60
+				elections_allowed = no
+			}
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_international_labor_movement
@@ -276,7 +316,9 @@ focus_tree = {
 		}
 		x = 36
 		y = 5
-
+		completion_reward = {
+		set_cosmetic_tag = MTU_KOR
+		}
 	}
 	focus = {
 		id = KOR_MTU_metal_union_expansion
@@ -323,7 +365,9 @@ focus_tree = {
 		}
 		x = 36
 		y = 7
-
+		completion_reward = {
+		remove_ideas = Corporate_remnants
+		}
 	}
 	focus = {
 		id = KOR_MTU_Organization_of_women_workers
@@ -357,9 +401,28 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_MTU_Gapdeuk_Jeong
 		}
+		bypass = {
+
+				JAP = {
+					exists = no
+				}
+				CHI = {
+					exists = no
+				}
+
+		}
 		x = 38
 		y = 5
-
+		completion_reward = {
+		declare_war_on = {
+   	   	   	target = JAP
+   	   	   	type = annex_everything
+   	   	}
+		declare_war_on = {
+   	   	   	target = CHI
+   	   	   	type = annex_everything
+   	   	}
+		}
 	}
 	focus = {
 		id = KOR_MTU_workers_squad
@@ -381,7 +444,11 @@ focus_tree = {
 		}
 		x = 39
 		y = 6
-
+		completion_reward = {
+		country_event = {
+		id = MTU.4
+		}
+		}
 	}
 	focus = {
 		id = KOR_MTU_working_conditions

@@ -38,5 +38,62 @@ country_event = {
 		hidden_effect = {
 		set_country_flag = big_event_metal_union
 		}
+		remove_ideas = anarchist_social
+	}
+}
+country_event = {
+	id = MTU.3 #위원장
+	title = MTU.3.t
+	desc = MTU.3.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.3.a
+		ai_chance = {
+		    factor = 0
+		}
+		complete_national_focus = KOR_MTU_Im_Seonggyu
+	}
+	option = {
+		name = MTU.3.c
+		ai_chance = {
+		    factor = 100
+		}
+		complete_national_focus = KOR_MTU_Gapdeuk_Jeong
+	}
+}
+
+country_event = {
+	id = MTU.4 #강령
+	title = MTU.4.t
+	desc = MTU.4.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.4.a
+		ai_chance = {
+		    factor = 0
+		} 
+		country_lock_all_division_template = no
+	}
+}
+country_event = {
+	id = MTU.5 #철의 노동자
+	title = MTU.5.t
+	desc = MTU.5.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.5.a
+		ai_chance = {
+		    factor = 0
+		} 
+		country_lock_all_division_template = no
 	}
 }
