@@ -1,5 +1,5 @@
 ﻿l_english:
-BE_ASSASSIN_JAE_PIL_T:0 "미국에서의 혁명"
+BE_ASSASSIN_JAE_PIL_T:0 "아메리카 총파업"
 BE_ASSASSIN_JAE_PIL_D:0 "인간의 자유는 신성함, 인간, 집단 혹은 개인 같은 어떠한 외부적 힘이 그에게 강요 하는 것이 아니다. 오로지 그 자신이 스스로를 인식한 자연적 법칙에 따르는 것이다.\n- 미하일 바쿠닌"
 BE_ASSASSIN_JAE_PIL_A:0 "이땅은 우리들의 땅이다!"
 
@@ -9,11 +9,11 @@ great_public_war_A:0 "쇠사슬을 끊어라"
 
 world_revolution_T:0 "자유항쟁"
 world_revolution_D:0 "도둑들이여 떨어라! 너희들의 시간은 끝났다! 압제와 노예제와 눈물의 세계는 세계 노동자 형제들의 빛나는 세계로 대체된다!\n- 알렉산드라 콜론타이"
-world_revolution_A:0 "자유를 위한 전진"
+world_revolution_A:0 "이 세상을 뒤흔들 마지막 혁명이다!"
 
-CNT_FAI_A:0 "자유의 횃불이 올라간다!"
+CNT_FAI_A:0 "우리의 마음이 불타도록 하라!"
 CNT_FAI_D:0 "부르주아들이 역사의 무대를 떠나기 전에 이 세계를 잿더미로 만들지도 모르죠. 하지만 우리는 마음속에 새로이 창조될 세계를 품고 있고, 그 세계는 지금 이 순간에도 점점 커지고 있습니다.\n- 부에나벤투라 두루티"
-CNT_FAI_T:0 "이베리아 노동자 연맹"
+CNT_FAI_T:0 "이베리아 노동조합의 승리"
 
 ##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
 
