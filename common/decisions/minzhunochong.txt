@@ -1,0 +1,144 @@
+minzhunochong_categories = {
+ 	minzhunochong_1 = {
+		available = {
+			has_idea = hanguo_nochong
+		}
+		allowed  = {
+		    has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		}
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = no
+		cost = 50
+		days_re_enable = 10
+		days_remove = 40
+		
+		remove_effect = {
+			if = { limit = { has_idea = hanguo_nochong } 
+				swap_ideas = {
+    				remove_idea = hanguo_nochong
+    				add_idea = hanguo_nochong_1
+				}
+			}
+		}
+	}
+	
+	minzhunochong_2 = {
+		available = {
+			has_idea = hanguo_nochong_1
+		}
+		allowed  = {
+		    has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		}
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = no
+		cost = 50
+		days_re_enable = 10
+		days_remove = 40
+		
+		remove_effect = {
+			if = { limit = { has_idea = hanguo_nochong_1 } 
+				swap_ideas = {
+    				remove_idea = hanguo_nochong_1
+    				add_idea = hanguo_nochong_2
+				}
+			}
+		}
+	}
+	minzhunochong_3 = {
+		available = {
+			has_idea = hanguo_nochong_2
+		}
+		allowed  = {
+		    has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		}
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = no
+		cost = 50
+		days_re_enable = 10
+		days_remove = 40
+		
+		remove_effect = {
+			if = { limit = { has_idea = hanguo_nochong_2 } 
+				swap_ideas = {
+    				remove_idea = hanguo_nochong_2
+    				add_idea = hanguo_nochong_3
+				}
+			}
+		}
+	}
+	minzhunochong_4 = {
+		available = {
+			has_idea = hanguo_nochong_2
+		}
+		allowed  = {
+		    has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		}
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = no
+		cost = 50
+		days_re_enable = 10
+		days_remove = 40
+		
+		remove_effect = {
+			if = { limit = { has_idea = hanguo_nochong_3 } 
+				swap_ideas = {
+    				remove_idea = hanguo_nochong_3
+    				add_idea = hanguo_nochong_4
+				}
+			}
+		}
+	}
+	minzhunochong_5 = {
+		available = {
+			has_idea = hanguo_nochong_2
+		}
+		allowed  = {
+		    has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		}
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = no
+		cost = 50
+		days_re_enable = 10
+		days_remove = 40
+		
+		remove_effect = {
+			if = { limit = { has_idea = hanguo_nochong_4 } 
+				swap_ideas = {
+    				remove_idea = hanguo_nochong_4
+    				add_idea = hanguo_nochong_5
+				}
+			}
+		}
+	}
+	minzhunochong_6 = {
+		available = {
+			has_idea = hanguo_nochong_2
+		}
+		allowed  = {
+		    has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		}
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = no
+		cost = 50
+		days_re_enable = 10
+		days_remove = 40
+		
+		remove_effect = {
+			if = { limit = { has_idea = hanguo_nochong_5 } 
+				remove_ideas = { hanguo_nochong_5 }
+			}
+		}
+	}
+}

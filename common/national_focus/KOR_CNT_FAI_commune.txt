@@ -305,7 +305,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 8
-
+		completion_reward = {
+		unlock_decision_category_tooltip = minzhunochong_categories
+		}
 	}
 	focus = {
 		id = KOR_MTU_metal_union
@@ -332,7 +334,11 @@ focus_tree = {
 		}
 		x = 35
 		y = 6
-
+		completion_reward = {
+		country_event = {
+		id = MTU.6
+		}
+		}
 	}
 	focus = {
 		id = KOR_MTU_Ah_the_Metal_Federation.
@@ -343,7 +349,7 @@ focus_tree = {
 		}
 		x = 35
 		y = 8
-
+		
 	}
 	focus = {
 		id = KOR_MTU_hard_line
@@ -354,7 +360,9 @@ focus_tree = {
 		}
 		x = 37
 		y = 6
-
+		completion_reward = {
+		add_ideas = hard_line_ideas
+		}
 	}
 	focus = {
 		id = KOR_MTU_Removal_of_corporate_remnants
@@ -414,6 +422,9 @@ focus_tree = {
 		x = 38
 		y = 5
 		completion_reward = {
+		country_event = {
+		id = MTU.5
+		}
 		declare_war_on = {
    	   	   	target = JAP
    	   	   	type = annex_everything
@@ -481,7 +492,9 @@ focus_tree = {
 		}
 		x = 37
 		y = 9
-
+		completion_reward = {
+		remove_ideas = Unstable_commune
+		}
 	}
 	focus = {
 		id = KOR_MTU_Anti-monopoly_regulation
@@ -495,7 +508,9 @@ focus_tree = {
 		}
 		x = 40
 		y = 7
-
+		completion_reward = {
+		add_ideas = Monopoly_Capital_Regulation
+		}
 	}
 	focus = {
 		id = KOR_CNT_anarcho-communism

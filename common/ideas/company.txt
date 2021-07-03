@@ -10,8 +10,10 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
-                has_completed_focus = KOR_CNT_Anaco_Syndicalism
+				OR = { 
+					has_completed_focus = KOR_CNT_Anaco_Syndicalism 
+					has_completed_focus = kor_MTU_member_intrusion 
+				}
             }
 			research_bonus = {
 				industry = 0.05
@@ -33,8 +35,10 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
-                has_completed_focus = KOR_CNT_Anaco_Syndicalism
+				OR = { 
+					has_completed_focus = KOR_CNT_Anaco_Syndicalism 
+					has_completed_focus = kor_MTU_member_intrusion 
+				}
             }
 			picture = National_Construction_Industry_Trade_Union_Federation
 			research_bonus = {
@@ -53,8 +57,10 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
-                has_completed_focus = KOR_CNT_Anaco_Syndicalism
+				OR = { 
+					has_completed_focus = KOR_CNT_Anaco_Syndicalism 
+					has_completed_focus = kor_MTU_member_intrusion 
+				}
             }
 			
 			research_bonus = {
@@ -63,6 +69,24 @@ ideas = {
 			}
 			
 			traits = { womens_union }
+		}
+		KPTU = { #전국공공운수노동조합
+			picture = KPTU_pic
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				OR = { 
+					has_completed_focus = KOR_CNT_Anaco_Syndicalism 
+					has_completed_focus = kor_MTU_member_intrusion 
+				}
+            }
+			
+			research_bonus = {
+                industry = 0.10
+			}
+			
+			traits = { KPTU }
 		}
 	}
 
@@ -74,7 +98,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_anarcho-communism
             }
 			picture = SPR_anarchist_council
@@ -98,7 +122,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_anarcho-communism
             }
 			picture = SPR_anarchist_council
@@ -118,7 +142,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_anarcho-communism
             }
 			picture = SPR_anarchist_council
@@ -138,7 +162,7 @@ ideas = {
 			}
 
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_anarcho-communism
             }
 			
@@ -160,7 +184,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_END_Delegate_meeting
             }
 			
@@ -179,7 +203,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_END_Delegate_meeting
             }
 			
@@ -198,7 +222,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_END_Delegate_meeting
             }
 			
@@ -216,7 +240,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_END_Delegate_meeting
             }
 			
@@ -235,7 +259,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_END_Delegate_meeting
             }
 			
@@ -253,7 +277,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_END_Delegate_meeting
             }
 			
@@ -272,7 +296,6 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
                 has_completed_focus = KOR_CNT_END_Delegate_meeting
             }
 			
@@ -292,7 +315,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_END_Delegate_meeting
             }
 			
@@ -312,7 +335,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_END_Delegate_meeting
             }
 			
@@ -332,7 +355,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_END_Delegate_meeting
             }
 			
@@ -352,7 +375,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_END_Delegate_meeting
             }
 			
@@ -372,7 +395,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_END_Delegate_meeting
             }
 			
@@ -392,7 +415,7 @@ ideas = {
 				original_tag = KOR
 			}
 			available = {
-                has_idea = anarchist_social
+
                 has_completed_focus = KOR_CNT_END_Delegate_meeting
             }
 			

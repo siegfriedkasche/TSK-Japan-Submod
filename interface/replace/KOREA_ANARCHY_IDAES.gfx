@@ -141,6 +141,18 @@ spriteTypes = {
 		name = "GFX_idea_Masterless_means_of_production"
 		texturefile = "gfx/interface/ideas/Masterless_means_of_production.png"
 	}
+	spriteType = {
+		name = "GFX_idea_hard_line_ideas"
+		texturefile = "gfx/interface/ideas/hard_line.png"
+	}
+	spriteType = {
+		name = "GFX_idea_hanguo_nochong"
+		texturefile = "gfx/interface/ideas/hanguo_nochong.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KPTU_pic"
+		texturefile = "gfx/interface/ideas/KPTU_pic.png"
+	}
 	
 	
 	########################초상화########################
@@ -164,6 +176,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_kill_support_stalinist"
 		texturefile = "gfx/interface/ideas/kill_support_stalinist.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Monopoly_Capital_Regulation"
+		texturefile = "gfx/interface/ideas/Monopoly_Capital_Regulation.png"
 	}
 	
 }

@@ -11,4 +11,8 @@ spriteTypes = {
 		name = "GFX_decision_reform_kor_anant"
 		texturefile = "gfx/interface/decisions/reform_kor_anant.png"
 	}
+	spriteType = {
+		name = "GFX_decision_hanguo_nochong"
+		texturefile = "gfx/interface/decisions/GFX_decision_hanguo_nochong.png"
+	}
 }

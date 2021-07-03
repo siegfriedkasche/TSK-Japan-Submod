@@ -18,8 +18,10 @@ country_event = {
 		    id = MTU.2
 			days = 7
 		}
+		add_ideas = hanguo_nochong
 		set_cosmetic_tag = KOR_UNI
 		}
+
 	}
 }
 country_event = {
@@ -94,6 +96,20 @@ country_event = {
 		ai_chance = {
 		    factor = 0
 		} 
-		country_lock_all_division_template = no
+	}
+}
+country_event = {
+	id = MTU.6 #철의 노동자
+	title = MTU.6.t
+	desc = MTU.6.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.6.a
+		ai_chance = {
+		    factor = 0
+		} 
 	}
 }
