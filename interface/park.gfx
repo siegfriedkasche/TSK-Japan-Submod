@@ -1,0 +1,21 @@
+spriteTypes = {
+	frameAnimatedSpriteType = {
+		name = "GFX_park_i_want_meet_you"
+		texturefile = "gfx//superevent_pictures//park_i_want_meet_you.png"
+		legacy_lazy_load = no 
+		noOfFrames = 8
+		animation_rate_fps = 0.6
+		looping = no
+		play_on_show = yes
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_park"
+		size= { x=192 y=243 }
+		textureFile = "gfx//interface//tiles//tiled_bg_park.png"
+		borderSize = { x=64 y=71 }
+		tilingCenter = yes
+		#effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	
+}

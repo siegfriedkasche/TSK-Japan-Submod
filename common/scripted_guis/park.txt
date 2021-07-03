@@ -1,0 +1,29 @@
+scripted_gui = {
+
+	park_meets_park = {
+		context_type = player_context
+		window_name = "big_event_park_meets_park"
+
+		visible = {
+			has_country_flag = big_event_park_meets_park_flag
+		}
+	}
+
+	big_event_frame_park_meets_park = {
+		context_type = player_context
+		window_name = "big_event_frame_park_meets_park"
+
+		visible = {
+			has_country_flag = big_event_park_meets_park_flag
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_park_meets_park_flag
+			}
+		}
+	}
+
+	##인민의 싸움
+
+}

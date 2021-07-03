@@ -1,6 +1,48 @@
 add_namespace = MTU
 
 country_event = {
+	id = MTU.1000 #신징시에서의 한 메일
+	title = MTU.1000.t
+	desc = MTU.1000.d
+	#picture = GFX_kor_MTU_member_intrusion_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.1000.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+		country_event = {
+		    id = MTU.1001
+			days = 7
+		}
+		}
+
+	}
+}
+country_event = {
+	id = MTU.1001 #
+	title = MTU.1001.t
+	desc = MTU.1001.d
+	#picture = GFX_kor_MTU_member_intrusion_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.1001.a
+		ai_chance = {
+		    factor = 100
+		}
+		hidden_effect = {
+		set_country_flag = big_event_park_meets_park_flag
+		}
+
+	}
+}
+
+country_event = {
 	id = MTU.1 #조합원 습격
 	title = MTU.1.t
 	desc = MTU.1.d

@@ -1,0 +1,48 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "big_event_park_meets_park"
+		size = { width = 1169 height = 770 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+		show_sound = big_event_park_meets_park
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_park_i_want_meet_you"
+			position = { x = -575 y = -380 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	} 
+
+	containerWindowType = {
+		name = "big_event_frame_park_meets_park"
+		size = { width = 1169 height = 770 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_park"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "park_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 283 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+	}
+}
+
+	
