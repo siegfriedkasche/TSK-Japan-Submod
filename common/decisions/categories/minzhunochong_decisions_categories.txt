@@ -2,7 +2,10 @@ minzhunochong_categories = {
 
 	picture = GFX_decision_hanguo_nochong
 	priority = 250
-	allowed = {
-		has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
-	}
+	allowed  = {
+		    tag = kor
+		}
+		visible = {
+            has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+        }
 }

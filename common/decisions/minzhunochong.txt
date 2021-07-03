@@ -4,8 +4,11 @@ minzhunochong_categories = {
 			has_idea = hanguo_nochong
 		}
 		allowed  = {
-		    has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		    tag = kor
 		}
+		visible = {
+            has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+        }
 		ai_will_do = {
 			factor = 50
 		}
@@ -29,8 +32,11 @@ minzhunochong_categories = {
 			has_idea = hanguo_nochong_1
 		}
 		allowed  = {
-		    has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		    tag = kor
 		}
+		visible = {
+            has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+        }
 		ai_will_do = {
 			factor = 50
 		}
@@ -53,8 +59,11 @@ minzhunochong_categories = {
 			has_idea = hanguo_nochong_2
 		}
 		allowed  = {
-		    has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		    tag = kor
 		}
+		visible = {
+            has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+        }
 		ai_will_do = {
 			factor = 50
 		}
@@ -77,8 +86,11 @@ minzhunochong_categories = {
 			has_idea = hanguo_nochong_2
 		}
 		allowed  = {
-		    has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		    tag = kor
 		}
+		visible = {
+            has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+        }
 		ai_will_do = {
 			factor = 50
 		}
@@ -101,8 +113,11 @@ minzhunochong_categories = {
 			has_idea = hanguo_nochong_2
 		}
 		allowed  = {
-		    has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		    tag = kor
 		}
+		visible = {
+            has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+        }
 		ai_will_do = {
 			factor = 50
 		}
@@ -125,8 +140,11 @@ minzhunochong_categories = {
 			has_idea = hanguo_nochong_2
 		}
 		allowed  = {
-		    has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+		    tag = kor
 		}
+		visible = {
+            has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
+        }
 		ai_will_do = {
 			factor = 50
 		}
