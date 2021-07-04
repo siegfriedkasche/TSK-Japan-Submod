@@ -1090,10 +1090,10 @@ technologies = {
 		}
 	}
 
-	m_1970_cv_jet_CAS = { A-6
+	m_1970_cv_jet_cas = { A-6
 
 		enable_equipments = { 
-			m_1970_cv_jet_CAS_equipment
+			m_1970_cv_jet_cas_equipment
 		}
 
 		research_cost = 1

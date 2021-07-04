@@ -10,10 +10,11 @@ units = {
 			location = 11932
 			ship = { name = "USS Nimitz" definition = modern_CV equipment = { ship_hull_modern_CV_1 = { amount = 1 owner = USJ version_name = "니미츠급" } } 
 				air_wings = {
-					m_1990_cv_jet_fighter_equipment_1 =  { owner = "USJ" amount = 10 }	# F/A-18C/D
-					m_1970_cv_jet_CAS_equipment_1 =  { owner = "USJ" amount = 25 }		# A-6
+					m_1990_cv_jet_fighter_equipment_1 =  { owner = "USJ" amount = 50 }	# F/A-18C/D
+					m_1970_cv_jet_cas_equipment_1 =  { owner = "USJ" amount = 20 }		# A-6
 				}
 			}
+			
 			ship = { name = "USS Arleigh Burke" definition = modern_DDG start_experience_factor = 0.65 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = USJ version_name = "알레이버크급" } } }
 			ship = { name = "USS Cowpence" definition = modern_cruiser start_experience_factor = 0.50 equipment = { ship_hull_modern_cruiser_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }
             ship = { name = "USS Bunker Hill" definition = modern_cruiser start_experience_factor = 0.50 equipment = { ship_hull_modern_cruiser_1 = { amount = 1 owner = USJ version_name = "타이콘데로가급" } } }

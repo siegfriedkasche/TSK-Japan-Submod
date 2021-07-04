@@ -1134,10 +1134,10 @@ technologies = {
 ###함재기
 ############################################################################################
 
-	m_1990_cv_jet_multirole = {
-
+	m_1990_cv_jet_fighter = { #F/A-18C/D
+ 
 		enable_equipments = { 
-			m_1990_cv_jet_multirole_equipment
+			m_1990_cv_jet_fighter_equipment
 		}
 
 		research_cost = 1
@@ -1148,10 +1148,10 @@ technologies = {
 		}
 	}
 
-	m_1970_cv_jet_CAS = {
+	m_1970_cv_jet_cas = { A-6
 
 		enable_equipments = { 
-			m_1970_cv_jet_CAS_equipment
+			m_1970_cv_jet_cas_equipment
 		}
 
 		research_cost = 1

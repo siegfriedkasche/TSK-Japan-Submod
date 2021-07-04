@@ -129,8 +129,8 @@ set_technology = {
 	m_1980_jet_fighter = 1
 	m_1990_jet_fighter = 1
 
-	m_1990_cv_jet_fighter_equipment = 1
-	m_1970_cv_jet_CAS_equipment_1
+	m_1990_cv_jet_fighter = 1
+	m_1970_cv_jet_cas = 1
 	
 	m_1980_jet_CAS = 1
 	m_1990_jet_CAS = 1
