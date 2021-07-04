@@ -3,7 +3,7 @@ sub_units = {
 		sprite = light_plane
 		priority = 1
 		active = yes
-		type = { fighter cas }
+		type = { fighter }
 		need = { fighter_equipment = 1 }
 		categories = { category_fighter }
 	}
@@ -25,19 +25,29 @@ sub_units = {
 		need = { cv_fighter_equipment = 1 }
 		categories = { category_fighter }
 	}
-
-	jet_fighter = {
-		sprite = light_plane
+	
+	heavy_fighter = {
+		sprite = medium_plane
 		priority = 1
 		active = yes
-		type = { fighter cas }
-		need = { jet_fighter_equipment = 1 }
-		categories = { category_fighter category_jet_fighter }
+		type = { fighter }
+		need = { heavy_fighter_equipment = 1 }
+		categories = { category_heavy_fighter }
 	}
+
+	jet_fighter = {
+		sprite = jet_plane
+		priority = 1
+		active = yes
+		type = { fighter }
+		need = { jet_fighter_equipment = 1 }
+		categories = { category_fighter }
+	}
+	
 	
 	cas = {
 		sprite = light_plane
-		priority = 1
+		priority = 2
 		active = yes
 		type = { cas }
 		need = { CAS_equipment = 1 }
@@ -46,50 +56,36 @@ sub_units = {
 
 	cv_cas = {
 		sprite = light_plane
-		priority = 1
+		priority = 2
 		active = yes
 		type = { cas }
 		need = { cv_CAS_equipment = 1 }
 		categories = { category_cas }
 	}
-
-	cv_nav_bomber = {
-		sprite = light_plane
-		priority = 1
-		active = yes
-		type = { naval_bomber }
-		need = { cv_nav_bomber_equipment = 1 }
-		categories = { category_nav_bomber }
-	}
-
+	
+	
 	nav_bomber = {
 		sprite = light_plane
-		priority = 1
+		priority = 3
 		active = yes
 		type = { naval_bomber }
 		need = { nav_bomber_equipment = 1 }
 		categories = { category_nav_bomber }
 	}
-	
-	rocket_interceptor = {
-		sprite = light_plane
-		priority = 1
-		active = yes
-		type = { interceptor }
-		need = { rocket_interceptor_equipment = 1 }
-	}
 
-	suicide_craft = {
+	cv_nav_bomber = {
 		sprite = light_plane
-		priority = 1
+		priority = 3
 		active = yes
-		type = { suicide }
-		need = { suicide_craft_equipment = 1 }
+		type = { naval_bomber }
+		need = { cv_nav_bomber_equipment = 1 }
+		categories = { category_nav_bomber }
 	}
+	
 	
 	tac_bomber = {
 		sprite = medium_plane
-		priority = 1
+		priority = 4
 		active = yes
 		type = { tactical_bomber }
 		need = { tac_bomber_equipment = 1 }
@@ -98,34 +94,17 @@ sub_units = {
 	
 	jet_tac_bomber = {
 		sprite = medium_plane
-		priority = 1
+		priority = 4
 		active = yes
 		type = { tactical_bomber }
 		need = { jet_tac_bomber_equipment = 1 }
-		categories = { category_jet_tac_bomber }
-	}
-	
-	heavy_fighter = {
-		sprite = medium_plane
-		priority = 1
-		active = yes
-		type = { fighter cas }
-		need = { heavy_fighter_equipment = 1 }
-		categories = { category_heavy_fighter }
+		categories = { category_tac_bomber }
 	}
 
-	night_fighter = {
-		sprite = medium_plane
-		priority = 1
-		active = yes
-		type = { interceptor }
-		need = { night_fighter_equipment = 1 }
-		categories = { category_night_fighter }
-	}
-	
+
 	strat_bomber = {
 		sprite = heavy_plane
-		priority = 1
+		priority = 5
 		active = yes
 		type = { strategic_bomber }
 		need = { strat_bomber_equipment = 1 }
@@ -134,109 +113,79 @@ sub_units = {
 
 	jet_strat_bomber = {
 		sprite = heavy_plane
-		priority = 1
+		priority = 5
 		active = yes
 		type = { strategic_bomber }
 		need = { jet_strat_bomber_equipment = 1 }
-		categories = { category_jet_strat_bomber }
+		categories = { category_strat_bomber }
 	}
+	
 	
 	transport_plane = {
 		sprite = heavy_plane
-		priority = 1
+		priority = 6
 		active = yes
 		type = { air_transport }
 		need = { transport_plane_equipment = 1 }
 	}
 
-	guided_missile = {
-		sprite = missile_default
-		priority = 1
-		active = yes
-		type = { missile }
-		need = { guided_missile_equipment = 1 }
-	}	
-	
-#### NEW MODELS
-
-	interceptor = {
+	rocket_interceptor = {
 		sprite = light_plane
-		priority = 1
-		active = yes
-		type = { fighter }
-		need = { interceptor_equipment = 1 }
-		categories = { category_fighter }
-	}
-	
-	jet_interceptor = {
-		sprite = light_plane
-		priority = 1
+		priority = 7
 		active = yes
 		type = { interceptor }
-		need = { jet_interceptor_equipment = 1 }
-		categories = { category_fighter category_jet_interceptor }
-	}	
+		need = { rocket_interceptor_equipment = 1 }
+	}
+
+	guided_missile = {
+		sprite = missile_default
+		priority = 8
+		active = yes
+		type = { missile cas }
+		need = { guided_missile_equipment = 1 }
+	}
 	
-	jet_cas = {
+	suicide_craft = {
+		sprite = light_plane
+		priority = 9
+		active = yes
+		type = { suicide }
+		need = { suicide_craft_equipment = 1 }
+	}
+	
+	attack_helicopter = {
 		sprite = light_plane
 		priority = 1
 		active = yes
 		type = { cas }
-		need = { jet_CAS_equipment = 1 }
-		categories = { category_cas }
-	}
-
-	mach2stratbomber = {
-		sprite = heavy_plane
-		priority = 1
-		active = yes
-		type = { strategic_bomber }
-		need = { mach2stratbomber_equipment = 1 }
-		categories = { category_jet_strat_bomber }
+		need = { attack_helicopter_equipment = 1 }
+		categories = { category_attack_helicopter }
 	}
 	
-	cv_jet_fighter = {
-		sprite = light_plane
-		priority = 1
-		active = yes
-		type = { fighter cas }
-		need = { cv_jet_fighter_equipment = 1 }
-		categories = { category_fighter category_jet_fighter }
-	}
 	
-	cv_jet_cas = {
-		sprite = light_plane
-		priority = 1
-		active = yes
-		type = { cas tactical_bomber }
-		need = { cv_jet_cas_equipment = 1 }
-		categories = { category_cas }
-	}
-	
-	naval_helicopter = {
+	maritime_helicopter = {
 		sprite = light_plane
 		priority = 1
 		active = yes
 		type = { naval_bomber }
-		need = { naval_helicopter_equipment = 1 }
-		categories = { category_naval_helicopter }
+		need = { maritime_helicopter_equipment = 1 }
+		categories = { category_attack_helicopter }
 	}
 	
-	cv_heavy_fighter = {
-		sprite = medium_plane
+	jet_multirole = {
+		sprite = jet_plane
 		priority = 1
 		active = yes
-		type = { interceptor }
-		need = { cv_heavy_fighter_equipment = 1 }
-		categories = { category_heavy_fighter }
+		type = { fighter cas }
+		need = { jet_multirole_equipment = 1 }
+		categories = { category_fighter }
 	}
-	
-	jet_heavy_fighter = {
-		sprite = medium_plane
-		priority = 1
+	Ballistic_missile = {
+		sprite = heavy_plane
+		priority = 5
 		active = yes
-		type = { interceptor }
-		need = { jet_heavy_fighter_equipment = 1 }
-		categories = { category_heavy_fighter }
+		type = { strategic_bomber }
+		need = { ballistic_missile_equipment = 1 }
+		categories = { category_strat_bomber }
 	}
 }
