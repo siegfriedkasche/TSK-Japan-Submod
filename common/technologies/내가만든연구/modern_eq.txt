@@ -1129,38 +1129,6 @@ technologies = {
 			always = no
 		}
 	}
-	
-############################################################################################
-###함재기
-############################################################################################
-
-	m_1990_cv_jet_fighter = { #F/A-18C/D
- 
-		enable_equipments = { 
-			m_1990_cv_jet_fighter_equipment
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
-
-	m_1970_cv_jet_cas = { A-6
-
-		enable_equipments = { 
-			m_1970_cv_jet_cas_equipment
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		allow = {
-			always = no
-		}
-	}
 
 ############################################################################################
 ###전투 헬기 

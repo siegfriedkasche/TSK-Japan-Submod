@@ -10,8 +10,8 @@ units = {
 			location = 11932
 			ship = { name = "USS Nimitz" definition = modern_CV equipment = { ship_hull_modern_CV_1 = { amount = 1 owner = USJ version_name = "니미츠급" } } 
 				air_wings = {
-					m_1990_cv_jet_fighter_equipment_1 =  { owner = "USJ" amount = 50 }	# F/A-18C/D
-					m_1970_cv_jet_cas_equipment_1 =  { owner = "USJ" amount = 20 }		# A-6
+					m_1990_cv_jet_fighter_equipment  =  { owner = "USJ" amount = 50 }	# F/A-18C/D
+					m_1970_cv_jet_cas_equipment  =  { owner = "USJ" amount = 20 }		# A-6
 				}
 			}
 			

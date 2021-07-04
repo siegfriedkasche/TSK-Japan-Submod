@@ -203,15 +203,6 @@ sub_units = {
 		need = { cv_jet_fighter_equipment = 1 }
 		categories = { category_fighter category_jet_fighter }
 	}
-
-	m_1990_cv_jet_fighter = {
-		sprite = light_plane
-		priority = 1
-		active = yes
-		type = { fighter cas }
-		need = { cv_jet_fighter_equipment = 1 }
-		categories = { category_fighter category_jet_fighter }
-	}
 	
 	cv_jet_cas = {
 		sprite = light_plane
@@ -219,15 +210,6 @@ sub_units = {
 		active = yes
 		type = { cas tactical_bomber }
 		need = { cv_jet_cas_equipment = 1 }
-		categories = { category_cas }
-	}
-
-	m_1970_cv_jet_cas = {
-		sprite = light_plane
-		priority = 1
-		active = yes
-		type = { cas tactical_bomber }
-		need = { m_1970_cv_jet_cas_equipment = 1 }
 		categories = { category_cas }
 	}
 	
