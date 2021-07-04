@@ -61,7 +61,7 @@ equipments = {
 
 		naval_strike_attack = 1
 		naval_strike_targetting = 10
-
+		 
 	}
 	
 	#F-4D 피스 스펙데이터,MIG-21K
@@ -115,6 +115,7 @@ equipments = {
 
 		naval_strike_attack = 4
 		naval_strike_targetting = 10
+		
 	}
 
 	#F-15K 슬램이글,MIG-33
