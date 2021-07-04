@@ -171,11 +171,11 @@ equipments = {
 		naval_strike_targetting = 10
 	}
 	###############################################################함재기
-    carrier_m_1990_cv_jet_fighter_equipment = { 
+    m_1990_cv_jet_fighter_equipment = { 
         year = 1936
 
         archetype = jet_multirole_equipment
-        parent = carrier_m_1990_cv_jet_fighter_equipment
+        parent = m_1990_cv_jet_fighter_equipment
         priority = 10
 
         air_range = 3000
@@ -199,11 +199,11 @@ equipments = {
 
 
     # A-6
-    carrier_m_1970_cv_jet_cas_equipment = { 
+    m_1970_cv_jet_cas_equipment = { 
         year = 1936
 
         archetype = jet_multirole_equipment
-        parent = carrier_m_1970_cv_jet_cas_equipment
+        parent = m_1970_cv_jet_cas_equipment
         priority = 10
 
         air_range = 3000
