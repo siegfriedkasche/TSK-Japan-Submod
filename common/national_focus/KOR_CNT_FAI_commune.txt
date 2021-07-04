@@ -185,7 +185,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_united_union_front
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_MTU_united_union_front
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Im_Seonggyu
@@ -207,7 +207,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_defened_Agriculture
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_MTU_defened_Agriculture
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_social_security_system
@@ -218,7 +218,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_united_union_program
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_MTU_united_union_program
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Im_Seonggyu
@@ -349,6 +349,10 @@ focus_tree = {
 		}
 		x = 35
 		y = 8
+		completion_reward = {
+		add_country_leader_trait = Metal_Federation
+		add_country_leader_trait = metal_army
+		}
 		
 	}
 	focus = {
@@ -389,7 +393,9 @@ focus_tree = {
 		}
 		x = 34
 		y = 7
-
+		completion_reward = {
+		add_ideas = womens_workers
+		}
 	}
 	focus = {
 		id = KOR_MTU_anti_libearism_solidarity
@@ -400,7 +406,10 @@ focus_tree = {
 		}
 		x = 37
 		y = 8
-
+		completion_reward = {
+		add_war_support	= 0.1
+		create_faction = 반자유주의연대
+		}
 	}
 	focus = {
 		id = KOR_MTU_iron_worker
@@ -472,7 +481,9 @@ focus_tree = {
 		}
 		x = 39
 		y = 8
-
+		completion_reward = {
+			add_stability = 0.1
+		}
 	}
 	focus = {
 		id = KOR_MTU_great_match
@@ -1633,7 +1644,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_traditional_democratic_trade_unions
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_MTU_traditional_democratic_trade_unions
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_united_union_front
@@ -1675,7 +1686,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_democratic_work_environment
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_MTU_democratic_work_environment
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_traditional_democratic_trade_unions
@@ -1689,7 +1700,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_Joint_Bargaining_by_Industry
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_MTU_Joint_Bargaining_by_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_struggle_system
@@ -1703,7 +1714,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_democracy_in_this_land
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_MTU_democracy_in_this_land
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Joint_Bargaining_by_Industry
@@ -1720,7 +1731,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_democratic_government
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_MTU_democratic_government
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Joint_Bargaining_by_Industry
@@ -1734,7 +1745,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_confiscation_of_monopoly_capital
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_MTU_confiscation_of_monopoly_capital
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_democratic_work_environment

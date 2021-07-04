@@ -38,6 +38,7 @@ country_event = {
 		hidden_effect = {
 		set_country_flag = big_event_park_meets_park_flag
 		}
+		add_ideas = park_ideas
 
 	}
 }

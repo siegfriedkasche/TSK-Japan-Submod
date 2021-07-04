@@ -223,4 +223,44 @@ spriteTypes = {
         name = "GFX_UFT_Appeal_to_the_people"
         texturefile = "gfx/interface/goals/UFT_Appeal_to_the_people.png"
     }
+	spriteType = {
+        name = "GFX_KOR_MTU_united_union_program"
+        texturefile = "gfx/interface/goals/mzn/GFX_KOR_MTU_united_union_program.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_united_union_program"
+        texturefile = "gfx/interface/goals/mzn/GFX_KOR_MTU_united_union_program.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_united_union_front"
+        texturefile = "gfx/interface/goals/mzn/GFX_KOR_MTU_united_union_front.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_defened_Agriculture"
+        texturefile = "gfx/interface/goals/mzn/GFX_KOR_MTU_defened_Agriculture.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_democratic_work_environment"
+        texturefile = "gfx/interface/goals/mzn/GFX_KOR_MTU_democratic_work_environment.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Joint_Bargaining_by_Industry"
+        texturefile = "gfx/interface/goals/mzn/GFX_KOR_MTU_Joint_Bargaining_by_Industry.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_confiscation_of_monopoly_capital"
+        texturefile = "gfx/interface/goals/mzn/GFX_KOR_MTU_confiscation_of_monopoly_capital.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_traditional_democratic_trade_unions"
+        texturefile = "gfx/interface/goals/mzn/GFX_KOR_MTU_traditional_democratic_trade_unions.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_democratic_government"
+        texturefile = "gfx/interface/goals/mzn/GFX_KOR_MTU_democratic_government.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_democracy_in_this_land"
+        texturefile = "gfx/interface/goals/mzn/GFX_KOR_MTU_democracy_in_this_land.png"
+    }
 }

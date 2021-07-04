@@ -153,7 +153,14 @@ spriteTypes = {
 		name = "GFX_idea_KPTU_pic"
 		texturefile = "gfx/interface/ideas/KPTU_pic.png"
 	}
-	
+	spriteType = {
+		name = "GFX_idea_womens_workers"
+		texturefile = "gfx/interface/ideas/womens_workers.png"
+	}
+	spriteType = {
+		name = "GFX_idea_park_ideas"
+		texturefile = "gfx/interface/ideas/park_ideas.png"
+	}
 	
 	########################초상화########################
 	

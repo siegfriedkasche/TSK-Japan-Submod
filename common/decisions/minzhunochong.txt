@@ -51,7 +51,7 @@ minzhunochong_categories = {
     				remove_idea = hanguo_nochong_1
     				add_idea = hanguo_nochong_2
 				}
-			}
+			} 
 		}
 	}
 	minzhunochong_3 = {

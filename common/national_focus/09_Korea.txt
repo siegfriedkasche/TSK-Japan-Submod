@@ -97,9 +97,9 @@ focus_tree = {
 						}
 				}
 			completion_reward = {
-					country_event = {
-						id = KOR_MB.27
-					}
+				country_event = {
+					id = KOR_MB.27
+				}
 					add_political_power = 150
 					custom_effect_tooltip = KOR_MB_timeslip_is_done
 					hidden_effect = {
@@ -1031,6 +1031,8 @@ focus_tree = {
 		y = 7
 			completion_reward = {
 					add_ideas = KOR_world_attack
+					add_stability = -0.15
+					add_ideas = KOR_north_south_problem
 					hidden_effect = {
 					
 					813 = {
@@ -1060,10 +1062,7 @@ focus_tree = {
 							can_create_factions = yes
 						}
 					add_stability = -0.05
-					country_event = {
-						id = KOR_MB.28
-					}
-				}	
+				}
 			ai_will_do = {
 					factor = 10
 					modifier = {
@@ -1083,6 +1082,9 @@ focus_tree = {
 		x = 33
 		y = 2
 			completion_reward = {
+				country_event = {
+					id = KOR_MB.28
+				}
 					add_political_power = 100
 					set_party_name = {
 							ideology = neutrality
@@ -1119,12 +1121,12 @@ focus_tree = {
 		x = 35
 		y = 2
 			completion_reward = {
+					country_event = {
+						id = KOR_MB.29
+					}
 					add_stability = -0.05
 					KOR = {
 							add_ideas = KOR_not_politic_act
-						}
-						country_event = {
-							id = KOR_MB.29
 						}
 				}
 
@@ -1404,6 +1406,33 @@ focus_tree = {
 		y = 7
 			completion_reward = {
 					add_ideas = KOR_world_attack
+					525 = {
+						remove_claim_by = KPA
+					}
+					808 = {
+						remove_claim_by = KPA
+					}
+					807 = {
+						remove_claim_by = KPA
+					}
+					810 = {
+						remove_claim_by = KPA
+					}
+					809 = {
+						remove_claim_by = KPA
+					}
+					817 = {
+						remove_claim_by = KPA
+					}
+					818 = {
+						remove_claim_by = KPA
+					}
+					821 = {
+						remove_claim_by = KPA
+					}
+					813 = {
+						remove_claim_by = KPA
+					}
 					hidden_effect = {
 					
 					813 = {
@@ -1439,6 +1468,33 @@ focus_tree = {
 							set_rule = {
 									can_not_declare_war = no
 								}
+					525 = {
+						remove_claim_by = KPA
+					}
+					808 = {
+						remove_claim_by = KPA
+					}
+					807 = {
+						remove_claim_by = KPA
+					}
+					810 = {
+						remove_claim_by = KPA
+					}
+					809 = {
+						remove_claim_by = KPA
+					}
+					817 = {
+						remove_claim_by = KPA
+					}
+					818 = {
+						remove_claim_by = KPA
+					}
+					821 = {
+						remove_claim_by = KPA
+					}
+					813 = {
+						remove_claim_by = KPA
+					}
 						}
 				}
 
@@ -1486,6 +1542,7 @@ focus_tree = {
 				neutrality = 40
 			}
 			remove_ideas = kor_law_of_korean_5
+			remove_ideas = KOR_north_south_problem
 			remove_unit_leader = 2008
 			
 		}
@@ -2429,6 +2486,9 @@ focus_tree = {
 				}
 			}	
 		}
+		bypass = {
+			JAP = { exists = no }
+		}
 		completion_reward = {
 			JAP = {
 				country_event = {
@@ -2440,13 +2500,17 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_i_saekideul_bwara
-		icon = GFX_MKR_the_defeat_of_fascism
+		icon = anti_fascist_diplomacy
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_new_korean_empire
 		}
 		x = 52
 		y = 13
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
 
 	}
 	focus = {
@@ -2555,54 +2619,195 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_plan_hitler
-		icon = goal_unknown
+		icon = dangerous_laws
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_plan_another
 		}
 		available = {
-			has_country_flag = KOR_making_sorry
+			#has_country_flag = KOR_making_sorry
 		}
 		x = 61
 		y = 7
+		completion_reward = {
+			
+			ENG = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_allies
+				}
+			}	
+			FRA = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_allies
+				}
+			}	
+			POL = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_allies
+				}
+			}	
+			SOV = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_allies
+				}
+			}	
+			BEL = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_allies
+				}
+			}	
+			HOL = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_allies
+				}
+			}	
+			LUX = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_allies
+				}
+			}		
+			AUS = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_allies
+				}
+			}	
+			DEN = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_allies
+				}
+			}
+			NOR = {
+				add_opinion_modifier = { 
+					target = KOR
+					modifier = KOR_plan_hitler_allies
+				}
+			}	
+			YUG = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_allies
+				}
+			}	
+			LIT = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_allies
+				}
+			}	
+			####
+			GER = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_axis
+				}
+			}	
+			ITA = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_axis
+				}
+			}	
+			HUN = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_axis
+				}
+			}	
+			ROM = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_axis
+				}
+			}	
+			BUL = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_plan_hitler_axis
+				}
+			}	
+		}
 
 	}
 	focus = {
 		id = KOR_go_berlin
-		icon = goal_unknown
+		icon = dangerous_deal
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_plan_hitler
 		}
 		x = 59
 		y = 8
+		completion_reward = {
+			
+			GER = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_give_hitler
+				}
+			}	
+		}
 
 	}
 	focus = {
 		id = KOR_in_the_ikwon
-		icon = goal_unknown
+		icon = trade_with_germany
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_go_berlin
 		}
 		x = 58
 		y = 9
+		completion_reward = {
+				give_resource_rights = { receiver = KOR state = 42 }
+				give_resource_rights = { receiver = KOR state = 60 }
+				give_resource_rights = { receiver = KOR state = 65 }
+				give_resource_rights = { receiver = KOR state = 66 }
+				give_resource_rights = { receiver = KOR state = 67 }
+				give_resource_rights = { receiver = KOR state = 59 }
+		}
 
 	}
 	focus = {
 		id = KOR_misile_in_the_hitler
-		icon = goal_unknown
+		icon = rocketry
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_go_berlin
 		}
 		x = 60
 		y = 9
+		completion_reward = {
+			
+					add_tech_bonus = {
+							name = KOR_misile_in_the_hitler
+							bonus = 500.0
+							technology = advanced_rocket_engines
+						}
+					add_tech_bonus = {
+							name = KOR_misile_in_the_hitler
+							bonus = 500.0
+							technology = improved_rocket_engines
+						}
+					add_tech_bonus = {
+							name = KOR_misile_in_the_hitler
+							bonus = 500.0
+							technology = rocket_engines
+						}
+		}
 
 	}
 	focus = {
 		id = KOR_fascism_sure
-		icon = goal_unknown
+		icon = align_to_germany2
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_in_the_ikwon
@@ -2612,44 +2817,73 @@ focus_tree = {
 		}
 		x = 59
 		y = 10
+		completion_reward = {
+			
+			give_guarantee = GER
+			give_guarantee = ITA
+		}
 
 	}
 	focus = {
 		id = KOR_go_london
-		icon = goal_unknown
+		icon = global_britain
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_plan_hitler
 		}
 		x = 63
 		y = 8
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_give_england
+				}
+			}	
+		}
 
 	}
 	focus = {
 		id = KOR_soviet_hyupbak
-		icon = goal_unknown
+		icon = war_against_russia
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_go_london
 		}
 		x = 62
 		y = 9
+		completion_reward = {
+			SOV = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_give_communist
+				}
+			}	
+		}
 
 	}
 	focus = {
 		id = KOR_6week_cut
-		icon = goal_unknown
+		icon = france
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_go_london
 		}
 		x = 64
 		y = 9
+		completion_reward = {
+			FRA = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = KOR_give_france
+				}
+			}	
+		}
 
 	}
 	focus = {
 		id = KOR_europe_communism_kill
-		icon = goal_unknown
+		icon = anti_communism
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_soviet_hyupbak
@@ -2659,11 +2893,62 @@ focus_tree = {
 		}
 		x = 63
 		y = 10
+		completion_reward = {
+			ENG = {
+				add_popularity = {
+					ideology = communism
+					popularity = -0.15
+				}
+			}
+			FRA = {
+				add_popularity = {
+					ideology = communism
+					popularity = -0.15
+				}
+			
+			}
+			SPR = {
+				
+				add_popularity = {
+					ideology = communism
+					popularity = -0.15
+				}
+			}
+			FIN = {
+				
+				add_popularity = {
+					ideology = communism
+					popularity = -0.15
+				}
+			}
+			LIT = {
+				
+				add_popularity = {
+					ideology = communism
+					popularity = -0.15
+				}
+			}
+			EST = {
+				
+				add_popularity = {
+					ideology = communism
+					popularity = -0.15
+				}
+			}
+			LAT = {
+				
+				add_popularity = {
+					ideology = communism
+					popularity = -0.15
+				}
+			}
+			add_political_power = 120
+		}
 
 	}
 	focus = {
 		id = KOR_ww2_plan
-		icon = goal_unknown
+		icon = nato
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_fascism_sure
@@ -2672,41 +2957,119 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_plan_hitler
 		}
+		available = {
+			GER = {
+				OR = {
+					has_war_with = POL
+					has_war_with = ENG
+					has_war_with = SOV
+					has_war_with = FRA
+				}
+			}
+		}
 		x = 61
 		y = 11
+		completion_reward = {
+			add_political_power = 100
+		}
 
 	}
 	focus = {
 		id = KOR_3
-		icon = goal_unknown
+		icon = political_pressure
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_ww2_plan
 		}
 		x = 59
 		y = 12
+		available = {	
+			if = {
+				limit = {
+					has_completed_focus = KOR_MB_kudeta
+				}
+				has_government = fascism
+			}
+			if = {
+				limit = {
+					has_completed_focus = KOR_MB_consorvatism_won
+				}
+				has_government = fascism
+				NOT = {
+					has_completed_focus = KOR_1
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = KOR_imperials_defence
+				}
+					has_government = neutrality
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_completed_focus = KOR_MB_kudeta
+						has_completed_focus = KOR_MB_consorvatism_won
+						has_completed_focus = KOR_imperials_defence
+					}
+				}	
+					has_government = fascism
+			}
+		}	
+		completion_reward = {
+			
+			GER = {
+				country_event = {
+					id = generic.2
+					days = 2
+				}
+			}
+		}
 
 	}
 	focus = {
 		id = KOR_5
-		icon = goal_unknown
+		icon = political_pressure_dark_green
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_ww2_plan
 		}
 		x = 63
 		y = 12
+		completion_reward = {
+			408 = {
+				add_claim_by = KOR
+			}	
+			409 = {
+				add_claim_by = KOR
+			}	
+			655 = {
+				add_claim_by = KOR
+			}	
+			329 = {
+				add_claim_by = KOR
+			}	
+			330 = {
+				add_claim_by = KOR
+			}	
+		}
 
 	}
 	focus = {
 		id = KOR_6
-		icon = goal_unknown
+		icon = asia
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_5
 		}
 		x = 63
 		y = 13
+		completion_reward = {
+			
+			every_state = {
+				add_claim_by = KOR
+			}
+		}
 
 	}
 	focus = {
@@ -2826,10 +3189,16 @@ focus_tree = {
 		x = 32
 		y = 10
 			available = {
-					always = no
+					date > 1939.12.19
 				}
 			completion_reward = {
 				
+				hidden_effect = {
+					country_event = {
+						id = KOR_MB.18
+						days = 1
+					}
+				}
 				set_party_name = {
 					ideology = fascism
 					long_name = "한나라당"
@@ -2867,16 +3236,6 @@ focus_tree = {
 		x = 30
 		y = 11
 			completion_reward = {
-					create_country_leader = {
-							name = "Park Geun Hye"
-							desc = ""
-							picture = "gfx/leaders/KOR/PGH.dds"
-							expire = "1965.1.1"
-							ideology = conservatism
-							traits = {
-
-}
-						}
 						hidden_effect = {
 					create_country_leader = {
 							name = "Park Geun Hye"
@@ -2906,16 +3265,6 @@ focus_tree = {
 		x = 34
 		y = 11
 			completion_reward = {
-					create_country_leader = {
-							name = "Lee Hoi-Chang"
-							desc = ""
-							picture = "gfx/leaders/KOR/Lee_Hoi-chang.dds"
-							expire = "1965.1.1"
-							ideology = conservatism
-							traits = {
-
-}
-						}
 						hidden_effect = {
 					create_country_leader = {
 							name = "Lee Hoi-Chang"
@@ -2964,16 +3313,6 @@ focus_tree = {
 		x = 32
 		y = 11
 			completion_reward = {
-					create_country_leader = {
-							name = "Kim Moon Soo"
-							desc = ""
-							picture = "gfx/leaders/KOR/KMS.dds"
-							expire = "1965.1.1"
-							ideology = conservatism
-							traits = {
-
-}
-						}
 						hidden_effect = {
 					create_country_leader = {
 							name = "Kim Moon Soo"
@@ -3004,14 +3343,18 @@ focus_tree = {
 		}
 		x = 26
 		y = 13
+		available = {
+			has_army_manpower = { size > 650000 }
+		}	
 			completion_reward = {
 					remove_ideas = kor_law_of_korean_5
-					hidden_effect = {
-						country_event = {
-							id = KOR_MB.18
-							days = 1
+					if = {
+						limit = {
+							has_idea = KOR_north_south_problem
 						}
-				    }
+						
+						remove_ideas = KOR_north_south_problem
+					}
 				}
 
 	}
@@ -3085,6 +3428,90 @@ focus_tree = {
 				set_cosmetic_tag = KOR_2009_scenario
 				remove_ideas = KOR_legacy_of_518 
 			}
+			if = {
+				limit = {
+					has_completed_focus = KOR_MB_park
+				}
+				
+				create_country_leader = {
+					name = "Park Geun Hye"
+					desc = ""
+					picture = "gfx/leaders/KOR/PGH.dds"
+					expire = "1965.1.1"
+					ideology = conservatism
+					traits = {
+
+					}
+				}
+				hidden_effect = {
+					create_country_leader = {
+						name = "Park Geun Hye"
+						desc = ""
+						picture = "gfx/leaders/KOR/PGH.dds"
+						expire = "1965.1.1"
+						ideology = rexism
+						traits = {
+
+						}
+					}
+				}
+			}	
+			if = {
+				limit = {
+					has_completed_focus = KOR_MB_kim
+				}
+				
+				create_country_leader = {
+					name = "Kim Moon Soo"
+					desc = ""
+					picture = "gfx/leaders/KOR/KMS.dds"
+					expire = "1965.1.1"
+					ideology = conservatism
+					traits = {
+
+					}
+				}
+				hidden_effect = {
+					create_country_leader = {
+						name = "Kim Moon Soo"
+						desc = ""
+						picture = "gfx/leaders/KOR/KMS.dds"
+						expire = "1965.1.1"
+						ideology = rexism
+						traits = {
+
+						}
+					}
+				}
+			}	
+			if = {
+				limit = {
+					has_completed_focus = KOR_MB_lee_hoi_chang
+				}
+				
+				create_country_leader = {
+					name = "Lee Hoi-Chang"
+					desc = ""
+					picture = "gfx/leaders/KOR/Lee_Hoi-chang.dds"
+					expire = "1965.1.1"
+					ideology = conservatism
+					traits = {
+
+					}
+				}
+				hidden_effect = {
+					create_country_leader = {
+						name = "Lee Hoi-Chang"
+						desc = ""
+						picture = "gfx/leaders/KOR/Lee_Hoi-chang.dds"
+						expire = "1965.1.1"
+						ideology = rexism
+						traits = {
+
+						}
+					}
+				}
+			}	
 		}
 
 	}
@@ -3207,12 +3634,10 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_united_nation
-		icon = goal_unknown
+		icon = union_representation_act
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_4
-		}
-		prerequisite = {
 			focus = KOR_2
 		}
 		prerequisite = {
@@ -3220,6 +3645,9 @@ focus_tree = {
 		}
 		x = 61
 		y = 14
+		completion_reward = {
+			add_ideas = KOR_earth_is_korea
+		}
 
 	}
 	focus = {
@@ -3265,6 +3693,14 @@ focus_tree = {
 		}
 		x = 51
 		y = 14
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				remove_core_of = JAP
+			}
+		}
 
 	}
 	focus = {
@@ -3286,35 +3722,105 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_1
-		icon = goal_unknown
+		icon = political_pressure_blue
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_ww2_plan
 		}
 		x = 61
 		y = 12
+		available = {
+			if = {
+				limit = {
+					has_completed_focus = KOR_MB_minju_won
+				}
+				has_government = democratic
+			}
+			if = {
+				limit = {
+					has_completed_focus = KOR_MB_consorvatism_won
+				}
+				OR = {
+					has_government = democratic
+					has_government = fascism
+				}	
+				NOT = {
+					has_completed_focus = KOR_3
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_completed_focus = KOR_MB_consorvatism_won
+						has_completed_focus = KOR_MB_minju_won
+					}
+				}	
+					has_government = democratic
+			}
+		}
+		completion_reward = {
+			
+			ENG = {
+				country_event = {
+					id = generic.2
+					days = 2
+				}
+			}
+		}
 
 	}
 	focus = {
 		id = KOR_2
-		icon = goal_unknown
+		icon = puntland_state_university
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_1
 		}
 		x = 61
 		y = 13
+		completion_reward = {
+			if = {
+				limit = {
+					has_government = democratic
+				}
+			add_popularity = {
+				ideology = democratic
+				popularity = 1
+			}
+			}
+			if = {
+				limit = {
+					has_government = fascism
+				}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.5
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.5
+			}
+			}
+			add_stability = 0.05
+		}
 
 	}
 	focus = {
 		id = KOR_4
-		icon = goal_unknown
+		icon = war_against_germany
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_3
 		}
 		x = 59
 		y = 13
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.05
+			}
+			add_political_power = 140
+		}
 
 	}
 	focus = {
@@ -3332,6 +3838,9 @@ focus_tree = {
 		}
 		x = 20
 		y = 13
+		available = {
+			date > 1939.12.19
+		}	
 		completion_reward = {
 			create_country_leader = {
 				name = "Moon Jae-In"
@@ -3343,6 +3852,8 @@ focus_tree = {
 					
 				}
 			}
+					remove_ideas = kor_law_of_korean_5
+			remove_ideas = KOR_north_south_problem
 			hidden_effect = {
 			create_country_leader = {
 				name = "Moon Jae-In"
@@ -3486,5 +3997,4 @@ focus_tree = {
 		}
 	}
 	shared_focus = KOR_anarchy_commune
-	
 }
