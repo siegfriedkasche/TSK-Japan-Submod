@@ -231,4 +231,30 @@
 			always = no
 		}
 	}
+	carrier_m_1970_cv_jet_cas_equipment = { #tlsgmd
+
+		enable_equipments = { 
+			carrier_m_1970_cv_jet_cas_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	carrier_m_1990_cv_jet_fighter_equipment = { #tlsgmd
+
+		enable_equipments = { 
+			carrier_m_1990_cv_jet_fighter_equipment
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 }
