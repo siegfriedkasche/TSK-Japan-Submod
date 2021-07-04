@@ -631,28 +631,7 @@ focus_tree = {
 			country_event = { id = MJP.5}
 		}
 	}
-	focus = {
-		id = MJP_Election
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_2
-		}
-		mutually_exclusive = {
-			focus = Military
-		}
-		x = 21
-		y = 7
-		completion_reward = {
-			hidden_effect = {
-							country_event = {
-									id = MJP.6
-									days = 0
-								}
-						}
-			country_event = { id = MJP.6}
-		}
-	}
+
 	focus = {
 		id = Liberal_Democratic_Party
 		icon = GFX_goal_unknown
@@ -1628,6 +1607,9 @@ focus_tree = {
 		id = Liberal_Democratic_Party
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+			always = no
+		}
 		prerequisite = {
 			focus = MJP_Election
 		}
@@ -1636,7 +1618,10 @@ focus_tree = {
 		}
 		x = 15
 		y = 8
-
+		completion_reward = {
+		
+		}
+		
 	}
 	focus = {
 		id = Grants
@@ -1707,6 +1692,9 @@ focus_tree = {
 		id = Constitution
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+			always = no
+		}
 		prerequisite = {
 			focus = MJP_Election
 		}
@@ -1755,6 +1743,9 @@ focus_tree = {
 		id = Non_alliance
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+			always = no
+		}
 		prerequisite = {
 			focus = MJP_Election
 		}
@@ -1764,7 +1755,22 @@ focus_tree = {
 		}
 		x = 23
 		y = 8
-
+		completion_reward = {
+			set_politics = {
+				ruling_party = neutrality 
+				elections_allowed = no
+				last_election = "1935.12.17"
+			}
+			add_popularity = {
+				ideology = neutrality 
+				popularity = 0.5
+			}
+			set_party_name = { 
+				ideology = neutrality 
+				long_name = 일본사회당
+				name = 일본사회당 
+			}
+		}
 	}
 	focus = {
 		id = Employment
@@ -1827,6 +1833,9 @@ focus_tree = {
 		id = Communism
 		icon = GFX_MJP_commune
 		cost = 10.00
+		available = {
+			always = no
+		}
 		prerequisite = {
 			focus = MJP_Election
 		}
@@ -1835,7 +1844,17 @@ focus_tree = {
 		}
 		x = 27
 		y = 8
-
+		completion_reward = {
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+				last_election = "1935.12.17"
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.5
+			}
+		}
 	}
 	focus = {
 		id = MJP_Cabinet_of_Hashimoto
