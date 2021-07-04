@@ -1,0 +1,108 @@
+﻿l_english:
+
+ GDP_TOOLTIP_BASE:0 "월간 변경사항\n국민 소비로 인한 이익: [?national_consumption|G3] B\n무역으로 인한 이익: [?resource_export|G3] B\n무기 판매로 인한 이익: [?weapon_export|G3] B\n정부의 투자로 인한 이익: [?governmental_investment|G3] B\n\n군사비 지출 감소: [?military_spend|R3] B\n군사비 유지로 인한 감소: [?militaryfactory_upkeep|R3] B\n무기 수입으로 감소: [?weapon_import|R3] B\n\n현재 경제 수준에서는 다음과 같은 효과를 얻을 수 있습니다.:\n\n연구 속도: [?gdp_research_factor|%Y]\n일일 정치력 획득: [?gdp_political_power_factor|%G]\n민간 공장 건설 속도: [?gdp_per_production_speed_civ_factor|%Y]\n안정도 변화: [?gdp_per_stability_factor|%Y]\n\n무기 수출을 통해 다음과 같은 효과를 얻을 수 있습니다.:\n\n군수 공장 건설 속도: [?weapon_export_construction|%G]\n조선소 건설 속도: [?weapon_export_construction|%G]\n민간 공장 건설 속도: [?weapon_export_construction|%G]\n\n무기 수입을 통해 다음과 같은 효과를 얻을 수 있습니다.:\n\n연구 속도: [?weapon_import_research|%G]\n소비재 변화: [?weapon_import_consumer|%R]\n\n"
+ GDP_MAIN:0         "[?gdpmn|3] B"
+ GDP_TOOLTIP:0    "[Root.GetGDPTooltip]"
+
+
+ #######################table definations###########################
+
+ GDP_TITLE_SL:0 "[Root.GetGDPTitle]"
+ GDP_TITLE:0 "세계 국가 GDP"
+
+ GDP_TABLE_OPEN:0 "GDP 열기"
+
+ TABLE_COUNTRY_TT:0 ""
+ TABLE_SORT_TT:0 "정렬하여 보기"
+ TABLE_GROUP_TT:0 "그룹으로 보기"
+ TABLE_REFRESH_TT:0 "이름별로 보기"
+
+ Table_Country:0 "국가"
+ Table_GDP:0 "GDP"
+ Table_GDP_GROWTH:0 "GDP 성장률"
+ Table_POPULATION:0 "인구"
+ Table_POPULATION_CORE:0 "핵심 인구"
+ Table_GDP_PER_CAPITA:0 "1인당 소득"
+ Table_GDP_PER_CAPITA_CORE:0 "1인당 소득 (핵심)"
+ Table_PROPORTION:0 "비율"
+ 
+ GDP_core_modifiers:0 "경제 수준"
+ 
+ #some Decisions#
+ economy_investment_decision:0            "투자"
+ economy_investment_decision_desc:0       "우리의 GDP : [?gdpmn|Y3] B.\n\n훌륭한 정부는 권력의 범위 내에서 일부 조치들을 시행함으로써 국가 경제를 규제하고 통제하는 방법에 대해 전문적이여야 합니다."
+ economy_invest_small:0           "소규모 투자"
+ economy_invest_small_desc:0      "소규모 투자로 인한 GDP 성장: [?governmental_investment|G3] B"
+ economy_invest_medium:0          "중규모 투자"
+ economy_invest_medium_desc:0     "중규모 투자로 인한 GDP 성장: [?governmental_investment|G3] B"
+ economy_invest_large:0           "대규모 투자"
+ economy_invest_large_desc:0      "대규모 투자로 인한 GDP 성장: [?governmental_investment|G3] B"
+ 
+ ######weapon trade relate########
+ weapon_export_modifiers:0 "무기 수출"
+ weapon_import_modifiers:0 "무기 수입"
+ ######store########
+ OFFER_WEAPON_TRADE_TITLE:0 "무기 수입"
+ OFFER_WEAPON_TRADE_ACTION_DESC:0 "다른 국가에서 무기를 수입해야 합니다."
+ INFANTRY_INFO:0 "보병 무기 선택"
+ ARMOR_INFO: "기갑 무기 선택"
+ AIR_INFO: "공군 무기 선택"
+ NAVAL_INFO:"해군 무기 선택"
+ ECONO_TOTAL_COST:0 "총 비용:[?econo_total_cost]"
+ ECONO_BUY:0 "구매"
+ BUY_INFO:0 "클릭하여 구입"
+ ECONO_CART_NUM:0 "구매 금액"
+ TOTAL_COST_LIMIT:0 "최소한의 비용은 다음과 같습니다. §R0.1B§!"
+ COST_LIMITS: "비용 한도는 귀사의 §C경제 수준§!에 따라 다릅니다. §C20% 이상의 GDP를 지출해서는 안 됩니다.§!"
+ ECONO_REFRESH:0 "새로고침"
+ REFRESH_INFO:0 "클릭하여 새로고침"
+ ENOUGH:0 "§G충분함§!"
+ LACK:0 "§R부족함§!"
+ NOMAL: "§Y보통§!"
+ 
+ econo_ai_will_accept_it:0 "§Y받아들임§!"
+ econo_ai_will_not_accept:0 "§Y거절§!"
+ between_opinion:0 "우리와의 관계"
+ selected_weapons:0 "무기 선택"
+ base_relaxion:0 "기준값"
+ econo_trade_success:0 "군수 무역 상대국"
+ 
+ ########store elements
+ CART_ADD_1:0 "1 추가"
+ CART_ADD_10:0 "10 추가"
+ CART_ADD_100:0 "100 추가"
+ CART_ADD_1000:0 "1000 추가"
+ CART_ADD_10000:0 "10000 추가"
+ CART_SUB_1:0 "1 제거"
+ CART_SUB_10:0 "10 제거"
+ CART_SUB_100:0 "100 제거"
+ CART_SUB_1000:0 "1000 제거"
+ CART_SUB_10000:0 "10000 제거"
+ CARTNAME_1:0 "[From.GETCARTNAME_1]"
+ CARTNAME_2:0 "[From.GETCARTNAME_2]"
+ CARTNAME_3:0 "[From.GETCARTNAME_3]"
+ CARTNAME_4:0 "[From.GETCARTNAME_4]"
+ CARTNAME_5:0 "[From.GETCARTNAME_5]"
+ CARTNAME_6:0 "[From.GETCARTNAME_6]"
+ 
+ # assert freeze options #
+ FREEZE_ASSETS_TITLE:0 "자산 동결"
+ FREEZE_ASSETS_ACTION_DESC:0 "우리나라의 대상 자산 차단"
+ CANCEL_FREEZE_ASSETS_TITLE:0 "자산 동결 취소"
+ CANCEL_FREEZE_ASSETS_ACTION_DESC:0 "대상에 대한 자산 동결 취소"
+ FREEZE_ALLOWED:0 "허용"
+ FREEZE_DENIED:0 "비허용"
+ IMPOSE_ASSET_FREEZING_TARGET_TITLE:0 "자산 차단됨"
+ IMPOSE_ASSET_FREEZING_TARGET_DESC:0 "이 나라에 있는 우리의 자산은 차단되었습니다."
+ CANCEL_FREEZING_TARGET_TITLE:0 "자산 회수"
+ CANCEL_FREEZING_TARGET_DESC:0 "이 나라의 동결된 자산이 해제되었습니다."
+ CANCEL_FREEZING_ALLOWED:0 "허용"
+ CANCEL_FREEZING_DENIED:0 "비허용"
+ new_freeze:0 "자산 동결"
+ new_freeze_opinion:0 "자산 동결"
+ freeze_lifted:0 "자산 동결 해제"
+ freeze_criticism:0 "무역 불평등"
+ freeze_static_modifier:0 "무역 차단"
+ 
+
+########### equipments ########

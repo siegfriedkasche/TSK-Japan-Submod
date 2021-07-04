@@ -1,0 +1,28 @@
+opinion_modifiers = {
+
+	econo_trade_success = {	
+		value = 15
+		decay = 3	
+	}
+
+	new_freeze = {
+		trade = yes
+		value = -500
+	}
+	
+	freeze_criticism = {	
+		value = -3
+		decay = 1			
+	}
+	
+	new_freeze_opinion = {
+		value = -50
+	}
+	
+	freeze_lifted = {
+		value = 20
+		#days = 10
+		decay = 10
+	}
+	
+}
