@@ -60,8 +60,7 @@ country_event = {
 		country_event = {
 		    id = MTU.2
 			days = 7
-		}
-		add_ideas = hanguo_nochong
+		}	
 		set_cosmetic_tag = KOR_UNI
 		}
 
@@ -80,8 +79,478 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 		}
+		
 		hidden_effect = {
-		set_country_flag = big_event_metal_union
+			set_country_flag = big_event_metal_union
+			FKU = {
+				set_country_flag = FKU_civil_war
+				transfer_state = 817
+				transfer_state = 809
+				transfer_state = 808
+				transfer_state = 813
+				declare_war_on = {
+    				target = KOR
+    				type = civil_war
+				}
+				
+			}
+			KOR = {
+				division_template = {
+					name = "militia"
+					is_locked = yes
+					priority = 9764
+					template_counter = 0
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 1 y = 3 }
+					}
+					support = { 
+					
+					} 
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = KOR
+					}
+				}
+			}
+			FKU = {
+    			division_template = {
+					name = "militia"
+					is_locked = yes
+					is_locked = yes
+					priority = 9764
+					template_counter = 0
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 1 y = 3 }
+					}
+					support = { 
+					
+					} 
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}random_owned_controlled_state = {
+					prioritize = { 9764 } 
+					create_unit = {
+						division = "name = \"militia\" division_template = \"militia\" start_experience_factor =0.6"
+						owner = FKU
+					}
+				}
+			}
 		}
 		remove_ideas = anarchist_social
 	}
@@ -127,7 +596,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = MTU.5 #철의 노동자
+	id = MTU.5 #강철의 대오
 	title = MTU.5.t
 	desc = MTU.5.d
 	picture = GFX_devide_commune_for_union
@@ -142,7 +611,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = MTU.6 #철의 노동자
+	id = MTU.6 #제1의 노동조합
 	title = MTU.6.t
 	desc = MTU.6.d
 	picture = GFX_devide_commune_for_union
@@ -154,5 +623,163 @@ country_event = {
 		ai_chance = {
 		    factor = 0
 		} 
+	}
+}
+country_event = {
+	id = MTU.7 #위원장 선거일
+	title = MTU.7.t
+	desc = MTU.7.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.7.a
+		ai_chance = {
+		    factor = 0
+		} 
+		add_country_leader_trait = choose_people
+
+	}
+}
+country_event = {
+	id = MTU.8 #민주적 노동조합의 전통
+	title = MTU.8.t
+	desc = MTU.8.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.8.a
+		ai_chance = {
+		    factor = 0
+		} 
+		
+	}
+}
+
+country_event = {
+	id = MTU.9 #민주적 노동조합의 전통
+	title = MTU.9.t
+	desc = MTU.9.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.9.a
+		ai_chance = {
+		    factor = 0
+		} 
+		country_lock_all_division_template = no
+	}
+}
+
+country_event = {
+	id = MTU.10 #통일노동조합전선
+	title = MTU.10.t
+	desc = MTU.10.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.10.a
+		ai_chance = {
+		    factor = 0
+		} 
+		create_faction = 통일노동조합전선
+	}
+}
+country_event = {
+	id = MTU.11 #
+	title = MTU.11.t
+	desc = MTU.11.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.11.a
+		ai_chance = {
+		    factor = 0
+		}
+		country_event = {
+		    id = MTU.12
+		}
+	}
+}
+country_event = {
+	id = MTU.12 
+	title = MTU.12.t
+	desc = MTU.12.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.12.a
+		ai_chance = {
+		    factor = 0
+		}
+		country_event = {
+		    id = MTU.13
+		}
+	}
+}
+country_event = {
+	id = MTU.13 
+	title = MTU.13.t
+	desc = MTU.13.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.13.a
+		ai_chance = {
+		    factor = 0
+		}
+		country_event = {
+		    id = MTU.14
+		}
+	}
+}
+country_event = {
+	id = MTU.14 
+	title = MTU.14.t
+	desc = MTU.14.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.14.a
+		ai_chance = {
+		    factor = 0
+		}
+		country_event = {
+		    id = MTU.15
+		}
+	}
+}
+country_event = {
+	id = MTU.16
+	title = MTU.16.t
+	desc = MTU.16.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.16.a
+		ai_chance = {
+		    factor = 0
+		} 
+		delete_unit_template_and_units = {
+    		division_template = "militia"
+    		disband = no
+		}
 	}
 }

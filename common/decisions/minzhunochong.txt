@@ -83,7 +83,7 @@ minzhunochong_categories = {
 	}
 	minzhunochong_4 = {
 		available = {
-			has_idea = hanguo_nochong_2
+			has_idea = hanguo_nochong_3
 		}
 		allowed  = {
 		    tag = kor
@@ -110,7 +110,7 @@ minzhunochong_categories = {
 	}
 	minzhunochong_5 = {
 		available = {
-			has_idea = hanguo_nochong_2
+			has_idea = hanguo_nochong_4
 		}
 		allowed  = {
 		    tag = kor
@@ -137,7 +137,7 @@ minzhunochong_categories = {
 	}
 	minzhunochong_6 = {
 		available = {
-			has_idea = hanguo_nochong_2
+			has_idea = hanguo_nochong_5
 		}
 		allowed  = {
 		    tag = kor

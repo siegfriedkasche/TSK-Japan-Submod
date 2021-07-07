@@ -23,6 +23,10 @@ FIN_KAR = {
 	color = rgb { 255 255 255 }
 	color_ui = rgb { 255 255 255 }
 }
+MZN_KOR = {
+	color = rgb { 201 0 0 }
+	color_ui = rgb { 201 0 0 }
+}
 KOR_UNI = {
 	color = rgb { 205  0  0 }
 	color_ui = rgb { 205  0  0 }
@@ -39,7 +43,6 @@ IDL_CAP = {
 	color = rgb { 0  0  0 }
 	color_ui = rgb { 0  0  0 }
 }
-
 AVA_KOR = {
 	color = rgb { 70  0  123 }
 	color_ui = rgb { 70  0  123 }

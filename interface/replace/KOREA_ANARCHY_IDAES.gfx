@@ -161,7 +161,18 @@ spriteTypes = {
 		name = "GFX_idea_park_ideas"
 		texturefile = "gfx/interface/ideas/park_ideas.png"
 	}
-	
+	spriteType = {
+		name = "GFX_idea_democratic_industrial_environment"
+		texturefile = "gfx/interface/ideas/democratic_industrial_environment.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MZN_struggle_system"
+		texturefile = "gfx/interface/ideas/MZN_struggle_system.png"
+	}
+	spriteType = {
+		name = "GFX_idea_democracy_in_this_land"
+		texturefile = "gfx/interface/ideas/democracy_in_this_land.png"
+	}
 	########################초상화########################
 	
 	spriteType = {

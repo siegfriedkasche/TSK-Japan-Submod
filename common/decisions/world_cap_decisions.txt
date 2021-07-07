@@ -1,0 +1,370 @@
+world_cap_decisions_categories = {
+ 	world_cap_decisions_GXC = {
+		available = {
+			
+		}
+		visible = {
+			GXC = {
+				exists = yes
+			}
+        }
+		ai_will_do = {
+			factor = 50
+		}
+
+		fire_only_once = yes
+		cost = 50
+		days_remove = 30
+		
+		remove_effect = {
+			declare_war_on = {
+    			target = GXC
+    			type = annex_everything
+			}
+		}
+	}
+	world_cap_decisions_SHX = {
+		available = {
+			
+		}
+		visible = {
+			SHX = {
+				exists = yes
+			}
+        }
+		ai_will_do = {
+			factor = 50
+		}
+
+		fire_only_once = yes
+		cost = 50
+		days_remove = 30
+		
+		remove_effect = {
+			declare_war_on = {
+    			target = SHX
+    			type = annex_everything
+			}
+		}
+	}
+	world_cap_decisions_PRC = {
+		available = {
+			
+		}
+		visible = {
+			PRC = {
+				exists = yes
+			}
+        }
+		ai_will_do = {
+			factor = 50
+		}
+
+		fire_only_once = yes
+		cost = 50
+		days_remove = 30
+		
+		remove_effect = {
+			declare_war_on = {
+    			target = PRC
+    			type = annex_everything
+			}
+		}
+	}
+	world_cap_decisions_SIK = {
+		available = {
+			
+		}
+		visible = {
+			SIK = {
+				exists = yes
+			}
+        }
+		ai_will_do = {
+			factor = 50
+		}
+
+		fire_only_once = yes
+		cost = 50
+		days_remove = 30
+		
+		remove_effect = {
+			declare_war_on = {
+    			target = SIK
+    			type = annex_everything
+			}
+		}
+	}
+	world_cap_decisions_XSM = {
+		available = {
+			
+		}
+		visible = {
+			XSM = {
+				exists = yes
+			}
+        }
+		ai_will_do = {
+			factor = 50
+		}
+
+		fire_only_once = yes
+		cost = 50
+		days_remove = 30
+		
+		remove_effect = {
+			declare_war_on = {
+    			target = XSM
+    			type = annex_everything
+			}
+		}
+	}
+	world_cap_decisions_YUN = {
+		available = {
+			
+		}
+		visible = {
+			YUN = {
+				exists = yes
+			}
+        }
+		ai_will_do = {
+			factor = 50
+		}
+
+		fire_only_once = yes
+		cost = 50
+		days_remove = 30
+		
+		remove_effect = {
+			declare_war_on = {
+    			target = YUN
+    			type = annex_everything
+			}
+		}
+	}
+	world_cap_decisions_TIB = {
+		available = {
+			
+		}
+		visible = {
+			TIB = {
+				exists = yes
+			}
+        }
+		ai_will_do = {
+			factor = 50
+		}
+
+		fire_only_once = yes
+		cost = 50
+		days_remove = 30
+		
+		remove_effect = {
+			declare_war_on = {
+    			target = TIB
+    			type = annex_everything
+			}
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = TIB
+					}
+					add_core_of = ROOT
+				}
+			}
+		} 
+	}
+	world_cap_decisions_SIA = {
+		available = {
+			
+		}
+		visible = {
+			SIA = {
+				exists = yes
+			}
+        }
+		ai_will_do = {
+			factor = 50
+		}
+
+		fire_only_once = yes
+		cost = 50
+		days_remove = 30
+		
+		remove_effect = {
+			declare_war_on = {
+    			target = SIA
+    			type = annex_everything
+			}
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = SIA
+					}
+					add_core_of = ROOT
+				}
+			}
+		} 
+	}
+	MZN_guardian_of_INS = {
+
+		icon = jap_pacific_guardian
+
+		available = {
+			HOL = {
+				#has_capitulated = yes
+			}
+			"INS" = {
+				is_puppet_of = HOL
+			}
+		}
+
+		fire_only_once = yes
+
+
+		modifier = {
+
+		}
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 50
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+			HOL = { country_event = { id = wtt_japan.1 } }
+		}
+	}
+
+	MZN_guardian_of_MAL = {
+
+		icon = jap_pacific_guardian
+
+		available = {
+			ENG = {
+				#has_capitulated = yes
+			}
+			MAL = {
+				is_puppet_of = ENG
+			}
+		}
+
+		fire_only_once = yes
+
+
+		modifier = {
+
+		}
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 50
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+			ENG = { country_event = { id = wtt_japan.1 } }
+		}
+	}
+
+	MZN_guardian_of_indochina = {
+
+		icon = jap_pacific_guardian
+
+		available = {
+			FRA = {
+				#has_capitulated = yes
+				OR = {
+					has_full_control_of_state = 670
+					has_full_control_of_state = 671
+					has_full_control_of_state = 286
+					has_full_control_of_state = 741
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+
+		modifier = {
+
+		}
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 50
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+			FRA = { country_event = { id = wtt_japan.1 } }
+			hidden_effect = {
+			every_state = {
+				limit = {
+					is_core_of = VIN
+				}
+				add_core_of = ROOT
+			}
+			every_state = {
+				limit = {
+					is_core_of = LAO
+				}
+				add_core_of = ROOT
+			}
+			every_state = {
+				limit = {
+					is_core_of = CAM
+				}
+				add_core_of = ROOT
+			}
+			}
+			
+		}
+	}
+	world_cap_decisions_SOV = {
+		available = {
+			has_army_manpower = { size > 999999 }
+		}
+		visible = {
+			SOV = {
+				exists = yes
+			}
+        }
+		ai_will_do = {
+			factor = 50
+		}
+
+		fire_only_once = yes
+		cost = 150
+		days_remove = 60
+		
+		remove_effect = {
+			create_wargoal = {
+    			type = annex_everything
+    			target = SOV
+			}
+			news_event = {
+    			id = Ana_news.8
+			}
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = SOV
+					}
+					add_core_of = ROOT
+				}
+			}
+		} 
+	}
+}

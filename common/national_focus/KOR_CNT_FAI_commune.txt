@@ -17,6 +17,14 @@ focus_tree = {
 			completion_reward = {
 					custom_effect_tooltip = ended_CNT_END_Delegate_meeting
 					add_ideas = Unstable_commune
+					hidden_effect = {
+						every_state = {
+							limit = {
+								is_core_of = KPA
+							}
+							add_core_of = ROOT
+						}
+					}
 				}
 
 	}
@@ -140,6 +148,12 @@ focus_tree = {
 		id = kor_mtu_union_chairman
 		icon = GFX_goal_unknown
 		cost = 10.00
+		available = {
+			has_war = no
+		}
+		cancel = {
+			has_war = yes
+		}
 		prerequisite = {
 			focus = kor_MTU_member_intrusion
 		}
@@ -192,7 +206,12 @@ focus_tree = {
 		}
 		x = 28
 		y = 5
-
+		completion_reward = {
+			leave_faction = yes
+			country_event = {
+				id = MTU.10
+			}
+		}
 	}
 	focus = {
 		id = KOR_social_security_system
@@ -203,7 +222,11 @@ focus_tree = {
 		}
 		x = 27
 		y = 6
-
+		completion_reward = {
+		add_manpower = 10000
+		add_stability = 0.1
+		add_political_power = 100
+		}
 	}
 	focus = {
 		id = KOR_MTU_defened_Agriculture
@@ -214,7 +237,41 @@ focus_tree = {
 		}
 		x = 26
 		y = 7
-
+		completion_reward = {
+			817 = { add_extra_state_shared_building_slots = 3 }
+			808 = { add_extra_state_shared_building_slots = 3 }
+			809 = { add_extra_state_shared_building_slots = 3 }
+		    813 = { add_extra_state_shared_building_slots = 3 }
+			
+			817 = { 
+				add_building_construction = {
+    				type = industrial_complex 
+    				level = 2
+    				instant_build = yes
+				}
+			}
+			808 = { 
+				add_building_construction = {
+    				type = industrial_complex 
+    				level = 2
+    				instant_build = yes
+				}
+			}
+			809 = { 
+				add_building_construction = {
+    				type = industrial_complex 
+    				level = 2
+    				instant_build = yes
+				}
+			}
+			813 = { 
+				add_building_construction = {
+    				type = industrial_complex 
+    				level = 1
+    				instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_united_union_program
@@ -225,7 +282,12 @@ focus_tree = {
 		}
 		x = 30
 		y = 5
-
+		completion_reward = {
+		country_event = {
+		    id = MTU.9
+		}
+		
+		}
 	}
 	focus = {
 		id = KOR_MTU_industrial_union
@@ -236,7 +298,11 @@ focus_tree = {
 		}
 		x = 31
 		y = 6
-
+		completion_reward = {
+			country_event = {
+				id = MTU.11
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_Gapdeuk_Jeong
@@ -294,7 +360,10 @@ focus_tree = {
 		}
 		x = 32
 		y = 7
-
+		completion_reward = {
+			add_manpower = 10000
+			add_stability = 0.1
+		}
 	}
 	focus = {
 		id = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
@@ -442,6 +511,24 @@ focus_tree = {
    	   	   	target = CHI
    	   	   	type = annex_everything
    	   	}
+		every_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_core_of = ROOT
+			}
+			every_state = {
+				limit = {
+					is_core_of = MAN
+				}
+				add_core_of = ROOT
+			}
+			every_state = {
+				limit = {
+					is_core_of = CHI
+				}
+				add_core_of = ROOT
+			}
 		}
 	}
 	focus = {
@@ -1654,6 +1741,23 @@ focus_tree = {
 		}
 		x = 29
 		y = 6
+		completion_reward = {
+			set_cosmetic_tag = MZN_KOR
+			set_party_name = { 
+    			ideology = communism 
+    			long_name = 전국민주노동조합총연맹 
+    			name = 전국민주노동조합총연맹 
+			}
+			set_popularities = {
+	    		democratic = 15
+	    		neutrality = 5
+	    		fascism = 30
+	    		communism = 50
+	    	}
+			country_event = {
+				id = MTU.8
+			}
+		}
 
 	}
 	focus = {
@@ -1668,7 +1772,10 @@ focus_tree = {
 		}
 		x = 30
 		y = 7
-
+		completion_reward = {
+			add_ideas = MZN_struggle_system
+			add_stability = 0.1
+		}
 	}
 	focus = {
 		id = KOR_MTU_Confederation_of_Trade_Unions_of_the_World
@@ -1682,7 +1789,35 @@ focus_tree = {
 		}
 		x = 31
 		y = 8
-
+		completion_reward = {
+		    unlock_decision_category_tooltip = world_cap_decisions_categories
+		    declare_war_on = {
+    		    target = CHI
+    		    type = annex_everything
+		    }
+			declare_war_on = {
+    		    target = JAP
+    		    type = annex_everything
+		    }
+			every_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_core_of = ROOT
+			}
+			every_state = {
+				limit = {
+					is_core_of = CHI
+				}
+				add_core_of = ROOT
+			}
+			every_state = {
+				limit = {
+					is_core_of = MAN
+				}
+				add_core_of = ROOT
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_democratic_work_environment
@@ -1696,7 +1831,10 @@ focus_tree = {
 		}
 		x = 28
 		y = 7
-
+		completion_reward = {
+		    add_ideas = democratic_industrial_environment
+			add_manpower = 10000
+		}
 	}
 	focus = {
 		id = KOR_MTU_Joint_Bargaining_by_Industry
@@ -1710,7 +1848,28 @@ focus_tree = {
 		}
 		x = 29
 		y = 8
-
+		completion_reward = {
+		    add_ideas = industrial_struggle
+			add_war_support = 0.1
+			add_manpower = 10000
+			817 = { add_extra_state_shared_building_slots = 3 }
+		    809 = { add_extra_state_shared_building_slots = 3 }
+			
+			817 = { 
+				add_building_construction = {
+    				type = arms_factory
+    				level = 3
+    				instant_build = yes
+				}
+			}
+			809 = { 
+				add_building_construction = {
+    				type = arms_factory 
+    				level = 3
+    				instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_democracy_in_this_land
@@ -1727,12 +1886,21 @@ focus_tree = {
 		}
 		x = 30
 		y = 9
-
+		completion_reward = {
+			add_stability = 0.1
+			swap_ideas = {
+				remove_idea = Unstable_commune
+				add_idea = democracy_in_this_land
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_democratic_government
 		icon = GFX_KOR_MTU_democratic_government
 		cost = 10.00
+		available = {
+		democratic > 0.6
+		}
 		prerequisite = {
 			focus = KOR_MTU_Joint_Bargaining_by_Industry
 		}
@@ -1741,7 +1909,36 @@ focus_tree = {
 		}
 		x = 28
 		y = 9
-
+		completion_reward = {
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+				last_election = "1935.12.17"
+				election_frequency = 48
+			}
+			set_party_name = { 
+				ideology = democratic
+				long_name = 전국민주노동조합총연맹
+				name = 전국민주노동조합총연맹
+			}
+			set_political_party = {
+    			ideology = democratic
+    			popularity = 70
+			}
+			create_country_leader = {
+    			name = "김영훈"
+    			desc = "김영훈 민주노총 위원장"
+    			picture = "gfx/leaders/ANA/Kim_Young-hoon.png"
+    			expire = "1965.1.1"
+    			ideology = socialism
+    			traits = {
+					
+    			}
+    		}
+			country_event = {
+			    id = MTU.7
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_confiscation_of_monopoly_capital
@@ -1755,6 +1952,12 @@ focus_tree = {
 		}
 		x = 27
 		y = 8
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = confiscation_of_monopoly_capital
+				days = 180
+			}
+			remove_ideas = Corporate_remnants
+		}
 	}
 }

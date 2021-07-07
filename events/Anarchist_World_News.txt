@@ -137,6 +137,7 @@ news_event = {
 		}
 	}
 }
+
 news_event = {
 	id = Ana_news.7
 	title = Ana_news.7.t
@@ -152,5 +153,46 @@ news_event = {
 		hidden_effect = {
 			set_country_flag = big_event_CNT_FAI
 		}
+	}
+}
+news_event = {
+	id = Ana_news.8
+	title = Ana_news.8.t
+	desc = Ana_news.8.d
+	picture = 
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ana_news.8.a
+		trigger = {
+			NOT = {
+				tag = KOR
+				tag = SOV
+			}
+		}
+	}
+	option = {
+		name = Ana_news.8.K
+		trigger = { 
+			tag = KOR 
+		}
+		hidden_effect = {
+			transfer_state = 408
+			SOV = {
+			    declare_war_on = {
+			    	target = KOR
+    				type = puppet_wargoal_focus
+				}
+			}
+		}
+	}
+	option = {
+		name = Ana_news.8.S
+		trigger = { 
+			tag = SOV 
+		}	
 	}
 }

@@ -1,0 +1,83 @@
+on_actions = {
+    on_daily = {
+        effect = {
+            if = {
+                limit = {
+                    FKU = {
+                        surrender_progress > 0.99
+                    }
+                    and = {
+                        KOR = {
+                            has_war_with = FKU
+                        }
+                    }
+                }
+                KOR = {
+                    white_peace = {
+                        tag = FKU
+                        message = peace_in_korea
+                    }
+					annex_country = {
+    					target = FKU
+    					transfer_troops = yes
+					}
+					country_event = {
+						id = MTU.16
+						days = 2
+					}
+					add_ideas = hanguo_nochong
+                }
+				FKU = {
+					every_state = {
+						remove_state_core = FKU
+					}
+				}
+            }
+        }
+    }
+	on_war = {
+		effect = {
+            if = {
+                limit = {
+                    FKU = {
+                        has_country_flag = FKU_civil_war
+                    }
+                    and = {
+                        KOR = {
+                            has_war_with = FKU
+                        }
+                    }
+                }
+                KOR = {
+                    transfer_units_fraction= {
+						target = FKU
+						size = 0.3
+						stockpile_ratio = 0.3
+						army_ratio = 0.3
+						navy_ratio = 0.3
+						air_ratio = 0.3
+						keep_unit_leaders_trigger = {
+							has_trait = trait_SPA_nationalist_sympathies
+						}
+					}
+					
+					teleport_armies = {
+    					limit = {
+        					has_war_together_with = FKU
+    					}
+    					to_state = 525
+					}
+                }
+				every_state = {
+					limit = {
+						is_core_of = KOR
+					}
+					add_core_of = FKU
+				}
+				FKU = {
+					clr_country_flag = FKU_civil_war
+				}
+            }
+        }
+	}
+}

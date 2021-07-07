@@ -14,14 +14,13 @@ park_categories = {
 
 	picture = GFX_decision_hanguo_nochong
 	priority = 250
-	allowed  = {
-		    tag = kor
-		}
-		visible = {
-            has_country_leader = {
-                name = "Park Geunhye"
-                ruling_only = yes
+	visible = {
+        and = {
+			has_country_leader = {
+				name = "Park Geunhye"
+				ruling_only = yes
             }
 			owns_state = 328
-        }
+		}
+    }
 }

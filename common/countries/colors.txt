@@ -11,6 +11,10 @@ DMZ = {
 	color = rgb { 0  0  2 }
 	color_ui = rgb { 0  0  2 }
 }
+FKU = {
+	color = rgb { 0  70  201 }
+	color_ui = rgb { 0  70  201 }
+}
 RUR = {
 	color = rgb { 0  25  71 }
 	color_ui = rgb { 0  25  71 }

@@ -230,3 +230,106 @@ ideas = {#한국노총 대립
 			}
 		}
 	}
+	country = {
+		democracy_in_this_land = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = democracy_in_this_land
+			
+			modifier = {
+				war_support_factor	 = -0.3
+				democratic_drift = 0.03
+				surrender_limit	 = 0.3
+				local_resources = 0.2
+			}
+		}
+	}
+	country = {
+		industrial_struggle = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = FRA_scw_intervention_republicans_focus
+			
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor	 = 0.1
+				army_speed_factor	 =  0.1
+			}
+		}
+	}
+	country = {
+		confiscation_of_monopoly_capital = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = Monopoly_Capital_Regulation
+			
+			modifier = {
+				stability_factor = 0.10
+				consumer_goods_factor = -0.07
+				industrial_capacity_factory = 0.1
+			}
+		}
+	}
+	country = {
+		democratic_industrial_environment = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = democratic_industrial_environment
+			
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.02
+				industrial_capacity_factory = 0.15
+			}
+		}
+	}
+	country = {
+		MZN_struggle_system = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = MZN_struggle_system
+			
+			modifier = {
+				army_attack_factor = 0.15
+				army_morale_factor = 0.05
+				conscription = 0.07
+				special_forces_min = 50
+				civilian_factory_use = 2
+			}
+		}
+	}

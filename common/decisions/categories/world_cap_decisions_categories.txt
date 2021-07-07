@@ -1,0 +1,10 @@
+world_cap_decisions_categories= {
+
+	priority = 260
+	allowed  = {
+		    tag = kor
+		}
+		visible = {
+            has_completed_focus = KOR_MTU_Confederation_of_Trade_Unions_of_the_World
+        }
+}

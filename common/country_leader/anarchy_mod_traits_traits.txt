@@ -49,3 +49,10 @@ leader_traits = {
 
 		
 	}
+	choose_people = {
+	industrial_capacity_dockyard = 0.1
+	stability_factor = 0.15
+	democratic_drift = 0.01
+	conscription = 0.05
+	industrial_capacity_factory	= 0.1
+	}
