@@ -765,6 +765,21 @@ country_event = {
 	}
 }
 country_event = {
+	id = MTU.15 
+	title = MTU.15.t
+	desc = MTU.15.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.15.a
+		ai_chance = {
+		    factor = 0
+		}
+	}
+}
+country_event = {
 	id = MTU.16
 	title = MTU.16.t
 	desc = MTU.16.d

@@ -15,6 +15,7 @@ all_international_fifth = {
 		}
 	}
 	allowed = {
-		original_tag = KOR
+		original_tag = TAN
+		#original_tag = KOR
 	}
 }

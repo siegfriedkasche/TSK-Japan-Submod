@@ -14,6 +14,163 @@ country_event = {
 		    factor = 100
 		}
 		add_stability = 0.05
-		
+		hidden_effect = {
+			every_state = {
+				limit = {
+					is_core_of = SOV
+				}
+				add_core_of = ROOT
+			}	
+		}
+	}
+}
+country_event = {
+	id = UFTrev.1 #스탈린의 잔재
+	title = UFTrev.1.t
+	desc = UFTrev.1.d
+	picture = GFX_우크리흑군
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UFTrev.1.a
+		ai_chance = {
+		    factor = 100
+		}
+		declare_war_on = {
+    		target = SOV
+    		type = annex_everything
+		}
+	}
+}
+country_event = {
+	id = UFTrev.2 #남러시아 임시정부에게 물음
+	title = UFTrev.2.t
+	desc = UFTrev.2.d
+	picture = GFX_우크리흑군
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UFTrev.2.a
+		ai_chance = {
+		    factor = 100
+		}
+		RUF = {
+		country_event = {
+		id = UFTrev.3
+		days = 1
+		}
+		}
+	}
+}
+country_event = {
+	id = UFTrev.3 #올텨?
+	title = UFTrev.3.t
+	desc = UFTrev.3.d
+	picture = GFX_우크리흑군
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UFTrev.3.a
+		ai_chance = {
+		    factor = 10
+		}
+		UFT = {
+		annex_country = {
+    		target = RUF
+    		transfer_troops = no
+		}
+		}
+	}
+	option = {
+		name = UFTrev.3.c
+		ai_chance = {
+		    factor = 90
+		}
+		declare_war_on = {
+    		target = UFT
+    		type = annex_everything
+		}
+	}
+}
+country_event = {
+	id = UFTrev.4 #올텨?
+	title = UFTrev.4.t
+	desc = UFTrev.4.d
+	picture = GFX_우크리흑군
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = UFTrev.4.a
+		ai_chance = {
+		    factor = 10
+		}
+		random_owned_controlled_state  = {
+			add_building_construction = {
+    			type = industrial_complex
+    			level = 2
+    			instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+		random_owned_controlled_state  = {
+			add_building_construction = {
+    			type = industrial_complex 
+    			level = 2
+    			instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+    			type = arms_factory 
+    			level = 2
+    			instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+    			type = arms_factory
+    			level = 2
+    			instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+		random_owned_controlled_state  = {
+			add_building_construction = {
+    			type = industrial_complex
+    			level = 2
+    			instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+		random_owned_controlled_state  = {
+			add_building_construction = {
+    			type = industrial_complex 
+    			level = 2
+    			instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+    			type = arms_factory 
+    			level = 2
+    			instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+    			type = arms_factory
+    			level = 2
+    			instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
 	}
 }

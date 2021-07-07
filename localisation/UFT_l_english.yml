@@ -8,6 +8,8 @@
  UFT_Platformism:0 "정강주의"
  UFT_revolution_front:0 "혁명전선"
  UFT_worker's_council:0 "노동자평의회"
+ construction_council_ideas:0 "건설 평의회"
+ no_army_ideas:0 "해산된 군대"
  UFT_revolution:0 "혁명"
  UFT_propaganda:0 "프로파간다"
  UFT_Call_of_the_Outcast:0 "추방자의 부름"
@@ -18,6 +20,18 @@
  UFT_program_for_free:0 "자유를 위한 강령"
  UFT_Organization_of_the_struggle:0 "투쟁의 조직화"
  UFT_program_for_Revolution:0 "혁명을 위한 강령"
+ solidarity_spirits:0 "연대적 의식"
+
+
+
+Russian_Civil_War_damege:0 "러시아 내전의 피해"
+Russian_Civil_War_damege_2:0 "러시아 내전의 피해"
+Russian_Civil_War_damege_3:0 "러시아 내전의 피해"
+Russian_Civil_War_damege_4:0 "러시아 내전의 피해"
+Russian_Civil_War_damege_5:0 "러시아 내전의 피해"
+Russian_Civil_War_damege_UFT:0 "복구된 자유지구"
+
+
 
  UFT_NRT_democratic:0 "남러시아 자유지구"
  UFT_NRT_neutrality:0 "남러시아 자유지구"
@@ -52,7 +66,6 @@
  come_back_anarchist:0 "돌아온 아나키스트들"
  uft_free_territory:0 "자유지구"
  uft_free_territory_desc:0 "자유지구는 우크라이나 혁명 당시 시도된 아나키스트들의 무정부 공동체입니다다.\n\n우크라이나 혁명반역군(소위 흑군)의 보호를 받고 있습니다."
- 
  UFT_liberation_of_south_russia:0 "남러시아 자유지구"
  UFT_proplr_of_territory:0 "자유지구의 인민"
  UFT_free_union:0 "자유 연합"
@@ -66,7 +79,7 @@
  UFT_strengthening_the_sense_of_solidarity:0 "연대의식 강화"
  UFT_Ukrainian_Revolutionary_Rebels:0 "군대 해산"
  UFT_military_government_pressure:0 "군부 정권 압박"
- UFT_new_Russian_Revolutionary_Front:0 "새로운 러시아 혁명전선"
+ UFT_new_Russian_Revolutionary_Front:0 "남부의 반동"
  UFT_doctrinal_education:0 "교리 연구의 자율화"
  UFT_as_fast_as_a_train:0 "전차만큼 빠르게"
  UFT_Artillery_is_the_god_of_battle:0 "혁명을 위한 불꽃"
@@ -74,7 +87,7 @@
  UFT_organization_of_free_territories:0 "자유지구의 조직화"
  UFT_trench_doctrine:0 "자유지구의 방어"
  UFT_construction_council:0 "건설 평의회"
- UFT_heritage_of_the_people:0 "인민의 유산"
+ UFT_heritage_of_the_people:0 "스탈린의 잔재 제거"
  UFT_independent_management:0 "노동자 자주경영"
  UFT_Education_Reinforcement:0 "교육 강화"
  UFT_free_territory_revolution:0 "자유지구의 혁명"
@@ -102,6 +115,27 @@
  UFT_Tachanka:0 "마흐노의 마차"
 
 
+ Ana_news.9.t:0 "러시아 해방전선의 여명"
+ Ana_news.9.d:0 "오늘 남러시아 자유지구와 크론시타트 자유지구에서 공동으로 대의원 회의를 개최하는 역사적인 순간입니다. 대의원 회의는 서로의 이해관계를 맞추는데 있어서 러시아의 완전한 해방을 공동의 목표로 삼고 서로 단결해야함을 강조하며 러시아 해방전선을 창설을 공동합의하였습니다.이는 공동 해방의 첫걸음을 러시아에서 내딛었다는 큰 역사적 의미를 가지고 있습니다.\n\n혁명전선은 군부로부터 러시아 인민들을 해방의 길로 이끌것이며 곧 세계를 해방의 길로 이끌것입니다."
+ Ana_news.9.a:0 "혁명이여 영원하라!"
+
  UFTrev.0.t:0 "남러시아 자유지구"
  UFTrev.0.d:0 "자유지구의 인민과 노동자, 농민의 혁명이 성공하였습니다. 우리 노동자 대오는 마흐노 선생님께서 주신 혁명적 유산인 이 자유지구와 자유지구를 영원토록 유지해줄 강령, 우리는 강령 이래에 자유로울 것이며 단결하고 세계 노동자들의 해방을 도모할 것입니다. 강령은 우리 공동체의 연대적 사회적 책임감을 증대시켜줄 것이고 공동체를 올바른 길로 이끌어 나갈 것입니다."
- UFTrev.0.a:0 "영원하여라 자유지구여"
+ UFTrev.0.a:0 "인민의 자유지구를 선포하라!"
+ 
+ UFTrev.1.t:0 "스탈린의 잔재"
+ UFTrev.1.d:0 "2차 러시아 내전 이후에 소련의 스탈린 일당은 소련의 서부초원 지대로 망명하여 새로운 임시정부를 만들어 본토 수복의 기회만을 호심탐탐 노리고 있습니다. 저것이 제국주의와 무엇이 다릅니까? \n\n인민의 자발적 의사에 의해 결성되어 인민을 보호하기 위한 우리의 자유지구의 안전을 되찾고 서부초원 지대의 인민을 해방시키기 위해서는 움직여야 할때입니다."
+ UFTrev.1.a:0 "인민의 해방을 위해"
+ 
+ UFTrev.2.t:0 "남러시아 임시정부에게 물음"
+ UFTrev.2.d:0 "캅카스와 볼가강의 인민들이 남부의 반동들에 의해 고통받고 있습니다. 우리는 그들에게 마지막 경고장을 보냈으며 그들 스스로 물러간다면 무의미한 충돌 또한 없을 것입니다. 남부의 인민을 해방 시키고 국제적인 해방을 위해 우리는 기꺼이 희생할 것입니다."
+ UFTrev.2.a:0 "우리는 다 같은 인민들이다!"
+ 
+ UFTrev.3.t:0 "케렌스키에게 도착한 편지"
+ UFTrev.3.a:0 "너희의 자본의 탄압을 막기 위해 등장!"
+ UFTrev.3.d:0 "목숨이라도 부지해야지..."
+ UFTrev.3.c:0 "좆까"
+ 
+ UFTrev.4.t:0 "생산직 노동자 총회"
+ UFTrev.4.d:0 "노동자들은 이 첨박한 남러시아에서 살아남기 위해서는 생산수단을 확장하고 자유롭게 이용할 수 있도록 하여야한다고 노동자 총회에서 결론을 내리고 생산수단을 확장하기로 하였습니다."
+ UFTrev.4.a:0 "확장해야지!"

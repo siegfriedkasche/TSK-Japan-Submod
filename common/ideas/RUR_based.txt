@@ -1,5 +1,25 @@
 ideas = {
+    country = {
+        
+        remnants_of_dictatorship = { 
 
+            allowed = {
+                original_tag = UFT
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = general_staff
+
+            removal_cost = -1
+            
+            modifier = {
+                add_stability = -0.3
+            }
+        }
+    }
 	country = {
         
         Russian_Civil_War = { 
@@ -25,6 +45,175 @@ ideas = {
                 army_defence_factor = -0.15
                 army_attack_factor = -0.15
                 army_org_factor = -0.20
+            }
+        }
+    }
+	country = {
+        
+        Russian_Civil_War_damege = { 
+
+            allowed = {
+                original_tag = SAG
+                original_tag = RUR
+                original_tag = UFT
+                original_tag = SOV
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Russian_Civil_War
+
+            removal_cost = -1
+            
+            modifier = {
+                join_faction_tension = 1
+                consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.3
+				production_factory_efficiency_gain_factor = -0.3
+				production_factory_max_efficiency_factor = -0.3
+				production_speed_buildings_factor = -0.3
+            }
+        }
+    }
+	country = {
+        
+        Russian_Civil_War_damege_2 = { 
+
+            allowed = {
+                original_tag = SAG
+                original_tag = RUR
+                original_tag = UFT
+                original_tag = SOV
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Russian_Civil_War
+
+            removal_cost = -1
+            
+            modifier = {
+                join_faction_tension = 1
+                consumer_goods_factor = 0.2
+				industrial_capacity_factory = -0.25
+				production_factory_efficiency_gain_factor = -0.25
+				production_factory_max_efficiency_factor = -0.25
+				production_speed_buildings_factor = -0.25
+            }
+        }
+    }
+	country = {
+        
+        Russian_Civil_War_damege_3 = { 
+
+            allowed = {
+                original_tag = SAG
+                original_tag = RUR
+                original_tag = UFT
+                original_tag = SOV
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Russian_Civil_War
+
+            removal_cost = -1
+            
+            modifier = {
+                join_faction_tension = 1
+                consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.20
+				production_factory_efficiency_gain_factor = -0.20
+				production_factory_max_efficiency_factor = -0.20
+				production_speed_buildings_factor = -0.20
+            }
+        }
+    }
+	country = {
+        
+        Russian_Civil_War_damege_4 = { 
+
+            allowed = {
+                original_tag = SAG
+                original_tag = RUR
+                original_tag = UFT
+                original_tag = SOV
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Russian_Civil_War
+
+            removal_cost = -1
+            
+            modifier = {
+                join_faction_tension = 1
+                consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.10
+				production_factory_efficiency_gain_factor = -0.10
+				production_factory_max_efficiency_factor = -0.10
+				production_speed_buildings_factor = -0.10
+            }
+        }
+    }
+	country = {
+        
+        Russian_Civil_War_damege_5 = { 
+
+            allowed = {
+                original_tag = SAG
+                original_tag = RUR
+                original_tag = UFT
+                original_tag = SOV
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Russian_Civil_War
+
+            removal_cost = -1
+            
+            modifier = {
+                join_faction_tension = 1
+                consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				production_speed_buildings_factor = -0.05
+            }
+        }
+    }
+	country = {
+        
+        Russian_Civil_War_damege_UFT = { 
+
+            allowed = {
+                original_tag = SAG
+                original_tag = RUR
+                original_tag = UFT
+                original_tag = SOV
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = generic_neutrality_drift_bonus
+
+            removal_cost = -1
+            
+            modifier = {
+                join_faction_tension = 1
             }
         }
     }

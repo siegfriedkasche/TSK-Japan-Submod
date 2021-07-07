@@ -92,10 +92,6 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/GFX_KHA_the_grey_area.dds"
     }
 	spriteType = {
-        name = "GFX_KOR_CNT_Distribution_of_communes"
-        texturefile = "gfx/interface/goals/GFX_KOR_CNT_Distribution_of_communes.png"
-    }
-	spriteType = {
         name = "GFX_KOR_MTU_Im_Seonggyu"
         texturefile = "gfx/interface/goals/GFX_KOR_MTU_Im_Seonggyu.png"
     }
@@ -152,10 +148,113 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/GFX_KOR_MTU_Ah_the_Metal_Federation.png"
     }
 	spriteType = {
+        name = "GFX_KOR_MTU_Korea_Federation_of_Trade_Unions_merged"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Korea_Federation_of_Trade_Unions_merged.png"
+    }
+	spriteType = {
         name = "GFX_KOR_MTU_anti_libearism_solidarity"
         texturefile = "gfx/interface/goals/GFX_KOR_MTU_anti_libearism_solidarity.png"
     }
-	
+	spriteType = {
+        name = "GFX_SOV_anarchist_communes_KRD"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_SOV_anarchist_communes_KRD.dds"
+    }
+	spriteType = {
+        name = "GFX_CSA_socialist_defence_doctrine_KRD"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_CSA_socialist_defence_doctrine_KRD.dds"
+    }
+	spriteType = {
+        name = "GFX_CSA_true_revolutionary_alliance_KRD"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_CSA_true_revolutionary_alliance_KRD.dds"
+    }
+	spriteType = {
+        name = "GFX_CSA_restructure_iww_KRD"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_CSA_restructure_iww_KRD.dds"
+    }
+	spriteType = {
+        name = "GFX_KOR_CNT_Distribution_of_communes"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_CSA_welfare_state_KRD.dds"
+    }
+	spriteType = {
+        name = "GFX_CSA_townhall_democarcy"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_CSA_townhall_democarcy.dds"
+    }
+	spriteType = {
+        name = "GFX_FRA_execute"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_FRA_execute.dds"
+    }
+	spriteType = {
+        name = "GFX_CSA_sway_the_unions"
+        texturefile = "gfx/interface/goals/Kaiserredux/CSA_sway_the_unions.dds"
+    }
+	spriteType = {
+        name = "GFX_CSA_industrial_unionism"
+        texturefile = "gfx/interface/goals/Kaiserredux/CSA_industrial_unionism.dds"
+    }
+	spriteType = {
+        name = "GFX_TEX_fight_the_terrorists"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_TEX_fight_the_terrorists.dds"
+    }
+	spriteType = {
+        name = "GFX_FRA_World_Revolution"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_FRA_World_Revolution.dds"
+    }
+	spriteType = {
+        name = "GFX_SRI_socialist"
+        texturefile = "gfx/interface/goals/Kaiserredux/SRI_socialist.dds"
+    }
+	spriteType = {
+        name = "GFX_DKB_don_guards"
+        texturefile = "gfx/interface/goals/Kaiserredux/DKB_don_guards.dds"
+    }
+	spriteType = {
+        name = "GFX_CSA_drills"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_CSA_drills.dds"
+    }
+	spriteType = {
+        name = "GFX_CSA_peoples_commissars"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_CSA_peoples_commissars.dds"
+    }
+	spriteType = {
+        name = "GFX_syndicalist_workers"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_syndicalist_workers.dds"
+    }
+	spriteType = {
+        name = "GFX_munitions_factories"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_munitions_factories.dds"
+    }
+	spriteType = {
+        name = "GFX_CSA_industrial_army"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_CSA_industrial_army.dds"
+    }
+	spriteType = {
+        name = "GFX_BBR_very_racist_factories"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_BBR_very_racist_factories.dds"
+    }
+	spriteType = {
+        name = "GFX_arms_factory"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_arms_factory.dds"
+    }
+	spriteType = {
+        name = "GFX_ENG_syndicalism"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_ENG_syndicalism.dds"
+    }
+	spriteType = {
+        name = "GFX_NEE_coop_management"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_NEE_coop_management.dds"
+    }
+	spriteType = {
+        name = "GFX_construction_engineering"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_construction_engineering.dds"
+    }
+	spriteType = {
+        name = "GFX_CSA_power_to_the_people"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_CSA_power_to_the_people.dds"
+    }
+	spriteType = {
+        name = "GFX_syndicalist_industry"
+        texturefile = "gfx/interface/goals/Kaiserredux/GFX_syndicalist_industry.dds"
+    }
 	frameAnimatedSpriteType = {
 		name = "GFX_fire_breath_move"
 		texturefile = "gfx//superevent_pictures//fire_breath_move.png"

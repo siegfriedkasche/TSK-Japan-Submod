@@ -196,3 +196,17 @@ news_event = {
 		}	
 	}
 }
+news_event = {
+	id = Ana_news.9
+	title = Ana_news.9.t
+	desc = Ana_news.9.d
+	picture = 
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ana_news.9.a
+	}
+}

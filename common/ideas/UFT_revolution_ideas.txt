@@ -310,3 +310,72 @@ ideas = {
             }
         }
     }
+	country = {
+        
+        construction_council_ideas = {
+
+            allowed = {
+                original_tag = UFT
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = generic_production_bonus
+
+            removal_cost = -1
+
+
+            modifier = {
+                production_speed_buildings_factor = 0.15
+            }
+        }
+    }
+	country = {
+        
+        no_army_ideas = {
+
+            allowed = {
+                original_tag = UFT
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = MEX_politicised_army_2
+
+            removal_cost = -1
+
+
+            modifier = {
+                production_factory_efficiency_gain_factor = 0.05
+                production_speed_buildings_factor = 0.1
+				army_org_factor = -0.15
+				army_attack_factor = -0.10
+            }
+        }
+    }
+	country = {
+        
+        solidarity_spirits = { 
+
+            allowed = {
+                original_tag = UFT
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = FRA_liberte_egalite_solidarite
+
+            removal_cost = -1
+            
+            modifier = {
+				production_factory_efficiency_gain_factor = 0.10
+				production_factory_max_efficiency_factor = 0.10
+            }
+        }
+    }
