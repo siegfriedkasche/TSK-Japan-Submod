@@ -61,6 +61,10 @@ country_event = {
 		    id = MTU.2
 			days = 7
 		}	
+		add_popularity = {
+    		ideology = communism
+    		popularity = 0.5
+		}
 		set_cosmetic_tag = KOR_UNI
 		}
 
