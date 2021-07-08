@@ -135,13 +135,6 @@ units = {
 		start_equipment_factor = 1
 	}
 	division= {
-		name = "제10보병사단"
-		location = 10125
-		division_template = "JSDF 차량화보병사단"
-		start_experience_factor = 0.75
-		start_equipment_factor = 1
-    }
-	division= {
 		name = "제2보병사단"
 		location = 12421
 		division_template = "JSDF 기계화사단"

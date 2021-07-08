@@ -8,7 +8,7 @@ units = {
 		task_force = {
 			name = "미합중국 제 7 함대"
 			location = 11932
-			ship = { name = "USS Nimitz" definition = modern_CV equipment = { ship_hull_modern_CV_1 = { amount = 1 owner = USJ version_name = "니미츠급" } } 
+			ship = { name = "USS KITTY HAWK" definition = modern_CV equipment = { ship_hull_modern_CV_1 = { amount = 1 owner = USJ version_name = "키티호크급" } } 
 				air_wings = {
 					m_1990_cv_jet_fighter_equipment  =  { owner = "USJ" amount = 50 }	# F/A-18C/D
 					m_1970_cv_jet_cas_equipment  =  { owner = "USJ" amount = 20 }		# A-6
