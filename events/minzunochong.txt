@@ -813,3 +813,18 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = MTU.17
+	title = MTU.17.t
+	desc = MTU.17.d
+	picture = GFX_devide_commune_for_union
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MTU.17.a
+		ai_chance = {
+		    factor = 0
+		} 
+	}
+}

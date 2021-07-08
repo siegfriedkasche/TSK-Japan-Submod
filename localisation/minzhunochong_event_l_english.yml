@@ -129,5 +129,8 @@
  MTU.16.d:0 "한반도의 내전이 끝났습니다. 마음껏 향유하세요!"
  MTU.16.a:0 "평화다!"
  
+ MTU.17.t:0 "노동조합의 군대"
+ MTU.17.d:0 ""
+ MTU.17.a:0 ""
 
  iron_war_army:0 "£GFX_ideology_harmony_texticon §Y금속노조 정예 기계화 사단§! 3개가 §Y서울§!에 생성될 것입니다.\n\n§Y편제§!\n\n5개의 §Y현대 기계화보병§! £GFX_flag_eqs_texticon £GFX_flag_eqs_texticon £GFX_flag_eqs_texticon £GFX_flag_eqs_texticon £GFX_flag_eqs_texticon \n4개의 §Y현대식 기갑대대§! £GFX_flag_chn_texticon £GFX_flag_chn_texticon £GFX_flag_chn_texticon £GFX_flag_chn_texticon \n1개의 §Y기갑수색대대§! £GFX_flag_gri_texticon \n4개의 §Y현대식 자주포 대대§! £GFX_flag_nlr_texticon £GFX_flag_nlr_texticon £GFX_flag_nlr_texticon £GFX_flag_nlr_texticon \n1개의 §Y현대식 자주대공포§! £GFX_flag_sol_texticon \n1개의 §Y현대식 중공병대대§! £GFX_flag_stg_texticon \n\n§Y지원중대§!\n\n§Y군수 중대§!\n§Y통신 중대§!\n§Y헌병§!\n§Y야전 병원§!\n§Ymanpad§!\n\n§R편제 수정은 불가능§!\n " 
