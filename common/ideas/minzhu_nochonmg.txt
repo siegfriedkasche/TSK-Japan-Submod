@@ -335,3 +335,91 @@ ideas = {#한국노총 대립
 			}
 		}
 	}
+	country = {
+        
+        eq_factory_mtu = { 
+
+            allowed = {
+                original_tag = KOR
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = 
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+                }
+				modern_motorized_equipment = {
+					build_cost_ic = -0.1 instant = yes
+                }
+				modern_tank_equipment = {
+					build_cost_ic = -0.15 instant = yes
+                }
+				light_mun_equipment = {
+					build_cost_ic = -0.05 instant = yes
+                }
+
+				heavy_mun_equipment = {
+					build_cost_ic = -0.05 instant = yes
+                }
+            }
+        }
+    }
+	country = {
+        
+        jeon_tea_il = { 
+
+            allowed = {
+                original_tag = KOR
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = 
+
+            removal_cost = -1
+            
+            modifier = {
+				navy_leader_start_maneuvering_level = 1 
+				navy_leader_start_defense_level = 1 
+				navy_leader_start_coordination_level = 1 
+				navy_leader_start_attack_level = 1 
+				
+				army_leader_start_attack_level = 1 
+				army_leader_start_defense_level = 1 
+				army_leader_start_planning_level = 1 
+				army_leader_start_logistics_level = 1 
+			}
+        }
+    }
+	country = {
+        
+        break_the_chain = { 
+
+            allowed = {
+                original_tag = KOR
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = 
+
+            removal_cost = -1
+            
+            modifier = {
+				army_attack_factor = 0.1
+				drift_defence_factor = 0.25
+				army_defence_factor = -0.05
+			}
+        }
+    }

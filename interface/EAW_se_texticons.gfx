@@ -2,7 +2,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ideology_harmony_texticon"
-		texturefile = "gfx/texticons/ideology_harmony.tga"
+		texturefile = "gfx/texticons/ideology_harmony.png"
 		legacy_lazy_load = no
 	}
 
@@ -26,37 +26,37 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_flag_eqs_texticon"
-		texturefile = "gfx/texticons/flag_EQS.tga"
+		texturefile = "gfx/texticons/flag_EQS.png"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_flag_chn_texticon"
-		texturefile = "gfx/texticons/flag_CHN.tga"
+		texturefile = "gfx/texticons/flag_CHN.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_flag_stg_texticon"
-		texturefile = "gfx/texticons/flag_STG.tga"
+		texturefile = "gfx/texticons/flag_STG.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_flag_sol_texticon"
-		texturefile = "gfx/texticons/flag_SOL.tga"
+		texturefile = "gfx/texticons/flag_SOL.png"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_flag_nlr_texticon"
-		texturefile = "gfx/texticons/flag_NLR.tga"
+		texturefile = "gfx/texticons/art_mor_tank.png"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_flag_gri_texticon"
-		texturefile = "gfx/texticons/flag_GRI.tga"
+		texturefile = "gfx/texticons/flag_GRI.png"
 		legacy_lazy_load = no
 	}
 	

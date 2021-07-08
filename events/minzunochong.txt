@@ -56,15 +56,26 @@ country_event = {
 		ai_chance = {
 		    factor = 100
 		}
+		
 		hidden_effect = {
 		country_event = {
 		    id = MTU.2
 			days = 7
 		}	
-		add_popularity = {
-    		ideology = communism
-    		popularity = 0.5
+		set_politics = {
+			ruling_party = communism
+        	elections_allowed = yes
+        	last_election = "1935.12.17"
+        	election_frequency = 48
 		}
+		set_popularities = {
+			democratic = 15
+			neutrality = 0
+			fascism = 30
+			communism = 50
+		}
+		
+
 		set_cosmetic_tag = KOR_UNI
 		}
 

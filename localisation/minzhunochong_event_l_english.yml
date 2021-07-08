@@ -16,12 +16,15 @@
  KPTU:0 "전국공공운수노동조합"
  democratic_industrial_environment:0 "민주적 노동환경"
  womens_workers:0 "여성 노동자 조직화"
+ 
  Metal_Federation:0 "금속연맹 위원장"
  metal_army:0 "금속노조 혁명 최고위원장"
  
  minzhunochong_categories:0 "한국노총과의 대립"
  minzhunochong_categories_desc:0 " "
- 
+ jeon_tea_il:0 "전태일 정신의 장교단"
+ break_the_chain:0 "쇠사슬을 끊어라!"
+ eq_factory_mtu:0 "노동조합의 무기고"
  minzhunochong_1:0 "한국노총의 노동자 선동"
  minzhunochong_2:0 "한국노총에 스파이 투입"
  minzhunochong_3:0 "프로파간다 실시"
@@ -125,3 +128,6 @@
  MTU.16.t:0 "내전 종식"
  MTU.16.d:0 "한반도의 내전이 끝났습니다. 마음껏 향유하세요!"
  MTU.16.a:0 "평화다!"
+ 
+
+ iron_war_army:0 "£GFX_ideology_harmony_texticon §Y금속노조 정예 기계화 사단§! 3개가 §Y서울§!에 생성될 것입니다.\n\n§Y편제§!\n\n5개의 §Y현대 기계화보병§! £GFX_flag_eqs_texticon £GFX_flag_eqs_texticon £GFX_flag_eqs_texticon £GFX_flag_eqs_texticon £GFX_flag_eqs_texticon \n4개의 §Y현대식 기갑대대§! £GFX_flag_chn_texticon £GFX_flag_chn_texticon £GFX_flag_chn_texticon £GFX_flag_chn_texticon \n1개의 §Y기갑수색대대§! £GFX_flag_gri_texticon \n4개의 §Y현대식 자주포 대대§! £GFX_flag_nlr_texticon £GFX_flag_nlr_texticon £GFX_flag_nlr_texticon £GFX_flag_nlr_texticon \n1개의 §Y현대식 자주대공포§! £GFX_flag_sol_texticon \n1개의 §Y현대식 중공병대대§! £GFX_flag_stg_texticon \n\n§Y지원중대§!\n\n§Y군수 중대§!\n§Y통신 중대§!\n§Y헌병§!\n§Y야전 병원§!\n§Ymanpad§!\n\n§R편제 수정은 불가능§!\n " 

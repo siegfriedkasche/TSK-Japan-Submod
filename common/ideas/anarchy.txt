@@ -29,7 +29,7 @@ ideas = {
 				line_change_production_efficiency_factor = 0.1
 				annex_cost_factor = -0.3
 				puppet_cost_factor = 0.3				
-				production_factory_max_efficiency_factor = 0.8
+				production_factory_max_efficiency_factor = 0.5
 				production_factory_start_efficiency_factor = 0.5
 			}
 			

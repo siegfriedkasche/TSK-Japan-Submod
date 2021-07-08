@@ -18,13 +18,13 @@ focus_tree = {
 					custom_effect_tooltip = ended_CNT_END_Delegate_meeting
 					add_ideas = Unstable_commune
 					hidden_effect = {
-						every_state = {
-							limit = {
-								is_core_of = KPA
-							}
-							add_core_of = ROOT
+							every_state = {
+									limit = {
+											is_core_of = KPA
+										}
+									add_core_of = ROOT
+								}
 						}
-					}
 				}
 
 	}
@@ -138,32 +138,176 @@ focus_tree = {
 		}
 		x = 33
 		y = 2
-		completion_reward = {
-			country_event = {
-				id = MTU.1
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = MTU.1
+						}
+				}
+
 	}
 	focus = {
 		id = kor_mtu_union_chairman
 		icon = GFX_goal_unknown
 		cost = 5.00
-		available = {
-			has_war = no
-		}
-		cancel = {
-			has_war = yes
-		}
 		prerequisite = {
 			focus = kor_MTU_member_intrusion
 		}
 		x = 33
 		y = 3
+			available = {
+					has_war = no
+				}
+			cancel = {
+					has_war = yes
+				}
+			completion_reward = {
+					country_event = {
+							id = MTU.3
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_unions_army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = kor_mtu_union_chairman
+		}
+		x = 21
+		y = 4
 		completion_reward = {
-		country_event = {
-		id = MTU.3
+			navy_experience = 10
+			air_experience = 10
+			army_experience = 10
 		}
+	}
+	focus = {
+		id = KOR_MTU_Founding_of_the_Air_Force
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_unions_army
 		}
+		x = 17
+		y = 5
+		completion_reward = {
+			add_manpower = 1000
+			air_experience = 10
+			add_ace = {
+    			name = "지안"
+    			surname = "노조의 빛"
+    			callsign = "별"
+    			type = fighter_genius
+    			is_female = yes
+			}
+			add_ace = {
+    			name = "철수"
+    			surname = "붉은 태양"
+    			callsign = "햇님"
+    			type = fighter_genius
+    			is_female = no
+			}
+			add_tech_bonus = {
+    			bonus = 1
+    			uses = 1
+    			category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_super_steal
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Founding_of_the_Air_Force
+		}
+		x = 16
+		y = 6
+		
+	}
+	focus = {
+		id = KOR_MTU_oil_excavation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		available = {
+			owns_state = 813
+		}
+		cancel = {
+			NOT = {
+				owns_state = 813
+			}
+		}
+		prerequisite = {
+			focus = KOR_MTU_Founding_of_the_Air_Force
+		}
+		x = 18
+		y = 6
+		completion_reward = {
+			add_resource = {
+    			type = oil
+    			amount = 50
+    			state = 813
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_Occupation_of_the_tram_factory
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_unions_army
+		}
+		x = 19
+		y = 5
+		completion_reward = {
+			random_owned_controlled_state  = {
+				add_building_construction = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state  = {
+				add_building_construction = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state  = {
+				add_building_construction = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_for_the_combination
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_unions_army
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = KOR_MTU_industrial_union_fighting_stance
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_for_the_combination
+		}
+		x = 25
+		y = 6
+
 	}
 	focus = {
 		id = KOR_MTU_Im_Seonggyu
@@ -177,25 +321,26 @@ focus_tree = {
 		}
 		x = 29
 		y = 4
-		completion_reward = {
-			create_country_leader = {
-				name = "임성규"
-				picture = "gfx/leaders/ANA/Im_Seong_gyu.png"
-				expire = "1965.1.1"
-				ideology = Syndicalisme
-				traits = {
-				
+			completion_reward = {
+					create_country_leader = {
+							name = "임성규"
+							picture = "gfx/leaders/ANA/Im_Seong_gyu.png"
+							expire = "1965.1.1"
+							ideology = Syndicalisme
+							traits = {
+
+}
+						}
+					hidden_effect = {
+							set_politics = {
+									ruling_party = communism
+									last_election = "1934.12.19"
+									election_frequency = 60
+									elections_allowed = no
+								}
+						}
 				}
-			}
-			hidden_effect = {
-			set_politics = {
-				ruling_party = communism
-				last_election = "1934.12.19"
-				election_frequency = 60
-				elections_allowed = no
-			}
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_MTU_united_union_front
@@ -206,12 +351,13 @@ focus_tree = {
 		}
 		x = 28
 		y = 5
-		completion_reward = {
-			leave_faction = yes
-			country_event = {
-				id = MTU.10
-			}
-		}
+			completion_reward = {
+					leave_faction = yes
+					country_event = {
+							id = MTU.10
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_social_security_system
@@ -222,11 +368,12 @@ focus_tree = {
 		}
 		x = 27
 		y = 6
-		completion_reward = {
-		add_manpower = 10000
-		add_stability = 0.1
-		add_political_power = 100
-		}
+			completion_reward = {
+					add_manpower = 10000
+					add_stability = 0.1
+					add_political_power = 100
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_defened_Agriculture
@@ -237,41 +384,49 @@ focus_tree = {
 		}
 		x = 26
 		y = 7
-		completion_reward = {
-			817 = { add_extra_state_shared_building_slots = 3 }
-			808 = { add_extra_state_shared_building_slots = 3 }
-			809 = { add_extra_state_shared_building_slots = 3 }
-		    813 = { add_extra_state_shared_building_slots = 3 }
-			
-			817 = { 
-				add_building_construction = {
-    				type = industrial_complex 
-    				level = 2
-    				instant_build = yes
+			completion_reward = {
+					817 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					808 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					809 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					813 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					817 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					808 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					809 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					813 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
 				}
-			}
-			808 = { 
-				add_building_construction = {
-    				type = industrial_complex 
-    				level = 2
-    				instant_build = yes
-				}
-			}
-			809 = { 
-				add_building_construction = {
-    				type = industrial_complex 
-    				level = 2
-    				instant_build = yes
-				}
-			}
-			813 = { 
-				add_building_construction = {
-    				type = industrial_complex 
-    				level = 1
-    				instant_build = yes
-				}
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_MTU_united_union_program
@@ -282,12 +437,12 @@ focus_tree = {
 		}
 		x = 30
 		y = 5
-		completion_reward = {
-		country_event = {
-		    id = MTU.9
-		}
-		
-		}
+			completion_reward = {
+					country_event = {
+							id = MTU.9
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_industrial_union
@@ -298,11 +453,12 @@ focus_tree = {
 		}
 		x = 31
 		y = 6
-		completion_reward = {
-			country_event = {
-				id = MTU.11
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = MTU.11
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Gapdeuk_Jeong
@@ -316,25 +472,26 @@ focus_tree = {
 		}
 		x = 37
 		y = 4
-		completion_reward = {
-			create_country_leader = {
-				name = "정갑득"
-				picture = "gfx/leaders/ANA/Gapdeuk_Jeong.png"
-				expire = "1965.1.1"
-				ideology = Syndicalisme
-				traits = {
-				
+			completion_reward = {
+					create_country_leader = {
+							name = "정갑득"
+							picture = "gfx/leaders/ANA/Gapdeuk_Jeong.png"
+							expire = "1965.1.1"
+							ideology = Syndicalisme
+							traits = {
+
+}
+						}
+					hidden_effect = {
+							set_politics = {
+									ruling_party = communism
+									last_election = "1934.12.19"
+									election_frequency = 60
+									elections_allowed = no
+								}
+						}
 				}
-			}
-			hidden_effect = {
-			set_politics = {
-				ruling_party = communism
-				last_election = "1934.12.19"
-				election_frequency = 60
-				elections_allowed = no
-			}
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_MTU_international_labor_movement
@@ -346,9 +503,10 @@ focus_tree = {
 		}
 		x = 33
 		y = 5
-		completion_reward = {
-			add_ideas = International_International_Brigade
-		}
+			completion_reward = {
+					add_ideas = International_International_Brigade
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Encouraging_all_people_to_join
@@ -362,10 +520,11 @@ focus_tree = {
 		}
 		x = 32
 		y = 7
-		completion_reward = {
-			add_manpower = 10000
-			add_stability = 0.1
-		}
+			completion_reward = {
+					add_manpower = 10000
+					add_stability = 0.1
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
@@ -376,9 +535,10 @@ focus_tree = {
 		}
 		x = 33
 		y = 8
-		completion_reward = {
-		unlock_decision_category_tooltip = minzhunochong_categories
-		}
+			completion_reward = {
+					unlock_decision_category_tooltip = minzhunochong_categories
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_metal_union
@@ -389,9 +549,10 @@ focus_tree = {
 		}
 		x = 36
 		y = 5
-		completion_reward = {
-		set_cosmetic_tag = MTU_KOR
-		}
+			completion_reward = {
+					set_cosmetic_tag = MTU_KOR
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_metal_union_expansion
@@ -405,11 +566,12 @@ focus_tree = {
 		}
 		x = 35
 		y = 6
-		completion_reward = {
-		country_event = {
-		id = MTU.6
-		}
-		}
+			completion_reward = {
+					country_event = {
+							id = MTU.6
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Ah_the_Metal_Federation.
@@ -420,11 +582,11 @@ focus_tree = {
 		}
 		x = 35
 		y = 8
-		completion_reward = {
-		add_country_leader_trait = Metal_Federation
-		add_country_leader_trait = metal_army
-		}
-		
+			completion_reward = {
+					add_country_leader_trait = Metal_Federation
+					add_country_leader_trait = metal_army
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_hard_line
@@ -435,9 +597,10 @@ focus_tree = {
 		}
 		x = 37
 		y = 6
-		completion_reward = {
-		add_ideas = hard_line_ideas
-		}
+			completion_reward = {
+					add_ideas = hard_line_ideas
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Removal_of_corporate_remnants
@@ -448,42 +611,43 @@ focus_tree = {
 		}
 		x = 36
 		y = 7
-		completion_reward = {
-			remove_ideas = Corporate_remnants
-			809 = {
-				limit = {
-					is_core_of = KOR
+			completion_reward = {
+					remove_ideas = Corporate_remnants
+					809 = {
+							limit = {
+									is_core_of = KOR
+								}
+							add_extra_state_shared_building_slots = 5
+							add_building_construction = {
+									type = industrial_complex
+									level = 5
+									instant_build = yes
+								}
+						}
+					818 = {
+							limit = {
+									is_core_of = KOR
+								}
+							add_extra_state_shared_building_slots = 5
+							add_building_construction = {
+									type = arms_factory
+									level = 5
+									instant_build = yes
+								}
+						}
+					525 = {
+							limit = {
+									is_core_of = KOR
+								}
+							add_extra_state_shared_building_slots = 5
+							add_building_construction = {
+									type = arms_factory
+									level = 5
+									instant_build = yes
+								}
+						}
 				}
-				add_extra_state_shared_building_slots = 5
-				add_building_construction = {
-    				type = industrial_complex 
-    				level = 5
-    				instant_build = yes
-				}
-			}
-			818 = {
-				limit = {
-					is_core_of = KOR
-				}
-				add_extra_state_shared_building_slots = 5
-				add_building_construction = {
-    				type = arms_factory
-    				level = 5
-    				instant_build = yes
-				}
-			}			
-			525 = {
-				limit = {
-					is_core_of = KOR
-				}
-				add_extra_state_shared_building_slots = 5
-				add_building_construction = {
-    				type = arms_factory
-    				level = 5
-    				instant_build = yes
-				}
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_MTU_Organization_of_women_workers
@@ -497,9 +661,10 @@ focus_tree = {
 		}
 		x = 34
 		y = 7
-		completion_reward = {
-		add_ideas = womens_workers
-		}
+			completion_reward = {
+					add_ideas = womens_workers
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_anti_libearism_solidarity
@@ -510,10 +675,11 @@ focus_tree = {
 		}
 		x = 37
 		y = 8
-		completion_reward = {
-		add_war_support	= 0.1
-		create_faction = 반자유주의연대
-		}
+			completion_reward = {
+					add_war_support = 0.1
+					create_faction = 반자유주의연대
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_iron_worker
@@ -522,49 +688,48 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_MTU_Gapdeuk_Jeong
 		}
-		bypass = {
-
-				JAP = {
-					exists = no
-				}
-				CHI = {
-					exists = no
-				}
-
-		}
 		x = 38
 		y = 5
-		completion_reward = {
-		country_event = {
-		id = MTU.5
-		}
-		declare_war_on = {
-   	   	   	target = JAP
-   	   	   	type = annex_everything
-   	   	}
-		declare_war_on = {
-   	   	   	target = CHI
-   	   	   	type = annex_everything
-   	   	}
-		every_state = {
-				limit = {
-					is_core_of = JAP
+			bypass = {
+					JAP = {
+							exists = no
+						}
+					CHI = {
+							exists = no
+						}
 				}
-				add_core_of = ROOT
-			}
-			every_state = {
-				limit = {
-					is_core_of = MAN
+			completion_reward = {
+					country_event = {
+							id = MTU.5
+						}
+					declare_war_on = {
+							target = JAP
+							type = annex_everything
+						}
+					declare_war_on = {
+							target = CHI
+							type = annex_everything
+						}
+					every_state = {
+							limit = {
+									is_core_of = JAP
+								}
+							add_core_of = ROOT
+						}
+					every_state = {
+							limit = {
+									is_core_of = MAN
+								}
+							add_core_of = ROOT
+						}
+					every_state = {
+							limit = {
+									is_core_of = CHI
+								}
+							add_core_of = ROOT
+						}
 				}
-				add_core_of = ROOT
-			}
-			every_state = {
-				limit = {
-					is_core_of = CHI
-				}
-				add_core_of = ROOT
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_MTU_workers_squad
@@ -575,9 +740,10 @@ focus_tree = {
 		}
 		x = 38
 		y = 7
-		completion_reward = {
-		add_ideas = workers_squad
-		}
+			completion_reward = {
+					add_ideas = workers_squad
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_New_Workers_Code
@@ -588,11 +754,12 @@ focus_tree = {
 		}
 		x = 39
 		y = 6
-		completion_reward = {
-		country_event = {
-		id = MTU.4
-		}
-		}
+			completion_reward = {
+					country_event = {
+							id = MTU.4
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_working_conditions
@@ -603,9 +770,10 @@ focus_tree = {
 		}
 		x = 39
 		y = 8
-		completion_reward = {
-			add_stability = 0.1
-		}
+			completion_reward = {
+					add_stability = 0.1
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_great_match
@@ -625,9 +793,10 @@ focus_tree = {
 		}
 		x = 37
 		y = 9
-		completion_reward = {
-		remove_ideas = Unstable_commune
-		}
+			completion_reward = {
+					remove_ideas = Unstable_commune
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Anti-monopoly_regulation
@@ -641,42 +810,43 @@ focus_tree = {
 		}
 		x = 40
 		y = 7
-		completion_reward = {
-			add_ideas = Monopoly_Capital_Regulation
-			810 = {
-				limit = {
-					is_core_of = KOR
+			completion_reward = {
+					add_ideas = Monopoly_Capital_Regulation
+					810 = {
+							limit = {
+									is_core_of = KOR
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					817 = {
+							limit = {
+									is_core_of = KOR
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					808 = {
+							limit = {
+									is_core_of = KOR
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
 				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-    				type = industrial_complex 
-    				level = 2
-    				instant_build = yes
-				}
-			}
-			817 = {
-				limit = {
-					is_core_of = KOR
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-    				type = industrial_complex 
-    				level = 2
-    				instant_build = yes
-				}
-			}
-			808 = {
-				limit = {
-					is_core_of = KOR
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-    				type = industrial_complex 
-    				level = 2
-    				instant_build = yes
-				}
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_anarcho-communism
@@ -807,9 +977,9 @@ focus_tree = {
 		x = 45
 		y = 6
 			completion_reward = {
-			add_political_power = 100
-			add_stability = 0.1
-}
+					add_political_power = 100
+					add_stability = 0.1
+				}
 
 	}
 	focus = {
@@ -1810,23 +1980,23 @@ focus_tree = {
 		}
 		x = 29
 		y = 6
-		completion_reward = {
-			set_cosmetic_tag = MZN_KOR
-			set_party_name = { 
-    			ideology = communism 
-    			long_name = 전국민주노동조합총연맹 
-    			name = 전국민주노동조합총연맹 
-			}
-			set_popularities = {
-	    		democratic = 15
-	    		neutrality = 5
-	    		fascism = 30
-	    		communism = 50
-	    	}
-			country_event = {
-				id = MTU.8
-			}
-		}
+			completion_reward = {
+					set_cosmetic_tag = MZN_KOR
+					set_party_name = {
+							ideology = communism
+							long_name = 전국민주노동조합총연맹
+							name = 전국민주노동조합총연맹
+						}
+					set_popularities = {
+							democratic = 15
+							neutrality = 5
+							fascism = 30
+							communism = 50
+						}
+					country_event = {
+							id = MTU.8
+						}
+				}
 
 	}
 	focus = {
@@ -1841,10 +2011,11 @@ focus_tree = {
 		}
 		x = 30
 		y = 7
-		completion_reward = {
-			add_ideas = MZN_struggle_system
-			add_stability = 0.1
-		}
+			completion_reward = {
+					add_ideas = MZN_struggle_system
+					add_stability = 0.1
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Confederation_of_Trade_Unions_of_the_World
@@ -1858,35 +2029,36 @@ focus_tree = {
 		}
 		x = 31
 		y = 8
-		completion_reward = {
-		    unlock_decision_category_tooltip = world_cap_decisions_categories
-		    declare_war_on = {
-    		    target = CHI
-    		    type = annex_everything
-		    }
-			declare_war_on = {
-    		    target = JAP
-    		    type = annex_everything
-		    }
-			every_state = {
-				limit = {
-					is_core_of = JAP
+			completion_reward = {
+					unlock_decision_category_tooltip = world_cap_decisions_categories
+					declare_war_on = {
+							target = CHI
+							type = annex_everything
+						}
+					declare_war_on = {
+							target = JAP
+							type = annex_everything
+						}
+					every_state = {
+							limit = {
+									is_core_of = JAP
+								}
+							add_core_of = ROOT
+						}
+					every_state = {
+							limit = {
+									is_core_of = CHI
+								}
+							add_core_of = ROOT
+						}
+					every_state = {
+							limit = {
+									is_core_of = MAN
+								}
+							add_core_of = ROOT
+						}
 				}
-				add_core_of = ROOT
-			}
-			every_state = {
-				limit = {
-					is_core_of = CHI
-				}
-				add_core_of = ROOT
-			}
-			every_state = {
-				limit = {
-					is_core_of = MAN
-				}
-				add_core_of = ROOT
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_MTU_democratic_work_environment
@@ -1900,10 +2072,11 @@ focus_tree = {
 		}
 		x = 28
 		y = 7
-		completion_reward = {
-		    add_ideas = democratic_industrial_environment
-			add_manpower = 10000
-		}
+			completion_reward = {
+					add_ideas = democratic_industrial_environment
+					add_manpower = 10000
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Joint_Bargaining_by_Industry
@@ -1917,28 +2090,32 @@ focus_tree = {
 		}
 		x = 29
 		y = 8
-		completion_reward = {
-		    add_ideas = industrial_struggle
-			add_war_support = 0.1
-			add_manpower = 10000
-			817 = { add_extra_state_shared_building_slots = 3 }
-		    809 = { add_extra_state_shared_building_slots = 3 }
-			
-			817 = { 
-				add_building_construction = {
-    				type = arms_factory
-    				level = 3
-    				instant_build = yes
+			completion_reward = {
+					add_ideas = industrial_struggle
+					add_war_support = 0.1
+					add_manpower = 10000
+					817 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					809 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					817 = {
+							add_building_construction = {
+									type = arms_factory
+									level = 3
+									instant_build = yes
+								}
+						}
+					809 = {
+							add_building_construction = {
+									type = arms_factory
+									level = 3
+									instant_build = yes
+								}
+						}
 				}
-			}
-			809 = { 
-				add_building_construction = {
-    				type = arms_factory 
-    				level = 3
-    				instant_build = yes
-				}
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_MTU_democracy_in_this_land
@@ -1955,21 +2132,19 @@ focus_tree = {
 		}
 		x = 30
 		y = 9
-		completion_reward = {
-			add_stability = 0.1
-			swap_ideas = {
-				remove_idea = Unstable_commune
-				add_idea = democracy_in_this_land
-			}
-		}
+			completion_reward = {
+					add_stability = 0.1
+					swap_ideas = {
+							remove_idea = Unstable_commune
+							add_idea = democracy_in_this_land
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_democratic_government
 		icon = GFX_KOR_MTU_democratic_government
 		cost = 5.00
-		available = {
-		democratic > 0.6
-		}
 		prerequisite = {
 			focus = KOR_MTU_Joint_Bargaining_by_Industry
 		}
@@ -1978,36 +2153,40 @@ focus_tree = {
 		}
 		x = 28
 		y = 9
-		completion_reward = {
-			set_politics = {
-				ruling_party = democratic
-				elections_allowed = yes
-				last_election = "1935.12.17"
-				election_frequency = 48
-			}
-			set_party_name = { 
-				ideology = democratic
-				long_name = 전국민주노동조합총연맹
-				name = 전국민주노동조합총연맹
-			}
-			set_political_party = {
-    			ideology = democratic
-    			popularity = 70
-			}
-			create_country_leader = {
-    			name = "김영훈"
-    			desc = "김영훈 민주노총 위원장"
-    			picture = "gfx/leaders/ANA/Kim_Young-hoon.png"
-    			expire = "1965.1.1"
-    			ideology = socialism
-    			traits = {
-					
-    			}
-    		}
-			country_event = {
-			    id = MTU.7
-			}
-		}
+			available = {
+					democratic > 0.6
+				}
+			completion_reward = {
+					set_politics = {
+							ruling_party = democratic
+							elections_allowed = yes
+							last_election = "1935.12.17"
+							election_frequency = 48
+						}
+					set_party_name = {
+							ideology = democratic
+							long_name = 전국민주노동조합총연맹
+							name = 전국민주노동조합총연맹
+						}
+					set_political_party = {
+							ideology = democratic
+							popularity = 70
+						}
+					create_country_leader = {
+							name = "김영훈"
+							desc = "김영훈 민주노총 위원장"
+							picture = "gfx/leaders/ANA/Kim_Young-hoon.png"
+							expire = "1965.1.1"
+							ideology = socialism
+							traits = {
+
+}
+						}
+					country_event = {
+							id = MTU.7
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_confiscation_of_monopoly_capital
@@ -2021,12 +2200,456 @@ focus_tree = {
 		}
 		x = 27
 		y = 8
-		completion_reward = {
-			add_timed_idea = {
-				idea = confiscation_of_monopoly_capital
-				days = 180
-			}
-			remove_ideas = Corporate_remnants
+			completion_reward = {
+					add_timed_idea = {
+							idea = confiscation_of_monopoly_capital
+							days = 180
+						}
+					remove_ideas = Corporate_remnants
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_Doctrinal_Institute
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_for_the_combination
 		}
+		prerequisite = {
+			focus = KOR_MTU_Central_Struggle_Committee
+		}
+		x = 22
+		y = 6
+		completion_reward = {
+			add_tech_bonus = {
+    			bonus = 1
+    			uses = 2
+    			category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_Central_Struggle_Committee
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_unions_army
+		}
+		x = 21
+		y = 5
+		completion_reward = {
+		add_stability = 0.05
+		add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = KOR_MTU_break_the_chain
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Central_Struggle_Committee
+		}
+		x = 20
+		y = 6
+		completion_reward = {
+		add_ideas = break_the_chain
+		}
+	}
+	focus = {
+		id = KOR_MTU_factory_absorption
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Occupation_of_the_tram_factory
+		}
+		x = 19
+		y = 7
+		completion_reward = {
+			add_ideas = eq_factory_mtu
+			random_owned_controlled_state  = {
+				add_building_construction = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state  = {
+				add_building_construction = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state  = {
+				add_building_construction = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state  = {
+				add_building_construction = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state  = {
+				add_building_construction = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_pilot_training
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Founding_of_the_Air_Force
+		}
+		x = 17
+		y = 7
+		completion_reward = {
+			add_ace = {
+    			name = "미래"
+    			surname = "민중의 바람"
+    			callsign = "폭풍"
+    			type = fighter_genius
+    			is_female = yes
+			}
+			air_experience = 25
+			add_manpower = 1000
+			add_tech_bonus = {
+    			bonus = 1
+    			uses = 3
+    			category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_Tank_Research_Institute
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Doctrinal_Institute
+		}
+		mutually_exclusive = {
+			focus = KOR_MTU_Cannon_Lab
+			focus = KOR_MTU_defense_of_the_union
+		}
+		x = 20
+		y = 8
+		
+	}
+	focus = {
+		id = KOR_MTU_Cannon_Lab
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Doctrinal_Institute
+		}
+		mutually_exclusive = {
+			focus = KOR_MTU_Tank_Research_Institute
+			focus = KOR_MTU_defense_of_the_union
+		}
+		x = 22
+		y = 8
+
+	}
+	focus = {
+		id = KOR_MTU_defense_of_the_union
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Doctrinal_Institute
+		}
+		mutually_exclusive = {
+			focus = KOR_MTU_Cannon_Lab
+			focus = KOR_MTU_Tank_Research_Institute
+		}
+		x = 24
+		y = 8
+
+	}
+	focus = {
+		id = KOR_MTU_Saudi_Arabia_secured
+		icon = GFX_goal_unknown
+		cost = 10.00
+		bypass = {
+			SAU = { exists = no }
+		} 
+		cancel = {
+			SAU = { exists = no }
+		}
+		prerequisite = {
+			focus = KOR_MTU_oil_excavation
+		}
+		x = 18
+		y = 8
+		completion_reward = {
+			create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = SAU
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_volunteer
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Cannon_Lab
+			focus = KOR_MTU_defense_of_the_union
+			focus = KOR_MTU_Tank_Research_Institute
+		}
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = KOR_MTU_Hospital_union_put_into_battlefield
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_defense_of_the_union
+			focus = KOR_MTU_Cannon_Lab
+			focus = KOR_MTU_Tank_Research_Institute
+		}
+		x = 21
+		y = 9
+		completion_reward = {
+			add_tech_bonus = {
+    			bonus = 2
+    			uses = 2
+    			category = hospital_tech
+			}
+		}
+	}
+	focus = {
+		id = KOT_MTU_new_tank
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Tank_Research_Institute
+		}
+		x = 20
+		y = 10
+		completion_reward = {
+			set_technology = {
+				m_2010_spaa = 1
+				m_2010_sp = 1
+				m_2010_IFV  = 1
+				m_2010_mechanized_equipment = 1
+				m_2010_modern_tank = 1
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_fire_power
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Cannon_Lab
+		}
+		x = 22
+		y = 10
+
+	}
+	focus = {
+		id = KOR_MTU_trade_union_fortification
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_defense_of_the_union
+		}
+		x = 24
+		y = 10
+
+	}
+	focus = {
+		id = KOR_MTU_air_base_construction
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_pilot_training
+		}
+		x = 17
+		y = 9
+		completion_reward = {
+			525  = {
+				add_building_construction = {
+    				type = air_base
+    				level = 10
+    				instant_build = yes
+				}
+			}
+			807  = {
+				add_building_construction = {
+    				type = air_base
+    				level = 10
+    				instant_build = yes
+				}
+			}
+			809  = {
+				add_building_construction = {
+    				type = air_base
+    				level = 10
+    				instant_build = yes
+				}
+			}
+			818  = {
+				add_building_construction = {
+    				type = air_base
+    				level = 10
+    				instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_North_Koreas_resource_development
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_super_steal
+		}
+		x = 16
+		y = 8
+
+	}
+	focus = {
+		id = KOR_MTU_metal_union_commando
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_for_the_combination
+		}
+		x = 23
+		y = 7
+		completion_reward = {
+		custom_effect_tooltip = iron_war_army
+		division_template = {
+			name = "금속노조 정예 기계화 사단"
+			is_locked = yes
+			priority = 2
+	
+			regiments = {
+				modern_mechanized = { x = 0 y = 0 }
+				modern_mechanized = { x = 0 y = 1 }
+				modern_mechanized = { x = 0 y = 2 }
+				modern_mechanized = { x = 1 y = 0 }
+				modern_mechanized = { x = 1 y = 1 }
+				modern_mbt = { x = 2 y = 0 }
+				modern_mbt = { x = 2 y = 1 }
+				modern_mbt = { x = 2 y = 2 }
+				modern_mbt = { x = 2 y = 3 }
+				modern_armed_rec = { x = 2 y = 4 }
+				modern_sp_art_brigade = { x = 3 y = 0 }
+				modern_sp_art_brigade = { x = 3 y = 1 }
+				modern_sp_art_brigade = { x = 3 y = 2 }
+				modern_sp_art_brigade = { x = 3 y = 3 }
+				modern_sp_anti_air_brigade = { x = 4 y = 0 }
+				Heavy_Engi_Bat = { x = 4 y = 1 }
+
+			}
+			support = {
+				logistics_company = { x = 0 y = 0 }
+				signal_company = { x = 0 y = 1 }
+				military_police = { x = 0 y = 2 }
+				field_hospital = { x = 0 y = 3 }
+				manpad = { x = 0 y = 4 }
+			}
+		}
+			807 = {
+				prioritize = { 9764 } 
+				create_unit = {
+					division = "name = \"1.금속노조 정예 기계화 사단\" division_template = \"금속노조 정예 기계화 사단\" start_experience_factor = 1"
+					owner = KOR
+				}
+			}
+			807 = {
+				prioritize = { 9764 } 
+				create_unit = {
+					division = "name = \"2.금속노조 정예 기계화 사단\" division_template = \"금속노조 정예 기계화 사단\" start_experience_factor = 1"
+					owner = KOR
+				}
+			}
+			807 = {
+				prioritize = { 9764 } 
+				create_unit = {
+					division = "name = \"3.금속노조 정예 기계화 사단\" division_template = \"금속노조 정예 기계화 사단\" start_experience_factor = 1"
+					owner = KOR
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_the_spirit_of_labor_union
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_break_the_chain
+		}
+		prerequisite = {
+			focus = KOR_MTU_Central_Struggle_Committee
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = KOR_MTU_The_spirit_of_Jeon_Tae_il
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_factory_absorption
+		}
+		x = 19
+		y = 9
+		completion_reward = {
+		add_ideas = jeon_tea_il
+			random_owned_controlled_state  = {
+				add_building_construction = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state  = {
+				add_building_construction = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_strong_unity_struggle
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_trade_union_fortification
+		}
+		prerequisite = {
+			focus = KOR_MTU_fire_power
+		}
+		prerequisite = {
+			focus = KOT_MTU_new_tank
+		}
+		x = 22
+		y = 11
+
 	}
 }
