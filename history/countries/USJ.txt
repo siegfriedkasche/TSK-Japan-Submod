@@ -417,7 +417,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 
 	create_equipment_variant = {
-		name = "니미츠급"
+		name = "키티호크급"
 		type = ship_hull_modern_CV_1
 		name_group = USJ_CV_HISTORICAL
 		parent_version = 0
