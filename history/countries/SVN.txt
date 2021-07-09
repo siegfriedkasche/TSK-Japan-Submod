@@ -1,0 +1,536 @@
+﻿capital = 282
+
+oob = ""
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+
+	set_naval_oob = "USJ_1936_naval"
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "USJ_1936_naval_mtg"
+}
+
+set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
+set_war_support = 0.3
+
+set_research_slots = 3
+set_fuel_ratio = 1.0
+add_ideas = {
+
+}
+
+if = {
+	limit = { has_dlc = "Waking the Tiger" }
+	add_ideas = {
+				
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	add_ideas = 
+}
+
+# Starting tech
+set_technology = {
+	light_vehicle_equipment_0 = 1
+	light_vehicle_equipment_1 = 1
+	light_vehicle_equipment_2 = 1
+	light_mun_equipment = 1
+	heavy_mun_equipment = 1
+	engineer_equipment = 1
+	modern_moto = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_engineers2 = 1
+	tech_engineers3 = 1		
+	tech_engineers4 = 1
+	tech_recon = 1
+	tech_recon2 = 1		
+	tech_recon3 = 1
+	tech_recon4 = 1
+	tech_military_police = 1		
+	tech_military_police2 = 1
+	tech_military_police3 = 1
+	tech_military_police4 = 1		
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_maintenance_company3 = 1		
+	tech_maintenance_company4 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1		
+	tech_field_hospital3 = 1
+	tech_field_hospital4 = 1
+	tech_logistics_company = 1		
+	tech_logistics_company2 = 1
+	tech_logistics_company3 = 1
+	tech_logistics_company4 = 1		
+	tech_signal_company = 1		
+	tech_signal_company2 = 1
+	tech_signal_company3 = 1
+	tech_signal_company4 = 1	
+	
+	m_1960_infantry_eq = 1
+	m_1970_infantry_eq = 1
+	m_1980_infantry_eq = 1
+	m_1990_infantry_eq = 1
+	
+	m_1960_modern_tank = 1
+	m_1970_modern_tank = 1
+	m_1980_modern_tank = 1
+	m_1990_modern_tank = 1
+	
+	m_1990_motorized_rocket_unit = 1
+	
+	m_1980_IFV = 1
+	m_1990_IFV = 1
+	
+	m_1970_mechanized_equipment = 1
+	m_1980_mechanized_equipment = 1
+	m_1990_mechanized_equipment = 1
+	
+	modern_war_artillery = 1
+	modern_war_artillery_2 = 1
+	
+	m_1960_sup_infantry_eq = 1
+	m_1970_sup_infantry_eq = 1
+	m_1985_sup_infantry_eq = 1
+	
+	m_1970_spaa = 1
+	m_1980_spaa = 1
+	m_1990_spaa = 1
+	
+	m_1980_sp = 1
+	m_1990_sp = 1
+	
+	m_1980_motorized_rocket_unit = 1
+	
+	m_1980_manpad = 1
+	
+	m_1970_atgm = 1
+	m_1980_atgm = 1
+	m_1990_atgm = 1
+	
+	heavy_anti_air = 1
+	aa_missile = 1
+	
+	m_1970_jet_multirole = 1
+	m_1980_jet_multirole = 1
+	m_1990_jet_multirole = 1
+	
+	m_1970_jet_fighter = 1
+	m_1980_jet_fighter = 1
+	m_1990_jet_fighter = 1
+
+
+	m_1990_cv_jet_fighter_equipment = 1
+    m_1970_cv_jet_cas_equipment = 1
+	
+	m_1980_jet_CAS = 1
+	m_1990_jet_CAS = 1
+	
+	m_1970_atgm = 1
+	m_1980_atgm = 1
+	m_1990_atgm = 1
+	
+	m_1980_attack_helicopter = 1
+	m_1990_attack_helicopter = 1
+	
+	m_1970_util_helicopter = 1
+	m_1980_util_helicopter = 1
+	m_1990_util_helicopter = 1
+
+	motorised_infantry = 1
+    maritime_helicopter = 1
+
+
+    light_ship_engine_modern_1 = 1
+	cruiser_ship_engine_modern_1 = 1
+	ship_modern_radar_1 = 1
+	ship_aegis_radar = 1
+	ship_modern_control_system_1 = 1
+	
+	ship_torpedo_modern_1 = 1
+	
+	ship_ciws_2 = 1
+	
+	ship_missile_luncher_1 = 1	
+	ship_missile_luncher_2 = 1	
+	
+	ship_vls_1 = 1
+	ship_vls_2 = 1
+
+	modern_light_battery_1 = 1
+	modern_light_battery_2 = 1
+
+	ship_aa_missile_luncher_1 = 1
+	ship_modern_sonar_1 = 1
+	ship_modern_sonar_2 = 1
+	ship_modern_torpedo_1 = 1
+	ship_modern_torpedo_2 = 1
+	ship_modern_torpedo_3 = 1
+	ship_sts_sub = 1
+	light_ship_engine_modern_1 = 1
+	cruiser_ship_engine_modern_1 = 1
+	ship_modern_radar_1 = 1
+	ship_aegis_radar = 1
+	ship_modern_control_system_1 = 1
+	
+	ship_torpedo_modern_1 = 1
+	
+	ship_ciws_2 = 1
+	
+	ship_missile_luncher_1 = 1	
+	ship_missile_luncher_2 = 1	
+	
+	ship_vls_1 = 1
+	ship_vls_2 = 1
+
+	modern_light_battery_1 = 1
+	modern_light_battery_2 = 1
+
+	ship_aa_missile_luncher_1 = 1
+	ship_armor_cruiser_modern_1 = 1
+	ship_armor_cruiser_modern_2 = 1
+
+	m_1980patrol = 1
+	
+	modern_light_battery_1 = 1
+	ship_missile_luncher_1 = 1
+	ship_missile_luncher_2 = 1
+	ship_ciws = 1
+	ship_modern_control_system_1 = 1
+	ship_modern_radar_1 = 1
+	ship_modern_sonar_1 = 1
+	light_ship_engine_modern_1 = 1
+	ship_hel = 1
+	
+	light_secondaries_1 = 1
+	mg = 1
+	ship_vulcan_1 = 1
+	ship_manpad = 1
+	depth_charge_modern_1 = 1
+	
+	modern_steel_mill = 1
+	modern_fuel_refining = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+
+	armored_car1 = 1
+	
+	m_1990_IFV = 1
+
+	modern_steel_mill = 1
+	modern_fuel_refining = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	
+	atomic_research = 1
+	nuclear_reactor = 1
+	jet_engines = 1
+	advanced_rocket_engines = 1
+	improved_rocket_engines = 1
+	rocket_engines = 1
+	experimental_rockets = 1
+	electronic_mechanical_engineering = 1
+	mechanical_computing = 1
+	radio = 1
+	radio_detection = 1
+	radar_station = 1
+	decimetric_radar = 1
+	improved_decimetric_radar = 1
+	centimetric_radar = 1
+	improved_centimetric_radar = 1
+	advanced_centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	advanced_encryption = 1
+	advanced_decryption = 1
+
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		transport = 1
+		FF_1 = 1
+		FF_2 = 1
+		DDG_1 = 1
+		DDH_1 = 1
+		DDH_2 = 1
+		SS_3 = 1
+	    SS_4 = 1
+		CV_1 = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		mtg_transport = 1
+		m_1970PCC = 1
+		m_1980PCC = 1
+		m_1970ff = 1
+	    m_1980ff = 1
+	    m_1990ff = 1
+        m_1990DDG = 1
+	    m_1980DDH = 1
+	    m_1990DDH = 1	
+	    m_1980SS = 1
+	    m_1990SS = 1
+	    m_2000SS = 1
+		m_1980CV = 1
+		m_1980patrol = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+set_convoys = 400
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+		not = { has_dlc = "Waking the Tiger" }
+	}
+	set_autonomy = {
+		target = MEN
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = MAN
+		autonomous_state = autonomy_integrated_puppet
+	}
+}
+if = {
+	limit = { 
+		not = {
+			has_dlc = "Waking the Tiger"
+			has_dlc = "Together for Victory"
+		}
+	}
+}
+if = {
+	limit = { 
+		has_dlc = "Waking the Tiger"
+	}
+
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
+}
+
+create_country_leader = {
+	name = "Gennadiy Aleksandrovich"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Gennadiy_Aleksandrovich.png"
+	expire = "1989.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+
+create_field_marshal = {
+	name = "Jack D. Woodall"
+	picture = "Jack_D._Woodall.dds"
+	traits = { 
+		politically_connected
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Akira Muto"
+		picture = "Portrait_Japan_Akira_Muto.dds"
+	traits = { career_officer  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Stanley R. Arthur"
+	picture = "portrait_Stanley_R._Arthur.png"
+	traits = { aviation_enthusiast bold air_controller flight_deck_manager superior_tactician spotter }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 6
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Yoshiko Kawashima"
+		GFX = GFX_portrait_yoshiko_kawashima
+		traits = { }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { JAP }
+	}
+
+	create_operative_leader = {
+		name = "Takeo Yoshikawa"
+		GFX = GFX_portrait_takeo_yoshikawa
+		traits = { }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { JAP }
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+
+	create_equipment_variant = {
+		name = "니미츠급"
+		type = ship_hull_modern_CV_1
+		name_group = USJ_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 =  ship_deck_space
+			fixed_ship_deck_slot_2 =  ship_deck_space
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_1
+			fixed_ship_secondaries_slot = empty
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "스프루언스 급"
+		type = ship_hull_modern_DDH_2
+		name_group = USJ_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			ixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_1
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_armor_slot = ship_armor_cruiser_modern_1
+			front_1_custom_slot = ship_aa_missile_luncher_1
+			mid_1_custom_slot = ship_missile_luncher_2
+			mid_2_custom_slot = ship_ciws_2
+			rear_1_custom_slot = ship_aa_missile_luncher_1
+			rear_2_custom_slot = ship_hel_modern
+		}
+	}
+
+
+	create_equipment_variant = {
+		name = "알레이버크급"
+		type = ship_hull_modern_DDG_1
+		name_group = USJ_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
+			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
+			front_1_custom_slot = ship_vls_2
+			front_2_custom_slot = ship_ciws_2
+			mid_1_custom_slot = ship_missile_luncher_2
+			rear_1_custom_slot = ship_vls_2
+			rear_2_custom_slot = ship_torpedo_modern_1
+		}
+	}
+
+    create_equipment_variant = {
+		name = "타이콘데로가급"
+		type = ship_hull_modern_cruiser_1
+		name_group = USJ_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
+			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
+			front_1_custom_slot = ship_vls_2
+			front_2_custom_slot = ship_ciws_2
+			mid_1_custom_slot = ship_missile_luncher_2
+			rear_1_custom_slot = ship_vls_2
+			rear_2_custom_slot = ship_torpedo_modern_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "올리버 헤저드 페리급"
+		type = ship_hull_FF_2
+		name_group = name = NAME_THEME_HISTORICAL_FF
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			fixed_ship_battery_slot_1 = empty
+			rear_1_custom_slot = ship_ciws_2
+			mid_1_custom_slot = ship_missile_luncher_1
+			front_1_custom_slot = ship_missile_luncher_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "로스 엔젤리스 급"
+		type = ship_hull_modern_submarine_5
+		name_group = USJ_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			les = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_modern_1	
+			fixed_ship_engine_slot = sub_ship_engine_modern_1
+			fixed_ship_sonar_slot = ship_sonar_modern_1
+			front_1_custom_slot = ship_sts_sub_1
+			mid_1_custom_slot = ship_sub_snorkel_modern
+			rear_1_custom_slot = ship_sts_sub_1
+		}
+	}
+
+}

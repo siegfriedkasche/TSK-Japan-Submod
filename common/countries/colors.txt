@@ -7,6 +7,10 @@ KPA = {
 	color = rgb { 204  0  0 }
 	color_ui = rgb { 204  0  0 }
 }
+SVN = {
+	color = rgb  { 114  139  158 }
+	color_ui = rgb  { 114  139  158 }
+}
 PRK = {
 	color = rgb { 176  26  26 }
 	color_ui = rgb { 176  26  26 }

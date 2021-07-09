@@ -1,0 +1,38 @@
+state={
+	id=859
+	name="STATE_859"
+	provinces={
+		957 
+	}
+	state_category=large_city
+	manpower= 550000
+	buildings_max_level_factor=1.000
+	history={
+		owner = SVN
+		add_core_of = SVN
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 4
+			arms_factory = 5
+			industrial_complex = 10
+			dockyard = 7
+			steel_mill = 3
+			fuel_silo = 4
+
+
+			}
+
+		victory_points = {
+			957 30
+		}
+		1936.1.4 = {
+			owner = SOV
+			controller = SOV
+			remove_core_of = SVN
+
+		}
+
+	}
+}
+
+}
