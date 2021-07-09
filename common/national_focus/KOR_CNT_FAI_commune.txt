@@ -227,7 +227,32 @@ focus_tree = {
 		}
 		x = 16
 		y = 6
-		
+		completion_reward = {
+			random_owned_controlled_state  = {
+				add_building_construction = {
+    				type = steel_alloy_ind 
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state  = {
+				add_building_construction = {
+    				type = steel_alloy_ind 
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state  = {
+				add_building_construction = {
+    				type = steel_alloy_ind 
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_oil_excavation
@@ -299,7 +324,18 @@ focus_tree = {
 		}
 		x = 23
 		y = 5
-
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 3
+				uses = 1
+				category = nuclear
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = industry
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_industrial_union_fighting_stance
@@ -310,7 +346,9 @@ focus_tree = {
 		}
 		x = 25
 		y = 6
-
+		completion_reward = {
+			add_manpower = 100000
+		}
 	}
 	focus = {
 		id = KOR_MTU_Im_Seonggyu
@@ -2604,7 +2642,64 @@ focus_tree = {
 		}
 		x = 16
 		y = 8
+		completion_reward = {
+			random_owned_controlled_state  = {
+				limit = {
+					is_core_of = KPA
+				}
+				add_building_construction = {
+    				type = steel_alloy_ind 
+    				level = 4
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+			}
+			random_owned_controlled_state  = {
+				limit = {
+					is_core_of = KPA
+				}
 
+				add_building_construction = {
+    				type = steel_mill  
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state  = {
+				limit = {
+					is_core_of = KPA
+				}
+				add_building_construction = {
+    				type = steel_mill  
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state  = {
+				limit = {
+					is_core_of = KPA
+				}
+				add_building_construction = {
+    				type = steel_mill  
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state  = {
+				limit = {
+					is_core_of = KPA
+				}
+				add_building_construction = {
+    				type = steel_mill  
+    				level = 2
+    				instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_metal_union_commando

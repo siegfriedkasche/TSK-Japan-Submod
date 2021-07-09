@@ -1,0 +1,10 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_Molotov_cocktail_medium"
+		texturefile = "gfx/interface/technologies/infantry/GFX_Molotov_cocktail.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_Molotov_cocktail_medium"
+		texturefile = "gfx/interface/technologies/infantry/GFX_Molotov_cocktail.png"
+	}
+}

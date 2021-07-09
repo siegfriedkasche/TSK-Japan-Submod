@@ -1,5 +1,6 @@
 ﻿l_english:
  peace_in_korea:0 "한반도의 내전이 종식되었습니다.\n마음껏 향유하세요."
+ KOR_MTU_industrial_union_fighting_stance_desc:0 "인력 부족할떄 쓰세요"
  metal_union_T:0 "노동조합의 습격"
  metal_union_D:0 "세상에는 빵 한 조각 때문에 죽어가는 사람도 많지만, 작은 사랑도 받지 못해서 죽어가는 사람은 더 많다. \n-마더테레사"
  metal_union_A:0 "강철의 대오!"
@@ -24,6 +25,8 @@
  minzhunochong_categories_desc:0 " "
  jeon_tea_il:0 "전태일 정신"
  jeon_tea_il_desc:0 "\n\n\n £GFX_ideology_supremacy_texticon \n\n\n\n"
+ Molotov_cocktail:0 "화기 & 화염병"
+ KOR_Molotov_cocktail:0 "K2C1 & 꽃병"
 
  modifier_jeon_tea_il:0 "\n§Y전태일 열사의 정신§! 디시전이 열립니다.\n\n새로 등용되는 §Y육군 지휘관§!의 §Y모든 기술§!이 §G+1§!씩 증가합니다.\n새로 등용되는 §Y해군 지휘관§!의 §Y모든 기술§!이 §G+1§!씩 증가합니다."
 

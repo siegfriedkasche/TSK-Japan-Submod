@@ -1,0 +1,16 @@
+technologies = {
+
+	Molotov_cocktail = { #cocktail
+
+		enable_equipments = { 
+			Molotov_cocktail
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+}

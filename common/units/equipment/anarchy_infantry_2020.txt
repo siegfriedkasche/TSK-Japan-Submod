@@ -1,0 +1,27 @@
+equipments = {
+	Molotov_cocktail = {  #Molotov cocktail
+		year = 1936
+		#picture = GFX_Molotov_cocktail
+
+		archetype = infantry_equipment
+		parent = infantry_equipment_9
+		priority = 11
+		visual_level = 10
+		
+		#Defensive Abilities
+		defense = 50
+		breakthrough = 15
+		
+		#Offensive Abilities
+		soft_attack = 25
+		hard_attack = 16
+		ap_attack = 16
+		air_attack = 0
+		
+		build_cost_ic = 3.5
+		resources = {
+			OIL = 1
+			steel = 4
+		}
+	}
+}
