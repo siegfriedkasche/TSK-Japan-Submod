@@ -15,4 +15,8 @@ spriteTypes = {
 		name = "GFX_decision_hanguo_nochong"
 		texturefile = "gfx/interface/decisions/GFX_decision_hanguo_nochong.png"
 	}
+	spriteType = {
+		name = "GFX_decision_jeon_tea_il"
+		texturefile = "gfx/interface/decisions/GFX_decision_jeon_tea_il.png"
+	}
 }

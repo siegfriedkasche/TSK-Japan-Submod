@@ -9,18 +9,33 @@ minzhunochong_categories = {
             has_completed_focus = KOR_MTU_Korea_Federation_of_Trade_Unions_merged
         }
 }
+jeon_tea_il_decision_categories = {
+
+	picture = GFX_decision_jeon_tea_il
+	priority = 500
+	allowed  = {
+		tag = kor
+	}
+	visible = {
+		KOR = {
+			has_idea = jeon_tea_il
+		}
+    }
+}
 
 park_categories = {
 
 	picture = GFX_decision_hanguo_nochong
 	priority = 250
+	allowed  = {
+		tag = kor
+	}
 	visible = {
         and = {
 			has_country_leader = {
 				name = "Park Geunhye"
 				ruling_only = yes
             }
-			owns_state = 328
 		}
     }
 }

@@ -194,3 +194,103 @@ park_categories = {
 		}
 	}
 }
+jeon_tea_il_decision_categories = {
+	jeon_tea_il_decision = {
+		allowed  = {
+		    tag = KOR
+		}
+		visible = {
+            has_completed_focus = KOR_MTU_The_spirit_of_Jeon_Tae_il
+        }
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = no
+		
+		complete_effect = {
+			country_event = {
+				id = MTU.18
+			}
+		}
+	}
+	jeon_tea_il_decision_1 = {
+		allowed  = {
+		    tag = KOR
+		}
+		visible = {
+            has_completed_focus = KOR_MTU_The_spirit_of_Jeon_Tae_il
+        }
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = no
+		cost = 30
+		days_remove = 50
+		modifier = {
+            war_support_weekly = -0.001
+			stability_weekly = 0.001
+        }
+	}
+	jeon_tea_il_decision_2 = {
+		allowed  = {
+		    tag = KOR
+		}
+		visible = {
+            has_completed_focus = KOR_MTU_The_spirit_of_Jeon_Tae_il
+        }
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = no
+		cost = 100
+		days_remove = 31
+		modifier = {
+            industrial_capacity_factory = -0.1
+			production_speed_buildings_factor = -0.1
+			stability_weekly = 0.03
+        }
+	}
+	jeon_tea_il_decision_3 = {
+		allowed  = {
+		    tag = KOR
+		}
+		visible = {
+            has_completed_focus = KOR_MTU_The_spirit_of_Jeon_Tae_il
+        }
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = no
+		cost = 100
+		days_remove = 50
+		modifier = {
+            consumer_goods_factor = 0.02
+			industrial_capacity_factory = 0.15
+			production_speed_buildings_factor = 0.15
+        }
+	}
+	jeon_tea_il_decision_4 = {
+		allowed  = {
+		    tag = KOR
+		}
+		visible = {
+            has_completed_focus = KOR_MTU_The_spirit_of_Jeon_Tae_il
+        }
+		ai_will_do = {
+			factor = 50
+		}
+		fire_only_once = no
+		cost = 50
+		days_remove = 31
+		modifier = {
+            resistance_damage_to_garrison_on_our_occupied_states = 0.15
+            resistance_decay_on_our_occupied_states = -0.15
+            resistance_growth_on_our_occupied_states = 0.15
+            resistance_target_on_our_occupied_states = 0.15
+			compliance_growth_on_our_occupied_states = -0.15
+			stability_weekly = -0.005
+			war_support_weekly = -0.005
+			political_power_cost = 0.02
+        }
+	}
+}

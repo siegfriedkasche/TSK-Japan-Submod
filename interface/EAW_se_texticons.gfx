@@ -20,7 +20,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_ideology_supremacy_texticon"
-		texturefile = "gfx/texticons/ideology_supremacy.tga"
+		texturefile = "gfx/texticons/GFX_ideology_supremacy_texticon.png"
 		legacy_lazy_load = no
 	}
 	
