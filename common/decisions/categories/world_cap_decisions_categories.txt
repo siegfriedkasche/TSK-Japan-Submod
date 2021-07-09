@@ -5,6 +5,6 @@ world_cap_decisions_categories= {
 		    tag = kor
 		}
 		visible = {
-            has_completed_focus = KOR_MTU_Confederation_of_Trade_Unions_of_the_World
+            has_completed_focus = KOR_MTU_international_labor_movement
         }
 }

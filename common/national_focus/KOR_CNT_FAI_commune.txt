@@ -169,7 +169,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_unions_army
-		icon = GFX_goal_unknown
+		icon = GFX_TNO_generic_left_unity_revolution
 		cost = 10.00
 		prerequisite = {
 			focus = kor_mtu_union_chairman
@@ -187,7 +187,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_Founding_of_the_Air_Force
-		icon = GFX_goal_unknown
+		icon = f35
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_unions_army
@@ -220,7 +220,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_super_steal
-		icon = GFX_goal_unknown
+		icon = central_planned_economy
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Founding_of_the_Air_Force
@@ -256,7 +256,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_oil_excavation
-		icon = GFX_goal_unknown
+		icon = oil
 		cost = 10.00
 		available = {
 			owns_state = 813
@@ -281,7 +281,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_Occupation_of_the_tram_factory
-		icon = GFX_goal_unknown
+		icon = GFX_TOB_Sverdlovsk_Tank_Factory
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_unions_army
@@ -317,7 +317,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_for_the_combination
-		icon = GFX_goal_unknown
+		icon = GFX_syndicalist_industry
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_unions_army
@@ -339,7 +339,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_industrial_union_fighting_stance
-		icon = GFX_goal_unknown
+		icon = coalition_army
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_for_the_combination
@@ -545,6 +545,7 @@ focus_tree = {
 		x = 33
 		y = 5
 			completion_reward = {
+			unlock_decision_category_tooltip = world_cap_decisions_categories
 					add_ideas = International_International_Brigade
 				}
 
@@ -2071,7 +2072,7 @@ focus_tree = {
 		x = 31
 		y = 8
 			completion_reward = {
-					unlock_decision_category_tooltip = world_cap_decisions_categories
+					
 					declare_war_on = {
 							target = CHI
 							type = annex_everything
@@ -2252,7 +2253,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_Doctrinal_Institute
-		icon = GFX_goal_unknown
+		icon = army_doctrine
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_for_the_combination
@@ -2272,7 +2273,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_Central_Struggle_Committee
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_communist_deal
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_unions_army
@@ -2286,7 +2287,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_break_the_chain
-		icon = GFX_goal_unknown
+		icon = break_free
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Central_Struggle_Committee
@@ -2299,7 +2300,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_factory_absorption
-		icon = GFX_goal_unknown
+		icon = GFX_arms_factory
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Occupation_of_the_tram_factory
@@ -2352,7 +2353,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_pilot_training
-		icon = GFX_goal_unknown
+		icon = air_force
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Founding_of_the_Air_Force
@@ -2378,7 +2379,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_Tank_Research_Institute
-		icon = GFX_goal_unknown
+		icon = tanks5
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Doctrinal_Institute
@@ -2399,7 +2400,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_Cannon_Lab
-		icon = GFX_goal_unknown
+		icon = air_defense2
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Doctrinal_Institute
@@ -2420,7 +2421,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_defense_of_the_union
-		icon = GFX_goal_unknown
+		icon = literacy_rate_improvment2
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Doctrinal_Institute
@@ -2441,7 +2442,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_Saudi_Arabia_secured
-		icon = GFX_goal_unknown
+		icon = barrels
 		cost = 10.00
 		bypass = {
 			SAU = { exists = no }
@@ -2463,7 +2464,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_volunteer
-		icon = GFX_goal_unknown
+		icon = generic_healthcare
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Cannon_Lab
@@ -2478,7 +2479,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_Hospital_union_put_into_battlefield
-		icon = GFX_goal_unknown
+		icon = generic_hospital
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_defense_of_the_union
@@ -2497,7 +2498,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOT_MTU_new_tank
-		icon = GFX_goal_unknown
+		icon = K1A1
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Tank_Research_Institute
@@ -2516,7 +2517,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_fire_power
-		icon = GFX_goal_unknown
+		icon = katyusha
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_Cannon_Lab
@@ -2529,7 +2530,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_trade_union_fortification
-		icon = GFX_goal_unknown
+		icon = city_fort
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_defense_of_the_union
@@ -2595,7 +2596,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_air_base_construction
-		icon = GFX_goal_unknown
+		icon = air_defense
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_pilot_training
@@ -2635,7 +2636,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_North_Koreas_resource_development
-		icon = GFX_goal_unknown
+		icon = mechanized_agriculture
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_super_steal
@@ -2703,7 +2704,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_metal_union_commando
-		icon = GFX_goal_unknown
+		icon = soldier
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_for_the_combination
@@ -2769,7 +2770,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_the_spirit_of_labor_union
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_MTU_the_spirit_of_labor_union
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_break_the_chain
@@ -2787,7 +2788,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_The_spirit_of_Jeon_Tae_il
-		icon = GFX_goal_unknown
+		icon = GFX_spirit_of_Jeon_Tae_il
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_MTU_factory_absorption
@@ -2816,19 +2817,20 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_strong_unity_struggle
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = GFX_UFT_Organization_of_the_struggle
+		cost = 2.00
+		available = {
+			has_army_manpower = { size > 999999 }
+		}
 		prerequisite = {
 			focus = KOR_MTU_trade_union_fortification
-		}
-		prerequisite = {
 			focus = KOR_MTU_fire_power
-		}
-		prerequisite = {
 			focus = KOT_MTU_new_tank
 		}
 		x = 22
 		y = 11
-
+		completion_reward = {
+			unlock_decision_tooltip = world_cap_decisions_SOV
+		}
 	}
 }

@@ -156,6 +156,14 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/GFX_KOR_MTU_anti_libearism_solidarity.png"
     }
 	spriteType = {
+        name = "GFX_spirit_of_Jeon_Tae_il"
+        texturefile = "gfx/interface/goals/GFX_spirit_of_Jeon_Tae_il.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_the_spirit_of_labor_union"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_the_spirit_of_labor_union.png"
+    }
+	spriteType = {
         name = "GFX_SOV_anarchist_communes_KRD"
         texturefile = "gfx/interface/goals/Kaiserredux/GFX_SOV_anarchist_communes_KRD.dds"
     }
@@ -254,6 +262,18 @@ spriteTypes = {
 	spriteType = {
         name = "GFX_syndicalist_industry"
         texturefile = "gfx/interface/goals/Kaiserredux/GFX_syndicalist_industry.dds"
+    }
+	spriteType = {
+        name = "GFX_goal_generic_communist_deal"
+        texturefile = "gfx/interface/goals/TNO/GFX_goal_generic_communist_deal.dds"
+    }
+	spriteType = {
+        name = "GFX_TNO_generic_left_unity_revolution"
+        texturefile = "gfx/interface/goals/TNO/GFX_TNO_generic_left_unity_revolution.dds"
+    }
+	spriteType = {
+        name = "GFX_TOB_Sverdlovsk_Tank_Factory"
+        texturefile = "gfx/interface/goals/TNO/GFX_TOB_Sverdlovsk_Tank_Factory.dds"
     }
 	frameAnimatedSpriteType = {
 		name = "GFX_fire_breath_move"

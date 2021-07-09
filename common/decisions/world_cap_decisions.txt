@@ -334,7 +334,7 @@ world_cap_decisions_categories = {
 	}
 	world_cap_decisions_SOV = {
 		available = {
-			has_army_manpower = { size > 999999 }
+			has_completed_focus = KOR_MTU_strong_unity_struggle
 		}
 		visible = {
 			SOV = {
@@ -344,7 +344,6 @@ world_cap_decisions_categories = {
 		ai_will_do = {
 			factor = 50
 		}
-
 		fire_only_once = yes
 		cost = 150
 		days_remove = 60
