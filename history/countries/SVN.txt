@@ -349,7 +349,7 @@ create_country_leader = {
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "Gennadiy_Aleksandrovich.png"
 	expire = "1989.1.1"
-	ideology = liberalism
+	ideology = leninism 
 	traits = {
 	}
 }
