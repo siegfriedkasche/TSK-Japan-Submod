@@ -7,13 +7,13 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 
-	set_naval_oob = "USJ_1936_naval"
+	set_naval_oob = "_1936_naval"
 }
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	set_naval_oob = "USJ_1936_naval_mtg"
+	set_naval_oob = "SVN_1936_naval_mtg"
 }
 
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
@@ -417,20 +417,20 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 
 	create_equipment_variant = {
-		name = "니미츠급"
+		name = "키예프급"
 		type = ship_hull_modern_CV_1
 		name_group = USJ_CV_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_deck_slot_1 =  ship_deck_space
+			fixed_ship_deck_slot_1 =  modern_ship_light_battery_1
 			fixed_ship_deck_slot_2 =  ship_deck_space
 			fixed_ship_anti_air_slot = ship_ciws_2
 			fixed_ship_radar_slot = ship_modern_radar_1
 			fixed_ship_engine_slot = cruiser_ship_engine_modern_1
-			fixed_ship_secondaries_slot = empty
-			front_1_custom_slot = empty
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
+			fixed_ship_secondaries_slot = ship_vls_2
+			front_1_custom_slot = modern_ship_light_battery_1
+			mid_1_custom_slot = ship_vls_2
+			mid_2_custom_slot = ship_ciws_2
 		}
 	}
 
