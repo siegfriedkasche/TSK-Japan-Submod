@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = Market_Control_Initiated_markets
-		icon = GFX_goal_unknown
+		icon = better_money
 		cost = 10.00
 		x = 9
 		y = 0
@@ -22,7 +22,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_26
-		icon = GFX_goal_unknown
+		icon = manchurian_gamble
 		cost = 10.00
 		x = 21
 		y = 0
@@ -38,7 +38,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_30
-		icon = GFX_goal_unknown
+		icon = japanese_pacific_guardian
 		cost = 10.00
 		x = 36
 		y = 0
@@ -51,7 +51,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_76
-		icon = GFX_goal_unknown
+		icon = internationalism
 		cost = 10.00
 		x = 41
 		y = 6
@@ -62,7 +62,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Military
-		icon = GFX_goal_unknown
+		icon = kempeitai
 		cost = 10.00
 		mutually_exclusive = {
 			focus = MJP_Election
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Oil_problem
-		icon = GFX_goal_unknown
+		icon = oil_trade
 		cost = 10.00
 		prerequisite = {
 			focus = Market_Control_Initiated_markets
@@ -100,7 +100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Securing_Fuel_Imports
-		icon = GFX_goal_unknown
+		icon = generic_gas
 		cost = 10.00
 		prerequisite = {
 			focus = Oil_problem
@@ -115,7 +115,7 @@ focus_tree = {
 	}
 	focus = {
 		id = US_Trade_Opens
-		icon = GFX_goal_unknown
+		icon = align_to_america
 		cost = 10.00
 		prerequisite = {
 			focus = Securing_Fuel_Imports
@@ -133,7 +133,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Middle_East_Contact
-		icon = GFX_goal_unknown
+		icon = align_to_hamas
 		cost = 10.00
 		prerequisite = {
 			focus = Securing_Fuel_Imports
@@ -151,7 +151,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_5
-		icon = GFX_goal_unknown
+		icon = navy2
 		cost = 10.00
 		prerequisite = {
 			focus = US_Trade_Opens
@@ -168,7 +168,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_6
-		icon = GFX_goal_unknown
+		icon = steel_production
 		cost = 10.00
 		prerequisite = {
 			focus = Oil_problem
@@ -182,7 +182,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_7
-		icon = GFX_goal_unknown
+		icon = steel_production2
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_6
@@ -200,7 +200,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_8
-		icon = GFX_goal_unknown
+		icon = money
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_7
@@ -217,7 +217,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_9
-		icon = GFX_goal_unknown
+		icon = oil_trade
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_8
@@ -236,7 +236,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_11
-		icon = GFX_goal_unknown
+		icon = central_planned_economy2
 		cost = 3.00
 		prerequisite = {
 			focus = Market_Control_Initiated_markets
@@ -250,7 +250,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_12
-		icon = GFX_goal_unknown
+		icon = better_money_on_fire
 		cost = 3.00
 		prerequisite = {
 			focus = Market_Control_Initiated_markets
@@ -264,7 +264,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_13
-		icon = GFX_goal_unknown
+		icon = vineyard
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_11
@@ -291,7 +291,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_14
-		icon = GFX_goal_unknown
+		icon = centralization_question
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_13
@@ -314,7 +314,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_15
-		icon = GFX_goal_unknown
+		icon = brain_power
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_14
@@ -333,7 +333,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_16
-		icon = GFX_goal_unknown
+		icon = construction_engineering
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_14
@@ -353,7 +353,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_17
-		icon = GFX_goal_unknown
+		icon = infrastructure
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_16
@@ -384,7 +384,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_25
-		icon = GFX_goal_unknown
+		icon = construction3
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_17
@@ -421,7 +421,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_18
-		icon = GFX_goal_unknown
+		icon = construction4
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_16
@@ -440,7 +440,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_21
-		icon = GFX_goal_unknown
+		icon = decentralized_economy
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_18
@@ -460,7 +460,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_19
-		icon = GFX_goal_unknown
+		icon = infrastructure1
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_16
@@ -480,7 +480,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_22
-		icon = GFX_goal_unknown
+		icon = resource_extraction
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_18
@@ -500,7 +500,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_23
-		icon = GFX_goal_unknown
+		icon = central_planned_economy
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_19
@@ -520,7 +520,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_27
-		icon = GFX_goal_unknown
+		icon = korean_peninsula
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_26
@@ -531,7 +531,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_28
-		icon = GFX_goal_unknown
+		icon = align_to_south_korea
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_27
@@ -542,7 +542,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_56
-		icon = GFX_goal_unknown
+		icon = military_planning
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_27
@@ -553,7 +553,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_29
-		icon = GFX_goal_unknown
+		icon = infiltration
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_28
@@ -567,7 +567,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_64
-		icon = GFX_goal_unknown
+		icon = GFX_prk_contact_with_the_South
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_56
@@ -578,7 +578,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_67
-		icon = GFX_goal_unknown
+		icon = anti_submarine
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_29
@@ -592,7 +592,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_69
-		icon = GFX_goal_unknown
+		icon = attack_north_korea
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_67
@@ -603,7 +603,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_66
-		icon = GFX_goal_unknown
+		icon = united_states_air_force
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_69
@@ -614,7 +614,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_2
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_intel
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_26
@@ -634,7 +634,7 @@ focus_tree = {
 
 	focus = {
 		id = Liberal_Democratic_Party
-		icon = GFX_goal_unknown
+		icon = democracy_in_japan
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Election
@@ -648,7 +648,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Grants
-		icon = GFX_goal_unknown
+		icon = wheat_field
 		cost = 10.00
 		prerequisite = {
 			focus = Liberal_Democratic_Party
@@ -661,17 +661,6 @@ focus_tree = {
     			popularity = 0.15
 			}
 		}
-	}
-	focus = {
-		id = SOC
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Liberal_Democratic_Party
-		}
-		x = 16
-		y = 9
-
 	}
 	focus = {
 		id = Constitution
@@ -1603,45 +1592,10 @@ focus_tree = {
 		
 		}					
 	}
-	focus = {
-		id = Liberal_Democratic_Party
-		icon = GFX_goal_unknown
-		cost = 10.00
-		available = {
-			always = no
-		}
-		prerequisite = {
-			focus = MJP_Election
-		}
-		mutually_exclusive = {
-			focus = Constitution
-		}
-		x = 15
-		y = 8
-		completion_reward = {
-		
-		}
-		
-	}
-	focus = {
-		id = Grants
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Liberal_Democratic_Party
-		}
-		x = 14
-		y = 9
-		completion_reward = {
-          add_popularity = {
-          ideology = democratic
-          popularity = 0.15
-           }
-       }
-	}
+	
 	focus = {
 		id = SOC
-		icon = GFX_goal_unknown
+		icon = gold_standard
 		cost = 10.00
 		prerequisite = {
 			focus = Liberal_Democratic_Party
@@ -1880,7 +1834,7 @@ focus_tree = {
 	}
 	focus = {
 		id = network
-		icon = GFX_goal_unknown
+		icon = construct_infrastructure
 		cost = 10.00
 		prerequisite = {
 			focus = SOC
@@ -1917,7 +1871,7 @@ focus_tree = {
 	}
 	focus = {
 		id = political_reform
-		icon = GFX_goal_unknown
+		icon = parliament_box
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Cabinet_of_Hashimoto
@@ -1931,7 +1885,7 @@ focus_tree = {
 	}
 	focus = {
 		id = national_welfare
-		icon = GFX_goal_unknown
+		icon = government_beu
 		cost = 10.00
 		prerequisite = {
 			focus = Coalition
@@ -1947,7 +1901,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Emperor
-		icon = GFX_goal_unknown
+		icon = japanese_monarchy
 		cost = 10.00
 		prerequisite = {
 			focus = Past_History
