@@ -11,6 +11,26 @@ spriteTypes = {
         name = "GFX_ava_kor_destopia"
         texturefile = "gfx/interface/goals/avant/GFX_ava_kor_destopia.png"
     }
+	spriteType = {
+        name = "GFX_CHI_Educating_The_Countryside"
+        texturefile = "gfx/interface/goals/GFX_CHI_Educating_The_Countryside.dds"
+    }
+	spriteType = {
+        name = "GFX_KOR_CNT_barriers_between_urban_and_rural_areas"
+        texturefile = "gfx/interface/goals/GFX_KOR_CNT_barriers_between_urban_and_rural_areas.png"
+    }
+	spriteType = {
+        name = "GFX_The_Model_City"
+        texturefile = "gfx/interface/goals/GFX_The_Model_City.dds"
+    }
+	spriteType = {
+        name = "GFX_JAP_a_streamlined_economy"
+        texturefile = "gfx/interface/goals/GFX_JAP_a_streamlined_economy.dds"
+    }
+	spriteType = {
+        name = "GFX_ITA_Conclude_the_Mechanization_of_Agriculture"
+        texturefile = "gfx/interface/goals/GFX_ITA_Conclude_the_Mechanization_of_Agriculture.dds"
+    }
     spriteType = {
         name = "GFX_AVA_KOR_dream"
         texturefile = "gfx/interface/goals/avant/GFX_AVA_KOR_dream.png"
@@ -22,6 +42,10 @@ spriteTypes = {
     spriteType = {
         name = "GFX_AVA_KOR_world_of_ideals"
         texturefile = "gfx/interface/goals/avant/GFX_AVA_KOR_world_of_ideals.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_CNT_industry_wide_alliance"
+        texturefile = "gfx/interface/goals/GFX_KOR_CNT_industry_wide_alliance.png"
     }
     spriteType = {
         name = "GFX_ava_kor_New_beauty"
@@ -124,12 +148,24 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/GFX_KOR_MTU_New_Workers_Code.png"
     }
 	spriteType = {
+        name = "GFX_KIR_Gulag_Industry"
+        texturefile = "gfx/interface/goals/GFX_KIR_Gulag_Industry.dds"
+    }
+	spriteType = {
         name = "GFX_KOR_MTU_workers_squad"
         texturefile = "gfx/interface/goals/GFX_KOR_MTU_workers_squad.png"
     }
 	spriteType = {
-        name = "GFX_KOR_MTU_working_conditions"
-        texturefile = "gfx/interface/goals/GFX_KOR_MTU_working_conditions.png"
+        name = "GFX_KOR_CNT_redistribution_of_means_of_production"
+        texturefile = "gfx/interface/goals/GFX_KOR_CNT_redistribution_of_means_of_production.png"
+    }
+	spriteType = {
+        name = "GFX_JAP_A_Trusted_Choice"
+        texturefile = "gfx/interface/goals/GFX_JAP_A_Trusted_Choice.dds"
+    }
+	spriteType = {
+        name = "GFX_KIR_Gulag_Industry"
+        texturefile = "gfx/interface/goals/GFX_KIR_Gulag_Industry.dds"
     }
 	spriteType = {
         name = "GFX_KOR_MTU_Organization_of_women_workers"
@@ -159,13 +195,38 @@ spriteTypes = {
         name = "GFX_spirit_of_Jeon_Tae_il"
         texturefile = "gfx/interface/goals/GFX_spirit_of_Jeon_Tae_il.png"
     }
+	
 	spriteType = {
         name = "GFX_KOR_MTU_the_spirit_of_labor_union"
         texturefile = "gfx/interface/goals/GFX_KOR_MTU_the_spirit_of_labor_union.png"
     }
+	
+	
+	
+	##########################카이저라이히#######################################
+	spriteType = {
+        name = "goal_generic_loans"
+        texturefile = "gfx/interface/goals/Kaiserredux/goal_generic_loans.png"
+    }
+	spriteType = {
+        name = "goal_generic_controlled_board"
+        texturefile = "gfx/interface/goals/Kaiserredux/goal_generic_controlled_board.png"
+    }
 	spriteType = {
         name = "GFX_SOV_anarchist_communes_KRD"
         texturefile = "gfx/interface/goals/Kaiserredux/GFX_SOV_anarchist_communes_KRD.dds"
+    }
+	spriteType = {
+        name = "OTT_Integrate_Yemen"
+        texturefile = "gfx/interface/goals/Kaiserredux/OTT_Integrate_Yemen.png"
+    }
+	spriteType = {
+        name = "HOL_crackdown_syndie"
+        texturefile = "gfx/interface/goals/Kaiserredux/HOL_crackdown_syndie.png"
+    }
+	spriteType = {
+        name = "goal_manage_industries"
+        texturefile = "gfx/interface/goals/Kaiserredux/goal_manage_industries.png"
     }
 	spriteType = {
         name = "GFX_CSA_socialist_defence_doctrine_KRD"

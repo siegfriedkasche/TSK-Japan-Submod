@@ -29,6 +29,17 @@ focus_tree = {
 
 	}
 	focus = {
+		id = KOR_CNT_procurement_of_supplies
+		icon = GFX_ITA_Conclude_the_Mechanization_of_Agriculture
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_basis_of_consumption
+		}
+		x = 72
+		y = 7
+
+	}
+	focus = {
 		id = KOR_CNT_direction_of_the_commune
 		icon = GFX_anarcho_syndicalism_VS_anarcho_communism
 		cost = 5.00
@@ -170,185 +181,192 @@ focus_tree = {
 	focus = {
 		id = KOR_MTU_unions_army
 		icon = GFX_TNO_generic_left_unity_revolution
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = kor_mtu_union_chairman
 		}
 		x = 21
 		y = 4
-		completion_reward = {
-			navy_experience = 10
-			air_experience = 10
-			army_experience = 10
-			country_event = {
-			id = MTU.17
-			}
-		}
+			completion_reward = {
+					navy_experience = 10
+					air_experience = 10
+					army_experience = 10
+					country_event = {
+							id = MTU.17
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Founding_of_the_Air_Force
 		icon = f35
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_unions_army
 		}
 		x = 17
 		y = 5
-		completion_reward = {
-			add_manpower = 1000
-			air_experience = 10
-			add_ace = {
-    			name = "지안"
-    			surname = "노조의 빛"
-    			callsign = "별"
-    			type = fighter_genius
-    			is_female = yes
-			}
-			add_ace = {
-    			name = "철수"
-    			surname = "붉은 태양"
-    			callsign = "햇님"
-    			type = fighter_genius
-    			is_female = no
-			}
-			add_tech_bonus = {
-    			bonus = 1
-    			uses = 1
-    			category = air_doctrine
-			}
-		}
+			completion_reward = {
+					add_manpower = 1000
+					air_experience = 10
+					add_ace = {
+							name = "지안"
+							surname = "노조의 빛"
+							callsign = "별"
+							type = fighter_genius
+							is_female = yes
+						}
+					add_ace = {
+							name = "철수"
+							surname = "붉은 태양"
+							callsign = "햇님"
+							type = fighter_genius
+							is_female = no
+						}
+					add_tech_bonus = {
+							bonus = 1
+							uses = 1
+							category = air_doctrine
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_super_steal
 		icon = central_planned_economy
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_Founding_of_the_Air_Force
 		}
 		x = 16
 		y = 6
-		completion_reward = {
-			random_owned_controlled_state  = {
-				add_building_construction = {
-    				type = steel_alloy_ind 
-    				level = 2
-    				instant_build = yes
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = steel_alloy_ind
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = steel_alloy_ind
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = steel_alloy_ind
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
 				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state  = {
-				add_building_construction = {
-    				type = steel_alloy_ind 
-    				level = 2
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state  = {
-				add_building_construction = {
-    				type = steel_alloy_ind 
-    				level = 2
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_MTU_oil_excavation
 		icon = oil
-		cost = 10.00
-		available = {
-			owns_state = 813
-		}
-		cancel = {
-			NOT = {
-				owns_state = 813
-			}
-		}
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_Founding_of_the_Air_Force
 		}
 		x = 18
 		y = 6
-		completion_reward = {
-			add_resource = {
-    			type = oil
-    			amount = 50
-    			state = 813
-			}
-		}
+			available = {
+					owns_state = 813
+				}
+			cancel = {
+					NOT = {
+							owns_state = 813
+						}
+				}
+			completion_reward = {
+					add_resource = {
+							type = oil
+							amount = 50
+							state = 813
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Occupation_of_the_tram_factory
 		icon = GFX_TOB_Sverdlovsk_Tank_Factory
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_unions_army
 		}
 		x = 19
 		y = 5
-		completion_reward = {
-			random_owned_controlled_state  = {
-				add_building_construction = {
-    				type = arms_factory
-    				level = 2
-    				instant_build = yes
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
 				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state  = {
-				add_building_construction = {
-    				type = arms_factory
-    				level = 2
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state  = {
-				add_building_construction = {
-    				type = arms_factory
-    				level = 2
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_MTU_for_the_combination
 		icon = GFX_syndicalist_industry
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_unions_army
 		}
 		x = 23
 		y = 5
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 3
-				uses = 1
-				category = nuclear
-			}
-			add_tech_bonus = {
-				bonus = 1
-				uses = 2
-				category = industry
-			}
-		}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 3
+							uses = 1
+							category = nuclear
+						}
+					add_tech_bonus = {
+							bonus = 1
+							uses = 2
+							category = industry
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_industrial_union_fighting_stance
 		icon = coalition_army
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_for_the_combination
 		}
 		x = 25
 		y = 6
-		completion_reward = {
-			add_manpower = 100000
-		}
+			completion_reward = {
+					add_manpower = 100000
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Im_Seonggyu
@@ -545,7 +563,7 @@ focus_tree = {
 		x = 33
 		y = 5
 			completion_reward = {
-			unlock_decision_category_tooltip = world_cap_decisions_categories
+					unlock_decision_category_tooltip = world_cap_decisions_categories
 					add_ideas = International_International_Brigade
 				}
 
@@ -1553,6 +1571,64 @@ focus_tree = {
 
 	}
 	focus = {
+		id = KOR_CNT_Economy
+		icon = central_planned_economy2
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_direction_of_the_commune
+		}
+		x = 63
+		y = 3
+
+	}
+	focus = {
+		id = KOR_CNT_workers_self_Operation
+		icon = goal_manage_industries
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_Economy
+		}
+		x = 59
+		y = 4
+
+	}
+	focus = {
+		id = KOR_CNT_worker_choice
+		icon = GFX_JAP_A_Trusted_Choice
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_workers_self_Operation
+		}
+		x = 58
+		y = 5
+
+	}
+	focus = {
+		id = KOR_CNT_The_owner_of_the_product_is_the_worker
+		icon = GFX_KIR_Gulag_Industry
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_workers_self_Operation
+		}
+		x = 60
+		y = 5
+
+	}
+	focus = {
+		id = KOR_CNT_exclusion_of_bureaucracy
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_The_owner_of_the_product_is_the_worker
+		}
+		prerequisite = {
+			focus = KOR_CNT_worker_choice
+		}
+		x = 59
+		y = 6
+
+	}
+	focus = {
 		id = KOR_CNT_Chicago_Uprising
 		icon = GFX_chicago_riot
 		cost = 4.00
@@ -1566,6 +1642,295 @@ focus_tree = {
 							id = KORnan.15
 						}
 				}
+
+	}
+	focus = {
+		id = KOR_CNT_by_ability_by_necessity
+		icon = OTT_Integrate_Yemen
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_Economy
+		}
+		x = 61
+		y = 4
+
+	}
+	focus = {
+		id = kor_cnt_Encouraging_middle_class_participation
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_The_owner_of_the_product_is_the_worker
+		}
+		prerequisite = {
+			focus = KOR_CNT_by_ability_by_necessity
+		}
+		x = 61
+		y = 6
+
+	}
+	focus = {
+		id = KOR_CNT_redistribution_of_means_of_production
+		icon = GFX_KOR_CNT_redistribution_of_means_of_production
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_by_ability_by_necessity
+		}
+		x = 62
+		y = 5
+
+	}
+	focus = {
+		id = KOR_CNT_free_agreement
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_redistribution_of_means_of_production
+		}
+		x = 63
+		y = 6
+
+	}
+	focus = {
+		id = KOR_CNT_production_by_council
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_exclusion_of_bureaucracy
+		}
+		prerequisite = {
+			focus = kor_cnt_Encouraging_middle_class_participation
+		}
+		prerequisite = {
+			focus = KOR_CNT_free_agreement
+		}
+		prerequisite = {
+			focus = KOR_CNT_exclusion_of_bureaucracy
+		}
+		mutually_exclusive = {
+			focus = kor_cnt_factory_committee
+			focus = kor_cnt_factory_for_workers
+		}
+		x = 62
+		y = 7
+
+	}
+	focus = {
+		id = kor_cnt_factory_for_workers
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_exclusion_of_bureaucracy
+		}
+		prerequisite = {
+			focus = KOR_CNT_free_agreement
+		}
+		mutually_exclusive = {
+			focus = KOR_CNT_production_by_council
+			focus = kor_cnt_factory_committee
+		}
+		x = 60
+		y = 7
+
+	}
+	focus = {
+		id = KOR_CNT_fraternal_cooperation
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_production_by_council
+			focus = kor_cnt_factory_for_workers
+		}
+		x = 61
+		y = 8
+
+	}
+	focus = {
+		id = kor_cnt_factory_committee
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_free_agreement
+		}
+		prerequisite = {
+			focus = kor_cnt_Encouraging_middle_class_participation
+		}
+		mutually_exclusive = {
+			focus = KOR_CNT_production_by_council
+			focus = kor_cnt_factory_for_workers
+		}
+		x = 64
+		y = 7
+
+	}
+	focus = {
+		id = kor_cnt_Guarantee_the_right_to_production
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = kor_cnt_factory_committee
+			focus = KOR_CNT_production_by_council
+		}
+		x = 63
+		y = 8
+
+	}
+	focus = {
+		id = KOR_CNT_the_problem_of_agriculture
+		icon = agriculture
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_Economy
+		}
+		x = 66
+		y = 4
+
+	}
+	focus = {
+		id = KOR_CNT_agricultural_collectivization
+		icon = wheat_field
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_the_problem_of_agriculture
+		}
+		x = 65
+		y = 5
+
+	}
+	focus = {
+		id = KOR_CNT_voluntary_cultivation
+		icon = mechanized_agriculture
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_agricultural_collectivization
+		}
+		x = 65
+		y = 6
+
+	}
+	focus = {
+		id = KOR_CNT_need_for_propaganda
+		icon = liberalized_socialism
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_the_problem_of_agriculture
+		}
+		x = 67
+		y = 5
+
+	}
+	focus = {
+		id = KOR_CNT_farmers_association
+		icon = japan_communist_party
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_need_for_propaganda
+		}
+		x = 67
+		y = 6
+
+	}
+	focus = {
+		id = KOR_CNT_the_importance_of_agriculture
+		icon = agriculture2
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_farmers_association
+		}
+		prerequisite = {
+			focus = KOR_CNT_voluntary_cultivation
+		}
+		x = 66
+		y = 7
+
+	}
+	focus = {
+		id = KOR_CNT_consumption_problem
+		icon = HOL_crackdown_syndie
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_Economy
+		}
+		x = 71
+		y = 4
+
+	}
+	focus = {
+		id = kor_cnt_Problems_with_inventory_of_products
+		icon = goal_generic_controlled_board
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_consumption_problem
+		}
+		x = 70
+		y = 5
+
+	}
+	focus = {
+		id = kor_cnt_Basic_privatized_consumer_goods
+		icon = goal_generic_loans
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_consumption_problem
+		}
+		x = 72
+		y = 5
+
+	}
+	focus = {
+		id = KOR_CNT_basis_of_consumption
+		icon = GFX_uprising_commune
+		cost = 5.00
+		prerequisite = {
+			focus = kor_cnt_Problems_with_inventory_of_products
+		}
+		prerequisite = {
+			focus = kor_cnt_Basic_privatized_consumer_goods
+		}
+		x = 71
+		y = 6
+
+	}
+	focus = {
+		id = KOR_CNT_solidarity_sacrifice
+		icon = GFX_JAP_a_streamlined_economy
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_basis_of_consumption
+		}
+		x = 68
+		y = 7
+
+	}
+	focus = {
+		id = KOR_CNT_mutual_cooperation
+		icon = GFX_The_Model_City
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_basis_of_consumption
+		}
+		x = 70
+		y = 7
+
+	}
+	focus = {
+		id = KOR_CNT_barriers_between_urban_and_rural_areas
+		icon = GFX_KOR_CNT_barriers_between_urban_and_rural_areas
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_mutual_cooperation
+		}
+		prerequisite = {
+			focus = KOR_CNT_reciprocal_relationship
+		}
+		prerequisite = {
+			focus = KOR_CNT_procurement_of_supplies
+		}
+		prerequisite = {
+			focus = KOR_CNT_solidarity_sacrifice
+		}
+		x = 71
+		y = 8
 
 	}
 	focus = {
@@ -1760,7 +2125,7 @@ focus_tree = {
 		id = KOR_CNT_SOCIAL_Imperialism_Propaganda
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 4.00
-		prerequisite = {
+		prerequisite = { 
 			focus = KOR_CNT_social_Imperialism
 		}
 		x = 43
@@ -2072,7 +2437,6 @@ focus_tree = {
 		x = 31
 		y = 8
 			completion_reward = {
-					
 					declare_war_on = {
 							target = CHI
 							type = annex_everything
@@ -2254,7 +2618,7 @@ focus_tree = {
 	focus = {
 		id = KOR_MTU_Doctrinal_Institute
 		icon = army_doctrine
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_for_the_combination
 		}
@@ -2263,124 +2627,129 @@ focus_tree = {
 		}
 		x = 22
 		y = 6
-		completion_reward = {
-			add_tech_bonus = {
-    			bonus = 1
-    			uses = 2
-    			category = land_doctrine
-			}
-		}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 1
+							uses = 2
+							category = land_doctrine
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Central_Struggle_Committee
 		icon = GFX_goal_generic_communist_deal
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_unions_army
 		}
 		x = 21
 		y = 5
-		completion_reward = {
-		add_stability = 0.05
-		add_war_support = 0.05
-		}
+			completion_reward = {
+					add_stability = 0.05
+					add_war_support = 0.05
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_break_the_chain
 		icon = break_free
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_Central_Struggle_Committee
 		}
 		x = 20
 		y = 6
-		completion_reward = {
-		add_ideas = break_the_chain
-		}
+			completion_reward = {
+					add_ideas = break_the_chain
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_factory_absorption
 		icon = GFX_arms_factory
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_Occupation_of_the_tram_factory
 		}
 		x = 19
 		y = 7
-		completion_reward = {
-			add_ideas = eq_factory_mtu
-			random_owned_controlled_state  = {
-				add_building_construction = {
-    				type = arms_factory
-    				level = 2
-    				instant_build = yes
+			completion_reward = {
+					add_ideas = eq_factory_mtu
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
 				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state  = {
-				add_building_construction = {
-    				type = arms_factory
-    				level = 2
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state  = {
-				add_building_construction = {
-    				type = arms_factory
-    				level = 2
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state  = {
-				add_building_construction = {
-    				type = arms_factory
-    				level = 2
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state  = {
-				add_building_construction = {
-    				type = arms_factory
-    				level = 2
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_MTU_pilot_training
 		icon = air_force
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_Founding_of_the_Air_Force
 		}
 		x = 17
 		y = 7
-		completion_reward = {
-			add_ace = {
-    			name = "미래"
-    			surname = "민중의 바람"
-    			callsign = "폭풍"
-    			type = fighter_genius
-    			is_female = yes
-			}
-			air_experience = 25
-			add_manpower = 1000
-			add_tech_bonus = {
-    			bonus = 1
-    			uses = 3
-    			category = air_doctrine
-			}
-		}
+			completion_reward = {
+					add_ace = {
+							name = "미래"
+							surname = "민중의 바람"
+							callsign = "폭풍"
+							type = fighter_genius
+							is_female = yes
+						}
+					air_experience = 25
+					add_manpower = 1000
+					add_tech_bonus = {
+							bonus = 1
+							uses = 3
+							category = air_doctrine
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Tank_Research_Institute
 		icon = tanks5
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_Doctrinal_Institute
 		}
@@ -2390,18 +2759,19 @@ focus_tree = {
 		}
 		x = 20
 		y = 8
-		completion_reward = {
-    		add_tech_bonus = {
-    			bonus = 1
-    			uses = 2
-    			category = cat_mobile_warfare
-			}
-		}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 1
+							uses = 2
+							category = cat_mobile_warfare
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Cannon_Lab
 		icon = air_defense2
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_Doctrinal_Institute
 		}
@@ -2411,61 +2781,68 @@ focus_tree = {
 		}
 		x = 22
 		y = 8
-		completion_reward = {
-    		add_tech_bonus = {
-    			bonus = 1
-    			uses = 2
-    			category = cat_superior_firepower
-			}
-		}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 1
+							uses = 2
+							category = cat_superior_firepower
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_defense_of_the_union
 		icon = literacy_rate_improvment2
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_Doctrinal_Institute
 		}
 		mutually_exclusive = {
-			focus = KOR_MTU_Cannon_Lab
 			focus = KOR_MTU_Tank_Research_Institute
+			focus = KOR_MTU_Cannon_Lab
 		}
 		x = 24
 		y = 8
-		completion_reward = {
-    		add_tech_bonus = {
-    			bonus = 1
-    			uses = 2
-    			category = cat_grand_battle_plan
-			}
-		}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 1
+							uses = 2
+							category = cat_grand_battle_plan
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Saudi_Arabia_secured
 		icon = barrels
-		cost = 10.00
-		bypass = {
-			SAU = { exists = no }
-		} 
-		cancel = {
-			SAU = { exists = no }
-		}
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_oil_excavation
 		}
 		x = 18
 		y = 8
-		completion_reward = {
-			create_wargoal = {
-    			type = puppet_wargoal_focus
-    			target = SAU
-			}
-		}
+			bypass = {
+					SAU = {
+							exists = no
+						}
+				}
+			cancel = {
+					SAU = {
+							exists = no
+						}
+				}
+			completion_reward = {
+					create_wargoal = {
+							type = puppet_wargoal_focus
+							target = SAU
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_volunteer
 		icon = generic_healthcare
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_Cannon_Lab
 			focus = KOR_MTU_defense_of_the_union
@@ -2473,14 +2850,15 @@ focus_tree = {
 		}
 		x = 23
 		y = 9
-		completion_reward = {
-			add_ideas = MTU_volunteer
-		}
+			completion_reward = {
+					add_ideas = MTU_volunteer
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_Hospital_union_put_into_battlefield
 		icon = generic_hospital
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_defense_of_the_union
 			focus = KOR_MTU_Cannon_Lab
@@ -2488,290 +2866,357 @@ focus_tree = {
 		}
 		x = 21
 		y = 9
-		completion_reward = {
-			add_tech_bonus = {
-    			bonus = 2
-    			uses = 2
-    			category = hospital_tech
-			}
-		}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 2
+							uses = 2
+							category = hospital_tech
+						}
+				}
+
 	}
 	focus = {
 		id = KOT_MTU_new_tank
 		icon = K1A1
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_Tank_Research_Institute
 		}
 		x = 20
 		y = 10
-		completion_reward = {
-			set_technology = {
-				m_2010_spaa = 1
-				m_2010_sp = 1
-				m_2010_IFV  = 1
-				m_2010_mechanized_equipment = 1
-				m_2010_modern_tank = 1
-			}
-		}
+			completion_reward = {
+					set_technology = {
+							m_2010_spaa = 1
+							m_2010_sp = 1
+							m_2010_IFV = 1
+							m_2010_mechanized_equipment = 1
+							m_2010_modern_tank = 1
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_fire_power
 		icon = katyusha
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_Cannon_Lab
 		}
 		x = 22
 		y = 10
-		completion_reward = {
-		add_ideas = god_of_battlefiled_is_the_artillery
-		}
+			completion_reward = {
+					add_ideas = god_of_battlefiled_is_the_artillery
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_trade_union_fortification
 		icon = city_fort
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_defense_of_the_union
 		}
 		x = 24
 		y = 10
-		completion_reward = {
-			add_building_construction = {
-    		    type = bunker
-    		    level = 10
-    		    instant_build = yes
-    		    province = 2999
-    		    }
-			add_building_construction = {
-    		    type = bunker
-    		    level = 10
-    		    instant_build = yes
-    		    province = 11835
-    		}
-			add_building_construction = {
-    		    type = bunker
-    		    level = 10
-    		    instant_build = yes
-    		    province = 898
-    		}
-			add_building_construction = {
-    		    type = bunker
-    		    level = 10
-    		    instant_build = yes
-    		    province = 3981
-    		}
-			add_building_construction = {
-    		    type = bunker
-    		    level = 10
-    		    instant_build = yes
-    		    province = 10065
-    		}
-			add_building_construction = {
-    		    type = bunker
-    		    level = 10
-    		    instant_build = yes
-    		    province = 7125
-    		}
-			add_building_construction = {
-    		    type = bunker
-    		    level = 10
-    		    instant_build = yes
-    		    province = 12040
-    		}
-			add_building_construction = {
-    		    type = bunker
-    		    level = 10
-    		    instant_build = yes
-    		    province = 4056
-    		}
-			add_building_construction = {
-    		    type = bunker
-    		    level = 10
-    		    instant_build = yes
-    		    province = 1003
-    		}
-		}
+			completion_reward = {
+					add_building_construction = {
+							type = bunker
+							level = 10
+							instant_build = yes
+							province = 2999
+						}
+					add_building_construction = {
+							type = bunker
+							level = 10
+							instant_build = yes
+							province = 11835
+						}
+					add_building_construction = {
+							type = bunker
+							level = 10
+							instant_build = yes
+							province = 898
+						}
+					add_building_construction = {
+							type = bunker
+							level = 10
+							instant_build = yes
+							province = 3981
+						}
+					add_building_construction = {
+							type = bunker
+							level = 10
+							instant_build = yes
+							province = 10065
+						}
+					add_building_construction = {
+							type = bunker
+							level = 10
+							instant_build = yes
+							province = 7125
+						}
+					add_building_construction = {
+							type = bunker
+							level = 10
+							instant_build = yes
+							province = 12040
+						}
+					add_building_construction = {
+							type = bunker
+							level = 10
+							instant_build = yes
+							province = 4056
+						}
+					add_building_construction = {
+							type = bunker
+							level = 10
+							instant_build = yes
+							province = 1003
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_air_base_construction
 		icon = air_defense
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_pilot_training
 		}
 		x = 17
 		y = 9
-		completion_reward = {
-			525  = {
-				add_building_construction = {
-    				type = air_base
-    				level = 10
-    				instant_build = yes
+			completion_reward = {
+					525 = {
+							add_building_construction = {
+									type = air_base
+									level = 10
+									instant_build = yes
+								}
+						}
+					807 = {
+							add_building_construction = {
+									type = air_base
+									level = 10
+									instant_build = yes
+								}
+						}
+					809 = {
+							add_building_construction = {
+									type = air_base
+									level = 10
+									instant_build = yes
+								}
+						}
+					818 = {
+							add_building_construction = {
+									type = air_base
+									level = 10
+									instant_build = yes
+								}
+						}
 				}
-			}
-			807  = {
-				add_building_construction = {
-    				type = air_base
-    				level = 10
-    				instant_build = yes
-				}
-			}
-			809  = {
-				add_building_construction = {
-    				type = air_base
-    				level = 10
-    				instant_build = yes
-				}
-			}
-			818  = {
-				add_building_construction = {
-    				type = air_base
-    				level = 10
-    				instant_build = yes
-				}
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_MTU_North_Koreas_resource_development
 		icon = mechanized_agriculture
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_super_steal
 		}
 		x = 16
 		y = 8
-		completion_reward = {
-			random_owned_controlled_state  = {
-				limit = {
-					is_core_of = KPA
-				}
-				add_building_construction = {
-    				type = steel_alloy_ind 
-    				level = 4
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 4
-			}
-			random_owned_controlled_state  = {
-				limit = {
-					is_core_of = KPA
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									is_core_of = KPA
+								}
+							add_building_construction = {
+									type = steel_alloy_ind
+									level = 4
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 4
+						}
+					random_owned_controlled_state = {
+							limit = {
+									is_core_of = KPA
+								}
+							add_building_construction = {
+									type = steel_mill
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									is_core_of = KPA
+								}
+							add_building_construction = {
+									type = steel_mill
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									is_core_of = KPA
+								}
+							add_building_construction = {
+									type = steel_mill
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									is_core_of = KPA
+								}
+							add_building_construction = {
+									type = steel_mill
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
 				}
 
-				add_building_construction = {
-    				type = steel_mill  
-    				level = 2
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state  = {
-				limit = {
-					is_core_of = KPA
-				}
-				add_building_construction = {
-    				type = steel_mill  
-    				level = 2
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state  = {
-				limit = {
-					is_core_of = KPA
-				}
-				add_building_construction = {
-    				type = steel_mill  
-    				level = 2
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state  = {
-				limit = {
-					is_core_of = KPA
-				}
-				add_building_construction = {
-    				type = steel_mill  
-    				level = 2
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
 	}
 	focus = {
 		id = KOR_MTU_metal_union_commando
 		icon = soldier
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_for_the_combination
 		}
 		x = 23
 		y = 7
-		completion_reward = {
-		custom_effect_tooltip = iron_war_army
-		division_template = {
-			name = "금속노조 정예 기계화 사단"
-			is_locked = yes
-			priority = 2
-	
-			regiments = {
-				modern_mechanized = { x = 0 y = 0 }
-				modern_mechanized = { x = 0 y = 1 }
-				modern_mechanized = { x = 0 y = 2 }
-				modern_mechanized = { x = 1 y = 0 }
-				modern_mechanized = { x = 1 y = 1 }
-				modern_mbt = { x = 2 y = 0 }
-				modern_mbt = { x = 2 y = 1 }
-				modern_mbt = { x = 2 y = 2 }
-				modern_mbt = { x = 2 y = 3 }
-				modern_armed_rec = { x = 2 y = 4 }
-				modern_sp_art_brigade = { x = 3 y = 0 }
-				modern_sp_art_brigade = { x = 3 y = 1 }
-				modern_sp_art_brigade = { x = 3 y = 2 }
-				modern_sp_art_brigade = { x = 3 y = 3 }
-				modern_sp_anti_air_brigade = { x = 4 y = 0 }
-				Heavy_Engi_Bat = { x = 4 y = 1 }
+			completion_reward = {
+					custom_effect_tooltip = iron_war_army
+					division_template = {
+							name = "금속노조 정예 기계화 사단"
+							is_locked = yes
+							priority = 2
+							regiments = {
+									modern_mechanized = {
+											x = 0
+											y = 0
+										}
+									modern_mechanized = {
+											x = 0
+											y = 1
+										}
+									modern_mechanized = {
+											x = 0
+											y = 2
+										}
+									modern_mechanized = {
+											x = 1
+											y = 0
+										}
+									modern_mechanized = {
+											x = 1
+											y = 1
+										}
+									modern_mbt = {
+											x = 2
+											y = 0
+										}
+									modern_mbt = {
+											x = 2
+											y = 1
+										}
+									modern_mbt = {
+											x = 2
+											y = 2
+										}
+									modern_mbt = {
+											x = 2
+											y = 3
+										}
+									modern_armed_rec = {
+											x = 2
+											y = 4
+										}
+									modern_sp_art_brigade = {
+											x = 3
+											y = 0
+										}
+									modern_sp_art_brigade = {
+											x = 3
+											y = 1
+										}
+									modern_sp_art_brigade = {
+											x = 3
+											y = 2
+										}
+									modern_sp_art_brigade = {
+											x = 3
+											y = 3
+										}
+									modern_sp_anti_air_brigade = {
+											x = 4
+											y = 0
+										}
+									Heavy_Engi_Bat = {
+											x = 4
+											y = 1
+										}
+								}
+							support = {
+									logistics_company = {
+											x = 0
+											y = 0
+										}
+									signal_company = {
+											x = 0
+											y = 1
+										}
+									military_police = {
+											x = 0
+											y = 2
+										}
+									field_hospital = {
+											x = 0
+											y = 3
+										}
+									manpad = {
+											x = 0
+											y = 4
+										}
+								}
+						}
+					807 = {
+							prioritize = { 9764 }
+							create_unit = {
+									division = "name = \"1.금속노조 정예 기계화 사단\" division_template = \"금속노조 정예 기계화 사단\" start_experience_factor = 1"
+									owner = KOR
+								}
+						}
+					807 = {
+							prioritize = { 9764 }
+							create_unit = {
+									division = "name = \"2.금속노조 정예 기계화 사단\" division_template = \"금속노조 정예 기계화 사단\" start_experience_factor = 1"
+									owner = KOR
+								}
+						}
+					807 = {
+							prioritize = { 9764 }
+							create_unit = {
+									division = "name = \"3.금속노조 정예 기계화 사단\" division_template = \"금속노조 정예 기계화 사단\" start_experience_factor = 1"
+									owner = KOR
+								}
+						}
+				}
 
-			}
-			support = {
-				logistics_company = { x = 0 y = 0 }
-				signal_company = { x = 0 y = 1 }
-				military_police = { x = 0 y = 2 }
-				field_hospital = { x = 0 y = 3 }
-				manpad = { x = 0 y = 4 }
-			}
-		}
-			807 = {
-				prioritize = { 9764 } 
-				create_unit = {
-					division = "name = \"1.금속노조 정예 기계화 사단\" division_template = \"금속노조 정예 기계화 사단\" start_experience_factor = 1"
-					owner = KOR
-				}
-			}
-			807 = {
-				prioritize = { 9764 } 
-				create_unit = {
-					division = "name = \"2.금속노조 정예 기계화 사단\" division_template = \"금속노조 정예 기계화 사단\" start_experience_factor = 1"
-					owner = KOR
-				}
-			}
-			807 = {
-				prioritize = { 9764 } 
-				create_unit = {
-					division = "name = \"3.금속노조 정예 기계화 사단\" division_template = \"금속노조 정예 기계화 사단\" start_experience_factor = 1"
-					owner = KOR
-				}
-			}
-		}
 	}
 	focus = {
 		id = KOR_MTU_the_spirit_of_labor_union
 		icon = GFX_KOR_MTU_the_spirit_of_labor_union
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_break_the_chain
 		}
@@ -2780,48 +3225,47 @@ focus_tree = {
 		}
 		x = 21
 		y = 7
-		completion_reward = {
-		set_technology = {
-    		Molotov_cocktail = 1
-		}
-		}
+			completion_reward = {
+					set_technology = {
+							Molotov_cocktail = 1
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_MTU_The_spirit_of_Jeon_Tae_il
 		icon = GFX_spirit_of_Jeon_Tae_il
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = KOR_MTU_factory_absorption
 		}
 		x = 19
 		y = 9
-		completion_reward = {
-		add_ideas = jeon_tea_il
-			random_owned_controlled_state  = {
-				add_building_construction = {
-    				type = arms_factory
-    				level = 2
-    				instant_build = yes
+			completion_reward = {
+					add_ideas = jeon_tea_il
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
 				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state  = {
-				add_building_construction = {
-    				type = arms_factory
-    				level = 2
-    				instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_MTU_strong_unity_struggle
 		icon = GFX_UFT_Organization_of_the_struggle
 		cost = 2.00
-		available = {
-			has_army_manpower = { size > 999999 }
-		}
 		prerequisite = {
 			focus = KOR_MTU_trade_union_fortification
 			focus = KOR_MTU_fire_power
@@ -2829,8 +3273,54 @@ focus_tree = {
 		}
 		x = 22
 		y = 11
-		completion_reward = {
-			unlock_decision_tooltip = world_cap_decisions_SOV
+			available = {
+					has_army_manpower = {
+							size > 999999
+						}
+				}
+			completion_reward = {
+					unlock_decision_tooltip = world_cap_decisions_SOV
+				}
+
+	}
+	focus = {
+		id = KOR_CNT_reciprocal_relationship
+		icon = GFX_CHI_Educating_The_Countryside
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_basis_of_consumption
 		}
+		x = 74
+		y = 7
+
+	}
+	focus = {
+		id = KOR_CNT_Increase_cooperation_by_industry
+		icon = GFX_focus_TUR_reform_the_balkan_pact
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_the_importance_of_agriculture
+		}
+		x = 66
+		y = 8
+
+	}
+	focus = {
+		id = KOR_CNT_industry_wide_alliance
+		icon = GFX_KOR_CNT_industry_wide_alliance
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_fraternal_cooperation
+			focus = kor_cnt_Guarantee_the_right_to_production
+		}
+		prerequisite = {
+			focus = KOR_CNT_Increase_cooperation_by_industry
+		}
+		prerequisite = {
+			focus = KOR_CNT_barriers_between_urban_and_rural_areas
+		}
+		x = 66
+		y = 9
+
 	}
 }

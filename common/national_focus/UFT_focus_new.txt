@@ -234,7 +234,13 @@ focus_tree = {
 		}
 		x = 13
 		y = 5
-
+		completion_reward = {
+    		add_tech_bonus = {
+    			bonus = 1
+    			uses = 2
+    			category = cat_superior_firepower
+			}
+		}
 	}
 	focus = {
 		id = UFT_fire_research_community
@@ -704,7 +710,7 @@ focus_tree = {
 		}
 		x = 11
 		y = 7
-
+		
 	}
 	focus = {
 		id = UFT_Cannon_esearch
@@ -746,7 +752,13 @@ focus_tree = {
 		}
 		x = 14
 		y = 6
-
+		completion_reward = {
+			add_tech_bonus = {
+    			bonus = 2
+    			uses = 2
+    			category = hospital_tech
+			}
+		}
 	}
 	focus = {
 		id = UFT_Tachanka
