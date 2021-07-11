@@ -1,0 +1,54 @@
+﻿
+division_template = {
+	name = "소비에트 해병사단"
+	priority = 2
+	
+	regiments = {
+		modern_marine = { x = 0 y = 0 }
+		modern_marine = { x = 0 y = 1 }
+		modern_marine = { x = 0 y = 2 }
+		modern_marine = { x = 1 y = 0 }
+		modern_marine = { x = 1 y = 1 }
+		modern_marine = { x = 1 y = 2 }
+		modern_marine = { x = 2 y = 0 }
+		modern_marine = { x = 2 y = 1 }
+		Engi_Bat = { x = 2 y = 2 }
+		modern_amphibious_marine = { x = 3 y = 0 }
+		modern_mbt = { x = 4 y = 0 }
+		modern_sp_art_brigade = { x = 4 y = 1 }
+		modern_sp_art_brigade = { x = 4 y = 2 }
+		modern_sp_art_brigade = { x = 4 y = 3 }
+
+	}
+    support = {
+	mot_recon = { x = 0 y = 0 }
+	signal_company = { x = 0 y = 1 }
+	military_police = { x = 0 y = 2 }
+	field_hospital = { x = 0 y = 3 }
+	manpad = { x = 0 y = 4 }
+	}
+}
+units = {
+	division= {
+		name = "제55해군보병사단"
+		location = 957
+		division_template = "소비에트 해병사단"
+		start_experience_factor = 0.6
+		force_equipment_variants = { infantry_equipment_7 = { owner = "SVN" } }
+		force_equipment_variants = { m_1980_mbt = { owner = "SVN" } }
+		force_equipment_variants = { m_1980_sp_equipment = { owner = "SVN" } }
+	}
+}
+
+air_wings = {
+	526={
+		m_1990_jet_multirole_equipment = {
+			owner = "USJ" 
+			amount = 54
+		}
+		m_1990_jet_fighter_equipment = {
+			owner = "USJ" 
+			amount = 54
+		}
+	}
+}

@@ -14,12 +14,29 @@ focus_tree = {
 		cost = 10.00
 		x = 11
 		y = 0
-        completion_reward = {
-				country_event = {
-					id = USJ.1
-					days = 2
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = USJ.1
+							days = 2
+						}
+				}
+
+	}
+	focus = {
+		id = USJ_United_States_Armed_Forces
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 44
+		y = 0
+
+	}
+	focus = {
+		id = USJ_Okinawa
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 4
+		y = 0
+
 	}
 	focus = {
 		id = USJ_Collect_Information
@@ -30,12 +47,13 @@ focus_tree = {
 		}
 		x = 11
 		y = 1
-        completion_reward = {
-				country_event = {
-					id = USJ.2
-					days = 2
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = USJ.2
+							days = 2
+						}
+				}
+
 	}
 	focus = {
 		id = USJ_MJP
@@ -113,6 +131,465 @@ focus_tree = {
 
 	}
 	focus = {
+		id = USJ_United_States_Army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_United_States_Armed_Forces
+		}
+		x = 21
+		y = 1
+
+	}
+	focus = {
+		id = USJ_Reverse_Design
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_United_States_Army
+		}
+		mutually_exclusive = {
+			focus = USJ_Historical_Equipment
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = USJ_M4_Carvin
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Reverse_Design
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = USJ_FGM_77_Dragon
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_M4_Carvin
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = USJ_IFV
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Reverse_Design
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = USJ_M1A2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_IFV
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = USJ_Historical_Equipment
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_United_States_Army
+		}
+		mutually_exclusive = {
+			focus = USJ_Reverse_Design
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = USJ_Infantry_Weapon
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Historical_Equipment
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = USJ_Support_equipment
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Infantry_Weapon
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = USJ_artillery
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Historical_Equipment
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = USJ_anti_aircraft_aircraft
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_artillery
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = USJ_M8_Grayhound
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_anti_aircraft_aircraft
+			focus = USJ_Support_equipment
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = USJ_TANK
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_artillery
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = USJ_M26
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_TANK
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = USJ_M4
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_TANK
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = USJ_M48
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_M8_Grayhound
+		}
+		prerequisite = {
+			focus = USJ_M26
+		}
+		prerequisite = {
+			focus = USJ_M4
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = USJ_United_States_Air_Force
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_United_States_Armed_Forces
+		}
+		x = 33
+		y = 1
+
+	}
+	focus = {
+		id = USJ_Douglas
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_United_States_Air_Force
+		}
+		x = 33
+		y = 2
+
+	}
+	focus = {
+		id = USJ_F_16
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Douglas
+		}
+		mutually_exclusive = {
+			focus = USJ_fighter
+		}
+		x = 32
+		y = 3
+
+	}
+	focus = {
+		id = USJ_Radar
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_F_16
+		}
+		x = 30
+		y = 5
+
+	}
+	focus = {
+		id = USJ_ATA
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_F_16
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = USJ_fighter
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Douglas
+		}
+		mutually_exclusive = {
+			focus = USJ_F_16
+		}
+		x = 34
+		y = 3
+
+	}
+	focus = {
+		id = USJ_McDonald
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_fighter
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = USJ_P_51
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_McDonald
+		}
+		x = 34
+		y = 5
+
+	}
+	focus = {
+		id = USJ_Jet_engine
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_F_16
+		}
+		x = 32
+		y = 5
+
+	}
+	focus = {
+		id = USJ_F86
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_P_51
+			focus = USJ_Jet_engine
+		}
+		x = 34
+		y = 6
+
+	}
+	focus = {
+		id = USJ_Bell_Helicopter
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_United_States_Air_Force
+		}
+		x = 37
+		y = 2
+
+	}
+	focus = {
+		id = USJ_UH_1
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Bell_Helicopter
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = USJ_Multi_Extension_Rocket_Ford
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_UH_1
+		}
+		x = 36
+		y = 4
+
+	}
+	focus = {
+		id = USJ_AH_1Z
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Bell_Helicopter
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = USJ_Design_Improvements
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_AH_1Z
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = USJ_Helicopter
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Multi_Extension_Rocket_Ford
+		}
+		prerequisite = {
+			focus = USJ_Design_Improvements
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = USJ_United_States_Navy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_United_States_Armed_Forces
+		}
+		x = 44
+		y = 1
+
+	}
+	focus = {
+		id = USJ_Doctrine
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_United_States_Armed_Forces
+		}
+		x = 51
+		y = 1
+
+	}
+	focus = {
+		id = USJ_Mobile_Corps
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Doctrine
+		}
+		mutually_exclusive = {
+			focus = USJ_Past_Doctrine
+		}
+		x = 50
+		y = 2
+
+	}
+	focus = {
+		id = USJ_modern_warfare
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Mobile_Corps
+		}
+		x = 50
+		y = 3
+
+	}
+	focus = {
+		id = USJ_Past_Doctrine
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Doctrine
+		}
+		mutually_exclusive = {
+			focus = USJ_Mobile_Corps
+		}
+		x = 52
+		y = 2
+
+	}
+	focus = {
+		id = USJ_Doctrine_Development
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Past_Doctrine
+		}
+		x = 52
+		y = 3
+
+	}
+	focus = {
+		id = USJ_USSTRATCOM
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_modern_warfare
+			focus = USJ_Doctrine_Development
+		}
+		x = 51
+		y = 4
+
+	}
+	focus = {
 		id = USJ_Daechi
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -144,17 +621,135 @@ focus_tree = {
 		x = 11
 		y = 7
 			completion_reward = {
-				USA = {
-				annex_country = {
-                target = USJ
-                transfer_troops = yes
-        }
-    }
-	        USA = { change_tag_from = USJ}
-			USA = {
-			load_focus_tree = NEW_usa_focus
+					USA = {
+							annex_country = {
+									target = USJ
+									transfer_troops = yes
+								}
 						}
+					USA = {
+							change_tag_from = USJ
+						}
+					USA = {
+							load_focus_tree = NEW_usa_focus
+						}
+				}
+
+	}
+	focus = {
+		id = USJ_build_the_pentagon
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_United_States_Armed_Forces
 		}
+		x = 54
+		y = 1
+			completion_reward = {
+					add_ideas = USA_the_pentagon
+				}
+
+	}
+	focus = {
+		id = USJ_department_of_defense
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_build_the_pentagon
+		}
+		x = 54
+		y = 2
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = USA_war_department
+							add_idea = USA_department_of_defense
+						}
+				}
+
+	}
+	focus = {
+		id = USJ_M109
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_IFV
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = USJ_APC
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_M1A2
+			focus = USJ_M109
+			focus = USJ_FGM_77_Dragon
+		}
+		prerequisite = {
+			focus = USJ_M1A2
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = USJ_ATGM
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_APC
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = USJ_M163_VADS
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_APC
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = USJ_Armored_Division
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_APC
+		}
+		x = 19
+		y = 7
+
+	}
+	focus = {
+		id = USJ_Mechanized_Infantry_Division
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_APC
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = USJ_SAC
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = USJ_Radar
+		}
+		prerequisite = {
+			focus = USJ_Jet_engine
+		}
+		x = 31
+		y = 6
 
 	}
 }

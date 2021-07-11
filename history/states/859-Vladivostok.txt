@@ -1,6 +1,6 @@
 state={
 	id=859
-	name="STATE_859"
+	name="블라디보스토크"
 	provinces={
 		957 
 	}
@@ -13,14 +13,18 @@ state={
 		add_core_of = SOV
 		buildings = {
 			infrastructure = 4
+            air_base = 6
 			arms_factory = 5
 			industrial_complex = 10
 			dockyard = 7
 			steel_mill = 3
 			fuel_silo = 4
-
+                957 = {
+				naval_base = 7
 
 			}
+
+		}
 
 		victory_points = {
 			957 30
