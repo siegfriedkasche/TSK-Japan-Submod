@@ -1,13 +1,13 @@
 ﻿capital = 282
 
-oob = "SVN_1936"
+oob = ""
 
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
 	}
 
-	set_naval_oob = "SVN_1936_naval"
+	set_naval_oob = "_1936_naval"
 }
 if = {
 	limit = {
@@ -380,8 +380,8 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Gennadiy Aleksandrovich"
-	picture = "Gennadiy_Aleksandrovich.png"
+	name = "Stanley R. Arthur"
+	picture = "portrait_Stanley_R._Arthur.png"
 	traits = { aviation_enthusiast bold air_controller flight_deck_manager superior_tactician spotter }
 	skill = 5
 	attack_skill = 5
