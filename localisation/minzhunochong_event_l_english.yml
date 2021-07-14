@@ -155,4 +155,3 @@
  MTU.18.a:0 "그데의 간절함이 느껴진다..."
 
  iron_war_army:0 "£GFX_ideology_harmony_texticon §Y금속노조 정예 기계화 사단§! 3개가 §Y서울§!에 생성될 것입니다.\n\n§Y편제§!\n\n5개의 §Y현대 기계화보병§! £GFX_flag_eqs_texticon £GFX_flag_eqs_texticon £GFX_flag_eqs_texticon £GFX_flag_eqs_texticon £GFX_flag_eqs_texticon \n4개의 §Y현대식 기갑대대§! £GFX_flag_chn_texticon £GFX_flag_chn_texticon £GFX_flag_chn_texticon £GFX_flag_chn_texticon \n1개의 §Y기갑수색대대§! £GFX_flag_gri_texticon \n4개의 §Y현대식 자주포 대대§! £GFX_flag_nlr_texticon £GFX_flag_nlr_texticon £GFX_flag_nlr_texticon £GFX_flag_nlr_texticon \n1개의 §Y현대식 자주대공포§! £GFX_flag_sol_texticon \n1개의 §Y현대식 중공병대대§! £GFX_flag_stg_texticon \n\n§Y지원중대§!\n\n§Y군수 중대§!\n§Y통신 중대§!\n§Y헌병§!\n§Y야전 병원§!\n§Ymanpad§!\n\n§R편제 수정은 불가능§!\n " 
- infrastructure_down_than_5:0 "§Y기반시설§!이(가) §Y5§!미만인 지역 중심으로 건설됩니다.\n§R기반시설이(가) 5이상일 경우 건설되지 않습니다.§!\n"

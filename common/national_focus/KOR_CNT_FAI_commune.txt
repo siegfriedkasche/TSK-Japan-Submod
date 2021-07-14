@@ -1,7 +1,7 @@
 focus_tree = {
 	id = KOR_CNT_FAI_commune
 	country = {
-		f = 0
+		factor = 0
 		modifier = {
 			add = 10
 			tag = KOR
@@ -37,76 +37,7 @@ focus_tree = {
 		}
 		x = 72
 		y = 7
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_direction_of_the_commune
@@ -311,15 +242,6 @@ focus_tree = {
 		y = 6
 			completion_reward = {
 					random_owned_controlled_state = {
-						limit = {
-							if = {
-								free_building_slots = {
-    								building = steel_alloy_ind
-    								size > 2
-    								include_locked = yes
-								}
-							}
-						}
 							add_building_construction = {
 									type = steel_alloy_ind
 									level = 2
@@ -328,15 +250,6 @@ focus_tree = {
 							add_extra_state_shared_building_slots = 2
 						}
 					random_owned_controlled_state = {
-						limit = {
-							if = {
-								free_building_slots = {
-    								building = steel_alloy_ind
-    								size > 2
-    								include_locked = yes
-								}
-							}
-						}
 							add_building_construction = {
 									type = steel_alloy_ind
 									level = 2
@@ -345,15 +258,6 @@ focus_tree = {
 							add_extra_state_shared_building_slots = 2
 						}
 					random_owned_controlled_state = {
-						limit = {
-							if = {
-								free_building_slots = {
-    								building = steel_alloy_ind
-    								size > 2
-    								include_locked = yes
-								}
-							}
-						}
 							add_building_construction = {
 									type = steel_alloy_ind
 									level = 2
@@ -401,15 +305,6 @@ focus_tree = {
 		y = 5
 			completion_reward = {
 					random_owned_controlled_state = {
-						limit = {
-							if = {
-								free_building_slots = {
-    								building = arms_factory
-    								size > 2
-    								include_locked = yes
-								}
-							}
-						}
 							add_building_construction = {
 									type = arms_factory
 									level = 2
@@ -418,15 +313,6 @@ focus_tree = {
 							add_extra_state_shared_building_slots = 2
 						}
 					random_owned_controlled_state = {
-						limit = {
-							if = {
-								free_building_slots = {
-    								building = arms_factory
-    								size > 2
-    								include_locked = yes
-								}
-							}
-						}
 							add_building_construction = {
 									type = arms_factory
 									level = 2
@@ -435,15 +321,6 @@ focus_tree = {
 							add_extra_state_shared_building_slots = 2
 						}
 					random_owned_controlled_state = {
-						limit = {
-							if = {
-								free_building_slots = {
-    								building = arms_factory
-    								size > 2
-    								include_locked = yes
-								}
-							}
-						}
 							add_building_construction = {
 									type = arms_factory
 									level = 2
@@ -567,14 +444,31 @@ focus_tree = {
 		x = 26
 		y = 7
 			completion_reward = {
-
+					817 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					808 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					809 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					813 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					817 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
 					808 = {
 							add_building_construction = {
 									type = industrial_complex
 									level = 2
 									instant_build = yes
 								}
-							add_extra_state_shared_building_slots = 2
 						}
 					809 = {
 							add_building_construction = {
@@ -582,15 +476,13 @@ focus_tree = {
 									level = 2
 									instant_build = yes
 								}
-							add_extra_state_shared_building_slots = 2
 						}
 					813 = {
 							add_building_construction = {
 									type = industrial_complex
-									level = 2
+									level = 1
 									instant_build = yes
 								}
-							add_extra_state_shared_building_slots = 2
 						}
 				}
 
@@ -785,10 +677,10 @@ focus_tree = {
 							limit = {
 									is_core_of = KOR
 								}
-							add_extra_state_shared_building_slots = 2
+							add_extra_state_shared_building_slots = 5
 							add_building_construction = {
 									type = industrial_complex
-									level = 2
+									level = 5
 									instant_build = yes
 								}
 						}
@@ -796,10 +688,10 @@ focus_tree = {
 							limit = {
 									is_core_of = KOR
 								}
-							add_extra_state_shared_building_slots = 2
+							add_extra_state_shared_building_slots = 5
 							add_building_construction = {
 									type = arms_factory
-									level = 2
+									level = 5
 									instant_build = yes
 								}
 						}
@@ -807,10 +699,10 @@ focus_tree = {
 							limit = {
 									is_core_of = KOR
 								}
-							add_extra_state_shared_building_slots = 2
+							add_extra_state_shared_building_slots = 5
 							add_building_construction = {
 									type = arms_factory
-									level = 2
+									level = 5
 									instant_build = yes
 								}
 						}
@@ -1687,42 +1579,7 @@ focus_tree = {
 		}
 		x = 63
 		y = 3
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						arms_factory > 2
-					}
-				}
-				add_building_construction = {
-					type = arms_factory
-					level = -2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						arms_factory > 2
-					}
-				}
-				add_building_construction = {
-					type = arms_factory
-					level = -2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_workers_self_Operation
@@ -1927,11 +1784,7 @@ focus_tree = {
 		}
 		x = 66
 		y = 4
-		completion_reward = {
-			country_event = {
-				id = KORnan_eco.1
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_agricultural_collectivization
@@ -1942,44 +1795,7 @@ focus_tree = {
 		}
 		x = 65
 		y = 5
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 1
-    						include_locked = yes
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 1
-    						include_locked = yes
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 1
-    						include_locked = yes
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_voluntary_cultivation
@@ -1990,18 +1806,7 @@ focus_tree = {
 		}
 		x = 65
 		y = 6
-		select_effect = {
-            country_event = {
-				id = KORnan_eco.3
-				days = 15
-			}
-        }
-		completion_reward = {
-			add_timed_idea = {
-				idea = voluntary_cultivation
-				days = 180
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_need_for_propaganda
@@ -2012,11 +1817,7 @@ focus_tree = {
 		}
 		x = 67
 		y = 5
-		completion_reward = {
-			country_event = {
-				id = KORnan_eco.2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_farmers_association
@@ -2027,12 +1828,7 @@ focus_tree = {
 		}
 		x = 67
 		y = 6
-		completion_reward = {
-			add_timed_idea = {
-				idea = farmers_association
-				days = 180
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_the_importance_of_agriculture
@@ -2046,11 +1842,7 @@ focus_tree = {
 		}
 		x = 66
 		y = 7
-		completion_reward = {
-			country_event = {
-				id = KORnan_eco.4
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_consumption_problem
@@ -2061,11 +1853,7 @@ focus_tree = {
 		}
 		x = 71
 		y = 4
-		completion_reward = {
-			country_event = {
-				id = KORnan_eco.6
-			}
-		}
+
 	}
 	focus = {
 		id = kor_cnt_Problems_with_inventory_of_products
@@ -2076,10 +1864,7 @@ focus_tree = {
 		}
 		x = 70
 		y = 5
-		completion_reward = {
-			KOR_consumption_problem_level_down = yes
-			add_political_power = 25
-		}
+
 	}
 	focus = {
 		id = kor_cnt_Basic_privatized_consumer_goods
@@ -2090,10 +1875,7 @@ focus_tree = {
 		}
 		x = 72
 		y = 5
-		completion_reward = {
-			KOR_consumption_problem_level_down = yes
-			add_stability = 0.05
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_basis_of_consumption
@@ -2107,7 +1889,7 @@ focus_tree = {
 		}
 		x = 71
 		y = 6
-		
+
 	}
 	focus = {
 		id = KOR_CNT_solidarity_sacrifice
@@ -2118,64 +1900,7 @@ focus_tree = {
 		}
 		x = 68
 		y = 7
-		completion_reward = {
-			KOR_consumption_problem_level_down = yes
-			custom_effect_tooltip = infrastructure_down_than_5
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						infrastructure < 5
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 5
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						infrastructure < 5
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 5
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						infrastructure < 5
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 5
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_mutual_cooperation
@@ -2186,63 +1911,7 @@ focus_tree = {
 		}
 		x = 70
 		y = 7
-		completion_reward = {
-			custom_effect_tooltip = infrastructure_down_than_5
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						infrastructure < 5
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 5
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						infrastructure < 5
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 5
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						infrastructure < 5
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 5
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_barriers_between_urban_and_rural_areas
@@ -2262,10 +1931,7 @@ focus_tree = {
 		}
 		x = 71
 		y = 8
-		completion_reward = {
-			KOR_consumption_problem_level_down = yes
-			
-		}
+
 	}
 	focus = {
 		id = KOR_IWW_International_Invitation
@@ -2835,12 +2501,17 @@ focus_tree = {
 					add_war_support = 0.1
 					add_manpower = 10000
 					817 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					809 = {
+							add_extra_state_shared_building_slots = 3
+						}
+					817 = {
 							add_building_construction = {
 									type = arms_factory
 									level = 3
 									instant_build = yes
 								}
-							add_extra_state_shared_building_slots = 3
 						}
 					809 = {
 							add_building_construction = {
@@ -2848,7 +2519,6 @@ focus_tree = {
 									level = 3
 									instant_build = yes
 								}
-							add_extra_state_shared_building_slots = 3
 						}
 				}
 
@@ -3006,6 +2676,22 @@ focus_tree = {
 		y = 7
 			completion_reward = {
 					add_ideas = eq_factory_mtu
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
 					random_owned_controlled_state = {
 							add_building_construction = {
 									type = arms_factory
@@ -3374,6 +3060,28 @@ focus_tree = {
 								}
 							add_extra_state_shared_building_slots = 2
 						}
+					random_owned_controlled_state = {
+							limit = {
+									is_core_of = KPA
+								}
+							add_building_construction = {
+									type = steel_mill
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									is_core_of = KPA
+								}
+							add_building_construction = {
+									type = steel_mill
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
 				}
 
 	}
@@ -3584,77 +3292,7 @@ focus_tree = {
 		}
 		x = 74
 		y = 7
-		completion_reward = {
-			KOR_consumption_problem_level_down = yes
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_Increase_cooperation_by_industry
@@ -3665,11 +3303,7 @@ focus_tree = {
 		}
 		x = 66
 		y = 8
-		completion_reward = {
-			country_event = {
-				id = KORnan_eco.5
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_industry_wide_alliance
@@ -3687,8 +3321,6 @@ focus_tree = {
 		}
 		x = 66
 		y = 9
-		completion_reward = {
-			KOR_consumption_problem_level_down = yes
-		}
+
 	}
 }
