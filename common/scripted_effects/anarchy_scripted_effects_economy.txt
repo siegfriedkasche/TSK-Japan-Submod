@@ -1,0 +1,42 @@
+KOR_consumption_problem_level_down = {
+	custom_effect_tooltip = consumption_problem_down_tt
+	if = {
+		limit = { has_idea = consumption_problem }
+		swap_ideas = {
+			remove_idea = consumption_problem
+			add_idea = consumption_problem_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = consumption_problem_1 }
+		swap_ideas = {
+			remove_idea = consumption_problem_1
+			add_idea = consumption_problem_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = consumption_problem_2 }
+		swap_ideas = {
+			remove_idea = consumption_problem_2
+			add_idea = consumption_problem_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = consumption_problem_3 }
+		swap_ideas = {
+			remove_idea = consumption_problem_3
+			add_idea = consumption_problem_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = consumption_problem_4 }
+		swap_ideas = {
+			remove_idea = consumption_problem_4
+			add_idea = consumption_problem_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = consumption_problem_5 }
+		remove_ideas = consumption_problem_5
+	}
+}
