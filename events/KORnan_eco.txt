@@ -201,3 +201,18 @@ country_event = {
 		add_ideas = consumption_problem
 	}
 }
+country_event = {
+	id = KORnan_eco.7 #소비기반 재배치
+	title = KORnan_eco.7.t
+	desc = KORnan_eco.7.d
+	picture = GFX_CNT_FAI_Collapsing_Falange_event
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = KORnan_eco.7.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}

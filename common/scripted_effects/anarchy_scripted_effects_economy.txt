@@ -40,3 +40,42 @@ KOR_consumption_problem_level_down = {
 		remove_ideas = consumption_problem_5
 	}
 }
+
+KOR_Economy_ideas_level_UP = {
+	custom_effect_tooltip = KOR_Economy_ideas_level_UP_tt
+	if = {
+		limit = { has_idea = KOR_Economy_ideas }
+		swap_ideas = {
+			remove_idea = KOR_Economy_ideas
+			add_idea = KOR_Economy_ideas_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = KOR_Economy_ideas_1 }
+		swap_ideas = {
+			remove_idea = KOR_Economy_ideas_1
+			add_idea = KOR_Economy_ideas_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = KOR_Economy_ideas_2 }
+		swap_ideas = {
+			remove_idea = KOR_Economy_ideas_2
+			add_idea = KOR_Economy_ideas_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = KOR_Economy_ideas_3 }
+		swap_ideas = {
+			remove_idea = KOR_Economy_ideas_3
+			add_idea = KOR_Economy_ideas_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = KOR_Economy_ideas_4 }
+		swap_ideas = {
+			remove_idea = KOR_Economy_ideas_4
+			add_idea = KOR_Economy_ideas_5
+		}
+	}
+}

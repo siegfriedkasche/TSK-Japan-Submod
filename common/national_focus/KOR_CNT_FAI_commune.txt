@@ -1,7 +1,7 @@
 focus_tree = {
 	id = KOR_CNT_FAI_commune
 	country = {
-		f = 0
+		factor = 0
 		modifier = {
 			add = 10
 			tag = KOR
@@ -208,7 +208,7 @@ focus_tree = {
 	}
 	focus = {
 		id = kor_MTU_member_intrusion
-		icon = GFX_goal_unknown
+		icon = revolutionary_government
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_CNT_END_Delegate_meeting
@@ -226,8 +226,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = kor_mtu_union_chairman
-		icon = GFX_goal_unknown
+		id = kor_mtu_union_chairman_1
+		icon = authoritarian_democracy
 		cost = 5.00
 		prerequisite = {
 			focus = kor_MTU_member_intrusion
@@ -252,7 +252,7 @@ focus_tree = {
 		icon = GFX_TNO_generic_left_unity_revolution
 		cost = 5.00
 		prerequisite = {
-			focus = kor_mtu_union_chairman
+			focus = kor_mtu_union_chairman_1
 		}
 		x = 21
 		y = 4
@@ -496,7 +496,7 @@ focus_tree = {
 		icon = GFX_KOR_MTU_Im_Seonggyu
 		cost = 5.00
 		prerequisite = {
-			focus = kor_mtu_union_chairman
+			focus = kor_mtu_union_chairman_1
 		}
 		mutually_exclusive = {
 			focus = KOR_MTU_Gapdeuk_Jeong
@@ -632,7 +632,7 @@ focus_tree = {
 		icon = GFX_KOR_MTU_Gapdeuk_Jeong
 		cost = 5.00
 		prerequisite = {
-			focus = kor_mtu_union_chairman
+			focus = kor_mtu_union_chairman_1
 		}
 		mutually_exclusive = {
 			focus = KOR_MTU_Im_Seonggyu
@@ -1688,6 +1688,7 @@ focus_tree = {
 		x = 63
 		y = 3
 		completion_reward = {
+			add_ideas = KOR_Economy_ideas
 			random_owned_controlled_state = {
 				limit = {
 					if = {
@@ -1733,7 +1734,9 @@ focus_tree = {
 		}
 		x = 59
 		y = 4
-
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = KOR_CNT_worker_choice
@@ -1744,7 +1747,9 @@ focus_tree = {
 		}
 		x = 58
 		y = 5
-
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = KOR_CNT_The_owner_of_the_product_is_the_worker
@@ -1755,11 +1760,13 @@ focus_tree = {
 		}
 		x = 60
 		y = 5
-
+		completion_reward = {
+			KOR_Economy_ideas_level_UP = yes
+		}
 	}
 	focus = {
 		id = KOR_CNT_exclusion_of_bureaucracy
-		icon = GFX_goal_unknown
+		icon = bloody_purge
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_CNT_The_owner_of_the_product_is_the_worker
@@ -1769,7 +1776,9 @@ focus_tree = {
 		}
 		x = 59
 		y = 6
-
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = KOR_CNT_Chicago_Uprising
@@ -1796,11 +1805,14 @@ focus_tree = {
 		}
 		x = 61
 		y = 4
-
+		completion_reward = {
+			KOR_Economy_ideas_level_UP = yes
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = kor_cnt_Encouraging_middle_class_participation
-		icon = GFX_goal_unknown
+		icon = break_free
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_CNT_The_owner_of_the_product_is_the_worker
@@ -1821,22 +1833,65 @@ focus_tree = {
 		}
 		x = 62
 		y = 5
-
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_free_agreement
-		icon = GFX_goal_unknown
+		icon = election2
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_CNT_redistribution_of_means_of_production
 		}
 		x = 63
 		y = 6
-
+		completion_reward = {
+			KOR_Economy_ideas_level_UP = yes
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_production_by_council
-		icon = GFX_goal_unknown
+		icon = national_unity_red
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_CNT_exclusion_of_bureaucracy
@@ -1856,11 +1911,13 @@ focus_tree = {
 		}
 		x = 62
 		y = 7
-
+		completion_reward = {
+			KOR_Economy_ideas_level_UP = yes
+		}
 	}
 	focus = {
 		id = kor_cnt_factory_for_workers
-		icon = GFX_goal_unknown
+		icon = labor_unions
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_CNT_exclusion_of_bureaucracy
@@ -1874,11 +1931,13 @@ focus_tree = {
 		}
 		x = 60
 		y = 7
-
+		completion_reward = {
+			KOR_Economy_ideas_level_UP = yes
+		}
 	}
 	focus = {
 		id = KOR_CNT_fraternal_cooperation
-		icon = GFX_goal_unknown
+		icon = industry_democratic3
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_CNT_production_by_council
@@ -1886,11 +1945,13 @@ focus_tree = {
 		}
 		x = 61
 		y = 8
-
+		completion_reward = {
+			KOR_Economy_ideas_level_UP = yes
+		}
 	}
 	focus = {
 		id = kor_cnt_factory_committee
-		icon = GFX_goal_unknown
+		icon = market_economy
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_CNT_free_agreement
@@ -1904,11 +1965,13 @@ focus_tree = {
 		}
 		x = 64
 		y = 7
-
+		completion_reward = {
+			KOR_Economy_ideas_level_UP = yes
+		}
 	}
 	focus = {
 		id = kor_cnt_Guarantee_the_right_to_production
-		icon = GFX_goal_unknown
+		icon = import_economy
 		cost = 5.00
 		prerequisite = {
 			focus = kor_cnt_factory_committee
@@ -2107,7 +2170,11 @@ focus_tree = {
 		}
 		x = 71
 		y = 6
-		
+		completion_reward = {
+			country_event = {
+				id = KORnan_eco.7
+			}
+		}
 	}
 	focus = {
 		id = KOR_CNT_solidarity_sacrifice
@@ -2263,8 +2330,49 @@ focus_tree = {
 		x = 71
 		y = 8
 		completion_reward = {
+			add_political_power = -25
+			add_stability = 0.05
 			KOR_consumption_problem_level_down = yes
-			
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 	}
 	focus = {
