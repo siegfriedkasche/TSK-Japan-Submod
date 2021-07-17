@@ -1,6 +1,6 @@
 ﻿
 division_template = {
-	name = "미합중국 해병대"
+	name = "소비에트 해군보병사단"
 	priority = 2
 	
 	regiments = {
@@ -12,82 +12,37 @@ division_template = {
 		modern_marine = { x = 1 y = 2 }
 		modern_marine = { x = 2 y = 0 }
 		modern_marine = { x = 2 y = 1 }
-		Engi_Bat = { x = 2 y = 2 }
+		modern_marine = { x = 2 y = 2 }
+		Engi_Bat = { x = 2 y = 3 }
 		modern_amphibious_marine = { x = 3 y = 0 }
+		modern_artillery_brigade = { x = 3 y = 1 }
+		modern_artillery_brigade = { x = 3 y = 2 }
+		anti_air_brigade = { x = 3 y = 3 }
+		anti_air_brigade = { x = 3 y = 4 }
 		modern_mbt = { x = 4 y = 0 }
-		modern_sp_art_brigade = { x = 4 y = 1 }
+		modern_mbt = { x = 4 y = 1 }
 		modern_sp_art_brigade = { x = 4 y = 2 }
 		modern_sp_art_brigade = { x = 4 y = 3 }
+		modern_sp_art_brigade = { x = 4 y = 4 }
 
 	}
     support = {
-	mot_recon = { x = 0 y = 0 }
-	signal_company = { x = 0 y = 1 }
-	military_police = { x = 0 y = 2 }
-	field_hospital = { x = 0 y = 3 }
-	manpad = { x = 0 y = 4 }
+	engineer = { x = 0 y = 0 }
+	field_hospital = { x = 0 y = 1 }
+	maintenance_company = { x = 0 y = 2 }
+	signal_company = { x = 0 y = 3 }
+	mot_recon = { x = 0 y = 4 }
 	}
-}
-division_template = {
-	name = "미합중국 해병여단"
-	priority = 2
-	
-	regiments = {
-		modern_marine = { x = 0 y = 0 }
-		modern_marine = { x = 0 y = 1 }
-		modern_marine = { x = 0 y = 2 }
-	}
-	support = {
-	mot_recon = { x = 0 y = 0 }
-	signal_company = { x = 0 y = 1 }
-	military_police = { x = 0 y = 2 }
-	field_hospital = { x = 0 y = 3 }
-	anti_air = { x = 0 y = 4 }
-	    }
-}
-division_template = {
-	name = "미합중국 해병항공단"
-
-	regiments = {
-		heliborne_infantry = { x = 0 y = 0 }
-		heliborne_infantry = { x = 0 y = 1 }
-		heliborne_infantry = { x = 0 y = 2 }
-		heliborne_infantry = { x = 0 y = 3 }
-		modern_artillery_brigade = { x = 1 y = 0 }
-		Engi_Bat = { x = 1 y = 1 }
-
-	}
-	support = {
-		armor_Recce_Comp = { x = 0 y = 0 }
-   }
 }
 units = {
 	division= {
-		name = "제3해병사단"
-		location = 11932
-		division_template = "미합중국 해병대"
+		name = "제55해군보병사단"
+		location = 957
+		division_template = "소비에트 해군보병사단"
 		start_experience_factor = 0.6
-		force_equipment_variants = { infantry_equipment_7 = { owner = "USJ" } }
-		force_equipment_variants = { m_1980_mbt = { owner = "USJ" } }
-		force_equipment_variants = { m_1980_sp_equipment = { owner = "USJ" } }
-	}
-	division= {
-		name = "제3해병원정여단"
-		location = 11932
-		division_template = "미합중국 해병여단"
-		start_experience_factor = 0.6
-		force_equipment_variants = { infantry_equipment_7 = { owner = "USJ" } }
-		force_equipment_variants = { m_1960_mbt = { owner = "USJ" } }
-		force_equipment_variants = { m_1980_sp_equipment = { owner = "USJ" } }
-		force_equipment_variants = { modern_artillery_equipment_1 = { owner = "USJ" } }
-		force_equipment_variants = { heavy_anti_air_eq = { owner = "USJ" } }
-	}
-	division= {
-		name = "제1해병항공단"
-		location = 11932
-		division_template = "미합중국 해병항공단"
-		start_experience_factor = 0.75
-		start_equipment_factor = 1
+		force_equipment_variants = { infantry_equipment_7 = { owner = "SVN" } }
+		force_equipment_variants = { m_1980_mbt = { owner = "SVN" } }
+		force_equipment_variants = { m_1980_sp_equipment = { owner = "SVN" } }
 	}
 }
 

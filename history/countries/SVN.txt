@@ -1,13 +1,13 @@
 ﻿capital = 282
 
-oob = ""
+oob = "SVN_1936"
 
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
 	}
 
-	set_naval_oob = "_1936_naval"
+	set_naval_oob = "SVN_1936_naval"
 }
 if = {
 	limit = {
