@@ -47,14 +47,22 @@ units = {
 }
 
 air_wings = {
-	526={
-		m_1990_jet_multirole_equipment = {
-			owner = "USJ" 
-			amount = 54
+	957={
+		m_1970_jet_multirole_equipment = {
+			owner = "SVN" 
+			amount = 409
 		}
-		m_1990_jet_fighter_equipment = {
-			owner = "USJ" 
-			amount = 54
+		m_1980_jet_multirole_equipment = {
+			owner = "SVN" 
+			amount = 47
+		}
+		m_1970_jet_fighter_equipment: = {
+			owner = "SVN" 
+			amount = 255
+		}
+		m_1980_jet_fighter_equipment: = {
+			owner = "SVN" 
+			amount = 255
 		}
 	}
 }

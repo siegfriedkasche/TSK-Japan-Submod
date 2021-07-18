@@ -110,8 +110,7 @@
  USF_heavy_mun_equipment_0:0 "포탄/전차포탄 중화기탄약"
  USJ_light_mun_equipment_0:0 "소총/지원하기 보병용탄약"
  USJ_heavy_mun_equipment_0:0 "포탄/전차포탄 중화기탄약"
- JDF_light_mun_equipment_0:0 "소총/지원하기 보병용탄약"
- JDF_heavy_mun_equipment_0:0 "포탄/전차포탄 중화기탄약"
+ 
  MJP_light_mun_equipment_0:0 "소총/지원하기 보병용탄약"
  MJP_heavy_mun_equipment_0:0 "포탄/전차포탄 중화기탄약"
  SVN_light_mun_equipment_0:0 "소총/지원하기 보병용탄약"
@@ -138,11 +137,6 @@
  support_infantry_equipment_2:0 "1985년 지원화기"
  support_infantry_equipment_3:0 "1995년 지원화기"
  support_infantry_equipment_4:0 "2005년 지원화기"
- 
- JDF_support_infantry_equipment_0:0 "M1919 경기관총 & 바주카"
- JDF_support_infantry_equipment_1:0 "62식 경기관총 & M72LAW"
- JDF_support_infantry_equipment_2:0 "M240 경기관총 & 칼 구스타프"
- JDF_support_infantry_equipment_3:0 "FN 미니미 경기관총 & 칼 구스타프 M2"
 
  MJP_support_infantry_equipment_0:0 "M1919 경기관총 & 바주카"
  MJP_support_infantry_equipment_1:0 "62식 경기관총 & M72LAW"
@@ -161,39 +155,11 @@
  USJ_support_infantry_equipment_3:0 "M249 경기관총 & AT4"
  USJ_support_infantry_equipment_4:0 "M249 경기관총 & SMAW"
  
- KR1_support_infantry_equipment_0:0 "M1919 경기관총 & 슈퍼바주카"
- KR1_support_infantry_equipment_1:0 "M60 경기관총 & M72LAW"
- KR1_support_infantry_equipment_2:0 "M60 경기관총 & M67 무반동포"
- KR1_support_infantry_equipment_3:0 "K3 경기관총 & 판저파우스트 3"
- KR1_support_infantry_equipment_4:0 "K12 기관총 & 판저파우스트 3-IT"
- 
- KOR_support_infantry_equipment_0:0 "M1919 경기관총 & 슈퍼바주카"
- KOR_support_infantry_equipment_1:0 "M60 경기관총 & M72LAW"
- KOR_support_infantry_equipment_2:0 "M60 경기관총 & M67 무반동포"
- KOR_support_infantry_equipment_3:0 "K3 경기관총 & 판저파우스트 3"
- KOR_support_infantry_equipment_4:0 "K12 기관총 & 판저파우스트 3-IT"
- 
- ROK_support_infantry_equipment_0:0 "M1919 경기관총 & 슈퍼바주카"
- ROK_support_infantry_equipment_1:0 "M60 경기관총 & M72LAW"
- ROK_support_infantry_equipment_2:0 "M60 경기관총 & M67 무반동포"
- ROK_support_infantry_equipment_3:0 "K3 경기관총 & 판저파우스트 3"
- ROK_support_infantry_equipment_4:0 "K12 기관총 & 판저파우스트 3-IT"
-
- MKR_support_infantry_equipment_0:0 "M1919 경기관총 & 슈퍼바주카"
- MKR_support_infantry_equipment_1:0 "M60 경기관총 & M72LAW"
- MKR_support_infantry_equipment_2:0 "M60 경기관총 & M67 무반동포"
- MKR_support_infantry_equipment_3:0 "K3 경기관총 & 판저파우스트 3"
- MKR_support_infantry_equipment_4:0 "K12 기관총 & 판저파우스트 3-IT"
  
  PRK_support_infantry_equipment_0:0 "RPD 경기관총 & RPG-2"
  PRK_support_infantry_equipment_1:0 "73식 경기관총 & RPG-7"
  PRK_support_infantry_equipment_2:0 "PKM & 7호발사관"
  PRK_support_infantry_equipment_3:0 "PKM & 7호발사관-II"
- 
- KPA_support_infantry_equipment_0:0 "RPD 경기관총 & RPG-2"
- KPA_support_infantry_equipment_1:0 "73식 경기관총 & RPG-7"
- KPA_support_infantry_equipment_2:0 "PKM & 7호발사관"
- KPA_support_infantry_equipment_3:0 "PKM & 7호발사관-II"
  
  infantry_equipment_4:0 "1960년대 보병장비"
  infantry_equipment_5:0 "1970년대 보병장비"
@@ -201,12 +167,6 @@
  infantry_equipment_7:0 "1990년대 보병장비"
  infantry_equipment_8:0 "2000년대 보병장비"
  infantry_equipment_9:0 "2010년대 보병장비"
- JDF_infantry_equipment_4:0 "64식 돌격소총"
- JDF_infantry_equipment_5:0 "64식 돌격소총(C)"
- JDF_infantry_equipment_6:0 "89식 돌격소총"
- JDF_infantry_equipment_7:0 "89식(F) 돌격소총"
- JDF_infantry_equipment_8:0 "Colt M4"
- JDF_infantry_equipment_9:0 "HK-416"
 
  MJP_infantry_equipment_4:0 "64식 돌격소총"
  MJP_infantry_equipment_5:0 "64식 돌격소총(C)"
@@ -236,13 +196,6 @@
  m_1990_mbt:0 "1990년대 주력전차"
  m_2000_mbt:0 "2000년대 주력전차"
  m_2010_mbt:0 "2010년대 주력전차"
- 
- JDF_m_1960_mbt:0 "61식 전차"
- JDF_m_1970_mbt:0 "74식 전차"
- JDF_m_1980_mbt:0 "74식 전차(E)"
- JDF_m_1990_mbt:0 "90식 전차"
- JDF_m_2000_mbt:0 "90식 전차(B)"
- JDF_m_2010_mbt:0 "10식 전차"
 
  MJP_m_1960_mbt:0 "61식 전차"
  MJP_m_1970_mbt:0 "74식 전차"
@@ -272,11 +225,6 @@
  m_1990_APC_equipment:0 "1990년대 APC"
  m_2000_APC_equipment:0 "2000년대 APC"
  m_2010_APC_equipment:0 "2010년대 APC"
-
- JDF_m_1970_APC_equipment:0 "60식 장갑차"
- JDF_m_1980_APC_equipment:0 "73식 장갑차"
- JDF_m_1990_APC_equipment:0 "82식 장갑차"
- JDF_m_2000_APC_equipment:0 "96식 장갑차"
 
  MJP_m_1970_APC_equipment:0 "60식 장갑차"
  MJP_m_1980_APC_equipment:0 "73식 장갑차"
@@ -339,11 +287,6 @@
  m_1990_spaa_equipment:0 "1990년대 대공자주포"
  m_2000_spaa_equipment:0 "2000년대 대공자주포"
  m_2010_spaa_equipment:0 "2010년대 대공자주포"
- 
- JDF_m_1980_spaa_equipment:0 "87식 대공자주포"
- JDF_m_1990_spaa_equipment:0 "81식 지대공미사일차량"
- JDF_m_2000_spaa_equipment:0 "93식 지대공미사일차량"
- JDF_m_2010_spaa_equipment:0 "11식 지대공미사일차량"
 
  MJP_m_1980_spaa_equipment:0 "87식 대공자주포"
  MJP_m_1990_spaa_equipment:0 "81식 지대공미사일차량"
@@ -365,10 +308,6 @@
  m_1990_sp_equipment:0 "1990년대 자주포"
  m_2000_sp_equipment:0 "2000년대 자주포"
  m_2010_sp_equipment:0 "2010년대 자주포"
- 
- JDF_m_1980_sp_equipment:0 "75식 자주포"
- JDF_m_1990_sp_equipment:0 "75식(kai) 자주포"
- JDF_m_2000_sp_equipment:0 "99식 자주포"
 
  MJP_m_1980_sp_equipment:0 "75식 자주포"
  MJP_m_1990_sp_equipment:0 "M110A2 자주포"
@@ -410,13 +349,6 @@
  PRK_m_1980_manpad_equipment:0 "화승총 이글라"
  PRK_m_1990_manpad_equipment:0 "화승총 이글라-N"
  
- KPA_m_1970_manpad_equipment:0 "화승총 스트렐라-3"
- KPA_m_1980_manpad_equipment:0 "화승총 이글라"
- KPA_m_1990_manpad_equipment:0 "화승총 이글라-N"
- 
- JDF_m_1980_manpad_equipment:0 "스팅어"
- JDF_m_1990_manpad_equipment:0 "91식 지대공유도탄"
-
  MJP_m_1980_manpad_equipment:0 "스팅어"
  MJP_m_1990_manpad_equipment:0 "91식 지대공유도탄"
  
@@ -425,10 +357,6 @@
  m_1990_atgm_equipment:0 "1990년대 대전차미사일"
  m_2000_atgm_equipment:0 "2000년대 대전차미사일"
  m_2010_atgm_equipment:0 "2010년대 대전차미사일"
- 
- JDF_m_1970_atgm_equipment:0 "79식 대전차유도탄"
- JDF_m_1980_atgm_equipment:0 "87식 대전차유도탄"
- JDF_m_1990_atgm_equipment:0 "87식 대전차유도탄(Kai)"
 
  MJP_m_1970_atgm_equipment:0 "79식 대전차유도탄"
  MJP_m_1980_atgm_equipment:0 "87식 대전차유도탄"
@@ -437,21 +365,6 @@
  
  heavy_anti_air_eq:0 "대공발칸포 장비"
  aa_missile:0 "중방공미사일 장비"
- 
- KOR_heavy_anti_air_eq:0 "KM167"
- KOR_aa_missile:0 "HAWK 지대공미사일"
- 
- KR1_heavy_anti_air_eq:0 "KM167"
- KR1_aa_missile:0 "HAWK 지대공미사일"
- 
- ROK_heavy_anti_air_eq:0 "KM167"
- ROK_aa_missile:0 "HAWK 지대공미사일"
- 
- MKR_heavy_anti_air_eq:0 "KM167"
- MKR_aa_missile:0 "HAWK 지대공미사일"
- 
- JDF_heavy_anti_air_eq:0 "VADS-I(Kai)"
- JDF_aa_missile:0 "HAWK 지대공미사일"
 
  MJP_heavy_anti_air_eq:0 "VADS-I(Kai)"
  MJP_aa_missile:0 "HAWK 지대공미사일"
@@ -473,18 +386,15 @@
  USJ_m_1970_jet_multirole_equipment:0 "F-5"
  USJ_m_1980_jet_multirole_equipment:0 "F-4D"
  USJ_m_1990_jet_multirole_equipment:0 "F-16C 파이팅 팔콘"
- 
- JDF_m_1970_jet_multirole_equipment:0 "F-104J"
- JDF_m_1980_jet_multirole_equipment:0 "F-4EJ"
 
  MJP_m_1970_jet_multirole_equipment:0 "F-104J"
  MJP_m_1980_jet_multirole_equipment:0 "F-4EJ"
  MJP_m_1990_jet_multirole_equipment:0 "F-2"
  MJP_m_2000_jet_multirole_equipment:0 "F-2kai"
  
- PRK_m_1970_jet_multirole_equipment:0 "MIG-21Bis"
- PRK_m_1980_jet_multirole_equipment:0 "MIG-21K"
- PRK_m_1990_jet_multirole_equipment:0 "MIG-29"
+ SVN_m_1970_jet_multirole_equipment:0 "MIG-23"
+ SVN_m_1980_jet_multirole_equipment:0 "SU-27"
+ SVN_m_1990_jet_multirole_equipment:0 "MIG-29"
  
  jet_multirole_equipment_desc:0 "현대의 멀티롤들은,제공임무도 가능하지만 또한 지상지원도 가능합니다. 이 전투기들은 2가지임무를 유연하게 수행하는데 특화되어있습니다."
  KOR_jet_multirole_equipment_desc:0 "현대의 멀티롤들은,제공임무도 가능하지만 또한 지상지원도 가능합니다. 이 전투기들은 2가지임무를 유연하게 수행하는데 특화되어있습니다. \n\n\n\n\n£f-15k\n\n\n\n\n."
@@ -502,10 +412,6 @@
  USJ_m_1970_jet_fighter_equipment:0 "F-5"
  USJ_m_1980_jet_fighter_equipment:0 "F-15A 이글"
  USJ_m_1990_jet_fighter_equipment:0 "F-15C 이글"
- 
- JDF_m_1970_jet_fighter_equipment:0 "F-4"
- JDF_m_1980_jet_fighter_equipment:0 "F-15J"
- JDF_m_1990_jet_fighter_equipment:0 "F-15CJ"
 
  MJP_m_1970_jet_fighter_equipment:0 "F-4"
  MJP_m_1980_jet_fighter_equipment:0 "F-15J"
@@ -513,9 +419,9 @@
  MJP_m_2000_jet_fighter_equipment:0 "F-15DJ"
  MJP_m_2010_jet_fighter_equipment:0 "F-15kai"
  
- KPA_m_1970_jet_fighter_equipment:0 "MIG-23"
- KPA_m_1980_jet_fighter_equipment:0 "MIG-23ML"
- KPA_m_1990_jet_fighter_equipment:0 "SU-27"
+ SVN_m_1970_jet_fighter_equipment:0 "MIG-25"
+ SVN_m_1980_jet_fighter_equipment:0 "MIG-31"
+ SVN_m_1990_jet_fighter_equipment:0 "SU-30"
  
  m_1970_jet_CAS_equipment:0 "1970년대 근접항공지원기"
  m_1980_jet_CAS_equipment:0 "1980년대 근접항공지원기"
@@ -534,8 +440,6 @@
  USJ_m_1970_jet_CAS_equipment:0 "F-111"
  USJ_m_1980_jet_CAS_equipment:0 "AV-8 해리어"
  USJ_m_1990_jet_CAS_equipment:0 "A-10A 썬더볼트"
- 
- JDF_m_1980_jet_CAS_equipment:0 "F-1"
  MJP_m_1980_jet_CAS_equipment:0 "F-1"
  
  m_1970_attack_helicopter_equipment:0 "1970년대 공격헬기"
@@ -587,11 +491,6 @@
  USJ_m_2000_util_helicopter_equipment:0 "MV-22"
 
  maritime_helicopter_equipment_1:0 "현대 해군용다목적헬기"
- KOR_maritime_helicopter_equipment_1:0 "슈퍼링스"
- KR1_maritime_helicopter_equipment_1:0 "슈퍼링스"
- ROK_maritime_helicopter_equipment_1:0 "슈퍼링스"
- MKR_maritime_helicopter_equipment_1:0 "슈퍼링스"
- JDF_maritime_helicopter_equipment_1:0 "SH-60"
  MJP_maritime_helicopter_equipment_1:0 "SH-60"
  
  ship_hull_PK_1:0 "고속정 선체 I"
@@ -624,12 +523,7 @@
  ship_hull_modern_cruiser_1:0 "이지스 순양함 선체 I"
  ship_hull_modern_cruiser_2:0 "이지스 순양함 선체 II"
  
- MKR_Vertical_maneuvering_equipment_1:0 "입체기동장치"
- ROK_Vertical_maneuvering_equipment_1:0 "입체기동장치"
- KOR_Vertical_maneuvering_equipment_1:0 "입체기동장치"
- PRK_Vertical_maneuvering_equipment_1:0 "입체기동장치"
- KPA_Vertical_maneuvering_equipment_1:0 "입체기동장치"
- JDF_Vertical_maneuvering_equipment_1:0 "입체기동장치"
+ MJP_Vertical_maneuvering_equipment_1:0 "입체기동장치"
  Vertical_maneuvering_equipment:0 "입체기동장치"
  Vertical_maneuvering_equipment_0:0 "입체기동장치 기술"
  Vertical_maneuvering_equipment_1:0 "고대의 장비"
