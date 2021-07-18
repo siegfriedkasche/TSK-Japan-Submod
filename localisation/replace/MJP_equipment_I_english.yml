@@ -391,13 +391,6 @@
  m_1990_mbt:0 "1990년대 주력전차"
  m_2000_mbt:0 "2000년대 주력전차"
  m_2010_mbt:0 "2010년대 주력전차"
-
- SVN_m_1950_mbt:0 "Т-55"
- SVN_m_1960_mbt:0 "Т-62"
- SVN_m_1970_mbt:0 "T-72A"
- SVN_m_1980_mbt:0 "T-80BV"
- SVN_m_1990_mbt:0 "T-72BU"
- SVN_m_2000_mbt:0 "AK-12MK"
  
  JDF_m_1960_mbt:0 "61식 전차"
  JDF_m_1970_mbt:0 "74식 전차"
@@ -432,7 +425,6 @@
  SVN_m_1970_mbt:0 "T-72A"
  SVN_m_1980_mbt:0 "T-80BV"
  SVN_m_1990_mbt:0 "T-72BU"
- SVN_m_2000_mbt:0 "AK-12MK"
  
  MKR_m_1950_mbt:0 "M47 패튼"
  MKR_m_1960_mbt:0 "M48A2C"
@@ -535,9 +527,9 @@
  USJ_m_2000_APC_equipment:0 "IAV Stryker"
  USJ_m_2010_APC_equipment:0 "IAV Stryker DVH"
 
- SVN_m_1970_APC_equipment:0 "BTR-50"
+ SVN_m_1970_APC_equipment:0 "BTR-70"
  SVN_m_1980_APC_equipment:0 "BTR-80"
- SVN_m_1990_APC_equipment:0 "BTR-90"
+ SVN_m_1990_APC_equipment:0 "BTR-90 Berezhok"
  
  PRK_m_1970_APC_equipment:0 "BTR-50"
  PRK_m_1980_APC_equipment:0 "VTT-323"
@@ -762,8 +754,8 @@
  USJ_m_2000_sp_equipment:0 "M109A7"
  USJ_m_2010_sp_equipment:0 "M1299"
 
- SVN_m_1970_sp_equipment:0 "Obyect 307"
- SVN_m_1980_sp_equipment:0 "2S19 무스타-S"
+ SVN_m_1970_sp_equipment:0 "2S5 Giatsint-S"
+ SVN_m_1980_sp_equipment:0 "2S19 Msta-S"
  
  PRK_m_1970_sp_equipment:0 "M-1978 곡산"
  PRK_m_1980_sp_equipment:0 "M-1989 주체포"
