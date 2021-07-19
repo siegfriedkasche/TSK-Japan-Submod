@@ -4,7 +4,7 @@ equipments = {
 		#picture = GFX_Molotov_cocktail
 
 		archetype = infantry_equipment
-		parent = infantry_equipment_9
+		parent = Molotov_cocktail 
 		priority = 11
 		visual_level = 10
 		

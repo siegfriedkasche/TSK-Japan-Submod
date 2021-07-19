@@ -159,7 +159,7 @@ news_event = {
 	id = Ana_news.8
 	title = Ana_news.8.t
 	desc = Ana_news.8.d
-	picture = 
+	picture = GFX_news_event_battle_for_the_bosporus
 	
 	major = yes
 	
@@ -200,7 +200,7 @@ news_event = {
 	id = Ana_news.9
 	title = Ana_news.9.t
 	desc = Ana_news.9.d
-	picture = 
+	picture = GFX_news_event_034
 	fire_only_once = yes
 	major = yes
 	
@@ -208,5 +208,22 @@ news_event = {
 	
 	option = {
 		name = Ana_news.9.a
+	}
+}
+news_event = {
+	id = Ana_news.10
+	title = Ana_news.10.t
+	desc = Ana_news.10.d
+	picture = GFX_news_event_polish_resistance_warsaw
+	fire_only_once = yes
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Ana_news.10.a
+		hidden_effect = {
+			set_country_flag = big_event_metal_union
+		}
 	}
 }

@@ -100,7 +100,6 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			set_country_flag = big_event_metal_union
 			FKU = {
 				set_country_flag = FKU_civil_war
 				transfer_state = 817
@@ -109,9 +108,12 @@ country_event = {
 				transfer_state = 813
 				declare_war_on = {
     				target = KOR
-    				type = civil_war
+    				type = civil_war 
 				}
 				
+			}
+			news_event = {
+				id = Ana_news.10
 			}
 			KOR = {
 				division_template = {
@@ -842,6 +844,21 @@ country_event = {
 	
 	option = {
 		name = MTU.18.a
+		ai_chance = {
+		    factor = 0
+		} 
+	}
+}
+country_event = {
+	id = MTU.19
+	title = MTU.19.t
+	desc = MTU.19.d
+	picture = GFX_nukeclear_event_pic
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = {
+		name = MTU.19.a
 		ai_chance = {
 		    factor = 0
 		} 

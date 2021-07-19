@@ -13,7 +13,7 @@ focus_tree = {
 		icon = GFX_KOR_CNT_END_Delegate_meeting
 		cost = 2.00
 		x = 49
-		y = 1
+		y = 0
 			completion_reward = {
 					custom_effect_tooltip = ended_CNT_END_Delegate_meeting
 					add_ideas = Unstable_commune
@@ -29,84 +29,56 @@ focus_tree = {
 
 	}
 	focus = {
-		id = KOR_CNT_procurement_of_supplies
-		icon = GFX_ITA_Conclude_the_Mechanization_of_Agriculture
-		cost = 5.00
-		prerequisite = {
-			focus = KOR_CNT_basis_of_consumption
+		id = KOR_MTU_liberation_war
+		icon = GFX_goal_support_communism
+		cost = 2.00
+		x = 33
+		y = 12
+			cancel = {
+					NOT = {
+							has_war_with = SOV
+							has_completed_focus = KOR_MTU_international_labor_movement
+						}
+				}
+			available = {
+					has_war_with = SOV
+					has_completed_focus = KOR_MTU_international_labor_movement
+				}
+			completion_reward = {
+					add_war_support = 0.1
+					SOV = {
+							add_war_support = -0.1
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_The_crusade_against_liberalism
+		icon = GFX_JAP_new_showa_warfare
+		cost = 2.5
+		cancel = {
+			NOT = {
+				has_war_with = ENG
+				has_completed_focus = KOR_MTU_international_labor_movement
+			}
 		}
-		x = 72
-		y = 7
+		available = {
+			has_war_with = ENG
+			has_completed_focus = KOR_MTU_international_labor_movement
+		}
+		x = 22
+		y = 12
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
+		add_war_support = 0.1
 		}
+	}
+	focus = {
+		id = KOR_MTU_IWW_join
+		icon = GFX_CSA_restructure_iww_KRD
+		cost = 2.5
+		x = 20
+		y = 19
+
 	}
 	focus = {
 		id = KOR_CNT_direction_of_the_commune
@@ -119,7 +91,7 @@ focus_tree = {
 			focus = kor_MTU_member_intrusion
 		}
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = KOR_CNT_END_Delegate_meeting
 			completion_reward = {
 					hidden_effect = {
@@ -311,15 +283,15 @@ focus_tree = {
 		y = 6
 			completion_reward = {
 					random_owned_controlled_state = {
-						limit = {
-							if = {
-								free_building_slots = {
-    								building = steel_alloy_ind
-    								size > 2
-    								include_locked = yes
+							limit = {
+									if = {
+											free_building_slots = {
+													building = steel_alloy_ind
+													size > 2
+													include_locked = yes
+												}
+										}
 								}
-							}
-						}
 							add_building_construction = {
 									type = steel_alloy_ind
 									level = 2
@@ -328,15 +300,15 @@ focus_tree = {
 							add_extra_state_shared_building_slots = 2
 						}
 					random_owned_controlled_state = {
-						limit = {
-							if = {
-								free_building_slots = {
-    								building = steel_alloy_ind
-    								size > 2
-    								include_locked = yes
+							limit = {
+									if = {
+											free_building_slots = {
+													building = steel_alloy_ind
+													size > 2
+													include_locked = yes
+												}
+										}
 								}
-							}
-						}
 							add_building_construction = {
 									type = steel_alloy_ind
 									level = 2
@@ -345,15 +317,15 @@ focus_tree = {
 							add_extra_state_shared_building_slots = 2
 						}
 					random_owned_controlled_state = {
-						limit = {
-							if = {
-								free_building_slots = {
-    								building = steel_alloy_ind
-    								size > 2
-    								include_locked = yes
+							limit = {
+									if = {
+											free_building_slots = {
+													building = steel_alloy_ind
+													size > 2
+													include_locked = yes
+												}
+										}
 								}
-							}
-						}
 							add_building_construction = {
 									type = steel_alloy_ind
 									level = 2
@@ -401,15 +373,15 @@ focus_tree = {
 		y = 5
 			completion_reward = {
 					random_owned_controlled_state = {
-						limit = {
-							if = {
-								free_building_slots = {
-    								building = arms_factory
-    								size > 2
-    								include_locked = yes
+							limit = {
+									if = {
+											free_building_slots = {
+													building = arms_factory
+													size > 2
+													include_locked = yes
+												}
+										}
 								}
-							}
-						}
 							add_building_construction = {
 									type = arms_factory
 									level = 2
@@ -418,15 +390,15 @@ focus_tree = {
 							add_extra_state_shared_building_slots = 2
 						}
 					random_owned_controlled_state = {
-						limit = {
-							if = {
-								free_building_slots = {
-    								building = arms_factory
-    								size > 2
-    								include_locked = yes
+							limit = {
+									if = {
+											free_building_slots = {
+													building = arms_factory
+													size > 2
+													include_locked = yes
+												}
+										}
 								}
-							}
-						}
 							add_building_construction = {
 									type = arms_factory
 									level = 2
@@ -435,15 +407,15 @@ focus_tree = {
 							add_extra_state_shared_building_slots = 2
 						}
 					random_owned_controlled_state = {
-						limit = {
-							if = {
-								free_building_slots = {
-    								building = arms_factory
-    								size > 2
-    								include_locked = yes
+							limit = {
+									if = {
+											free_building_slots = {
+													building = arms_factory
+													size > 2
+													include_locked = yes
+												}
+										}
 								}
-							}
-						}
 							add_building_construction = {
 									type = arms_factory
 									level = 2
@@ -567,7 +539,6 @@ focus_tree = {
 		x = 26
 		y = 7
 			completion_reward = {
-
 					808 = {
 							add_building_construction = {
 									type = industrial_complex
@@ -753,6 +724,137 @@ focus_tree = {
 			completion_reward = {
 					add_country_leader_trait = Metal_Federation
 					add_country_leader_trait = metal_army
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_wartime_posture
+		icon = GFX_focus_generic_concessions
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_liberation_war
+		}
+		x = 35
+		y = 13
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = -1
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = -1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_trade_unions_in_Russia
+		icon = GFX_focus_ger_great_red_menace
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_wartime_posture
+		}
+		x = 34
+		y = 14
+			completion_reward = {
+					SOV = {
+							add_ideas = SOV_trade_unions_in_Russia
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_munitions_production
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_wartime_posture
+		}
+		x = 36
+		y = 14
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									is_core_of = KOR
+								}
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									is_core_of = KOR
+								}
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_peoples_cooperation
+		icon = GFX_focus_spr_masters_of_our_own_fate
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_trade_unions_in_Russia
+		}
+		prerequisite = {
+			focus = KOR_MTU_munitions_production
+		}
+		x = 35
+		y = 15
+			completion_reward = {
+					add_manpower = 25000
+					add_equipment_to_stockpile = {
+							type = infantry_equipment_8
+							amount = 10000
+							producer = KOR
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_leading_a_general_strike
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_trade_unions_in_Russia
+		}
+		x = 33
+		y = 15
+			completion_reward = {
+					SOV = {
+							add_timed_idea = {
+									idea = SOV_general_strike_MTU
+									days = 365
+								}
+							add_stability = -0.25
+							add_war_support = -0.25
+						}
 				}
 
 	}
@@ -1356,7 +1458,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROK_CNT_Social_freedom
-		icon = GFX_CSA_townhall_democarcy
+		icon = GFX_ROK_CNT_Social_freedom
 		cost = 4.00
 		prerequisite = {
 			focus = KOR_CNT_Respect_for_women's_rights
@@ -1687,56 +1789,60 @@ focus_tree = {
 		}
 		x = 63
 		y = 3
-		completion_reward = {
-			add_ideas = KOR_Economy_ideas
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						arms_factory > 2
-					}
+			completion_reward = {
+					add_ideas = KOR_Economy_ideas
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											arms_factory > 2
+										}
+								}
+							add_building_construction = {
+									type = arms_factory
+									level = -2
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											arms_factory > 2
+										}
+								}
+							add_building_construction = {
+									type = arms_factory
+									level = -2
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
 				}
-				add_building_construction = {
-					type = arms_factory
-					level = -2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						arms_factory > 2
-					}
-				}
-				add_building_construction = {
-					type = arms_factory
-					level = -2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_workers_self_Operation
-		icon = goal_manage_industries
+		icon = GFX_KOR_CNT_industry_factory
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_CNT_Economy
 		}
 		x = 59
 		y = 4
-		completion_reward = {
-			
-		}
+			completion_reward = {
+					country_event = {
+							id = KORnan_eco.8
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_worker_choice
@@ -1747,9 +1853,29 @@ focus_tree = {
 		}
 		x = 58
 		y = 5
-		completion_reward = {
-			
-		}
+			completion_reward = {
+					add_resource = {
+							type = stell
+							amount = 10
+							state = 808
+						}
+					add_resource = {
+							type = stell
+							amount = 10
+							state = 812
+						}
+					add_resource = {
+							type = stell
+							amount = 10
+							state = 817
+						}
+					add_resource = {
+							type = stell
+							amount = 10
+							state = 809
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_The_owner_of_the_product_is_the_worker
@@ -1760,9 +1886,10 @@ focus_tree = {
 		}
 		x = 60
 		y = 5
-		completion_reward = {
-			KOR_Economy_ideas_level_UP = yes
-		}
+			completion_reward = {
+					KOR_Economy_ideas_level_UP = yes
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_exclusion_of_bureaucracy
@@ -1776,9 +1903,12 @@ focus_tree = {
 		}
 		x = 59
 		y = 6
-		completion_reward = {
-			
-		}
+			completion_reward = {
+					country_event = {
+							id = KORnan_eco.9
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_Chicago_Uprising
@@ -1805,10 +1935,11 @@ focus_tree = {
 		}
 		x = 61
 		y = 4
-		completion_reward = {
-			KOR_Economy_ideas_level_UP = yes
-			add_stability = 0.05
-		}
+			completion_reward = {
+					KOR_Economy_ideas_level_UP = yes
+					add_stability = 0.05
+				}
+
 	}
 	focus = {
 		id = kor_cnt_Encouraging_middle_class_participation
@@ -1822,6 +1953,32 @@ focus_tree = {
 		}
 		x = 61
 		y = 6
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+				}
 
 	}
 	focus = {
@@ -1833,24 +1990,25 @@ focus_tree = {
 		}
 		x = 62
 		y = 5
-		completion_reward = {
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
 				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_free_agreement
@@ -1861,33 +2019,34 @@ focus_tree = {
 		}
 		x = 63
 		y = 6
-		completion_reward = {
-			KOR_Economy_ideas_level_UP = yes
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
+			completion_reward = {
+					KOR_Economy_ideas_level_UP = yes
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
 				}
-				add_extra_state_shared_building_slots = 1
-			}
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 1
-			}
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 1
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_production_by_council
@@ -1911,9 +2070,42 @@ focus_tree = {
 		}
 		x = 62
 		y = 7
-		completion_reward = {
-			KOR_Economy_ideas_level_UP = yes
-		}
+			completion_reward = {
+					KOR_Economy_ideas_level_UP = yes
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+				}
+
 	}
 	focus = {
 		id = kor_cnt_factory_for_workers
@@ -1931,9 +2123,42 @@ focus_tree = {
 		}
 		x = 60
 		y = 7
-		completion_reward = {
-			KOR_Economy_ideas_level_UP = yes
-		}
+			completion_reward = {
+					KOR_Economy_ideas_level_UP = yes
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_fraternal_cooperation
@@ -1945,9 +2170,10 @@ focus_tree = {
 		}
 		x = 61
 		y = 8
-		completion_reward = {
-			KOR_Economy_ideas_level_UP = yes
-		}
+			completion_reward = {
+					KOR_Economy_ideas_level_UP = yes
+				}
+
 	}
 	focus = {
 		id = kor_cnt_factory_committee
@@ -1965,9 +2191,42 @@ focus_tree = {
 		}
 		x = 64
 		y = 7
-		completion_reward = {
-			KOR_Economy_ideas_level_UP = yes
-		}
+			completion_reward = {
+					KOR_Economy_ideas_level_UP = yes
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+				}
+
 	}
 	focus = {
 		id = kor_cnt_Guarantee_the_right_to_production
@@ -1979,6 +2238,10 @@ focus_tree = {
 		}
 		x = 63
 		y = 8
+			completion_reward = {
+					add_stability = 0.05
+					KOR_Economy_ideas_level_UP = yes
+				}
 
 	}
 	focus = {
@@ -1990,11 +2253,12 @@ focus_tree = {
 		}
 		x = 66
 		y = 4
-		completion_reward = {
-			country_event = {
-				id = KORnan_eco.1
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = KORnan_eco.1
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_agricultural_collectivization
@@ -2005,44 +2269,45 @@ focus_tree = {
 		}
 		x = 65
 		y = 5
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 1
-    						include_locked = yes
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											free_building_slots = {
+													building = industrial_complex
+													size > 1
+													include_locked = yes
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
 						}
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 1
-    						include_locked = yes
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											free_building_slots = {
+													building = industrial_complex
+													size > 1
+													include_locked = yes
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
 						}
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 1
-    						include_locked = yes
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											free_building_slots = {
+													building = industrial_complex
+													size > 1
+													include_locked = yes
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
 						}
-					}
 				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_voluntary_cultivation
@@ -2053,18 +2318,19 @@ focus_tree = {
 		}
 		x = 65
 		y = 6
-		select_effect = {
-            country_event = {
-				id = KORnan_eco.3
-				days = 15
-			}
-        }
-		completion_reward = {
-			add_timed_idea = {
-				idea = voluntary_cultivation
-				days = 180
-			}
-		}
+			select_effect = {
+					country_event = {
+							id = KORnan_eco.3
+							days = 15
+						}
+				}
+			completion_reward = {
+					add_timed_idea = {
+							idea = voluntary_cultivation
+							days = 180
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_need_for_propaganda
@@ -2075,11 +2341,12 @@ focus_tree = {
 		}
 		x = 67
 		y = 5
-		completion_reward = {
-			country_event = {
-				id = KORnan_eco.2
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = KORnan_eco.2
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_farmers_association
@@ -2090,12 +2357,13 @@ focus_tree = {
 		}
 		x = 67
 		y = 6
-		completion_reward = {
-			add_timed_idea = {
-				idea = farmers_association
-				days = 180
-			}
-		}
+			completion_reward = {
+					add_timed_idea = {
+							idea = farmers_association
+							days = 180
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_the_importance_of_agriculture
@@ -2109,11 +2377,12 @@ focus_tree = {
 		}
 		x = 66
 		y = 7
-		completion_reward = {
-			country_event = {
-				id = KORnan_eco.4
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = KORnan_eco.4
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_consumption_problem
@@ -2124,11 +2393,12 @@ focus_tree = {
 		}
 		x = 71
 		y = 4
-		completion_reward = {
-			country_event = {
-				id = KORnan_eco.6
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = KORnan_eco.6
+						}
+				}
+
 	}
 	focus = {
 		id = kor_cnt_Problems_with_inventory_of_products
@@ -2139,10 +2409,11 @@ focus_tree = {
 		}
 		x = 70
 		y = 5
-		completion_reward = {
-			KOR_consumption_problem_level_down = yes
-			add_political_power = 25
-		}
+			completion_reward = {
+					KOR_consumption_problem_level_down = yes
+					add_political_power = 25
+				}
+
 	}
 	focus = {
 		id = kor_cnt_Basic_privatized_consumer_goods
@@ -2153,10 +2424,11 @@ focus_tree = {
 		}
 		x = 72
 		y = 5
-		completion_reward = {
-			KOR_consumption_problem_level_down = yes
-			add_stability = 0.05
-		}
+			completion_reward = {
+					KOR_consumption_problem_level_down = yes
+					add_stability = 0.05
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_basis_of_consumption
@@ -2170,11 +2442,12 @@ focus_tree = {
 		}
 		x = 71
 		y = 6
-		completion_reward = {
-			country_event = {
-				id = KORnan_eco.7
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = KORnan_eco.7
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_solidarity_sacrifice
@@ -2185,64 +2458,65 @@ focus_tree = {
 		}
 		x = 68
 		y = 7
-		completion_reward = {
-			KOR_consumption_problem_level_down = yes
-			custom_effect_tooltip = infrastructure_down_than_5
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						infrastructure < 5
-					}
+			completion_reward = {
+					KOR_consumption_problem_level_down = yes
+					custom_effect_tooltip = infrastructure_down_than_5
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											infrastructure < 5
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 5
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											infrastructure < 5
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 5
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											infrastructure < 5
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 5
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
 				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 5
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						infrastructure < 5
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 5
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						infrastructure < 5
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 5
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_CNT_mutual_cooperation
@@ -2253,63 +2527,227 @@ focus_tree = {
 		}
 		x = 70
 		y = 7
-		completion_reward = {
-			custom_effect_tooltip = infrastructure_down_than_5
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						infrastructure < 5
-					}
+			completion_reward = {
+					custom_effect_tooltip = infrastructure_down_than_5
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											infrastructure < 5
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 5
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											infrastructure < 5
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 5
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											infrastructure < 5
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 5
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
 				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 5
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						infrastructure < 5
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 5
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						infrastructure < 5
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 5
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
+
+	}
+	focus = {
+		id = KOR_CNT_reciprocal_relationship
+		icon = GFX_CHI_Educating_The_Countryside
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_basis_of_consumption
 		}
+		x = 74
+		y = 7
+			completion_reward = {
+					KOR_consumption_problem_level_down = yes
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											free_building_slots = {
+													building = industrial_complex
+													size > 2
+													include_locked = yes
+												}
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											free_building_slots = {
+													building = industrial_complex
+													size > 2
+													include_locked = yes
+												}
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											free_building_slots = {
+													building = industrial_complex
+													size > 2
+													include_locked = yes
+												}
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											free_building_slots = {
+													building = industrial_complex
+													size > 2
+													include_locked = yes
+												}
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_CNT_procurement_of_supplies
+		icon = GFX_ITA_Conclude_the_Mechanization_of_Agriculture
+		cost = 5.00
+		prerequisite = {
+			focus = KOR_CNT_basis_of_consumption
+		}
+		x = 72
+		y = 7
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											free_building_slots = {
+													building = industrial_complex
+													size > 2
+													include_locked = yes
+												}
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											free_building_slots = {
+													building = industrial_complex
+													size > 2
+													include_locked = yes
+												}
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											free_building_slots = {
+													building = industrial_complex
+													size > 2
+													include_locked = yes
+												}
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									if = {
+											free_building_slots = {
+													building = industrial_complex
+													size > 2
+													include_locked = yes
+												}
+										}
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_barriers_between_urban_and_rural_areas
@@ -2329,51 +2767,52 @@ focus_tree = {
 		}
 		x = 71
 		y = 8
-		completion_reward = {
-			add_political_power = -25
-			add_stability = 0.05
-			KOR_consumption_problem_level_down = yes
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
+			completion_reward = {
+					add_political_power = -25
+					add_stability = 0.05
+					KOR_consumption_problem_level_down = yes
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
 				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+
 	}
 	focus = {
 		id = KOR_IWW_International_Invitation
@@ -2506,7 +2945,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_social_Imperialism
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_social_Imperialism
 		cost = 4.00
 		prerequisite = {
 			focus = KOR_Code_of_Anarchism
@@ -2525,7 +2964,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_A_quasi_political_program
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = labor_unions
 		cost = 4.00
 		prerequisite = {
 			focus = KOR_Code_of_Anarchism
@@ -2541,7 +2980,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_cohesion
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_federal_commune
 		cost = 4.00
 		prerequisite = {
 			focus = KOR_A_quasi_political_program
@@ -2565,9 +3004,9 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_SOCIAL_Imperialism_Propaganda
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_CNT_SOCIAL_Imperialism_Propaganda
 		cost = 4.00
-		prerequisite = { 
+		prerequisite = {
 			focus = KOR_CNT_social_Imperialism
 		}
 		x = 43
@@ -2582,7 +3021,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_Solidarity_of_workers
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_KOR_Solidarity_of_workers
 		cost = 4.00
 		prerequisite = {
 			focus = KOR_Code_of_Anarchism
@@ -2623,7 +3062,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_CNT_lreaned_black_army
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_UFT_Temporary_Committee
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_CNT_cohesion
@@ -3684,87 +4123,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = KOR_CNT_reciprocal_relationship
-		icon = GFX_CHI_Educating_The_Countryside
-		cost = 5.00
-		prerequisite = {
-			focus = KOR_CNT_basis_of_consumption
-		}
-		x = 74
-		y = 7
-		completion_reward = {
-			KOR_consumption_problem_level_down = yes
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			random_owned_controlled_state = {
-				limit = {
-					if = {
-						free_building_slots = {
-    						building = industrial_complex
-    						size > 2
-    						include_locked = yes
-						}
-					}
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
-	}
-	focus = {
 		id = KOR_CNT_Increase_cooperation_by_industry
 		icon = GFX_focus_TUR_reform_the_balkan_pact
 		cost = 5.00
@@ -3773,11 +4131,12 @@ focus_tree = {
 		}
 		x = 66
 		y = 8
-		completion_reward = {
-			country_event = {
-				id = KORnan_eco.5
-			}
-		}
+			completion_reward = {
+					country_event = {
+							id = KORnan_eco.5
+						}
+				}
+
 	}
 	focus = {
 		id = KOR_CNT_industry_wide_alliance
@@ -3795,8 +4154,1131 @@ focus_tree = {
 		}
 		x = 66
 		y = 9
-		completion_reward = {
-			KOR_consumption_problem_level_down = yes
+			completion_reward = {
+					KOR_consumption_problem_level_down = yes
+					KOR_Economy_ideas_level_UP = yes
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_Siberian_Operation
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_liberation_war
 		}
+		x = 31
+		y = 13
+			completion_reward = {
+					add_timed_idea = {
+							idea = Siberian_plan
+							days = 180
+						}
+					add_war_support = 0.25
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_winter_clothes
+		icon = GFX_focus_usa_honor_the_confederacy
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_Siberian_Operation
+		}
+		x = 32
+		y = 14
+			completion_reward = {
+					add_timed_idea = {
+							idea = winter_clothes
+							days = 60
+						}
+					add_war_support = 0.1
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_Securing_the_Soviet_Factory
+		icon = GFX_goal_generic_soviet_construction
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_Siberian_Operation
+		}
+		x = 30
+		y = 14
+			completion_reward = {
+					SOV = {
+							random_owned_controlled_state = {
+									limit = {
+											is_core_of = SOV
+										}
+									add_building_construction = {
+											type = arms_factory
+											level = -2
+											instant_build = yes
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											is_core_of = SOV
+										}
+									add_building_construction = {
+											type = arms_factory
+											level = -2
+											instant_build = yes
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											is_core_of = SOV
+										}
+									add_building_construction = {
+											type = arms_factory
+											level = -2
+											instant_build = yes
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											is_core_of = SOV
+										}
+									add_building_construction = {
+											type = arms_factory
+											level = -2
+											instant_build = yes
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_tank_interior_heater
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_Siberian_Operation
+		}
+		x = 28
+		y = 14
+			completion_reward = {
+					add_timed_idea = {
+							idea = tank_interior_heater
+							days = 60
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_Ural_operation
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_winter_clothes
+		}
+		prerequisite = {
+			focus = KOR_MTU_Securing_the_Soviet_Factory
+		}
+		prerequisite = {
+			focus = KOR_MTU_tank_interior_heater
+		}
+		x = 31
+		y = 15
+			available = {
+					controls_state = 570
+				}
+			completion_reward = {
+					add_timed_idea = {
+							idea = Ural_operation
+							days = 180
+						}
+					remove_ideas = Siberian_plan
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_secure_the_tunnel
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_Ural_operation
+		}
+		x = 32
+		y = 16
+			completion_reward = {
+					add_timed_idea = {
+							idea = secure_the_tunnel
+							days = 100
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_Bypass_Kazakhstan
+		icon = GFX_goal_generic_position_armies
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_Ural_operation
+		}
+		x = 30
+		y = 16
+			completion_reward = {
+					add_timed_idea = {
+							idea = Ural_operation_2
+							days = 100
+						}
+					remove_ideas = Ural_operation
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_Siberian_Railway_Utilization
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_peoples_cooperation
+		}
+		prerequisite = {
+			focus = KOR_MTU_leading_a_general_strike
+		}
+		x = 34
+		y = 16
+			available = {
+					controls_state = 566
+					controls_state = 571
+					controls_state = 570
+					controls_state = 563
+					controls_state = 564
+				}
+			completion_reward = {
+					566 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 5
+									instant_build = yes
+								}
+						}
+					571 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 5
+									instant_build = yes
+								}
+						}
+					570 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 5
+									instant_build = yes
+								}
+						}
+					563 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 5
+									instant_build = yes
+								}
+						}
+					563 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 5
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_Moscow_operation
+		icon = GFX_focus_ger_strike_at_the_source
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_secure_the_tunnel
+		}
+		prerequisite = {
+			focus = KOR_MTU_Siberian_Railway_Utilization
+		}
+		prerequisite = {
+			focus = KOR_MTU_Bypass_Kazakhstan
+		}
+		x = 32
+		y = 17
+			completion_reward = {
+					add_timed_idea = {
+							idea = moscow_operation
+							days = 180
+						}
+					remove_ideas = Ural_operation_2
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_Liberation_of_factory_workers
+		icon = GFX_focus_spr_crush_the_revolution
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_Moscow_operation
+		}
+		x = 33
+		y = 18
+			completion_reward = {
+					SOV = {
+							remove_ideas = SOV_trade_unions_in_Russia
+							add_ideas = SOV_trade_unions_in_Russia_2
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_European_penetration
+		icon = GFX_focus_eng_global_defense
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_Moscow_operation
+		}
+		x = 31
+		y = 18
+			completion_reward = {
+					add_opinion_modifier = {
+							target = GER
+							modifier = new_threat
+						}
+					add_opinion_modifier = {
+							target = SOV
+							modifier = new_threat
+						}
+					add_opinion_modifier = {
+							target = USA
+							modifier = new_threat
+						}
+					add_opinion_modifier = {
+							target = ENG
+							modifier = new_threat
+						}
+					add_opinion_modifier = {
+							target = FRA
+							modifier = new_threat
+						}
+					add_opinion_modifier = {
+							target = ITA
+							modifier = new_threat
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_peoples_liberation
+		icon = GFX_goal_ARC_commitment_to_freedom
+		cost = 2.00
+		prerequisite = {
+			focus = KOR_MTU_Liberation_of_factory_workers
+		}
+		prerequisite = {
+			focus = KOR_MTU_European_penetration
+		}
+		x = 32
+		y = 19
+			available = {
+					SOV = {
+							exists = no
+						}
+				}
+			completion_reward = {
+					add_war_support = -0.5
+					every_state = {
+							limit = {
+									is_core_of = SOV
+								}
+							add_core_of = ROOT
+						}
+					hidden_effect = {
+							remove_ideas = tank_interior_heater
+							remove_ideas = winter_clothes
+							remove_ideas = moscow_operation
+							add_stability = -0.2
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_CNT_market_crash
+		icon = GFX_econ_expension
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_The_crusade_against_liberalism
+		}
+		x = 22
+		y = 13
+		completion_reward = {
+			every_country = {
+				limit = {
+					has_government = democratic
+					not = {
+						tag = KOR
+					}
+				}
+				add_timed_idea = {
+					idea = market_crash
+					days = 180
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_true_free_country
+		icon = GFX_focus_generic_strike_at_democracy3
+		cost = 2.5
+		cancel = {
+			NOT = {
+				has_war_with = USA
+				has_completed_focus = KOR_MTU_international_labor_movement
+			}
+		}
+		available = {
+			has_war_with = USA
+			has_completed_focus = KOR_MTU_international_labor_movement
+		}
+		prerequisite = {
+			focus = KOR_CNT_market_crash
+		}
+		x = 18
+		y = 14
+		
+	}
+	focus = {
+		id = KOR_MTU_legacy_of_revolution
+		icon = GFX_french_commune_legacy
+		cost = 2.5
+		cancel = {
+			NOT = {
+				has_war_with = FRA
+				has_completed_focus = KOR_MTU_international_labor_movement
+			}
+		}
+		available = {
+			has_war_with = FRA
+			has_completed_focus = KOR_MTU_international_labor_movement
+		}
+		prerequisite = {
+			focus = KOR_CNT_market_crash
+		}
+		x = 22
+		y = 14
+
+	}
+	focus = {
+		id = KOR_MTU_ture_glory
+		icon = GFX_NIK_connections_in_england_ultravisionary
+		cost = 2.5
+		cancel = {
+			NOT = {
+				has_war_with = ENG
+				has_completed_focus = KOR_MTU_international_labor_movement
+			}
+		}
+		available = {
+			has_war_with = ENG
+			has_completed_focus = KOR_MTU_international_labor_movement
+		}
+		prerequisite = {
+			focus = KOR_CNT_market_crash
+		}
+		x = 26
+		y = 14
+		completion_reward = {
+			add_ace = {
+				name = "민지"
+				surname = "노조는 우리의 생명"
+				callsign = "참새"
+				type = fighter_genius
+				is_female = yes
+			}
+			add_ace = {
+				name = "길동"
+				surname = "사수하라 민주노조"
+				callsign = "매"
+				type = fighter_genius
+				is_female = no
+			}
+			air_experience = 25
+		}
+	}
+	focus = {
+		id = KOR_MTU_CGT_meet
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_legacy_of_revolution
+		}
+		x = 21
+		y = 15
+
+	}
+	focus = {
+		id = KOR_MTU_africa_blockade
+		icon = GFX_focus_por_luso_tropicalism
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_ture_glory
+		}
+		prerequisite = {
+			focus = KOR_MTU_legacy_of_revolution
+		}
+		x = 23
+		y = 15
+
+	}
+	focus = {
+		id = KOR_MTU_paris_booming
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_legacy_of_revolution
+		}
+		x = 22
+		y = 16
+
+	}
+	focus = {
+		id = KOR_MTU_coastal_blockade
+		icon = GFX_KOR_MTU_coastal_blockade
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_legacy_of_revolution
+		}
+		prerequisite = {
+			focus = KOR_MTU_ture_glory
+		}
+		x = 25
+		y = 15
+		completion_reward = {
+			ENG = {
+				add_timed_idea = {
+					idea = coastal_blockade
+					days = 180
+				}
+			}
+			FRA = {
+				add_timed_idea = {
+					idea = coastal_blockade
+					days = 180
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_preparation_for_landing
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_coastal_blockade
+		}
+		prerequisite = {
+			focus = KOR_MTU_Preparing_for_homeland_warfare
+		}
+		x = 26
+		y = 16
+
+	}
+	focus = {
+		id = KOR_MTU_Preparing_for_homeland_warfare
+		icon = GFX_KOR_MTU_Preparing_for_homeland_warfare
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_ture_glory
+		}
+		x = 27
+		y = 15
+		completion_reward = {
+			add_timed_idea = {
+				idea = homeland_warfare
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_Operation_name_Galchi
+		icon = GFX_KOR_MTU_Operation_name_Galchi
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_preparation_for_landing
+		}
+		x = 26
+		y = 17
+		completion_reward = {
+			add_manpower = 10000
+			add_war_support = 0.15
+			add_timed_idea = {
+				idea = Operation_name_Galchi
+				days = 365
+			}
+			hidden_effect = {
+			ENG = {
+			add_ideas = homeland_defense
+			}
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_occupation_of_Dover
+		icon = GFX_goal_unknown
+		cost = 2.5
+		available = {
+			controls_state = 127
+		}
+		prerequisite = {
+			focus = KOR_MTU_coastal_blockade
+		}
+		prerequisite = {
+			focus = KOR_MTU_Operation_name_Galchi
+		}
+		prerequisite = {
+			focus = KOR_MTU_Gibraltar_bombing
+		}
+		x = 25
+		y = 18
+		completion_reward = {
+		127 = {
+			add_building_construction = {
+    			type = naval_base     
+    			level = 10
+    			instant_build = yes
+    			province = 3501
+			}
+		}
+			add_timed_idea = {
+				idea = Dover
+				days = 90
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_anti_aircraft_bombing
+		icon = GFX_goal_unknown
+		cost = 2.5
+		available = {
+			controls_state = 127
+		}
+		prerequisite = {
+			focus = KOR_MTU_Preparing_for_homeland_warfare
+		}
+		prerequisite = {
+			focus = KOR_MTU_Operation_name_Galchi
+		}
+		prerequisite = {
+			focus = KOR_MTU_napalm
+		}
+		x = 27
+		y = 18
+		completion_reward = {
+			126 = {
+				add_building_construction = {
+					type = anti_air_building   
+					level = -4
+					instant_build = yes
+				}
+			}
+			127 = {
+				add_building_construction = {
+					type = anti_air_building   
+					level = -4
+					instant_build = yes
+				}
+			}
+			125 = {
+				add_building_construction = {
+					type = anti_air_building   
+					level = -4
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_Mugunghwa_has_bloomed
+		icon = GFX_KOR_MTU_Mugunghwa_has_bloomed
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_true_free_country
+		}
+		x = 17
+		y = 15
+		completion_reward = {
+		add_war_support = 0.1
+		add_stability = -0.1
+		country_event = {
+		id = MTU.19
+		}
+		}
+	}
+	focus = {
+		id = KOR_MTU_Promotion_of_nuclear_research
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_Mugunghwa_has_bloomed
+		}
+		x = 18
+		y = 16
+		completion_reward = {
+			set_technology = {
+    			hydrogen_nukes  = 1
+			}
+			set_technology = {
+    			nukes  = 1
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_gallop_Paris
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_paris_booming
+		}
+		prerequisite = {
+			focus = KOR_MTU_induce_a_general_strike
+		}
+		x = 22
+		y = 19
+
+	}
+	focus = {
+		id = KOR_MTU_induce_a_general_strike
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_CGT_meet
+		}
+		x = 21
+		y = 17
+
+	}
+	focus = {
+		id = KOR_MTU_the_craze_of_independence
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_africa_blockade
+		}
+		x = 23
+		y = 18
+
+	}
+	focus = {
+		id = KOR_MTU_nuclear_reactor_union
+		icon = GFX_KOR_MTU_nuclear_reactor_union
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_Mugunghwa_has_bloomed
+		}
+		x = 16
+		y = 16
+		completion_reward = {
+			add_ideas = nuclear_production
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = nuclear_reactor   
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_Panama_Canal_bombing
+		icon = GFX_focus_BUL_condemn_macedonian_organizations
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_true_free_country
+		}
+		x = 19
+		y = 15
+		completion_reward = {
+			custom_effect_tooltip = PANAMA_CANAL_BLOCKED_1
+			set_country_flag = blew_up_panama
+			set_global_flag = PANAMA_CANAL_BLOCKED
+		}
+	}
+	focus = {
+		id = KOR_MTU_Suez_Canal_bombing
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_coastal_blockade
+		}
+		x = 24
+		y = 16
+		completion_reward = {
+			custom_effect_tooltip = SUEZ_CANAL_BLOCKED_1
+			set_country_flag = blew_up_suez
+			set_global_flag = SUEZ_CANAL_BLOCKED
+		}
+	}
+	focus = {
+		id = KOR_MTU_Gibraltar_bombing
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_Suez_Canal_bombing
+		}
+		x = 24
+		y = 17
+
+	}
+	focus = {
+		id = KOR_MTU_rat_in_poison
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_Gibraltar_bombing
+		}
+		x = 24
+		y = 19
+
+	}
+	focus = {
+		id = KOR_MTU_london_gallop
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_occupation_of_Dover
+		}
+		prerequisite = {
+			focus = KOR_MTU_anti_aircraft_bombing
+		}
+		x = 26
+		y = 19
+
+	}
+	focus = {
+		id = KOR_MTU_air_force_production
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_Preparing_for_homeland_warfare
+		}
+		x = 28
+		y = 16
+		completion_reward = {
+			add_timed_idea = {
+				idea = MTU_air_force_production
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_napalm
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_air_force_production
+		}
+		x = 28
+		y = 17
+		completion_reward = {
+			add_timed_idea = {
+				idea = napalm
+				days = 180
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_washington_gallop
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_mainland_landing
+		}
+		prerequisite = {
+			focus = KOR_MTU_general_strike_in_the_US
+		}
+		x = 20
+		y = 21
+
+	}
+	focus = {
+		id = KOR_MTU_Atomic_bomb_research_completed
+		icon = GFX_KOR_MTU_Atomic_bomb_research_completed
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_nuclear_reactor_union
+		}
+		prerequisite = {
+			focus = KOR_MTU_Promotion_of_nuclear_research
+		}
+		x = 17
+		y = 17
+		completion_reward = {
+			nuclear_production_ideas_level_UP = yes
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = nuclear_reactor   
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			add_nuclear_bombs = 1
+		}
+	}
+	focus = {
+		id = KOR_MTU_uranium_mine
+		icon = GFX_KOR_MTU_uranium_mine
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_nuclear_reactor_union
+		}
+		x = 15
+		y = 17
+		completion_reward = {
+			nuclear_production_ideas_level_UP = yes
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = nuclear_reactor   
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_US_trade_blockade
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_Panama_Canal_bombing
+		}
+		x = 19
+		y = 17
+		completion_reward = {
+			add_timed_idea = {
+				idea = trade_blockade
+				days = 180
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_massive_production
+		icon = GFX_The_Nuclear_Option
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_Atomic_bomb_research_completed
+		}
+		prerequisite = {
+			focus = KOR_MTU_uranium_mine
+		}
+		x = 16
+		y = 18
+		completion_reward = {
+			nuclear_production_ideas_level_UP = yes
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = nuclear_reactor   
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_block_the_transport
+		icon = torpedo
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_US_trade_blockade
+		}
+		x = 19
+		y = 18
+		completion_reward = {
+			USA = {
+				add_stability = -0.15
+				add_war_support = -0.15
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_Operation_Falcon
+		icon = GFX_KOR_MTU_Operation_Falcon
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_block_the_transport
+		}
+		prerequisite = {
+			focus = KOR_MTU_massive_production
+		}
+		x = 18
+		y = 19
+
+	}
+	focus = {
+		id = KOR_MTU_general_strike_in_the_US
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_Operation_Falcon
+		}
+		prerequisite = {
+			focus = KOR_MTU_IWW_join
+		}
+		x = 21
+		y = 20
+
+	}
+	focus = {
+		id = KOR_MTU_mainland_landing
+		icon = GFX_KOR_MTU_mainland_landing
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_Operation_Falcon
+		}
+		x = 19
+		y = 20
+
+	}
+	focus = {
+		id = KOR_MTU_Securing_the_right_to_offer
+		icon = GFX_TNO_ENG_ofn_airfields
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_Operation_Falcon
+		}
+		x = 17
+		y = 20
+
+	}
+	focus = {
+		id = KOR_MTU_Got_it
+		icon = GFX_ava_kor_dreamland
+		cost = 2.5
+		available = {
+			num_of_nukes > 2
+		}
+		prerequisite = {
+			focus = KOR_MTU_massive_production
+		}
+		prerequisite = {
+			focus = KOR_MTU_Securing_the_right_to_offer
+		}
+		x = 18
+		y = 21
+		completion_reward = {
+			custom_effect_tooltip = nuke_usa_wtt
+			
+			launch_nuke = {
+				province = 3957
+				state = 361
+				controller = KOR
+				use_nuke = yes
+			}
+			launch_nuke = {
+				province = 6845
+				state = 360
+				controller = KOR
+				use_nuke = yes
+			}
+			launch_nuke = {
+				province = 3878
+				state = 358
+				controller = KOR
+				use_nuke = yes
+			}
+		}
+	}
+	focus = {
+		id = KOR_MTU_strongest_tank_corps
+		icon = GFX_focus_generic_combined_arms
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_general_strike_in_the_US
+		}
+		x = 22
+		y = 21
+
+	}
+	focus = {
+		id = KOR_MTU_workers_general_strike
+		icon = GFX_KOR_CNT_Worker_liberation
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_rat_in_poison
+		}
+		x = 23
+		y = 20
+
+	}
+	focus = {
+		id = KOR_MTU_Allied_Separation
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_london_gallop
+		}
+		prerequisite = {
+			focus = KOR_MTU_gallop_Paris
+		}
+		x = 25
+		y = 20
+
+	}
+	focus = {
+		id = KOR_MTU_declaration_of_victory
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_workers_general_strike
+		}
+		prerequisite = {
+			focus = KOR_MTU_Allied_Separation
+		}
+		x = 24
+		y = 21
+
+	}
+	focus = {
+		id = KOR_MTU_broken_class
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_burning_candle
+		}
+		prerequisite = {
+			focus = KOR_MTU_complete_freedom
+		}
+		x = 0
+		y = 2
+		relative_position_id = KOR_MTU_strongest_tank_corps
+
+	}
+	focus = {
+		id = KOR_MTU_burning_candle
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_washington_gallop
+		}
+		prerequisite = {
+			focus = KOR_MTU_strongest_tank_corps
+		}
+		prerequisite = {
+			focus = KOR_MTU_Got_it
+		}
+		x = 20
+		y = 22
+
+	}
+	focus = {
+		id = KOR_MTU_complete_freedom
+		icon = GFX_goal_unknown
+		cost = 2.5
+		prerequisite = {
+			focus = KOR_MTU_declaration_of_victory
+		}
+		x = 24
+		y = 22
+
 	}
 }

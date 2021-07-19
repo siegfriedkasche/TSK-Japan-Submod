@@ -1315,15 +1315,14 @@ focus_tree = {
 			completion_reward = {
 					add_tech_bonus = {
 							name = KOR_MB_northen_nuke
-							bonus = 500.0
+							bonus = 1
 							technology = nukes
 						}
 					add_tech_bonus = {
 							name = KOR_MB_northen_nuke
-							bonus = 500.0
+							bonus = 1
 							technology = hydrogen_nukes
 						}
-					add_nuclear_bombs = 1
 				}
 
 	}

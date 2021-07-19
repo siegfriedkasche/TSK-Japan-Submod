@@ -3,6 +3,7 @@ world_cap_decisions_categories = {
 		available = {
 			
 		}
+		icon = GFX_decision_generic_civil_support
 		visible = {
 			GXC = {
 				exists = yes
@@ -21,12 +22,20 @@ world_cap_decisions_categories = {
     			target = GXC
     			type = annex_everything
 			}
+			hidden_effect = {
+				GXC = {
+					set_rule = {
+   						can_join_factions = no
+					}
+				}
+			}
 		}
 	}
 	world_cap_decisions_SHX = {
 		available = {
 			
 		}
+		icon = GFX_decision_generic_civil_support
 		visible = {
 			SHX = {
 				exists = yes
@@ -45,12 +54,20 @@ world_cap_decisions_categories = {
     			target = SHX
     			type = annex_everything
 			}
+			hidden_effect = {
+				SHX = {
+					set_rule = {
+   						can_join_factions = no
+					}
+				}
+			}
 		}
 	}
 	world_cap_decisions_PRC = {
 		available = {
 			
 		}
+		icon = GFX_decision_generic_civil_support
 		visible = {
 			PRC = {
 				exists = yes
@@ -69,12 +86,20 @@ world_cap_decisions_categories = {
     			target = PRC
     			type = annex_everything
 			}
+			hidden_effect = {
+				PRC = {
+					set_rule = {
+   						can_join_factions = no
+					}
+				}
+			}
 		}
 	}
 	world_cap_decisions_SIK = {
 		available = {
 			
 		}
+		icon = GFX_decision_generic_civil_support
 		visible = {
 			SIK = {
 				exists = yes
@@ -93,12 +118,20 @@ world_cap_decisions_categories = {
     			target = SIK
     			type = annex_everything
 			}
+			hidden_effect = {
+				SIK = {
+					set_rule = {
+   						can_join_factions = no
+					}
+				}
+			}
 		}
 	}
 	world_cap_decisions_XSM = {
 		available = {
 			
 		}
+		icon = GFX_decision_generic_civil_support
 		visible = {
 			XSM = {
 				exists = yes
@@ -117,12 +150,20 @@ world_cap_decisions_categories = {
     			target = XSM
     			type = annex_everything
 			}
+			hidden_effect = {
+				XSM = {
+					set_rule = {
+   						can_join_factions = no
+					}
+				}
+			}
 		}
 	}
 	world_cap_decisions_YUN = {
 		available = {
 			
 		}
+		icon = GFX_decision_generic_civil_support
 		visible = {
 			YUN = {
 				exists = yes
@@ -141,12 +182,20 @@ world_cap_decisions_categories = {
     			target = YUN
     			type = annex_everything
 			}
+			hidden_effect = {
+				YUN = {
+					set_rule = {
+   						can_join_factions = no
+					}
+				}
+			}
 		}
 	}
 	world_cap_decisions_TIB = {
 		available = {
 			
 		}
+		icon = GFX_decision_generic_civil_support
 		visible = {
 			TIB = {
 				exists = yes
@@ -172,6 +221,11 @@ world_cap_decisions_categories = {
 					}
 					add_core_of = ROOT
 				}
+				TIB = {
+					set_rule = {
+   						can_join_factions = no
+					}
+				}
 			}
 		} 
 	}
@@ -179,6 +233,7 @@ world_cap_decisions_categories = {
 		available = {
 			
 		}
+		icon = GFX_decision_generic_civil_support
 		visible = {
 			SIA = {
 				exists = yes
@@ -204,12 +259,17 @@ world_cap_decisions_categories = {
 					}
 					add_core_of = ROOT
 				}
+				SIA = {
+					set_rule = {
+   						can_join_factions = no
+					}
+				}
 			}
 		} 
 	}
 	MZN_guardian_of_INS = {
 
-		icon = jap_pacific_guardian
+		icon = GFX_decision_faction_bul_zveno
 
 		available = {
 			HOL = {
@@ -243,7 +303,7 @@ world_cap_decisions_categories = {
 
 	MZN_guardian_of_MAL = {
 
-		icon = jap_pacific_guardian
+		icon = GFX_decision_faction_bul_zveno
 
 		available = {
 			ENG = {
@@ -277,7 +337,7 @@ world_cap_decisions_categories = {
 
 	MZN_guardian_of_indochina = {
 
-		icon = jap_pacific_guardian
+		icon = GFX_decision_faction_bul_zveno
 
 		available = {
 			FRA = {
@@ -344,6 +404,7 @@ world_cap_decisions_categories = {
 		ai_will_do = {
 			factor = 50
 		}
+		icon = GFX_decision_generic_intelligence_operation
 		fire_only_once = yes
 		cost = 150
 		days_remove = 60
@@ -355,14 +416,6 @@ world_cap_decisions_categories = {
 			}
 			news_event = {
     			id = Ana_news.8
-			}
-			hidden_effect = {
-				every_state = {
-					limit = {
-						is_core_of = SOV
-					}
-					add_core_of = ROOT
-				}
 			}
 		} 
 	}

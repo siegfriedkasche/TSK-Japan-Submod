@@ -35,6 +35,46 @@ on_actions = {
             }
         }
     }
+	on_daily = {
+        effect = {
+            if = {
+                limit = {
+                    KOR = {
+                        surrender_progress > 0.99
+                    }
+                    and = {
+                        FKU = {
+                            has_war_with = KOR
+                        }
+                    }
+                }
+				FKU = { change_tag_from = ROOT }
+                KOR = {
+					load_focus_tree = 09_Korea
+					drop_cosmetic_tag = yes
+                    white_peace = {
+                        tag = FKU
+                        message = peace_in_korea
+                    }
+					annex_country = {
+    					target = FKU
+    					transfer_troops = yes
+					}
+					
+					country_event = {
+						id = MTU.16
+						days = 2
+					}
+					add_ideas = hanguo_nochong
+                }
+				FKU = {
+					every_state = {
+						remove_state_core = FKU
+					}
+				}
+            }
+        }
+    }
 	on_war = {
 		effect = {
             if = {

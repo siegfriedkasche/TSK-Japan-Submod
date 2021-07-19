@@ -73,15 +73,15 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_anarcho_syndicalism_VS_anarcho_communism"
-        texturefile = "gfx/interface/goals/anarcho_syndicalism_VS_anarcho_communism.png"
+        texturefile = "gfx/interface/goals/GFX_anarcho_syndicalism_VS_anarcho_communism.png"
     }
     spriteType = {
         name = "GFX_anarcho_syndicalism"
-        texturefile = "gfx/interface/goals/anarcho_syndicalism.png"
+        texturefile = "gfx/interface/goals/GFX_anarcho_syndicalism.png"
     }
     spriteType = {
         name = "GFX_anarchist_communism"
-        texturefile = "gfx/interface/goals/anarchist_communism.png"
+        texturefile = "gfx/interface/goals/GFX_anarchist_communism.png"
     }
     spriteType = {
         name = "GFX_One_Big_Union"
@@ -219,9 +219,29 @@ spriteTypes = {
         name = "GFX_SAG_Imprisoned_Stalin_supporters"
         texturefile = "gfx/interface/goals/SAG_Imprisoned_Stalin_supporters.png"
     }
+	spriteType = {
+        name = "GFX_KOR_Solidarity_of_workers"
+        texturefile = "gfx/interface/goals/GFX_KOR_Solidarity_of_workers.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_CNT_SOCIAL_Imperialism_Propaganda"
+        texturefile = "gfx/interface/goals/GFX_KOR_CNT_SOCIAL_Imperialism_Propaganda.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_CNT_social_Imperialism"
+        texturefile = "gfx/interface/goals/GFX_KOR_CNT_social_Imperialism.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_CNT_industry_factory"
+        texturefile = "gfx/interface/goals/GFX_KOR_CNT_industry_factory.png"
+    }
     spriteType = {
         name = "GFX_revolution"
         texturefile = "gfx/interface/goals/revolution.png"
+    }
+	spriteType = {
+        name = "GFX_ROK_CNT_Social_freedom"
+        texturefile = "gfx/interface/goals/GFX_ROK_CNT_Social_freedom.png"
     }
     spriteType = {
         name = "GFX_UFT_bolshevik_opposition"
@@ -589,12 +609,72 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/Kaiserredux/GFX_syndicalist_industry.dds"
     }
 	spriteType = {
+        name = "GFX_econ_expension"
+        texturefile = "gfx/interface/goals/GFX_econ_expension.dds"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Mugunghwa_has_bloomed"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Mugunghwa_has_bloomed.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_nuclear_reactor_union"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_nuclear_reactor_union.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_uranium_mine"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_uranium_mine.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Atomic_bomb_research_completed"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Atomic_bomb_research_completed.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Preparing_for_homeland_warfare"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Preparing_for_homeland_warfare.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_coastal_blockade"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_coastal_blockade.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_mainland_landing"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_mainland_landing.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Operation_name_Galchi"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Operation_name_Galchi.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Operation_Falcon"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Operation_Falcon.png"
+    }
+	spriteType = {
         name = "GFX_goal_generic_communist_deal"
         texturefile = "gfx/interface/goals/TNO/GFX_goal_generic_communist_deal.dds"
     }
 	spriteType = {
+        name = "GFX_NIK_connections_in_england_ultravisionary"
+        texturefile = "gfx/interface/goals/TNO/GFX_NIK_connections_in_england_ultravisionary.dds"
+    }
+	spriteType = {
+        name = "GFX_JAP_new_showa_warfare"
+        texturefile = "gfx/interface/goals/TNO/GFX_JAP_new_showa_warfare.dds"
+    }
+	spriteType = {
+        name = "GFX_The_Nuclear_Option"
+        texturefile = "gfx/interface/goals/TNO/GFX_The_Nuclear_Option.dds"
+    }
+	spriteType = {
+        name = "GFX_goal_ARC_commitment_to_freedom"
+        texturefile = "gfx/interface/goals/TNO/GFX_goal_ARC_commitment_to_freedom.dds"
+    }
+	spriteType = {
         name = "GFX_TNO_generic_left_unity_revolution"
         texturefile = "gfx/interface/goals/TNO/GFX_TNO_generic_left_unity_revolution.dds"
+    }
+	spriteType = {
+        name = "GFX_TNO_ENG_ofn_airfields"
+        texturefile = "gfx/interface/goals/TNO/GFX_TNO_ENG_ofn_airfields.dds"
     }
 	spriteType = {
         name = "GFX_TOB_Sverdlovsk_Tank_Factory"

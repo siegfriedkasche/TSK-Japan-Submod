@@ -13,6 +13,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/anarchist_social.png"
 	}
 	spriteType = {
+		name = "GFX_idea_nuclear_production_ideas"
+		texturefile = "gfx/interface/ideas/nuclear_production_ideas.png"
+	}
+	spriteType = {
 		name = "GFX_idea_one_big_union"
 		texturefile = "gfx/interface/ideas/one_big_union.png"
 	}

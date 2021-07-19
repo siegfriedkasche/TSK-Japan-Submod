@@ -584,10 +584,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_anarcho_syndicalism_VS_anarcho_communism_shine"
-		texturefile = "gfx/interface/goals/anarcho_syndicalism_VS_anarcho_communism.png"
+		texturefile = "gfx/interface/goals/GFX_anarcho_syndicalism_VS_anarcho_communism.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/anarcho_syndicalism_VS_anarcho_communism.png"
+			animationmaskfile = "gfx/interface/goals/GFX_anarcho_syndicalism_VS_anarcho_communism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -600,7 +600,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/anarcho_syndicalism_VS_anarcho_communism.png"
+			animationmaskfile = "gfx/interface/goals/GFX_anarcho_syndicalism_VS_anarcho_communism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -616,10 +616,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_anarcho_syndicalism_shine"
-		texturefile = "gfx/interface/goals/anarcho_syndicalism.png"
+		texturefile = "gfx/interface/goals/GFX_anarcho_syndicalism.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/anarcho_syndicalism.png"
+			animationmaskfile = "gfx/interface/goals/GFX_anarcho_syndicalism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -632,7 +632,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/anarcho_syndicalism.png"
+			animationmaskfile = "gfx/interface/goals/GFX_anarcho_syndicalism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -648,10 +648,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_anarchist_communism_shine"
-		texturefile = "gfx/interface/goals/anarchist_communism.png"
+		texturefile = "gfx/interface/goals/GFX_anarchist_communism.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/anarchist_communism.png"
+			animationmaskfile = "gfx/interface/goals/GFX_anarchist_communism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -664,7 +664,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/anarchist_communism.png"
+			animationmaskfile = "gfx/interface/goals/GFX_anarchist_communism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1017,6 +1017,38 @@ spriteTypes = {
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/Freedom_east_asia.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KOR_MTU_working_conditions_shine"
+		texturefile = "gfx/interface/goals/GFX_KOR_MTU_working_conditions.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_KOR_MTU_working_conditions.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_KOR_MTU_working_conditions.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1735,6 +1767,134 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_KOR_Solidarity_of_workers_shine"
+		texturefile = "gfx/interface/goals/GFX_KOR_Solidarity_of_workers.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_KOR_Solidarity_of_workers.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_KOR_Solidarity_of_workers.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KOR_CNT_SOCIAL_Imperialism_Propaganda_shine"
+		texturefile = "gfx/interface/goals/GFX_KOR_CNT_SOCIAL_Imperialism_Propaganda.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_KOR_CNT_SOCIAL_Imperialism_Propaganda.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_KOR_CNT_SOCIAL_Imperialism_Propaganda.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KOR_CNT_social_Imperialism_shine"
+		texturefile = "gfx/interface/goals/GFX_KOR_CNT_social_Imperialism.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_KOR_CNT_social_Imperialism.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_KOR_CNT_social_Imperialism.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KOR_CNT_industry_factory_shine"
+		texturefile = "gfx/interface/goals/GFX_KOR_CNT_industry_factory.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_KOR_CNT_industry_factory.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_KOR_CNT_industry_factory.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
 		name = "GFX_revolution_shine"
 		texturefile = "gfx/interface/goals/revolution.png"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1753,6 +1913,38 @@ spriteTypes = {
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/revolution.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ROK_CNT_Social_freedom_shine"
+		texturefile = "gfx/interface/goals/GFX_ROK_CNT_Social_freedom.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_ROK_CNT_Social_freedom.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_ROK_CNT_Social_freedom.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

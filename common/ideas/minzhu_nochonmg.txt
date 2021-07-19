@@ -471,3 +471,612 @@ ideas = {#한국노총 대립
 			}
         }
     }
+	country = {
+        
+        Siberian_plan = {
+
+            allowed = {
+                original_tag = KOR
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = tur_sectarian_troubles_kurdistan
+
+            removal_cost = -1
+            
+            modifier = {
+				winter_attrition_factor = -0.25
+				planning_speed = 0.2
+				army_speed_factor = 0.3
+			}
+        }
+    }
+	country = {
+        
+        winter_clothes = {
+
+            allowed = {
+                original_tag = KOR
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = bul_zveno
+
+            removal_cost = -1
+            
+            modifier = {
+				winter_attrition_factor = -0.30
+				army_speed_factor = -0.1
+			}
+        }
+    }
+	country = {
+        
+        tank_interior_heater = {
+
+            allowed = {
+                original_tag = KOR
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = generic_license_production
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+				modern_tank_equipment = {
+					build_cost_ic = 0.1 instant = yes
+                }
+            }
+			modifier = {
+				army_armor_attack_factor = 0.3
+				army_armor_speed_factor = 0.25
+			}
+        }
+    }
+	country = {
+        
+        Ural_operation = {
+
+            allowed = {
+                original_tag = KOR
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = tur_arctic_wolves
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {
+				winter_attrition_factor = -0.40
+				army_speed_factor = 0.4
+				army_org_factor = 0.3
+			}
+        }
+    }
+	country = {
+        
+        secure_the_tunnel = {
+
+            allowed = {
+                original_tag = KOR
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = prc_the_long_march2
+
+            removal_cost = -1
+            
+            cancel = {
+				OR = {
+					controls_state = 651
+					controls_state = 398
+					controls_state = 652
+				}
+			}
+			modifier = {
+				army_speed_factor = 0.5
+				planning_speed = 0.2
+				terrain_penalty_reduction = 0.3
+			}
+        }
+    }
+	country = {
+        
+        Ural_operation_2 = {
+
+            allowed = {
+                original_tag = KOR
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = tur_arctic_wolves
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {
+				winter_attrition_factor = -0.30
+				army_speed_factor = 0.5
+				army_org_factor = 0.4
+			}
+        }
+    }
+	country = {
+        
+        SOV_general_strike_MTU = {
+
+            allowed = {
+                original_tag = SOV
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = FRA_matignon_agreements
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {
+				industrial_capacity_factory = -0.3
+				army_attack_factor = -0.25
+				army_defence_factor = -0.25
+				army_speed_factor = -0.25
+				army_org_factor = -0.25
+			}
+        }
+    }
+	country = {
+        
+        SOV_trade_unions_in_Russia = {
+
+            allowed = {
+                original_tag = SOV
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = ast_classify_aliens
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {
+				consumer_goods_factor = 0.1
+				conscription  = -0.05
+				resistance_growth = 0.3
+				stability_factor = -0.2
+			}
+        }
+    }
+	country = {
+        
+        SOV_trade_unions_in_Russia_2 = {
+
+            allowed = {
+                original_tag = SOV
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = ast_classify_aliens
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {
+				consumer_goods_factor = 0.15
+				conscription  = -0.1
+				resistance_growth = 0.4
+				stability_factor = -0.3
+				production_speed_buildings_factor = -0.3
+				industrial_capacity_factory = -0.3
+			}
+        }
+    }
+	
+	country = {
+        
+        moscow_operation = {
+
+            allowed = {
+                original_tag = KOR
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = tur_ottoman_spirit
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {
+				army_speed_factor = 0.5
+				army_org_factor = 0.4
+				army_armor_speed_factor = 0.5
+			}
+        }
+    }
+	country = {
+        
+        coastal_blockade = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            picture = strategic_bombing_focus
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = -0.2
+				industrial_capacity_factory = -0.2
+			}
+        }
+    }
+	country = {
+        
+        market_crash = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+			cancel = {
+				not = {
+					has_government = democratic
+				}
+			}
+            picture = great_depression
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {
+				consumer_goods_factor = 0.2
+				conscription  = -0.1
+				stability_factor = -0.3
+				production_speed_buildings_factor = -0.4
+				industrial_capacity_factory = -0.4
+			}
+        }
+    }
+	country = {
+        
+        homeland_warfare = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            picture = generic_air_payment
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {				
+				airforce_intel_to_others = -20
+				air_agility_factor = 0.3
+				air_maximum_speed_factor = 0.3
+				air_bombing_targetting = 0.3
+				air_defence_factor = 0.3
+				air_attack_factor = 0.3
+				air_accidents_factor = -0.3
+			}
+        }
+    }
+	country = {
+        
+        MTU_air_force_production = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            picture = generic_local_self_management
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+			tac_bomber  = {
+					build_cost_ic = -0.1 instant = yes
+                }
+			jet_tac_bomber  = {
+					build_cost_ic = -0.1 instant = yes
+                }
+			cv_nav_bomber  = {
+					build_cost_ic = -0.1 instant = yes
+                }
+			tac_bomber  = {
+					build_cost_ic = -0.1 instant = yes
+                }
+			nav_bomber  = {
+					build_cost_ic = -0.1 instant = yes
+                }
+			cv_cas  = {
+					build_cost_ic = -0.1 instant = yes
+                }
+			cas  = {
+					build_cost_ic = -0.1 instant = yes
+                }
+			fighter  = {
+					build_cost_ic = -0.1 instant = yes
+                }
+			jet_fighter  = {
+					build_cost_ic = -0.1 instant = yes
+                }
+			scout_plane   = {
+					build_cost_ic = -0.1 instant = yes
+                }
+			cv_fighter   = {
+					build_cost_ic = -0.1 instant = yes
+                }
+			heavy_fighter   = {
+					build_cost_ic = -0.1 instant = yes
+                }
+            }
+			modifier = {				
+				
+			}
+        }
+    }
+	country = {
+        
+        napalm = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            picture = tfv_can_conscription_crisis
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {				
+				air_bombing_targetting = 0.45
+				air_strategic_bomber_bombing_factor = 0.45
+			}
+        }
+    }
+	country = {
+        
+        Dover = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            picture = generic_coastal_navy
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {				
+				supply_consumption_factor = -0.4
+			}
+        }
+    }
+	country = {
+        
+        Operation_name_Galchi = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            picture = air_war_plans_division_focus
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {				
+				supply_consumption_factor = 0.7
+				naval_invasion_capacity = 10
+				navy_carrier_air_attack_factor = 0.3
+				navy_capital_ship_attack_factor = 0.3
+				navy_screen_attack_factor = 0.3
+			}
+        }
+    }
+	country = {
+        
+        homeland_defense = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            picture = generic_wall_line
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {				
+				army_defence_factor = 0.4
+				war_support_factor = 0.3
+				army_core_defence_factor = 0.4
+				max_surrender_limit_offset = 0.5
+			}
+        }
+    }
+	
+	#######################핵무기#######################
+	country = {
+        
+        	nuclear_production = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            picture = nuclear_production_ideas
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {				
+				nuclear_production_factor = 0.1
+			}
+        }
+    }
+	country = {
+        
+        	nuclear_production_1 = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            picture = nuclear_production_ideas
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {				
+				nuclear_production_factor = 0.2
+			}
+        }
+    }
+	country = {
+        
+        	nuclear_production_2 = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            picture = nuclear_production_ideas
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {				
+				nuclear_production_factor = 0.3
+			}
+        }
+    }
+	country = {
+        
+        	nuclear_production_3 = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            picture = nuclear_production_ideas
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {				
+				nuclear_production_factor = 0.3
+				nuclear_production = 1
+			}
+        }
+    }
+	#######################핵무기#######################
+	country = {
+        
+        	trade_blockade = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+            picture = strategic_bombing_focus
+
+            removal_cost = -1
+            
+			targeted_modifier = {
+				tag = USA
+					transport_capacity = 0.4
+			}
+        }
+    }
