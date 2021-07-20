@@ -22,6 +22,26 @@ spriteTypes = {
 		name = "GFX_MJP_modern_motorized_equipment_medium"
 		texturefile = "gfx/interface/technologies/MJP_motorized_equipment_1.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_SVN_light_vehicle_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/SVN_경차량0.png"
+	}
+	SpriteType = {
+		name = "GFX_SVN_light_vehicle_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SVN_경차량1.png"
+	}
+	SpriteType = {
+		name = "GFX_SVN_light_vehicle_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SVN_경차량2.png"
+	}
+	
+	### SVN ###
+	
+	SpriteType = {
+		name = "GFX_SVN_modern_motorized_equipment_medium"
+		texturefile = "gfx/interface/technologies/SVN_motorized_equipment_1.dds"
+	}
  ################################################################################
  ######보병장비
  ################################################################################
