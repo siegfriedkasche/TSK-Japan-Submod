@@ -5,5 +5,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/MJP_commune.png"
 		legacy_lazy_load = no 
 	}
+	SpriteType = {
+		name = "GFX_riot_japan"
+		texturefile = "gfx/interface/goals/riot_japan.png"
+		legacy_lazy_load = no 
+	}
 	
 }
