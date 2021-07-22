@@ -25,4 +25,12 @@ spriteTypes = {
 		name = "GFX_news_revolution_hand_up"
 		texturefile = "gfx/event_pictures/GFX_news_revolution_hand_up.png"
 	}
+	spriteType = {
+		name = "GFX_workers_free_event_pic"
+		texturefile = "gfx/event_pictures/GFX_workers_free_event_pic.png"
+	}
+	spriteType = {
+		name = "GFX_anti_fascist_event_pic"
+		texturefile = "gfx/event_pictures/GFX_anti_fascist_event_pic.png"
+	}
 }

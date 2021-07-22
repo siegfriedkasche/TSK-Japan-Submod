@@ -41,6 +41,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/UFT_Black_Army_Legacy.png"
 	}
 	spriteType = {
+		name = "GFX_idea_collapsed_eiffel_tower"
+		texturefile = "gfx/interface/ideas/collapsed_eiffel_tower.png"
+	}
+	spriteType = {
 		name = "GFX_idea_Vigilante_laws"
 		texturefile = "gfx/interface/ideas/Vigilante_laws.png"
 	}

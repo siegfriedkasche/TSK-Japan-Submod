@@ -29,6 +29,9 @@ CNT_FAI_A:0 "우리의 마음이 불타도록 하라!"
 CNT_FAI_D:0 "부르주아들이 역사의 무대를 떠나기 전에 이 세계를 잿더미로 만들지도 모르죠. 하지만 우리는 마음속에 새로이 창조될 세계를 품고 있고, 그 세계는 지금 이 순간에도 점점 커지고 있습니다.\n- 부에나벤투라 두루티"
 CNT_FAI_T:0 "이베리아 노동조합의 승리"
 
+workers_free_T:0 "계급붕괴"
+workers_free_D:0 "엄혹했던 노동운동가에서 치열한 진보적인 대중 정치인으로 이제는 자유로운 인간으로 국민들 가슴 속에 첼로의 운율을 남긴 만큼 먼 길 돌아서 다시 왔습니다.처음처럼 아가처럼 편히 쉬십시오\n-김호규"
+workers_free_A:0 "처음처럼..."
 park_categories:0 "아버지를 찾아서"
 
 ##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##

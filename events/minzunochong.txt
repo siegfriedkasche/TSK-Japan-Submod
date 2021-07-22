@@ -864,3 +864,57 @@ country_event = {
 		} 
 	}
 }
+country_event = {
+	id = MTU.20
+	title = MTU.20.t
+	desc = MTU.20.d
+	picture = GFX_workers_free_event_pic
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = {
+		name = MTU.20.a
+		ai_chance = {
+		    factor = 100
+		} 
+		hidden_effect = {
+			set_country_flag = big_event_workers_free
+		}
+	}
+}
+country_event = {
+	id = MTU.21
+	title = MTU.21.t
+	desc = MTU.21.d
+	picture = GFX_workers_free_event_pic
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = {
+		name = MTU.21.a
+		ai_chance = {
+		    factor = 100
+		} 
+		add_stability = 0.15
+		add_war_support = -0.15
+	}
+}
+country_event = {
+	id = MTU.22
+	title = MTU.22.t
+	desc = MTU.22.d
+	picture = GFX_anti_fascist_event_pic
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = {
+		name = MTU.21.a
+		ai_chance = {
+		    factor = 100
+		} 
+		add_war_support = 0.1
+		GER = {
+		add_ideas = anti_fascist_action
+		}
+	}
+}

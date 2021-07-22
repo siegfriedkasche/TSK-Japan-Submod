@@ -444,7 +444,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AVA_KOR_EASCT_ASIAIN_deconstruction
-		icon = GFX_goal_unknown
+		icon = GFX_Freedom_east_asia
 		cost = 4.00
 		prerequisite = {
 			focus = AVA_KOR_step_towards_the_ideal
@@ -459,7 +459,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AVA_KOR_False_ideals_for_imperialism
-		icon = GFX_goal_unknown
+		icon = GFX_focus_democracy
 		cost = 4.00
 		prerequisite = {
 			focus = AVA_KOR_EASCT_ASIAIN_deconstruction
@@ -483,7 +483,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AVA_KOR_The_rainstorm_of_creation_in_China
-		icon = GFX_goal_unknown
+		icon = GFX_riot_china
 		cost = 4.00
 		prerequisite = {
 			focus = AVA_KOR_EASCT_ASIAIN_deconstruction
@@ -527,7 +527,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ava_kor_New_Changes_in_East_Asia
-		icon = GFX_goal_unknown
+		icon = GFX_CHI_Educating_The_Countryside
 		cost = 4.00
 		prerequisite = {
 			focus = AVA_KOR_False_ideals_for_imperialism

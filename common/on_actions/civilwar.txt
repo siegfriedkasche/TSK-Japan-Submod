@@ -49,15 +49,15 @@ on_actions = {
                     }
                 }
 				FKU = { change_tag_from = ROOT }
-                KOR = {
+				KOR = { change_tag_from = FKU }
+                FKU = {
 					load_focus_tree = 09_Korea
-					drop_cosmetic_tag = yes
                     white_peace = {
-                        tag = FKU
+                        tag = KOR
                         message = peace_in_korea
                     }
 					annex_country = {
-    					target = FKU
+    					target = KOR
     					transfer_troops = yes
 					}
 					
@@ -67,10 +67,8 @@ on_actions = {
 					}
 					add_ideas = hanguo_nochong
                 }
-				FKU = {
-					every_state = {
-						remove_state_core = FKU
-					}
+				every_state = {
+					remove_state_core = KOR
 				}
             }
         }

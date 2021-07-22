@@ -419,4 +419,39 @@ world_cap_decisions_categories = {
 			}
 		} 
 	}
+	world_cap_decisions_allied = {
+		available = {
+			has_completed_focus = KOR_MTU_strong_unity_struggle
+		}
+		visible = {
+			ENG = {
+				exists = yes
+			}
+			USA = {
+				exists = yes
+			}
+        }
+		ai_will_do = {
+			factor = 50
+		}
+		icon = GFX_decision_generic_intelligence_operation
+		fire_only_once = yes
+		cost = 150
+		days_remove = 60
+		
+		remove_effect = {
+			create_wargoal = {
+    			type = annex_everything
+    			target = FRA
+			}
+			create_wargoal = {
+    			type = annex_everything
+    			target = USA
+			}
+			create_wargoal = {
+    			type = annex_everything
+    			target = ENG
+			}
+		} 
+	}
 }

@@ -13,6 +13,13 @@ soundeffect = {
 	volume = 70
 }
 soundeffect = {
+	name = workers_free
+	sounds = {
+		sound = workers_free
+	}
+	volume = 70
+}
+soundeffect = {
 	name = dreamland
 	sounds = {
 		sound = dreamland

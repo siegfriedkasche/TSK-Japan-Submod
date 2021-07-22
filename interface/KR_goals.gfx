@@ -63,6 +63,10 @@ spriteTypes = {
         name = "GFX_Straight_commune"
         texturefile = "gfx/interface/goals/Straight_commune.png"
     }
+	spriteType = {
+        name = "GFX_focus_democracy"
+        texturefile = "gfx/interface/goals/GFX_focus_democracy.png"
+    }
     spriteType = {
         name = "GFX_Delegate_meeting"
         texturefile = "gfx/interface/goals/Delegate_meeting.png"
@@ -621,8 +625,100 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/GFX_KOR_MTU_nuclear_reactor_union.png"
     }
 	spriteType = {
+        name = "GFX_KOR_MTU_dead_germany"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_dead_germany.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_dead_italia"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_dead_italia.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Operation_Storm"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Operation_Storm.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Einheitsfront"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Einheitsfront.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Operation_pasta"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Operation_pasta.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_strike_in_ger"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_strike_in_ger.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_strike_in_ita"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_strike_in_ita.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_go_to_berln"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_go_to_berln.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_Partisan_Uprising"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_Partisan_Uprising.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_go_to_roma"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_go_to_roma.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_over_the_alps"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_over_the_alps.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_street_fighting"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_street_fighting.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_life_threatening_general_strike"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_life_threatening_general_strike.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_second_spartacus"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_second_spartacus.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_devastation_operation"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_devastation_operation.png"
+    }
+	spriteType = {
+        name = "GFX_Start_of_propaganda"
+        texturefile = "gfx/interface/goals/GFX_Start_of_propaganda.dds"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_ready_attack"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_ready_attack.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_OUT_HITLER"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_OUT_HITLER.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_master_of_the_mediterranean"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_master_of_the_mediterranean.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_liberation_war"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_liberation_war.png"
+    }
+	spriteType = {
         name = "GFX_KOR_MTU_uranium_mine"
         texturefile = "gfx/interface/goals/GFX_KOR_MTU_uranium_mine.png"
+    }
+	spriteType = {
+        name = "GFX_KOR_MTU_dead_fascio"
+        texturefile = "gfx/interface/goals/GFX_KOR_MTU_dead_fascio.png"
+    }
+	spriteType = {
+        name = "GFX_revolution_in_korea_tank"
+        texturefile = "gfx/interface/goals/GFX_revolution_in_korea_tank.png"
+    }
+	spriteType = {
+        name = "GFX_revolution_in_korea"
+        texturefile = "gfx/interface/goals/revolution_in_korea.png"
     }
 	spriteType = {
         name = "GFX_KOR_MTU_Atomic_bomb_research_completed"
@@ -671,6 +767,18 @@ spriteTypes = {
 	spriteType = {
         name = "GFX_TNO_generic_left_unity_revolution"
         texturefile = "gfx/interface/goals/TNO/GFX_TNO_generic_left_unity_revolution.dds"
+    }
+	spriteType = {
+        name = "GFX_ANG_bomber_buildup"
+        texturefile = "gfx/interface/goals/TNO/GFX_ANG_bomber_buildup.dds"
+    }
+	spriteType = {
+        name = "GFX_BEN_The_Smell_of_Victory"
+        texturefile = "gfx/interface/goals/TNO/GFX_BEN_The_Smell_of_Victory.dds"
+    }
+	spriteType = {
+        name = "GFX_focus_bombs_over_big_ben"
+        texturefile = "gfx/interface/goals/TNO/GFX_focus_bombs_over_big_ben.dds"
     }
 	spriteType = {
         name = "GFX_TNO_ENG_ofn_airfields"

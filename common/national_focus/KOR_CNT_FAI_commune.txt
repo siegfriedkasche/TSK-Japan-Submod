@@ -30,7 +30,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_liberation_war
-		icon = GFX_goal_support_communism
+		icon = GFX_KOR_MTU_liberation_war 
 		cost = 2.00
 		x = 33
 		y = 12
@@ -54,7 +54,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_The_crusade_against_liberalism
-		icon = GFX_JAP_new_showa_warfare
+		icon = GFX_revolution_in_korea_tank
 		cost = 2.5
 		cancel = {
 			NOT = {
@@ -193,6 +193,11 @@ focus_tree = {
 			completion_reward = {
 					country_event = {
 							id = MTU.1
+						}
+						set_party_name = { 
+    						ideology = communism
+    						long_name = 전국노동조합임시협의회
+    						name = 전국노동조합임시협의회
 						}
 				}
 
@@ -690,6 +695,11 @@ focus_tree = {
 		y = 5
 			completion_reward = {
 					set_cosmetic_tag = MTU_KOR
+					set_party_name = { 
+    					ideology = communism
+    					long_name = 금속노동조합총연맹
+    					name = 금속노동조합총연맹 
+					}
 				}
 
 	}
@@ -4119,6 +4129,7 @@ focus_tree = {
 				}
 			completion_reward = {
 					unlock_decision_tooltip = world_cap_decisions_SOV
+					unlock_decision_tooltip = world_cap_decisions_allied
 				}
 
 	}
@@ -4605,14 +4616,18 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_CGT_meet
-		icon = GFX_goal_unknown
+		icon = GFX_Countermeasure_Conference
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_legacy_of_revolution
 		}
 		x = 21
 		y = 15
-
+		completion_reward = {
+			FRA = {
+				add_ideas = CGT_ideas
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_africa_blockade
@@ -4626,18 +4641,32 @@ focus_tree = {
 		}
 		x = 23
 		y = 15
-
+		completion_reward = {
+		ENG = {
+			add_ideas = craze_of_independence
+		}
+		FRA = {
+			add_ideas = craze_of_independence
+		}
+		}
 	}
 	focus = {
 		id = KOR_MTU_paris_booming
-		icon = GFX_goal_unknown
+		icon = GFX_BEN_The_Smell_of_Victory
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_legacy_of_revolution
 		}
 		x = 22
 		y = 16
-
+		completion_reward = {
+			FRA = {
+				add_timed_idea = {
+					idea = collapsed_eiffel_tower
+					days = 180
+				}
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_coastal_blockade
@@ -4678,7 +4707,12 @@ focus_tree = {
 		}
 		x = 26
 		y = 16
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = amphibious_operation_on_the_mainland
+				days = 60
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_Preparing_for_homeland_warfare
@@ -4716,12 +4750,13 @@ focus_tree = {
 			ENG = {
 			add_ideas = homeland_defense
 			}
+			remove_ideas = Operation_name_Galchi
 			}
 		}
 	}
 	focus = {
 		id = KOR_MTU_occupation_of_Dover
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_airport_closure
 		cost = 2.5
 		available = {
 			controls_state = 127
@@ -4754,7 +4789,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_anti_aircraft_bombing
-		icon = GFX_goal_unknown
+		icon = GFX_come_on_baby
 		cost = 2.5
 		available = {
 			controls_state = 127
@@ -4831,7 +4866,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_gallop_Paris
-		icon = GFX_goal_unknown
+		icon = state_of_french_politics
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_paris_booming
@@ -4841,29 +4876,462 @@ focus_tree = {
 		}
 		x = 22
 		y = 19
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = paris_gallop
+				days = 15
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_induce_a_general_strike
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_suppression_order
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_CGT_meet
 		}
 		x = 21
 		y = 17
-
+		completion_reward = {
+			FRA = {
+				add_stability = -0.3
+				add_war_support = -0.3
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_the_craze_of_independence
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_self_management
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_africa_blockade
 		}
 		x = 23
 		y = 18
-
+		completion_reward = {
+		ENG = {
+			remove_ideas = craze_of_independence
+		}
+		FRA = {
+			remove_ideas = craze_of_independence
+		}
+			every_country = {
+				if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 701
+					}
+				}
+				release = GAM
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						GAM = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+				if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 546
+					}
+				}
+				release = TZN
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						TZN = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 771
+					}
+				}
+				release = ZAM
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						ZAM = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 446
+					}
+				}
+				release = EGY	
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						EGY	 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 548
+					}
+				}
+				release = UGA		
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						UGA			 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 549
+					}
+				}
+				release = SUD
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						SUD	 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FRA = {
+						has_full_control_of_state   = 773
+					}
+				}
+				release = CMR
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						CMR = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FRA = {
+						has_full_control_of_state   = 772
+					}
+				}
+				release = RCG
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						RCG = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					BEL = { 
+						has_full_control_of_state   = 769
+					}
+				}
+				release = BRD
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						BRD = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					BEL = { 
+						has_full_control_of_state   = 768
+					}
+				}
+				release = RWA
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						RWA = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					BEL = { 
+						has_full_control_of_state   = 295
+					}
+				}
+				release = COG
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						COG = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FRA = {
+						has_full_control_of_state   = 539
+					}
+				}
+				release = GAB
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						GAB	 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FRA = {
+						has_full_control_of_state   = 660
+					}
+				}
+				release = CAR
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						CAR	 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FRA = {
+						has_full_control_of_state   = 774
+					}
+				}
+				release = CHA
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						CHA	 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					SAF = {
+						has_full_control_of_state   = 541
+					}
+				}
+				release = NMB	
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						NMB	 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 700
+					}
+				}
+				release = SIE	
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						SIE	 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 274
+					}
+				}
+				release = GHA	
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						GHA	 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 558 
+					}
+				}
+				release = NGA
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						NGA	 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 542
+					}
+				}
+				release = BOT		
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						BOT	 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 545
+					}
+				}
+				release = ZIM
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						ZIM	 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 770
+					}
+				}
+				release = MLW						
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						MLW	 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 269
+					}
+				}
+				release = SOM				
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						SOM	 = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						has_full_control_of_state   = 547
+					}
+				}
+				release = KEN
+				hidden_effect = {
+					every_other_country = {
+						limit = {
+							has_war_with = KOR
+						}
+						KEN = {
+							add_to_war = { targeted_alliance = KOR enemy = PREV hostility_reason = asked_to_join }
+						}
+					}
+				}
+			}
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_nuclear_reactor_union
@@ -4903,7 +5371,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_Suez_Canal_bombing
-		icon = GFX_goal_unknown
+		icon = GFX_indiscriminate_bombing_approval
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_coastal_blockade
@@ -4918,30 +5386,44 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_Gibraltar_bombing
-		icon = GFX_goal_unknown
+		icon = escort_fighters
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_Suez_Canal_bombing
 		}
 		x = 24
 		y = 17
-
+		completion_reward = {
+			every_country = {
+				limit = {
+					is_in_faction_with = ENG
+				}
+				add_ideas = Gibraltar_bombing
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_rat_in_poison
-		icon = GFX_goal_unknown
+		icon = rats_of_tobruk
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_Gibraltar_bombing
 		}
 		x = 24
 		y = 19
-
+		completion_reward = {
+			ENG = {
+				add_timed_idea = {
+					idea = MTU_rat_in_poison
+					days = 180
+				}
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_london_gallop
-		icon = GFX_goal_unknown
-		cost = 2.5
+		icon = GFX_focus_bombs_over_big_ben
+		cost = 1.5
 		prerequisite = {
 			focus = KOR_MTU_occupation_of_Dover
 		}
@@ -4950,11 +5432,16 @@ focus_tree = {
 		}
 		x = 26
 		y = 19
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = london_gallop
+				days = 15
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_air_force_production
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_air_production
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_Preparing_for_homeland_warfare
@@ -4970,7 +5457,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_napalm
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_secret_weapon
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_air_force_production
@@ -4986,7 +5473,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_washington_gallop
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_socialist_defence_doctrine_KRD
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_mainland_landing
@@ -4996,7 +5483,12 @@ focus_tree = {
 		}
 		x = 20
 		y = 21
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = washington_gallop
+				days = 30
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_Atomic_bomb_research_completed
@@ -5112,11 +5604,40 @@ focus_tree = {
 		}
 		x = 18
 		y = 19
-
+		completion_reward = {
+			hidden_effect = {
+			remove_ideas = Operation_name_Galchi
+			}
+			add_timed_idea = {
+				idea = Operation_Falcon
+				days = 365
+			}
+					807 = {
+							prioritize = { 9764 }
+							create_unit = {
+									division = "name = \"1.금속노조 정예 기계화 사단\" division_template = \"금속노조 정예 기계화 사단\" start_experience_factor = 1"
+									owner = KOR
+								}
+						}
+					807 = {
+							prioritize = { 9764 }
+							create_unit = {
+									division = "name = \"2.금속노조 정예 기계화 사단\" division_template = \"금속노조 정예 기계화 사단\" start_experience_factor = 1"
+									owner = KOR
+								}
+						}
+					807 = {
+							prioritize = { 9764 }
+							create_unit = {
+									division = "name = \"3.금속노조 정예 기계화 사단\" division_template = \"금속노조 정예 기계화 사단\" start_experience_factor = 1"
+									owner = KOR
+								}
+						}
+				}
 	}
 	focus = {
 		id = KOR_MTU_general_strike_in_the_US
-		icon = GFX_goal_unknown
+		icon = GFX_general_strike
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_Operation_Falcon
@@ -5126,7 +5647,14 @@ focus_tree = {
 		}
 		x = 21
 		y = 20
-
+		completion_reward = {
+			USA = {
+				add_timed_idea = {
+					idea = Strike_in_mtu_usa
+					days = 365
+				}
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_mainland_landing
@@ -5137,7 +5665,12 @@ focus_tree = {
 		}
 		x = 19
 		y = 20
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = amphibious_operation_on_the_American_mainland
+				days = 60
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_Securing_the_right_to_offer
@@ -5148,7 +5681,13 @@ focus_tree = {
 		}
 		x = 17
 		y = 20
-
+		completion_reward = {
+		add_equipment_to_stockpile = {
+    		type = m_2000_jet_multirole_equipment  
+    		amount = 500
+    		producer = KOR
+		}
+		}
 	}
 	focus = {
 		id = KOR_MTU_Got_it
@@ -5197,7 +5736,12 @@ focus_tree = {
 		}
 		x = 22
 		y = 21
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = strongest_tank_corps
+				days = 180
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_workers_general_strike
@@ -5208,11 +5752,24 @@ focus_tree = {
 		}
 		x = 23
 		y = 20
-
+		completion_reward = {
+			ENG = {
+			add_timed_idea = {
+				idea = Strike_in_mtu_usa
+				days = 180
+			}
+			}
+			FRA = {
+			add_timed_idea = {
+				idea = Strike_in_mtu_usa
+				days = 180
+			}
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_Allied_Separation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_london_gallop
@@ -5222,12 +5779,26 @@ focus_tree = {
 		}
 		x = 25
 		y = 20
-
+		completion_reward = {
+			FRA = {
+				dismantle_faction = yes
+			}
+			USA = {
+				dismantle_faction = yes
+			}
+			ENG = {
+				dismantle_faction = yes
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_declaration_of_victory
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ARC_commitment_to_freedom
 		cost = 2.5
+		available = {
+			ENG = { exists = no }
+			FRA = { exists = no }
+		}
 		prerequisite = {
 			focus = KOR_MTU_workers_general_strike
 		}
@@ -5235,13 +5806,31 @@ focus_tree = {
 			focus = KOR_MTU_Allied_Separation
 		}
 		x = 24
-		y = 21
-
+		y = 21 
+		completion_reward = {
+			country_event = {
+				id = MTU.21
+			}
+			hidden_effect = {
+				remove_ideas = paris_gallop
+				remove_ideas = london_gallop
+				remove_ideas = homeland_warfare
+				remove_ideas = MTU_air_force_production
+				remove_ideas = napalm
+				remove_ideas = amphibious_operation_on_the_mainland
+				remove_ideas = Dover
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_broken_class
-		icon = GFX_goal_unknown
+		icon = GFX_revolution_in_korea
 		cost = 2.5
+		available = {
+			USA = { exists = no }
+			ENG = { exists = no }
+			FRA = { exists = no }
+		}
 		prerequisite = {
 			focus = KOR_MTU_burning_candle
 		}
@@ -5251,11 +5840,33 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = KOR_MTU_strongest_tank_corps
-
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = FRA
+				}
+				add_core_of = ROOT
+			}
+			every_state = {
+				limit = {
+					is_core_of = ENG
+				}
+				add_core_of = ROOT
+			}
+			every_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_core_of = ROOT
+			}
+			country_event = {
+				id = MTU.20
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_burning_candle
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_power_to_the_people
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_washington_gallop
@@ -5268,17 +5879,461 @@ focus_tree = {
 		}
 		x = 20
 		y = 22
-
+		completion_reward = {
+			add_ideas = Candlelight
+			hidden_effect = {
+				remove_ideas = Operation_Falcon
+				remove_ideas = trade_blockade
+				remove_ideas = amphibious_operation_on_the_American_mainland
+				remove_ideas = washington_gallop
+				remove_ideas = strongest_tank_corps
+			}
+		}
 	}
 	focus = {
 		id = KOR_MTU_complete_freedom
-		icon = GFX_goal_unknown
+		icon = GFX_focus_democracy
 		cost = 2.5
 		prerequisite = {
 			focus = KOR_MTU_declaration_of_victory
 		}
 		x = 24
 		y = 22
+		completion_reward = {
+			add_stability = 0.3
+		}
+	}
+	focus = {
+		id = KOR_MTU_dead_fascio
+		icon = GFX_KOR_MTU_dead_fascio
+		cost = 2.50
+		x = 42
+		y = 12
+			cancel = {
+					NOT = {
+							has_war_with = GER
+							has_completed_focus = KOR_MTU_international_labor_movement
+						}
+				}
+			available = {
+					has_war_with = GER
+					has_completed_focus = KOR_MTU_international_labor_movement
+				}
+			completion_reward = {
+					country_event = {
+							id = MTU.22
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_dead_italia
+		icon = GFX_KOR_MTU_dead_italia
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_dead_fascio
+		}
+		x = 40
+		y = 13
+			cancel = {
+					NOT = {
+							has_war_with = GER
+							has_completed_focus = KOR_MTU_international_labor_movement
+						}
+				}
+			available = {
+					has_war_with = GER
+					has_completed_focus = KOR_MTU_international_labor_movement
+				}
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_Mussolini_assassination_plot
+		icon = GFX_focus_ger_assassinate_mussolini
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_dead_italia
+		}
+		x = 40
+		y = 14
+
+	}
+	focus = {
+		id = KOR_MTU_factory_bombing
+		icon = GFX_indiscriminate_bombing_approval
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Mussolini_assassination_plot
+		}
+		x = 37
+		y = 15
+
+	}
+	focus = {
+		id = KOR_MTU_master_of_the_mediterranean
+		icon = GFX_KOR_MTU_master_of_the_mediterranean
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Mussolini_assassination_plot
+		}
+		x = 39
+		y = 15
+
+	}
+	focus = {
+		id = KOR_MTU_dead_germany
+		icon = GFX_KOR_MTU_dead_germany
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_dead_fascio
+		}
+		x = 44
+		y = 13
+			cancel = {
+					NOT = {
+							has_war_with = ITA
+							has_completed_focus = KOR_MTU_international_labor_movement
+						}
+				}
+			available = {
+					has_war_with = ITA
+					has_completed_focus = KOR_MTU_international_labor_movement
+				}
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_Einheitsfront
+		icon = GFX_KOR_MTU_Einheitsfront
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_dead_germany
+			focus = KOR_MTU_dead_italia
+		}
+		x = 42
+		y = 14
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_strike_in_ita
+		icon = GFX_KOR_MTU_strike_in_ita
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_Einheitsfront
+		}
+		x = 41
+		y = 15
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_Operation_pasta
+		icon = GFX_KOR_MTU_Operation_pasta
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_strike_in_ita
+		}
+		prerequisite = {
+			focus = KOR_MTU_master_of_the_mediterranean
+		}
+		prerequisite = {
+			focus = KOR_MTU_factory_bombing
+		}
+		x = 40
+		y = 16
+
+	}
+	focus = {
+		id = KOR_MTU_strike_in_ger
+		icon = GFX_KOR_MTU_strike_in_ger
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_Einheitsfront
+		}
+		x = 43
+		y = 15
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_OUT_HITLER
+		icon = GFX_KOR_MTU_OUT_HITLER
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_dead_germany
+		}
+		x = 44
+		y = 14
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_ready_attack
+		icon = GFX_KOR_MTU_ready_attack
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_OUT_HITLER
+		}
+		x = 45
+		y = 15
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_propaganda_in_ger
+		icon = GFX_Start_of_propaganda
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_OUT_HITLER
+		}
+		x = 47
+		y = 15
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_Operation_Storm
+		icon = GFX_KOR_MTU_Operation_Storm
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_ready_attack
+		}
+		prerequisite = {
+			focus = KOR_MTU_propaganda_in_ger
+		}
+		prerequisite = {
+			focus = KOR_MTU_strike_in_ger
+		}
+		x = 44
+		y = 16
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_wire_bombing
+		icon = GFX_ANG_bomber_buildup
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_Operation_Storm
+		}
+		x = 43
+		y = 17
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_second_spartacus
+		icon = GFX_KOR_MTU_second_spartacus
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_Operation_Storm
+		}
+		x = 45
+		y = 17
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_life_threatening_general_strike
+		icon = GFX_KOR_MTU_life_threatening_general_strike
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_second_spartacus
+		}
+		x = 44
+		y = 18
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_street_fighting
+		icon = GFX_KOR_MTU_street_fighting
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_second_spartacus
+		}
+		prerequisite = {
+			focus = KOR_MTU_spy_positive
+		}
+		x = 46
+		y = 18
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_espionage
+		icon = GFX_KOR_intel
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_propaganda_in_ger
+		}
+		x = 47
+		y = 16
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_spy_positive
+		icon = GFX_information_warfare
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_espionage
+		}
+		x = 47
+		y = 17
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_go_to_berln
+		icon = GFX_KOR_MTU_go_to_berln
+		cost = 2.50
+		prerequisite = {
+			focus = KOR_MTU_wire_bombing
+		}
+		prerequisite = {
+			focus = KOR_MTU_wire_bombing
+		}
+		prerequisite = {
+			focus = KOR_MTU_life_threatening_general_strike
+		}
+		prerequisite = {
+			focus = KOR_MTU_street_fighting
+		}
+		x = 44
+		y = 19
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = KOR_MTU_go_to_roma
+		icon = GFX_KOR_MTU_go_to_roma
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_over_the_alps
+		}
+		prerequisite = {
+			focus = KOR_MTU_mobile_warfare
+		}
+		x = 40
+		y = 19
+
+	}
+	focus = {
+		id = KOR_MTUitaly_amphibious_operation
+		icon = naval_industry
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Operation_pasta
+		}
+		x = 39
+		y = 17
+
+	}
+	focus = {
+		id = KOR_MTU_Partisan_Uprising
+		icon = GFX_KOR_MTU_Partisan_Uprising
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Operation_pasta
+		}
+		x = 41
+		y = 17
+
+	}
+	focus = {
+		id = KOR_MTU_Fasho_Tomb
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_go_to_berln
+		}
+		prerequisite = {
+			focus = KOR_MTU_go_to_roma
+		}
+		x = 42
+		y = 20
+
+	}
+	focus = {
+		id = KOR_MTU_over_the_alps
+		icon = GFX_KOR_MTU_over_the_alps
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_Partisan_Uprising
+		}
+		prerequisite = {
+			focus = KOR_MTUitaly_amphibious_operation
+		}
+		x = 40
+		y = 18
+
+	}
+	focus = {
+		id = KOR_MTU_mobile_warfare
+		icon = tanks3
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_devastation_operation
+		}
+		x = 38
+		y = 18
+
+	}
+	focus = {
+		id = KOR_MTU_take_over
+		icon = modern_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_factory_bombing
+		}
+		x = 37
+		y = 16
+
+	}
+	focus = {
+		id = KOR_MTU_devastation_operation
+		icon = GFX_KOR_MTU_devastation_operation
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_MTU_take_over
+		}
+		x = 37
+		y = 17
 
 	}
 }

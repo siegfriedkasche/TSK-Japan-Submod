@@ -1080,3 +1080,348 @@ ideas = {#한국노총 대립
 			}
         }
     }
+	country = {
+        
+        Strike_in_mtu_usa = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = FRA_matignon_agreements
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+            }
+			modifier = {
+				consumer_goods_factor = 0.1
+				resistance_growth = 0.3
+				stability_factor = -0.2
+				production_speed_buildings_factor = -0.2
+				industrial_capacity_factory = -0.2
+			}
+        }
+    }
+	country = {
+        
+        Operation_Falcon = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = eng_special_air_service
+
+            removal_cost = -1
+            
+            modifier = {
+				invasion_preparation = -0.3
+				war_support_factor = 0.2
+				naval_invasion_capacity = 10
+				conscription = 0.05
+				army_attack_factor = 0.25
+				army_defence_factor = 0.25
+				army_speed_factor = 0.25
+				navy_carrier_air_attack_factor = 0.2
+				navy_capital_ship_attack_factor = 0.2
+				navy_screen_attack_factor = 0.2
+            }
+        }
+    }
+	country = {
+        
+        amphibious_operation_on_the_American_mainland = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = eng_steady_as_she_goes
+
+            removal_cost = -1
+            
+            modifier = {
+				invasion_preparation = -0.7
+            }
+        }
+    }
+	country = {
+        
+        Gibraltar_bombing = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = eng_preparing_the_second_front
+
+            removal_cost = -1
+            
+            modifier = {
+				convoy_retreat_speed = -0.1
+				naval_speed_factor = -0.3
+            }
+        }
+    }
+	country = {
+        
+        MTU_rat_in_poison = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = hol_shell_shocked_spectator
+
+            removal_cost = -1
+            
+            modifier = {
+				convoy_retreat_speed = -0.1
+				naval_defense_factor = -0.1
+				navy_submarine_attack_factor = -0.1
+				navy_screen_attack_factor = -0.1
+				navy_carrier_air_attack_factor = -0.1
+				navy_capital_ship_attack_factor = -0.1
+            }
+        }
+    }
+	country = {
+        
+        london_gallop = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = FRA_sncase
+
+            removal_cost = -1
+            
+            modifier = {
+				army_attack_factor = 0.5
+            }
+        }
+    }
+	country = {
+        
+        paris_gallop = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = FRA_sncase
+
+            removal_cost = -1
+            
+            modifier = {
+				army_attack_factor = 0.5
+            }
+        }
+    }
+	country = {
+        
+        washington_gallop = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = FRA_sncase
+
+            removal_cost = -1
+            
+            modifier = {
+				army_attack_factor = 0.5
+            }
+        }
+    }
+	country = {
+        
+        strongest_tank_corps = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = generic_armor
+
+            removal_cost = -1
+            
+            modifier = {
+				army_armor_attack_factor = 0.2
+				army_armor_speed_factor = 0.15
+            }
+        }
+    }
+	country = {
+        
+        CGT_ideas = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = FRA_scw_intervention_republicans_focus
+
+            removal_cost = -1
+            
+            modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.35
+				industrial_capacity_factory = -0.35
+            }
+        }
+    }
+	country = {
+        
+        collapsed_eiffel_tower = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = collapsed_eiffel_tower
+
+            removal_cost = -1
+            
+            modifier = {
+				consumer_goods_factor = 0.05
+				war_support_factor = -0.2
+				stability_factor = -0.2
+            }
+        }
+    }
+	country = {
+        
+        craze_of_independence = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = collapsed_eiffel_tower
+
+            removal_cost = -1
+            
+            modifier = {
+				resistance_growth = 0.6
+            }
+        }
+    }
+	country = {
+        
+        amphibious_operation_on_the_mainland = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = eng_steady_as_she_goes
+
+            removal_cost = -1
+            
+            modifier = {
+				invasion_preparation = -0.7
+            }
+        }
+    }
+	country = {
+        
+        Candlelight = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = generic_democratic_drift_bonus
+
+            removal_cost = -1
+            
+            modifier = {
+				stability_factor = 0.1
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.15
+            }
+        }
+    }
+	country = {
+        
+        anti_fascist_action = {
+
+            allowed = {
+                original_tag = every_country
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = generic_oppression
+
+            removal_cost = -1
+            
+            modifier = {
+				stability_factor = -0.1
+				production_speed_buildings_factor = -0.15
+				industrial_capacity_factory = -0.15
+            }
+        }
+    }
