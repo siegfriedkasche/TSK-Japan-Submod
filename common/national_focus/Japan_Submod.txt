@@ -1517,11 +1517,12 @@ focus_tree = {
 		x = 14
 		y = 10
 			completion_reward = {
-					add_popularity = {
-							ideology = democratic
-							popularity = 0.15
-						}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.15
 				}
+				add_ideas = Grants_ideas
+			}
 
 	}
 	focus = {
@@ -1895,14 +1896,18 @@ focus_tree = {
 		x = 14
 		y = 14
 			completion_reward = {
-					create_country_leader = {
-							name = "Ryutaro-Hashimoto"
-							picture = "gfx/"
-							expire = "1995.1.1"
-							ideology = socialism
-							traits = {
+				create_country_leader = {
+						name = "Ryutaro Hashimoto"
+						picture = "gfx/"
+						expire = "1995.1.1"
+						ideology = socialism
+						traits = {
 
-}
+						}
+						}
+						add_popularity = {
+    						ideology = democratic
+    						popularity = 0.15
 						}
 				}
 
@@ -2419,7 +2424,12 @@ focus_tree = {
 		}
 		x = 10
 		y = 10
-
+		completion_reward = {
+			create_faction = "미일 안보 조약"
+			MJP = { 
+				add_to_faction = USJ 
+			}
+		}
 	}
 	focus = {
 		id = MJP_North_Korea_sanctions
@@ -2430,7 +2440,12 @@ focus_tree = {
 		}
 		x = 12
 		y = 10
-
+		completion_reward = {
+			create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = KPA
+			}
+		}
 	}
 	focus = {
 		id = MJP_Northern_territorial_issues
@@ -2442,7 +2457,12 @@ focus_tree = {
 		}
 		x = 11
 		y = 11
-
+		completion_reward = {
+			create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = SOV
+			}
+		}
 	}
 	focus = {
 		id = MJP_science_and_technology
@@ -2454,7 +2474,10 @@ focus_tree = {
 		}
 		x = 14
 		y = 13
-
+		completion_reward = {
+			add_ideas = science_and_technology_ideas
+			add_stability = -0.05
+		}
 	}
 	focus = {
 		id = MJP_Diplomacy_and_security
@@ -2465,7 +2488,9 @@ focus_tree = {
 		}
 		x = 12
 		y = 9
-
+		completion_reward = {
+		add_political_power = 100
+		}
 	}
 	focus = {
 		id = mjp_Dokdo_sovereignty
@@ -2476,7 +2501,12 @@ focus_tree = {
 		}
 		x = 11
 		y = 12
-
+		completion_reward = {
+			821 = {
+				add_core_of = MJP
+				add_claim_by = MJP
+			}
+		}
 	}
 	focus = {
 		id = mjp_Defense_Maintenance_Plan
@@ -2487,7 +2517,12 @@ focus_tree = {
 		}
 		x = 11
 		y = 13
-
+		completion_reward = {
+			add_ideas = Defense_Maintenance
+			USJ = {
+				add_ideas = Defense_Maintenance
+			}
+		}
 	}
 	focus = {
 		id = mjp_Maintenance_Shinkansen
@@ -2509,7 +2544,10 @@ focus_tree = {
 		}
 		x = 14
 		y = 9
-
+		completion_reward = {
+		add_stability = 0.05
+		add_ideas = social_capital_maintenance
+		}
 	}
 	focus = {
 		id = mjp_constitutional_law
@@ -2531,6 +2569,8 @@ focus_tree = {
 		}
 		x = 16
 		y = 10
-
+		completion_reward = {
+		remove_ideas = MJP_peace_Constitution 
+		}
 	}
 }

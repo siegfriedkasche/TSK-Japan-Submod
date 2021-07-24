@@ -1,5 +1,11 @@
 ﻿l_english:
- MJP_economy_collaps:0 "무너진 일본 경제 " 
+ Defense_Maintenance:0 "정비된 방위력"
+ us_mjp_tech:0 "미일 과학기술 교류 협약"
+ science_and_technology_ideas:0 "과학기술기본법"
+ social_capital_maintenance:0 "조정된 사회 자본"
+ social_capital_maintenance_desc:0 "복잡한 시국에서 자민당은 과소비 과지출되는 사회 자본에 대한 규제를 통하여 안정적인 사회 자본을 유치하였습니다."
+ Grants_ideas:0 "농업 보조금"
+ MJP_economy_collaps:0 "무너진 일본 경제" 
  MJP_Stable_Japan:0 " 안정된 일본 "
  MJP_Emergencyy:0 "긴급 비상사태"
  Akihito_national_sprits:0 "아키히토 천황"
@@ -81,4 +87,3 @@
  nine_Toshiba:0 "도시바"
  nine_Inspire:0 "히타치"
  nine_SoftBank:0 "소프트뱅크"
- 

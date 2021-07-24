@@ -468,13 +468,61 @@ ideas = {
                 always = yes
             }
 
-            picture =  #아이콘
+            picture = ger_bulwark_against_bolshevism
 
             removal_cost = -1
             
             modifier = { #효과	
                 communism_acceptance = -50
                 communism_drift = -0.03
+            }
+        }
+    }
+	
+	country = {
+
+        Defense_Maintenance = { 
+
+            allowed = {
+                original_tag = MJP
+				original_tag = USJ
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture =  ast_volunteer_defence_corps
+
+            removal_cost = -1
+            
+            modifier = { #효과	
+                army_speed_factor = 0.15
+				army_defence_factor = 0.15
+				army_attack_factor = 0.15
+            }
+        }
+    }
+	country = {
+
+        science_and_technology_ideas = { 
+
+            allowed = {
+                original_tag = MJP
+				original_tag = USJ
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture =  ast_volunteer_defence_corps
+
+            removal_cost = -1
+            
+            modifier = { #효과	
+                research_speed_factor  = 0.25
+				research_sharing_per_country_bonus = 0.25
             }
         }
     }
@@ -526,6 +574,50 @@ country = {
                 industrial_capacity_factory = -0.3
                 production_factory_max_efficiency_factor  = -0.2
                 production_factory_max_efficiency_factor  = -0.1
+            }
+        }
+    }
+	country = {
+
+        social_capital_maintenance = { 
+
+            allowed = {
+                original_tag = MJP
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = ast_all_in
+
+            removal_cost = -1
+            
+            modifier = { #효과
+				industrial_capacity_factory = 0.15
+                consumer_goods_factor = -0.05
+            }
+        }
+    }
+	country = {
+
+        Grants_ideas = { 
+
+            allowed = {
+                original_tag = MJP
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            picture = generic_agrarian_society
+
+            removal_cost = -1
+            
+            modifier = { #효과
+                stability_factor = 0.05
+                consumer_goods_factor = -0.05
             }
         }
     }
@@ -1563,4 +1655,7 @@ high_command = {
 			cancel_if_invalid = no
 		}
 	}
+	
+	 
+
 
