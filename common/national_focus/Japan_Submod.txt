@@ -1503,7 +1503,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = Constitution
 		}
-		x = 15
+		x = 14
 		y = 8
 
 	}
@@ -1512,10 +1512,10 @@ focus_tree = {
 		icon = GFX_wheat_field
 		cost = 10.00
 		prerequisite = {
-			focus = Liberal_Democratic_Party
+			focus = mjp_social_capital_maintenance
 		}
 		x = 14
-		y = 9
+		y = 10
 			completion_reward = {
 					add_popularity = {
 							ideology = democratic
@@ -1528,6 +1528,12 @@ focus_tree = {
 		id = Constitution
 		icon = GFX_goal_unknown
 		cost = 10.00
+		prerequisite = {
+			focus = MJP_Election
+		}
+		prerequisite = {
+			focus = MJP_Election
+		}
 		prerequisite = {
 			focus = MJP_Election
 		}
@@ -1552,6 +1558,12 @@ focus_tree = {
 		prerequisite = {
 			focus = Constitution
 		}
+		prerequisite = {
+			focus = Constitution
+		}
+		prerequisite = {
+			focus = Constitution
+		}
 		x = 18
 		y = 9
 			completion_reward = {
@@ -1566,6 +1578,12 @@ focus_tree = {
 		id = Past_History
 		icon = GFX_goal_unknown
 		cost = 10.00
+		prerequisite = {
+			focus = Constitution
+		}
+		prerequisite = {
+			focus = Constitution
+		}
 		prerequisite = {
 			focus = Constitution
 		}
@@ -1609,10 +1627,10 @@ focus_tree = {
 		icon = GFX_gold_standard
 		cost = 10.00
 		prerequisite = {
-			focus = Liberal_Democratic_Party
+			focus = Grants
 		}
-		x = 16
-		y = 9
+		x = 14
+		y = 11
 			completion_reward = {
 					532 = {
 							add_offsite_building = {
@@ -1663,6 +1681,12 @@ focus_tree = {
 		prerequisite = {
 			focus = MJP_Election
 		}
+		prerequisite = {
+			focus = MJP_Election
+		}
+		prerequisite = {
+			focus = MJP_Election
+		}
 		mutually_exclusive = {
 			focus = Liberal_Democratic_Party
 			focus = Non_alliance
@@ -1684,6 +1708,12 @@ focus_tree = {
 		prerequisite = {
 			focus = Constitution
 		}
+		prerequisite = {
+			focus = Constitution
+		}
+		prerequisite = {
+			focus = Constitution
+		}
 		x = 18
 		y = 9
 			completion_reward = {
@@ -1698,6 +1728,12 @@ focus_tree = {
 		id = Past_History
 		icon = GFX_goal_unknown
 		cost = 10.00
+		prerequisite = {
+			focus = Constitution
+		}
+		prerequisite = {
+			focus = Constitution
+		}
 		prerequisite = {
 			focus = Constitution
 		}
@@ -1851,10 +1887,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Grants
+			focus = mjp_Defense_Maintenance_Plan
+		}
+		prerequisite = {
+			focus = MJP_science_and_technology
 		}
 		x = 14
-		y = 10
+		y = 14
 			completion_reward = {
 					create_country_leader = {
 							name = "Ryutaro-Hashimoto"
@@ -1875,8 +1914,8 @@ focus_tree = {
 		prerequisite = {
 			focus = SOC
 		}
-		x = 16
-		y = 10
+		x = 13
+		y = 12
 			completion_reward = {
 					531 = {
 							add_offsite_building = {
@@ -1903,20 +1942,6 @@ focus_tree = {
 								}
 						}
 				}
-
-	}
-	focus = {
-		id = political_reform
-		icon = GFX_parliament_box
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_Cabinet_of_Hashimoto
-		}
-		prerequisite = {
-			focus = network
-		}
-		x = 15
-		y = 11
 
 	}
 	focus = {
@@ -1979,6 +2004,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_73
+		}
+		prerequisite = {
+			focus = newfocus_77
 		}
 		prerequisite = {
 			focus = newfocus_77
@@ -2380,6 +2408,129 @@ focus_tree = {
 		}
 		x = 27
 		y = 15
+
+	}
+	focus = {
+		id = MJP_US_Japan_Alliance
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Diplomacy_and_security
+		}
+		x = 10
+		y = 10
+
+	}
+	focus = {
+		id = MJP_North_Korea_sanctions
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Diplomacy_and_security
+		}
+		x = 12
+		y = 10
+
+	}
+	focus = {
+		id = MJP_Northern_territorial_issues
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_US_Japan_Alliance
+			focus = MJP_North_Korea_sanctions
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = MJP_science_and_technology
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = network
+			focus = mjp_Maintenance_Shinkansen
+		}
+		x = 14
+		y = 13
+
+	}
+	focus = {
+		id = MJP_Diplomacy_and_security
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Liberal_Democratic_Party
+		}
+		x = 12
+		y = 9
+
+	}
+	focus = {
+		id = mjp_Dokdo_sovereignty
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Northern_territorial_issues
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = mjp_Defense_Maintenance_Plan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = mjp_Dokdo_sovereignty
+		}
+		x = 11
+		y = 13
+
+	}
+	focus = {
+		id = mjp_Maintenance_Shinkansen
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOC
+		}
+		x = 15
+		y = 12
+
+	}
+	focus = {
+		id = mjp_social_capital_maintenance
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Liberal_Democratic_Party
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = mjp_constitutional_law
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Liberal_Democratic_Party
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = mjp_a_peaceful_constitution
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = mjp_constitutional_law
+		}
+		x = 16
+		y = 10
 
 	}
 }
