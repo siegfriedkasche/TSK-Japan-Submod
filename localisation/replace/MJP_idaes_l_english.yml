@@ -1,6 +1,10 @@
 ﻿l_english:
  Defense_Maintenance:0 "정비된 방위력"
  us_mjp_tech:0 "미일 과학기술 교류 협약"
+ Shinkansen_building_project:0 "신간선 착공 프로젝트"
+ clearing_the_past:0 "과거사 청산"
+ MJP_peace_Constitution_peoples:0 "일본인민공화국 헌법
+ Solving_the_Dokdo_Problem:0 "독도에 대한 감사"
  science_and_technology_ideas:0 "과학기술기본법"
  social_capital_maintenance:0 "조정된 사회 자본"
  social_capital_maintenance_desc:0 "복잡한 시국에서 자민당은 과소비 과지출되는 사회 자본에 대한 규제를 통하여 안정적인 사회 자본을 유치하였습니다."
@@ -87,3 +91,4 @@
  nine_Toshiba:0 "도시바"
  nine_Inspire:0 "히타치"
  nine_SoftBank:0 "소프트뱅크"
+ child_labor_ban:0 "미성년자 노동금지"

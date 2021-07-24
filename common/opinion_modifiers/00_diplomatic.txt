@@ -18,4 +18,9 @@ opinion_modifiers = {
 	internationale_solidarity = {
 		value = 100
 	}
+	
+	clearing_the_past = {
+		value = 50
+		trade = yes
+	}
 }

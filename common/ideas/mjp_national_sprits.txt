@@ -261,7 +261,6 @@ ideas = {
                 consumer_goods_factor = 0.4
                 industrial_capacity_factory = -0.5
                 production_factory_max_efficiency_factor = -0.6
-                production_factory_max_efficiency_factor = -0.6
                 stability_factor = -0.30
                 production_speed_buildings_factor = -0.6
                 monthly_population = -0.2
@@ -288,7 +287,6 @@ ideas = {
             modifier = { #효과
                 consumer_goods_factor = 0.3
                 industrial_capacity_factory = -0.4
-                production_factory_max_efficiency_factor = -0.5
                 production_factory_max_efficiency_factor = -0.5
                 stability_factor = -0.25
                 production_speed_buildings_factor = -0.4
@@ -317,7 +315,6 @@ ideas = {
                 consumer_goods_factor = 0.2
                 industrial_capacity_factory = -0.3
                 production_factory_max_efficiency_factor = -0.4
-                production_factory_max_efficiency_factor = -0.4
                 stability_factor = -0.2
                 production_speed_buildings_factor = -0.3
                 monthly_population = -0.1
@@ -345,7 +342,6 @@ ideas = {
                 consumer_goods_factor = 0.1
                 industrial_capacity_factory = -0.2
                 production_factory_max_efficiency_factor = -0.3
-                production_factory_max_efficiency_factor = -0.3
                 stability_factor = -0.1
                 production_speed_buildings_factor = -0.2
                 research_speed_factor = -0.2
@@ -372,7 +368,6 @@ ideas = {
                 consumer_goods_factor = 0.05
                 industrial_capacity_factory = -0.1
                 production_factory_max_efficiency_factor = -0.2
-                production_factory_max_efficiency_factor = -0.2
                 stability_factor = -0.05
                 production_speed_buildings_factor = -0.1
                 research_speed_factor = -0.1
@@ -397,7 +392,6 @@ ideas = {
             
             modifier = { #효과
                 industrial_capacity_factory = -0.05
-                production_factory_max_efficiency_factor = -0.15
                 production_factory_max_efficiency_factor = -0.15
                 stability_factor = -0.05
                 production_speed_buildings_factor = -0.05
@@ -454,6 +448,35 @@ ideas = {
             }
         }
     }
+	 country = {
+
+         MJP_peace_Constitution_peoples = { 
+
+            allowed = {
+                original_tag = MJP
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = MJP_peace_Constitution
+
+            removal_cost = -1
+            
+            modifier = { #효과	
+                max_fuel_factor = -0.3 
+                generate_wargoal_tension = 100
+                justify_war_goal_time = 100
+                guarantee_tension = 100
+                lend_lease_tension = 100
+				stability_factor = 0.15
+				production_speed_buildings_factor = 0.15
+				monthly_population = 0.25
+				industrial_capacity_factory = 0.15
+            }
+        }
+    }
 
 
     country = {
@@ -478,7 +501,31 @@ ideas = {
             }
         }
     }
-	
+	country = {
+
+        child_labor_ban = { 
+
+            allowed = {
+                original_tag = MJP
+				original_tag = USJ
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture =  prc_low_popular_support3
+
+            removal_cost = -1
+            
+            modifier = { #효과	
+                research_speed_factor  = 0.05
+				industrial_capacity_factory = -0.15
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_start_efficiency_factor = 0.15
+            }
+        }
+    }
 	country = {
 
         Defense_Maintenance = { 
@@ -523,6 +570,54 @@ ideas = {
             modifier = { #효과	
                 research_speed_factor  = 0.25
 				research_sharing_per_country_bonus = 0.25
+            }
+        }
+    }
+	country = {
+
+        Shinkansen_building_project = { 
+
+            allowed = {
+                original_tag = MJP
+				original_tag = USJ
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture =  ast_volunteer_defence_corps
+
+            removal_cost = -1
+            
+            modifier = { #효과	
+                production_speed_infrastructure_factor = 0.5
+            }
+        }
+    }
+	country = {
+
+        Solving_the_Dokdo_Problem = { 
+
+            allowed = {
+                original_tag = KR1
+				original_tag = MKR
+				original_tag = ROK
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture =  ger_mefo_bills_payment
+
+            removal_cost = -1
+            
+            targeted_modifier  = { 
+				tag = MJP
+				mic_to_overlord_factor = 0.1
+				trade_cost_for_target_factor = -0.30
+                faction_trade_opinion_factor = 0.5
             }
         }
     }
