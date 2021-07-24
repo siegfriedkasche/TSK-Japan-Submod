@@ -21,6 +21,9 @@ opinion_modifiers = {
 	
 	clearing_the_past = {
 		value = 50
-		trade = yes
+	}
+	
+	hate_imperial_aggression = {
+		value = -50
 	}
 }

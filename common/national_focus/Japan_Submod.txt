@@ -1848,7 +1848,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Communism
-		icon = riot_japan
+		icon = GFX_Communism_MJP
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Election
@@ -2250,7 +2250,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_abolition_of_the_emperor_system
-		icon = GFX_goal_unknown
+		icon = revolutionary_government
 		cost = 10.00
 		prerequisite = {
 			focus = Communism
@@ -2264,7 +2264,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_clearing_the_past
-		icon = GFX_goal_unknown
+		icon = attack_communism
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_abolition_of_the_emperor_system
@@ -2277,37 +2277,34 @@ focus_tree = {
 				limit = {
 					KR1 = { exists = yes }
 				}
-				diplomatic_relation = {
-    				country = KR1
-    				relation = clearing_the_past
-    				active = no
+				add_opinion_modifier = {
+   					target = KR1
+    				modifier = clearing_the_past
 				}
 			}
 			else_if = {
 				limit = {
 					MKR = { exists = yes }
 				}
-				diplomatic_relation = {
-    				country = MKR
-    				relation = clearing_the_past
-    				active = no
+				add_opinion_modifier = {
+   					target = MKR
+    				modifier = clearing_the_past
 				}
 			}
 			else_if = {
 				limit = {
 					ROK = { exists = yes }
 				}
-				diplomatic_relation = {
-    				country = ROK
-    				relation = clearing_the_past
-    				active = no
+				add_opinion_modifier = {
+   					target = ROK
+    				modifier = clearing_the_past
 				}
 			}
 		}
 	}
 	focus = {
 		id = MJP_Freedom_of_religion
-		icon = GFX_goal_unknown
+		icon = religious_unity
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_abolition_of_the_emperor_system
@@ -2321,7 +2318,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_free_compulsory_education
-		icon = GFX_goal_unknown
+		icon = communist_scientists
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_abolition_of_the_emperor_system
@@ -2334,7 +2331,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_Solving_the_Dokdo_Problem
-		icon = GFX_goal_unknown
+		icon = inundation_lines
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_clearing_the_past
@@ -2379,7 +2376,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Constitution_of_the_Peoples_Republic_of_Japan
-		icon = GFX_goal_unknown
+		icon = democratic_communism
 		cost = 10.00
 		prerequisite = {
 			focus = Communism
@@ -2396,7 +2393,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Communism_program
-		icon = GFX_goal_unknown
+		icon = japan_communist_party
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Freedom_of_religion
@@ -2411,7 +2408,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_child_labor_ban
-		icon = GFX_goal_unknown
+		icon = communist_repression
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_free_compulsory_education
@@ -2424,18 +2421,22 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Resolving_gender_conflict
-		icon = GFX_goal_unknown
+		icon = women_issues
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_free_compulsory_education
 		}
 		x = 26
 		y = 12
-
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = -0.05
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = MJP_Guaranteed_three_labor_rights
-		icon = GFX_goal_unknown
+		icon = communism5
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_child_labor_ban
@@ -2445,11 +2446,25 @@ focus_tree = {
 		}
 		x = 29
 		y = 13
-
+		completion_reward = {
+			country_event = {
+				id = MJP.14
+			}
+			add_tech_bonus = {
+    			bonus = 1
+    			uses = 2
+    			category = radar_tech
+			}
+			add_tech_bonus = {
+    			bonus = 1
+    			uses = 3
+    			category = industry
+			}
+		}
 	}
 	focus = {
 		id = MJP_abolition_of_war_laws
-		icon = GFX_goal_unknown
+		icon = communism3
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Resolving_gender_conflict
@@ -2459,11 +2474,16 @@ focus_tree = {
 		}
 		x = 25
 		y = 13
-		
+		completion_reward = {
+			country_event = {
+				id = MJP.16
+			}
+			add_ideas = livelihood_law
+		}
 	}
 	focus = {
 		id = MJP_Self_Defense_Force_Reorganization
-		icon = GFX_goal_unknown
+		icon = army_officers_communist
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Resolving_gender_conflict
@@ -2473,9 +2493,9 @@ focus_tree = {
 		y = 13
 		completion_reward = {
 			division_template = {
-    			name = "Test"
+    			name = "노동자 민병대"
         			is_locked = yes
-        			division_names_group = USA_INF_01
+        			division_names_group = 
         			priority = 0
         			template_counter = 0
         			regiments = {
@@ -2488,13 +2508,199 @@ focus_tree = {
         			}
         			support = { 
         			    military_police = { x = 0 y = 0 }
-       			 } 
+       			 }
     		}
+			delete_unit_template_and_units = {
+    			division_template = "제1공정단"
+    			disband = yes
+			}
+			delete_unit_template_and_units = {
+    			division_template = "JSDF 차량화보병사단"
+    			disband = yes
+			}
+			delete_unit_template_and_units = {
+    			division_template = "JSDF 기갑사단"
+    			disband = yes
+			}
+			delete_unit_template_and_units = {
+    			division_template = "JSDF 기계화사단"
+    			disband = yes
+			}
+			hidden_effect = {
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 9764 }
+					create_unit = {
+						division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+						owner = MJP
+					}
+				}
+			}
 		}
 	}
 	focus = {
 		id = MJP_stop_imperial_aggression
-		icon = GFX_goal_unknown
+		icon = enemy_of_china
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_abolition_of_war_laws
@@ -2504,11 +2710,48 @@ focus_tree = {
 		}
 		x = 26
 		y = 14
-
+		completion_reward = {
+			country_event = {
+				id = MJP.15
+			}
+			add_opinion_modifier = {
+   				target  = ENG
+    			modifier  = hate_imperial_aggression
+			}
+			add_opinion_modifier = {
+   				target = USA
+    			modifier = hate_imperial_aggression
+			}
+			add_opinion_modifier = {
+   				target = FRA
+    			modifier = hate_imperial_aggression
+			}
+			add_opinion_modifier = {
+   				target = BEL
+    			modifier = hate_imperial_aggression
+			}
+			add_opinion_modifier = {
+   				target = ITA
+    			modifier = hate_imperial_aggression
+			}
+			add_opinion_modifier = {
+   				target = GER
+    			modifier = hate_imperial_aggression
+			}
+			add_opinion_modifier = {
+   				target = POR
+    			modifier = hate_imperial_aggression
+			}
+			add_opinion_modifier = {
+   				target = HOL
+    			modifier = hate_imperial_aggression
+			}
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = MJP_protection_of_human_rights
-		icon = GFX_goal_unknown
+		icon = support_the_left_right
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Self_Defense_Force_Reorganization
@@ -2518,11 +2761,15 @@ focus_tree = {
 		}
 		x = 28
 		y = 14
-
+		completion_reward = {
+			country_event = {
+				id = MJP.17
+			}
+		}
 	}
 	focus = {
 		id = MJP_International_Workers_Solidarity
-		icon = GFX_goal_unknown
+		icon = gennady_zyuganov
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_protection_of_human_rights
@@ -2533,6 +2780,7 @@ focus_tree = {
 		x = 27
 		y = 15
 		completion_reward = {
+			set_major = yes
 			create_faction = "국제 노동자 연대"
 			country_event = {
 				id = MJP.13

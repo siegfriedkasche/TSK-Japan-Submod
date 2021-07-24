@@ -15,4 +15,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_MJP_Cabinet_of_Hashimoto.png"
 		legacy_lazy_load = no 
 	}
+	SpriteType = {
+		name = "STOP_japanese_monarchy"
+		texturefile = "gfx/interface/goals/STOP_japanese_monarchy.png"
+		legacy_lazy_load = no 
+	}
+	SpriteType = {
+		name = "MJP_Self_Defense_Force_Reorganization"
+		texturefile = "gfx/interface/goals/MJP_Self_Defense_Force_Reorganization.png"
+		legacy_lazy_load = no 
+	}
+	SpriteType = {
+		name = "MJP_Guaranteed_three_labor_rights"
+		texturefile = "gfx/interface/goals/MJP_Guaranteed_three_labor_rights.png"
+		legacy_lazy_load = no 
+	}
+	SpriteType = {
+		name = "GFX_Communism_MJP"
+		texturefile = "gfx/interface/goals/GFX_Communism_MJP.png"
+		legacy_lazy_load = no 
+	}
 }
