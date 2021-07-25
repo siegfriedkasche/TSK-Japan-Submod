@@ -1497,7 +1497,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Liberal_Democratic_Party
-		icon = democracy_in_japan
+		icon = Liberal_Democratic_Party_MJP
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Election

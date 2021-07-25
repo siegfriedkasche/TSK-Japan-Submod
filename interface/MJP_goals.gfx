@@ -16,6 +16,11 @@ spriteTypes = {
 		legacy_lazy_load = no 
 	}
 	SpriteType = {
+		name = "Liberal_Democratic_Party_MJP"
+		texturefile = "gfx/interface/goals/Liberal_Democratic_Party_MJP.png"
+		legacy_lazy_load = no 
+	}
+	SpriteType = {
 		name = "STOP_japanese_monarchy"
 		texturefile = "gfx/interface/goals/STOP_japanese_monarchy.png"
 		legacy_lazy_load = no 
