@@ -74,34 +74,35 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = MJP_Election
 		}
-		available = {
-			has_completed_focus = newfocus_24
-		}
-		x = 33
+		x = 35
 		y = 7
-		completion_reward = {
-			set_politics = {
-				ruling_party = fascism
-        			elections_allowed = no
-        			last_election = "1935.12.17"
-        			election_frequency = 48
-			}
-			hidden_effect = {
-				remove_ideas = Akihito_national_sprits 
-				set_popularities = {
-					democratic = 30
-					neutrality = 10
-					fascism = 40
-					communism = 30
+			available = {
+					has_completed_focus = newfocus_24
 				}
-			}
-		}
+			completion_reward = {
+					set_politics = {
+							ruling_party = fascism
+							elections_allowed = no
+							last_election = "1935.12.17"
+							election_frequency = 48
+						}
+					hidden_effect = {
+							remove_ideas = Akihito_national_sprits
+							set_popularities = {
+									democratic = 30
+									neutrality = 10
+									fascism = 40
+									communism = 30
+								}
+						}
+				}
+
 	}
 	focus = {
 		id = Coalition
 		icon = GFX_goal_unknown
 		cost = 10.00
-		x = 18
+		x = 15
 		y = 9
 			completion_reward = {
 					add_popularity = {
@@ -120,14 +121,38 @@ focus_tree = {
 
 	}
 	focus = {
-		id = MJP_Nany_rearmament
-		icon = GFX_goal_unknown
+		id = Communism
+		icon = Communism_MJP
 		cost = 10.00
-		prerequisite = {
-			focus = mjp_NDF
+		mutually_exclusive = {
+			focus = Non_alliance
 		}
-		x = 52
-		y = 1
+		x = 28
+		y = 8
+			available = {
+					always = no
+				}
+			completion_reward = {
+					set_politics = {
+							ruling_party = communism
+							elections_allowed = no
+							last_election = "1935.12.17"
+						}
+					add_popularity = {
+							ideology = communism
+							popularity = 0.5
+						}
+					create_country_leader = {
+							name = "Shii Kazuo"
+							desc = "Shii_Kazuo_DESC"
+							picture = "Shii_Kazuo.png"
+							expire = "1965.1.1"
+							ideology = Eurocommunism
+							traits = {
+
+}
+						}
+				}
 
 	}
 	focus = {
@@ -558,6 +583,43 @@ focus_tree = {
 
 	}
 	focus = {
+		id = MJP_bureaucracy
+		icon = government_beu
+		cost = 10.00
+		prerequisite = {
+			focus = Coalition
+		}
+		x = 15
+		y = 10
+			completion_reward = {
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.05
+						}
+					add_popularity = {
+							ideology = democratic
+							popularity = 0.05
+						}
+					add_stability = -0.1
+					add_political_power = 50
+				}
+
+	}
+	focus = {
+		id = mjp_Education_Administration_Review
+		icon = goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_bureaucracy
+		}
+		x = 14
+		y = 11
+			completion_reward = {
+					add_ideas = Education_Administration_Review
+				}
+
+	}
+	focus = {
 		id = newfocus_23
 		icon = central_planned_economy
 		cost = 10.00
@@ -576,44 +638,6 @@ focus_tree = {
 						}
 				}
 
-	}
-	focus = {
-		id = MJP_bureaucracy
-		icon = government_beu
-		cost = 10.00
-		prerequisite = {
-			focus = Coalition
-		}
-		x = 18
-		y = 10
-			completion_reward = {
-				add_popularity = {
-					ideology = neutrality
-					popularity = 0.05
-				}
-				add_popularity = {
-					ideology = democratic
-					popularity = 0.05
-				}
-				add_stability = -0.1
-				add_political_power = 50
-				
-			}
-
-	}
-	focus = {
-		id = mjp_Education_Administration_Review
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_bureaucracy
-		}
-		x = 17
-		y = 11
-		completion_reward = {
-			add_ideas = Education_Administration_Review
-		}
-		
 	}
 	focus = {
 		id = newfocus_27
@@ -733,7 +757,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_35
-		icon = GFX_goal_unknown
+		icon = goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_26
@@ -910,6 +934,407 @@ focus_tree = {
 
 	}
 	focus = {
+		id = KOR_abolition_of_the_emperor_system
+		icon = revolutionary_government
+		cost = 10.00
+		prerequisite = {
+			focus = Communism
+		}
+		x = 28
+		y = 9
+			completion_reward = {
+					add_stability = -0.05
+					remove_ideas = Akihito_national_sprits
+				}
+
+	}
+	focus = {
+		id = MJP_Freedom_of_religion
+		icon = religious_unity
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_abolition_of_the_emperor_system
+		}
+		x = 27
+		y = 10
+			completion_reward = {
+					add_stability = 0.1
+					add_political_power = 100
+				}
+
+	}
+	focus = {
+		id = MJP_Communism_program
+		icon = japan_communist_party
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Freedom_of_religion
+		}
+		x = 26
+		y = 11
+			completion_reward = {
+					country_event = {
+							id = MJP.12
+						}
+				}
+
+	}
+	focus = {
+		id = MJP_free_compulsory_education
+		icon = communist_scientists
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_abolition_of_the_emperor_system
+		}
+		x = 28
+		y = 11
+			completion_reward = {
+					add_research_slot = 1
+				}
+
+	}
+	focus = {
+		id = MJP_Resolving_gender_conflict
+		icon = women_issues
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_free_compulsory_education
+		}
+		x = 27
+		y = 12
+			completion_reward = {
+					add_stability = 0.05
+					add_war_support = -0.05
+					add_political_power = 50
+				}
+
+	}
+	focus = {
+		id = MJP_abolition_of_war_laws
+		icon = communism3
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Resolving_gender_conflict
+		}
+		prerequisite = {
+			focus = MJP_Communism_program
+		}
+		x = 26
+		y = 13
+			completion_reward = {
+					country_event = {
+							id = MJP.16
+						}
+					add_ideas = livelihood_law
+				}
+
+	}
+	focus = {
+		id = MJP_child_labor_ban
+		icon = communist_repression
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_free_compulsory_education
+		}
+		x = 29
+		y = 12
+			completion_reward = {
+					add_ideas = child_labor_ban
+				}
+
+	}
+	focus = {
+		id = MJP_Self_Defense_Force_Reorganization
+		icon = army_officers_communist
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Resolving_gender_conflict
+			focus = MJP_child_labor_ban
+		}
+		x = 28
+		y = 13
+			completion_reward = {
+					division_template = {
+							name = "노동자 민병대"
+							is_locked = yes
+							division_names_group = ""
+							priority = 0
+							template_counter = 0
+							regiments = {
+									infantry = {
+											x = 0
+											y = 0
+										}
+									infantry = {
+											x = 0
+											y = 1
+										}
+									infantry = {
+											x = 0
+											y = 2
+										}
+									infantry = {
+											x = 1
+											y = 0
+										}
+									infantry = {
+											x = 1
+											y = 1
+										}
+									infantry = {
+											x = 1
+											y = 2
+										}
+								}
+							support = {
+									military_police = {
+											x = 0
+											y = 0
+										}
+								}
+						}
+					delete_unit_template_and_units = {
+							division_template = "제1공정단"
+							disband = yes
+						}
+					delete_unit_template_and_units = {
+							division_template = "JSDF 차량화보병사단"
+							disband = yes
+						}
+					delete_unit_template_and_units = {
+							division_template = "JSDF 기갑사단"
+							disband = yes
+						}
+					delete_unit_template_and_units = {
+							division_template = "JSDF 기계화사단"
+							disband = yes
+						}
+					hidden_effect = {
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
+											owner = MJP
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = MJP_stop_imperial_aggression
+		icon = enemy_of_china
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_abolition_of_war_laws
+		}
+		prerequisite = {
+			focus = MJP_Self_Defense_Force_Reorganization
+		}
+		x = 27
+		y = 14
+			completion_reward = {
+					country_event = {
+							id = MJP.15
+						}
+					add_opinion_modifier = {
+							target = ENG
+							modifier = hate_imperial_aggression
+						}
+					add_opinion_modifier = {
+							target = USA
+							modifier = hate_imperial_aggression
+						}
+					add_opinion_modifier = {
+							target = FRA
+							modifier = hate_imperial_aggression
+						}
+					add_opinion_modifier = {
+							target = BEL
+							modifier = hate_imperial_aggression
+						}
+					add_opinion_modifier = {
+							target = ITA
+							modifier = hate_imperial_aggression
+						}
+					add_opinion_modifier = {
+							target = GER
+							modifier = hate_imperial_aggression
+						}
+					add_opinion_modifier = {
+							target = POR
+							modifier = hate_imperial_aggression
+						}
+					add_opinion_modifier = {
+							target = HOL
+							modifier = hate_imperial_aggression
+						}
+					add_stability = 0.05
+				}
+
+	}
+	focus = {
 		id = newfocus_42
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -940,8 +1365,154 @@ focus_tree = {
 
 	}
 	focus = {
+		id = MJP_Constitution_of_the_Peoples_Republic_of_Japan
+		icon = democratic_communism
+		cost = 10.00
+		prerequisite = {
+			focus = Communism
+		}
+		x = 30
+		y = 9
+			completion_reward = {
+					swap_ideas = {
+							add_idea = MJP_peace_Constitution_peoples
+							remove_idea = MJP_peace_Constitution
+						}
+					add_ideas = war_economy
+				}
+
+	}
+	focus = {
+		id = MJP_clearing_the_past
+		icon = attack_communism
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_abolition_of_the_emperor_system
+		}
+		x = 29
+		y = 10
+			completion_reward = {
+					add_stability = 0.05
+					if = {
+							limit = {
+									KR1 = {
+											exists = yes
+										}
+								}
+							add_opinion_modifier = {
+									target = KR1
+									modifier = clearing_the_past
+								}
+						}
+					else_if = {
+							limit = {
+									MKR = {
+											exists = yes
+										}
+								}
+							add_opinion_modifier = {
+									target = MKR
+									modifier = clearing_the_past
+								}
+						}
+					else_if = {
+							limit = {
+									ROK = {
+											exists = yes
+										}
+								}
+							add_opinion_modifier = {
+									target = ROK
+									modifier = clearing_the_past
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = KOR_MTU_Solving_the_Dokdo_Problem
+		icon = inundation_lines
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_clearing_the_past
+		}
+		x = 30
+		y = 11
+			completion_reward = {
+					if = {
+							limit = {
+									KR1 = {
+											exists = yes
+										}
+								}
+							KR1 = {
+									add_timed_idea = {
+											idea = Solving_the_Dokdo_Problem
+											days = 365
+										}
+								}
+						}
+					else_if = {
+							limit = {
+									MKR = {
+											exists = yes
+										}
+								}
+							MKR = {
+									add_timed_idea = {
+											idea = Solving_the_Dokdo_Problem
+											days = 365
+										}
+								}
+						}
+					else_if = {
+							limit = {
+									ROK = {
+											exists = yes
+										}
+								}
+							ROK = {
+									add_timed_idea = {
+											idea = Solving_the_Dokdo_Problem
+											days = 365
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = MJP_Guaranteed_three_labor_rights
+		icon = communism5
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_child_labor_ban
+		}
+		prerequisite = {
+			focus = KOR_MTU_Solving_the_Dokdo_Problem
+		}
+		x = 30
+		y = 13
+			completion_reward = {
+					country_event = {
+							id = MJP.14
+						}
+					add_tech_bonus = {
+							bonus = 1
+							uses = 2
+							category = radar_tech
+						}
+					add_tech_bonus = {
+							bonus = 1
+							uses = 3
+							category = industry
+						}
+				}
+
+	}
+	focus = {
 		id = newfocus_41
-		icon = GFX_goal_unknown
+		icon = goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_31
@@ -1007,466 +1578,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Military_control
-		icon = Military_control
-		cost = 10.00
-		prerequisite = {
-			focus = Military
-		}
-		x = 33
-		y = 8
-		completion_reward = {
-			add_stability = -0.15
-			add_war_support -0.15
-			add_manpower = -15000
-			custom_effect_tooltip = Kaigen_gun_gogo
-			hidden_effect = {
-				division_template = {
-							name = "Kaigen-gun"
-							is_locked = yes
-							division_names_group = ""
-							priority = 0
-							template_counter = 0
-							regiments = {
-									infantry = {
-											x = 0
-											y = 0
-										}
-									infantry = {
-											x = 0
-											y = 1
-										}
-									infantry = {
-											x = 0
-											y = 2
-										}
-									infantry = {
-											x = 1
-											y = 0
-										}
-									infantry = {
-											x = 1
-											y = 1
-										}
-									infantry = {
-											x = 1
-											y = 2
-										}
-								}
-							support = {
-									military_police = {
-											x = 0
-											y = 0
-										}
-								}
-						}
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-				random_owned_controlled_state = {
-					prioritize = { 9764 }
-					create_unit = {
-						division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
-						owner = MJP
-					}
-				}	
-			}
-		}
-	}
-	focus = {
-		id = newfocus_107
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Military_control
-		}
-		
-		will_lead_to_war_with = ENG
-		will_lead_to_war_with = MAL
-		will_lead_to_war_with = INS
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				date < 1940.1.1
-			}
-			modifier = {
-				factor = 0
-				ENG = { has_war = no }
-				HOL = { has_war = no }
-			}
-			modifier = {
-				has_war_with = SOV
-				factor = 0
-			}
-		}
-		bypass = {
-			OR = {			
-				has_wargoal_against = INS
-				has_war_with = INS
-			}
-			OR = {
-				has_wargoal_against = MAL
-				has_war_with = MAL
-			}
-			OR = {
-				AND = {
-					671 = {
-						NOT = { is_controlled_by = FRA }
-					}
-					670 = {
-						NOT = { is_controlled_by = FRA }
-					}
-					286 = {
-						NOT = { is_controlled_by = FRA }
-					}
-					741 = {
-						NOT = { is_controlled_by = FRA }
-					}
-				}
-				has_wargoal_against = FRA
-				has_war_with = FRA
-			}
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-
-		x = 31
-		y = 9
-		completion_reward = {
-			if = {
-				limit = {
-					NOT = { has_wargoal_against = INS }
-					NOT = { has_war_with = INS }
-					country_exists = INS
-					if = {
-						limit = {
-							INS = { is_subject_of = HOL }
-						}
-						OR = {
-							has_country_flag = HOL_declare_war_indies_allowed
-							HOL = { NOT = { has_completed_focus = HOL_placate_the_japanese } }
-						}
-					}
-				}
-				create_wargoal = {
-					target = INS
-					type = annex_everything
-					expire = 0
-				}
-				add_ai_strategy = {
-					type = conquer
-					id = "INS"
-					value = 200
-				}
-			}
-			if = {
-				limit = {
-					INS = { exists = no }
-					335 = {
-						CONTROLLER = {
-							NOT = {
-								is_in_faction_with = ROOT
-							}
-						}
-					}
-					if = {
-						limit = {
-							335 = {
-								CONTROLLER = {
-									tag = HOL
-								}
-							}
-						}
-						OR = {
-							has_country_flag = HOL_declare_war_indies_allowed
-							HOL = { NOT = { has_completed_focus = HOL_placate_the_japanese } }
-						}
-					}
-				}
-				335 = {
-					OWNER = {
-						ROOT = {
-							create_wargoal = {
-								target = PREV
-								type = take_state_focus
-								expire = 0
-								generator = { 335 334 672 673 668 667 669 738 }
-							}
-							add_ai_strategy = {
-								type = conquer
-								id = PREV
-								value = 200
-							}
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					NOT = { has_wargoal_against = MAL }
-					NOT = { has_war_with = MAL }
-					country_exists = MAL
-				}
-				create_wargoal = {
-					target = MAL
-					type = annex_everything
-					expire = 0
-				}
-				add_ai_strategy = {
-					type = conquer
-					id = "MAL"
-					value = 200
-				}
-			}
-			if = {
-				limit = {
-					MAL = { exists = no }
-					336 = {
-						CONTROLLER = {
-							NOT = {
-								is_in_faction_with = ROOT
-							}
-						}
-					}
-				}
-				336 = {
-					OWNER = {
-						ROOT = {
-							create_wargoal = {
-								target = PREV
-								type = take_state_focus
-								expire = 0
-								generator = { 336 }
-							}
-							add_ai_strategy = {
-								type = conquer
-								id = PREV
-								value = 200
-							}
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						671 = {
-							is_controlled_by = FRA
-						}
-						670 = {
-							is_controlled_by = FRA
-						}
-						286 = {
-							is_controlled_by = FRA
-						}
-						741 = {
-							is_controlled_by = FRA
-						}
-					}
-					NOT = { has_wargoal_against = FRA }
-					NOT = { has_war_with = FRA }
-				}
-				#Might be generating on states FRA does not own, but not worth the time to get it exact. Should have no gameplay impact.
-				create_wargoal = {
-					target = FRA
-					type = take_state_focus
-					expire = 0
-					generator = { 671 670 286 741 }
-				}
-			}
-		}
-	}
-	focus = {
-		id = newfocus_102
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_107
-		}
-		available = {
-			has_war = yes
-		}
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		x = 31
-		y = 10
-		completion_reward = {
-			add_ideas = {
-				tot_economic_mobilisation 
-				huge_tax
-			}
-			add_war_support = 0.15
-			add_stability = -0.1
-		}
-	}
-	focus = {
 		id = newfocus_32
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -1517,7 +1628,233 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_106
+		id = Military_control
+		icon = Military_control
+		cost = 10.00
+		prerequisite = {
+			focus = Military
+		}
+		x = 35
+		y = 8
+			completion_reward = {
+					add_stability = -0.15
+					add_war_support = -0.15
+					add_manpower = -15000
+					custom_effect_tooltip = Kaigen_gun_gogo
+					hidden_effect = {
+							division_template = {
+									name = "Kaigen-gun"
+									is_locked = yes
+									division_names_group = ""
+									priority = 0
+									template_counter = 0
+									regiments = {
+											infantry = {
+													x = 0
+													y = 0
+												}
+											infantry = {
+													x = 0
+													y = 1
+												}
+											infantry = {
+													x = 0
+													y = 2
+												}
+											infantry = {
+													x = 1
+													y = 0
+												}
+											infantry = {
+													x = 1
+													y = 1
+												}
+											infantry = {
+													x = 1
+													y = 2
+												}
+										}
+									support = {
+											military_police = {
+													x = 0
+													y = 0
+												}
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+							random_owned_controlled_state = {
+									prioritize = { 9764 }
+									create_unit = {
+											division = "name = \"Kaigen-gun\" division_template = \"Kaigen-gun\" start_experience_factor = 0.5"
+											owner = MJP
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = newfocus_107
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -1525,142 +1862,259 @@ focus_tree = {
 		}
 		x = 33
 		y = 9
-		completion_reward = {
-			
-			
-		}
+			will_lead_to_war_with = ENG
+			will_lead_to_war_with = MAL
+			will_lead_to_war_with = INS
+			ai_will_do = {
+					factor = 10
+					modifier = {
+							factor = 0
+							date < 1940.1.1
+						}
+					modifier = {
+							factor = 0
+							ENG = {
+									has_war = no
+								}
+							HOL = {
+									has_war = no
+								}
+						}
+					modifier = {
+							has_war_with = SOV
+							factor = 0
+						}
+				}
+			bypass = {
+					OR = {
+							has_wargoal_against = INS
+							has_war_with = INS
+						}
+					OR = {
+							has_wargoal_against = MAL
+							has_war_with = MAL
+						}
+					OR = {
+							AND = {
+									671 = {
+											NOT = {
+													is_controlled_by = FRA
+												}
+										}
+									670 = {
+											NOT = {
+													is_controlled_by = FRA
+												}
+										}
+									286 = {
+											NOT = {
+													is_controlled_by = FRA
+												}
+										}
+									741 = {
+											NOT = {
+													is_controlled_by = FRA
+												}
+										}
+								}
+							has_wargoal_against = FRA
+							has_war_with = FRA
+						}
+				}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+					if = {
+							limit = {
+									NOT = {
+											has_wargoal_against = INS
+										}
+									NOT = {
+											has_war_with = INS
+										}
+									country_exists = INS
+									if = {
+											limit = {
+													INS = {
+															is_subject_of = HOL
+														}
+												}
+											OR = {
+													has_country_flag = HOL_declare_war_indies_allowed
+													HOL = {
+															NOT = {
+																	has_completed_focus = HOL_placate_the_japanese
+																}
+														}
+												}
+										}
+								}
+							create_wargoal = {
+									target = INS
+									type = annex_everything
+									expire = 0
+								}
+							add_ai_strategy = {
+									type = conquer
+									id = "INS"
+									value = 200
+								}
+						}
+					if = {
+							limit = {
+									INS = {
+											exists = no
+										}
+									335 = {
+											CONTROLLER = {
+													NOT = {
+															is_in_faction_with = ROOT
+														}
+												}
+										}
+									if = {
+											limit = {
+													335 = {
+															CONTROLLER = {
+																	tag = HOL
+																}
+														}
+												}
+											OR = {
+													has_country_flag = HOL_declare_war_indies_allowed
+													HOL = {
+															NOT = {
+																	has_completed_focus = HOL_placate_the_japanese
+																}
+														}
+												}
+										}
+								}
+							335 = {
+									OWNER = {
+											ROOT = {
+													create_wargoal = {
+															target = PREV
+															type = take_state_focus
+															expire = 0
+															generator = { 335  334  672  673  668  667  669  738 }
+														}
+													add_ai_strategy = {
+															type = conquer
+															id = PREV
+															value = 200
+														}
+												}
+										}
+								}
+						}
+					if = {
+							limit = {
+									NOT = {
+											has_wargoal_against = MAL
+										}
+									NOT = {
+											has_war_with = MAL
+										}
+									country_exists = MAL
+								}
+							create_wargoal = {
+									target = MAL
+									type = annex_everything
+									expire = 0
+								}
+							add_ai_strategy = {
+									type = conquer
+									id = "MAL"
+									value = 200
+								}
+						}
+					if = {
+							limit = {
+									MAL = {
+											exists = no
+										}
+									336 = {
+											CONTROLLER = {
+													NOT = {
+															is_in_faction_with = ROOT
+														}
+												}
+										}
+								}
+							336 = {
+									OWNER = {
+											ROOT = {
+													create_wargoal = {
+															target = PREV
+															type = take_state_focus
+															expire = 0
+															generator = { 336 }
+														}
+													add_ai_strategy = {
+															type = conquer
+															id = PREV
+															value = 200
+														}
+												}
+										}
+								}
+						}
+					if = {
+							limit = {
+									OR = {
+											671 = {
+													is_controlled_by = FRA
+												}
+											670 = {
+													is_controlled_by = FRA
+												}
+											286 = {
+													is_controlled_by = FRA
+												}
+											741 = {
+													is_controlled_by = FRA
+												}
+										}
+									NOT = {
+											has_wargoal_against = FRA
+										}
+									NOT = {
+											has_war_with = FRA
+										}
+								}
+							create_wargoal = {
+									target = FRA
+									type = take_state_focus
+									expire = 0
+									generator = { 671  670  286  741 }
+								}
+						}
+				}
+
 	}
 	focus = {
-		id = newfocus_105
+		id = newfocus_102
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = newfocus_106
+			focus = newfocus_107
 		}
 		x = 33
 		y = 10
+			available = {
+					has_war = yes
+				}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
 			completion_reward = {
-				random_owned_controlled_state = {
-					limit = {
-						is_core_of = MJP
-					}
-					add_building_construction = {
-						type = arms_factory   
-						level = 2
-						instant_build = yes
-					}	
-					add_extra_state_shared_building_slots = 2
+					add_ideas = { tot_economic_mobilisation  huge_tax }
+					add_war_support = 0.15
+					add_stability = -0.1
 				}
-				random_owned_controlled_state = {
-					limit = {
-						is_core_of = MJP
-					}
-					add_building_construction = {
-						type = arms_factory   
-						level = 2
-						instant_build = yes
-					}	
-					add_extra_state_shared_building_slots = 2
-				}
-				random_owned_controlled_state = {
-					limit = {
-						is_core_of = MJP
-					}
-					add_building_construction = {
-						type = industrial_complex   
-						level = 2
-						instant_build = yes
-					}	
-					add_extra_state_shared_building_slots = 2
-				}
-				random_owned_controlled_state = {
-					limit = {
-						is_core_of = MJP
-					}
-					add_building_construction = {
-						type = industrial_complex   
-						level = 2
-						instant_build = yes
-					}	
-					add_extra_state_shared_building_slots = 2
-				}
-			}
 
-	}
-	focus = {
-		id = newfocus_104
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_105
-		}
-		x = 33
-		y = 11
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 0
-				NOT = { GER = { is_in_faction_with = ITA } }
-			}
-		}
-
-		available = {
-			any_country = {
-				original_tag = GER
-				has_government = fascism
-				NOT = { has_war_with = ROOT }
-			}
-			any_country = {
-				original_tag = ITA
-				has_government = fascism
-				NOT = { has_war_with = ROOT }
-			}
-		}
-
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = JAP_sign_tripartite_pact_bypass_tt
-				OR = {
-					NOT = {
-						any_country = {
-							original_tag = GER
-							has_government = fascism
-						}
-					}
-					any_country = {
-						original_tag = GER
-						has_government = fascism
-						has_war_with = ROOT
-					}
-					NOT = {
-						any_country = {
-							original_tag = ITA
-							has_government = fascism
-						}
-					}
-					any_country = {
-						original_tag = ITA
-						has_government = fascism
-						has_war_with = ROOT
-					}	
-				}	
-			}
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-
-		completion_reward = {
-			random_country = {
-				limit = {
-					original_tag = GER
-					has_government = fascism
-				}
-				country_event = { id = wtt_japan.109 days = 1 }
-			}
-		}
 	}
 	focus = {
 		id = newfocus_36
@@ -1756,6 +2210,163 @@ focus_tree = {
 		}
 		x = 35
 		y = 4
+
+	}
+	focus = {
+		id = newfocus_103
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Military
+		}
+		x = 37
+		y = 8
+			completion_reward = {
+					add_stability = -0.15
+					set_party_name = {
+							ideology = fascism
+							long_name = 대정익찬회
+							name = 대정익찬회
+						}
+					remove_ideas = MJP_peace_Constitution
+					create_faction = 유신체제
+					custom_effect_tooltip = cancel_party_communism
+					custom_effect_tooltip = cancel_party_democratic
+					custom_effect_tooltip = cancel_party_neutrality
+					hidden_effect = {
+							country_lock_all_division_template = no
+							set_party_name = {
+									ideology = democratic
+									long_name = cancel_party
+									name = cancel_party
+								}
+							set_party_name = {
+									ideology = communism
+									long_name = cancel_party
+									name = cancel_party
+								}
+							set_party_name = {
+									ideology = neutrality
+									long_name = cancel_party
+									name = cancel_party
+								}
+							set_political_party = {
+									ideology = democratic
+									popularity = -100
+								}
+							set_political_party = {
+									ideology = fascism
+									popularity = 100
+								}
+							set_political_party = {
+									ideology = communism
+									popularity = -100
+								}
+							set_political_party = {
+									ideology = neutrality
+									popularity = -100
+								}
+							create_country_leader = {
+									name = "Banned Party"
+									picture = "gfx/leaders/MJP/Banned_Party.png"
+									expire = "1995.1.1"
+									ideology = conservatism
+									traits = {
+
+}
+								}
+							create_country_leader = {
+									name = "Banned Party"
+									picture = "gfx/leaders/MJP/Banned_Party.png"
+									expire = "1995.1.1"
+									ideology = Eurocommunism
+									traits = {
+
+}
+								}
+							create_country_leader = {
+									name = "Banned Party"
+									picture = "gfx/leaders/MJP/Banned_Party.png"
+									expire = "1995.1.1"
+									ideology = centrism
+									traits = {
+
+}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = newfocus_101
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Military_control
+		}
+		x = 37
+		y = 9
+			completion_reward = {
+					if = {
+							limit = {
+									USJ = {
+											exists = yes
+										}
+								}
+							USJ = {
+									country_event = {
+											id = MJP.18
+										}
+								}
+							526 = {
+									add_core_of = MJP
+								}
+						}
+					if = {
+							limit = {
+									SVN = {
+											exists = yes
+										}
+								}
+							SVN = {
+									country_event = {
+											id = MJP.18
+										}
+								}
+						}
+					if = {
+							limit = {
+									JAP = {
+											exists = yes
+										}
+								}
+							JAP = {
+									country_event = {
+											id = MJP.18
+										}
+								}
+						}
+					if = {
+							limit = {
+									MEN = {
+											exists = yes
+										}
+								}
+							MJP = {
+									puppet = MEN
+								}
+						}
+					if = {
+							limit = {
+									MAN = {
+											exists = yes
+										}
+								}
+							MJP = {
+									puppet = MAN
+								}
+						}
+				}
 
 	}
 	focus = {
@@ -2194,6 +2805,17 @@ focus_tree = {
 
 	}
 	focus = {
+		id = MJP_Nany_rearmament
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = mjp_NDF
+		}
+		x = 52
+		y = 1
+
+	}
+	focus = {
 		id = MJP_Medium_term_defense_maintenance_plan
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -2281,10 +2903,10 @@ focus_tree = {
 		}
 		x = 56
 		y = 2
-		
+
 	}
 	focus = {
-		id = newfocus_101
+		id = newfocus_106
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -2292,141 +2914,149 @@ focus_tree = {
 		}
 		x = 35
 		y = 9
-		completion_reward = {
-			if = {
-				limit = {
-					USJ = { exists = yes }
-				}
-				USJ = {
-					country_event = {
-						id = MJP.18
-					}
-				}
-				526 = {
-					add_core_of = MJP
-				}
-			}
-			if = {
-				limit = {
-					SVN = { exists = yes }
-				}
-				SVN = {
-					country_event = {
-						id = MJP.18
-					}
-				}
-			}
-			if = {
-				limit = {
-					JAP = { exists = yes }
-				}
-				JAP = {
-					country_event = {
-						id = MJP.18
-					}
-				}
-			}
-			if = {
-				limit = {
-					MEN = { exists = yes }
-				}
-				MJP = {
-					puppet = MEN
-				}
-			}
-			if = {
-				limit = {
-					MAN = { exists = yes }
-				}
-				MJP = {
-					puppet = MAN
-				}
-			}
-		}
+			completion_reward = {
+
+}
+
 	}
 	focus = {
-		id = newfocus_103
+		id = newfocus_105
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Military
+			focus = newfocus_106
 		}
 		x = 35
-		y = 8
-		completion_reward = {
-			add_stability = -0.15
-			set_party_name = {
-				ideology = fascism
-				long_name = 대정익찬회
-				name = 대정익찬회
-			}
-			remove_ideas = MJP_peace_Constitution
-			create_faction = 유신체제			
-			custom_effect_tooltip = cancel_party_communism
-			custom_effect_tooltip = cancel_party_democratic
-			custom_effect_tooltip = cancel_party_neutrality
-			hidden_effect = {
-				country_lock_all_division_template = no
-				set_party_name = {
-					ideology = democratic
-					long_name = cancel_party
-					name = cancel_party
+		y = 10
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									is_core_of = MJP
+								}
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									is_core_of = MJP
+								}
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									is_core_of = MJP
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
+					random_owned_controlled_state = {
+							limit = {
+									is_core_of = MJP
+								}
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_extra_state_shared_building_slots = 2
+						}
 				}
-				set_party_name = {
-					ideology = communism
-					long_name = cancel_party
-					name = cancel_party
-				}
-				set_party_name = {
-					ideology = neutrality
-					long_name = cancel_party
-					name = cancel_party
-				}
-				set_political_party = {
-    				ideology = democratic
-    				popularity = -100
-				}
-				set_political_party = {
-    				ideology = fascism
-    				popularity = 100
-				}
-				set_political_party = {
-    				ideology = communism
-    				popularity = -100
-				}
-				set_political_party = {
-    				ideology = neutrality
-    				popularity = -100
-				}
-				create_country_leader = {
-					name = "Banned Party"
-					picture = "gfx/leaders/MJP/Banned_Party.png"
-					expire = "1995.1.1"
-					ideology = conservatism
-					traits = {
 
-					}
-				}
-				create_country_leader = {
-					name = "Banned Party"
-					picture = "gfx/leaders/MJP/Banned_Party.png"
-					expire = "1995.1.1"
-					ideology = Eurocommunism
-					traits = {
-
-					}
-				}
-				create_country_leader = {
-					name = "Banned Party"
-					picture = "gfx/leaders/MJP/Banned_Party.png"
-					expire = "1995.1.1"
-					ideology = centrism
-					traits = {
-
-					}
-				}
-			}
+	}
+	focus = {
+		id = newfocus_104
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_105
 		}
+		x = 35
+		y = 11
+			ai_will_do = {
+					factor = 3
+					modifier = {
+							factor = 0
+							NOT = {
+									GER = {
+											is_in_faction_with = ITA
+										}
+								}
+						}
+				}
+			available = {
+					any_country = {
+							original_tag = GER
+							has_government = fascism
+							NOT = {
+									has_war_with = ROOT
+								}
+						}
+					any_country = {
+							original_tag = ITA
+							has_government = fascism
+							NOT = {
+									has_war_with = ROOT
+								}
+						}
+				}
+			bypass = {
+					custom_trigger_tooltip = {
+							tooltip = JAP_sign_tripartite_pact_bypass_tt
+							OR = {
+									NOT = {
+											any_country = {
+													original_tag = GER
+													has_government = fascism
+												}
+										}
+									any_country = {
+											original_tag = GER
+											has_government = fascism
+											has_war_with = ROOT
+										}
+									NOT = {
+											any_country = {
+													original_tag = ITA
+													has_government = fascism
+												}
+										}
+									any_country = {
+											original_tag = ITA
+											has_government = fascism
+											has_war_with = ROOT
+										}
+								}
+						}
+				}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+					random_country = {
+							limit = {
+									original_tag = GER
+									has_government = fascism
+								}
+							country_event = {
+									id = wtt_japan.109
+									days = 1
+								}
+						}
+				}
+
 	}
 	focus = {
 		id = newfocus_108
@@ -2452,7 +3082,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = Komeito
 		}
-		x = 14
+		x = 11
 		y = 8
 
 	}
@@ -2463,7 +3093,7 @@ focus_tree = {
 		prerequisite = {
 			focus = mjp_social_capital_maintenance
 		}
-		x = 14
+		x = 11
 		y = 10
 			completion_reward = {
 					add_popularity = {
@@ -2476,14 +3106,14 @@ focus_tree = {
 	}
 	focus = {
 		id = Past_History
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = Komeito
 		}
-		x = 20
+		x = 17
 		y = 9
-		completion_reward = {
+			completion_reward = {
 					add_stability = 0.05
 					if = {
 							limit = {
@@ -2495,8 +3125,8 @@ focus_tree = {
 									target = KR1
 									modifier = clearing_the_past
 								}
-								add_stability = 0.05
-								KR1 = {
+							add_stability = 0.05
+							KR1 = {
 									add_stability = 0.05
 								}
 						}
@@ -2510,8 +3140,8 @@ focus_tree = {
 									target = MKR
 									modifier = clearing_the_past
 								}
-								add_stability = 0.05
-								MKR = {
+							add_stability = 0.05
+							MKR = {
 									add_stability = 0.05
 								}
 						}
@@ -2521,8 +3151,8 @@ focus_tree = {
 											exists = yes
 										}
 								}
-								add_stability = 0.05
-								ROK = {
+							add_stability = 0.05
+							ROK = {
 									add_stability = 0.05
 								}
 							add_opinion_modifier = {
@@ -2531,10 +3161,11 @@ focus_tree = {
 								}
 						}
 				}
+
 	}
 	focus = {
 		id = MJP_Election
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_2
@@ -2562,12 +3193,12 @@ focus_tree = {
 	}
 	focus = {
 		id = SOC
-		icon = gold_standard
+		icon = GFX_gold_standard
 		cost = 10.00
 		prerequisite = {
 			focus = Grants
 		}
-		x = 14
+		x = 11
 		y = 11
 			completion_reward = {
 					532 = {
@@ -2620,44 +3251,44 @@ focus_tree = {
 			focus = Liberal_Democratic_Party
 			focus = Non_alliance
 		}
-		x = 19
+		x = 16
 		y = 8
 			available = {
 					always = no
 				}
-		completion_reward = {
-			set_party_name = { 
-    			ideology = neutrality 
-    			long_name = "공명당" 
-    			name = "공명당"  
-			}
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.5
-			}
-			hidden_effect = {
-				add_popularity = {
-					ideology = communism
-					popularity = 0.1
+			completion_reward = {
+					set_party_name = {
+							ideology = neutrality
+							long_name = "공명당"
+							name = "공명당"
+						}
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.5
+						}
+					hidden_effect = {
+							add_popularity = {
+									ideology = communism
+									popularity = 0.1
+								}
+						}
+					set_politics = {
+							ruling_party = neutrality
+							elections_allowed = no
+							last_election = "1935.12.17"
+							election_frequency = 48
+						}
+					create_country_leader = {
+							name = "miyazawa kiichi"
+							desc = ""
+							picture = "miyazawa_kiichi.png"
+							expire = "1965.1.1"
+							ideology = centrism
+							traits = {
+
+}
+						}
 				}
-			}
-			set_politics = {
-				ruling_party = neutrality
-        			elections_allowed = no
-        			last_election = "1935.12.17"
-        			election_frequency = 48
-			}
-			create_country_leader = {
-				name = "miyazawa kiichi"
-				desc = ""
-				picture = "miyazawa_kiichi.png"
-				expire = "1965.1.1"
-				ideology = centrism
-				traits = {
-		
-				}
-			}
-		}
 
 	}
 	focus = {
@@ -2666,37 +3297,37 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = Komeito
-		} 
-		x = 18
+		}
+		x = 15
 		y = 9
 			completion_reward = {
 					add_popularity = {
-						ideology = democratic
-						popularity = 0.3
-					}
-					add_stability = 0.1
-					set_party_name = { 
-    					ideology = neutrality 
-    					long_name = "공명당-자민당 연립내각" 
-    					name = "공명당-자민당 연립내각"  
-					}
-					set_party_name = { 
-    					ideology = democratic 
-    					long_name = "공명당-자민당 연립내각" 
-    					name = "공명당-자민당 연립내각"  
-					}
-					set_politics = {
-						ruling_party = democratic
-        					elections_allowed = no
-        					last_election = "1935.12.17"
-        					election_frequency = 48
-					}
-					hidden_effect = {
-						add_popularity = {
-							ideology = neutrality
-							popularity = -0.1
+							ideology = democratic
+							popularity = 0.3
 						}
-					}
+					add_stability = 0.1
+					set_party_name = {
+							ideology = neutrality
+							long_name = "공명당-자민당 연립내각"
+							name = "공명당-자민당 연립내각"
+						}
+					set_party_name = {
+							ideology = democratic
+							long_name = "공명당-자민당 연립내각"
+							name = "공명당-자민당 연립내각"
+						}
+					set_politics = {
+							ruling_party = democratic
+							elections_allowed = no
+							last_election = "1935.12.17"
+							election_frequency = 48
+						}
+					hidden_effect = {
+							add_popularity = {
+									ideology = neutrality
+									popularity = -0.1
+								}
+						}
 				}
 
 	}
@@ -2711,7 +3342,7 @@ focus_tree = {
 			focus = Communism
 			focus = Komeito
 		}
-		x = 23
+		x = 22
 		y = 8
 			available = {
 					always = no
@@ -2739,10 +3370,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Non_alliance
+			focus = Rural_area
 		}
-		x = 22
-		y = 9
+		x = 21
+		y = 10
 			completion_reward = {
 					add_political_power = 150
 					add_popularity = {
@@ -2757,10 +3388,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
+			focus = MJP_protection_of_human_rights
+		}
+		prerequisite = {
 			focus = Employment
 		}
 		x = 22
-		y = 10
+		y = 11
 			completion_reward = {
 					add_political_power = 150
 					add_popularity = {
@@ -2777,7 +3411,7 @@ focus_tree = {
 		prerequisite = {
 			focus = Non_alliance
 		}
-		x = 24
+		x = 22
 		y = 9
 
 	}
@@ -2786,48 +3420,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Rural_area
+			focus = Welfare
 		}
-		x = 24
-		y = 10
-
-	}
-	focus = {
-		id = Communism
-		icon = GFX_Communism_MJP
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_Election
-		}
-		mutually_exclusive = {
-			focus = Non_alliance
-		}
-		x = 27
-		y = 8
-			available = {
-					always = no
-				}
-			completion_reward = {
-					set_politics = {
-							ruling_party = communism
-							elections_allowed = no
-							last_election = "1935.12.17"
-						}
-					add_popularity = {
-							ideology = communism
-							popularity = 0.5
-						}
-					create_country_leader = {
-							name = "Shii Kazuo"
-							desc = "Shii_Kazuo_DESC"
-							picture = "Shii_Kazuo.png"
-							expire = "1965.1.1"
-							ideology = Eurocommunism
-							traits = {
-
-}
-						}
-				}
+		x = 23
+		y = 12
 
 	}
 	focus = {
@@ -2840,7 +3436,7 @@ focus_tree = {
 		prerequisite = {
 			focus = MJP_science_and_technology
 		}
-		x = 12
+		x = 9
 		y = 14
 			completion_reward = {
 					create_country_leader = {
@@ -2866,7 +3462,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SOC
 		}
-		x = 13
+		x = 10
 		y = 12
 			completion_reward = {
 					531 = {
@@ -2915,6 +3511,9 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_73
 		}
+		prerequisite = {
+			focus = newfocus_77
+		}
 		x = 23
 		y = 5
 			completion_reward = {
@@ -2937,13 +3536,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Peace_Constitution
+			focus = MJP_ Socialist_program
 		}
 		prerequisite = {
-			focus = Welfare
+			focus = MJP_eradicating_poverty
 		}
-		x = 23
-		y = 11
+		x = 20
+		y = 13
 
 	}
 	focus = {
@@ -3082,556 +3681,10 @@ focus_tree = {
 		x = 23
 		y = 6
 			completion_reward = {
-            swap_ideas = {
-                 remove_idea = MJP_Emergencyy
-                 add_idea = mMJP_Stable_Japan
-            }
-	    }
-	}
-	focus = {
-		id = KOR_abolition_of_the_emperor_system
-		icon = revolutionary_government
-		cost = 10.00
-		prerequisite = {
-			focus = Communism
-		}
-		x = 27
-		y = 9
-			completion_reward = {
-					add_stability = -0.05
-					remove_ideas = Akihito_national_sprits
-				}
-
-	}
-	focus = {
-		id = MJP_clearing_the_past
-		icon = attack_communism
-		cost = 10.00
-		prerequisite = {
-			focus = KOR_abolition_of_the_emperor_system
-		}
-		x = 28
-		y = 10
-			completion_reward = {
-					add_stability = 0.05
-					if = {
-							limit = {
-									KR1 = {
-											exists = yes
-										}
-								}
-							add_opinion_modifier = {
-									target = KR1
-									modifier = clearing_the_past
-								}
-						}
-					else_if = {
-							limit = {
-									MKR = {
-											exists = yes
-										}
-								}
-							add_opinion_modifier = {
-									target = MKR
-									modifier = clearing_the_past
-								}
-						}
-					else_if = {
-							limit = {
-									ROK = {
-											exists = yes
-										}
-								}
-							add_opinion_modifier = {
-									target = ROK
-									modifier = clearing_the_past
-								}
-						}
-				}
-
-	}
-	focus = {
-		id = MJP_Freedom_of_religion
-		icon = religious_unity
-		cost = 10.00
-		prerequisite = {
-			focus = KOR_abolition_of_the_emperor_system
-		}
-		x = 26
-		y = 10
-			completion_reward = {
-					add_stability = 0.1
-					add_political_power = 100
-				}
-
-	}
-	focus = {
-		id = MJP_free_compulsory_education
-		icon = communist_scientists
-		cost = 10.00
-		prerequisite = {
-			focus = KOR_abolition_of_the_emperor_system
-		}
-		x = 27
-		y = 11
-			completion_reward = {
-					add_research_slot = 1
-				}
-
-	}
-	focus = {
-		id = KOR_MTU_Solving_the_Dokdo_Problem
-		icon = inundation_lines
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_clearing_the_past
-		}
-		x = 29
-		y = 11
-			completion_reward = {
-					if = {
-							limit = {
-									KR1 = {
-											exists = yes
-										}
-								}
-							KR1 = {
-									add_timed_idea = {
-											idea = Solving_the_Dokdo_Problem
-											days = 365
-										}
-								}
-						}
-					else_if = {
-							limit = {
-									MKR = {
-											exists = yes
-										}
-								}
-							MKR = {
-									add_timed_idea = {
-											idea = Solving_the_Dokdo_Problem
-											days = 365
-										}
-								}
-						}
-					else_if = {
-							limit = {
-									ROK = {
-											exists = yes
-										}
-								}
-							ROK = {
-									add_timed_idea = {
-											idea = Solving_the_Dokdo_Problem
-											days = 365
-										}
-								}
-						}
-				}
-
-	}
-	focus = {
-		id = MJP_Constitution_of_the_Peoples_Republic_of_Japan
-		icon = democratic_communism
-		cost = 10.00
-		prerequisite = {
-			focus = Communism
-		}
-		x = 29
-		y = 9
-			completion_reward = {
 					swap_ideas = {
-							add_idea = MJP_peace_Constitution_peoples
-							remove_idea = MJP_peace_Constitution
+							remove_idea = MJP_Emergencyy
+							add_idea = mMJP_Stable_Japan
 						}
-					add_ideas = war_economy
-				}
-
-	}
-	focus = {
-		id = MJP_Communism_program
-		icon = japan_communist_party
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_Freedom_of_religion
-		}
-		x = 25
-		y = 11
-			completion_reward = {
-					country_event = {
-							id = MJP.12
-						}
-				}
-
-	}
-	focus = {
-		id = MJP_child_labor_ban
-		icon = communist_repression
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_free_compulsory_education
-		}
-		x = 28
-		y = 12
-			completion_reward = {
-					add_ideas = child_labor_ban
-				}
-
-	}
-	focus = {
-		id = MJP_Resolving_gender_conflict
-		icon = women_issues
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_free_compulsory_education
-		}
-		x = 26
-		y = 12
-			completion_reward = {
-					add_stability = 0.05
-					add_war_support = -0.05
-					add_political_power = 50
-				}
-
-	}
-	focus = {
-		id = MJP_Guaranteed_three_labor_rights
-		icon = communism5
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_child_labor_ban
-		}
-		prerequisite = {
-			focus = KOR_MTU_Solving_the_Dokdo_Problem
-		}
-		x = 29
-		y = 13
-			completion_reward = {
-					country_event = {
-							id = MJP.14
-						}
-					add_tech_bonus = {
-							bonus = 1
-							uses = 2
-							category = radar_tech
-						}
-					add_tech_bonus = {
-							bonus = 1
-							uses = 3
-							category = industry
-						}
-				}
-
-	}
-	focus = {
-		id = MJP_abolition_of_war_laws
-		icon = communism3
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_Resolving_gender_conflict
-		}
-		prerequisite = {
-			focus = MJP_Communism_program
-		}
-		x = 25
-		y = 13
-			completion_reward = {
-					country_event = {
-							id = MJP.16
-						}
-					add_ideas = livelihood_law
-				}
-
-	}
-	focus = {
-		id = MJP_Self_Defense_Force_Reorganization
-		icon = army_officers_communist
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_Resolving_gender_conflict
-			focus = MJP_child_labor_ban
-		}
-		x = 27
-		y = 13
-			completion_reward = {
-					division_template = {
-							name = "노동자 민병대"
-							is_locked = yes
-							division_names_group = ""
-							priority = 0
-							template_counter = 0
-							regiments = {
-									infantry = {
-											x = 0
-											y = 0
-										}
-									infantry = {
-											x = 0
-											y = 1
-										}
-									infantry = {
-											x = 0
-											y = 2
-										}
-									infantry = {
-											x = 1
-											y = 0
-										}
-									infantry = {
-											x = 1
-											y = 1
-										}
-									infantry = {
-											x = 1
-											y = 2
-										}
-								}
-							support = {
-									military_police = {
-											x = 0
-											y = 0
-										}
-								}
-						}
-					delete_unit_template_and_units = {
-							division_template = "제1공정단"
-							disband = yes
-						}
-					delete_unit_template_and_units = {
-							division_template = "JSDF 차량화보병사단"
-							disband = yes
-						}
-					delete_unit_template_and_units = {
-							division_template = "JSDF 기갑사단"
-							disband = yes
-						}
-					delete_unit_template_and_units = {
-							division_template = "JSDF 기계화사단"
-							disband = yes
-						}
-					hidden_effect = {
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-							random_owned_controlled_state = {
-									prioritize = { 9764 }
-									create_unit = {
-											division = "name = \"노동자 민병대\" division_template = \"노동자 민병대\" start_experience_factor = 1"
-											owner = MJP
-										}
-								}
-						}
-				}
-
-	}
-	focus = {
-		id = MJP_stop_imperial_aggression
-		icon = enemy_of_china
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_abolition_of_war_laws
-		}
-		prerequisite = {
-			focus = MJP_Self_Defense_Force_Reorganization
-		}
-		x = 26
-		y = 14
-			completion_reward = {
-					country_event = {
-							id = MJP.15
-						}
-					add_opinion_modifier = {
-							target = ENG
-							modifier = hate_imperial_aggression
-						}
-					add_opinion_modifier = {
-							target = USA
-							modifier = hate_imperial_aggression
-						}
-					add_opinion_modifier = {
-							target = FRA
-							modifier = hate_imperial_aggression
-						}
-					add_opinion_modifier = {
-							target = BEL
-							modifier = hate_imperial_aggression
-						}
-					add_opinion_modifier = {
-							target = ITA
-							modifier = hate_imperial_aggression
-						}
-					add_opinion_modifier = {
-							target = GER
-							modifier = hate_imperial_aggression
-						}
-					add_opinion_modifier = {
-							target = POR
-							modifier = hate_imperial_aggression
-						}
-					add_opinion_modifier = {
-							target = HOL
-							modifier = hate_imperial_aggression
-						}
-					add_stability = 0.05
 				}
 
 	}
@@ -3645,7 +3698,7 @@ focus_tree = {
 		prerequisite = {
 			focus = MJP_Guaranteed_three_labor_rights
 		}
-		x = 28
+		x = 29
 		y = 14
 			completion_reward = {
 					country_event = {
@@ -3664,7 +3717,7 @@ focus_tree = {
 		prerequisite = {
 			focus = MJP_stop_imperial_aggression
 		}
-		x = 27
+		x = 28
 		y = 15
 			completion_reward = {
 					set_major = yes
@@ -3682,7 +3735,7 @@ focus_tree = {
 		prerequisite = {
 			focus = MJP_Diplomacy_and_security
 		}
-		x = 10
+		x = 7
 		y = 10
 			completion_reward = {
 					create_faction = "미일 안보 조약"
@@ -3699,7 +3752,7 @@ focus_tree = {
 		prerequisite = {
 			focus = MJP_Diplomacy_and_security
 		}
-		x = 12
+		x = 9
 		y = 10
 			completion_reward = {
 					create_wargoal = {
@@ -3717,7 +3770,7 @@ focus_tree = {
 			focus = MJP_US_Japan_Alliance
 			focus = MJP_North_Korea_sanctions
 		}
-		x = 11
+		x = 8
 		y = 11
 			completion_reward = {
 					create_wargoal = {
@@ -3735,7 +3788,7 @@ focus_tree = {
 			focus = network
 			focus = mjp_Maintenance_Shinkansen
 		}
-		x = 14
+		x = 11
 		y = 13
 			completion_reward = {
 					add_ideas = science_and_technology_ideas
@@ -3750,7 +3803,7 @@ focus_tree = {
 		prerequisite = {
 			focus = Liberal_Democratic_Party
 		}
-		x = 12
+		x = 9
 		y = 9
 			completion_reward = {
 					add_political_power = 100
@@ -3764,7 +3817,7 @@ focus_tree = {
 		prerequisite = {
 			focus = MJP_Northern_territorial_issues
 		}
-		x = 10
+		x = 7
 		y = 12
 			completion_reward = {
 					821 = {
@@ -3781,7 +3834,7 @@ focus_tree = {
 		prerequisite = {
 			focus = mjp_Dokdo_sovereignty
 		}
-		x = 10
+		x = 7
 		y = 13
 			completion_reward = {
 					add_ideas = Defense_Maintenance
@@ -3798,7 +3851,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SOC
 		}
-		x = 15
+		x = 12
 		y = 12
 			completion_reward = {
 					random_owned_controlled_state = {
@@ -3863,7 +3916,7 @@ focus_tree = {
 		prerequisite = {
 			focus = Liberal_Democratic_Party
 		}
-		x = 14
+		x = 11
 		y = 9
 			completion_reward = {
 					add_stability = 0.05
@@ -3878,7 +3931,7 @@ focus_tree = {
 		prerequisite = {
 			focus = Liberal_Democratic_Party
 		}
-		x = 16
+		x = 13
 		y = 9
 
 	}
@@ -3889,7 +3942,7 @@ focus_tree = {
 		prerequisite = {
 			focus = mjp_constitutional_law
 		}
-		x = 16
+		x = 13
 		y = 10
 			completion_reward = {
 					unlock_decision_tooltip = MJP_peace_Constitution_decisions
@@ -3917,11 +3970,12 @@ focus_tree = {
 		prerequisite = {
 			focus = Komeito
 		}
-		x = 19
+		x = 16
 		y = 11
-		completion_reward = {
-		add_ideas = a_tax_rate_hike
-		}
+			completion_reward = {
+					add_ideas = a_tax_rate_hike
+				}
+
 	}
 	focus = {
 		id = mjp_Youth_Employment
@@ -3933,57 +3987,59 @@ focus_tree = {
 		prerequisite = {
 			focus = mjp_Education_Administration_Review
 		}
-		x = 18
+		x = 15
 		y = 12
-		completion_reward = {
-			add_ideas = Youth_Employment
-		}
+			completion_reward = {
+					add_ideas = Youth_Employment
+				}
+
 	}
 	focus = {
 		id = mjp_STBthe_US_and_Japan
 		icon = GFX_goal_unknown
 		cost = 10.00
-		cancel = {
-			USJ = {
-				has_war_with = MJP
-			}
-			NOT = {
-				USJ = {
-					is_in_faction_with = MJP				
-				}
-			}
-		}
-		bypass = {
-			USJ = {
-				has_war_with = MJP
-			}
-			NOT = {
-				USJ = {
-					is_in_faction_with = MJP			
-				}
-			}
-		}
-		available = {
-			USJ = {
-				is_in_faction_with = MJP			
-			}
-		}
 		prerequisite = {
 			focus = mjp_WPTO
 		}
 		prerequisite = {
 			focus = mjp_MTU_Solving_the_Dokdo_Problem
 		}
-		x = 20
+		x = 17
 		y = 12
-		completion_reward = {
-			USJ = {
-				add_ideas = STBthe_US_and_Japan
-			}
-			MJP = {
-				add_ideas = STBthe_US_and_Japan		
-			}
-		}
+			cancel = {
+					USJ = {
+							has_war_with = MJP
+						}
+					NOT = {
+							USJ = {
+									is_in_faction_with = MJP
+								}
+						}
+				}
+			bypass = {
+					USJ = {
+							has_war_with = MJP
+						}
+					NOT = {
+							USJ = {
+									is_in_faction_with = MJP
+								}
+						}
+				}
+			available = {
+					USJ = {
+							is_in_faction_with = MJP
+						}
+				}
+			completion_reward = {
+					USJ = {
+							add_ideas = STBthe_US_and_Japan
+						}
+					MJP = {
+							add_ideas = STBthe_US_and_Japan
+						}
+				}
+
 	}
 	focus = {
 		id = mjp_MTU_Solving_the_Dokdo_Problem
@@ -3992,9 +4048,9 @@ focus_tree = {
 		prerequisite = {
 			focus = Past_History
 		}
-		x = 20
+		x = 17
 		y = 10
-		completion_reward = {
+			completion_reward = {
 					if = {
 							limit = {
 									KR1 = {
@@ -4035,6 +4091,7 @@ focus_tree = {
 								}
 						}
 				}
+
 	}
 	focus = {
 		id = mjp_WPTO
@@ -4043,22 +4100,22 @@ focus_tree = {
 		prerequisite = {
 			focus = mjp_MTU_Solving_the_Dokdo_Problem
 		}
-		available = {
-			has_completed_focus = mjp_a_coalition_government
-		}
-		cancel_if_invalid = yes
-		x = 21
+		x = 18
 		y = 11
-		completion_reward = {
+			available = {
+					has_completed_focus = mjp_a_coalition_government
+				}
+			cancel_if_invalid = yes
+			completion_reward = {
 					create_faction = "서태평양 조약기구"
 					MJP = {
-						add_to_faction = USJ
-						
-					}
+							add_to_faction = USJ
+						}
 					USJ = {
-						
-					}
+
+}
 				}
+
 	}
 	focus = {
 		id = mjp_Ishida_Koshiro
@@ -4070,30 +4127,31 @@ focus_tree = {
 		prerequisite = {
 			focus = mjp_STBthe_US_and_Japan
 		}
-		x = 19
+		x = 16
 		y = 13
-		completion_reward = {
-			create_country_leader = {
-				name = "Ishida Goshiro"
-				picture = "gfx/leaders/MJP/Ishida_Goshiro.png"
-				expire = "1995.1.1"
-				ideology = centrism
-				traits = {
+			completion_reward = {
+					create_country_leader = {
+							name = "Ishida Goshiro"
+							picture = "gfx/leaders/MJP/Ishida_Goshiro.png"
+							expire = "1995.1.1"
+							ideology = centrism
+							traits = {
 
-				}
-			}
-			hidden_effect = {
-				create_country_leader = {
-					name = "Ishida Goshiro"
-					picture = "gfx/leaders/MJP/Ishida_Goshiro.png"
-					expire = "1995.1.1"
-					ideology = conservatism
-					traits = {
+}
+						}
+					hidden_effect = {
+							create_country_leader = {
+									name = "Ishida Goshiro"
+									picture = "gfx/leaders/MJP/Ishida_Goshiro.png"
+									expire = "1995.1.1"
+									ideology = conservatism
+									traits = {
 
-					}
+}
+								}
+						}
 				}
-			}
-		}
+
 	}
 	focus = {
 		id = MJP_Air_Force_Air_Force_Augmentation
@@ -4104,6 +4162,121 @@ focus_tree = {
 		}
 		x = 58
 		y = 2
-		
+
+	}
+	focus = {
+		id = MJP_eradicating_poverty
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Welfare
+		}
+		x = 21
+		y = 12
+
+	}
+	focus = {
+		id = MJP_protection_of_human_rights
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Self_Defense_Force_Reorganization
+		}
+		prerequisite = {
+			focus = MJP_Guaranteed_three_labor_rights
+		}
+		x = 23
+		y = 10
+
+	}
+	focus = {
+		id = MJP_ Socialist_program
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Employment
+		}
+		x = 20
+		y = 11
+
+	}
+	focus = {
+		id = MJP_human_respect
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_protection_of_human_rights
+		}
+		x = 24
+		y = 11
+
+	}
+	focus = {
+		id = MJP_Breaking_the_bureaucracy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_human_respect
+		}
+		prerequisite = {
+			focus = Peace_Constitution
+		}
+		x = 24
+		y = 13
+
+	}
+	focus = {
+		id = MJP_JSDF_Demilitarized
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_eradicating_poverty
+			focus = Peace_Constitution
+		}
+		x = 22
+		y = 13
+
+	}
+	focus = {
+		id = MJP_the_quality_of_life
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_JSDF_Demilitarized
+		}
+		prerequisite = {
+			focus = MJP_Breaking_the_bureaucracy
+		}
+		x = 23
+		y = 14
+
+	}
+	focus = {
+		id = MJP_Stop_the_War_of _nvasion
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = social_democracy
+		}
+		prerequisite = {
+			focus = MJP_JSDF_Demilitarized
+		}
+		x = 21
+		y = 14
+
+	}
+	focus = {
+		id = MJP_Hosokawa_Cabinet
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Stop_the_War_of _nvasion
+		}
+		prerequisite = {
+			focus = MJP_the_quality_of_life
+		}
+		x = 22
+		y = 15
+
 	}
 }
