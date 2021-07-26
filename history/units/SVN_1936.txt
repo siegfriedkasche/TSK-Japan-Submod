@@ -47,21 +47,21 @@ units = {
 }
 
 air_wings = {
-	={
-		m_1970_jet_multirole_equipment = {
-			owner = "SV" 
-			amount = 409
+	859 ={
+		m_1970_jet_multirole_equipment = {	
+			owner = "SVN" 		
+			amount = 22		
 		}
 		m_1980_jet_multirole_equipment = {
-			owner = "SV" 
+			owner = "SVN" 
 			amount = 47
 		}
-		m_1970_jet_fighter_equipment: = {
-			owner = "SV" 
+		m_1970_jet_fighter_equipment = {
+			owner = "SVN"
 			amount = 255
 		}
-		m_1980_jet_fighter_equipment: = {
-			owner = "SV" 
+		m_1980_jet_fighter_equipment = {	
+			owner = "SVN"
 			amount = 255
 		}
 	}
