@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = Market_Control_Initiated_markets
-		icon = better_money
+		icon = GFX_better_money
 		cost = 10.00
 		x = 9
 		y = 0
@@ -22,7 +22,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_26
-		icon = manchurian_gamble
+		icon = GFX_manchurian_gamble
 		cost = 10.00
 		x = 21
 		y = 0
@@ -41,7 +41,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_30
-		icon = japanese_pacific_guardian
+		icon = GFX_japanese_pacific_guardian
 		cost = 10.00
 		x = 35
 		y = 0
@@ -54,7 +54,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_76
-		icon = internationalism
+		icon = GFX_internationalism
 		cost = 10.00
 		x = 42
 		y = 6
@@ -69,7 +69,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Military
-		icon = kempeitai
+		icon = GFX_kempeitai
 		cost = 10.00
 		mutually_exclusive = {
 			focus = MJP_Election
@@ -103,7 +103,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 15
-		y = 9
+		y = 10
 			completion_reward = {
 					add_popularity = {
 							ideology = democratic
@@ -122,13 +122,13 @@ focus_tree = {
 	}
 	focus = {
 		id = Communism
-		icon = Communism_MJP
+		icon = GFX_Communism_MJP
 		cost = 10.00
 		mutually_exclusive = {
 			focus = Non_alliance
 		}
 		x = 28
-		y = 8
+		y = 9
 			available = {
 					always = no
 				}
@@ -157,7 +157,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Oil_problem
-		icon = oil_trade
+		icon = GFX_oil_trade
 		cost = 10.00
 		prerequisite = {
 			focus = Market_Control_Initiated_markets
@@ -184,7 +184,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Securing_Fuel_Imports
-		icon = generic_gas
+		icon = GFX_generic_gas
 		cost = 10.00
 		prerequisite = {
 			focus = Oil_problem
@@ -199,7 +199,7 @@ focus_tree = {
 	}
 	focus = {
 		id = US_Trade_Opens
-		icon = align_to_america
+		icon = GFX_align_to_america
 		cost = 10.00
 		prerequisite = {
 			focus = Securing_Fuel_Imports
@@ -217,7 +217,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Middle_East_Contact
-		icon = align_to_hamas
+		icon = GFX_align_to_hamas
 		cost = 10.00
 		prerequisite = {
 			focus = Securing_Fuel_Imports
@@ -235,7 +235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_5
-		icon = navy2
+		icon = GFX_navy2
 		cost = 10.00
 		prerequisite = {
 			focus = US_Trade_Opens
@@ -252,7 +252,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_6
-		icon = steel_production
+		icon = GFX_steel_production
 		cost = 10.00
 		prerequisite = {
 			focus = Oil_problem
@@ -266,7 +266,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_7
-		icon = steel_production2
+		icon = GFX_steel_production2
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_6
@@ -284,7 +284,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_8
-		icon = money
+		icon = GFX_money
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_7
@@ -301,7 +301,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_9
-		icon = oil_trade
+		icon = GFX_oil_trade
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_8
@@ -320,7 +320,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_11
-		icon = central_planned_economy2
+		icon = GFX_central_planned_economy2
 		cost = 3.00
 		prerequisite = {
 			focus = Market_Control_Initiated_markets
@@ -334,7 +334,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_12
-		icon = better_money_on_fire
+		icon = GFX_better_money_on_fire
 		cost = 3.00
 		prerequisite = {
 			focus = Market_Control_Initiated_markets
@@ -348,7 +348,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_13
-		icon = vineyard
+		icon = GFX_vineyard
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_11
@@ -375,7 +375,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_14
-		icon = centralization_question
+		icon = GFX_centralization_question
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_13
@@ -398,7 +398,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_15
-		icon = brain_power
+		icon = GFX_brain_power
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_14
@@ -417,7 +417,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_16
-		icon = construction_engineering
+		icon = GFX_construction_engineering
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_14
@@ -437,7 +437,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_17
-		icon = infrastructure
+		icon = GFX_infrastructure
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_16
@@ -468,7 +468,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_25
-		icon = construction3
+		icon = GFX_construction3
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_17
@@ -505,7 +505,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_18
-		icon = construction4
+		icon = GFX_construction4
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_16
@@ -524,7 +524,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_21
-		icon = decentralized_economy
+		icon = GFX_decentralized_economy
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_18
@@ -544,7 +544,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_19
-		icon = infrastructure1
+		icon = GFX_infrastructure1
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_16
@@ -564,7 +564,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_22
-		icon = resource_extraction
+		icon = GFX_resource_extraction
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_18
@@ -584,13 +584,13 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_bureaucracy
-		icon = government_beu
+		icon = GFX_government_beu
 		cost = 10.00
 		prerequisite = {
 			focus = Coalition
 		}
 		x = 15
-		y = 10
+		y = 11
 			completion_reward = {
 					add_popularity = {
 							ideology = neutrality
@@ -607,13 +607,13 @@ focus_tree = {
 	}
 	focus = {
 		id = mjp_Education_Administration_Review
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_bureaucracy
 		}
 		x = 14
-		y = 11
+		y = 12
 			completion_reward = {
 					add_ideas = Education_Administration_Review
 				}
@@ -621,7 +621,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_23
-		icon = central_planned_economy
+		icon = GFX_central_planned_economy
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_19
@@ -641,7 +641,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_27
-		icon = korean_peninsula
+		icon = GFX_korean_peninsula
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_26
@@ -652,7 +652,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_28
-		icon = align_to_south_korea
+		icon = GFX_align_to_south_korea
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_27
@@ -663,7 +663,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_56
-		icon = military_planning
+		icon = GFX_military_planning
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_27
@@ -674,7 +674,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_29
-		icon = infiltration
+		icon = GFX_infiltration
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_28
@@ -688,7 +688,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_64
-		icon = prk_contact_with_the_South
+		icon = GFX_prk_contact_with_the_South
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_56
@@ -699,7 +699,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_67
-		icon = anti_submarine
+		icon = GFX_anti_submarine
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_29
@@ -713,7 +713,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_69
-		icon = attack_north_korea
+		icon = GFX_attack_north_korea
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_67
@@ -724,7 +724,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_66
-		icon = united_states_air_force
+		icon = GFX_united_states_air_force
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_69
@@ -735,7 +735,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_2
-		icon = KOR_intel
+		icon = GFX_KOR_intel
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_26
@@ -757,7 +757,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_35
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_26
@@ -935,13 +935,13 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_abolition_of_the_emperor_system
-		icon = revolutionary_government
+		icon = GFX_revolutionary_government
 		cost = 10.00
 		prerequisite = {
 			focus = Communism
 		}
 		x = 28
-		y = 9
+		y = 10
 			completion_reward = {
 					add_stability = -0.05
 					remove_ideas = Akihito_national_sprits
@@ -950,13 +950,13 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Freedom_of_religion
-		icon = religious_unity
+		icon = GFX_religious_unity
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_abolition_of_the_emperor_system
 		}
 		x = 27
-		y = 10
+		y = 11
 			completion_reward = {
 					add_stability = 0.1
 					add_political_power = 100
@@ -965,13 +965,13 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Communism_program
-		icon = japan_communist_party
+		icon = GFX_japan_communist_party
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Freedom_of_religion
 		}
 		x = 26
-		y = 11
+		y = 12
 			completion_reward = {
 					country_event = {
 							id = MJP.12
@@ -981,13 +981,13 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_free_compulsory_education
-		icon = communist_scientists
+		icon = GFX_communist_scientists
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_abolition_of_the_emperor_system
 		}
 		x = 28
-		y = 11
+		y = 12
 			completion_reward = {
 					add_research_slot = 1
 				}
@@ -995,13 +995,13 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Resolving_gender_conflict
-		icon = women_issues
+		icon = GFX_women_issues
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_free_compulsory_education
 		}
 		x = 27
-		y = 12
+		y = 13
 			completion_reward = {
 					add_stability = 0.05
 					add_war_support = -0.05
@@ -1011,7 +1011,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_abolition_of_war_laws
-		icon = communism3
+		icon = GFX_communism3
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Resolving_gender_conflict
@@ -1020,7 +1020,7 @@ focus_tree = {
 			focus = MJP_Communism_program
 		}
 		x = 26
-		y = 13
+		y = 14
 			completion_reward = {
 					country_event = {
 							id = MJP.16
@@ -1031,13 +1031,13 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_child_labor_ban
-		icon = communist_repression
+		icon = GFX_communist_repression
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_free_compulsory_education
 		}
 		x = 29
-		y = 12
+		y = 13
 			completion_reward = {
 					add_ideas = child_labor_ban
 				}
@@ -1045,14 +1045,14 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Self_Defense_Force_Reorganization
-		icon = army_officers_communist
+		icon = GFX_army_officers_communist
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Resolving_gender_conflict
 			focus = MJP_child_labor_ban
 		}
 		x = 28
-		y = 13
+		y = 14
 			completion_reward = {
 					division_template = {
 							name = "노동자 민병대"
@@ -1284,7 +1284,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_stop_imperial_aggression
-		icon = enemy_of_china
+		icon = GFX_enemy_of_china
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_abolition_of_war_laws
@@ -1293,7 +1293,7 @@ focus_tree = {
 			focus = MJP_Self_Defense_Force_Reorganization
 		}
 		x = 27
-		y = 14
+		y = 15
 			completion_reward = {
 					country_event = {
 							id = MJP.15
@@ -1366,13 +1366,13 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Constitution_of_the_Peoples_Republic_of_Japan
-		icon = democratic_communism
+		icon = GFX_democratic_communism
 		cost = 10.00
 		prerequisite = {
 			focus = Communism
 		}
 		x = 30
-		y = 9
+		y = 10
 			completion_reward = {
 					swap_ideas = {
 							add_idea = MJP_peace_Constitution_peoples
@@ -1384,13 +1384,13 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_clearing_the_past
-		icon = attack_communism
+		icon = GFX_attack_communism
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_abolition_of_the_emperor_system
 		}
 		x = 29
-		y = 10
+		y = 11
 			completion_reward = {
 					add_stability = 0.05
 					if = {
@@ -1431,13 +1431,13 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_MTU_Solving_the_Dokdo_Problem
-		icon = inundation_lines
+		icon = GFX_inundation_lines
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_clearing_the_past
 		}
 		x = 30
-		y = 11
+		y = 12
 			completion_reward = {
 					if = {
 							limit = {
@@ -1483,7 +1483,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Guaranteed_three_labor_rights
-		icon = communism5
+		icon = GFX_communism5
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_child_labor_ban
@@ -1492,7 +1492,7 @@ focus_tree = {
 			focus = KOR_MTU_Solving_the_Dokdo_Problem
 		}
 		x = 30
-		y = 13
+		y = 14
 			completion_reward = {
 					country_event = {
 							id = MJP.14
@@ -1512,7 +1512,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_41
-		icon = goal_unknown
+		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_31
@@ -1629,7 +1629,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Military_control
-		icon = Military_control
+		icon = GFX_Military_control
 		cost = 10.00
 		prerequisite = {
 			focus = Military
@@ -3074,7 +3074,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Liberal_Democratic_Party
-		icon = Liberal_Democratic_Party_MJP
+		icon = GFX_Liberal_Democratic_Party_MJP
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Election
@@ -3083,18 +3083,18 @@ focus_tree = {
 			focus = Komeito
 		}
 		x = 11
-		y = 8
+		y = 9
 
 	}
 	focus = {
 		id = Grants
-		icon = wheat_field
+		icon = GFX_wheat_field
 		cost = 10.00
 		prerequisite = {
 			focus = mjp_social_capital_maintenance
 		}
 		x = 11
-		y = 10
+		y = 11
 			completion_reward = {
 					add_popularity = {
 							ideology = democratic
@@ -3112,7 +3112,7 @@ focus_tree = {
 			focus = Komeito
 		}
 		x = 17
-		y = 9
+		y = 10
 			completion_reward = {
 					add_stability = 0.05
 					if = {
@@ -3199,7 +3199,7 @@ focus_tree = {
 			focus = Grants
 		}
 		x = 11
-		y = 11
+		y = 12
 			completion_reward = {
 					532 = {
 							add_offsite_building = {
@@ -3252,7 +3252,7 @@ focus_tree = {
 			focus = Non_alliance
 		}
 		x = 16
-		y = 8
+		y = 9
 			available = {
 					always = no
 				}
@@ -3299,7 +3299,7 @@ focus_tree = {
 			focus = Komeito
 		}
 		x = 15
-		y = 9
+		y = 10
 			completion_reward = {
 					add_popularity = {
 							ideology = democratic
@@ -3343,7 +3343,7 @@ focus_tree = {
 			focus = Komeito
 		}
 		x = 22
-		y = 8
+		y = 9
 			available = {
 					always = no
 				}
@@ -3373,7 +3373,7 @@ focus_tree = {
 			focus = Rural_area
 		}
 		x = 21
-		y = 10
+		y = 11
 			completion_reward = {
 					add_political_power = 150
 					add_popularity = {
@@ -3388,13 +3388,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = MJP_protection_of_human_rights
+			focus = MJP_of_human_rights
 		}
 		prerequisite = {
 			focus = Employment
 		}
 		x = 22
-		y = 11
+		y = 12
 			completion_reward = {
 					add_political_power = 150
 					add_popularity = {
@@ -3412,7 +3412,7 @@ focus_tree = {
 			focus = Non_alliance
 		}
 		x = 22
-		y = 9
+		y = 10
 
 	}
 	focus = {
@@ -3423,12 +3423,12 @@ focus_tree = {
 			focus = Welfare
 		}
 		x = 23
-		y = 12
+		y = 13
 
 	}
 	focus = {
 		id = MJP_Cabinet_of_Hashimoto
-		icon = MJP_Cabinet_of_Hashimoto
+		icon = GFX_MJP_Cabinet_of_Hashimoto
 		cost = 10.00
 		prerequisite = {
 			focus = mjp_Defense_Maintenance_Plan
@@ -3437,7 +3437,7 @@ focus_tree = {
 			focus = MJP_science_and_technology
 		}
 		x = 9
-		y = 14
+		y = 15
 			completion_reward = {
 					create_country_leader = {
 							name = "Ryutaro Hashimoto"
@@ -3457,13 +3457,13 @@ focus_tree = {
 	}
 	focus = {
 		id = network
-		icon = construct_infrastructure
+		icon = GFX_construct_infrastructure
 		cost = 10.00
 		prerequisite = {
 			focus = SOC
 		}
 		x = 10
-		y = 12
+		y = 13
 			completion_reward = {
 					531 = {
 							add_offsite_building = {
@@ -3536,13 +3536,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = MJP_Socialist_program
+			focus = MJP_ Socialist_program
 		}
 		prerequisite = {
 			focus = MJP_eradicating_poverty
 		}
 		x = 20
-		y = 13
+		y = 14
 
 	}
 	focus = {
@@ -3690,7 +3690,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_protection_of_human_rights
-		icon = support_the_left_right
+		icon = GFX_support_the_left_right
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Self_Defense_Force_Reorganization
@@ -3699,7 +3699,7 @@ focus_tree = {
 			focus = MJP_Guaranteed_three_labor_rights
 		}
 		x = 29
-		y = 14
+		y = 15
 			completion_reward = {
 					country_event = {
 							id = MJP.17
@@ -3709,7 +3709,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_International_Workers_Solidarity
-		icon = gennady_zyuganov
+		icon = GFX_gennady_zyuganov
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_protection_of_human_rights
@@ -3718,7 +3718,7 @@ focus_tree = {
 			focus = MJP_stop_imperial_aggression
 		}
 		x = 28
-		y = 15
+		y = 16
 			completion_reward = {
 					set_major = yes
 					create_faction = "국제 노동자 연대"
@@ -3730,13 +3730,13 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_US_Japan_Alliance
-		icon = alliance_JAP_USA
+		icon = GFX_alliance_JAP_USA
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Diplomacy_and_security
 		}
 		x = 7
-		y = 10
+		y = 11
 			completion_reward = {
 					create_faction = "미일 안보 조약"
 					MJP = {
@@ -3747,13 +3747,13 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_North_Korea_sanctions
-		icon = juche3
+		icon = GFX_juche3
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Diplomacy_and_security
 		}
 		x = 9
-		y = 10
+		y = 11
 			completion_reward = {
 					create_wargoal = {
 							type = puppet_wargoal_focus
@@ -3764,14 +3764,14 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Northern_territorial_issues
-		icon = war_against_the_soviet_union
+		icon = GFX_war_against_the_soviet_union
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_US_Japan_Alliance
 			focus = MJP_North_Korea_sanctions
 		}
 		x = 8
-		y = 11
+		y = 12
 			completion_reward = {
 					create_wargoal = {
 							type = puppet_wargoal_focus
@@ -3782,14 +3782,14 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_science_and_technology
-		icon = research2
+		icon = GFX_research2
 		cost = 10.00
 		prerequisite = {
 			focus = network
 			focus = mjp_Maintenance_Shinkansen
 		}
 		x = 11
-		y = 13
+		y = 14
 			completion_reward = {
 					add_ideas = science_and_technology_ideas
 					add_stability = -0.05
@@ -3798,13 +3798,13 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Diplomacy_and_security
-		icon = infiltration_tactics
+		icon = GFX_infiltration_tactics
 		cost = 10.00
 		prerequisite = {
 			focus = Liberal_Democratic_Party
 		}
 		x = 9
-		y = 9
+		y = 10
 			completion_reward = {
 					add_political_power = 100
 				}
@@ -3812,13 +3812,13 @@ focus_tree = {
 	}
 	focus = {
 		id = mjp_Dokdo_sovereignty
-		icon = inundation_lines
+		icon = GFX_inundation_lines
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Northern_territorial_issues
 		}
 		x = 7
-		y = 12
+		y = 13
 			completion_reward = {
 					821 = {
 							add_core_of = MJP
@@ -3829,13 +3829,13 @@ focus_tree = {
 	}
 	focus = {
 		id = mjp_Defense_Maintenance_Plan
-		icon = coalition_army
+		icon = GFX_coalition_army
 		cost = 10.00
 		prerequisite = {
 			focus = mjp_Dokdo_sovereignty
 		}
 		x = 7
-		y = 13
+		y = 14
 			completion_reward = {
 					add_ideas = Defense_Maintenance
 					USJ = {
@@ -3846,13 +3846,13 @@ focus_tree = {
 	}
 	focus = {
 		id = mjp_Maintenance_Shinkansen
-		icon = construction4
+		icon = GFX_construction4
 		cost = 10.00
 		prerequisite = {
 			focus = SOC
 		}
 		x = 12
-		y = 12
+		y = 13
 			completion_reward = {
 					random_owned_controlled_state = {
 							add_offsite_building = {
@@ -3911,13 +3911,13 @@ focus_tree = {
 	}
 	focus = {
 		id = mjp_social_capital_maintenance
-		icon = better_money_on_fire
+		icon = GFX_better_money_on_fire
 		cost = 10.00
 		prerequisite = {
 			focus = Liberal_Democratic_Party
 		}
 		x = 11
-		y = 9
+		y = 10
 			completion_reward = {
 					add_stability = 0.05
 					add_ideas = social_capital_maintenance
@@ -3926,24 +3926,24 @@ focus_tree = {
 	}
 	focus = {
 		id = mjp_constitutional_law
-		icon = treaty
+		icon = GFX_treaty
 		cost = 10.00
 		prerequisite = {
 			focus = Liberal_Democratic_Party
 		}
 		x = 13
-		y = 9
+		y = 10
 
 	}
 	focus = {
 		id = mjp_a_peaceful_constitution
-		icon = treaty2
+		icon = GFX_treaty2
 		cost = 10.00
 		prerequisite = {
 			focus = mjp_constitutional_law
 		}
 		x = 13
-		y = 10
+		y = 11
 			completion_reward = {
 					unlock_decision_tooltip = MJP_peace_Constitution_decisions
 				}
@@ -3971,7 +3971,7 @@ focus_tree = {
 			focus = Komeito
 		}
 		x = 16
-		y = 11
+		y = 12
 			completion_reward = {
 					add_ideas = a_tax_rate_hike
 				}
@@ -3988,7 +3988,7 @@ focus_tree = {
 			focus = mjp_Education_Administration_Review
 		}
 		x = 15
-		y = 12
+		y = 13
 			completion_reward = {
 					add_ideas = Youth_Employment
 				}
@@ -4005,7 +4005,7 @@ focus_tree = {
 			focus = mjp_MTU_Solving_the_Dokdo_Problem
 		}
 		x = 17
-		y = 12
+		y = 13
 			cancel = {
 					USJ = {
 							has_war_with = MJP
@@ -4049,7 +4049,7 @@ focus_tree = {
 			focus = Past_History
 		}
 		x = 17
-		y = 10
+		y = 11
 			completion_reward = {
 					if = {
 							limit = {
@@ -4101,7 +4101,7 @@ focus_tree = {
 			focus = mjp_MTU_Solving_the_Dokdo_Problem
 		}
 		x = 18
-		y = 11
+		y = 12
 			available = {
 					has_completed_focus = mjp_a_coalition_government
 				}
@@ -4128,7 +4128,7 @@ focus_tree = {
 			focus = mjp_STBthe_US_and_Japan
 		}
 		x = 16
-		y = 13
+		y = 14
 			completion_reward = {
 					create_country_leader = {
 							name = "Ishida Goshiro"
@@ -4172,32 +4172,29 @@ focus_tree = {
 			focus = Welfare
 		}
 		x = 21
-		y = 12
+		y = 13
 
 	}
 	focus = {
-		id = MJP_protection_of_human_rights
+		id = MJP_of_human_rights
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = MJP_Self_Defense_Force_Reorganization
-		}
-		prerequisite = {
-			focus = MJP_Guaranteed_three_labor_rights
+			focus = Rural_area
 		}
 		x = 23
-		y = 10
+		y = 11
 
 	}
 	focus = {
-		id = MJP_Socialist_program
+		id = MJP_ Socialist_program
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = Employment
 		}
 		x = 20
-		y = 11
+		y = 12
 
 	}
 	focus = {
@@ -4205,10 +4202,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = MJP_protection_of_human_rights
+			focus = MJP_of_human_rights
 		}
 		x = 24
-		y = 11
+		y = 12
 
 	}
 	focus = {
@@ -4222,7 +4219,7 @@ focus_tree = {
 			focus = Peace_Constitution
 		}
 		x = 24
-		y = 13
+		y = 14
 
 	}
 	focus = {
@@ -4234,7 +4231,7 @@ focus_tree = {
 			focus = Peace_Constitution
 		}
 		x = 22
-		y = 13
+		y = 14
 
 	}
 	focus = {
@@ -4248,11 +4245,11 @@ focus_tree = {
 			focus = MJP_Breaking_the_bureaucracy
 		}
 		x = 23
-		y = 14
+		y = 15
 
 	}
 	focus = {
-		id = MJP_Stop_the_War_of_nvasion
+		id = MJP_Stop_the_War_of _nvasion
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -4262,7 +4259,7 @@ focus_tree = {
 			focus = MJP_JSDF_Demilitarized
 		}
 		x = 21
-		y = 14
+		y = 15
 
 	}
 	focus = {
@@ -4270,13 +4267,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = MJP_Stop_the_War_of_nvasion
+			focus = MJP_Stop_the_War_of _nvasion
 		}
 		prerequisite = {
 			focus = MJP_the_quality_of_life
 		}
 		x = 22
-		y = 15
+		y = 16
 
 	}
 }
