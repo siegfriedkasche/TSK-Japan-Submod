@@ -3536,7 +3536,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = MJP_ Socialist_program
+			focus = MJP_Socialist_program
 		}
 		prerequisite = {
 			focus = MJP_eradicating_poverty
@@ -4190,7 +4190,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = MJP_ Socialist_program
+		id = MJP_Socialist_program
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -4252,7 +4252,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = MJP_Stop_the_War_of _nvasion
+		id = MJP_Stop_the_War_of_nvasion
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -4270,7 +4270,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = MJP_Stop_the_War_of _nvasion
+			focus = MJP_Stop_the_War_of_nvasion
 		}
 		prerequisite = {
 			focus = MJP_the_quality_of_life
