@@ -79,33 +79,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_102
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 31
-		y = 10
-
-	}
-	focus = {
-		id = Komeito
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 19
-		y = 8
-			available = {
-					always = no
-				}
-
-	}
-	focus = {
-		id = mjp_a_coalition_government
+		id = Coalition
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 18
 		y = 9
 			completion_reward = {
 					add_popularity = {
-							ideology = neutrality
+							ideology = democratic
 							popularity = 0.15
 						}
 				}
@@ -125,14 +106,6 @@ focus_tree = {
 		cost = 10.00
 		x = 52
 		y = 1
-
-	}
-	focus = {
-		id = mjp_MTU_Solving_the_Dokdo_Problem
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 20
-		y = 10
 
 	}
 	focus = {
@@ -583,6 +556,34 @@ focus_tree = {
 
 	}
 	focus = {
+		id = MJP_bureaucracy
+		icon = government_beu
+		cost = 10.00
+		prerequisite = {
+			focus = Coalition
+		}
+		x = 18
+		y = 10
+			completion_reward = {
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.15
+						}
+				}
+
+	}
+	focus = {
+		id = mjp_Education_Administration_Review
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_bureaucracy
+		}
+		x = 17
+		y = 11
+
+	}
+	focus = {
 		id = newfocus_27
 		icon = korean_peninsula
 		cost = 10.00
@@ -993,6 +994,17 @@ focus_tree = {
 		}
 		x = 31
 		y = 9
+
+	}
+	focus = {
+		id = newfocus_102
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_107
+		}
+		x = 31
+		y = 10
 
 	}
 	focus = {
@@ -1757,7 +1769,7 @@ focus_tree = {
 			focus = MJP_Election
 		}
 		mutually_exclusive = {
-			focus = Constitution
+			focus = Komeito
 		}
 		x = 14
 		y = 8
@@ -1782,106 +1794,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Constitution
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_Election
-		}
-		prerequisite = {
-			focus = MJP_Election
-		}
-		prerequisite = {
-			focus = MJP_Election
-		}
-		prerequisite = {
-			focus = MJP_Election
-		}
-		prerequisite = {
-			focus = MJP_Election
-		}
-		prerequisite = {
-			focus = MJP_Election
-		}
-		prerequisite = {
-			focus = MJP_Election
-		}
-		prerequisite = {
-			focus = MJP_Election
-		}
-		mutually_exclusive = {
-			focus = Liberal_Democratic_Party
-			focus = Non_alliance
-		}
-		x = 19
-		y = 8
-
-	}
-	focus = {
-		id = Coalition
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
-		}
-		x = 18
-		y = 9
-			completion_reward = {
-					add_popularity = {
-							ideology = democratic
-							popularity = 0.15
-						}
-				}
-
-	}
-	focus = {
 		id = Past_History
-		icon = GFX_goal_unknown
+		icon = goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
-		}
-		prerequisite = {
-			focus = Constitution
+			focus = Komeito
 		}
 		x = 20
 		y = 9
@@ -1889,7 +1806,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Election
-		icon = GFX_goal_unknown
+		icon = goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_2
@@ -1917,7 +1834,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOC
-		icon = GFX_gold_standard
+		icon = gold_standard
 		cost = 10.00
 		prerequisite = {
 			focus = Grants
@@ -1965,6 +1882,41 @@ focus_tree = {
 
 	}
 	focus = {
+		id = Komeito
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = MJP_Election
+		}
+		mutually_exclusive = {
+			focus = Liberal_Democratic_Party
+			focus = Non_alliance
+		}
+		x = 19
+		y = 8
+			available = {
+					always = no
+				}
+
+	}
+	focus = {
+		id = mjp_a_coalition_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Komeito
+		}
+		x = 18
+		y = 9
+			completion_reward = {
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.15
+						}
+				}
+
+	}
+	focus = {
 		id = Non_alliance
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -1972,8 +1924,8 @@ focus_tree = {
 			focus = MJP_Election
 		}
 		mutually_exclusive = {
-			focus = Constitution
 			focus = Communism
+			focus = Komeito
 		}
 		x = 23
 		y = 8
@@ -2168,23 +2120,6 @@ focus_tree = {
 									type = Infrastructure
 									level = 2
 								}
-						}
-				}
-
-	}
-	focus = {
-		id = MJP_bureaucracy
-		icon = government_beu
-		cost = 10.00
-		prerequisite = {
-			focus = Coalition
-		}
-		x = 18
-		y = 10
-			completion_reward = {
-					add_popularity = {
-							ideology = neutrality
-							popularity = 0.15
 						}
 				}
 
@@ -3187,17 +3122,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = mjp_Education_Administration_Review
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = MJP_bureaucracy
-		}
-		x = 17
-		y = 11
-
-	}
-	focus = {
 		id = mjp_a_tax_rate_hike
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -3235,6 +3159,17 @@ focus_tree = {
 		}
 		x = 20
 		y = 12
+
+	}
+	focus = {
+		id = mjp_MTU_Solving_the_Dokdo_Problem
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Past_History
+		}
+		x = 20
+		y = 10
 
 	}
 	focus = {
