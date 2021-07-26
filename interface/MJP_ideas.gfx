@@ -1,5 +1,20 @@
 spriteTypes = {
-
+	spriteType = {
+		name = "GFX_idea_Education_Administration_Review"
+		texturefile = "gfx/ideas/MJP/Education_Administration_Review.png"
+	}
+	spriteType = {
+		name = "GFX_idea_huge_tax"
+		texturefile = "gfx/ideas/MJP/huge_tax.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Youth_Employment"
+		texturefile = "gfx/ideas/MJP/Youth_Employment.png"
+	}
+	spriteType = {
+		name = "GFX_idea_a_tax_rate_hike"
+		texturefile = "gfx/ideas/MJP/a_tax_rate_hike.png"
+	}
 	spriteType = {
 		name = "GFX_idea_Akihito"
 		texturefile = "gfx/ideas/MJP/Akihito.png"

@@ -11,6 +11,11 @@ spriteTypes = {
 		legacy_lazy_load = no 
 	}
 	SpriteType = {
+		name = "Military_control"
+		texturefile = "gfx/interface/goals/Military_control.png"
+		legacy_lazy_load = no 
+	}
+	SpriteType = {
 		name = "GFX_MJP_Cabinet_of_Hashimoto"
 		texturefile = "gfx/interface/goals/GFX_MJP_Cabinet_of_Hashimoto.png"
 		legacy_lazy_load = no 

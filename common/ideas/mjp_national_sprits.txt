@@ -1,4 +1,115 @@
 ideas = {
+    country = {
+
+        Youth_Employment = { 
+
+            allowed = {
+                original_tag = MJP 
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Youth_Employment
+
+            removal_cost = -1
+            
+            modifier = { #효과
+			   production_factory_max_efficiency_factor = 0.1
+			   production_factory_start_efficiency_factor = 0.1
+			   industrial_capacity_factory = 0.15
+			   production_speed_buildings_factor = 0.15
+            }
+        }
+    }
+	country = {
+
+        huge_tax = { 
+
+            allowed = {
+                original_tag = MJP 
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+			
+			cancel = {
+				not = {
+					has_government = fascism
+				}
+			}
+
+            picture = huge_tax
+
+            removal_cost = -1
+            
+            modifier = { #효과
+               consumer_goods_factor = -0.2
+			   stability_factor = -0.1
+			   industrial_capacity_factory = -0.2
+			   production_speed_buildings_factor = -0.2
+			   monthly_population = -0.05
+            }
+        }
+    }
+     country = {
+
+        a_tax_rate_hike = { 
+
+            allowed = {
+                original_tag = MJP 
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = a_tax_rate_hike 
+
+            removal_cost = -1
+            
+            modifier = { #효과
+               consumer_goods_factor = 0.03
+			   stability_factor = 0.1
+			   industrial_capacity_factory = 0.15
+			   production_speed_buildings_factor = 0.15
+            }
+        }
+    }
+	country = {
+
+        STBthe_US_and_Japan = { 
+
+            allowed = {
+                original_tag = MJP 
+				original_tag = USJ
+            }
+			
+			cancel = {
+				NOT = {
+					USJ = {
+						is_in_faction_with = MJP
+					}
+				}
+			}
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = gre_schachtplan
+
+            removal_cost = -1
+            
+            modifier = { #효과
+               army_defence_factor = 0.15
+			   army_core_defence_factor = 0.1
+			   army_attack_factor = 0.15
+            }
+        }
+    }
     country = { #country로 써줘요 국민정신으로 나옴
 
         MJP_economy_collaps = { #아이디어스 id
@@ -18,7 +129,6 @@ ideas = {
             modifier = { #효과
                 consumer_goods_factor = 0.30
                 industrial_capacity_factory = -0.3
-                production_factory_max_efficiency_factor  = -0.3
                 production_factory_max_efficiency_factor  = -0.3
                 production_factory_start_efficiency_factor   = -0.15
                 stability_factor = -0.15
@@ -523,6 +633,28 @@ ideas = {
 				industrial_capacity_factory = -0.2
 				production_factory_max_efficiency_factor = 0.15
 				production_factory_start_efficiency_factor = 0.15
+            }
+        }
+    }
+	country = {
+
+        Education_Administration_Review = { 
+
+            allowed = {
+                original_tag = MJP
+				original_tag = USJ
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture =  Education_Administration_Review
+
+            removal_cost = -1
+            
+            modifier = { #효과	
+                research_speed_factor  = 0.25
             }
         }
     }

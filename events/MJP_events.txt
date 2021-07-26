@@ -341,3 +341,36 @@ country_event = {
 		}
 	}
 }
+country_event = {
+
+	id = MJP.18
+    title = MJP.18.t
+    desc = MJP.18.d
+    picture = GFX_mine_event_picture
+    is_triggered_only = yes
+
+    option = {
+        name = MJP.18.a
+        ai_chance = {
+            factor = 80
+        }
+		MJP = {
+			annex_country = {
+    			target = ROOT
+    			transfer_troops = yes
+    		}
+		}
+	}
+	option = {
+        name = MJP.18.c
+		ai_chance = {
+            factor = 20
+        }
+		MJP = {
+			create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = ROOT
+			}
+		}
+	}
+}
