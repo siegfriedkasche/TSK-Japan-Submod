@@ -2301,10 +2301,10 @@ focus_tree = {
 		x = 23
 		y = 6
 			completion_reward = {
-				swap_ideas = {
-                    add_idea = MJP_Stable_Japan
-                    remove_idea = MJP_Emergencyy
-			}
+            swap_ideas = {
+                 remove_idea = MJP_Emergencyy
+                 add_idea = mMJP_Stable_Japan
+            }
 	    }
 	}
 	focus = {
