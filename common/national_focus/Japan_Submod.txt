@@ -2838,7 +2838,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = MJP_Kongo_class_destroyer
+		id = MJP_Kongō_class_destroyer
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -2854,7 +2854,7 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Medium_term_defense_maintenance_plan
-			focus = MJP_Kongo_class_destroyer
+			focus = MJP_Kongō_class_destroyer
 			focus = MJP_Izumo
 		}
 		x = 52
