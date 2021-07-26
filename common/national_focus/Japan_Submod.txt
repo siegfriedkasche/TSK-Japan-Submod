@@ -104,6 +104,9 @@ focus_tree = {
 		id = MJP_Nany_rearmament
 		icon = GFX_goal_unknown
 		cost = 10.00
+		prerequisite = {
+			focus = mjp_NDF
+		}
 		x = 52
 		y = 1
 
@@ -2298,9 +2301,11 @@ focus_tree = {
 		x = 23
 		y = 6
 			completion_reward = {
-					add_ideas = MJP_Stable_Japan
-				}
-
+				swap_ideas = {
+                    add_idea = MJP_Stable_Japan
+                    remove_idea = MJP_Emergencyy
+			}
+	    }
 	}
 	focus = {
 		id = KOR_abolition_of_the_emperor_system
