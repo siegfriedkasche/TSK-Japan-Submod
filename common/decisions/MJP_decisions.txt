@@ -1,7 +1,7 @@
 MJP_decisions_policy = {
 	MJP_peace_Constitution_decisions = {
 		available = {
-			has_completed_focus = MJP_abolition_of_war_laws
+			has_completed_focus = mjp_a_peaceful_constitution
 			hidden_effect = {
 				not = {
 					has_war = yes
