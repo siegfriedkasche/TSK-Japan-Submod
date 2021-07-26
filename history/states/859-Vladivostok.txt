@@ -13,13 +13,13 @@ state={
 		add_core_of = SOV
 		buildings = {
 			infrastructure = 4
-            air_base = 10
+			air_base = 10
 			arms_factory = 5
 			industrial_complex = 10
 			dockyard = 7
 			steel_mill = 3
 			fuel_silo = 4
-                957 = {
+            957 = {
 				naval_base = 7
 
 			}
@@ -29,6 +29,7 @@ state={
 		victory_points = {
 			957 30
 		}
+
 		1936.1.4 = {
 			owner = SOV
 			controller = SOV
