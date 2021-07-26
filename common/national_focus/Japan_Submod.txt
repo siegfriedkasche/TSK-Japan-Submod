@@ -4249,7 +4249,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = MJP_Stop_the_War_of _nvasion
+		id = MJP_Stop_the_War_of_nvasion
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -4267,7 +4267,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = MJP_Stop_the_War_of _nvasion
+			focus = MJP_Stop_the_War_of_nvasion
 		}
 		prerequisite = {
 			focus = MJP_the_quality_of_life
