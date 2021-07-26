@@ -2325,7 +2325,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Communism
-		icon = Communism_MJP
+		icon = GFX_Communism_MJP
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Election
