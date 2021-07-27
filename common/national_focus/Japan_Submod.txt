@@ -43,6 +43,9 @@ focus_tree = {
 		id = newfocus_30
 		icon = japanese_pacific_guardian
 		cost = 5.00
+		available = {
+			always = no
+		}
 		x = 35
 		y = 0
 			completion_reward = {
@@ -116,6 +119,9 @@ focus_tree = {
 		id = mjp_NDF ############주의############
 		icon = GFX_일본의만행알리기
 		cost = 5.00
+		available = {
+			always = no
+		}
 		x = 52
 		y = 0
 
@@ -2918,9 +2924,9 @@ focus_tree = {
 		}
 		x = 35
 		y = 9
-			completion_reward = {
-
-}
+		completion_reward = {
+			complete_national_focus = mjp_NDF
+		}
 
 	}
 	focus = {
@@ -3940,7 +3946,9 @@ focus_tree = {
 		}
 		x = 14
 		y = 10
-
+		completion_reward = {
+			complete_national_focus = mjp_NDF
+		}
 	}
 	focus = {
 		id = mjp_a_peaceful_constitution
@@ -4137,6 +4145,7 @@ focus_tree = {
 		x = 17
 		y = 14
 			completion_reward = {
+			
 					create_country_leader = {
 							name = "Ishida Goshiro"
 							picture = "gfx/leaders/MJP/Ishida_Goshiro.png"
@@ -4147,6 +4156,7 @@ focus_tree = {
 }
 						}
 					hidden_effect = {
+							complete_national_focus = newfocus_30
 							create_country_leader = {
 									name = "Ishida Goshiro"
 									picture = "gfx/leaders/MJP/Ishida_Goshiro.png"
@@ -4239,7 +4249,9 @@ focus_tree = {
 		}
 		x = 23
 		y = 14
-
+		completion_reward = {
+			complete_national_focus = newfocus_30
+		}
 	}
 	focus = {
 		id = MJP_the_quality_of_life
