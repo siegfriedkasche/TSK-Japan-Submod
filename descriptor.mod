@@ -3,8 +3,8 @@ tags={
 	"Gameplay"
 }
 dependencies={
-    "TIME SLIP KOREA (BETA VER.)"
+	"TIME SLIP KOREA (BETA VER.)"
 }
-name="TSK Japan Submod"
-supported_version="1.10.5"
+name="TIME SLIP KOREA: JAPAN 1991"
+supported_version="1.10.7"
 remote_file_id="2251411816"
