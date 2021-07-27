@@ -41,7 +41,7 @@ spriteTypes = {
 		legacy_lazy_load = no 
 	}
 	SpriteType = {
-		name = "Communism_MJP"
+		name = "GFX_Communism_MJP"
 		texturefile = "gfx/interface/goals/GFX_Communism_MJP.png"
 		legacy_lazy_load = no 
 	}
