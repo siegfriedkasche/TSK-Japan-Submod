@@ -15,4 +15,98 @@
  USJ.4.t:0 "대한민국 해군 통제권"
  USJ.4.d:0 "현재 대한민국 해군은 김종호 해군참모총장의 활약으로 온전한 상태이며 우리는 김종호 해군 참모총장과 상의를 해 대한민국 해군 통제권을 받아내 7함대 전력에 포함을 시킬 생각이며 참모총장이 받아들인다면 우리는 대한민국 본토를 탈환하면 이를 다시 돌려줄 계획입니다."
  USJ.4.a:0 "결정하기 어려운 제안이군"
+
+
+USJ_future_tech_research_land: "미래 육군 기술 개발"
+USJ_future_tech_research_air: "미래 공군 기술 개발"
+USJ_future_tech_research_navy: "미래 해군 기술 개발"
+
+USJ_future_tech_research_land_desc: "결국 전장에서 최후의 깃발을 꽂는 건 육군이다"
+USJ_future_tech_research_air_desc: "공군만으로 전쟁을 이길순 없지만, 공군이 없다면 전쟁을 이길수 없습니다."
+USJ_future_tech_research_navy_desc: "확실한 것은 결정적인 해군전력이 없으면 아무것도 할 수 없지만, 전력이 갖춰지면 모든 명예롭고 영광스러운 일들을 해낼 수 있습니다."A
+
+# Future Tech Research (Land)
+
+USJ_future_research_processing:0 "미래 장비를 개발중"
+USJ_reserch_future_infantry_equipment:0 "미래 보병 장비 개발"
+USJ_reserch_future_mechanized_equipment:0 "미래 기계화 장비 개발"
+USJ_reserch_future_armor_equipment:0 "미래 전차 장비 개발"
+USJ_reserch_future_derivative_armor_equipment:0 "미래 파생형 전차 장비 개발"
+USJ_reserch_future_transport_heli_equipment:0 "수송 헬리콥터 개발"
+USJ_reserch_future_attack_heli_equipment:0 "공격 헬리콥터 개발"
+USJ_reserch_future_anti_air_equipment:0 "미래 대공 장비 개발"
+USJ_reserch_future_anti_tank_equipment:0 "미래 대전차 장비 개발"
+USJ_reserch_future_mlrs_equipment:0 "미래 다연장 로켓 장비 개발"
+
+# Future Tech Research (Air)
+USJ_reserch_future_fighter_equipment:0 "미래 전투기 개발"
+USJ_reserch_future_cas_equipment:0 "미래 근접항공지원기 개발"
+USJ_reserch_future_strat_bomber_equipment:0 "미래 전략 폭격기 개발"
+
+# Future Tech Research (Navy)
+USJ_reserch_future_destroyer_legacy_equipment:0 "미래 구축함 개발"
+USJ_reserch_future_light_cruiser_legacy_equipment:0 "미래 경순양함 개발"
+USJ_reserch_future_carrier_legacy_equipment:0 "미래 항공모함 개발"
+USJ_reserch_future_submarine_legacy_equipment:0 "미래 잠수함 개발"
+
+USJ_reserch_future_light_hull_equipment:0 "미래 구축함 선체 개발"
+USJ_reserch_future_cruiser_hull_equipment:0 "미래 순양함 선체 개발"
+USJ_reserch_future_carrier_hull_equipment:0 "미래 항공모함 선체 개발"
+USJ_reserch_future_submarine_hull_equipment:0 "미래 잠수함 선체 개발"
+
+USJ_reserch_future_module_light_battery_equipment:0 "미래 소형 주포 개발"
+USJ_reserch_future_module_missile_launcher_equipment:0 "미래 대함 미사일 개발"
+USJ_reserch_future_module_secondaries_equipment:0 "미래 부포 개발"
+USJ_reserch_future_module_fc_radar_equipment:0 "미래 사격통제 & 레이더 개발"
+USJ_reserch_future_module_nuclear_engine_equipment:0 "가스터빈 엔진 개발"
+USJ_reserch_future_module_depth_charge_equipment:0 "미래 대잠 헬리콥터 개발"
+USJ_reserch_future_module_naval_armor_equipment:0 "미래 함선 장갑 개발"
+USJ_reserch_future_module_torpedo_equipment:0 "미래 어뢰 발사관 개발"l_english:
+
+
+USJ_future_tech_research_land: "미래 육군 기술 개발"
+USJ_future_tech_research_air: "미래 공군 기술 개발"
+USJ_future_tech_research_navy: "미래 해군 기술 개발"
+
+USJ_future_tech_research_land_desc: "결국 전장에서 최후의 깃발을 꽂는 건 육군이다"
+USJ_future_tech_research_air_desc: "공군만으로 전쟁을 이길순 없지만, 공군이 없다면 전쟁을 이길수 없습니다."
+USJ_future_tech_research_navy_desc: "확실한 것은 결정적인 해군전력이 없으면 아무것도 할 수 없지만, 전력이 갖춰지면 모든 명예롭고 영광스러운 일들을 해낼 수 있습니다."A
+
+# Future Tech Research (Land)
+
+USJ_future_research_processing:0 "미래 장비를 개발중"
+USJ_reserch_future_infantry_equipment:0 "미래 보병 장비 개발"
+USJ_reserch_future_mechanized_equipment:0 "미래 기계화 장비 개발"
+USJ_reserch_future_armor_equipment:0 "미래 전차 장비 개발"
+USJ_reserch_future_derivative_armor_equipment:0 "미래 파생형 전차 장비 개발"
+USJ_reserch_future_transport_heli_equipment:0 "수송 헬리콥터 개발"
+USJ_reserch_future_attack_heli_equipment:0 "공격 헬리콥터 개발"
+USJ_reserch_future_anti_air_equipment:0 "미래 대공 장비 개발"
+USJ_reserch_future_anti_tank_equipment:0 "미래 대전차 장비 개발"
+USJ_reserch_future_mlrs_equipment:0 "미래 다연장 로켓 장비 개발"
+
+# Future Tech Research (Air)
+USJ_reserch_future_fighter_equipment:0 "미래 전투기 개발"
+USJ_reserch_future_cas_equipment:0 "미래 근접항공지원기 개발"
+USJ_reserch_future_strat_bomber_equipment:0 "미래 전략 폭격기 개발"
+
+# Future Tech Research (Navy)
+USJ_reserch_future_destroyer_legacy_equipment:0 "미래 구축함 개발"
+USJ_reserch_future_light_cruiser_legacy_equipment:0 "미래 경순양함 개발"
+USJ_reserch_future_carrier_legacy_equipment:0 "미래 항공모함 개발"
+USJ_reserch_future_submarine_legacy_equipment:0 "미래 잠수함 개발"
+
+USJ_reserch_future_light_hull_equipment:0 "미래 구축함 선체 개발"
+USJ_reserch_future_cruiser_hull_equipment:0 "미래 순양함 선체 개발"
+USJ_reserch_future_carrier_hull_equipment:0 "미래 항공모함 선체 개발"
+USJ_reserch_future_submarine_hull_equipment:0 "미래 잠수함 선체 개발"
+
+USJ_reserch_future_module_light_battery_equipment:0 "미래 소형 주포 개발"
+USJ_reserch_future_module_missile_launcher_equipment:0 "미래 대함 미사일 개발"
+USJ_reserch_future_module_secondaries_equipment:0 "미래 부포 개발"
+USJ_reserch_future_module_fc_radar_equipment:0 "미래 사격통제 & 레이더 개발"
+USJ_reserch_future_module_nuclear_engine_equipment:0 "가스터빈 엔진 개발"
+USJ_reserch_future_module_depth_charge_equipment:0 "미래 대잠 헬리콥터 개발"
+USJ_reserch_future_module_naval_armor_equipment:0 "미래 함선 장갑 개발"
+USJ_reserch_future_module_torpedo_equipment:0 "미래 어뢰 발사관 개발"
  
