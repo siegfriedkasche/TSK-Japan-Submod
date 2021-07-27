@@ -113,8 +113,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = mjp_NDF
-		icon = GFX_goal_unknown
+		id = mjp_NDF ############주의############
+		icon = GFX_일본의만행알리기
 		cost = 10.00
 		x = 52
 		y = 0
@@ -572,7 +572,7 @@ focus_tree = {
 	}
 	focus = {
 		id = mjp_Education_Administration_Review
-		icon = GFX_goal_unknown
+		icon = examine_foreign_laws
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_bureaucracy
@@ -1047,7 +1047,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Military_control
-		icon = Military_control
+		icon = chemical_warfare
 		cost = 10.00
 		prerequisite = {
 			focus = Military
@@ -1273,7 +1273,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_107
-		icon = GFX_goal_unknown
+		icon = south_east_asian_offensive
 		cost = 10.00
 		prerequisite = {
 			focus = Military_control
@@ -1514,7 +1514,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_102
-		icon = GFX_goal_unknown
+		icon = conscription
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_107
@@ -1632,7 +1632,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_103
-		icon = GFX_goal_unknown
+		icon = spiritual_mobilization
 		cost = 10.00
 		prerequisite = {
 			focus = Military
@@ -1717,7 +1717,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_101
-		icon = GFX_goal_unknown
+		icon = manchurian_gamble
 		cost = 10.00
 		prerequisite = {
 			focus = Military_control
@@ -2124,7 +2124,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_conscription
-		icon = GFX_goal_unknown
+		icon = great_railway_incident
 		cost = 10.00
 		prerequisite = {
 			focus = mjp_NDF
@@ -2135,7 +2135,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Army_rearmament
-		icon = GFX_goal_unknown
+		icon = coalition_army
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_conscription
@@ -2146,7 +2146,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_JGSDF_CRF
-		icon = GFX_goal_unknown
+		icon = examine_foreign_small_arms
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Army_rearmament
@@ -2157,7 +2157,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Firepower_exercise
-		icon = GFX_goal_unknown
+		icon = draw_up_war_plans
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Army_rearmament
@@ -2168,7 +2168,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Army
-		icon = GFX_goal_unknown
+		icon = recruitment
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Firepower_exercise
@@ -2190,7 +2190,8 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_MBT
-		icon = GFX_goal_unknown
+		icon = tanks5
+		icon = tanks5
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Army_rearmament
@@ -2201,7 +2202,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_IFV
-		icon = GFX_goal_unknown
+		icon = tanks2
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_MBT
@@ -2212,7 +2213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Mechanized_infantry
-		icon = GFX_goal_unknown
+		icon = apc
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Army
@@ -2224,7 +2225,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Nany_rearmament
-		icon = GFX_goal_unknown
+		icon = amphibious_assault
 		cost = 10.00
 		prerequisite = {
 			focus = mjp_NDF
@@ -2235,7 +2236,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Medium_term_defense_maintenance_plan
-		icon = GFX_goal_unknown
+		icon = navy3
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Nany_rearmament
@@ -2246,7 +2247,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Izumo
-		icon = GFX_goal_unknown
+		icon = carriers
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Medium_term_defense_maintenance_plan
@@ -2257,7 +2258,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Kongo_class_destroyer
-		icon = GFX_goal_unknown
+		icon = battleships2
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Medium_term_defense_maintenance_plan
@@ -2268,7 +2269,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Murasame
-		icon = GFX_goal_unknown
+		icon = cruisers2
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Medium_term_defense_maintenance_plan
@@ -2281,7 +2282,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Navy
-		icon = GFX_goal_unknown
+		icon = battleships
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Murasame
@@ -2292,7 +2293,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Reorganization_of_doctrine
-		icon = GFX_goal_unknown
+		icon = naval_doctrine
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Nany_rearmament
@@ -2303,7 +2304,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_air_force
-		icon = GFX_goal_unknown
+		icon = f35
 		cost = 10.00
 		prerequisite = {
 			focus = mjp_NDF
@@ -2314,7 +2315,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_Air_Force_doctrine
-		icon = GFX_goal_unknown
+		icon = air_defense
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_air_force
@@ -2467,8 +2468,8 @@ focus_tree = {
 		x = 30
 		y = 13
 			completion_reward = {
-					add_ideas = child_labor_ban
-				}
+				add_ideas = child_labor_ban
+			}
 
 	}
 	focus = {
@@ -2910,7 +2911,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_106
-		icon = GFX_goal_unknown
+		icon = conscription
 		cost = 10.00
 		prerequisite = {
 			focus = Military_control
@@ -2924,7 +2925,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_105
-		icon = GFX_goal_unknown
+		icon = air_industry
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_106
@@ -2981,7 +2982,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_104
-		icon = GFX_goal_unknown
+		icon = aryan_pact
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_105
@@ -3109,7 +3110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Past_History
-		icon = GFX_goal_unknown
+		icon = democracy_in_japan
 		cost = 10.00
 		prerequisite = {
 			focus = Komeito
@@ -3296,7 +3297,7 @@ focus_tree = {
 	}
 	focus = {
 		id = mjp_a_coalition_government
-		icon = GFX_goal_unknown
+		icon = autonomy
 		cost = 10.00
 		prerequisite = {
 			focus = Komeito
@@ -3957,7 +3958,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MJP_1st_Airborne_Brigade
-		icon = GFX_goal_unknown
+		icon = ka_heli
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_Firepower_exercise
@@ -3968,7 +3969,7 @@ focus_tree = {
 	}
 	focus = {
 		id = mjp_a_tax_rate_hike
-		icon = GFX_goal_unknown
+		icon = economic_prosperity
 		cost = 10.00
 		prerequisite = {
 			focus = MJP_bureaucracy
@@ -3985,7 +3986,7 @@ focus_tree = {
 	}
 	focus = {
 		id = mjp_Youth_Employment
-		icon = GFX_goal_unknown
+		icon = business_man
 		cost = 10.00
 		prerequisite = {
 			focus = mjp_a_tax_rate_hike
@@ -4002,7 +4003,7 @@ focus_tree = {
 	}
 	focus = {
 		id = mjp_STBthe_US_and_Japan
-		icon = GFX_goal_unknown
+		icon = alliance_JAP_USA
 		cost = 10.00
 		prerequisite = {
 			focus = mjp_WPTO
@@ -4049,7 +4050,7 @@ focus_tree = {
 	}
 	focus = {
 		id = mjp_MTU_Solving_the_Dokdo_Problem
-		icon = GFX_goal_unknown
+		icon = inundation_lines
 		cost = 10.00
 		prerequisite = {
 			focus = Past_History
@@ -4101,7 +4102,7 @@ focus_tree = {
 	}
 	focus = {
 		id = mjp_WPTO
-		icon = GFX_goal_unknown
+		icon = blue_democracy
 		cost = 10.00
 		prerequisite = {
 			focus = mjp_MTU_Solving_the_Dokdo_Problem
