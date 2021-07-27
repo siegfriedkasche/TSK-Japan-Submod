@@ -178,22 +178,13 @@ country_event = {
             complete_national_focus = Liberal_Democratic_Party
         }
     }
-    option = {  #공산
-        name = MJP.6.e
-        ai_chance = {
-            factor = 25
-        }
-        hidden_effect = {
-            complete_national_focus = Communism
-        }
-    }
-    option = {   #공산?
+    option = {  #공명
         name = MJP.6.a
         ai_chance = {
             factor = 25
         }
         hidden_effect = {
-            complete_national_focus = Constitution
+            complete_national_focus = Komeito
         }
     }
 	option = {   #비동맹?
@@ -205,13 +196,13 @@ country_event = {
             complete_national_focus = Non_alliance
         }
     }
-    option = {   #헌법?
-        name = MJP.4.f
+	option = {   #공산?
+        name = MJP.6.e
         ai_chance = {
             factor = 25
         }
         hidden_effect = {
-            complete_national_focus = Constitution
+            complete_national_focus = Communism
         }
     }
 }

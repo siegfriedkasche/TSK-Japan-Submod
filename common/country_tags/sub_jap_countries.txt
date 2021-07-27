@@ -1,5 +1,5 @@
 MJP = "countries/MJP.txt"
 USJ = "countries/USJ.txt"
 SVN = "countries/SVN.txt"
-
+WNG = "countries/WNG.txt"
 
