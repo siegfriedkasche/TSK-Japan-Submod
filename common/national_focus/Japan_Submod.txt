@@ -1823,8 +1823,8 @@ focus_tree = {
 		y = 11
 		completion_reward = {
 			
-			transfer_state = 821
-			add_state_core = 821
+			transfer_state = 860
+			add_state_core = 860
 			
 			KOR = {
 			create_wargoal = {
@@ -1834,7 +1834,7 @@ focus_tree = {
 				}
 		}
 		available = {
-				OR = {
+				OR = { 
 					KR1 = {
 							controls_state  = 860
 						}
@@ -1851,7 +1851,7 @@ focus_tree = {
 		}
 			bypass = {
 					AND = {
-						NOT = {
+						NOT = { 
 							KR1 = {
 								controls_state = 860
 							}
@@ -1866,7 +1866,7 @@ focus_tree = {
 								}	
 						}
 					}  
-			}
+			} 
 	    }
 	focus = {
 		id = MJP_entering_the_peninsula
@@ -2278,10 +2278,10 @@ focus_tree = {
 												}
 										}
 									custom_trigger_tooltip = {
-											tooltip = naval_effort_tt
+											tooltip = construction_effort_tt
 											all_owned_state = {
 													free_building_slots = {
-															building = dockyard
+															building = industrial_complex
 															size < 1
 															include_locked = yes
 														}
