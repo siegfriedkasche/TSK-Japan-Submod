@@ -1,0 +1,47 @@
+
+state={
+	id=821
+	name="울릉도"
+
+	history={
+		owner = KR1
+		buildings = {
+			infrastructure = 1
+			13246 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			13246 3 
+		}
+		add_core_of = KR1
+		add_core_of = PRK
+		1936.1.2 = {
+			remove_core_of = PRK
+			buildings = {
+				infrastructure = 2
+
+			}
+
+		}
+		1936.1.3 = {
+			owner = KOR
+			controller = KOR
+			remove_core_of = KR1
+			add_core_of = KOR
+			add_manpower = 315
+			add_claim_by = KPA
+
+		}
+
+	}
+
+	provinces={
+		13246 
+	}
+	manpower=5321
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}
