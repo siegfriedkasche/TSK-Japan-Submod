@@ -1834,6 +1834,7 @@ focus_tree = {
 				}
 		}
 		available = {
+				OR = {
 					KR1 = {
 							owns_state = 821
 							owns_state = 821
@@ -1846,7 +1847,7 @@ focus_tree = {
 							owns_state = 821
 							owns_state = 821
 						}
-					
+					}
 				}
 			bypass = {
 					OR = {
@@ -3354,6 +3355,51 @@ focus_tree = {
 		prerequisite = {
 			focus = MJP_clearing_the_past
 		}
+		available = {
+				OR = {
+					KR1 = {
+							owns_state = 821
+							owns_state = 821
+						}
+					MKR = {
+							owns_state = 821
+							owns_state = 821
+						}
+					PRK = {
+							owns_state = 821
+							owns_state = 821
+						}
+					}
+				}
+			bypass = {
+					OR = {
+							KR1 = {
+									exists = no
+								}
+							MKR = {
+									exists = no
+								}
+							PRK = {
+									exists = no
+								}
+						}
+					NOT = {
+							KR1 = {
+									owns_state = 821
+									owns_state = 821
+								}
+							MKR = {
+									owns_state = 821
+									owns_state = 821
+								}
+							PRK = {
+									owns_state = 821
+									owns_state = 821
+								}
+								
+						}		        
+			}
+	    }
 		x = 31
 		y = 12
 			completion_reward = {
@@ -4323,6 +4369,51 @@ focus_tree = {
 		prerequisite = {
 			focus = MJP_Northern_territorial_issues
 		}
+		available = {
+				OR = {
+					KR1 = {
+							owns_state = 821
+							owns_state = 821
+						}
+					MKR = {
+							owns_state = 821
+							owns_state = 821
+						}
+					PRK = {
+							owns_state = 821
+							owns_state = 821
+						}
+					}
+				}
+			bypass = {
+					OR = {
+							KR1 = {
+									exists = no
+								}
+							MKR = {
+									exists = no
+								}
+							PRK = {
+									exists = no
+								}
+						}
+					NOT = {
+							KR1 = {
+									owns_state = 821
+									owns_state = 821
+								}
+							MKR = {
+									owns_state = 821
+									owns_state = 821
+								}
+							PRK = {
+									owns_state = 821
+									owns_state = 821
+								}
+								
+						}		        
+			}
+	    }
 		x = 9
 		y = 13
 			completion_reward = {
