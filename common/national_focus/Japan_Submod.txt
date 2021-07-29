@@ -1821,8 +1821,62 @@ focus_tree = {
 		}
 		x = 37
 		y = 11
-
-	}
+		completion_reward = {
+			
+			transfer_state = 821
+			add_state_core = 821
+			
+			KOR = {
+			create_wargoal = {
+				type = annex_everything
+				target = MJP
+			}
+				}
+		}
+		available = {
+					KR1 = {
+							owns_state = 821
+							owns_state = 821
+						}
+					MKR = {
+							owns_state = 821
+							owns_state = 821
+						}
+					PRK = {
+							owns_state = 821
+							owns_state = 821
+						}
+					
+				}
+			bypass = {
+					OR = {
+							KR1 = {
+									exists = no
+								}
+							MKR = {
+									exists = no
+								}
+							PRK = {
+									exists = no
+								}
+						}
+					NOT = {
+							KR1 = {
+									owns_state = 821
+									owns_state = 821
+								}
+							MKR = {
+									owns_state = 821
+									owns_state = 821
+								}
+							PRK = {
+									owns_state = 821
+									owns_state = 821
+								}
+								
+						}		        
+			}
+	    }
 	focus = {
 		id = MJP_entering_the_peninsula
 		icon = goal_unknown
@@ -4152,7 +4206,7 @@ focus_tree = {
 			completion_reward = {
 					swap_ideas = {
 							remove_idea = MJP_Emergencyy
-							add_idea = mMJP_Stable_Japan
+							add_idea = MJP_Stable_Japan
 						}
 				}
 
@@ -4761,6 +4815,19 @@ focus_tree = {
 		}
 		x = 36
 		y = 12
+		completion_reward = {
+					add_tech_bonus = {
+							name = KOR_MB_northen_nuke
+							bonus = 500.0
+							technology = nukes
+						}
+					add_tech_bonus = {
+							name = KOR_MB_northen_nuke
+							bonus = 500.0
+							technology = hydrogen_nukes
+						}
+					add_nuclear_bombs = 1
+				}
 
 	}
 	focus = {
