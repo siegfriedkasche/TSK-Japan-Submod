@@ -1836,13 +1836,13 @@ focus_tree = {
 		available = {
 				OR = {
 					KR1 = {
-							owns_state = 860
+							controls_state  tate = 860
 						}
 					MKR = {
-							owns_state = 860
+							controls_state  = 860
 						}
 					PRK = {
-							owns_state = 860
+							controls_state  = 860
 						}
 				}
 		}
@@ -1850,13 +1850,13 @@ focus_tree = {
 					AND = {
 						NOT = {
 							KR1 = {
-									owns_state = 860
+									controls_state  = 860
 								}
 							MKR = {
-									owns_state = 860
+									controls_state  = 860
 								}
 							PRK = {
-									owns_state = 860
+									controls_state  = 860
 								}	
 						}
 					}  
