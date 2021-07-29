@@ -1836,7 +1836,10 @@ focus_tree = {
 		available = {
 				OR = {
 					KR1 = {
-							controls_state  tate = 860
+							controls_state  = 860
+						}
+					ROK = {
+							controls_state  = 860
 						}
 					MKR = {
 							controls_state  = 860
@@ -1850,6 +1853,9 @@ focus_tree = {
 					AND = {
 						NOT = {
 							KR1 = {
+								controls_state = 860
+							}
+							ROK = {
 									controls_state  = 860
 								}
 							MKR = {
