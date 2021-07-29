@@ -3977,28 +3977,11 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_73
 		}
-		prerequisite = {
-			focus = newfocus_77
-		}
-		prerequisite = {
-			focus = newfocus_77
-		}
 		x = 23
 		y = 5
-			completion_reward = {
-					add_stability = 0.05
-				}
-			focus = {
-					id = newfocus_75
-					icon = goal_unknown
-					cost = 5.00
-					prerequisite = {
-							focus = newfocus_77
-						}
-					x = 23
-					y = 6
-				}
-
+		completion_reward = {
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = social_democracy
