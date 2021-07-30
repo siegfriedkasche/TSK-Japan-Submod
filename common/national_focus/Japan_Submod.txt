@@ -1823,18 +1823,16 @@ focus_tree = {
 		y = 11
 		completion_reward = {
 			
-			transfer_state = 821
+<<<<<<< HEAD
 			add_state_core = 821
+=======
+			transfer_state = 860
+			add_state_core = 860
+>>>>>>> 35331a2dc8897133df93c24a690ff059fb273129
 			
-			KOR = {
-			create_wargoal = {
-				type = annex_everything
-				target = MJP
-			}
-				}
 		}
 		available = {
-				OR = {
+				OR = { 
 					KR1 = {
 							controls_state  = 860
 						}
@@ -1851,7 +1849,7 @@ focus_tree = {
 		}
 			bypass = {
 					AND = {
-						NOT = {
+						NOT = { 
 							KR1 = {
 								controls_state = 860
 							}
@@ -1866,7 +1864,7 @@ focus_tree = {
 								}	
 						}
 					}  
-			}
+			} 
 	    }
 	focus = {
 		id = MJP_entering_the_peninsula
@@ -1888,6 +1886,13 @@ focus_tree = {
 		}
 		x = 36
 		y = 14
+		completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = KR1
+						}
+					add_war_support = 0.1
+				}
 
 	}
 	focus = {
@@ -1899,6 +1904,13 @@ focus_tree = {
 		}
 		x = 38
 		y = 14
+		completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = PRK
+						}
+					
+				}
 
 	}
 	focus = {
@@ -1911,6 +1923,13 @@ focus_tree = {
 		}
 		x = 37
 		y = 15
+		completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = SOV
+						}
+					
+				}
 
 	}
 	focus = {
@@ -2278,10 +2297,10 @@ focus_tree = {
 												}
 										}
 									custom_trigger_tooltip = {
-											tooltip = naval_effort_tt
+											tooltip = construction_effort_tt
 											all_owned_state = {
 													free_building_slots = {
-															building = dockyard
+															building = industrial_complex
 															size < 1
 															include_locked = yes
 														}
@@ -4872,7 +4891,44 @@ focus_tree = {
 		}
 		x = 35
 		y = 15
-
+		available = {
+			is_puppet = no
+			NOT = { has_government = communism }
+			NOT = { is_in_faction_with = SOV }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			SOV = { add_opinion_modifier = { target = ROOT modifier = pact_against_us } }
+			add_named_threat = { threat = 2 name = GER_anti_comitern_pact }
+			every_other_country = {
+				limit = {
+					NOT = { tag = MJP }
+					NOT = { has_war_with = MJP }
+					NOT = { is_in_faction_with = SOV }
+					is_subject = no
+					OR = {
+						capital_scope = {
+								is_on_continent = europe
+						}
+						capital_scope = {
+								is_on_continent = asia
+						}
+						num_of_factories > 30
+					}
+					OR = {
+						has_government = fascism 
+						AND = {
+							is_neighbor_of = SOV
+							NOT = { has_government = communism }
+						}
+					}
+				}
+				country_event = MJP.19
+			
+			}
+	    }
 	}
 	focus = {
 		id = mjp_the_threat_of_capital
@@ -4887,6 +4943,13 @@ focus_tree = {
 		}
 		x = 33
 		y = 15
+		completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = USA
+						}
+					
+				}
 
 	}
 	focus = {

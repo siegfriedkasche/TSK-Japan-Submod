@@ -365,3 +365,66 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = MJP.19
+	title = MJP.19.t
+	desc = MJP.19.d
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = {
+		name = MJP.19.a		#join
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 2
+				has_opinion = {
+					target = SOV
+					value < -10
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = MJP
+					value < -10
+				}
+			}
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			modifier = {
+				factor = 0
+				tag = GER
+				has_completed_focus = GER_the_unthinkable_option
+			}
+			modifier = {
+				factor = 0
+				is_literally_china = yes
+				GER = { has_completed_focus = GER_purge_the_kodoha_faction }
+			}
+			modifier = {
+				factor = 0
+				tag = GER
+				has_completed_focus = JAP_purge_the_kodoha_faction
+				date < 1938.1.1
+			}
+		}
+		set_country_flag = anti_comintern_member
+		MJP = { add_opinion_modifier = { target = ROOT modifier = anti_comintern_pact_opinion } }
+		add_opinion_modifier = { target = GER modifier = anti_comintern_pact_opinion }
+		SOV  = { add_opinion_modifier = { target = ROOT modifier = pact_against_us } }
+	}
+	
+	option = {
+		name = MJP.19.b	#refuse
+		trigger = { NOT = { is_puppet_of = MJP } }
+		ai_chance = { 
+			factor = 25 
+		}
+		GER =  { add_opinion_modifier = { target = ROOT modifier = refused_anti_comintern_pact_opinion } }
+	}
+
+}
