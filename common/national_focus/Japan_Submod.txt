@@ -1822,13 +1822,9 @@ focus_tree = {
 		x = 37
 		y = 11
 		completion_reward = {
-			
-<<<<<<< HEAD
-			add_state_core = 821
-=======
 			transfer_state = 860
 			add_state_core = 860
->>>>>>> 35331a2dc8897133df93c24a690ff059fb273129
+
 			
 		}
 		available = {
