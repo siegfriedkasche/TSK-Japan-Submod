@@ -4829,6 +4829,7 @@ focus_tree = {
 		available = {
 			GER = {
 				exists = yes
+				is_faction_leader = yes
 			}
 			ITA = {
 				exists = yes
@@ -4837,6 +4838,7 @@ focus_tree = {
 		bypass = {
 			GER = {
 				exists = no
+				is_faction_leader = no
 			}
 			ITA = {
 				exists = no
