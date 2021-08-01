@@ -4826,10 +4826,32 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_104
 		}
+		available = {
+			GER = {
+				exists = yes
+			}
+			ITA = {
+				exists = yes
+			}
+		}
+		bypass = {
+			GER = {
+				exists = no
+			}
+			ITA = {
+				exists = no
+			}
+		}
 		x = 34
 		y = 12
 		completion_reward = {
             create_faction = "신추축동맹"
+			every_country = {
+				limit = {
+					is_in_faction_with = GER
+				}
+				MJP = { add_to_faction = PREV }
+			}
         }
 
 	}
