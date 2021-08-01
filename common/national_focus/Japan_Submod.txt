@@ -4828,6 +4828,9 @@ focus_tree = {
 		}
 		x = 34
 		y = 12
+		completion_reward = {
+            create_faction = "신추축동맹"
+        }
 
 	}
 	focus = {

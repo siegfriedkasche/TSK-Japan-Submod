@@ -419,7 +419,7 @@ country_event = {
 	}
 	
 	option = {
-		name = MJP.19.b	#refuse
+		name = MJP.19.b		#refuse
 		trigger = { NOT = { is_puppet_of = MJP } }
 		ai_chance = { 
 			factor = 25 
