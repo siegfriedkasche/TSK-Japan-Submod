@@ -2454,6 +2454,10 @@ focus_tree = {
 							type = annex_everything
 							target = YUN
 						}
+						create_wargoal = {
+							type = annex_everything
+							target = TIB
+						}
 					every_state = {
 							limit = {
 									is_core_of = CHI
