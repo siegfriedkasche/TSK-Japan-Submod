@@ -2400,7 +2400,76 @@ focus_tree = {
 		}
 		x = 39
 		y = 13
-
+		available = {
+					any_state = {
+							state = 605
+							is_owned_or_subject_trigger = yes
+						}
+					any_state = {
+							state = 613
+							is_owned_or_subject_trigger = yes
+						}
+					any_state = {
+							state = 608
+							is_owned_or_subject_trigger = yes
+						}
+					is_puppet = no
+					NOT = {
+							has_war_with = WNG
+						}
+				}
+			#WNG = {
+			# AND = {
+			#  exists = yes
+			#  puppet = no
+			# }
+			#}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = yes
+			completion_reward = {
+					MJP = {
+							annex_country = {
+									target = WNG
+									transfer_troops = yes
+								}
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = SHX
+						}
+						create_wargoal = {
+							type = annex_everything
+							target = PRC
+						}
+						create_wargoal = {
+							type = annex_everything
+							target = XSM
+						}
+						create_wargoal = {
+							type = annex_everything
+							target = GXC
+						}
+						create_wargoal = {
+							type = annex_everything
+							target = YUN
+						}
+					every_state = {
+							limit = {
+									is_core_of = CHI
+								}
+							add_core_of = MJP
+						}
+					every_state = {
+							limit = {
+									is_core_of = CHI
+									is_owned_or_subject_trigger = yes
+								}
+							MJP = {
+									transfer_state = PREV
+								}
+						}
+			}
 	}
 	focus = {
 		id = mjp_fortification_in_manchuria
