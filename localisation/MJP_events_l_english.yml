@@ -56,6 +56,19 @@
  MJP.19.a:0 "가입"
  MJP.19.c:0 "거부"
  MJP.19.b:0 "Ablehnen"
+
+ MJP.20.t:0 "외만주를 요구한 일본국"
+ MJP.20.d:0 ""
+ MJP.20.a:0 "그들의 요구를 수용하지."
+ MJP.20.b:0 "우리와는 관련없는 일이다."
+ 
+ MJP.21.t:0 "외만주 요구를 받아들인 [From.GetNameDefCap]"
+ MJP.21.d:0 ""
+ MJP.21.a:0 "훌륭하군"
+ 
+ MJP.22.t:0 "외만주 요구를 거부한 [From.GetNameDefCap]"
+ MJP.22.d:0 ""
+ MJP.22.a:0 "제길."
  
  livelihood_law:0 "민생법"
 

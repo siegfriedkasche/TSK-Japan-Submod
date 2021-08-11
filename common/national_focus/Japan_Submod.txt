@@ -4938,6 +4938,11 @@ focus_tree = {
 		}
 		x = 41
 		y = 14
+		completion_reward = {
+			SOV = {
+				country_event = { id = MJP.20 }
+			}
+		}
 
 	}
 	focus = {
