@@ -2428,12 +2428,7 @@ focus_tree = {
 			continue_if_invalid = no
 			available_if_capitulated = yes
 			completion_reward = {
-					MJP = {
-							annex_country = {
-									target = WNG
-									transfer_troops = yes
-								}
-						}
+					
 					create_wargoal = {
 							type = annex_everything
 							target = SHX
@@ -2611,23 +2606,6 @@ focus_tree = {
 				}
 			}
 
-			if = {
-				limit = { transfer_state = 761 }
-				761 = {
-					set_building_level = {
-						type = bunker
-						level = 3
-						province = {
-							id = 10612
-							id = 7743
-							id = 7797
-							id = 12537
-							limit_to_border = yes
-							level < 3
-						}
-					}
-				}
-			}
 
 		}
 	}
