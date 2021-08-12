@@ -4952,9 +4952,33 @@ focus_tree = {
 		prerequisite = {
 			focus = mjp_outsourcing_demand
 		}
+		available = {
+			NOT = {
+				OR = {
+					has_war_with = SOV
+					controls_state = 655
+					controls_state = 555
+					controls_state = 537
+				}
+			}
+		}
+		bypass = {
+			controls_state = 655
+			controls_state = 555
+			controls_state = 537
+		}
+		cancel = {
+			controls_state = 655
+			controls_state = 555
+			controls_state = 537
+		}
 		x = 41
 		y = 15
-
+		completion_reward = {
+			transfer_state = 655
+			transfer_state = 537
+			transfer_state = 555
+		}
 	}
 	focus = {
 		id = mjp_material_support

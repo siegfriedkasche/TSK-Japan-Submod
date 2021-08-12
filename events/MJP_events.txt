@@ -468,6 +468,12 @@ country_event = { #외만주 요구를 수용한
 	option = { #훌륭하군
 		name = MJP.21.a
 		KOR_imf_level_up = yes
+		WNG = {
+			transfer_state = 560
+			transfer_state = 657
+			transfer_state = 409
+			transfer_state = 408
+		}
     }	
 }
 
@@ -481,6 +487,11 @@ country_event = { #외만주 요구을 거부한
 	
 	option = { #이런.
 		name = MJP.22.a
-
+		MJP = {
+			create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = SOV
+			}
+		}
     }	
 }
