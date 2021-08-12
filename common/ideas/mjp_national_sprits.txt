@@ -155,11 +155,11 @@ ideas = {
             
             modifier = { #효과
                 industrial_capacity_factory = 0.3
-                production_factory_max_efficiency_factor  = 0.3
+                production_factory_max_efficiency_factor  = 0.2
                 production_factory_start_efficiency_factor = 0.25
-                production_speed_buildings_factor = 0.5
+                production_speed_buildings_factor = 0.2
                 stability_factor = 0.25
-                consumer_goods_factor = 0.05 
+                consumer_goods_factor = 0.03 
             } 
         }
     }
@@ -796,11 +796,11 @@ country = {
             
             modifier = { #효과
                 industrial_capacity_factory = 0.3
-                production_factory_max_efficiency_factor  = 0.3
+                production_factory_max_efficiency_factor  = 0.2
                 production_factory_start_efficiency_factor = 0.25
-                production_speed_buildings_factor = 0.5
+                production_speed_buildings_factor = 0.2
                 stability_factor = 0.25
-                consumer_goods_factor = 0.05 
+                consumer_goods_factor = 0.03 
         }
     }
 }
