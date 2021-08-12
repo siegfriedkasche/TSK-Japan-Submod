@@ -2485,6 +2485,151 @@ focus_tree = {
 		x = 39
 		y = 15
 
+		available = {
+			MAN = { controls_state = 761 }
+		}
+
+		bypass = {
+			NOT = {			
+				717 = {
+					any_province_building_level = {
+						province = {
+							id = 4551
+							id = 10521
+							id = 7569
+							id = 12500
+							id = 9798
+							id = 5427
+							id = 3843
+							id = 810
+							id = 783
+							id = 6806
+							id = 3944
+							limit_to_border = yes
+						}
+						building = bunker
+						level < 3
+					}
+				}
+				761 = {
+					any_province_building_level = {
+						province = {
+							id = 10612
+							id = 7743
+							id = 7797
+							id = 12537
+							limit_to_border = yes
+						}
+						building = bunker
+						level < 3
+					}
+				}
+				714 = {
+					any_province_building_level = {
+						province = {
+							id = 7848
+							id = 10675
+							id = 7832
+							id = 12548
+							id = 1693
+							id = 10698
+							id = 10368
+							limit_to_border = yes
+						}
+						building = bunker
+						level < 3
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_MANPOWER }
+
+		completion_reward = {
+			army_experience = 5
+			if = {
+				limit = { transfer_state = 761 }
+				761 = {
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+							level < 3
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = { transfer_state = 717 }
+				717 = {
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = {
+							id = 4551
+							id = 10521
+							id = 7569
+							id = 12500
+							id = 9798
+							id = 5427
+							id = 3843
+							id = 810
+							id = 783
+							id = 6806
+							id = 3944
+							limit_to_border = yes
+							level < 3
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = { transfer_state = 714 }
+				714 = {
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = {
+							id = 7848
+							id = 10675
+							id = 7832
+							id = 12548
+							id = 1693
+							id = 10698
+							id = 10368
+							limit_to_border = yes
+							level < 3
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = { transfer_state = 761 }
+				761 = {
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = {
+							id = 10612
+							id = 7743
+							id = 7797
+							id = 12537
+							limit_to_border = yes
+							level < 3
+						}
+					}
+				}
+			}
+
+		}
 	}
 	focus = {
 		id = newfocus_60
