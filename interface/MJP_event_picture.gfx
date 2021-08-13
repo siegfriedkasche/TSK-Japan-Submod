@@ -16,8 +16,5 @@ spriteTypes = {
 		name = "GFX_mine_event_picture"
 		texturefile = "gfx/event_pictures/MJP/mine_event_picture.png"
 	}
-	spriteType = {
-		name = "GFX_a_military_coup"
-		texturefile = "gfx/event_pictures/MJP/a_military_coup.png"
-	}
+	
 }
