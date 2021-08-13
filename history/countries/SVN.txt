@@ -431,7 +431,7 @@ if = {
 	}
 
 	create_equipment_variant = {
-		name = "스프루언스 급"
+		name = "소브레메니급"
 		type = ship_hull_modern_DDH_2
 		name_group = USJ_DD_HISTORICAL
 		parent_version = 0
@@ -451,30 +451,29 @@ if = {
 		}
 	}
 
-
 	create_equipment_variant = {
-		name = "알레이버크급"
-		type = ship_hull_modern_DDG_1
-		name_group = USJ_CL_HISTORICAL
+		name = "우달로이급"
+		type = ship_hull_modern_DDH_2
+		name_group = USJ_DD_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = modern_ship_light_battery_2
+			ixed_ship_battery_slot = modern_ship_light_battery_1
 			fixed_ship_anti_air_slot = ship_ciws_2
-			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
-			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
-			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_1
 			fixed_ship_sts_slot = ship_missile_luncher_2
-			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
-			front_1_custom_slot = ship_vls_2
-			front_2_custom_slot = ship_ciws_2
+			fixed_ship_armor_slot = ship_armor_cruiser_modern_1
+			front_1_custom_slot = ship_aa_missile_luncher_1
 			mid_1_custom_slot = ship_missile_luncher_2
-			rear_1_custom_slot = ship_vls_2
-			rear_2_custom_slot = ship_torpedo_modern_1
+			mid_2_custom_slot = ship_ciws_2
+			rear_1_custom_slot = ship_aa_missile_luncher_1
+			rear_2_custom_slot = ship_hel_modern
 		}
 	}
 
     create_equipment_variant = {
-		name = "타이콘데로가급"
+		name = "슬라바급"
 		type = ship_hull_modern_cruiser_1
 		name_group = USJ_CL_HISTORICAL
 		parent_version = 0
@@ -494,27 +493,60 @@ if = {
 		}
 	}
 
-	create_equipment_variant = {
-		name = "올리버 헤저드 페리급"
-		type = ship_hull_FF_2
-		name_group = name = NAME_THEME_HISTORICAL_FF
+    create_equipment_variant = {
+		name = "타란급"
+		type = ship_hull_PK_1
+		name_group = ROK_PKM_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = modern_ship_light_battery_1
-			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_light_secondaries_slot = ship_light_secondaries_1
+			fixed_ship_light_aa_slot = ship_vulcan_1
 			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
-			fixed_ship_radar_slot = ship_modern_radar_1
-			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_radar_slot = ship_sonar_modern_1
 			fixed_ship_engine_slot = light_ship_engine_modern_1
-			fixed_ship_battery_slot_1 = empty
-			rear_1_custom_slot = ship_ciws_2
-			mid_1_custom_slot = ship_missile_luncher_1
-			front_1_custom_slot = ship_missile_luncher_1
+			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
+			mid_1_custom_slot = ship_mg
+			rear_1_custom_slot = ship_vulcan_1
 		}
 	}
 
 	create_equipment_variant = {
-		name = "로스 엔젤리스 급"
+		name = "나누치카급"
+		type = ship_hull_PK_1
+		name_group = ROK_PKM_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_light_secondaries_slot = ship_light_secondaries_1
+			fixed_ship_light_aa_slot = ship_vulcan_1
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_sonar_modern_1
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
+			mid_1_custom_slot = ship_mg
+			rear_1_custom_slot = ship_vulcan_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "그리샤급"
+		type = ship_hull_PK_1
+		name_group = ROK_PKM_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_light_secondaries_slot = ship_light_secondaries_1
+			fixed_ship_light_aa_slot = ship_vulcan_1
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_sonar_modern_1
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
+			mid_1_custom_slot = ship_mg
+			rear_1_custom_slot = ship_vulcan_1
+		}
+	}
+
+
+	create_equipment_variant = {
+		name = "킬로급"
 		type = ship_hull_modern_submarine_5
 		name_group = USJ_SS_HISTORICAL
 		parent_version = 0
