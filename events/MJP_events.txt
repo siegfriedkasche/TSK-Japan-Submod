@@ -495,20 +495,3 @@ country_event = { #외만주 요구을 거부한
 		}
     }	
 }
-
-country_event = {
-
-	id = MJP.23
-    title = MJP.23.t
-    desc = MJP.23.d
-    picture = GFX_a_military_coup
-    is_triggered_only = yes
-    fire_only_once = yes
-
-    option = {
-        name = MJP.23.a
-        ai_chance = {
-            factor = 25
-        }
-	}
-}

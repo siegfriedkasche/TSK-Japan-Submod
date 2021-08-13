@@ -23,7 +23,7 @@ focus_tree = {
 	focus = {
 		id = newfocus_26
 		icon = manchurian_gamble
-		cost = 0.5
+		cost = 5.00
 		x = 21
 		y = 0
 			completion_reward = {
@@ -80,7 +80,7 @@ focus_tree = {
 		x = 35
 		y = 7
 			available = {
-					has_completed_focus = Market_Control_Initiated_markets
+					has_completed_focus = newfocus_24
 				}
 			completion_reward = {
 					set_politics = {
@@ -97,15 +97,6 @@ focus_tree = {
 									fascism = 40
 									communism = 30
 								}
-						}
-					hidden_effect = {
-							country_event = {
-									id = MJP.23
-									days = 0
-								}
-						}
-					country_event = {
-							id = MJP.23
 						}
 				}
 
@@ -716,7 +707,7 @@ focus_tree = {
 	focus = {
 		id = newfocus_2
 		icon = KOR_intel
-		cost = 1.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_26
 		}
