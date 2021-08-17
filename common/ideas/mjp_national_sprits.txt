@@ -706,6 +706,56 @@ ideas = {
             }
         }
     }
+
+	country = {
+
+        Reinforcement_of_financial_publicity = { 
+
+            allowed = {
+                original_tag = MJP 
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = mjp_Reinforcement_of_financial_publicity
+
+            removal_cost = -1
+            
+            modifier = { #효과
+			   consumer_goods_factor = 0.05
+                production_factory_start_efficiency_factor   = 0.15
+                stability_factor = 0.15
+                
+            }
+        }
+    }
+
+    country = {
+
+        eradicating_poverty = { 
+
+            allowed = {
+                original_tag = MJP
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture =  generic_constitutional_guarantees
+
+            removal_cost = -1
+            
+            modifier = { #효과	
+                stability_factor = 0.15
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.05
+            }
+        }
+    }
+
 	country = {
 
         science_and_technology_ideas = { 

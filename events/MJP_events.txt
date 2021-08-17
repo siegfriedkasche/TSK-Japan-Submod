@@ -526,3 +526,35 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = MJP.25
+	title = MJP.25.t
+	desc = MJP.25.d
+	picture = GFX_report_event_finnish_letter
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MJP.25.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = MJP.27
+	title = MJP.27.t
+	desc = MJP.27.d
+	picture = GFX_report_event_finnish_letter
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MJP.27.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
