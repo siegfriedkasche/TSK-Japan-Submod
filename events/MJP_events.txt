@@ -544,6 +544,22 @@ country_event = {
 }
 
 country_event = {
+	id = MJP.26
+	title = MJP.26.t
+	desc = MJP.26.d
+	picture = GFX_report_event_finnish_letter
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = MJP.26.a
+		ai_chance = {
+		    factor = 100
+		}
+	}
+}
+
+country_event = {
 	id = MJP.27
 	title = MJP.27.t
 	desc = MJP.27.d
