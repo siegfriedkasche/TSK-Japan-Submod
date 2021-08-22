@@ -180,13 +180,6 @@ units = {
 
 	### Island IJN Garrisons ###
 
-	division = {
-		name = "Okinawa Kichi Shubitai"
-		location = 11932 #Naha
-		division_template = "Chuton-chi Shidan"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3	
-	}
 
 
 	#1 Konkyochi Ichigun
