@@ -22,10 +22,38 @@ units = {
 			ship = { name = "Varyag" definition = modern_cruiser start_experience_factor = 0.65 equipment = { ship_hull_modern_cruiser_1 = { amount = 1 owner = SVN version_name = "슬라바급" } } }
 			ship = { name = "Burny" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "소브레메니급" } } }
             ship = { name = "Bystry" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "소브레메니급" } } }
+			ship = { name = "Boyevoy" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "소브레메니급" } } }
+            ship = { name = "Stoykiy" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "소브레메니급" } } }
+			ship = { name = "Osmotritelny" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "소브레메니급" } } }
+            ship = { name = "Bezboyaznenny" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "소브레메니급" } } }
 
             ship = { name = "Marshal Shaposhnikov" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = SVN version_name = "우달로이급" } } }
+			ship = { name = "Admiral Spiridonov" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = SVN version_name = "우달로이급" } } }
 			ship = { name = "Admiral Tributs" = definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2= { amount = 1 owner = SVN version_name = "우달로이급" } } }
 			ship = { name = "Admiral Vinogradov" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = SVN version_name = "우달로이급" } } }
+			ship = { name = "Admiral Kharlamov" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = SVN version_name = "우달로이급" } } }
+
+			ship = { name = "Steregushchiy" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "카신급" } } }
+			ship = { name = "Strogiy" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "카신급" } } }
+			ship = { name = "Sposobnyy" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "카신급" } } }
+
+			ship = { name = "Storozhevoy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Razumnyy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Razyashchiy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Retivy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Poryvistyy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Rezkiy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Grozyashchiy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Gordelivy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Ryavnyy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Revnostnyy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Menzhinskiy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Dzerzhinskiy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Oryol" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Pskov" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Anadyr" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Kedrov" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
+			ship = { name = "Vorovskiy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
 
 			ship = { name = "Breeze" definition = modern_PK start_experience_factor = 0.3 equipment = { ship_hull_PK_1 = { amount = 1 owner = SVN version_name = "나누치카급" } } }
 			ship = { name = "Whirlwind" definition = modern_PK start_experience_factor = 0.3 equipment = { ship_hull_PK_1 = { amount = 1 owner = SVN version_name = "나누치카급" } } }

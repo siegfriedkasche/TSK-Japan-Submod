@@ -1,0 +1,263 @@
+﻿
+
+
+##### OOB #####
+units = {
+### IJN ###
+	
+	#Taiwan (Goaxing)
+	fleet = {
+		name = "Dai 3 Kantai"			
+		naval_base = 12068	# Taiwan
+		task_force = {
+			name = "3 Kantai" #Later assigned for the Chinese theater
+			location = 12068	# Taiwan
+			#Dai 10 Sentai
+			ship = { name = "Izumo" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Izumo Class"} } }
+			ship = { name = "Kuma" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class" } } }
+			#Dai 11 Sentai, Momi-class destroyers
+			#Dai 25 Kuchikutai
+			ship = { name = "Kaya" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Nashi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Take" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			#Dai 26 Kuchikutai
+			ship = { name = "Nire" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Kuri" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Kaki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Tsuga" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			#Dai 27 Kuchikutai
+			ship = { name = "Ashi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Hishi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Sumire" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			#Former Dai 28 Kuchikutai
+			ship = { name = "Hasu" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Yomogi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Tade" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			#Other Momi-Class destroyers
+			ship = { name = "Kiku" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Aoi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Hagi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Fuji" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Susuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Tsuta" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			#Minelayers
+			ship = { name = "Yaeyama" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Katsuriki Class"} } }
+			ship = { name = "Shirataka" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Katsuriki Class"} } }
+			ship = { name = "Itsukushima" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Katsuriki Class"} } }
+		}
+		task_force = {
+			name = "5 Suirai Sentai" #A part of "Dai 3 Kantai"
+			location = 12068	# Taiwan
+			#Flagship
+			ship = { name = "Yubari" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Yubari Class"} } }
+			##Dai 13 Kuchikutai
+			ship = { name = "Kuretake" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Wakatake" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Sanae" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			##Dai 16 Kuchikutai
+			ship = { name = "Fuyo" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }
+			ship = { name = "Karukaya" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }		
+			ship = { name = "Asagao" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Class"} } }		
+		}
+		task_force = {
+			name = "Makou Keibi Sentai"
+			location = 12068	# Taiwan
+			#Dai 4 Kuchikutai
+			ship = { name = "Shimakaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Nadakaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Akikaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Hakaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+		}
+	}
+	
+	### Pacific Forces ###
+	fleet = {
+		name = "Taiheiyo Kantai"			
+		naval_base = 2489  # Truk
+		#Truk
+		task_force = {
+			name = "Nanpo Yuso Sendan"
+			location = 2489  # Truk
+			ship = { name = "Oite" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Hayate" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Yugao" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			#Former Dai 2 Kuchikutai
+			ship = { name = "Minekaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Sawakaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Okikaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "Yakaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+		}
+	}
+}
+
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = 
+{
+	
+### Ongoing Naval Production Jan 1 1936 ###
+		# BB (x1): "Hiei"
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_heavy_1
+				creator = "JAP"
+				version_name = "Kongo Class"
+			}
+			requested_factories = 1
+			progress = 0.2
+			amount = 1
+		}
+		# CV (x1): "Soryu"
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_carrier_1
+				creator = "JAP" 
+				version_name = "Soryu Class"
+			}
+			requested_factories = 1
+			progress = 0.66
+
+			amount = 2
+		}
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_carrier_conversion_ca
+				creator = "JAP" 
+				version_name = "Zuiho Class"
+			}
+			requested_factories = 1
+			progress = 0.15
+
+			amount = 2
+		}
+		# CA (x1): "Suzuya"
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_cruiser_2
+				creator = "JAP" 
+				version_name = "Mogami Class"
+			}
+			requested_factories = 1
+			progress = 0.2
+			amount = 2
+		}		
+		# CL(CM) (x1): "Okinoshima"
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_cruiser_1
+				creator = "JAP" 
+				version_name = "Okinoshima Class"
+			}
+			requested_factories = 1
+			progress = 0.15
+			amount = 1
+		}		
+		# DD (x5): "Shiratsuyu" "Shigure" "Murasame" "Harusame" "Samidare"
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_light_1
+				creator = "JAP" 
+				version_name = "Fubuki Class"
+			}
+			requested_factories = 1
+			progress = 0.7
+			amount = 2
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_light_1
+				creator = "JAP" 
+				version_name = "Fubuki Class"
+			}
+			requested_factories = 1
+			progress = 0.6
+			amount = 1
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_light_1
+				creator = "JAP" 
+				version_name = "Fubuki Class"
+			}
+			requested_factories = 1
+			progress = 0.5
+			amount = 2
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_light_1
+				creator = "JAP" 
+				version_name = "Fubuki Class"
+			}
+			requested_factories = 1
+			progress = 0.4
+			amount = 1
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_light_1
+				creator = "JAP" 
+				version_name = "Fubuki Class"
+			}
+			requested_factories = 1
+			progress = 0.3
+			amount = 1
+		}		
+		# SS (x4): "I-172" "I-73" "I-174" "I-175"
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_submarine_1
+				creator = "JAP" 
+				version_name = "Kaidai III Class"
+			}
+			requested_factories = 1
+			progress = 0.7
+			amount = 2
+		}
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_submarine_1
+				creator = "JAP" 
+				version_name = "Kaidai III Class"
+			}
+			requested_factories = 1
+			progress = 0.6
+			amount = 2
+		}
+		# SS (x2): "I-7" "I-8"
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_submarine_1
+				creator = "JAP" 
+				version_name = "Kaidai III Class"
+			}
+			requested_factories = 1
+			progress = 0.7
+			amount = 1
+		}
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_submarine_1
+				creator = "JAP" 
+				version_name = "Kaidai III Class"
+			}
+			requested_factories = 1
+			progress = 0.6
+			amount = 1
+		}
+		# SS (x1): "Ro-34"
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_submarine_1
+				creator = "JAP" 
+				version_name = "Ro-26 Class"
+			}
+			requested_factories = 1
+			progress = 0.80
+			amount = 1
+		}
+}

@@ -1,0 +1,232 @@
+﻿
+##### OOB #####
+units = {
+### IJN ###
+	
+	#Taiwan (Goaxing)
+	fleet = {
+		name = "Dai 3 Kantai"			
+		naval_base = 12068	# Taiwan
+		task_force = {
+			name = "3 Kantai" #Later assigned for the Chinese theater
+			location = 12068	# Taiwan
+			#Dai 10 Sentai
+			ship = { name = "Izumo" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Kuma" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class" } } }
+			#Dai 11 Sentai, Momi-class destroyers
+			#Dai 25 Kuchikutai
+			ship = { name = "Kaya" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Nashi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Take" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			#Dai 26 Kuchikutai
+			ship = { name = "Nire" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Kuri" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Kaki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Tsuga" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			#Dai 27 Kuchikutai
+			ship = { name = "Ashi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Hishi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Sumire" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			#Former Dai 28 Kuchikutai
+			ship = { name = "Hasu" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Yomogi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Tade" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			#Other Momi-Class destroyers
+			ship = { name = "Kiku" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Aoi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Hagi" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Fuji" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Susuki" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Tsuta" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		}
+		task_force = {
+			name = "5 Suirai Sentai" #A part of "Dai 3 Kantai"
+			location = 12068	# Taiwan
+			#Flagship
+			ship = { name = "Yubari" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }
+			##Dai 13 Kuchikutai
+			ship = { name = "Kuretake" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Wakatake" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Sanae" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			##Dai 16 Kuchikutai
+			ship = { name = "Fuyo" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Karukaya" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }		
+			ship = { name = "Asagao" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }		
+		}
+		task_force = {
+			name = "Makou Keibi Sentai"
+			location = 12068	# Taiwan
+			#Dai 4 Kuchikutai
+			ship = { name = "Shimakaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Nadakaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Akikaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Hakaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		}
+	}
+	
+	### Pacific Forces ###
+	fleet = {
+		name = "Taiheiyo Kantai"			
+		naval_base = 2489  # Truk
+		#Truk
+		task_force = {
+			name = "Nanpo Yuso Sendan"
+			location = 2489  # Truk
+			ship = { name = "Oite" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Hayate" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Yugao" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			#Former Dai 2 Kuchikutai
+			ship = { name = "Minekaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Sawakaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Okikaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+			ship = { name = "Yakaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		}
+	}
+}
+
+
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = 
+{
+	
+### Ongoing Naval Production Jan 1 1936 ###
+		# BB (x1): "Hiei"
+		add_equipment_production = {				
+			equipment = {
+				type = battleship_2
+				creator = "JAP"
+			}
+			requested_factories = 1
+			progress = 0.2
+			amount = 1
+		}
+		# CV (x1): "Soryu"
+		add_equipment_production = {				
+			equipment = {
+				type = carrier_2
+
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.66
+
+			amount = 1
+		}
+		# CA (x1): "Suzuya"
+		add_equipment_production = {				
+			equipment = {
+				type = heavy_cruiser_2
+
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.2
+			amount = 1
+		}		
+		# DD (x5): "Shiratsuyu" "Shigure" "Murasame" "Harusame" "Samidare"
+		add_equipment_production = {				
+			equipment = {
+				type = destroyer_1
+				creator = "JAP" 
+				version_name = "Fubuki Class"
+			}
+			requested_factories = 1
+			progress = 0.7
+			amount = 2
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = destroyer_1
+				creator = "JAP" 
+				version_name = "Fubuki Class"
+			}
+			requested_factories = 1
+			progress = 0.6
+			amount = 1
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = destroyer_1
+				creator = "JAP" 
+				version_name = "Fubuki Class"
+			}
+			requested_factories = 1
+			progress = 0.5
+			amount = 2
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = destroyer_1
+				creator = "JAP" 
+				version_name = "Fubuki Class"
+			}
+			requested_factories = 1
+			progress = 0.4
+			amount = 1
+		}		
+		add_equipment_production = {				
+			equipment = {
+				type = destroyer_1
+				creator = "JAP" 
+				version_name = "Fubuki Class"
+			}
+			requested_factories = 1
+			progress = 0.3
+			amount = 1
+		}		
+		# SS (x4): "I-172" "I-73" "I-174" "I-175"
+		add_equipment_production = {				
+			equipment = {
+				type = submarine_2
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.7
+			amount = 2
+		}
+		add_equipment_production = {				
+			equipment = {
+				type = submarine_2
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.6
+			amount = 2
+		}
+		# SS (x2): "I-7" "I-8"
+		add_equipment_production = {				
+			equipment = {
+				type = submarine_1
+				creator = "JAP" 
+				version_name = "Kaidai III Class"
+			}
+			requested_factories = 1
+			progress = 0.7
+			amount = 1
+		}
+		add_equipment_production = {				
+			equipment = {
+				type = submarine_1
+				creator = "JAP" 
+				version_name = "Kaidai III Class"
+			}
+			requested_factories = 1
+			progress = 0.6
+			amount = 1
+		}
+		# SS (x1): "Ro-34"
+		add_equipment_production = {				
+			equipment = {
+				type = submarine_1
+				creator = "JAP" 
+			}
+			requested_factories = 1
+			progress = 0.80
+			amount = 1
+		}
+}
