@@ -1,0 +1,1542 @@
+focus_tree = {
+	id = SVN_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SVN
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1100 }
+	focus = {
+		id = SVN_new_soviet
+		icon = GFX_goal_support_communism
+		x = 3
+		y = 0
+		relative_position_id = SVN_political_direction
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = SVN_hard
+		icon = GFX_goal_generic_attack_allies
+		x = -2
+		y = 1
+		prerequisite = { focus = SVN_new_soviet }
+		mutually_exclusive = { focus = SVN_soft }
+		relative_position_id = SVN_new_soviet
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			set_party_name = { 
+    			ideology = communism 
+    			long_name =  "블라디보스토크 공산당"
+    			name = "블라디보스토크 공산당"
+			}
+		}
+	}
+	focus = {
+		id = SVN_new_council
+		icon = GFX_focus_generic_soviet_politics
+		x = 1
+		y = 1
+		prerequisite = { focus = SVN_hard focus = SVN_soft }
+		relative_position_id = SVN_hard
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+    			ideology = communism
+    			popularity = 0.15
+			}
+		}
+	}
+	focus = {
+		id = SVN_factory
+		icon = GFX_goal_fortify_the_westwall
+		x = 3
+		y = 1
+		prerequisite = { focus = SVN_hard focus = SVN_soft }
+		relative_position_id = SVN_hard
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			859 = {
+				add_building_construction = {
+    				type = bunker
+    				level = 3
+    				instant_build = yes
+    				province = 957
+				}
+				add_victory_points = {
+					province = 957
+					value = 5
+				}
+			}
+		}
+	}
+	focus = {
+		id = SVN_forever_revol
+		icon = GFX_goal_support_fourth_int
+		x = 1
+		y = 1
+		prerequisite = { focus = SVN_factory focus = SVN_new_council }
+		prerequisite = { focus = SVN_soft }
+		relative_position_id = SVN_factory
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			create_country_leader = {
+				name = "Leon Trotskyh"
+				desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+				picture = "Portrait_Leon_Trotsky.dds"
+				expire = "1965.1.1"
+				ideology = Trotskyism
+					traits = {
+		
+				}
+			}
+		}
+	}
+	focus = {
+		id = SVN_exhibition_system
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 0
+		y = 1
+		prerequisite = { focus = SVN_forever_revol }
+		relative_position_id = SVN_forever_revol
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = closed_economy 
+			add_ideas = war_economy 
+		}
+	}
+	focus = {
+		id = SVN_socialism_in_one_country
+		icon = GFX_goal_demand_sudetenland
+		x = -3
+		y = 1
+		prerequisite = { focus = SVN_factory focus = SVN_new_council }
+		prerequisite = { focus = SVN_hard }
+		relative_position_id = SVN_factory
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			create_country_leader = {
+				name = "Joseph Stalin"
+				desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+				picture = "Portrait_Soviet_Joseph_Stalin.dds"
+				expire = "1965.1.1"
+				ideology = Trotskyism
+					traits = {
+		
+				}
+			}
+		}
+	}
+	focus = {
+		id = SVN_comintern
+		icon = GFX_goal_generic_war_with_comintern
+		x = 0
+		y = 1
+		prerequisite = { focus = SVN_socialism_in_one_country }
+		relative_position_id = SVN_socialism_in_one_country
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			SOV = { add_to_faction = SVN }
+		}
+	}
+	focus = {
+		id = SVN_on_Soviet
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		x = 0
+		y = 1
+		prerequisite = { focus = SVN_comintern }
+		relative_position_id = SVN_comintern
+
+		cost = 20
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+			is_in_faction_with = SOV
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			SOV = { 
+				annex_country = {
+    				target = SVN
+    				transfer_troops = yes
+				} 
+			}
+		}
+	}
+	focus = {
+		id = SVN_soft
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		x = 2
+		y = 1
+		prerequisite = { focus = SVN_new_soviet }
+		mutually_exclusive = { focus = SVN_hard }
+		relative_position_id = SVN_new_soviet
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			set_party_name = { 
+    			ideology = communism 
+    			long_name =  "신볼셰비키"
+    			name = "신볼셰비키" 
+			}
+		}
+	}
+	focus = {
+		id = SVN_military_research_institute
+		icon = GFX_focus_CZE_military_research_institute
+		x = 11
+		y = 0
+		relative_position_id = SVN_political_direction
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 10
+		}
+	}
+
+	focus = {
+		id = SVN_mountain_bonus
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = SVN_military_research_institute }
+		x = -3
+		y = 1
+		relative_position_id = SVN_military_research_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = cze_mountain_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = mountaineers_tech
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_inf_and_artillery_advancement
+		icon = GFX_goal_rhineland
+		prerequisite = { focus = SVN_military_research_institute }
+		x = -1
+		y = 1
+		relative_position_id = SVN_military_research_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_inf_and_artillery_advancement
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_support_bonus
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = SVN_mountain_bonus }
+		x = -3
+		y = 2
+		relative_position_id = SVN_military_research_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_support_bonus #@#
+				bonus = 0.5
+				uses = 2
+				#category = hospital_tech
+				#category = logistics_tech
+				#category = signal_company_tech
+				#category = maintenance_company_tech
+				#category = engineers_tech
+				#category = recon_tech
+				#category = military_police_tech
+				category = support_tech	
+			}
+		add_tech_bonus = {
+			name = SVN_support_bonus #@#
+			bonus = 0.5
+			uses = 1
+			technology = support_weapons2
+			technology = support_weapons3
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_inf_and_artillery_advancement_2
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = SVN_inf_and_artillery_advancement }
+		x = -1
+		y = 2
+		relative_position_id = SVN_military_research_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_inf_and_artillery_advancement_2 #@#
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_doctrine_bonus
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = SVN_support_bonus }
+		prerequisite = { focus = SVN_inf_and_artillery_advancement_2 }
+		x = -2
+		y = 3
+		relative_position_id = SVN_military_research_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_motorization_scheme
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = SVN_military_research_institute }
+		x = 1
+		y = 1
+		relative_position_id = SVN_military_research_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.75
+				technology = motorised_infantry
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_armour_bonus_1
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = SVN_military_research_institute }
+		x = 3
+		y = 1
+		relative_position_id = SVN_military_research_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_mechanization
+		icon = GFX_goal_generic_production2
+		prerequisite = { focus = SVN_motorization_scheme }
+		x = 1
+		y = 2
+		relative_position_id = SVN_military_research_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_mechanization #@#
+				bonus = 0.5
+				uses = 1
+				category = cat_mechanized_equipment
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_armour_bonus_ii
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = SVN_armour_bonus_1 }
+		x = 3
+		y = 2
+		relative_position_id = SVN_military_research_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_doctrine_bonus_2
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = SVN_mechanization }
+		prerequisite = { focus = SVN_armour_bonus_ii }
+		x = 2
+		y = 3
+		relative_position_id = SVN_military_research_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_war_college
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = SVN_doctrine_bonus }
+		prerequisite = { focus = SVN_doctrine_bonus_2 }
+		x = 0
+		y = 4
+		relative_position_id = SVN_military_research_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = CZE_war_college_idea
+			if = {
+				limit = {
+					NOT = { amount_research_slots > 4 }
+				}
+				add_research_slot = 1
+				custom_effect_tooltip = SVN_war_college_effect_tt
+			}
+		}
+	}
+
+	#######################################
+	####### AERONAUTICAL INSTITUTE ########	
+	#######################################
+
+	focus = {
+		id = SVN_military_aeronautical_institute
+		icon = GFX_focus_CZE_military_aeronautical_institute
+		x = 8
+		y = 0
+		relative_position_id = SVN_military_research_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			air_experience = 10
+		}
+	}
+
+	focus = {
+		id = SVN_import_foreign_fighters
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = SVN_military_aeronautical_institute }
+		x = -2
+		y = 1
+		relative_position_id = SVN_military_aeronautical_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_import_foreign_fighters #@#
+				bonus = 0.5
+				uses = 1
+				category = light_fighter
+				category = cat_heavy_fighter
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_light_fighter_focus
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = SVN_import_foreign_fighters }
+		mutually_exclusive = { focus = SVN_heavy_fighter_focus }
+		x = -1
+		y = 1
+		relative_position_id = SVN_import_foreign_fighters
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_light_fighter_focus #@#
+				bonus = 0.5
+				uses = 1
+				category = light_fighter
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_heavy_fighter_focus
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = SVN_import_foreign_fighters }
+		mutually_exclusive = { focus = SVN_light_fighter_focus }
+		x = 1
+		y = 1
+		relative_position_id = SVN_import_foreign_fighters
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_heavy_fighter_focus #@#
+				bonus = 0.5
+				uses = 1
+				category = cat_heavy_fighter
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_air_is_our_sea
+		icon = GFX_goal_generic_build_airforce
+		prerequisite = { focus = SVN_military_aeronautical_institute }
+		x = 0
+		y = 1
+		relative_position_id = SVN_military_aeronautical_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = CZE_air_focus
+		}
+	}
+
+	focus = {
+		id = SVN_rule_the_air
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = SVN_air_is_our_sea }
+		prerequisite = { focus = SVN_light_fighter_focus focus = SVN_heavy_fighter_focus }
+		prerequisite = { focus = SVN_tac_focus focus = SVN_cas_focus }
+		x = 0
+		y = 3
+		relative_position_id = SVN_military_aeronautical_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 3
+				category = air_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_import_foreign_bombers
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = SVN_military_aeronautical_institute }
+		x = 2
+		y = 1
+		relative_position_id = SVN_military_aeronautical_institute
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_import_foreign_bombers #@#
+				bonus = 0.5
+				uses = 1
+				category = cas_bomber
+				category = tactical_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_cas_focus
+		icon = GFX_goal_generic_CAS
+		prerequisite = { focus = SVN_import_foreign_bombers }
+		mutually_exclusive = { focus = SVN_tac_focus }
+		x = -1
+		y = 1
+		relative_position_id = SVN_import_foreign_bombers
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_cas_focus #@#
+				bonus = 0.5
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = SVN_tac_focus
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = SVN_import_foreign_bombers }
+		mutually_exclusive = { focus = SVN_cas_focus }
+		x = 1
+		y = 1
+		relative_position_id = SVN_import_foreign_bombers
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 30
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_tac_focus #@#
+				bonus = 0.5
+				uses = 1
+				category = tactical_bomber
+			}
+		}
+	}
+	############################
+	####### NAVY SECTION #######
+	############################
+
+
+	focus = {
+		id = SVN_develop_polish_ship_building
+		icon = GFX_goal_generic_construct_naval_dockyard
+		
+		x = 7
+		y = 0
+		cost = 10
+		relative_position_id = SVN_military_aeronautical_institute
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available_if_capitulated = yes
+		
+		complete_tooltip = {
+			random_state = {
+				limit = { has_state_flag = SVN_develop_polish_ship_building_1 }
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 85 }
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = SVN_develop_polish_ship_building_1
+			}
+			#Add 3 Dockyards at Gdansk			
+		}
+	}
+
+	focus = {
+		id = SVN_study_foreign_built_ships
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = SVN_develop_polish_ship_building }
+		
+		x = 1
+		y = 1
+		relative_position_id = SVN_develop_polish_ship_building
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_study_foreign_built_ships
+				bonus = 0.5
+				uses = 1
+				category = dd_tech
+			}
+			#1x 50% research bonus for Destroyers
+		}
+	}
+
+	focus = {
+		id = SVN_a_cruiser_navy
+		icon = GFX_goal_generic_navy_anti_submarine
+		prerequisite = { focus = SVN_study_foreign_built_ships }
+		
+		x = 1
+		y = 1
+		relative_position_id = SVN_study_foreign_built_ships
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_a_cruiser_navy
+				bonus = 0.5
+				uses = 1
+				category = cl_tech
+			}
+			#1x50% research bonus to Light Cruisers
+		}
+	}
+
+	focus = {
+		id = SVN_import_submarine_technology
+		icon = GFX_goal_generic_production2
+		prerequisite = { focus = SVN_develop_polish_ship_building }
+		
+		x = -1
+		y = 1
+		relative_position_id = SVN_develop_polish_ship_building
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_import_submarine_technology
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+			#1 x50% research bonus for Submarines
+		}
+	}
+
+	focus = {
+		id = SVN_commerce_attack
+		icon = GFX_goal_generic_navy_submarine
+		prerequisite = { focus = SVN_import_submarine_technology }
+		x = -1
+		y = 1
+		relative_position_id = SVN_import_submarine_technology
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_commerce_attack
+				bonus = 0.5
+				uses = 1
+				category = submarine_doctrine
+			}
+			#1x50% research bonus to Submarine Doctrine
+		}
+	}
+
+	focus = {
+		id = SVN_the_twin_threats
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = SVN_import_submarine_technology focus = SVN_study_foreign_built_ships }
+		
+		x = 1
+		y = 1
+		relative_position_id = SVN_import_submarine_technology
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_the_twin_threats
+				bonus = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+			#1x50% bonus to Naval Doctrine Research
+		}
+	}
+
+	focus = {
+		id = SVN_coastal_defense
+		icon = GFX_goal_generic_navy_cruiser
+		prerequisite = { focus = SVN_the_twin_threats }
+		mutually_exclusive = { focus = SVN_strike_force }
+		x = 1
+		y = 1
+		relative_position_id = SVN_the_twin_threats
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_coastal_defense
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+			add_tech_bonus = {
+				name = SVN_coastal_defense
+				bonus = 0.5
+				uses = 1
+				category = dd_tech
+			}
+			#1x50% research bonus to destroyers & 1 x50% bonus to Submarines
+		}
+	}
+	
+	focus = {
+		id = SVN_strike_force
+		icon = GFX_goal_generic_occupy_states_coastal
+		prerequisite = { focus = SVN_the_twin_threats }
+		mutually_exclusive = { focus = SVN_coastal_defense }
+		x = -1
+		y = 1
+		relative_position_id = SVN_the_twin_threats
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_strike_force
+				bonus = 0.5
+				uses = 1
+				category = cl_tech
+			}
+			add_tech_bonus = {
+				name = SVN_strike_force
+				bonus = 0.5
+				uses = 1
+				category = ca_tech
+			}
+			#1x50% research bonus to Light Cruisers & 1x50% bonus to Heavy Cruisers
+		}
+	}
+
+	focus = {
+		id = SVN_baltic_navy
+		icon = GFX_goal_generic_navy_battleship
+		prerequisite = { focus = SVN_strike_force focus = SVN_coastal_defense }
+		
+		x = 1
+		y = 1
+		relative_position_id = SVN_strike_force
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = SVN_baltic_navy
+				bonus = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+			#1x50% bonus to Naval Doctrine research
+		}
+	}
+}
