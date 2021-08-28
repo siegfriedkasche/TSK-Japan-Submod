@@ -4102,6 +4102,7 @@ focus_tree = {
 							ideology = communism
 							popularity = 0.05
 						}
+					add_ideas = Youth_Employment
 				}
 
 	}
@@ -4110,7 +4111,7 @@ focus_tree = {
 		icon = goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = MJP_of_human_rights
+			focus = mjp_Reinforcement_of_financial_publicity
 		}
 		prerequisite = {
 			focus = Employment
@@ -4885,10 +4886,16 @@ focus_tree = {
 		}
 		x = 22
 		y = 13
+		completion_reward = {
+					country_event = {
+							id = MJP.25
+						}
+					add_ideas = eradicating_poverty
+				}
 
 	}
 	focus = {
-		id = MJP_of_human_rights
+		id = mjp_Reinforcement_of_financial_publicity
 		icon = goal_unknown
 		cost = 5.00
 		prerequisite = {
@@ -4896,6 +4903,14 @@ focus_tree = {
 		}
 		x = 24
 		y = 11
+		completion_reward = {
+					add_ideas = Reinforcement_of_financial_publicity
+
+					country_event = {
+							id = MJP.27
+							days = 2
+						}
+				}
 
 	}
 	focus = {
@@ -4907,6 +4922,11 @@ focus_tree = {
 		}
 		x = 21
 		y = 12
+		completion_reward = {
+					country_event = {
+							id = MJP.23
+						}
+				}
 
 	}
 	focus = {
@@ -4914,10 +4934,15 @@ focus_tree = {
 		icon = goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = MJP_of_human_rights
+			focus = mjp_Reinforcement_of_financial_publicity
 		}
 		x = 25
 		y = 12
+		completion_reward = {
+					country_event = {
+							id = MJP.17
+						}
+				}
 
 	}
 	focus = {
@@ -4932,6 +4957,13 @@ focus_tree = {
 		}
 		x = 25
 		y = 14
+		completion_reward = {
+					add_political_power = 150
+					add_popularity = {
+							ideology = communism
+							popularity = 0.15
+						}
+				}
 
 	}
 	focus = {
@@ -4950,7 +4982,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = MJP_the_quality_of_life
+		id = MJP_Murayama_Dialogue
 		icon = goal_unknown
 		cost = 5.00
 		prerequisite = {
@@ -4961,6 +4993,58 @@ focus_tree = {
 		}
 		x = 24
 		y = 15
+		completion_reward = {
+			country_event = {
+							id = MJP.26
+							days = 2
+						}
+					add_stability = 0.05
+					if = {
+							limit = {
+									KR1 = {
+											exists = yes
+										}
+								}
+							add_opinion_modifier = {
+									target = KR1
+									modifier = clearing_the_past
+								}
+							add_stability = 0.05
+							KR1 = {
+									add_stability = 0.05
+								}
+						}
+					else_if = {
+							limit = {
+									MKR = {
+											exists = yes
+										}
+								}
+							add_opinion_modifier = {
+									target = MKR
+									modifier = clearing_the_past
+								}
+							add_stability = 0.05
+							MKR = {
+									add_stability = 0.05
+								}
+						}
+					else_if = {
+							limit = {
+									ROK = {
+											exists = yes
+										}
+								}
+							add_stability = 0.05
+							ROK = {
+									add_stability = 0.05
+								}
+							add_opinion_modifier = {
+									target = ROK
+									modifier = clearing_the_past
+								}
+						}
+				}
 
 	}
 	focus = {
@@ -4975,20 +5059,81 @@ focus_tree = {
 		}
 		x = 22
 		y = 15
+		completion_reward = {
+					country_event = {
+							id = MJP.24
+						}
+					add_opinion_modifier = {
+							target = ENG
+							modifier = Criticism_of_Japan
+						}
+					add_opinion_modifier = {
+							target = USA
+							modifier = Criticism_of_Japan
+						}
+					add_opinion_modifier = {
+							target = FRA
+							modifier = Criticism_of_Japan
+						}
+					add_opinion_modifier = {
+							target = BEL
+							modifier = Criticism_of_Japan
+						}
+					add_opinion_modifier = {
+							target = ITA
+							modifier = Criticism_of_Japan
+						}
+					add_opinion_modifier = {
+							target = GER
+							modifier = Criticism_of_Japan
+						}
+					add_opinion_modifier = {
+							target = POR
+							modifier = Criticism_of_Japan
+						}
+					add_opinion_modifier = {
+							target = HOL
+							modifier = Criticism_of_Japan
+						}
+					add_stability = 0.05
+				}
 
 	}
 	focus = {
-		id = MJP_Hosokawa_Cabinet
+		id = MJP_Murayama_Cabinet
 		icon = goal_unknown
 		cost = 5.00
 		prerequisite = {
 			focus = MJP_Stop_the_War_of_nvasion
 		}
 		prerequisite = {
-			focus = MJP_the_quality_of_life
+			focus = MJP_Murayama_Dialogue
 		}
 		x = 23
 		y = 16
+		completion_reward = {
+					create_country_leader = {
+							name = "Murayama Tomiichi"
+							picture = "gfx/leaders/MJP/Murayama_Tomiichi.png"
+							expire = "1995.1.1"
+							ideology = Nationalist_socialism
+							traits = {
+
+}
+						}
+					hidden_effect = {
+							complete_national_focus = newfocus_30
+							create_country_leader = {
+									name = "Murayama Tomiichi"
+									picture = "gfx/leaders/MJPMurayama_Tomiichi.png"
+									expire = "1995.1.1"
+									ideology = socialist
+									traits = {
+
+}
+								}
+						}
+				}
 
 	}
 	focus = {
