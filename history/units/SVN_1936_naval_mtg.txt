@@ -19,7 +19,19 @@ units = {
 				}
 			}
 			
-			ship = { name = "Varyag" definition = modern_cruiser start_experience_factor = 0.65 equipment = { ship_hull_modern_cruiser_1 = { amount = 1 owner = SVN version_name = "슬라바급" } } }
+			순양함
+			ship = { name = "Varyag" definition = modern_cruiser start_experience_factor = 0.65 equipment = { ship_hull_modern_cruiser_2 = { amount = 1 owner = SVN version_name = "슬라바급" } } }
+			ship = { name = "Admiral Lazarev" definition = modern_cruiser start_experience_factor = 0.65 equipment = { ship_hull_modern_cruiser_2 = { amount = 1 owner = SVN version_name = "키로프급" } } }
+			ship = { name = "Petropavlovsk" definition = modern_cruiser start_experience_factor = 0.65 equipment = { ship_hull_modern_cruiser_2 = { amount = 1 owner = SVN version_name = "카라급" } } }
+			ship = { name = "Tashkent" definition = modern_cruiser start_experience_factor = 0.65 equipment = { ship_hull_modern_cruiser_2 = { amount = 1 owner = SVN version_name = "카라급" } } }
+			ship = { name = "Tallinn" definition = modern_cruiser start_experience_factor = 0.65 equipment = { ship_hull_modern_cruiser_2 = { amount = 1 owner = SVN version_name = "카라급" } } }
+            ship = { name = "Marshal Voroshilov" definition = modern_cruiser start_experience_factor = 0.65 equipment = { ship_hull_modern_cruiser_1 = { amount = 1 owner = SVN version_name = "크레스타II급" } } }
+			ship = { name = "Admiral Oktyabrsky" definition = modern_cruiser start_experience_factor = 0.65 equipment = { ship_hull_modern_cruiser_1 = { amount = 1 owner = SVN version_name = "크레스타II급" } } }
+			ship = { name = "Vasily Chapayev" definition = modern_cruiser start_experience_factor = 0.65 equipment = { ship_hull_modern_cruiser_1 = { amount = 1 owner = SVN version_name = "크레스타II급" } } }
+			ship = { name = "Admiral Fokin" definition = modern_cruiser start_experience_factor = 0.65 equipment = { ship_hull_modern_cruiser_1 = { amount = 1 owner = SVN version_name = "킨다급" } } }
+			ship = { name = "Varyag" definition = modern_cruiser start_experience_factor = 0.65 equipment = { ship_hull_modern_cruiser_1 = { amount = 1 owner = SVN version_name = "킨다급" } } }
+            
+			구축함
 			ship = { name = "Burny" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "소브레메니급" } } }
             ship = { name = "Bystry" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "소브레메니급" } } }
 			ship = { name = "Boyevoy" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "소브레메니급" } } }
@@ -37,6 +49,9 @@ units = {
 			ship = { name = "Strogiy" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "카신급" } } }
 			ship = { name = "Sposobnyy" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "카신급" } } }
 
+			ship = { name = "Upornyy" definition = modern_DDH start_experience_factor = 0.3 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = SVN version_name = "카닌급" } } }
+            
+			호위함
 			ship = { name = "Storozhevoy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
 			ship = { name = "Razumnyy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
 			ship = { name = "Razyashchiy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
@@ -54,7 +69,8 @@ units = {
 			ship = { name = "Anadyr" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
 			ship = { name = "Kedrov" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
 			ship = { name = "Vorovskiy" definition = modern_FF start_experience_factor = 0.3 equipment = { ff_1 = { amount = 1 owner = SVN } } }
-
+            
+			고속함
 			ship = { name = "Breeze" definition = modern_PK start_experience_factor = 0.3 equipment = { ship_hull_PK_1 = { amount = 1 owner = SVN version_name = "나누치카급" } } }
 			ship = { name = "Whirlwind" definition = modern_PK start_experience_factor = 0.3 equipment = { ship_hull_PK_1 = { amount = 1 owner = SVN version_name = "나누치카급" } } }
 			ship = { name = "Cyclone" definition = modern_PK start_experience_factor = 0.3 equipment = { ship_hull_PK_1 = { amount = 1 owner = SVN version_name = "나누치카급" } } }
@@ -73,7 +89,8 @@ units = {
 			ship = { name = "P-298" definition = modern_PK start_experience_factor = 0.3 equipment = { ship_hull_PK_1 = { amount = 1 owner = SVN version_name = "타란급" } } }
 			ship = { name = "P-11" definition = modern_PK start_experience_factor = 0.3 equipment = { ship_hull_PK_1 = { amount = 1 owner = SVN version_name = "타란급" } } }
 			ship = { name = "P-14" definition = modern_PK start_experience_factor = 0.3 equipment = { ship_hull_PK_1 = { amount = 1 owner = SVN version_name = "타란급" } } }
-
+            
+			잠수함
 			ship = { name = "B-455" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = SVN version_name = "킬로급" } } }
 			ship = { name = "B-394" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = SVN version_name = "킬로급" } } }
 			ship = { name = "B-464" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = SVN version_name = "킬로급" } } }

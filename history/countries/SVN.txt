@@ -435,6 +435,90 @@ if = {
 
 	create_equipment_variant = {
 		name = "슬라바급"
+		type = ship_hull_modern_cruiser_2
+		name_group = USJ_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
+			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
+			front_1_custom_slot = ship_vls_2
+			front_2_custom_slot = ship_ciws_2
+			mid_1_custom_slot = ship_missile_luncher_2
+			rear_1_custom_slot = ship_vls_2
+			rear_2_custom_slot = ship_torpedo_modern_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "키로프급"
+		type = ship_hull_modern_cruiser_2
+		name_group = USJ_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
+			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
+			front_1_custom_slot = ship_vls_2
+			front_2_custom_slot = ship_ciws_2
+			mid_1_custom_slot = ship_missile_luncher_2
+			rear_1_custom_slot = ship_vls_2
+			rear_2_custom_slot = ship_torpedo_modern_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "카라급"
+		type = ship_hull_modern_cruiser_2
+		name_group = USJ_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
+			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
+			front_1_custom_slot = ship_vls_2
+			front_2_custom_slot = ship_ciws_2
+			mid_1_custom_slot = ship_missile_luncher_2
+			rear_1_custom_slot = ship_vls_2
+			rear_2_custom_slot = ship_torpedo_modern_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "크레스타II급"
+		type = ship_hull_modern_cruiser_1
+		name_group = USJ_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
+			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
+			front_1_custom_slot = ship_vls_2
+			front_2_custom_slot = ship_ciws_2
+			mid_1_custom_slot = ship_missile_luncher_2
+			rear_1_custom_slot = ship_vls_2
+			rear_2_custom_slot = ship_torpedo_modern_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "킨다급"
 		type = ship_hull_modern_cruiser_1
 		name_group = USJ_CL_HISTORICAL
 		parent_version = 0
@@ -495,6 +579,28 @@ if = {
 			rear_2_custom_slot = ship_hel_modern
 		}
 	}
+
+	create_equipment_variant = {
+		name = "카닌급"
+		type = ship_hull_modern_DDH_1
+		name_group = USJ_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			ixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_1
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_armor_slot = ship_armor_cruiser_modern_1
+			front_1_custom_slot = ship_aa_missile_luncher_1
+			mid_1_custom_slot = ship_missile_luncher_2
+			mid_2_custom_slot = ship_ciws_2
+			rear_1_custom_slot = ship_aa_missile_luncher_1
+			rear_2_custom_slot = ship_hel_modern
+		}
+	}
+
 
 	create_equipment_variant = {
 		name = "우달로이급"
