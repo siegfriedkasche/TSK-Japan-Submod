@@ -518,6 +518,27 @@ if = {
 	}
 
 	create_equipment_variant = {
+		name = "크레스타I급"
+		type = ship_hull_modern_cruiser_1
+		name_group = USJ_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_ciws_2
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
+			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
+			fixed_ship_sts_slot = ship_missile_luncher_2
+			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
+			front_1_custom_slot = ship_vls_2
+			front_2_custom_slot = ship_ciws_2
+			mid_1_custom_slot = ship_missile_luncher_2
+			rear_1_custom_slot = ship_vls_2
+			rear_2_custom_slot = ship_torpedo_modern_1
+		}
+	}
+
+	create_equipment_variant = {
 		name = "킨다급"
 		type = ship_hull_modern_cruiser_1
 		name_group = USJ_CL_HISTORICAL
@@ -624,8 +645,46 @@ if = {
 	}
 
 	create_equipment_variant = {
-		name = "미르카급"
+		name = "크리박급"
 		type = ship_hull_FF_1
+		name_group = ROK_PCC_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_ciws_1
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_sts_slot = ship_missile_luncher_1
+			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			rear_1_custom_slot = modern_ship_light_battery_1
+			mid_1_custom_slot = ship_missile_luncher_1
+			front_1_custom_slot = modern_ship_light_battery_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "페티아급"
+		type = ship_hull_FF_1
+		name_group = ROK_PCC_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_ciws_1
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_sts_slot = ship_missile_luncher_1
+			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			rear_1_custom_slot = modern_ship_light_battery_1
+			mid_1_custom_slot = ship_missile_luncher_1
+			front_1_custom_slot = modern_ship_light_battery_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "미르카급"
+		type = ship_hull_PCC_1
 		name_group = ROK_PCC_HISTORICAL
 		parent_version = 0
 		modules = {
