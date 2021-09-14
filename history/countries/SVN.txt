@@ -441,16 +441,16 @@ if = {
 		modules = {
 			fixed_ship_battery_slot = modern_ship_light_battery_2
 			fixed_ship_anti_air_slot = ship_ciws_2
-			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
+			fixed_ship_fire_control_system_slot =ship_modern_fire_control_system_2
 			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
 			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
-			fixed_ship_sts_slot = ship_missile_luncher_2
-			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
-			front_1_custom_slot = ship_vls_2
-			front_2_custom_slot = ship_ciws_2
+			fixed_ship_secondaries_slot = ship_missile_luncher_2
+			fixed_ship_armor_slot = ship_vls_2
+			front_1_custom_slot = 
 			mid_1_custom_slot = ship_missile_luncher_2
-			rear_1_custom_slot = ship_vls_2
-			rear_2_custom_slot = ship_torpedo_modern_1
+			mid_2_custom_slot = ship_torpedo_modern_1
+			rear_1_custom_slot = ship_torpedo_modern_1
+			rear_2_custom_slot = ship_hel_modern
 		}
 	}
 
@@ -460,18 +460,18 @@ if = {
 		name_group = USJ_CL_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = modern_ship_light_battery_2
+            fixed_ship_battery_slot = modern_ship_light_battery_2
 			fixed_ship_anti_air_slot = ship_ciws_2
-			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
+			fixed_ship_fire_control_system_slot =ship_modern_fire_control_system_2
 			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
 			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
-			fixed_ship_sts_slot = ship_missile_luncher_2
-			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
+			fixed_ship_secondaries_slot = ship_missile_luncher_2
+			fixed_ship_armor_slot = ship_vls_2
 			front_1_custom_slot = ship_vls_2
-			front_2_custom_slot = ship_ciws_2
 			mid_1_custom_slot = ship_missile_luncher_2
-			rear_1_custom_slot = ship_vls_2
-			rear_2_custom_slot = ship_torpedo_modern_1
+			mid_2_custom_slot = ship_torpedo_modern_1
+			rear_1_custom_slot = ship_missile_luncher_2
+			rear_2_custom_slot = ship_hel_modern
 		}
 	}
 
@@ -491,8 +491,8 @@ if = {
 			front_1_custom_slot = ship_vls_2
 			front_2_custom_slot = ship_ciws_2
 			mid_1_custom_slot = ship_missile_luncher_2
-			rear_1_custom_slot = ship_vls_2
-			rear_2_custom_slot = ship_torpedo_modern_1
+			rear_1_custom_slot = ship_torpedo_modern_1
+			rear_2_custom_slot =  ship_hel_modern
 		}
 	}
 
@@ -502,18 +502,17 @@ if = {
 		name_group = USJ_CL_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = modern_ship_light_battery_2
+			fixed_ship_battery_slot = modern_ship_light_battery_1
 			fixed_ship_anti_air_slot = ship_ciws_2
-			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
-			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
 			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
-			fixed_ship_sts_slot = ship_missile_luncher_2
 			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
 			front_1_custom_slot = ship_vls_2
-			front_2_custom_slot = ship_ciws_2
+			front_2_custom_slot = modern_ship_light_battery_1
 			mid_1_custom_slot = ship_missile_luncher_2
-			rear_1_custom_slot = ship_vls_2
-			rear_2_custom_slot = ship_torpedo_modern_1
+			rear_1_custom_slot = ship_torpedo_modern_1
+			rear_2_custom_slot =  ship_hel_modern
 		}
 	}
 
@@ -523,17 +522,15 @@ if = {
 		name_group = USJ_CL_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = modern_ship_light_battery_2
-			fixed_ship_anti_air_slot = ship_ciws_2
-			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
-			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
+			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = 
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
 			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
 			fixed_ship_sts_slot = ship_missile_luncher_2
 			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
-			front_1_custom_slot = ship_vls_2
-			front_2_custom_slot = ship_ciws_2
+			front_2_custom_slot = modern_ship_light_battery_1
 			mid_1_custom_slot = ship_missile_luncher_2
-			rear_1_custom_slot = ship_vls_2
 			rear_2_custom_slot = ship_torpedo_modern_1
 		}
 	}
@@ -544,18 +541,18 @@ if = {
 		name_group = USJ_CL_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = modern_ship_light_battery_2
+			fixed_ship_battery_slot = modern_ship_light_battery_1
 			fixed_ship_anti_air_slot = ship_ciws_2
-			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_2
-			fixed_ship_aegis_radar_slot = ship_aegis_radar_1
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
 			fixed_ship_engine_slot = cruiser_ship_engine_modern_2
-			fixed_ship_sts_slot = ship_missile_luncher_2
 			fixed_ship_armor_slot = ship_armor_cruiser_modern_2
-			front_1_custom_slot = ship_vls_2
-			front_2_custom_slot = ship_ciws_2
+			front_1_custom_slot = ship_missile_luncher_2
+			front_2_custom_slot = modern_ship_light_battery_1
 			mid_1_custom_slot = ship_missile_luncher_2
-			rear_1_custom_slot = ship_vls_2
-			rear_2_custom_slot = ship_torpedo_modern_1
+			rear_1_custom_slot = ship_torpedo_modern_1
+			rear_2_custom_slot =  ship_torpedo_modern_1
+		}
 		}
 	}
 
