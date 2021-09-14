@@ -42,7 +42,8 @@ units = {
 		start_experience_factor = 0.6
 		force_equipment_variants = { infantry_equipment_7 = { owner = "SVN" } }
 		force_equipment_variants = { m_1980_mbt = { owner = "SVN" } }
-		force_equipment_variants = { m_1980_sp_equipment = { owner = "SVN" } }
+		force_equipment_variants = { m_1980_sp_equipment = { owner = "SVN" } }}
+		force_equipment_variants = { support_infantry_equipment_2 = { owner = "SVN" } }
 	}
 }
 
