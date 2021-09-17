@@ -10,12 +10,12 @@ units = {
 			location = 957
 			ship = { name = "Novorossiysk" definition = modern_CV equipment = { ship_hull_modern_CV_1 = { amount = 1 owner = SVN version_name = "키예프급" } } 
 				air_wings = {
-					m_1990_cv_jet_fighter_equipment  =  { owner = "SVN" amount = 30 }	# Yak-38
+					cv_m_1990_jet_fighter_equipment  =  { owner = "SVN" amount = 30 }	# Yak-38
 				}
 			}
 			ship = { name = "Minsk" definition = modern_CV equipment = { ship_hull_modern_CV_1 = { amount = 1 owner = SVN version_name = "키예프급" } } 
 				air_wings = {
-					m_1990_cv_jet_fighter_equipment  =  { owner = "SVN" amount = 30 }	# Yak-38
+					cv_m_1990_jet_fighter_equipment  =  { owner = "SVN" amount = 30 }	# Yak-38
 				}
 			}
 			
