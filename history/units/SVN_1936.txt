@@ -34,6 +34,21 @@ division_template = {
 	mot_recon = { x = 0 y = 4 }
 	}
 }
+division_template = {
+	name = "소비에트 공수여단"
+
+	regiments = {
+		heliborne_infantry = { x = 0 y = 0 }
+		heliborne_infantry = { x = 0 y = 1 }
+		heliborne_infantry = { x = 0 y = 2 }
+		anti_air_brigade = { x = 0 y = 3 }
+		modern_artillery_brigade = { x = 1 y = 0 }
+
+	}
+	support = {
+		armor_Recce_Comp = { x = 0 y = 0 }
+        }
+    }
 units = {
 	division= {
 		name = "제55해군보병사단"
@@ -44,6 +59,13 @@ units = {
 		force_equipment_variants = { m_1980_mbt = { owner = "SVN" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "SVN" } }}
 		force_equipment_variants = { support_infantry_equipment_2 = { owner = "SVN" } }
+	}
+	division= {
+		name = "제83근위공습여단"
+		location = 957
+		division_template = "소비에트 공수여단"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
 	}
 }
 
