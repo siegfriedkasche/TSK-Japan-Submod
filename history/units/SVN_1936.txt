@@ -64,9 +64,9 @@ division_template = {
 		modern_mechanized = { x = 1 y = 1 }
 		modern_mechanized = { x = 1 y = 2 }
 		modern_mechanized = { x = 1 y = 3 }
-		modern_mechanized = { x = 1 y = 4 }
-		modern_mechanized = { x = 2 y = 0 }
-		modern_mechanized = { x = 2 y = 1 }
+		modern_motorized_rocket_brigade = { x = 1 y = 4 }
+		modern_motorized_rocket_brigade = { x = 2 y = 0 }
+		modern_motorized_rocket_brigade = { x = 2 y = 1 }
 		modern_artillery_brigade = { x = 2 y = 2 }
 		modern_artillery_brigade = { x = 2 y = 3 }
 		modern_artillery_brigade = { x = 2 y = 4 }
@@ -80,9 +80,6 @@ division_template = {
 		modern_mbt = { x = 4 y = 2 }
 		modern_mbt = { x = 4 y = 3 }
 		modern_mbt = { x = 4 y = 4 }
-		modern_motorized_rocket_brigade = { x = 5 y = 0 }
-		modern_motorized_rocket_brigade = { x = 5 y = 1 }
-		modern_motorized_rocket_brigade = { x = 5 y = 2 }
 
 	}
 	support = {
