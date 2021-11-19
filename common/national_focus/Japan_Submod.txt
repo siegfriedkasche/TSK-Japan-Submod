@@ -691,6 +691,13 @@ focus_tree = {
 		}
 		x = 19
 		y = 5
+		completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = PRK
+						}
+					
+				}
 
 	}
 	focus = {
@@ -702,6 +709,19 @@ focus_tree = {
 		}
 		x = 19
 		y = 6
+		completion_reward = {
+					create_faction = "서태평양 조약기구"
+					MJP = {
+							add_to_faction = USJ
+							add_to_faction = ROK
+						}
+					USJ = {
+
+}
+                    ROK = {
+
+}
+				}
 
 	}
 	focus = {
@@ -2852,6 +2872,9 @@ focus_tree = {
 		}
 		x = 47
 		y = 1
+		completion_reward = {
+					unlock_decision_tooltip = MJP_peace_Constitution_decisions
+				}
 
 	}
 	focus = {
@@ -2918,6 +2941,13 @@ focus_tree = {
 		}
 		x = 49
 		y = 3
+		completion_reward = {
+					set_technology = {
+							
+							m_2010_modern_tank = 1
+							m_2010_modern_artillery = 1
+						}
+				}
 
 	}
 	focus = {
@@ -4670,6 +4700,9 @@ focus_tree = {
 		}
 		x = 45
 		y = 4
+		completion_reward = {
+			add_ideas = USA_airborne_divisions
+		}
 
 	}
 	focus = {
