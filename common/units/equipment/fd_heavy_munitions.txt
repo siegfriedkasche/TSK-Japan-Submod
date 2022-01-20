@@ -1,0 +1,40 @@
+# Artillery and AA munitions equipment.
+
+equipments = {
+	
+	heavy_mun_equipment = { #포병포탄/전차포탄
+		year = 1936
+	
+		is_archetype = yes
+		picture = archetype_support_equipment	
+		is_buildable = no
+		type = {
+			artillery
+			anti_tank
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		reliability = 0.01
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.2
+		resources = {
+			steel = 1
+		}
+		
+	}
+
+	heavy_mun_equipment_0 = {
+		year = 1918
+	
+		archetype = heavy_mun_equipment
+		priority = 05
+		visual_level = 0
+	}
+}

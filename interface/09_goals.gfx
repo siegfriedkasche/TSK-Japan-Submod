@@ -1,0 +1,142 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		legacy_lazy_load = no 
+	}
+	####
+	SpriteType = {
+		name = "focus_Lee_Myung_bak"
+		texturefile = "gfx/interface/goals/focus_Lee_Myung_bak.dds"
+	}
+	####
+	SpriteType = {
+		name = "Warning_to_North_Korea"   
+		texturefile = "gfx/interface/goals/K_asche/Warning_to_North_Korea.png"
+	}
+	SpriteType = { 
+		name = "death_communsim"   
+		texturefile = "gfx/interface/goals/K_asche/death_communsim.png"
+	}
+	SpriteType = {
+		name = "attack_battle"    
+		texturefile = "gfx/interface/goals/K_asche/attack_battle.png"
+	}
+	SpriteType = {
+		name = "38line"     
+		texturefile = "gfx/interface/goals/K_asche/38line.png"
+	}
+	SpriteType = {
+		name = "focus_Roh_Moo_hyun"
+		texturefile = "gfx/interface/goals/focus_Roh_Moo_hyun.dds"
+	}
+	SpriteType = {
+		name = "NCUI"
+		texturefile = "gfx/interface/goals/NCUI.dds"
+	}
+	SpriteType = {
+		name = "ROKA"
+		texturefile = "gfx/interface/goals/ROKA.dds"
+	}
+	SpriteType = {
+		name = "ROKAF"
+		texturefile = "gfx/interface/goals/ROKAF.dds"
+	}
+	SpriteType = {
+		name = "ROKNAVY"
+		texturefile = "gfx/interface/goals/ROKNAVY.dds"
+	}
+	SpriteType = {
+		name = "ROKND"
+		texturefile = "gfx/interface/goals/ROKND.dds"
+	}
+	SpriteType = {
+		name = "K1A1"
+		texturefile = "gfx/interface/goals/K1A1.dds"
+	}
+	SpriteType = {
+		name = "태극기"
+		texturefile = "gfx/interface/goals/태극기.dds"
+	}
+	SpriteType = {
+		name = "기업국유화"
+		texturefile = "gfx/interface/goals/기업국유화.dds" 
+	}
+	SpriteType = {
+		name = "빨갱이는_믿을수없다"
+		texturefile = "gfx/interface/goals/빨갱이는_믿을수없다.dds"
+	}
+	SpriteType = {
+		name = "예방전쟁_북한공격"
+		texturefile = "gfx/interface/goals/예방전쟁_북한공격.dds"
+	}
+	SpriteType = {
+		name = "기업국유화"
+		texturefile = "gfx/interface/goals/기업국유화.dds" 
+	}
+	SpriteType = {
+		name = "rok_armed_forces"
+		texturefile = "gfx/interface/goals/south_korea/rok_armed_forces.dds" 
+	}
+	SpriteType = {
+		name = "타임슬립"
+		texturefile = "gfx/interface/goals/타임슬립.dds"
+	} 
+	SpriteType = {
+		name = "국뽕" 
+		texturefile = "gfx/interface/goals/국뽕.png"
+	}
+	SpriteType = {
+		name = "선제공격"
+		texturefile = "gfx/interface/goals/선제공격.png"
+	}
+	SpriteType = {
+		name = "나가토"
+		texturefile = "gfx/interface/goals/나가토.png"
+	} 
+	SpriteType = {
+		name = "주체사상"
+		texturefile = "gfx/interface/goals/주체사상.png"
+	}
+	SpriteType = {
+		name = "정통사회주의"
+		texturefile = "gfx/interface/goals/정통사회주의.png"
+	}
+	SpriteType = {
+		name = "조선인민군"
+		texturefile = "gfx/interface/goals/조선인민군.png"
+	}
+	SpriteType = {
+		name = "천리마운동재개"
+		texturefile = "gfx/interface/goals/천리마운동재개.png"
+	}
+	SpriteType = {
+		name = "goal_hitomi"
+		texturefile = "gfx/interface/goals/goal_hitomi.tga"
+	}
+	SpriteType = {
+		name = "한민구"  
+		texturefile = "gfx/interface/goals/한민구.png"
+	} 
+	SpriteType = {
+		name = "대한국만세"  
+		texturefile = "gfx/interface/goals/대한국만세.png"
+	}
+	SpriteType = {
+		name = "한강의기적" 
+		texturefile = "gfx/interface/goals/한강의기적.png"
+	}
+	SpriteType = { 
+		name = "Start_of_propaganda" 
+		texturefile = "gfx/interface/goals/Start_of_propaganda.dds"
+	}
+	SpriteType = { 
+		name = "극동로마" 
+		texturefile = "gfx/interface/goals/극동로마.png"
+	}
+	SpriteType = { 
+		name = "moonjaein" 
+		texturefile = "gfx/interface/goals/moonjaein.png"
+	}
+}

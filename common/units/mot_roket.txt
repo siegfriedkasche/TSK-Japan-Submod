@@ -1,0 +1,57 @@
+# options for map_icon_category:
+# For land units: infantry,armored,other
+# For sea units: ship,transport,uboat
+
+sub_units = {
+
+	mot_roket = {
+		sprite = motorized
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+
+		type = {
+			artillery
+			motorized
+			rocket
+			support
+		}
+
+		group = support
+		
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+			category_support_battalions
+		}		
+
+		
+		combat_width = 0
+		training_time = 120
+
+		need = {
+			motorized_rocket_equipment = 20
+		}
+
+		can_be_parachuted = yes
+		
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 10
+		default_morale = 0.1
+		manpower = 300
+		weight = 0.1
+		
+        supply_consumption = 0.1
+
+		# Support nerfs to combat abilities
+		defense = -0.3
+		breakthrough = -0.3
+		soft_attack = -0.3
+		hard_attack = -0.3
+
+	}
+}

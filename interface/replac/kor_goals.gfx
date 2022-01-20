@@ -1,0 +1,248 @@
+spriteTypes = {	
+
+	#### Generic continuous goal icons
+
+	SpriteType = {
+	name = "GFX_goal_chun"
+	texturefile = "gfx/interface/goals/focus_Chun_Doo_hwan.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_Roh_tae_woo"
+	texturefile = "gfx/interface/goals/focus_Roh_Tae_woo.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_ROKA"
+	texturefile = "gfx/interface/goals/ROKA.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_ROKAF"
+	texturefile = "gfx/interface/goals/ROKAF.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_ROKNAVY"
+	texturefile = "gfx/interface/goals/ROKNAVY.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_ROKND"
+	texturefile = "gfx/interface/goals/ROKND.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_kor_flag"
+	texturefile = "gfx/interface/goals/태극기.dds"			
+	}		
+	
+	SpriteType = {
+	name = "GFX_goal_KF-16C"
+	texturefile = "gfx/interface/goals/KF-16C.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_cap_na"
+	texturefile = "gfx/interface/goals/국회_폐쇄.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_kimu"
+	texturefile = "gfx/interface/goals/기무사령부.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_sea_is_ours"
+	texturefile = "gfx/interface/goals/바다는_한국이_지배한다.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_NCUI"
+	texturefile = "gfx/interface/goals/NCUI.dds"			
+	}	
+	
+	#### Generic goal icons
+
+	SpriteType = {
+	name = "GFX_goal_support_chang"
+	texturefile = "gfx/interface/goals/장개석.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_strike_prk_1"
+	texturefile = "gfx/interface/goals/예방전쟁(북한공격).dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_commies"
+	texturefile = "gfx/interface/goals/빨갱이는_믿을수없다.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_economic_crisis"
+	texturefile = "gfx/interface/goals/경제위기.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_West_Front_Artillery_Incident"
+	texturefile = "gfx/interface/goals/서부전선_포격.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_General_Lee"
+	texturefile = "gfx/interface/goals/이범석_중점.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_glory"
+	texturefile = "gfx/interface/goals/모스크바.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_F-4"
+	texturefile = "gfx/interface/goals/F-4.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_K1A1"
+	texturefile = "gfx/interface/goals/K1A1.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_libertarians"
+	texturefile = "gfx/interface/goals/libertarians.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_recovery_from_civil_war"
+	texturefile = "gfx/interface/goals/recovery_from_civil_war.dds"			
+	}		
+	
+	SpriteType = {
+	name = "GFX_goal_ship"
+	texturefile = "gfx/interface/goals/선박.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_defense_contractor"
+	texturefile = "gfx/interface/goals/방산업체.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_nationalization_of_enterprises"
+	texturefile = "gfx/interface/goals/기업국유화.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_노조협상"
+	texturefile = "gfx/interface/goals/노조협상.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_자유국가"
+	texturefile = "gfx/interface/goals/자유국가.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_국민단결"
+	texturefile = "gfx/interface/goals/국민단결.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_국가보안법"
+	texturefile = "gfx/interface/goals/국가보안법.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_복지정책"
+	texturefile = "gfx/interface/goals/복지정책.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_금융실명제"
+	texturefile = "gfx/interface/goals/금융실명제.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_하나회관련자처벌"
+	texturefile = "gfx/interface/goals/하나회관련자처벌.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_국공내전개입"
+	texturefile = "gfx/interface/goals/국공내전개입.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_자위대와협상"
+	texturefile = "gfx/interface/goals/자위대와협상.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_노조탄압"
+	texturefile = "gfx/interface/goals/노조탄압.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_일본의만행알리기"
+	texturefile = "gfx/interface/goals/일본의만행알리기.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_역사바로알기"
+	texturefile = "gfx/interface/goals/역사바로알기.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_교육에투자"
+	texturefile = "gfx/interface/goals/교육에투자.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_UN설립"
+	texturefile = "gfx/interface/goals/UN.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_적화통일"
+	texturefile = "gfx/interface/goals/적화통일.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_불곰"
+	texturefile = "gfx/interface/goals/불곰.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_방위산업"
+	texturefile = "gfx/interface/goals/방위산업.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_육군사관학교"
+	texturefile = "gfx/interface/goals/육군사관학교.png"			
+	}	
+	SpriteType = {
+	name = "GFX_K9"
+	texturefile = "gfx/interface/goals/K9.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_biho"
+	texturefile = "gfx/interface/goals/biho.png"			
+	}	
+	SpriteType = {
+	name = "GFX_KIFV"
+	texturefile = "gfx/interface/goals/KIFV.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_k2001"
+	texturefile = "gfx/interface/goals/k2001.png"			
+	}	
+	SpriteType = {
+	name = "GFX_ven"
+	texturefile = "gfx/interface/goals/ven.png"			
+	}	
+}

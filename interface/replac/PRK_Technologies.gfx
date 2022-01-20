@@ -1,0 +1,472 @@
+spriteTypes = {	
+ ################################################################################
+ ######경차량
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_PRK_light_vehicle_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/prk_경차량0.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_light_vehicle_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/prk_경차량1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_light_vehicle_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/prk_경차량2.png"
+	}
+	
+	### South PRKea ###
+	
+	SpriteType = {
+		name = "GFX_PRK_modern_motorized_equipment_medium"
+		texturefile = "gfx/interface/technologies/PRK_motorized_equipment_1.dds"
+	}
+ ################################################################################
+ ######보병장비
+ ################################################################################
+
+	SpriteType = {
+		name = "GFX_PRK_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/infantry/PRK_1960_infantry_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_infantry_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/infantry/PRK_1970_infantry_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_infantry_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/infantry/PRK_1980_infantry_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_infantry_equipment_7_medium"
+		texturefile = "gfx/interface/technologies/infantry/PRK_1990_infantry_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_infantry_equipment_8_medium"
+		texturefile = "gfx/interface/technologies/infantry/PRK_2000_infantry_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_infantry_equipment_9_medium"
+		texturefile = "gfx/interface/technologies/infantry/PRK_2010_infantry_equipment.dds"
+	}
+	
+ ################################################################################
+ ######지원화기
+ ################################################################################
+
+	SpriteType = {
+		name = "GFX_PRK_support_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/infantry/PRK_support_infantry_equipment_0.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_support_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/infantry/PRK_support_infantry_equipment_1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_support_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/infantry/PRK_support_infantry_equipment_2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_support_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/infantry/PRK_support_infantry_equipment_3.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_support_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/infantry/PRK_support_infantry_equipment_4.png"
+	}
+	
+ ################################################################################
+ ######전차
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_PRK_m_1950_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/PRK_1950_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1960_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/PRK_1960_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1970_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/PRK_1970_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1980_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/PRK_1980_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/PRK_1990_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2000_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/PRK_2000_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2010_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/PRK_2010_mbt.dds"
+	}
+	
+ ################################################################################
+ ######야포
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_PRK_modern_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/art/PRK_modern_war_artillery.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_modern_artillery_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/art/PRK_modern_war_artillery_2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_modern_artillery_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/art/PRK_modern_war_artillery_3.png"
+	}
+	
+ ################################################################################
+ ######MLRS
+ ################################################################################
+ 
+ 	SpriteType = {
+		name = "GFX_PRK_m_1970_mlrs_equipment_medium"
+		texturefile = "gfx/interface/technologies/art/PRK_1970_mlrs.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1980_mlrs_equipment_medium"
+		texturefile = "gfx/interface/technologies/art/PRK_1980_mlrs.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_mlrs_equipment_medium"
+		texturefile = "gfx/interface/technologies/art/PRK_1990_mlrs.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2000_mlrs_equipment_medium"
+		texturefile = "gfx/interface/technologies/art/PRK_2000_mlrs.png"
+	}
+ ################################################################################
+ ######APC
+ ################################################################################
+	SpriteType = {
+		name = "GFX_PRK_m_1970_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/PRK_1970_apc.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1980_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/PRK_1980_apc.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/PRK_1990_apc.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2000_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/PRK_2000_apc.dds"
+	}
+
+ ################################################################################
+ ######IFV
+ ################################################################################
+	SpriteType = {
+		name = "GFX_PRK_m_1970_IFV_equipment_medium"
+		texturefile = "gfx/interface/technologies/ifv/PRK_1970_ifv.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1980_IFV_equipment_medium"
+		texturefile = "gfx/interface/technologies/ifv/PRK_1980_ifv.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_IFV_equipment_medium"
+		texturefile = "gfx/interface/technologies/ifv/PRK_1990_ifv.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2000_IFV_equipmentt_medium"
+		texturefile = "gfx/interface/technologies/ifv/PRK_2000_ifv.dds"
+	}
+	
+ ################################################################################
+ ######대공자주포
+ ################################################################################
+	SpriteType = {
+		name = "GFX_PRK_m_1970_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/PRK_1970_spaa.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1980_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/PRK_1980_spaa.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/PRK_1990_spaa.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2000_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/PRK_2000_spaa.dds"
+	}
+	
+	
+ ################################################################################
+ ######자주포
+ ################################################################################
+	SpriteType = {
+		name = "GFX_PRK_m_1980_sp_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/PRK_1980_sp.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_sp_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/PRK_1990_sp.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/PRK_1990_apc.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2000_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/PRK_2000_apc.dds"
+	}
+	
+ ################################################################################
+ ######대공포
+ ################################################################################
+	SpriteType = {
+		name = "GFX_PRK_heavy_anti_air_eq_medium"
+		texturefile = "gfx/interface/technologies/aa/PRK_heavy_anti_air.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_aa_missile_medium"
+		texturefile = "gfx/interface/technologies/aa/PRK_aa_missile.dds"
+	}
+	
+ ################################################################################
+ ######맨패드
+ ################################################################################
+	SpriteType = {
+		name = "GFX_PRK_m_1970_manpad_equipment_medium"
+		texturefile = "gfx/interface/technologies/aa/PRK_1970_manpad.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1980_manpad_equipment_medium"
+		texturefile = "gfx/interface/technologies/aa/PRK_1980_manpad.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_manpad_equipment_medium"
+		texturefile = "gfx/interface/technologies/aa/PRK_1990_manpad.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2000_manpad_equipment_medium"
+		texturefile = "gfx/interface/technologies/aa/PRK_2000_manpad.png"
+	}
+	
+ ################################################################################
+ ######대전차화기
+ ################################################################################
+	SpriteType = {
+		name = "GFX_PRK_m_1970_atgm_equipment_medium"
+		texturefile = "gfx/interface/technologies/at/PRK_1970_atgm_equipment.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1980_atgm_equipment_medium"
+		texturefile = "gfx/interface/technologies/at/PRK_1980_atgm_equipment.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_atgm_equipment_medium"
+		texturefile = "gfx/interface/technologies/at/PRK_1990_atgm_equipment.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2000_atgm_equipment_medium"
+		texturefile = "gfx/interface/technologies/at/PRK_2000_atgm_equipment.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2010_atgm_equipment_medium"
+		texturefile = "gfx/interface/technologies/at/PRK_2010_atgm_equipment.png"
+	}
+	
+ ################################################################################
+ ###### 공격헬기
+ ################################################################################
+	SpriteType = {
+		name = "GFX_PRK_m_1970_attack_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1970_attack_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1980_attack_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1980_attack_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_attack_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1990_attack_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2000_attack_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_2000_attack_helicopter.dds"
+	}
+
+	
+ ################################################################################
+ ###### 수송헬기
+ ################################################################################
+	SpriteType = {
+		name = "GFX_PRK_m_1970_util_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1970_util_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1980_util_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1980_util_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_util_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1990_util_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_util_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_2000_util_helicopter.dds"
+	}
+	
+	
+ ################################################################################
+ ###### 제공기
+ ################################################################################
+	SpriteType = {
+		name = "GFX_PRK_m_1970_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1970_fighter.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1980_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1980_fighter.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1990_fighter.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2000_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_2000_fighter.dds"
+	}
+	
+ ################################################################################
+ ######멀티롤
+ ################################################################################
+	SpriteType = {
+		name = "GFX_PRK_m_1970_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1970_jet_multirole.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1980_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1980_jet_multirole.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1990_jet_multirole.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2000_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_2000_jet_multirole.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2010_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_2010_jet_multirole.dds"
+	}
+	
+	
+ ################################################################################
+ ######CAS
+ ################################################################################
+	SpriteType = {
+		name = "GFX_PRK_m_1970_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1970_CAS.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1980_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1980_CAS.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_1990_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_1990_CAS.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRK_m_2010_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/PRK_2010_CAS.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRK_ballistic_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/PRK_탄도미사일1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_ballistic_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/PRK_탄도미사일2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRK_ballistic_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/PRK_탄도미사일3.png"
+	}
+	
+    SpriteType = {
+		name = "GFX_KPA_ship_hull_modern_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_1.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ship_hull_modern_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_2.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ship_hull_modern_submarine_3_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_3.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ship_hull_modern_submarine_4_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_4.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ship_hull_modern_submarine_5_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_5.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ship_hull_modern_submarine_6_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_6.png"
+	}
+ 
+    SpriteType = {
+		name = "GFX_KPA_ship_hull_PCC_1_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_ship_hull_PCC_1.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ship_hull_FF_1_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_ship_hull_FF_1.png"
+	}
+	
+    SpriteType = {
+		name = "GFX_KPA_pcc_1_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_ship_hull_PCC_1.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ff_1_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_ship_hull_FF_1.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ss_1_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_1.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ss_2_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_2.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ss_3_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_3.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ss_4_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_4.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ss_5_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_5.png"
+	}
+    SpriteType = {
+		name = "GFX_KPA_ss_6_medium"
+		texturefile = "gfx/interface/technologies/navy/PRK_sub_6.png"
+	}
+}

@@ -1,0 +1,8 @@
+﻿l_english:
+ jet_multirole:0 "멀티롤"
+ jet_multirole_desc:0 "전투기는 빠르고 날렵하며 많은 임무를 수행할 수 있습니다. 제공권 확보를 위한 공중전, 아군 폭격기 보호, 적 폭격기 요격까지 모든 것을 할 수 있습니다."
+ attack_helicopter:0 "공격헬기"
+ attack_helicopter_equipment_desc:0 "전투기는 빠르고 날렵하며 많은 임무를 수행할 수 있습니다. 제공권 확보를 위한 공중전, 아군 폭격기 보호, 적 폭격기 요격까지 모든 것을 할 수 있습니다."
+ maritime_helicopter:0 "해군 다목적헬기"
+ maritime_helicopter_equipment_desc:0 "전투기는 빠르고 날렵하며 많은 임무를 수행할 수 있습니다. 제공권 확보를 위한 공중전, 아군 폭격기 보호, 적 폭격기 요격까지 모든 것을 할 수 있습니다."
+ cas:0 "근접항공지원기"

@@ -1,0 +1,570 @@
+spriteTypes = {	
+ ################################################################################
+ ######경차량
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_KOR_light_vehicle_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/kor_경차량0.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_light_vehicle_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/kor_경차량1.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_light_vehicle_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/kor_경차량2.png"
+	}
+ ################################################################################
+ 
+	### South korea ###
+	SpriteType = {
+		name = "GFX_heavy_mun_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/중탄약.png"
+	}
+	SpriteType = {
+		name = "GFX_light_mun_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/경탄약.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_modern_motorized_equipment_medium"
+		texturefile = "gfx/interface/technologies/kor_motorized_equipment_1.dds"
+	}
+ ################################################################################
+ ######보병장비
+ ################################################################################
+
+	SpriteType = {
+		name = "GFX_KOR_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/infantry/1960_infantry_equipment.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_infantry_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/infantry/1970_infantry_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_infantry_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/infantry/1980_infantry_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_infantry_equipment_7_medium"
+		texturefile = "gfx/interface/technologies/infantry/1990_infantry_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_infantry_equipment_8_medium"
+		texturefile = "gfx/interface/technologies/infantry/2000_infantry_equipment.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_infantry_equipment_9_medium"
+		texturefile = "gfx/interface/technologies/infantry/2010_infantry_equipment.png"
+	}
+	
+ ################################################################################
+ ######지원화기
+ ################################################################################
+
+	SpriteType = {
+		name = "GFX_KOR_support_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/infantry/KOR_support_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_support_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/infantry/KOR_support_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_support_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/infantry/KOR_support_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_support_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/infantry/KOR_support_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_support_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/infantry/KOR_support_infantry_equipment_4.dds"
+	}
+	
+ ################################################################################
+ ######전차
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_KOR_m_1950_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/KOR_1950_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1960_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/KOR_1960_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1970_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/KOR_1970_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1980_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/KOR_1980_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1990_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/KOR_1990_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2000_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/KOR_2000_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_RU1_m_2000_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/RU1_2000_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2010_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/KOR_2010_mbt.dds"
+	}
+
+ ################################################################################
+ ######야포
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_KOR_modern_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/art/ROK_modern_war_artillery.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_modern_artillery_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/art/ROK_modern_war_artillery_2.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_modern_artillery_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/art/ROK_modern_war_artillery_3.png"
+	}
+	
+ ################################################################################
+ ######MLRS
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_KOR_m_1980_mlrs_equipment_medium"
+		texturefile = "gfx/interface/technologies/art/kor_1980_mlrs.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1990_mlrs_equipment_medium"
+		texturefile = "gfx/interface/technologies/art/usf_1990_mlrs.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2000_mlrs_equipment_medium"
+		texturefile = "gfx/interface/technologies/art/kor_2000_mlrs.png"
+	}
+ ################################################################################
+ ######APC
+ ################################################################################
+	SpriteType = {
+		name = "GFX_KOR_m_1970_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/kor_1970_apc.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1980_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/kor_1980_apc.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1990_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/kor_1990_apc.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2000_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/kor_2000_apc.png"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_KOR_modern_amphibious_mechanized_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/kor_marine_apc.dds"
+	}
+
+ ################################################################################
+ ######IFV
+ ################################################################################
+	SpriteType = {
+		name = "GFX_KOR_m_1970_IFV_equipment_medium"
+		texturefile = "gfx/interface/technologies/ifv/kor_1970_ifv.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1980_IFV_equipment_medium"
+		texturefile = "gfx/interface/technologies/ifv/kor_1980_ifv.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1990_IFV_equipment_medium"
+		texturefile = "gfx/interface/technologies/ifv/kor_1990_ifv.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2000_IFV_equipment_medium"
+		texturefile = "gfx/interface/technologies/ifv/kor_2000_ifv.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RU1_m_1990_IFV_equipment_medium"
+		texturefile = "gfx/interface/technologies/ifv/ru1_1990_ifv.png"
+	}
+	
+ ################################################################################
+ ######대공자주포
+ ################################################################################
+	SpriteType = {
+		name = "GFX_KOR_m_1970_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/kor_1970_spaa.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1980_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/kor_1980_spaa.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1990_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/kor_1990_spaa.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2000_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/kor_2000_spaa.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2010_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/kor_2010_spaa.dds"
+	}
+	
+ ################################################################################
+ ######자주포
+ ################################################################################
+	SpriteType = {
+		name = "GFX_KOR_m_1970_sp_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/kor_1970_sp.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1980_sp_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/kor_1980_sp.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1990_sp_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/kor_1990_sp.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2000_sp_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/kor_2000_sp.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2010_sp_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/kor_2010_sp.png"
+	}
+	
+ ################################################################################
+ ######대공포
+ ################################################################################
+	SpriteType = {
+		name = "GFX_KOR_heavy_anti_air_eq_medium"
+		texturefile = "gfx/interface/technologies/aa/kor_heavy_anti_air.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_aa_missile_medium"
+		texturefile = "gfx/interface/technologies/aa/kor_aa_missile.dds"
+	}
+	
+ ################################################################################
+ ######맨패드
+ ################################################################################
+	SpriteType = {
+		name = "GFX_KOR_m_1980_manpad_equipment_medium"
+		texturefile = "gfx/interface/technologies/aa/kor_1980_manpad.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1990_manpad_equipment_medium"
+		texturefile = "gfx/interface/technologies/aa/kor_1990_manpad.png"
+	}
+	
+ ################################################################################
+ ######대전차화기
+ ################################################################################
+	SpriteType = {
+		name = "GFX_KOR_m_1970_atgm_equipment_medium"
+		texturefile = "gfx/interface/technologies/at/kor_1970_atgm_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1980_atgm_equipment_medium"
+		texturefile = "gfx/interface/technologies/at/kor_1980_atgm_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1990_atgm_equipment_medium"
+		texturefile = "gfx/interface/technologies/at/kor_1990_atgm_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2000_atgm_equipment_medium"
+		texturefile = "gfx/interface/technologies/at/kor_2000_atgm_equipment.png"
+	}
+	
+ ################################################################################
+ ######공격헬기
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_KOR_maritime_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/planes/해군링스.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1970_attack_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1980_attack_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1980_attack_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1990_attack_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1990_attack_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1990_attack_helicopter.dds"
+	}
+
+	
+ ################################################################################
+ ######수송헬기
+ ################################################################################
+	SpriteType = {
+		name = "GFX_KOR_m_1970_util_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1970_util_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1980_util_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1980_util_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1990_util_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1990_util_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2000_util_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_2000_util_helicopter.png"
+	}
+	
+	
+ ################################################################################
+ ######제공기
+ ################################################################################
+	SpriteType = {
+		name = "GFX_KOR_m_1970_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1970_fighter.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1980_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1980_fighter.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1990_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1990_fighter.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2000_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_2000_fighter.png"
+	}
+	
+ ################################################################################
+ ######멀티롤
+ ################################################################################
+	SpriteType = {
+		name = "GFX_KOR_m_1970_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1970_fighter.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1980_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1980_jet_multirole.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1990_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1990_jet_multirole.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2000_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_2000_jet_multirole.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2010_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_2010_jet_multirole.png"
+	}
+	
+	
+ ################################################################################
+ ######CAS
+ ################################################################################
+	SpriteType = {
+		name = "GFX_KOR_m_1970_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1970_CAS.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1980_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1980_CAS.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_1990_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_1990_CAS.dds"
+	}
+	SpriteType = {
+		name = "GFX_KOR_m_2010_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/kor_2010_CAS.dds"
+	}
+
+ ################################################################################
+ ######해군
+ ################################################################################
+	SpriteType = {
+		name = "GFX_GER_2000_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/2000_jet_multirole.dds"
+	}	
+ 
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_PCC_1_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PCC_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_PCC_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PCC_2.dds"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_FF_1_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_FF_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_FF_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_FF_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_FF_3_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_FF_3.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_PK_1_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_1.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_PK_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_2.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_PK_3_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_3.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_modern_DDH_1_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_DDH_1.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_modern_DDH_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_DDH_2.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_modern_DDG_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_DDG_2.png"
+	}
+	
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_modern_submarine_3_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_3.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_modern_submarine_4_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_4.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_modern_submarine_5_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_5.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ship_hull_modern_submarine_6_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_6.png"
+	}
+    SpriteType = {
+		name = "GFX_JDF_ship_hull_modern_submarine_3_medium"
+		texturefile = "gfx/interface/technologies/navy/JDF_sub_3.png"
+	}
+    SpriteType = {
+		name = "GFX_JDF_ship_hull_modern_submarine_4_medium"
+		texturefile = "gfx/interface/technologies/navy/JDF_sub_4.png"
+	}
+    SpriteType = {
+		name = "GFX_JDF_ship_hull_modern_submarine_5_medium"
+		texturefile = "gfx/interface/technologies/navy/JDF_sub_5.png"
+	}
+	
+	
+    SpriteType = {
+		name = "GFX_KOR_pcc_1_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PCC_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_KOR_pcc_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PCC_2.dds"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ff_1_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_FF_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ff_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_FF_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ff_3_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_FF_3.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_pk_1_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_1.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_pk_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_2.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_pk_3_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_3.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ddh_1_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_DDH_1.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ddh_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_DDH_2.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ddg_2_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_DDG_2.png"
+	}
+	
+    SpriteType = {
+		name = "GFX_KOR_ss_3_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_3.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ss_4_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_4.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ss_5_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_5.png"
+	}
+    SpriteType = {
+		name = "GFX_KOR_ss_6_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_6.png"
+	}
+    SpriteType = {
+		name = "GFX_JDF_ss_3_medium"
+		texturefile = "gfx/interface/technologies/navy/JDF_sub_3.png"
+	}
+    SpriteType = {
+		name = "GFX_JDF_ss_4_medium"
+		texturefile = "gfx/interface/technologies/navy/JDF_sub_4.png"
+	}
+    SpriteType = {
+		name = "GFX_JDF_ss_5_medium"
+		texturefile = "gfx/interface/technologies/navy/JDF_sub_5.png"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_Vertical_maneuvering_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/infantry/입체기동장치.dds"
+	}
+}

@@ -1,0 +1,324 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_news_event_kor_seoul_fall_prk"
+		texturefile = "gfx/event_pictures/event_kor_seoul_fall_prk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_kor_seoul_lib_prk"
+		texturefile = "gfx/event_pictures/event_kor_seoul_lib_prk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_tank_prk"
+		texturefile = "gfx/event_pictures/event_tank_prk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_wall"
+		texturefile = "gfx/event_pictures/벽.dds"
+	}
+
+	spriteType = {
+		name = "GFX_attack_room"
+		texturefile = "gfx/event_pictures/국회침입.png"
+	}
+	
+	spriteType = {
+		name = "GFX_attack_attack_south"
+		texturefile = "gfx/event_pictures/남침2.png"
+	}
+
+	spriteType = {
+		name = "GFX_korea_riot"
+		texturefile = "gfx/event_pictures/계엄군3.png"
+	}
+
+	spriteType = {
+		name = "GFX_korea_war_in_south"
+		texturefile = "gfx/event_pictures/계엄군.png"
+	}
+
+	spriteType = {
+		name = "GFX_korean_navy_riot"
+		texturefile = "gfx/event_pictures/대한해군혁명.png"
+	}
+
+	spriteType = {
+		name = "GFX_1991_to_1936_world"
+		texturefile = "gfx/event_pictures/1936년의세계.png"
+	}
+
+	spriteType = {
+		name = "GFX_Martial_law_declared"
+		texturefile = "gfx/event_pictures/계엄령선포.png"
+	}
+
+	spriteType = {
+		name = "GFX_usa_army_problem_in_korea"
+		texturefile = "gfx/event_pictures/주한미군문제.png"
+	}
+
+	spriteType = {
+		name = "GFX_Media_censorship"
+		texturefile = "gfx/event_pictures/언론검열.png"
+	}
+
+	spriteType = {
+		name = "GFX_Airport_closure"
+		texturefile = "gfx/event_pictures/공항폐쇄.png"
+	}
+
+	spriteType = {
+		name = "GFX_usa_joining_wo_korean_war"
+		texturefile = "gfx/event_pictures/주한미군_참전.png"
+	}
+
+	spriteType = {
+		name = "GFX_korean_A_loser"
+		texturefile = "gfx/event_pictures/패잔병.png"
+	}
+
+	spriteType = {
+		name = "GFX_자위대"
+		texturefile = "gfx/event_pictures/자위대.png"
+	}
+
+	spriteType = {
+		name = "GFX_T80u"
+		texturefile = "gfx/event_pictures/T80u.png"
+	}
+
+	spriteType = {
+		name = "GFX_목표서울"
+		texturefile = "gfx/event_pictures/목표서울.png"
+	}
+	
+	spriteType = {
+		name = "GFX_내전승리_뉴스"
+		texturefile = "gfx/event_pictures/내전끝.png"
+	}
+	
+	spriteType = {
+		name = "GFX_군사반란"
+		texturefile = "gfx/event_pictures/계엄군_내전.png"
+	}
+
+	spriteType = {
+		name = "GFX_목표부산"
+		texturefile = "gfx/event_pictures/목표부산.png"
+	}
+
+	spriteType = {
+		name = "GFX_서울점령실패"
+		texturefile = "gfx/event_pictures/서울점령실패.png"
+	}
+
+	spriteType = {
+		name = "GFX_부산점령실패"
+		texturefile = "gfx/event_pictures/부산점령실패.png"
+	}
+
+	spriteType = {
+		name = "GFX_인천상륙작전"
+		texturefile = "gfx/event_pictures/인천상륙작전.png"
+	}
+
+	spriteType = {
+		name = "GFX_조선인민군_고전"
+		texturefile = "gfx/event_pictures/조선인민군_고전.png"
+	}
+
+	spriteType = {
+		name = "GFX_정전협상노태우"
+		texturefile = "gfx/event_pictures/정전협상노태우.png"
+	}
+
+	spriteType = {
+		name = "GFX_서울방어"
+		texturefile = "gfx/event_pictures/서울방어.png"
+	}
+
+	spriteType = {
+		name = "GFX_대책회의"
+		texturefile = "gfx/event_pictures/대책회의.png"
+	}
+
+	spriteType = {
+		name = "GFX_에비군"
+		texturefile = "gfx/event_pictures/에비군.png"
+	}
+
+	spriteType = {
+		name = "GFX_지청천_이범석"
+		texturefile = "gfx/event_pictures/지청천_이범석.png"
+	}
+
+	spriteType = {
+		name = "GFX_폭격"
+		texturefile = "gfx/event_pictures/폭격.png"
+	}
+
+	spriteType = {
+		name = "GFX_광주사태"
+		texturefile = "gfx/event_pictures/광주사태.png"
+	}
+
+	spriteType = {
+		name = "GFX_국가재건위원회"
+		texturefile = "gfx/event_pictures/국가재건위원회.png"
+	}
+
+	spriteType = {
+		name = "GFX_학업지옥"
+		texturefile = "gfx/event_pictures/학업지옥.png"
+	}
+
+	spriteType = {
+		name = "GFX_연평도_포격"
+		texturefile = "gfx/event_pictures/연평도_포격.png"
+	}
+
+	spriteType = {
+		name = "GFX_황해도_어느_농가"
+		texturefile = "gfx/event_pictures/황해도_어느_농가.png"
+	}
+
+	spriteType = {
+		name = "GFX_강원도_산골_마을"
+		texturefile = "gfx/event_pictures/강원도_산골_마을.png"
+	}
+
+	spriteType = {
+		name = "GFX_함흥차사"
+		texturefile = "gfx/event_pictures/함흥차사.png"
+	}
+
+	spriteType = {
+		name = "GFX_남포의_하루"
+		texturefile = "gfx/event_pictures/남포의_하루.png"
+	}
+
+	spriteType = {
+		name = "GFX_신의주의_강가에서"
+		texturefile = "gfx/event_pictures/신의주의_강가에서.png"
+	}
+
+	spriteType = {
+		name = "GFX_고원의_아이들"
+		texturefile = "gfx/event_pictures/고원의_아이들.png"
+	}
+
+	spriteType = {
+		name = "GFX_어떤_도시_이름"
+		texturefile = "gfx/event_pictures/어떤_도시_이름.png"
+	}
+
+	spriteType = {
+		name = "GFX_아오지탄광"
+		texturefile = "gfx/event_pictures/아오지탄광.png"
+	}
+
+	spriteType = {
+		name = "GFX_혁명의수도평양"
+		texturefile = "gfx/event_pictures/혁명의수도평양.png"
+	}
+
+	spriteType = {
+		name = "GFX_노무현이_북한에서_살래서_진짜간_운동가"
+		texturefile = "gfx/event_pictures/노무현이_북한에서_살래서_진짜간_운동가.png"
+	}
+
+	spriteType = {
+		name = "GFX_당대회"
+		texturefile = "gfx/event_pictures/당대회.png"
+	}
+
+	spriteType = {
+		name = "GFX_우리민족끼리"
+		texturefile = "gfx/event_pictures/우리민족끼리.png"
+	}
+
+	spriteType = {
+		name = "GFX_정상회담촉구"
+		texturefile = "gfx/event_pictures/정상회담촉구.png"
+	}
+	spriteType = {
+		name = "GFX_고난의_행군"
+		texturefile = "gfx/event_pictures/고난의_행군.png"
+	}
+	spriteType = {
+		name = "GFX_구호물자출발"
+		texturefile = "gfx/event_pictures/구호물자출발.png"
+	}
+	spriteType = {
+		name = "GFX_F-4EJ"
+		texturefile = "gfx/event_pictures/F-4EJ.png"
+	}
+	spriteType = {
+		name = "GFX_조선총독부"
+		texturefile = "gfx/event_pictures/조선총독부.png"
+	}
+	spriteType = {
+		name = "GFX_조선총독부_철거"
+		texturefile = "gfx/event_pictures/총독부철거.png"
+	}
+	spriteType = {
+		name = "GFX_해상자위대"
+		texturefile = "gfx/event_pictures/해상자위대.png"
+	}
+	spriteType = {
+		name = "GFX_협상"
+		texturefile = "gfx/event_pictures/협상.png"
+	}
+	spriteType = {
+		name = "GFX_노조"
+		texturefile = "gfx/event_pictures/노조.png"
+	}
+	spriteType = {
+		name = "GFX_천안함"
+		texturefile = "gfx/event_pictures/천안함.png"
+	}
+	spriteType = {
+		name = "GFX_천안함1"
+		texturefile = "gfx/event_pictures/천안함1.png"
+	}
+	spriteType = {
+		name = "GFX_폭침"
+		texturefile = "gfx/event_pictures/폭침.png"
+	}
+	spriteType = {
+		name = "GFX_전두환_노태우"
+		texturefile = "gfx/event_pictures/땅크와태우.png"
+	}
+	spriteType = {
+		name = "GFX_부산함락"
+		texturefile = "gfx/event_pictures/부산함락.png"
+	}
+	spriteType = {
+		name = "GFX_훈련"
+		texturefile = "gfx/event_pictures/훈련.png"
+	}
+	spriteType = {
+		name = "GFX_대잠헬기"
+		texturefile = "gfx/event_pictures/대잠헬기.png"
+	}
+	spriteType = {
+		name = "GFX_경찰"
+		texturefile = "gfx/event_pictures/경찰.png"
+	}
+	spriteType = {
+		name = "GFX_천마호"
+		texturefile = "gfx/event_pictures/천마.png"
+	}
+	
+	spriteType = {
+		name = "GFX_UN"
+		texturefile = "gfx/event_pictures/UN.png"
+	}
+	spriteType = {
+		name = "GFX_UN_1"
+		texturefile = "gfx/event_pictures/UN_1.png"
+	}
+}

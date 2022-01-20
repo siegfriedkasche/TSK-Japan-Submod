@@ -1,0 +1,30 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_trait_KOR_Hanahoe"
+		texturefile = "gfx/interface/traits/personal/KOR_Hanahoe.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_unaccustomed_to_modern_warfare"
+		texturefile = "gfx/interface/traits/personal/unaccustomed_to_modern_warfare.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_ROKA"
+		texturefile = "gfx/interface/traits/personal/KOR_roka.png"
+	}	
+	spriteType = {
+		name = "GFX_trait_air_force"
+		texturefile = "gfx/interface/traits/personal/KOR_ROKAF.png"
+	}	
+	spriteType = {
+		name = "GFX_trait_ROK_marine"
+		texturefile = "gfx/interface/traits/personal/ROK_marine.png"
+	}	
+	spriteType = {
+		name = "GFX_trait_ROK_sf"
+		texturefile = "gfx/interface/traits/personal/ROK_sf.png"
+	}
+}
+

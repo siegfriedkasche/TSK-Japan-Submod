@@ -1,0 +1,332 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_1936_world"
+		texturefile = "gfx/interface/goals/K_asche/1936_world.png"
+	}
+	SpriteType = {
+		name = "korea_and_america"
+		texturefile = "gfx/interface/goals/한미.png"
+	}
+	SpriteType = {
+		name = "복지정책"
+		texturefile = "gfx/interface/goals/복지정책.png" 
+	} 
+	SpriteType = {
+		name = "금융실명제"
+		texturefile = "gfx/interface/goals/금융실명제.png" 
+	} 
+	SpriteType = {
+		name = "높하한"
+		texturefile = "gfx/interface/goals/높하한.png" 
+	} 
+	SpriteType = { 
+		name = "방산업체"
+		texturefile = "gfx/interface/goals/방산업체.dds"
+	} 
+	SpriteType = { 
+		name = "goal_KOR_strong_hand"
+		texturefile = "gfx/interface/goals/goal_KOR_strong_hand.dds"
+	} 
+	SpriteType = { 
+		name = "goal_Korean_Miracle" 
+		texturefile = "gfx/interface/goals/goal_Korean_Miracle.dds"
+	} 
+	SpriteType = { 
+		name = "나가토"
+		texturefile = "gfx/interface/goals/나가토.png"
+	} 
+	SpriteType = {
+		name = "focus_kaist"
+		texturefile = "gfx/interface/goals/focus_kaist.dds"
+	} 
+	SpriteType = {
+		name = "GFX_KOR_intel"
+		texturefile = "gfx/interface/goals/K_asche/KOR_intel.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_press_control"
+		texturefile = "gfx/interface/goals/K_asche/KOR_press_control.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_martial_law" 
+		texturefile = "gfx/interface/goals/K_asche/KOR_martial_law.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_NA_Occupation"
+		texturefile = "gfx/interface/goals/K_asche/KOR_NA_Occupation.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_airport_closure"
+		texturefile = "gfx/interface/goals/K_asche/KOR_airport_closure.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_USFK_issue"
+		texturefile = "gfx/interface/goals/K_asche/KOR_USFK_issue.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_suppression_order"
+		texturefile = "gfx/interface/goals/K_asche/KOR_suppression_order.png"
+	}
+	SpriteType = {
+		name = "GFX_mobilization_order"
+		texturefile = "gfx/interface/goals/K_asche/mobilization_order.png"
+	}
+	SpriteType = {
+		name = "GFX_Countermeasure_Conference"
+		texturefile = "gfx/interface/goals/K_asche/Countermeasure_Conference.png"
+	}
+	SpriteType = {
+		name = "GFX_emergency_measure"
+		texturefile = "gfx/interface/goals/K_asche/emergency_measure.png"
+	}
+	SpriteType = {
+		name = "GFX_Independent_Army_Corps"
+		texturefile = "gfx/interface/goals/K_asche/Independent_Army_Corps.png"
+	}
+	SpriteType = {
+		name = "GFX_indiscriminate_bombing_approval"
+		texturefile = "gfx/interface/goals/K_asche/indiscriminate_bombing_approval.png"
+	}
+	SpriteType = {
+		name = "GFX_Offensive"
+		texturefile = "gfx/interface/goals/K_asche/Offensive.png"
+	}
+	SpriteType = {
+		name = "GFX_information_warfare"
+		texturefile = "gfx/interface/goals/K_asche/information_warfare.png"
+	}
+	SpriteType = {
+		name = "GFX_mkr_victory_in_the_civil_war"
+		texturefile = "gfx/interface/goals/K_asche/mkr_victory_in_the_civil_war.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_The_Future_of_Korea"
+		texturefile = "gfx/interface/goals/K_asche/MKR_The_Future_of_Korea.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_a_curfew_order"
+		texturefile = "gfx/interface/goals/K_asche/MKR_a_curfew_order.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_suppression_of_civil_movements"
+		texturefile = "gfx/interface/goals/K_asche/MKR_suppression_of_civil_movements.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_NIS"
+		texturefile = "gfx/interface/goals/K_asche/MKR_NIS.png"
+	}
+	SpriteType = {
+		name = "GFX_mother_anarchy"
+		texturefile = "gfx/interface/goals/K_asche/mother_anarchy.png"
+	}
+	SpriteType = {
+		name = "GFX_free_demo"
+		texturefile = "gfx/interface/goals/K_asche/free_demo.png"
+	}
+	SpriteType = {
+		name = "GFX_38line"
+		texturefile = "gfx/interface/goals/K_asche/38line.png"
+	}
+	SpriteType = {
+		name = "GFX_come_on_baby"
+		texturefile = "gfx/interface/goals/K_asche/come_on_baby.png"
+	}
+	SpriteType = {
+		name = "GFX_death_communsim"
+		texturefile = "gfx/interface/goals/K_asche/death_communsim.png"
+	}
+	SpriteType = {
+		name = "GFX_Warning_to_North_Korea"
+		texturefile = "gfx/interface/goals/K_asche/Warning_to_North_Korea.png"
+	}
+	SpriteType = {
+		name = "GFX_HELLO_NK"
+		texturefile = "gfx/interface/goals/K_asche/HELLO_NK.png"
+	}
+	SpriteType = {
+		name = "GFX_attack_battle"
+		texturefile = "gfx/interface/goals/K_asche/attack_battle.png"
+	}
+	SpriteType = {
+		name = "GFX_tax_increase2"
+		texturefile = "gfx/interface/goals/K_asche/Tax_increase2.png"
+	}
+	SpriteType = {
+		name = "GFX_Popular_face_madam"
+		texturefile = "gfx/interface/goals/K_asche/Popular_face_madam.png"
+	}
+	SpriteType = {
+		name = "GFX_Acquisition_of_business"
+		texturefile = "gfx/interface/goals/K_asche/Acquisition_of_business.png"
+	}
+	SpriteType = {
+		name = "GFX_new_Town"
+		texturefile = "gfx/interface/goals/K_asche/new_Town.png"
+	}
+	SpriteType = {
+		name = "GFX_Acquisition_of_business"
+		texturefile = "gfx/interface/goals/K_asche/Acquisition_of_business.png"
+	}
+	SpriteType = {
+		name = "GFX_new_Town"
+		texturefile = "gfx/interface/goals/K_asche/new_Town.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_Diplomacy_with_France"
+		texturefile = "gfx/interface/goals/K_asche/MKR_Diplomacy_with_France.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_PDU"
+		texturefile = "gfx/interface/goals/K_asche/MKR_PDU.png"
+	}
+	SpriteType = {
+		name = "GFX_defeat_of_fascism"
+		texturefile = "gfx/interface/goals/K_asche/MKR_the_defeat_of_fascism.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_the_OMG_red"
+		texturefile = "gfx/interface/goals/K_asche/MKR_the_OMG_red.dds"
+	}
+	SpriteType = {
+		name = "GFX_MKR_non_aggression_treaty_with_Japan"
+		texturefile = "gfx/interface/goals/K_asche/MKR_non_aggression_treaty_with_Japan.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_Stronger_Korea"
+		texturefile = "gfx/interface/goals/K_asche/MKR_Stronger_Korea.png"
+	}
+	SpriteType = {
+		name = "GFX_dice"
+		texturefile = "gfx/interface/goals/K_asche/dice.png"
+	}
+	SpriteType = {
+		name = "GFX_social_democratic_party"
+		texturefile = "gfx/interface/goals/K_asche/social_democratic_party.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_a_power_instrument"
+		texturefile = "gfx/interface/goals/K_asche/prk_a_power_instrument.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_leader_yeo"
+		texturefile = "gfx/interface/goals/K_asche/prk_leader_yeo.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_contact_with_the_South"
+		texturefile = "gfx/interface/goals/K_asche/prk_contact_with_the_South.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_hundred_years_enemy"
+		texturefile = "gfx/interface/goals/K_asche/prk_hundred_years_enemy.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_Operation_storm"
+		texturefile = "gfx/interface/goals/K_asche/prk_Operation_storm.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_troop_strength"
+		texturefile = "gfx/interface/goals/K_asche/prk_troop_strength.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_additional_tank_plant"
+		texturefile = "gfx/interface/goals/K_asche/prk_additional_tank_plant.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_additional_tunnel_construction"
+		texturefile = "gfx/interface/goals/K_asche/prk_additional_tunnel_construction.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_south_wave_espionage"
+		texturefile = "gfx/interface/goals/K_asche/prk_south_wave_espionage.png"
+	} 
+	SpriteType = {
+		name = "GFX_prk_yeo_visit_south"
+		texturefile = "gfx/interface/goals/K_asche/prk_yeo_visit_south.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_Withdrawal_from_the_border"
+		texturefile = "gfx/interface/goals/K_asche/prk_Withdrawal_from_the_border.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_Treaty_of_Military_and_Economic"
+		texturefile = "gfx/interface/goals/K_asche/prk_Treaty_of_Military_and_Economic.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_prk_Treaty_on_the_Abortment_of_hostilities"
+		texturefile = "gfx/interface/goals/K_asche/prk_Treaty_on_the_Abortment_of_hostilities.png"
+	}
+	SpriteType = {
+		name = "GFX_presidential_election"
+		texturefile = "gfx/interface/goals/K_asche/presidential_election.png"
+	}
+	SpriteType = {
+		name = "GFX_President_Kim_Koo"
+		texturefile = "gfx/interface/goals/K_asche/President_Kim_Koo.png"
+	}
+	SpriteType = {
+		name = "GFX_President_Kim_Young_sam"
+		texturefile = "gfx/interface/goals/K_asche/President_Kim_Young_sam.png"
+	}
+	SpriteType = {
+		name = "GFX_freedom_equality"
+		texturefile = "gfx/interface/goals/K_asche/freedom_equality.png"
+	}
+	SpriteType = {
+		name = "GFX_enactment_of_law"
+		texturefile = "gfx/interface/goals/K_asche/enactment_of_law.png"
+	}
+	SpriteType = {
+		name = "GFX_elimination_of_censorship"
+		texturefile = "gfx/interface/goals/K_asche/elimination_of_censorship.png"
+	}
+	SpriteType = {
+		name = "GFX_Central_Office_Demolition"
+		texturefile = "gfx/interface/goals/K_asche/Central_Office_Demolition.png"
+	}
+	SpriteType = {
+		name = "GFX_test_Japan"
+		texturefile = "gfx/interface/goals/K_asche/test_Japan.png"
+	}
+	SpriteType = {
+		name = "GFX_test_China"
+		texturefile = "gfx/interface/goals/K_asche/test_China.png"
+	}
+	SpriteType = {
+		name = "GFX_Contact_with_China"
+		texturefile = "gfx/interface/goals/K_asche/Contact_with_China.png"
+	}
+	SpriteType = {
+		name = "GFX_demand_from_jang"
+		texturefile = "gfx/interface/goals/K_asche/demand_from_jang.png"
+	}
+	SpriteType = {
+		name = "GFX_meet_chang"
+		texturefile = "gfx/interface/goals/K_asche/meet_chang.png"
+	}
+	SpriteType = {
+		name = "GFX_theorem_of_warlords"
+		texturefile = "gfx/interface/goals/K_asche/theorem_of_warlords.png"
+	}
+	SpriteType = {
+		name = "GFX_ROK_military_reform"
+		texturefile = "gfx/interface/goals/K_asche/GFX_ROK_military_reform.png"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_gold_move_gfx"
+		texturefile = "gfx//superevent_pictures//gold_move_gfx.png"
+		legacy_lazy_load = no 
+		noOfFrames = 8
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_booming_economy"
+		texturefile = "gfx//superevent_pictures//booming_economy.png"
+		legacy_lazy_load = no 
+		noOfFrames = 6
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+	}
+}

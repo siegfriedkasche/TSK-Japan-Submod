@@ -1,0 +1,324 @@
+spriteTypes = {	
+ ################################################################################
+ ######경차량
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_JDF_light_vehicle_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/usf_경차량0.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_light_vehicle_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/jdf_경차량1.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_light_vehicle_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/jdf_경차량2.png"
+	}
+	
+	### JSDF ###
+	
+	SpriteType = {
+		name = "GFX_JDF_modern_motorized_equipment_medium"
+		texturefile = "gfx/interface/technologies/JDF_motorized_equipment_1.dds"
+	}
+ ################################################################################
+ ######보병장비
+ ################################################################################
+
+	SpriteType = {
+		name = "GFX_JDF_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/infantry/JDF_1960_infantry_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_infantry_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/infantry/JDF_1970_infantry_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_infantry_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/infantry/JDF_1980_infantry_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_infantry_equipment_7_medium"
+		texturefile = "gfx/interface/technologies/infantry/JDF_1990_infantry_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_infantry_equipment_8_medium"
+		texturefile = "gfx/interface/technologies/infantry/JDF_2000_infantry_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_infantry_equipment_9_medium"
+		texturefile = "gfx/interface/technologies/infantry/JDF_2010_infantry_equipment.dds"
+	}
+	
+ ################################################################################
+ ######지원화기
+ ################################################################################
+
+	SpriteType = {
+		name = "GFX_JDF_support_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_0.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_support_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_1.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_support_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_2.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_support_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_3.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_support_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_4.png"
+	}
+	
+ ################################################################################
+ ######전차
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_JDF_m_1960_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/JDF_1960_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1970_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/JDF_1970_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1980_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/JDF_1980_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1990_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/JDF_1990_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_2000_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/JDF_2000_mbt.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_2010_mbt_medium"
+		texturefile = "gfx/interface/technologies/tank/JDF_2010_mbt.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JDF_modern_armored_car_equipment_medium"
+		texturefile = "gfx/interface/technologies/tank/jdf_rcv.dds"
+	}
+
+ ################################################################################
+ ######야포
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_JDF_modern_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/art/JDF_modern_war_artillery.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_modern_artillery_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/art/JDF_modern_war_artillery_2.dds"
+	}
+	
+ ################################################################################
+ ######MLRS
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_JDF_m_1980_mlrs_equipment_medium"
+		texturefile = "gfx/interface/technologies/art/JDF_1980_mlrs.dds"
+	}
+	
+ ################################################################################
+ ######APC
+ ################################################################################
+	SpriteType = {
+		name = "GFX_JDF_m_1970_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/JDF_1970_apc.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1980_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/JDF_1980_apc.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1990_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/JDF_1990_apc.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_2000_APC_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc/JDF_2000_apc.dds"
+	}
+
+
+ ################################################################################
+ ######IFV
+ ################################################################################
+
+	SpriteType = {
+		name = "GFX_JDF_m_1990_IFV_equipment_medium"
+		texturefile = "gfx/interface/technologies/ifv/JDF_1990_ifv.dds"
+	}
+	
+ ################################################################################
+ ######대공자주포
+ ################################################################################
+	SpriteType = {
+		name = "GFX_JDF_m_1970_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/JDF_1970_spaa.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1980_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/JDF_1980_spaa.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1990_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/JDF_1990_spaa.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_2000_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/JDF_2000_spaa.dds"
+	}
+	
+	
+ ################################################################################
+ ######자주포
+ ################################################################################
+	SpriteType = {
+		name = "GFX_JDF_m_1980_sp_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/JDF_1980_sp.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1990_sp_equipment_medium"
+		texturefile = "gfx/interface/technologies/spg/JDF_1990_sp.dds"
+	}
+	
+ ################################################################################
+ ######대공포
+ ################################################################################
+	SpriteType = {
+		name = "GFX_JDF_heavy_anti_air_eq_medium"
+		texturefile = "gfx/interface/technologies/aa/jdf_heavy_anti_air.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_aa_missile_medium"
+		texturefile = "gfx/interface/technologies/aa/jdf_aa_missile.dds"
+	}
+	
+ ################################################################################
+ ######맨패드
+ ################################################################################
+	SpriteType = {
+		name = "GFX_JDF_m_1980_manpad_equipment_medium"
+		texturefile = "gfx/interface/technologies/aa/jdf_1980_manpad.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1990_manpad_equipment_medium"
+		texturefile = "gfx/interface/technologies/aa/JDF_1980_manpad.dds"
+	}
+
+	
+ ################################################################################
+ ######대전차화기
+ ################################################################################
+	SpriteType = {
+		name = "GFX_JDF_m_1970_atgm_equipment_medium"
+		texturefile = "gfx/interface/technologies/at/JDF_1970_atgm_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1980_atgm_equipment_medium"
+		texturefile = "gfx/interface/technologies/at/JDF_1980_atgm_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1990_atgm_equipment_medium"
+		texturefile = "gfx/interface/technologies/at/JDF_1990_atgm_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_2000_spaa_equipment_medium"
+		texturefile = "gfx/interface/technologies/at/JDF_2000_atgm_equipment.dds"
+	}
+
+	
+ ################################################################################
+ ######수송헬기
+ ################################################################################
+	SpriteType = {
+		name = "GFX_JDF_m_1970_util_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/JDF_1970_util_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1980_util_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/JDF_1980_util_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1990_util_helicopter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/JDF_1990_util_helicopter.dds"
+	}
+	
+ ################################################################################
+ ######제공기
+ ################################################################################
+	SpriteType = {
+		name = "GFX_JDF_m_1970_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1970_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1980_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1980_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1990_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1990_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_2000_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_2000_fighter.png"
+	}
+	
+ ################################################################################
+ ######멀티롤
+ ################################################################################
+	SpriteType = {
+		name = "GFX_JDF_m_1970_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1970_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1980_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1980_jet_multirole.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1990_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1990_jet_multirole.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_2000_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_2000_jet_multirole.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_2010_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_2010_jet_multirole.png"
+	}
+	
+	
+ ################################################################################
+ ######CAS
+ ################################################################################
+	SpriteType = {
+		name = "GFX_JDF_m_1970_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1970_CAS.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1980_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1980_CAS.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1990_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1990_CAS.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_2010_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_2010_CAS.png"
+	}
+}

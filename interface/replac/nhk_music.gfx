@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_nhk_album_art"
+		texturefile = "gfx/nhk_album_art.dds"
+		noOfFrames = 2
+	}	
+
+}

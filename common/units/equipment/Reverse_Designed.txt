@@ -1,0 +1,596 @@
+# All infantry equipment
+
+equipments = {
+	IFV_equipment = {
+		year = 1936
+
+		is_archetype = yes
+		picture = archetype_motorized_equipment		
+		is_buildable = no
+		type = {
+			#infantry #Removing inf type 
+			mechanized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.95
+		
+		#Defensive Abilities
+		defense = 38
+		breakthrough = 16
+		hardness = 0.9
+		armor_value = 20
+
+		#Offensive Abilities
+		soft_attack = 30
+		ap_attack = 150
+		hard_attack = 10
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+		
+		build_cost_ic = 8
+		resources = {
+			steel = 2
+			steel_alloy = 1
+			rubber = 1
+		}
+		
+		fuel_consumption = 2.4
+	}
+	mechanized_equipment = {
+		year = 1936
+
+		is_archetype = yes
+		picture = archetype_motorized_equipment		
+		is_buildable = no
+		type = {
+			#infantry #Removing inf type 
+			mechanized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		maximum_speed = 8
+		reliability = 0.8
+		
+		#Defensive Abilities
+		defense = 26
+		breakthrough = 4
+		hardness = 0.6
+		armor_value = 10
+
+		#Offensive Abilities
+		ap_attack = 11
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+		
+		build_cost_ic = 8
+		resources = {
+			steel = 2
+			#oil = 1
+			rubber = 1
+		}
+		
+		fuel_consumption = 2.4
+	}
+	modern_tank_aa_equipment = {
+		year = 1934
+
+		can_be_produced = {
+			NOT = {
+				has_idea = BUL_army_restrictions
+			}
+		}
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_modern_tank_equipment			
+		is_buildable = no
+		family = modern_tank_equipment
+		type = { 
+			armor
+			anti_air
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_aa_upgrade
+		}
+
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 4
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 9
+		hard_attack = 7.5
+		ap_attack = 100
+		air_attack = 25
+		
+		build_cost_ic = 28
+		
+		resources = {
+			#oil = 1
+			steel = 3
+			chromium = 4
+		}
+		fuel_consumption = 1.25
+	}
+	modern_tank_artillery_equipment = {
+		year = 1934
+
+		can_be_produced = {
+			NOT = {
+				has_idea = BUL_army_restrictions
+			}
+		}
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_modern_tank_equipment			
+		is_buildable = no
+		family = modern_tank_equipment
+		type = { 
+			armor
+			artillery
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_art_upgrade
+		}
+		
+
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 4
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 80
+		hard_attack = 3
+		ap_attack = 10
+		air_attack = 0
+
+		build_cost_ic = 28
+		
+		resources = {
+			#oil = 1
+			steel = 3
+			chromium = 4
+		}
+		fuel_consumption = 2.5
+	}
+	modern_tank_equipment = {
+		year = 1934
+
+		can_be_produced = {
+			NOT = {
+				has_idea = BUL_army_restrictions
+			}
+		}
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_modern_tank_equipment			
+		is_buildable = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+		
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 10
+		breakthrough = 84
+		hardness = 0.98
+		armor_value = 130
+
+		#Offensive Abilities
+		soft_attack = 40
+		hard_attack = 32
+		ap_attack = 131
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 14
+		
+		build_cost_ic = 28
+		resources = {
+			#oil = 1
+			steel = 3
+			chromium = 4
+		}
+		
+		fuel_consumption = 5
+	}
+	jet_multirole_equipment = {
+		year = 1936
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_fighter_equipment
+		is_buildable = no
+		type = { fighter interceptor cas }
+		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 1
+		
+		interface_category = interface_category_air
+		
+		# Fighter
+		interface_overview_category_index = 1
+
+		upgrades = {
+			plane_gun_upgrade
+			plane_range_upgrade
+			plane_engine_upgrade
+			plane_reliability_upgrade
+		}
+
+		air_superiority = 1
+		reliability = 0.8
+
+		# Air vs Navy - low damage / high hit chance / easy to hurt
+		naval_strike_attack = 1
+		naval_strike_targetting = 10
+
+		#Space taken in convoy
+		lend_lease_cost = 8
+		
+		build_cost_ic = 300
+		resources = {
+			#oil = 1
+			aluminium = 2
+			rubber = 1
+		}
+		
+		manpower = 20
+		fuel_consumption = 0.21
+	}
+	
+################################지원화기
+	support_infantry_equipment = {
+		year = 1936
+	
+		is_archetype = yes
+		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 35
+		breakthrough = 20
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 5
+		hard_attack = 5
+		ap_attack = 90
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 2
+		resources = {
+			steel = 2
+		}
+		
+	}
+	
+	RD_support_infantry_equipment = { #80년대 M60,M72A4LAW PKM,7호발사관-II
+		year = 1936
+	
+		archetype = support_infantry_equipment
+		priority = 10
+		visual_level = 3
+		
+		#Defensive Abilities
+		defense = 38
+		breakthrough = 23
+		
+		#Offensive Abilities
+		soft_attack = 9
+		hard_attack = 9
+		ap_attack = 135
+		air_attack = 0
+		
+		build_cost_ic = 2
+		resources = {
+			steel = 1
+		}
+	}
+####################################대공장비###############
+	RD_heavy_anti_air_eq = { #KM167,ZPU
+		year = 1936
+
+		archetype = anti_air_equipment
+		parent = anti_air_equipment_3
+		priority = 80
+		visual_level = 2
+		reliability = 0.8
+		
+		soft_attack = 20
+		hard_attack = 10
+		ap_attack = 30
+		air_attack = 20
+
+		build_cost_ic = 6
+		resources = {
+			steel = 3
+		}
+	}
+	
+	RD_aa_missile = { #HAWK,SA-3
+		year = 1936
+
+		archetype = anti_air_equipment
+		parent = anti_air_equipment_3
+		priority = 80
+		visual_level = 2
+		reliability = 0.8
+		
+		soft_attack = 0
+		hard_attack = 0
+		ap_attack = 0
+		air_attack = 45
+
+		build_cost_ic = 6
+		resources = {
+			steel = 3
+		}
+	}
+	
+####################################기갑장비###############
+
+
+	RD_m_1980_mbt = { #K1,천마호 라형
+		archetype = modern_tank_equipment
+		parent = modern_tank_equipment_1
+		priority = 190
+		visual_level = 4
+		
+		#Misc Abilities
+		maximum_speed = 13
+		reliability = 0.95
+		
+		#Defensive Abilities
+		defense = 30
+		breakthrough = 120
+		hardness = 0.98
+		armor_value = 160
+
+		#Offensive Abilities
+		soft_attack = 40
+		hard_attack = 36
+		ap_attack = 170
+		air_attack = 0
+		
+		build_cost_ic = 57
+		
+		resources = {
+			steel = 3
+			chromium = 3
+		}
+	}
+	
+	RD_m_1980_spaa_equipment = { #ZSU-23-4,K263
+	
+		year = 1936
+
+		archetype = modern_tank_aa_equipment
+		parent = modern_tank_aa_equipment_1
+		priority = 40
+		visual_level = 2
+		
+		maximum_speed = 10
+		reliability = 0.95
+
+		#Defensive Abilities
+		defense = 5
+		breakthrough = 3
+		hardness = 0.85
+		armor_value = 35
+
+		#Offensive Abilities
+		soft_attack = 15
+		hard_attack = 5
+		ap_attack = 10
+		air_attack = 25
+		
+		build_cost_ic = 43
+		resources = {
+			steel = 3
+		}
+	}
+	
+	
+	RD_m_1980_sp_equipment = { #K-55,곡산 M1978
+		year = 1936
+
+		archetype = modern_tank_artillery_equipment
+		parent = modern_tank_artillery_equipment_1
+		priority = 40
+		visual_level = 2
+		
+		maximum_speed = 10
+		reliability = 0.95
+
+		#Defensive Abilities
+		defense = 16
+		breakthrough = 4
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 83
+		hard_attack = 5
+		air_attack = 0
+		
+		build_cost_ic = 48
+		resources = {
+			steel = 3
+			tungsten = 1
+		}
+	}
+	
+	RD_m_1980_IFV_equipment = { #VTT-323 수성포/K225 KAFV
+		year = 1936
+
+		archetype = IFV_equipment
+		priority = 40
+		visual_level = 1
+
+		maximum_speed = 11
+		
+		#Defensive Abilities
+		defense = 40
+		breakthrough = 15
+		hardness = 0.9
+		armor_value = 30
+
+		#Offensive Abilities
+		soft_attack = 30
+		ap_attack = 185
+		hard_attack = 12
+		
+		build_cost_ic = 10
+		resources = {
+			steel = 3
+			rubber = 1
+			steel_alloy = 1
+		}
+	}
+	
+	RD_m_1980_APC_equipment = { 
+		year = 1936
+
+		archetype = mechanized_equipment
+		parent = mechanized_equipment_3
+		parent = mechanized_equipment_2
+		parent = mechanized_equipment_1
+		priority = 40
+		visual_level = 2
+		
+		maximum_speed = 12
+		reliability = 0.95
+
+		#Defensive Abilities
+		defense = 35
+		breakthrough = 8
+		hardness = 0.8
+		armor_value = 25
+
+		#Offensive Abilities
+		ap_attack = 15
+		
+		build_cost_ic = 16
+		resources = {
+			steel = 4
+			rubber = 1
+			steel_alloy = 1
+		}
+	}
+	
+	RD_m_1970_jet_multirole_equipment = {
+		year = 1936
+
+		archetype = jet_multirole_equipment
+		priority = 5
+		
+		air_range = 2000
+		maximum_speed = 1200
+		air_agility = 130
+		air_attack = 65
+		air_defence = 30
+		air_ground_attack = 40
+
+		naval_strike_attack = 1
+		naval_strike_targetting = 10
+
+	}
+	jet_fighter_equipment_1 = {
+		year = 1945
+
+		archetype = jet_fighter_equipment
+		priority = 20
+		
+		air_range = 1200
+		maximum_speed = 950
+		air_agility = 72
+		air_attack = 36
+		air_defence = 15
+		
+	}
+
+	RD_m_1990_jet_fighter_equipment = { #F-16C 피스 브리지,SU-27
+		year = 1936
+
+		archetype = jet_fighter_equipment
+		priority = 10
+
+		air_range = 2000
+		maximum_speed = 1600
+		air_agility = 130
+		air_attack = 130
+		air_defence = 50		
+				
+		build_cost_ic = 370
+		resources = {
+			#oil = 2
+			aluminium = 3
+			rubber = 1
+		}
+
+		naval_strike_attack = 4
+		naval_strike_targetting = 10
+	}
+}

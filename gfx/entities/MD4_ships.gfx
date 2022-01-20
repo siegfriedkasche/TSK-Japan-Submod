@@ -1,0 +1,18 @@
+objectTypes = {
+	pdxmesh = {
+		name = "generic_modern_DDG_mesh"
+		file = "gfx/models/units/ships/m_destroyer.mesh"
+	}
+	pdxmesh = {
+		name = "generic_Modern_DDH_mesh"
+		file = "gfx/models/units/ships/jdf_hatsuyuki.mesh"
+	}
+	pdxmesh = {
+		name = "generic_modern_PCC_mesh"
+		file = "gfx/models/units/ships/KOR_pohang.mesh"
+	}
+	pdxmesh = {
+		name = "generic_modern_submarine_mesh"
+		file = "gfx/models/units/ships/m_submarine.mesh"
+	}
+}

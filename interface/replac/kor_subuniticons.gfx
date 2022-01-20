@@ -1,0 +1,83 @@
+spriteTypes = {
+
+	##################################
+	### Large images for DIVISIONS ###
+
+	spriteType = { name = "GFX_unit_manpad_icon_medium"				textureFile = "gfx/interface/counters/divisions_large/support_unit_manpad_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_armed_recon_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/support_unit_modern_armed_recon_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heliborne_infantry_icon_medium"		textureFile = "gfx/interface/counters/divisions_large/unit_transport_heli_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_mbt_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_modern_mbt_icon.png" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_infantry_icon_medium"				textureFile = "gfx/interface/counters/divisions_large/unit_light_infantry_icon.png" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_infantry_icon_medium"			textureFile = "gfx/interface/counters/divisions_large/unit_modern_infantry_icon.png" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_motorized_icon_medium"		textureFile = "gfx/interface/counters/divisions_large/unit_modern_motorized_icon.png" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_mechanized_icon_medium"		textureFile = "gfx/interface/counters/divisions_large/unit_modern_mechanized_icon.png" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_mechanized_icon_medium"		textureFile = "gfx/interface/counters/divisions_large/unit_heavy_mechanized_icon.png" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_armed_rec_icon_medium"				textureFile = "gfx/interface/counters/divisions_large/unit_modern_armed_rec_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_sp_art_brigade_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_sp_art_icon.png" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_sp_anti_air_brigade_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_modern_armor_antiair_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_marine_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_marine_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_amphibious_marine_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_amphibious_mechanized_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_artillery_brigade_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_modern_art_icon.png" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mot_roket_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_motorized_rocket_brigade_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_infantry_vec_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/infantry_vec.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_Engi_Bat_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_engineer_inf_icon.png" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_Heavy_Engi_Bat_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_heavy_engineer_icon.png" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_rec_infantry_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_recon_inf_icon.png" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_motorized_rocket_brigade_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_modern_motorized_rocket_brigade_icon.dds" noOfFrames = 2 }
+	
+	####################################################
+	### Small images for DIVISIONS (On-map-counters) ###
+	spriteType = { name = "GFX_unit_modern_marine_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_amphibious_marine_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_manpad_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_anti_air_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_armed_recon_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_recon_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heliborne_infantry_icon_medium_white"  textureFile = "gfx/interface/counters/divisions_small/onmap_unit_transport_heli_infantry_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_modern_mbt_icon_medium_white"	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_modern_armor_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_light_infantry_icon_medium_white"		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_infantry_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_motorized_icon_medium_white"		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_modern_motorized_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_modern_mechanized_icon_medium_white"	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mechanized_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_modern_mechanized_icon_medium_white"	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mechanized_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_modern_sp_art_brigade_icon_medium_white"		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_modern_armor_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_modern_sp_anti_air_brigade_icon_medium_white"	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_modern_armor_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_modern_artillery_brigade_icon_medium_white"	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_art_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_infantry_vec_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_Engi_Bat_icon_medium_white"	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_engineer_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_Heavy_Engi_Bat_icon_medium_white"	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_engineer_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_rec_infantry_icon_medium_white"	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_recon_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_motorized_rocket_brigade_medium_white"	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_rocket_brigade_icon.dds" noOfFrames = 2 }
+	
+	
+	spriteType = { name = "GFX_unit_Modern_DDH_icon_medium_white"					texturefile = "gfx/interface/counters/ships_small/onmap_Modern_DDH.dds" }
+	spriteType = { name = "GFX_unit_Modern_DDH_icon_medium_black"					texturefile = "gfx/interface/counters/ships_small/onmap_Modern_DDH_inverted.dds" }
+	spriteType = { name = "GFX_unit_modern_submarine_icon_medium_white"					texturefile = "gfx/interface/counters/ships_small/onmap_submarine.dds" }
+	spriteType = { name = "GFX_unit_modern_submarine_icon_medium_black"					texturefile = "gfx/interface/counters/ships_small/onmap_submarine_inverted.dds" }
+	spriteType = { name = "GFX_unit_modern_DDG_icon_medium_white"					texturefile = "gfx/interface/counters/ships_small/onmap_Modern_DDG.dds" }
+	spriteType = { name = "GFX_unit_modern_DDG_icon_medium_black"					texturefile = "gfx/interface/counters/ships_small/onmap_Modern_DDG_inverted.dds" }
+	spriteType = { name = "GFX_unit_modern_PCC_icon_medium_white"					texturefile = "gfx/interface/counters/ships_small/onmap_PCC.dds" }
+	spriteType = { name = "GFX_unit_modern_PCC_icon_medium_black"					texturefile = "gfx/interface/counters/ships_small/onmap_PCC_inverted.dds" }
+	spriteType = { name = "GFX_unit_modern_FF_icon_medium_white"					texturefile = "gfx/interface/counters/ships_small/onmap_FF.dds" }
+	spriteType = { name = "GFX_unit_modern_FF_icon_medium_black"					texturefile = "gfx/interface/counters/ships_small/onmap_FF_inverted.dds" }
+	spriteType = { name = "GFX_unit_modern_PK_icon_medium_white"					texturefile = "gfx/interface/counters/ships_small/onmap_PK.png" }
+	spriteType = { name = "GFX_unit_modern_PK_icon_medium_black"					texturefile = "gfx/interface/counters/ships_small/onmap_PKM_inverted.png" }
+	spriteType = { name = "GFX_unit_Modern_DDH_1_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/DDH.dds"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_Modern_DDH_2_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/DDH.dds"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_Modern_DDH_3_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/DDH.dds"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_DDG_1_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/DDG.dds"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_DDG_2_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/DDG.dds"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_PCC_1_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/PCC.dds"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_PCC_2_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/PCC.dds"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_PCC_3_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/PCC.dds"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_PCC_4_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/PCC.dds"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_FF_1_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/FFG.dds"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_FF_2_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/FFG.dds"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_FF_3_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/FFG.dds"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_PK_1_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/PK.png"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_PK_2_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/PK.png"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_PK_3_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/PKG.png"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_submarine_1_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/modern_SS.png" 		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_submarine_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/modern_SS.png" 		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_submarine_3_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/modern_SS.png" 		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_submarine_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/modern_SS.png" 		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_submarine_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/modern_SS.png" 		noOfFrames = 2 }
+}
