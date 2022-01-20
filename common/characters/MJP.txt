@@ -1,0 +1,997 @@
+characters = {
+	Tadayoshi_Yonekawa={ #태그
+        name="Tadayoshi Yonekawa" #이름
+        portraits={
+            army={
+                small="GFX_idea_Tadayoshi-Yonekawa" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = air_chief #정치참모
+            idea_token = Tadayoshi_Yonekawa #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                air_chief_ground_support_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Isao_Ishizuka={ #태그
+        name="Isao Ishizuka" #이름
+        portraits={
+            army={
+                small="GFX_idea_Isao_Ishizuka" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = air_chief #정치참모
+            idea_token = Isao_Ishizuka #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                air_chief_reform_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Suzuki_Akio={ #태그
+        name="Suzuki Akio" #이름
+        portraits={
+            army={
+                small="GFX_idea_Suzuki_Akio" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = air_chief #정치참모
+            idea_token = Suzuki_Akio #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                air_chief_ground_support_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Fumio_Okabe={ #태그
+        name="Fumio Okabe" #이름
+        portraits={
+            navy={
+                small="GFX_idea_Fumio-Okabe" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = navy_chief #정치참모
+            idea_token = Fumio_Okabe #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                navy_chief_decisive_battle_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Hayashizaki_Jiaki={ #태그
+        name="Hayashizaki Jiaki" #이름
+        portraits={
+            navy={
+                small="GFX_idea_Hayashizaki-Jiaki" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = navy_chief #정치참모
+            idea_token = Hayashizaki_Jiaki #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                navy_chief_commerce_raiding_3   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Taizo_Terashima={ #태그
+        name="Taizo Terashima" #이름
+        portraits={
+            army={
+                small="GFX_idea_Taizo-Terashima" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = army_chief #정치참모
+            idea_token = Taizo_Terashima #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                army_chief_organizational_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Shima_Atsushi={ #태그
+        name="Shima Atsushi" #이름
+        portraits={
+            army={
+                small="GFX_idea_Shima-Atsushi" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = army_chief #정치참모
+            idea_token = Shima_Atsushi #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                army_chief_drill_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Tetsuya_Nishimoto ={ #태그
+        name="Tetsuya Nishimoto" #이름
+        portraits={
+            army={
+                small="GFX_idea_Tetsuya-Nishimoto" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = army_chief #정치참모
+            idea_token = Shima_Atsushi #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                army_chief_offensive_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Tomizawa_Hikaru ={ #태그
+        name="Tomizawa Hikaru" #이름
+        portraits={
+            army={
+                small="GFX_idea_Tomizawa-Hikaru" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = army_chief #정치참모
+            idea_token = Tomizawa_Hikaru #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                army_chief_maneuver_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	nine_JXTGHoldings ={ #태그
+        name="nine_JXTGHoldings" #이름
+        portraits={
+            army={
+                small="GFX_idea_JXTG_holdings" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = industrial_concern  #정치참모
+            idea_token = nine_JXTGHoldings #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                refinery_concern   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	nine_ITOCHU ={ #태그
+        name="nine_ITOCHU" #이름
+        portraits={
+            army={
+                small="GFX_idea_ITOCHU" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = industrial_concern  #정치참모
+            idea_token = nine_ITOCHU #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                industrial_concern   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	nine_Sony ={ #태그
+        name="nine_Sony" #이름
+        portraits={
+            army={
+                small="GFX_idea_Sony" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = industrial_concern  #정치참모
+            idea_token = nine_Sony #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                electronics_concern   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	nine_Toshiba ={ #태그
+        name="nine_Toshiba" #이름
+        portraits={
+            army={
+                small="GFX_idea_Toshiba" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = industrial_concern  #정치참모
+            idea_token = nine_Toshiba #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                electronics_concern   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	nine_SoftBank ={ #태그
+        name="nine_SoftBank" #이름
+        portraits={
+            army={
+                small="GFX_idea_SorfBank" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = industrial_concern  #정치참모
+            idea_token = nine_SoftBank #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                electronics_concern   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Masahiro_Nakatani ={ #태그
+        name="Masahiro_Nakatani" #이름
+        portraits={
+            army={
+                small="GFX_idea_Masahiro-Nakatani" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = high_command  #정치참모
+            idea_token = Masahiro_Nakatani #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                army_infantry_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Fujinawa_Jiu ={ #태그
+        name="Fujinawa_Jiu" #이름
+        portraits={
+            army={
+                small="GFX_idea_Fujinawa-Jiu" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = high_command #정치참모
+            idea_token = Fujinawa_Jiu #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                army_armored_3   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Katsuyuki_Tokashi ={ #태그
+        name="Katsuyuki_Tokashi" #이름
+        portraits={
+            army={
+                small="GFX_idea_Katsuyuki-Tokashi" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = high_command #정치참모
+            idea_token = Katsuyuki_Tokashi #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                army_regrouping_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Okabe_Doshida ={ #태그
+        name="Okabe_Doshida" #이름
+        portraits={
+            army={
+                small="GFX_idea_Okabe-Doshida" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = high_command #정치참모
+            idea_token = Okabe_Doshida #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                army_logistics_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Toshiro_Tamogami ={ #태그
+        name="Toshiro_Tamogami" #이름
+        portraits={
+            army={
+                small="GFX_idea_Toshiro-Tamogami" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = high_command #정치참모
+            idea_token = Toshiro_Tamogami #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                air_close_air_support_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Muraki_goji ={ #태그
+        name="Muraki_goji" #이름
+        portraits={
+            army={
+                small="GFX_idea_Muraki_goji" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = high_command #정치참모
+            idea_token = Muraki_goji #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                air_bomber_interception_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Harukazu_Saito ={ #태그
+        name="Harukazu_Saito" #이름
+        portraits={
+            army={
+                small="GFX_idea_Harukazu-Saito" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = high_command #정치참모
+            idea_token = Harukazu_Saito #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                air_airborne_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Masahiko_Sugimoto ={ #태그
+        name="Masahiko_Sugimoto" #이름
+        portraits={
+            navy={
+                small="GFX_idea_Masahiko-Sugimoto" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = high_command #정치참모
+            idea_token = Masahiko_Sugimoto #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                navy_fleet_logistics_2   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Age_Yoshikawa ={ #태그
+        name="Age_Yoshikawa" #이름
+        portraits={
+            navy={
+                small="GFX_idea_Age-Yoshikawa" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = high_command #정치참모
+            idea_token = Age_Yoshikawa #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+
+            }
+            traits = {
+                navy_anti_submarine_1   #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Takeo_Hiranuma ={ #태그
+        name="Takeo_Hiranuma" #이름
+        portraits={
+            army={
+                small="GFX_idea_Takeo-Hiranuma" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = theorist #정치참모
+            idea_token = Takeo_Hiranuma #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				has_completed_focus = newfocus_15
+            }
+            traits = {
+                nuclear_scientist #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Hibako_Yoshifumi ={ #태그
+        name="Hibako_Yoshifumi" #히바코 요시후미
+        portraits={
+            army={
+                small="GFX_idea_Hibako-Yoshifumi" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = theorist #정치참모
+            idea_token = Hibako_Yoshifumi #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                mobile_warfare_expert #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Haruhiko_Kataoka ={ #태그
+        name="Haruhiko_Kataoka" #가타오카 하루히코
+        portraits={
+            army={
+                small="GFX_idea_Haruhiko-Kataoka" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = theorist #정치참모
+            idea_token = Haruhiko_Kataoka #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                close_air_support_proponent #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Yoshiyuki_Sugiyama ={ #태그
+        name="Yoshiyuki_Sugiyama" #스기야마 요시유키
+            army={
+                small="GFX_idea_Yoshiyuki-Sugiyama" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = theorist #정치참모
+            idea_token = Yoshiyuki_Sugiyama #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                air_warfare_theorist #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Kawano_Katsutoshi ={ #태그
+        name="Kawano_Katsutoshi" #가와노 가쓰토시
+        portraits={
+            army={
+                small="GFX_idea_Kawano-Katsutoshi" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = theorist #정치참모
+            idea_token = Kawano_Katsutoshi #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                Naval_Theorist #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	nine_IHI_ship ={ #태그
+        name="nine_IHI_ship" #IHI
+        portraits={
+            civilian={
+                small="GFX_idea_IHI" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = naval_manufacturer #정치참모
+            idea_token = nine_IHI_ship #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                raiding_fleet_naval_manufacturer #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	nine_Kawasaki_ship ={ #태그
+        name="nine_Kawasaki_ship" #가와사키 중공업
+        portraits={
+            civilian={
+                small="GFX_idea_Kawasaki_Heavy_Industries" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = naval_manufacturer #정치참모
+            idea_token = nine_Kawasaki_ship #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                atlantic_fleet_naval_manufacturer #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	nine_Mitsubishi_ship ={ #태그
+        name="nine_Mitsubishi_ship" #미쓰비시중공업
+        portraits={
+            civilian={
+                small="GFX_idea_Mitsubishi_Heavy_Industries" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = naval_manufacturer #정치참모
+            idea_token = nine_Mitsubishi_ship #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                raiding_fleet_naval_manufacturer #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	nine_Mitsubishi ={ #태그
+        name="nine_Mitsubishi" #미쓰비시중공업
+        portraits={
+            civilian={
+                small="GFX_idea_Mitsubishi_Heavy_Industries" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = tank_manufacturer #정치참모
+            idea_token = nine_Mitsubishi #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                medium_tank_manufacturer #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	nine_Kawasaki ={ #태그
+        name="nine_Kawasaki" #가와사키 중공업
+        portraits={
+            civilian={
+                small="GFX_idea_Kawasaki_Heavy_Industries" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = aircraft_manufacturer #정치참모
+            idea_token = nine_Kawasaki #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                CAS_manufacturer #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	nine_HOWA ={ #태그
+        name="nine_HOWA" #호와공업
+        portraits={
+            civilian={
+                small="GFX_idea_Howa_Machinery" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = materiel_manufacturer #정치참모
+            idea_token = nine_HOWA #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                infantry_equipment_manufacturer #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	nine_Mitsubishi ={ #태그
+        name="nine_Mitsubishi" #미쓰비시중공업
+        portraits={
+            civilian={
+                small="GFX_idea_Mitsubishi_Heavy_Industries" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = materiel_manufacturer #정치참모
+            idea_token = nine_Mitsubishi #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                motorized_equipment_manufacturer #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Toyota_car ={ #태그
+        name="Toyota_car" #토요타자동차
+        portraits={
+            civilian={
+                small="GFX_idea_TOYOTA_MOTOR" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = materiel_manufacturer #정치참모
+            idea_token = Toyota_car #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                motorized_equipment_manufacturer #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	nine_Mitsubishi_car ={ #태그
+        name="nine_Mitsubishi" #미쓰비시자동차
+        portraits={
+            civilian={
+                small="GFX_idea_Mitsubishi_Motors" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = materiel_manufacturer #정치참모
+            idea_token = nine_Mitsubishi #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                motorized_equipment_manufacturer #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}

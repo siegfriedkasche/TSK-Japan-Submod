@@ -799,8 +799,45 @@ if = {
 		nationalities = { JAP }
 	}
 }
-
-
+recruit_character = Masahiro_Nakatani
+recruit_character = Fujinawa_Jiu
+recruit_character = Okabe_Doshida
+recruit_character = Katsuyuki_Tokashi
+recruit_character = Toshiro_Tamogami
+recruit_character = Muraki_goji
+recruit_character = Harukazu_Saito
+recruit_character = Masahiko_Sugimoto
+recruit_character = Age_Yoshikawa
+recruit_character = Takeo_Hiranuma
+recruit_character = Hibako_Yoshifumi
+recruit_character = Haruhiko_Kataoka
+recruit_character = Yoshiyuki_Sugiyama
+recruit_character = Kawano_Katsutoshi
+recruit_character = Taizo_Terashima
+recruit_character = Shima_Atsushi
+recruit_character = Tetsuya_Nishimoto
+recruit_character = Tomizawa_Hikaru
+recruit_character = Tadayoshi_Yonekawa
+recruit_character = Suzuki_Akio
+recruit_character = Isao_Ishizuka
+recruit_character = Fumio_Okabe
+recruit_character = Hayashizaki_Jiaki
+recruit_character = nine_Kawasaki_ship
+recruit_character = nine_IHI_ship
+recruit_character = nine_Mitsubishi_ship
+recruit_character = nine_Mitsubishi
+recruit_character = nine_Kawasaki
+recruit_character = nine_Mitsubishi
+recruit_character = nine_ShinMaywa
+recruit_character = nine_HOWA
+recruit_character = Toyota_car
+recruit_character = nine_Mitsubishi_car
+recruit_character = nine_JXTGHoldings
+recruit_character = nine_ITOCHU
+recruit_character = nine_Sony
+recruit_character = nine_Toshiba
+recruit_character = nine_Inspire
+recruit_character = nine_SoftBank
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
