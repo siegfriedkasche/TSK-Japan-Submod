@@ -1,0 +1,22 @@
+state={
+	id=850
+	name="나라"
+	provinces={
+		1051 
+	}
+	state_category=large_city
+	manpower= 1388000
+	buildings_max_level_factor=1.000
+	history={
+		owner = MJP
+		add_core_of = MJP
+		
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+
+		}
+
+	}
+}

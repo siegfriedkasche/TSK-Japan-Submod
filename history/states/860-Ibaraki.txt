@@ -1,0 +1,41 @@
+state={
+	id=860
+	name="이바라키"
+	provinces={
+		993 4100 7016 
+	}
+	state_category=large_city
+	manpower=865000
+	buildings_max_level_factor=1.000
+	history={
+		owner = MJP
+		add_core_of = MJP
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 4
+			steel_mill = 1
+			fuel_silo = 3
+
+			}
+
+		victory_points = {
+		7016 15
+		}
+		1939.1.1 = {
+			buildings = {
+
+			}
+
+		}
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+
+		}
+
+	}
+}

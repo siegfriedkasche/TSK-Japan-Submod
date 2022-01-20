@@ -1,0 +1,40 @@
+
+state={
+	id=866
+	name="미야기"
+	provinces={
+		7169 
+	}
+	state_category=large_city
+	manpower=2267000
+	buildings_max_level_factor=1.000
+	history={
+		owner = MJP
+		add_core_of = MJP
+		buildings = {
+        fuel_silo = 2
+			infrastructure = 6
+			arms_factory = 2
+			fuel_silo = 2
+			industrial_complex = 4
+
+			}
+
+		victory_points = {
+		7169 30
+		}
+		1939.1.1 = {
+			buildings = {
+
+			}
+
+		}
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+
+		}
+
+	}
+}

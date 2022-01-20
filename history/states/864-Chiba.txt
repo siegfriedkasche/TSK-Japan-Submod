@@ -1,0 +1,41 @@
+state={
+	id=864
+	name="지바"
+	provinces={
+		4184 4188 
+	}
+	state_category=large_city
+	manpower=5679000
+	buildings_max_level_factor=1.000
+	history={
+		owner = MJP
+		add_core_of = MJP
+		buildings = {
+			arms_factory = 3
+			fuel_silo = 2
+			infrastructure = 6
+			air_base = 6
+			industrial_complex = 6
+            4184 = { naval_base = 8 }
+
+			}
+
+
+		victory_points = {
+			4184 20
+		}
+		1939.1.1 = {
+			buildings = {
+
+			}
+
+		}
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+
+		}
+
+	}
+}

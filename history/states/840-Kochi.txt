@@ -1,0 +1,38 @@
+
+state={
+	id=840
+	name="고치"
+	provinces={
+		7197 11997 12028 
+	}
+
+	state_category=large_city
+	manpower=822000
+	buildings_max_level_factor=1.000
+	history={
+		owner = MJP
+		add_core_of = MJP
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 8
+
+			}
+
+		victory_points = {
+			7197 20
+		}
+		1939.1.1 = {
+			buildings = {
+
+			}
+
+		}
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+
+		}
+
+	}
+}
