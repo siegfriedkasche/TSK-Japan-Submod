@@ -1,0 +1,42 @@
+
+state={
+	id=859
+	name="나가노"
+	provinces={
+		10015 10100 11908 11989 
+	}	
+	state_category=large_city
+	manpower=2169000
+	buildings_max_level_factor=1.000
+	history={
+		owner = MJP
+		add_core_of = MJP
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 2
+			steel_mill = 1
+			fuel_silo = 3
+
+
+			}
+
+		victory_points = {
+			11989 10
+		}
+		1939.1.1 = {
+			buildings = {
+
+			}
+
+		}
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+
+		}
+
+	}
+}

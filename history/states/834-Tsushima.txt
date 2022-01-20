@@ -1,0 +1,33 @@
+state={
+	id=834
+	name="쓰시마"
+	provinces={
+		10011 
+	}
+	history={
+		owner = MJP
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 6
+			10011 = {
+				naval_base = 4
+			}
+		}
+		victory_points = {
+			10011 5 
+		}
+		add_core_of = JAP
+		add_core_of = MJP
+
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+		}
+	}
+	manpower=21313
+	buildings_max_level_factor=1.000
+	
+	state_category = large_city
+}

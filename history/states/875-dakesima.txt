@@ -1,0 +1,42 @@
+state={
+	id=875
+	name="STATE_860"
+	provinces={
+		13247 
+	}
+	name="독도"
+
+	history={
+		owner = KR1
+		buildings = {
+			infrastructure = 1
+			13247 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			13247 1 
+		}
+		add_core_of = KR1
+		add_core_of = PRK
+		1936.1.2 = {
+			remove_core_of = PRK
+			buildings = {
+				infrastructure = 2
+
+			}
+		}
+		1936.1.3 = {
+			owner = KOR
+			controller = KOR
+			remove_core_of = KR1
+			add_core_of = KOR
+			add_claim_by = KPA
+
+		}
+	}
+	manpower=38
+	state_category=enclave
+}
