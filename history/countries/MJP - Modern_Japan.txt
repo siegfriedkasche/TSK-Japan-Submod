@@ -838,6 +838,18 @@ recruit_character = nine_Sony
 recruit_character = nine_Toshiba
 recruit_character = nine_Inspire
 recruit_character = nine_SoftBank
+recruit_character = Akihito
+recruit_character = Masayoshi_Son
+recruit_character = miyazawa_kiichi
+recruit_character =
+recruit_character = Makoto_Sakuma
+recruit_character = Katsuhiro_Kuroda
+recruit_character = Junichiro_Koizumi
+recruit_character = Kake_Aichi
+recruit_character = Ryutaro_Hashimoto
+recruit_character = Kazuo_Shii
+recruit_character = Toshinori_Kanemoto
+recruit_character = Obuchi_Keizo
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

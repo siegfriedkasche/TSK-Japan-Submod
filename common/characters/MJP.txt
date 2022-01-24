@@ -995,3 +995,315 @@ characters = {
         }
     }
 }
+
+characters = {
+	Akihito ={ #태그
+        name="Akihito" #
+        portraits={
+            civilian={
+                small="GFX_idea_Akihito" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = political_advisor #정치참모
+            idea_token = Akihito #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				
+            }
+            traits = {
+                MJP_Son_trait #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Makoto_Sakuma ={ #태그
+        name="Makoto_Sakuma" #
+        portraits={
+            civilian={
+                small="GFX_idea_Makoto-Sakuma" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = political_advisor #정치참모
+            idea_token = Makoto_Sakuma #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				NOT = {
+					has_completed_focus = MJP_Election
+				}
+				has_completed_focus = Military_control
+				has_completed_focus = newfocus_26
+			}
+			on_add = {
+				country_event = {
+				    id = MJP.11
+				}
+			}
+            traits = {
+                MJP_Sakuma_trait #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Masayoshi_Son ={ #태그
+        name="Masayoshi_Son" #
+        portraits={
+            civilian={
+                small="GFX_idea_Masayoshi-Son" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = political_advisor #정치참모
+            idea_token = Masayoshi_Son #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				OR = {
+				    has_completed_focus = MJP_Election
+				    has_completed_focus = Stable_Japan
+				}	
+				has_completed_focus = newfocus_26
+			}
+            traits = {
+                MJP_Son_trait #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Katsuhiro_Kuroda ={ #태그
+        name="Katsuhiro_Kuroda" #
+        portraits={
+            civilian={
+                small="GFX_idea_Katsuhiro-Kuroda" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = political_advisor #정치참모
+            idea_token = Katsuhiro_Kuroda #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				has_completed_focus = MJP_Election
+				has_completed_focus = newfocus_26
+			}
+            traits = {
+                MJP_Kuroda_trait #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Junichiro_Koizumi ={ #태그
+        name="Junichiro_Koizumi" #
+        portraits={
+            civilian={
+                small="GFX_idea_Junichiro-Koizumi" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = political_advisor #정치참모
+            idea_token = Junichiro_Koizumi #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+                NOT = {
+					has_completed_focus = MJP_Election
+				}
+				has_completed_focus = Liberal_Democratic_Party
+				has_completed_focus = newfocus_26
+			}its = {
+                MJP_Koizumi_trait #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Kake_Aichi ={ #태그
+        name="Kake_Aichi" #
+        portraits={
+            civilian={
+                small="GFX_idea_Akihito" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = political_advisor #정치참모
+            idea_token = Kake_Aichi #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+				has_completed_focus = MJP_Election
+				has_completed_focus = newfocus_26
+			}
+            traits = {
+                MJP_Kake_trait #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Ryutaro_Hashimoto ={ #태그
+        name="Ryutaro_Hashimoto" #
+        portraits={
+            civilian={
+                small="GFX_idea_Ryutaro-Hashimoto" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = political_advisor #정치참모
+            idea_token = Ryutaro_Hashimoto #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+           available = {
+                NOT = {
+					has_completed_focus = MJP_Election
+				}
+				has_completed_focus = Liberal_Democratic_Party
+                has_completed_focus = MJP_Cabinet_of_Hashimoto
+				has_completed_focus = newfocus_26
+			}
+            traits = {
+                MJP_Hashimoto_trait #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Kazuo_Shii ={ #태그
+        name="Kazuo_Shii" #아키히토
+        portraits={
+            civilian={
+                small="GFX_idea_Kazuo_Shii" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = political_advisor #정치참모
+            idea_token = Kazuo_Shii #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+                NOT = {
+					has_completed_focus = MJP_Election
+				}
+				has_completed_focus = Communism
+				has_completed_focus = newfocus_26
+			}
+            traits = {
+                MJP_Shil_trait #참모역할
+            }
+            ai_will_do = {
+                factor = 1.000
+            }
+        }
+    }
+}
+
+characters = {
+	Toshinori_Kanemoto ={ #태그
+        name="Toshinori_Kanemoto" #아키히토
+        portraits={
+            civilian={
+                small="GFX_idea_Toshinori-Kanemoto" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = political_advisor #정치참모
+            idea_token = Toshinori_Kanemoto #국민정신 토큰 번호
+            allowed = {
+				if = {
+					limit = {
+						has_dlc = "Battle for the Bosporus"
+					}
+				}
+                original_tag = MJP
+            }
+            available = {
+				has_completed_focus = MJP_Election
+				has_completed_focus = newfocus_26
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+            traits = {
+                MJP_Kanemoto_trait #참모역할
+            }
+            ai_will_do = {
+				factor = 1
+				modifier = {
+					has_intelligence_agency = no
+					factor = 0
+				}
+				
+			}
+        }
+    }
+}
+
+characters = {
+	Obuchi_Keizo ={ #태그
+        name="Obuchi_Keizo" #
+        portraits={
+            civilian={
+                small="GFX_idea_Obuchi_Keizo" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = political_advisor #정치참모
+            idea_token = Obuchi_Keizo #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+                NOT = {
+					has_completed_focus = MJP_Election
+				}
+				has_completed_focus = Liberal_Democratic_Party
+				has_completed_focus = newfocus_26
+			}
+			cost = 100
+			traits = { MJP_Obuch_trait }
+			ai_will_do = { factor = 100 }
+        }
+    }
+}

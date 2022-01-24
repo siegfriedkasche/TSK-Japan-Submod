@@ -1015,7 +1015,7 @@ political_advisor = {
 			traits = { MJP_Kake_trait }
 			ai_will_do = { factor = 100 }
 		}
-       Ryutaro_Hashimoto = {
+        Ryutaro_Hashimoto = {
 			picture = Ryutaro-Hashimoto
 			allowed = {
 				original_tag = MJP
