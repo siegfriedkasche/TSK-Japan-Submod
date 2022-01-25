@@ -1307,3 +1307,47 @@ characters = {
         }
     }
 }
+
+characters = {
+	Obuchi_Keizo ={ #태그
+        name="Obuchi_Keizo" #
+        portraits={
+            civilian={
+                small="GFX_idea_Obuchi_Keizo" #이미지
+            }
+        }
+        advisor={ #참모
+            slot = political_advisor #정치참모
+            idea_token = Obuchi_Keizo #국민정신 토큰 번호
+            allowed = {
+                original_tag = MJP
+            }
+            available = {
+                NOT = {
+					has_completed_focus = MJP_Election
+				}
+				has_completed_focus = Liberal_Democratic_Party
+				has_completed_focus = newfocus_26
+			}
+			cost = 100
+			traits = { MJP_Obuch_trait }
+			ai_will_do = { factor = 100 }
+        }
+    }
+}
+
+characters={
+	miyazawa_kiichi={
+		name=miyazawa kiichi
+		portraits={
+			civilian={
+				large="gfx/leaders/MJP/miyazawa_kiichi.png"
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits={ warrior_code emperor_showa imperial_sanction }
+			expire = "1989.1.1.1"
+			id = 1
+		}
+	}
