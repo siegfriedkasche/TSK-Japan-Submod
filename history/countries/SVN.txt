@@ -350,7 +350,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Gennadiy Aleksandrovich"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "Gennadiy_Aleksandrovich.png"
+	picture = "gfx/leaders/SVN/Gennadiy_Aleksandrovich.png"
 	expire = "1989.1.1"
 	ideology = leninism 
 	traits = {
@@ -360,7 +360,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "JViktor Chechevatov"
-	picture = "JViktor_Chechevatov.png"
+	picture = "gfx/leaders/SVN/JViktor_Chechevatov.png"
 	traits = { 
 		politically_connected
 	}
@@ -373,7 +373,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Vladimir Potapov "
-	picture = "Vladimir_Potapov.png"
+	picture = "gfx/leaders/SVN/Vladimir_Potapov.png"
 	traits = { career_officer  }
 	skill = 2
 	attack_skill = 2
@@ -384,7 +384,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Gennadiy Aleksandrovich"
-	picture = "Gennadiy_Aleksandrovich.png"
+	picture = "gfx/leaders/SVN/Gennadiy_Aleksandrovich.png"
 	traits = { aviation_enthusiast bold air_controller flight_deck_manager superior_tactician spotter }
 	skill = 5
 	attack_skill = 5

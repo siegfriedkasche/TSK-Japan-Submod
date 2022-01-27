@@ -344,11 +344,11 @@ set_popularities = {
 	democratic = 100
 }
 create_country_leader = {
-	name = "miyazawa_kiichi"
+	name = "miyazawa kiichi"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "miyazawa_kiichi.png"
+	picture = "gfx/leaders/MJP/miyazawa_kiichi.png"
 	expire = "1989.1.1"
-	ideology = liberalism
+	ideology = Conservatism
 	traits = {
 	}
 }
@@ -356,19 +356,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Kyuichi Tokuda"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "GFX_Portrait_kyuichi_tokuda"
+	picture = "gfx/leaders/MJP/kyuichi_tokuda.png"
 	expire = "1989.1.1"
 	ideology = marxism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "miyazawa kiichi"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "miyazawa_kiichi.png"
-	expire = "1989.1.1"
-	ideology = conservatism
 	traits = {
 	}
 }

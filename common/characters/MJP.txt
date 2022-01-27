@@ -23,9 +23,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Isao_Ishizuka={ #태그
         name="Isao Ishizuka" #이름
         portraits={
@@ -50,9 +48,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Suzuki_Akio={ #태그
         name="Suzuki Akio" #이름
         portraits={
@@ -77,9 +73,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Fumio_Okabe={ #태그
         name="Fumio Okabe" #이름
         portraits={
@@ -104,9 +98,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Hayashizaki_Jiaki={ #태그
         name="Hayashizaki Jiaki" #이름
         portraits={
@@ -131,9 +123,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Taizo_Terashima={ #태그
         name="Taizo Terashima" #이름
         portraits={
@@ -158,9 +148,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Shima_Atsushi={ #태그
         name="Shima Atsushi" #이름
         portraits={
@@ -185,9 +173,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Tetsuya_Nishimoto ={ #태그
         name="Tetsuya Nishimoto" #이름
         portraits={
@@ -212,9 +198,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Tomizawa_Hikaru ={ #태그
         name="Tomizawa Hikaru" #이름
         portraits={
@@ -239,9 +223,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	nine_JXTGHoldings ={ #태그
         name="nine_JXTGHoldings" #이름
         portraits={
@@ -266,9 +248,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	nine_ITOCHU ={ #태그
         name="nine_ITOCHU" #이름
         portraits={
@@ -293,9 +273,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	nine_Sony ={ #태그
         name="nine_Sony" #이름
         portraits={
@@ -320,9 +298,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	nine_Toshiba ={ #태그
         name="nine_Toshiba" #이름
         portraits={
@@ -347,9 +323,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	nine_SoftBank ={ #태그
         name="nine_SoftBank" #이름
         portraits={
@@ -374,9 +348,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Masahiro_Nakatani ={ #태그
         name="Masahiro_Nakatani" #이름
         portraits={
@@ -401,9 +373,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Fujinawa_Jiu ={ #태그
         name="Fujinawa_Jiu" #이름
         portraits={
@@ -428,9 +398,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Katsuyuki_Tokashi ={ #태그
         name="Katsuyuki_Tokashi" #이름
         portraits={
@@ -455,9 +423,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Okabe_Doshida ={ #태그
         name="Okabe_Doshida" #이름
         portraits={
@@ -482,9 +448,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Toshiro_Tamogami ={ #태그
         name="Toshiro_Tamogami" #이름
         portraits={
@@ -509,9 +473,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Muraki_goji ={ #태그
         name="Muraki_goji" #이름
         portraits={
@@ -536,9 +498,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Harukazu_Saito ={ #태그
         name="Harukazu_Saito" #이름
         portraits={
@@ -563,9 +523,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Masahiko_Sugimoto ={ #태그
         name="Masahiko_Sugimoto" #이름
         portraits={
@@ -590,9 +548,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Age_Yoshikawa ={ #태그
         name="Age_Yoshikawa" #이름
         portraits={
@@ -617,9 +573,6 @@ characters = {
             }
         }
     }
-}
-
-characters = {
 	Takeo_Hiranuma ={ #태그
         name="Takeo_Hiranuma" #이름
         portraits={
@@ -644,9 +597,6 @@ characters = {
             }
         }
     }
-}
-
-characters = {
 	Hibako_Yoshifumi ={ #태그
         name="Hibako_Yoshifumi" #히바코 요시후미
         portraits={
@@ -671,9 +621,6 @@ characters = {
             }
         }
     }
-}
-
-characters = {
 	Haruhiko_Kataoka ={ #태그
         name="Haruhiko_Kataoka" #가타오카 하루히코
         portraits={
@@ -698,9 +645,6 @@ characters = {
             }
         }
     }
-}
-
-characters = {
 	Yoshiyuki_Sugiyama ={ #태그
         name="Yoshiyuki_Sugiyama" #스기야마 요시유키
             army={
@@ -724,11 +668,9 @@ characters = {
             }
         }
     }
-}
 
-characters = {
-	Kawano_Katsutoshi ={ #태그
-        name="Kawano_Katsutoshi" #가와노 가쓰토시
+	Kawano_katsutoshi ={ #태그
+        name="Kawano_atsutoshi" #가와노 가쓰토시
         portraits={
             army={
                 small="GFX_idea_Kawano-Katsutoshi" #이미지
@@ -751,9 +693,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	nine_IHI_ship ={ #태그
         name="nine_IHI_ship" #IHI
         portraits={
@@ -778,9 +718,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	nine_Kawasaki_ship ={ #태그
         name="nine_Kawasaki_ship" #가와사키 중공업
         portraits={
@@ -805,9 +743,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	nine_Mitsubishi_ship ={ #태그
         name="nine_Mitsubishi_ship" #미쓰비시중공업
         portraits={
@@ -832,9 +768,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	nine_Mitsubishi ={ #태그
         name="nine_Mitsubishi" #미쓰비시중공업
         portraits={
@@ -859,9 +793,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	nine_Kawasaki ={ #태그
         name="nine_Kawasaki" #가와사키 중공업
         portraits={
@@ -886,9 +818,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	nine_HOWA ={ #태그
         name="nine_HOWA" #호와공업
         portraits={
@@ -913,9 +843,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	nine_Mitsubishi ={ #태그
         name="nine_Mitsubishi" #미쓰비시중공업
         portraits={
@@ -940,9 +868,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Toyota_car ={ #태그
         name="Toyota_car" #토요타자동차
         portraits={
@@ -967,9 +893,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	nine_Mitsubishi_car ={ #태그
         name="nine_Mitsubishi" #미쓰비시자동차
         portraits={
@@ -994,9 +918,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Akihito ={ #태그
         name="Akihito" #
         portraits={
@@ -1021,9 +943,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Makoto_Sakuma ={ #태그
         name="Makoto_Sakuma" #
         portraits={
@@ -1057,9 +977,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Masayoshi_Son ={ #태그
         name="Masayoshi_Son" #
         portraits={
@@ -1088,9 +1006,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Katsuhiro_Kuroda ={ #태그
         name="Katsuhiro_Kuroda" #
         portraits={
@@ -1116,9 +1032,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Junichiro_Koizumi ={ #태그
         name="Junichiro_Koizumi" #
         portraits={
@@ -1146,9 +1060,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Kake_Aichi ={ #태그
         name="Kake_Aichi" #
         portraits={
@@ -1174,9 +1086,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Ryutaro_Hashimoto ={ #태그
         name="Ryutaro_Hashimoto" #
         portraits={
@@ -1206,9 +1116,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Kazuo_Shii ={ #태그
         name="Kazuo_Shii" #아키히토
         portraits={
@@ -1237,9 +1145,7 @@ characters = {
             }
         }
     }
-}
 
-characters = {
 	Toshinori_Kanemoto ={ #태그
         name="Toshinori_Kanemoto" #아키히토
         portraits={
@@ -1278,9 +1184,7 @@ characters = {
 			}
         }
     }
-}
 
-characters = {
 	Obuchi_Keizo ={ #태그
         name="Obuchi_Keizo" #
         portraits={
@@ -1306,11 +1210,9 @@ characters = {
 			ai_will_do = { factor = 100 }
         }
     }
-}
 
-characters = {
 	Obuchi_Keizo ={ #태그
-        name="Obuchi_Keizo" #
+        name="Obuchi Keizo" #
         portraits={
             civilian={
                 small="GFX_idea_Obuchi_Keizo" #이미지
@@ -1334,20 +1236,18 @@ characters = {
 			ai_will_do = { factor = 100 }
         }
     }
-}
 
-characters={
 	miyazawa_kiichi={
 		name="miyazawa kiichi"
 		portraits={
 			civilian={
-				large="GFX_idea_miyazawa_kiichi"
+				large="GFX_miyazawa_kiichi"
 			}
 		}
 		country_leader={
-			ideology = liberalism
-			traits={ warrior_code emperor_showa imperial_sanction }
-			expire = "1989.1.1.1"
-			id = -1
+			ideology=Conservatism
+			expire="1965.1.1.1"
+			id=-1
 		}
 	}
+}
