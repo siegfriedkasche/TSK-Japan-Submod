@@ -1014,7 +1014,7 @@ characters = {
 				
             }
             traits = {
-                MJP_Son_trait #참모역할
+                MJP_Akihito_trait #참모역할
             }
             ai_will_do = {
                 factor = 1.000
@@ -1153,7 +1153,7 @@ characters = {
         name="Kake_Aichi" #
         portraits={
             civilian={
-                small="GFX_idea_Akihito" #이미지
+                small="GFX_idea_Kake-Aichi" #이미지
             }
         }
         advisor={ #참모
