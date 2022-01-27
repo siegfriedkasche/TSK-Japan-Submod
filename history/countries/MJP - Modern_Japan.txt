@@ -808,6 +808,7 @@ recruit_character = Muraki_goji
 recruit_character = Harukazu_Saito
 recruit_character = Masahiko_Sugimoto
 recruit_character = Age_Yoshikawa
+recruit_character = miyazawa_kiichi
 recruit_character = Takeo_Hiranuma
 recruit_character = Hibako_Yoshifumi
 recruit_character = Haruhiko_Kataoka

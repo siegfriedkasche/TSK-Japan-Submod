@@ -1338,16 +1338,16 @@ characters = {
 
 characters={
 	miyazawa_kiichi={
-		name=miyazawa kiichi
+		name="miyazawa kiichi"
 		portraits={
 			civilian={
-				large="gfx/leaders/MJP/miyazawa_kiichi.png"
+				large="GFX_idea_miyazawa_kiichi"
 			}
 		}
 		country_leader={
 			ideology = liberalism
 			traits={ warrior_code emperor_showa imperial_sanction }
 			expire = "1989.1.1.1"
-			id = 1
+			id = -1
 		}
 	}

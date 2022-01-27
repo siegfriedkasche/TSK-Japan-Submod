@@ -12,6 +12,10 @@ spriteTypes = {
 		texturefile = "gfx/ideas/MJP/Youth_Employment.png"
 	}
 	spriteType = {
+		name = "GFX_idea_miyazawa_kiichi"
+		texturefile = "gfx/leaders/MJP/miyazawa_kiichi.png"
+	}
+	spriteType = {
 		name = "GFX_idea_a_tax_rate_hike"
 		texturefile = "gfx/ideas/MJP/a_tax_rate_hike.png"
 	}
