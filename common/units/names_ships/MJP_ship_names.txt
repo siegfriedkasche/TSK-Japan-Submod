@@ -1,5 +1,6 @@
 ﻿##### JAPAN NAME LISTS #####
 ### ESCORT DESTROYER NAMES###
+
 MJP_DDG_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DDG
 
@@ -8,7 +9,7 @@ MJP_DDG_HISTORICAL = {
 	type = ship
 	
 	prefix = "JDS "							
-	fallback_name = "DDG-%d"
+	fallback_name = "%번 이지스구축함"
 
 	unique = {
 		#공고급
@@ -19,18 +20,18 @@ MJP_DDG_HISTORICAL = {
 		"Maya" "Haguro"
 		#
 		"Mirai" "Yukinami" "Haruka"
-	}
-}
+	    }
+    }
 
 MJP_DDH_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_DDH
+	    name = NAME_THEME_HISTORICAL_DDH
 
-	for_countries = { MJP }
+	    for_countries = { MJP }
 
-	type = ship
+	    type = ship
 	
-	prefix = "JDS "							
-	fallback_name = "DD-1%d"
+	    prefix = "JDS "							
+	    fallback_name = "%번 구축함"
 
 	unique = {
 		#타치카제급
@@ -57,9 +58,10 @@ MJP_DDH_HISTORICAL = {
         "Minegumo" "Natsugumo" "Murakumo" 
 		#아마츠카제급
 		"Amatsukaze"
-	}
-}
+	    }
+    }  
 
+### 호위구축함 ###
 MJP_FF_HISTORICAL = {
     name = NAME_THEME_HISTORICAL_FF
 
@@ -68,7 +70,7 @@ MJP_FF_HISTORICAL = {
 	type = ship
 	
 	prefix = "JDS "							
-	fallback_name = "FF-1%d"
+	fallback_name = "%번 호위구축함"
 
 	unique ={
         #아부쿠마급
@@ -81,10 +83,11 @@ MJP_FF_HISTORICAL = {
 	    "Isuzu" "Mogami" "Kitakami" "Ōi"
 	    #치쿠고급
         "Chikugo" "Ayase" "Mikuma" "Tokachi" "Iwase" "Chitose" "Niyodo" "Teshio" "Yoshino" "Kumano" "Noshiro"
-	}
+	    }
 
-}
+    }
 
+### 잠수함 ###
 MJP_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SS
 
@@ -102,9 +105,9 @@ MJP_SS_HISTORICAL = {
         "Yūshio" "Mochishio" "Setoshio" "Okishio" "Nadashio" "Hamashio" "Akishio" "Takeshio" "Yukishio" "Sachishio" 
 		#우즈시오급
         "Uzushio" "Makishio" "Isoshio" "Narushio" "Kuroshio" "Takashio" "Yaeshio'
-	}
-}
-
+	    }
+    }
+### 항공모함 ###
 MJP_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CV
 
@@ -113,7 +116,7 @@ MJP_CV_HISTORICAL = {
 	type = ship
 	
 	prefix = "JDS "							
-	fallback_name = "CV-1%d"
+	fallback_name = "%번 항공모함"
 
 	unique = {
 		#휴우가급
@@ -122,5 +125,5 @@ MJP_CV_HISTORICAL = {
 		"Izumo" "Kaga" "Yamashiro"
 		#구일본함선
 		"Shinano" "Akagi" "Hiryu" "Soryu" "Shokaku" "Zuikaku" "Taiho"
-	}
-}
+	    }
+    }
