@@ -1,7 +1,7 @@
 
 state={
 	id=529
-	name="STATE_529" # Chugoku
+	name="히로시마" # Hiroshima
 	manpower = 2859000
 	state_category = large_city
 

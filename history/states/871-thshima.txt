@@ -1,10 +1,38 @@
 state={
 	id=871
-	name="STATE_871"
+	name="쓰시마"
 	provinces={
 		10011 
 	}
-	manpower=0
+	state_category=large_city
+	manpower=21313
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	history={
+		owner = MJP
+		add_core_of = MJP
+		buildings = {
+        infrastructure = 4
+			
+			industrial_complex = 2
+			
+	}
+
+	
+		victory_points = {
+			10011 5
+		}
+		1939.1.1 = {
+			buildings = {
+
+			}
+
+		}
+		1936.1.4 = {
+			owner = JAP
+			controller = JAP
+			remove_core_of = MJP
+
+		}
+
+	}
 }
