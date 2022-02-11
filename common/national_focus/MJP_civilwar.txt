@@ -161,7 +161,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = war_economy
+			add_ideas = Limited_Conscription
 		}
 
 	}
@@ -199,7 +200,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 100
+			add_war_support = -0.1
 		}
 
 	}
@@ -275,7 +276,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 100
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
 		}
 
 	}
@@ -441,6 +445,9 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = civilwar_start
 			hidden_effect = {
+				country_event = {
+					id = MJP_war.1
+				}
 				declare_war_on = {
 					target = CJP
 					type = annex_everything
@@ -454,6 +461,12 @@ focus_tree = {
 					type = annex_everything
 				}
 				CJP = {
+					every_state = {
+						limit = {
+							is_core_of = MJP
+						}
+						add_core_of = CJP
+					}
 					transfer_state = 282
 					transfer_state = 861
 					transfer_state = 862 
@@ -496,61 +509,61 @@ focus_tree = {
 							recon = { x = 0 y = 0 }
 						}
 					}
-					858 = {
+					random_owned_controlled_state = {
 						create_unit = { 
 							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
 							owner = CJP count = 3
 						}
 					}
-					861 = {
+					random_owned_controlled_state = {
 						create_unit = { 
 							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
 							owner = CJP count = 3
 						}
 					}
-					862 = {
+					random_owned_controlled_state = {
 						create_unit = { 
 							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
 							owner = CJP count = 3
 						}
 					}
-					859 = {
+					random_owned_controlled_state = {
 						create_unit = { 
 							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
 							owner = CJP count = 3
 						}
 					}
-					868 = {
+					random_owned_controlled_state = {
 						create_unit = { 
 							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
 							owner = CJP count = 3
 						}
 					}
-					865 = {
-						create_unit = { 
-							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
-							owner = CJP count = 4
-						}
-					}
-					863 = {
-						create_unit = { 
-							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
-							owner = CJP count = 1
-						}
-					}
-					839 = {
+					random_owned_controlled_state = {
 						create_unit = { 
 							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
 							owner = CJP count = 3
 						}
 					}
-					868 = {
+					random_owned_controlled_state = {
 						create_unit = { 
 							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
-							owner = CJP count = 1
+							owner = CJP count = 3
 						}
 					}
-					869 = {
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = CJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = CJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
 						create_unit = { 
 							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
 							owner = CJP count = 3
@@ -558,6 +571,28 @@ focus_tree = {
 					}
 				}
 				RJP  = {
+					every_state = {
+						limit = {
+							is_core_of = MJP
+						}
+						add_core_of = RJP
+					}
+					division_template = {
+						name = "민병대"
+						priority = 1
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+						}
+						is_locked = no
+						support = {
+							recon = { x = 0 y = 0 }
+						}
+					}
 					transfer_state = 848
 					transfer_state = 850
 					transfer_state = 852
@@ -565,7 +600,7 @@ focus_tree = {
 					transfer_state = 849
 					transfer_state = 851
 					transfer_state = 530
-					transfer_state = 831
+					transfer_state = 531
 					declare_war_on = {
 						target = MJP
 						type = annex_everything
@@ -578,8 +613,74 @@ focus_tree = {
 						target = CJP
 						type = annex_everything
 					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = RJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = RJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = RJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = RJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = RJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = RJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = RJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = RJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = RJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = RJP count = 3
+						}
+					}
 				}
 				NJP = {
+					every_state = {
+						limit = {
+							is_core_of = MJP
+						}
+						add_core_of = NJP
+					}
 					transfer_state = 843
 					transfer_state = 844
 					transfer_state = 845
@@ -594,6 +695,22 @@ focus_tree = {
 					transfer_state = 538
 					transfer_state = 836
 					transfer_state = 860
+					division_template = {
+						name = "일본 갈색군단"
+						priority = 1
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+						}
+						is_locked = no
+						support = {
+							recon = { x = 0 y = 0 }
+						}
+					}
 					declare_war_on = {
 						target = MJP
 						type = annex_everything
@@ -606,6 +723,66 @@ focus_tree = {
 						target = CJP
 						type = annex_everything
 					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"일본 갈색군단\" division_template = \"일본 갈색군단\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = NJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"일본 갈색군단\" division_template = \"일본 갈색군단\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = NJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"일본 갈색군단\" division_template = \"일본 갈색군단\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = NJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"일본 갈색군단\" division_template = \"일본 갈색군단\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = NJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"일본 갈색군단\" division_template = \"일본 갈색군단\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = NJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"일본 갈색군단\" division_template = \"일본 갈색군단\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = NJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"일본 갈색군단\" division_template = \"일본 갈색군단\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = NJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"일본 갈색군단\" division_template = \"일본 갈색군단\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = NJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"일본 갈색군단\" division_template = \"일본 갈색군단\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = NJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"일본 갈색군단\" division_template = \"일본 갈색군단\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = NJP count = 3
+						}
+					}
 				}
 				every_state = {
 					limit = {
@@ -617,4 +794,5 @@ focus_tree = {
 		}
 
 	}
+
 }

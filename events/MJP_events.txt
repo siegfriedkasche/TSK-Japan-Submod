@@ -1,576 +1,93 @@
-add_namespace = MJP
+add_namespace = MJP_war
 
 country_event = {
-	id = MJP.1
-	title = MJP.1.t
-	desc = MJP.1.d
-	picture = GFX_
+	id = MJP_war.1
+	title = MJP_war.1.t
+	desc = MJP_war.1.d
+	picture = GFX_report_event_chinese_soldiers_02
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
-		name = MJP.1.a
+		name = MJP_war.1.a
 		ai_chance = {
 		    factor = 100
 		}
-		remove_ideas = { 
-			MJP_Interest_rate_increase_ideas
-		    MJP_Prohibit_real_estate_mortgage_loans_ideas
-		}
-		hidden_effect = {
-			country_event = {
-				id = MJP.2
-				days = 5
-			}
-		}
-	}
-}
-country_event = {
-
-	id = MJP.11
-    title = MJP.11.t
-    desc = MJP.11.d
-    picture = GFX_mine_event_picture
-    is_triggered_only = yes
-    fire_only_once = yes
-
-    option = {
-        name = MJP.11.a
-        ai_chance = {
-            factor = 100
-        }
-		MJP = {
-			give_resource_rights = { receiver = USJ state = 535 } 
-			add_ideas = USJ_resource_mining_rights
-		}
-	}
-	option = {
-        name = MJP.11.b
-        ai_chance = {
-            factor = 0
-        }
-	}
-}
-country_event = {
-	id = MJP.2
-	title = MJP.2.t
-	desc = MJP.2.d
-	picture = GFX_
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.2.a
-		ai_chance = {
-		    factor = 100
-		}
-		add_ideas = MJP_Popped_bubble
-		hidden_effect = {
-			country_event = {
-				id = MJP.3
-			}
-
-		}
-	}
-}
-
-country_event = {
-	id = MJP.3
-	title = MJP.3.t
-	desc = MJP.3.d
-	picture = GFX_
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.3.a
-		ai_chance = {
-		    factor = 100
-		}
-		complete_national_focus = newfocus_14
-	}
-}
-
-country_event = {
-
-	id = MJP.4
-	title = MJP.4.t
-	deac = MJP.4.d
-	picture = GFX_ 
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
-		name = MJP.4.a
-		ai_chance = {
-			factor = 25
-		}
-		hidden_effect = {   #자민
-            complete_national_focus = Liberal_Democratic_Party
-        }
-	}
-	option = {  #공산
-        name = MJP.4.b
-        ai_chance = {
-            factor = 25
-        }
-        hidden_effect = {
-            complete_national_focus = Communism
-        }
-    }
-    option = {   #비동맹?
-        name = MJP.4.c
-        ai_chance = {
-            factor = 25
-        }
-        hidden_effect = {
-            complete_national_focus = Non_alliance
-        }
-    }
-    option = {   #헌법?
-        name = MJP.4.f
-        ai_chance = {
-            factor = 25
-        }
-        hidden_effect = {
-            complete_national_focus = Constitution
-        }
-    }
-	
-}
-
-country_event = { 
-
-	id = MJP.5
-	title = MJP.5.t
-	desc = MJP.5.d
-	picture = GFX_economic-collapse
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.5.a
-		ai_chance = {
-		    factor = 100
-		}
-		hidden_effect = {
-			country_event = {
-				id = MJP.5
-		    }
-	    }
-    }
-}
-country_event = {
-
-    id = MJP.6
-    title = MJP.6.t
-    desc = MJP.6.d
-    picture = GFX_
-    is_triggered_only = yes
-    fire_only_once = yes
-
-    option = {
-        name = MJP.6.b
-        ai_chance = {
-            factor = 25
-        }
-        hidden_effect = {   #자민
-            complete_national_focus = Liberal_Democratic_Party
-        }
-    }
-    option = {  #공명
-        name = MJP.6.a
-        ai_chance = {
-            factor = 25
-        }
-        hidden_effect = {
-            complete_national_focus = Komeito
-        }
-    }
-	option = {   #비동맹?
-        name = MJP.6.c
-        ai_chance = {
-            factor = 25
-        }
-        hidden_effect = {
-            complete_national_focus = Non_alliance
-        }
-    }
-	option = {   #공산?
-        name = MJP.6.e
-        ai_chance = {
-            factor = 25
-        }
-        hidden_effect = {
-            complete_national_focus = Communism
-        }
-    }
-}
-
-country_event = {
-
-	  id = MJP.8
-    title = MJP.8.t
-    desc = MJP.8.d
-    picture = GFX_Cabinet-Office
-    is_triggered_only = yes
-    fire_only_once = yes
-
-    option = {
-        name = MJP.8.a
-        ai_chance = {
-            factor = 25
-        }
-	}
-}
-country_event = {
-
-	id = MJP.10
-    title = MJP.10.t
-    desc = MJP.10.d
-    picture = GFX_1936world
-    is_triggered_only = yes
-    fire_only_once = yes
-
-    option = {
-        name = MJP.10.a
-        ai_chance = {
-            factor = 25
-        }
-	}
-}
-
-country_event = {
-	id = MJP.12
-	title = MJP.12.t
-	desc = MJP.12.d
-	picture = GFX_report_event_finnish_letter
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.12.a
-		ai_chance = {
-		    factor = 100
-		}
-	}
-}
-
-country_event = {
-	id = MJP.13
-	title = MJP.13.t
-	desc = MJP.13.d
-	picture = GFX_report_event_spain_civil_war_volunteers_02
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.13.a
-		ai_chance = {
-		    factor = 100
-		}
-	}
-}
-
-country_event = {
-	id = MJP.14
-	title = MJP.14.t
-	desc = MJP.14.d
-	picture = GFX_report_event_ANZAC_day
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.14.a
-		ai_chance = {
-		    factor = 100
-		}
-	}
-}
-country_event = {
-	id = MJP.15
-	title = MJP.15.t
-	desc = MJP.15.d
-	picture = GFX_report_event_spr_poum_militia
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.15.a
-		ai_chance = {
-		    factor = 100
-		}
-	}
-}
-country_event = {
-	id = MJP.16
-	title = MJP.16.t
-	desc = MJP.16.d
-	picture = GFX_report_event_pierre_laval
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.16.a
-		ai_chance = {
-		    factor = 100
-		}
-	}
-}
-country_event = {
-	id = MJP.17
-	title = MJP.17.t
-	desc = MJP.17.d
-	picture = GFX_report_event_indian_famine
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.17.a
-		ai_chance = {
-		    factor = 100
-		}
-	}
-}
-country_event = {
-
-	id = MJP.18
-    title = MJP.18.t
-    desc = MJP.18.d
-    picture = GFX_mine_event_picture
-    is_triggered_only = yes
-
-    option = {
-        name = MJP.18.a
-        ai_chance = {
-            factor = 80
-        }
-		MJP = {
-			annex_country = {
-    			target = ROOT
-    			transfer_troops = yes
-    		}
-		}
-	}
-	option = {
-        name = MJP.18.c
-		ai_chance = {
-            factor = 20
-        }
-		MJP = {
-			create_wargoal = {
-    			type = puppet_wargoal_focus
-    			target = ROOT
-			}
-		}
-	}
-}
-country_event = {
-	id = MJP.19
-	title = MJP.19.t
-	desc = MJP.19.d
-	picture = GFX_report_event_japan_europe_pact
-
-	is_triggered_only = yes
-	
-	option = {
-		name = MJP.19.a		#join
-		ai_chance = {
-			factor = 75
-			modifier = {
-				factor = 2
-				has_opinion = {
-					target = SOV
-					value < -10
-				}
-			}
-			modifier = {
-				factor = 0.5
-				has_opinion = {
-					target = MJP
-					value < -10
-				}
-			}
-			modifier = {
-				factor = 0
-				has_war = yes
-			}
-			modifier = {
-				factor = 0
-				tag = GER
-				has_completed_focus = GER_the_unthinkable_option
-			}
-			modifier = {
-				factor = 0
-				is_literally_china = yes
-				GER = { has_completed_focus = GER_purge_the_kodoha_faction }
-			}
-			modifier = {
-				factor = 0
-				tag = GER
-				has_completed_focus = JAP_purge_the_kodoha_faction
-				date < 1938.1.1
-			}
-		}
-		set_country_flag = anti_comintern_member
-		MJP = { add_opinion_modifier = { target = ROOT modifier = anti_comintern_pact_opinion } }
-		add_opinion_modifier = { target = GER modifier = anti_comintern_pact_opinion }
-		SOV  = { add_opinion_modifier = { target = ROOT modifier = pact_against_us } }
-	}
-	
-	option = {
-		name = MJP.19.b		#refuse
-		trigger = { NOT = { is_puppet_of = MJP } }
-		ai_chance = { 
-			factor = 25 
-		}
-		GER =  { add_opinion_modifier = { target = ROOT modifier = refused_anti_comintern_pact_opinion } }
-	}
-
-}
-country_event = { #일본이 외만주을 요구하다
-	id = MJP.20
-	title = MJP.20.t
-	desc = MJP.20.d
-	picture = GFX_two_peo_pic
-
-	is_triggered_only = yes
-	
-	option = { #수락한다
-		name = MJP.20.a
-		ai_chance = {
-			factor = 60
-		}
-		MJP = {
-			country_event = { hours = 6 id = MJP.21 }
-		}
-    }	
-	
-	option = { #거부한다
-		name = MJP.20.b
-		ai_chance = {
-			factor = 40
-		}
-		MJP = {
-			country_event = { hours = 6 id = MJP.22 }
-		}
-    }	
-}
-
-country_event = { #외만주 요구를 수용한 
-	id = MJP.21
-	title = MJP.21.t
-	desc = MJP.21.d
-	picture = GFX_two_peo_pic
-
-	is_triggered_only = yes
-	
-	option = { #훌륭하군
-		name = MJP.21.a
-		KOR_imf_level_up = yes
-		WNG = {
-			transfer_state = 560
-			transfer_state = 657
-			transfer_state = 409
-			transfer_state = 408
-		}
-    }	
-}
-
-country_event = { #외만주 요구을 거부한
-	id = MJP.22
-	title = MJP.22.t
-	desc = MJP.22.d
-	picture = GFX_two_peo_pic
-
-	is_triggered_only = yes
-	
-	option = { #이런.
-		name = MJP.22.a
-		MJP = {
-			create_wargoal = {
-    			type = puppet_wargoal_focus
-    			target = SOV
-			}
-		}
-    }	
-}
-country_event = {
-	id = MJP.23
-	title = MJP.23.t
-	desc = MJP.23.d
-	picture = GFX_report_event_finnish_letter
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.23.a
-		ai_chance = {
-		    factor = 100
-		}
-	}
-}
-
-country_event = {
-	id = MJP.24
-	title = MJP.24.t
-	desc = MJP.24.d
-	picture = GFX_report_event_finnish_letter
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.24.a
-		ai_chance = {
-		    factor = 100
-		}
-	}
-}
-
-country_event = {
-	id = MJP.25
-	title = MJP.25.t
-	desc = MJP.25.d
-	picture = GFX_report_event_finnish_letter
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.25.a
-		ai_chance = {
-		    factor = 100
-		}
-	}
-}
-
-country_event = {
-	id = MJP.26
-	title = MJP.26.t
-	desc = MJP.26.d
-	picture = GFX_report_event_finnish_letter
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.26.a
-		ai_chance = {
-		    factor = 100
-		}
-	}
-}
-
-country_event = {
-	id = MJP.27
-	title = MJP.27.t
-	desc = MJP.27.d
-	picture = GFX_report_event_finnish_letter
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = MJP.27.a
-		ai_chance = {
-		    factor = 100
-		}
-	}
+		country_lock_all_division_template = no
+		division_template = {
+						name = "민병대"
+						priority = 1
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+						}
+						is_locked = no
+						support = {
+							recon = { x = 0 y = 0 }
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = MJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = MJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = MJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = MJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = MJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = MJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = MJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = MJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = MJP count = 3
+						}
+					}
+					random_owned_controlled_state = {
+						create_unit = { 
+							division = "name = \"민병대\" division_template = \"민병대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = MJP count = 3
+						}
+					}
 }
