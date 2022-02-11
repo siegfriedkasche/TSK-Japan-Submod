@@ -84,15 +84,15 @@ focus_tree = {
 				}
 			completion_reward = {
 					set_politics = {
-							ruling_party = fascism
-							elections_allowed = no
-							last_election = "1935.12.17"
-							election_frequency = 48
-						}
+						ruling_party = fascism
+						elections_allowed = no
+						last_election = "1935.12.17"
+						election_frequency = 48
+					}
 					hidden_effect = {
 							remove_ideas = Akihito_national_sprits
 							set_popularities = {
-									democratic = 30
+									democratic = 20
 									neutrality = 10
 									fascism = 40
 									communism = 30
