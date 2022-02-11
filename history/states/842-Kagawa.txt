@@ -16,17 +16,9 @@ state={
 
 			}
 
-			}
-
-		}
+	}
 		victory_points = {
-
-		}
-		victory_points = {
-
-		}
-		victory_points = {
-
+			4094 10
 		}
 		1939.1.1 = {
 			buildings = {
@@ -40,6 +32,4 @@ state={
 			remove_core_of = MJP
 
 		}
-
-	}
 }

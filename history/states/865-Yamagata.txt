@@ -17,17 +17,9 @@ state={
 
 			}
 
-			}
-
 		}
 		victory_points = {
-
-		}
-		victory_points = {
-
-		}
-		victory_points = {
-
+			4153 15
 		}
 		1939.1.1 = {
 			buildings = {
@@ -39,8 +31,6 @@ state={
 			owner = JAP
 			controller = JAP
 			remove_core_of = MJP
-
-		}
 
 	}
 }
