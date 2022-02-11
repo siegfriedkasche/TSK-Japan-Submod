@@ -1,0 +1,466 @@
+focus_tree = {
+	id = MJP_civil_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = MJP
+		}
+	}
+	default = no
+	focus = {
+		id = MJP_war_1
+		icon = infiltration_tactics
+ 
+		x = 5
+		y = 0
+		relative_position_id = SVN_political_direction
+		 cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			add_political_power = -100
+			add_stability = -0.1
+			custom_effect_tooltip = civilwar_danger
+			hidden_effect = {
+				set_popularities = {
+					democratic = 25
+					neutrality = 25
+					fascism = 25
+					communism = 25
+				}
+				every_state = {
+					limit = {
+						is_controlled_by = MJP
+						is_core_of = MJP
+						is_owned_by = MJP
+						is_capital = no
+					}
+					set_demilitarized_zone = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = MJP_war_2
+		icon = coalition_army
+ 
+		x = 2
+		y = 1
+		relative_position_id = MJP_war_1
+		prerequisite = {
+			focus = MJP_war_1
+		}
+
+		 cost = 3
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_manpower = 15000
+			add_stability = -0.15
+
+		}
+
+	}
+	focus = {
+		id = MJP_war_3
+		icon = volunteers
+ 
+		x = -4
+		y = 0
+		relative_position_id = MJP_war_2
+		prerequisite = {
+			focus = MJP_war_1
+		}
+
+		 cost = 3
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = -0.1
+		}
+
+	}
+	focus = {
+		id = MJP_war_4
+		icon = grand_battleplan
+ 
+		x = 1
+		y = 1
+		relative_position_id = MJP_war_3
+		prerequisite = {
+			focus = MJP_war_3
+		}
+
+		 cost = 3
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+	}
+	focus = {
+		id = MJP_war_5
+		icon = fighter_plane
+ 
+		x = -1
+		y = 1
+		relative_position_id = MJP_war_3
+		prerequisite = {
+			focus = MJP_war_3
+		}
+
+		 cost = 3
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+	}
+	focus = {
+		id = MJP_war_6
+		icon = tanks5
+ 
+		x = -1
+		y = 1
+		relative_position_id = MJP_war_2
+		prerequisite = {
+			focus = MJP_war_2
+		}
+
+		 cost = 3
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+	}
+	focus = {
+		id = MJP_war_7
+		icon = revolutionary_government
+ 
+		x = 1
+		y = 1
+		relative_position_id = MJP_war_2
+		prerequisite = {
+			focus = MJP_war_2
+		}
+
+		 cost = 3
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+	}
+	focus = {
+		id = MJP_war_8
+		icon = GFX_goal_support_communism
+ 
+		x = 0
+		y = 2
+		relative_position_id = MJP_war_3
+		prerequisite = {
+			focus = MJP_war_5
+		}
+		prerequisite = {
+			focus = MJP_war_4
+		}
+
+		 cost = 3
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+	}
+	focus = {
+		id = MJP_war_8
+		icon = draw_up_war_plans
+ 
+		x = 0
+		y = 2
+		relative_position_id = MJP_war_3
+		prerequisite = {
+			focus = MJP_war_5
+		}
+		prerequisite = {
+			focus = MJP_war_4
+		}
+
+		 cost = 3
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+	}
+	focus = {
+		id = MJP_war_9
+		icon = soldier
+ 
+		x = 0
+		y = 2
+		relative_position_id = MJP_war_2
+		prerequisite = {
+			focus = MJP_war_6
+		}
+		prerequisite = {
+			focus = MJP_war_7
+		}
+
+		 cost = 3
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+	}
+	focus = {
+		id = MJP_war_10
+		icon = chemical_warfare
+ 
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = MJP_war_8
+		}
+		prerequisite = {
+			focus = MJP_war_9
+		}
+		relative_position_id = MJP_war_1
+
+		 cost = 3
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = civilwar_start
+			hidden_effect = {
+				CJP = {
+					transfer_state = 282
+					transfer_state = 861
+					transfer_state = 862
+					transfer_state = 858
+					transfer_state = 859
+					transfer_state = 868
+					transfer_state = 863
+					transfer_state = 865
+					transfer_state = 866
+					transfer_state = 533
+					transfer_state = 867
+					transfer_state = 869
+					transfer_state = 839
+				}
+				RJP  = {
+
+				}
+			}
+		}
+
+	}
+}
