@@ -23,6 +23,10 @@ RJP = {
     color = rgb  { 0 39 92 }
     color_ui = rgb  { 0 39 92 }
 }
+NJP = {
+    color = rgb  { 128 128 128 }
+    color_ui = rgb  { 128 128 128 }
+}
 
 
 GER = {

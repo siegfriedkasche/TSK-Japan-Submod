@@ -441,10 +441,22 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = civilwar_start
 			hidden_effect = {
+				declare_war_on = {
+					target = CJP
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = RJP
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = NJP
+					type = annex_everything
+				}
 				CJP = {
 					transfer_state = 282
 					transfer_state = 861
-					transfer_state = 862
+					transfer_state = 862 
 					transfer_state = 858
 					transfer_state = 859
 					transfer_state = 868
@@ -455,9 +467,151 @@ focus_tree = {
 					transfer_state = 867
 					transfer_state = 869
 					transfer_state = 839
+					transfer_state = 838
+					declare_war_on = {
+						target = MJP
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = RJP
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = NJP
+						type = annex_everything
+					}
+					division_template = {
+						name = "혁명수비대"
+						priority = 1
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+						}
+						is_locked = no
+						support = {
+							recon = { x = 0 y = 0 }
+						}
+					}
+					858 = {
+						create_unit = { 
+							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = CJP count = 3
+						}
+					}
+					861 = {
+						create_unit = { 
+							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = CJP count = 3
+						}
+					}
+					862 = {
+						create_unit = { 
+							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = CJP count = 3
+						}
+					}
+					859 = {
+						create_unit = { 
+							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = CJP count = 3
+						}
+					}
+					868 = {
+						create_unit = { 
+							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = CJP count = 3
+						}
+					}
+					865 = {
+						create_unit = { 
+							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = CJP count = 4
+						}
+					}
+					863 = {
+						create_unit = { 
+							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = CJP count = 1
+						}
+					}
+					839 = {
+						create_unit = { 
+							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = CJP count = 3
+						}
+					}
+					868 = {
+						create_unit = { 
+							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = CJP count = 1
+						}
+					}
+					869 = {
+						create_unit = { 
+							division = "name = \"혁명수비대\" division_template = \"혁명수비대\" start_experience_factor = 0.2 start_equipment_factor = 1" 
+							owner = CJP count = 3
+						}
+					}
 				}
 				RJP  = {
-
+					transfer_state = 848
+					transfer_state = 850
+					transfer_state = 852
+					transfer_state = 847
+					transfer_state = 849
+					transfer_state = 851
+					transfer_state = 530
+					transfer_state = 831
+					declare_war_on = {
+						target = MJP
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = NJP
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = CJP
+						type = annex_everything
+					}
+				}
+				NJP = {
+					transfer_state = 843
+					transfer_state = 844
+					transfer_state = 845
+					transfer_state = 841
+					transfer_state = 840
+					transfer_state = 842
+					transfer_state = 529
+					transfer_state = 846
+					transfer_state = 528
+					transfer_state = 835
+					transfer_state = 837
+					transfer_state = 538
+					transfer_state = 836
+					transfer_state = 860
+					declare_war_on = {
+						target = MJP
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = RJP
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = CJP
+						type = annex_everything
+					}
+				}
+				every_state = {
+					limit = {
+						is_core_of = MJP
+					}
+					set_demilitarized_zone = no
 				}
 			}
 		}
